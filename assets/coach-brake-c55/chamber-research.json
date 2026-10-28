@@ -1,0 +1,381 @@
+{
+ "revision": "C55 exact chamber research",
+ "as_of_utc_date": "2026-10-20",
+ "status": "HOLD: reference geometry retained; exact force, supply and mating qualification incomplete",
+ "outreach_or_purchases_performed": false,
+ "decision": {
+  "selected_reference": "WABCO9253800250 with companion9253800240",
+  "package": "Historical PAN17 / WABCO232 /20-24 reference package",
+  "cad_change_recommendation": "Retain0250 geometry; correct independently dimensioned port-face height from88 to89mm. Do not substitute0460 or22/24 without complete package evidence.",
+  "reason": "Manufacturer-supported0460/0450 candidates improve replacement traceability but do not close maximum force, exact supply, controlled caliper mating datum or rail application acceptance.",
+  "fabrication_release": false
+ },
+ "manufacturer_alternatives": [
+  {
+   "from": "9253800250",
+   "to": "9253800460",
+   "relationship": "manufacturer-listed Alternative, not stated supersession",
+   "description": "TRISTOP D T20/24 S64 mm CLAMP OHV",
+   "comment": "Open-hole version",
+   "source_field": "public HTML: var extendedModel -> extProdData.AlternativeProductsInfo",
+   "source_url": "https://www.wabco-customercentre.com/catalog/en_US/9253800250"
+  },
+  {
+   "from": "9253800240",
+   "to": "9253800450",
+   "relationship": "manufacturer-listed Alternative, not stated supersession",
+   "description": "TRISTOP D T20/24 S64 mm CLAMP OHV",
+   "comment": "Open-hole version",
+   "source_field": "public HTML: var extendedModel -> extProdData.AlternativeProductsInfo",
+   "source_url": "https://www.wabco-customercentre.com/catalog/en_US/9253800240"
+  }
+ ],
+ "new_alternative_GA": {
+  "source": "GA0420",
+  "applicable_exact_rows": {
+   "9253800460": {
+    "port_clock_deg": 300,
+    "clamp_clock_deg": 270
+   },
+   "9253800450": {
+    "port_clock_deg": 60,
+    "clamp_clock_deg": 270
+   }
+  },
+  "mounting_and_envelope_mm": {
+   "mount_face_to_rear_body": 240.5,
+   "rear_release_bolt_extension_shown": 89.0,
+   "mount_face_to_release_bolt_tip_derived": 329.5,
+   "rear_body_diameter": 158.5,
+   "largest_circular_body_diameter": 184.0,
+   "service_front_diameter": 153.0,
+   "service_circular_outline_diameter_front_view": 178.0,
+   "projection_max_radius_front_view": 110.0,
+   "stud_thread": "2 x M16 x 1.5",
+   "stud_projection": 43.0,
+   "stud_pitch_GA": 120.7,
+   "stud_pitch_tolerance": 0.3,
+   "stud_pitch_catalog": 120.6,
+   "pushrod_projection": 15.0,
+   "pushrod_projection_tolerance": 0.5,
+   "pushrod_ball_radius": 8.0,
+   "central_face_diameter": 54.0,
+   "central_face_projection": 4.1,
+   "front_clamp_axial_station_from_mount_face": 65.0,
+   "rear_large_crimp_axial_station_from_mount_face": 168.0,
+   "port_axial_stations_from_mount_face": [
+    97.0,
+    116.0
+   ],
+   "front_view_port_offsets_from_centerline": [
+    -25.0,
+    25.0
+   ],
+   "port_face_height_from_axis_in_main_view": 89.0,
+   "stroke_minimum": 64.0,
+   "breather_holes": "6 x diameter6",
+   "uncontrolled_details": [
+    "Undimensioned housing fillets and taper transitions",
+    "Detailed port boss solid topology",
+    "Exact release-bolt insertion/removal and wrench envelope beyond the illustrated89mm rear projection",
+    "Complete OEM CAD surface model"
+   ]
+  },
+  "same_main_dimensions_as_legacy": true,
+  "differences": [
+   "Open-hole rear spring housing shown with4x\u00d86breather holes in addition to6x\u00d86service-side holes.",
+   "Release-bolt drawing now explicitly calls out1/2ACME thread; requires mechanism-specific service validation.",
+   "Catalog mass0460 is7.2kg versus0250 7.0kg."
+  ],
+  "drawing_qualifications": [
+   "Basic views illustrative; use exact variant clocking table.",
+   "Undimensioned housing transitions and boss geometry remain approximations.",
+   "Force graphs are for information only.",
+   "New sheet publishes service/return-spring graphs, but no parking-force curve."
+  ],
+  "maximum_working_service_bar": 8,
+  "maximum_working_spring_bar": 8,
+  "temporary_maximum_service_bar": 10,
+  "temporary_maximum_spring_bar": 10,
+  "temporary_duration_duty_known": false,
+  "page_total_size_not_used_as_body_dimensions": "Catalog380\u00d7190\u00d7205mm size is not substituted for controlledGA envelope."
+ },
+ "selected_force_limits": {
+  "part": "9253800250",
+  "service_max_at8bar_N": null,
+  "service_max_at10bar_N": null,
+  "parking_max_N": null,
+  "combined_or_fault_max_N": null,
+  "caliper_max_input_N": null,
+  "caliper_max_output_torque_Nm": null,
+  "normal_working_pressure_bar": 8,
+  "temporary_max_pressure_bar": 10,
+  "source": "GA0230",
+  "published_service_graph_pressures_bar": [
+   1.38,
+   2.76,
+   4.14,
+   5.52,
+   6.59
+  ],
+  "graph_qualification": "Informational plotted force/stroke curves; not guaranteed maximum production bounds. Legacy parking plots likewise do not establish a certified maximum.",
+  "extrapolation_used": false,
+  "nominal_chamber_area_used_as_bound": false,
+  "family_or_other_suffix_limits_transferred": false,
+  "documented_carrier_connection_limit_Nm": 10000,
+  "carrier_connection_limit_note": "Exact40175072 GA specifies maximum transferable carrier-connection torque10,000Nm; this is not actual actuator output, a combined-force cap or a complete custom-mount rating."
+ },
+ "compounding": {
+  "source": "ZF_iEBS section4.2.6 printedp110",
+  "finding": "ZF describes iEBS anti-compounding as a system function that supplies release air to the spring chamber during service application to prevent added chamber forces.",
+  "selected_coach_anti_compounding_circuit": null,
+  "intrinsic_chamber_anti_compounding_established": false,
+  "IBV_warning": "Internal breather valve terminology does not establish an anti-compounding function.",
+  "required_load_scope": "Simultaneous application and fault case remain unresolved; do not omit possible additive service/spring force from mount load combinations until circuit behavior and chamber limits are established."
+ },
+ "mass_and_CG": {
+  "9253800250_catalog_mass_kg": 7.0,
+  "9253800460_catalog_mass_kg": 7.2,
+  "controlled_chamber_CG_mm": null,
+  "controlled_chamber_inertia_kg_mm2": null,
+  "supported_caliper_chamber_CG_mm": null,
+  "conclusion": "Catalog scalar mass cannot close the existing50kg arbitrary-point structural inertia probe; exact supported assembly mass/CG and vehicle shock combinations remain needed."
+ },
+ "mounting_and_ports": {
+  "source": "GA0230",
+  "port_face_height_from_axis_mm": 89,
+  "port_lateral_offsets_mm": [
+   -25,
+   25
+  ],
+  "port_axial_stations_from_face_mm": [
+   97,
+   116
+  ],
+  "port_thread": "3/8-18NPTF",
+  "physical11_vs12_station_mapping": null,
+  "port_function": "11service /12spring release; semantics alone do not identify the two physical bosses.",
+  "tap_depth_and_permitted_insertion_mm": null,
+  "clocking0250_mount_face_clockwise_deg": 300,
+  "stud_pitch_GA_mm": 120.7,
+  "stud_pitch_tolerance_mm": 0.3,
+  "chamber_mating_face_axial_caliper_datum_controlled": false,
+  "current_q134_011_note": "q134.011 is a provisional interpretation129.6+28.2sin9, not a verified OEM mating dimension.",
+  "radial_axis_mm": 191.5,
+  "axis_inclination_deg": 9,
+  "full_caging_tool_withdrawal_envelope_controlled": false,
+  "mounting_torque_and_washer_issue": {
+   "port_installation_torque_Nm": {
+    "nominal": 43,
+    "tolerance": 5
+   },
+   "release_bolt_max_torque_Nm": 25,
+   "stored_bolt_fixture_torque_Nm": {
+    "nominal": 22.5,
+    "tolerance": 2.5
+   },
+   "chamber_GA_stud_nut_torque_Nm": {
+    "minimum": 169.5,
+    "maximum": 203.4
+   },
+   "PAN17_caliper_GA_chamber_nut_torque_Nm": {
+    "minimum": 180,
+    "maximum": 210
+   },
+   "torque_resolution": "Published ranges overlap180..203.4Nm, but exact assembly instruction must settle which specification controls; do not invent a final torque release.",
+   "washer_policy": "ZF doc000132_ml requires no washers, reinforcing plates or other mechanical/liquid securing elements; supplied nuts or M16x1.5 class8 ISO8673 single-use, clean/dry threads, contact face unevenness<0.3mm."
+  },
+  "orientation_note": "Main view says lowest breather hole open within +/-30degrees; side view marks admissible installed tilt50degrees one way/10degrees other. Treat as drawing-specific orientation constraints; confirm installed coordinate interpretation."
+ },
+ "availability": {
+  "exact_0250_0240_pair_ready_stock_confirmed": false,
+  "exact_0460_0450_pair_ready_stock_confirmed": false,
+  "observations": [
+   {
+    "source": "ZF0250/ZF0460",
+    "finding": "Active manufacturer catalog entries; purchase requires login. Generic0.00price and internal released/leadTime/cart fields are not actual stock proof."
+   },
+   {
+    "source": "CountrySupply",
+    "opened_date": "2026-10-20",
+    "price_USD": null,
+    "stock_text": "In stock",
+    "displayed_item": "S-42279-L",
+    "description_item": "S-38724-L",
+    "finding": "Fresh page changed from earlier out-of-stock legacy listing. Exact-SKU labeling conflicts; no primary S-42279-L\u21920250/0460 mapping found. Stock is a supplier lead, not qualified0250 availability."
+   },
+   {
+    "source": "FleetPride0250",
+    "finding": "Displayed Dallas75247 pickup/shipping not available; branch inquiry required. Not a global discontinued claim."
+   },
+   {
+    "source": "ZF0460",
+    "finding": "No independent exact0460/0450 stock or lead-time statement verified."
+   }
+  ]
+ },
+ "current22_24_path": {
+  "left": "2224TLD2H-4627 /S-40979-L",
+  "right": "2224TLD2H-4628 /S-40979-R",
+  "source": "L949T",
+  "ordering_guide_package": "L1259RevH specifies PAN17/325castrotor/WABCO238/Hendrickson22-24",
+  "exact238_pad_kit": null,
+  "exact_chamber_suffix_GA": null,
+  "maximum_force_data": null,
+  "reason_not_selected": "S-41159-1 remains identified asWABCO232 inL949. Do not mix this kit into the238/22-24 package or transfer legacy20-24 geometry/forces."
+ },
+ "rejected_shortcuts": [
+  {
+   "candidate": "TSE2016HTND2-3710",
+   "finding": "Manufacturer describes20-24air-disc chamber and8-week lead time, but its5/8-11UNC studs differ fromM16\u00d71.5. No exact4627/4628 qualification or certified maximum forces. Not a drop-in selected substitute."
+  },
+  {
+   "candidate": "TSE2024HTND2-3626",
+   "finding": "Manufacturer2026HOT flyer differentiates2016 and2024 applications; a nominal20/24 label or broad aftermarket cross-reference does not establish exactPAN17 interchangeability."
+  },
+  {
+   "candidate": "Generic TSE spring force greater than2000lb and120psi caging instruction",
+   "finding": "Not a maximum force or selected WABCO working-pressure rating."
+  }
+ ],
+ "verified_request_recipients": [
+  {
+   "address": "naspecs.zf@zf.com",
+   "role": "Specs.",
+   "source": "ZF0250 public N.A.CustomerCareCentre"
+  },
+  {
+   "address": "nacustomercare.zf@zf.com",
+   "role": "Tech.",
+   "source": "ZF0250 public N.A.CustomerCareCentre"
+  }
+ ],
+ "unsent_manufacturer_request": {
+  "status": "DRAFT ONLY; not sent; no outreach authorization assumed",
+  "text": "Subject: Exact PAN17 brake package and TRISTOP 9253800250/0240 or 0460/0450 engineering data\n\nTo: naspecs.zf@zf.com\nCc: nacustomercare.zf@zf.com\n\nWe are developing an air-service, spring-parking brake installation for a passenger-coach rail truck. The current engineering reference is PAN17 calipers 40175072/40175073, the historical Hendrickson WABCO232/20-24 package, and WABCO chambers 9253800250/9253800240. This is a custom application and is not being represented as an approved road or rail installation.\n\nYour public catalog lists 9253800460 and 9253800450 as open-hole alternatives. Please confirm whether these exact parts are approved replacements in this exact caliper/pad package, identify every changed mating or brake component, and advise current production status, authorized supply route, exact stocked SKU and lead time. We have not ordered parts.\n\nPlease provide controlled drawings/CAD and guaranteed engineering data for the selected exact suffixes:\n\n1. Service pushrod force versus stroke at 8 bar working pressure and 10 bar temporary pressure, including maximum and minimum tolerances, return-spring effects, temperature variation, permitted temporary-pressure duration/duty, and the maximum physically transmitted output force. The public GA graphs stop at 6.59 bar and are marked informational.\n2. Parking-spring output versus the full usable stroke with maximum/minimum tolerances, release-pressure limits and residual output during partial release. Include allowable simultaneous service/spring loading, worst-case compounded output, and the required anti-compounding circuit and fault assumptions.\n3. For 40175072/40175073 with the exact approved pad compound and 325 mm rotor: allowable chamber input force/stroke, pushrod-to-clamp transfer relation including efficiency and tolerances, service/parking torque limits and relevant friction bounds. Please identify whether the newer 22/24 plus WABCO 238 package is required and give exact replacement SKUs if so.\n4. Exact chamber mounting-face centre relative to the caliper carrier/axle datum, hole/pilot tolerances, pushrod contact geometry, permitted flange gap, fasteners and final nut torque. Please reconcile the chamber GA 169.5\u2013203.4 Nm range with the caliper GA 180\u2013210 Nm range and confirm the applicable no-washer instruction.\n5. Controlled physical identification of port 11 (service) and port 12 (spring release) at the 97 mm and 116 mm axial stations; tap depth, boss envelope and permissible fitting insertion/torque; port 300-degree versus 60-degree handedness; and permissible installed attitude, bottom-breather opening and drainage requirements throughout suspension travel.\n6. Full caging-bolt storage/removal/release sweep, wrench and hand access, clamp hardware projection and permissible service procedures. The drawn 89 mm projection alone does not establish removal/tool clearance. Confirm relevant differences between the legacy and open-hole mechanisms.\n7. Exact chamber and supported caliper masses, centres of gravity/inertias, permitted vibration/shock environment, mounting-fatigue limits and any application limitations affecting this passenger-coach rail installation.\n\nPlease identify the document revision and exact part suffix covered by each answer. We can supply the installation section and suspension/wear envelope for application review once the controlled mating data is established.\n\nThank you."
+ },
+ "sources": [
+  {
+   "id": "ZF0250",
+   "url": "https://www.wabco-customercentre.com/catalog/en_US/9253800250",
+   "kind": "manufacturer exact product page",
+   "web_ref": "turn405view1",
+   "local": "9253800250.html",
+   "bytes": 723724,
+   "sha256": "f1896cb11c015960b5331bd6fb54f98ea6fcb4b2dcd16b2d480c2d11c75b9391",
+   "retrieval": "Public unauthenticated HTTPS download."
+  },
+  {
+   "id": "ZF0240",
+   "url": "https://www.wabco-customercentre.com/catalog/en_US/9253800240",
+   "kind": "manufacturer exact product page",
+   "local": "9253800240.html",
+   "bytes": 753507,
+   "sha256": "06e78c42d71431683233494ed46aa2891177362991487b5271d917943941e0cb",
+   "retrieval": "Public unauthenticated HTTPS download."
+  },
+  {
+   "id": "ZF0460",
+   "url": "https://www.wabco-customercentre.com/catalog/en_US/9253800460",
+   "kind": "manufacturer exact product page",
+   "web_ref": "turn366view0",
+   "local": "9253800460.html",
+   "bytes": 721509,
+   "sha256": "f1653701306e443c291c9e12c1bc3a215307168f8b25b1c6f2b5e3ab817a7afb",
+   "retrieval": "Public unauthenticated HTTPS download."
+  },
+  {
+   "id": "GA0230",
+   "url": "https://www.wabco-customercentre.com/catalog/docs/9253800230____053_dascheck_l4_page-1---notset_tif.pdf",
+   "kind": "manufacturer controlled family drawing including explicit 0250/0240 rows",
+   "local": "9253800230____053_dascheck_l4_page-1---notset_tif.pdf",
+   "retained_repo_copy": "cad/coach-brake-c54/source-evidence/wabco9253800230-GA.pdf",
+   "bytes": 235898,
+   "sha256": "92981a1e051a4c5704615cf832b52f948d8f90cab4fdaf33099422b152fbd53f",
+   "retrieval": "Public unauthenticated HTTPS download; drawings rendered and visually read."
+  },
+  {
+   "id": "GA0420",
+   "url": "https://www.wabco-customercentre.com/catalog/docs/9253800420____053_dascheck_-3_page-1---notset_tif.pdf",
+   "kind": "manufacturer controlled family drawing including explicit 0460/0450 rows",
+   "local": "9253800420____053_dascheck_-3_page-1---notset_tif.pdf",
+   "drawing_number": "925 380 042 0",
+   "revision": "1",
+   "document": "053 EN V1/1",
+   "bytes": 215994,
+   "sha256": "0ab91185498703dcd8e0025fcdbd77934e878150167a908bd98dffce7f534b91",
+   "retrieval": "Public unauthenticated HTTPS download; drawings rendered and visually read."
+  },
+  {
+   "id": "ZF_iEBS",
+   "url": "https://www.wabco-customercentre.com/catalog/docs/8150102523.pdf",
+   "kind": "manufacturer system description; section4.2.6 printed page110",
+   "web_ref": "turn388search36",
+   "local": "8150102523.pdf",
+   "bytes": 83232425,
+   "sha256": "a5d98632572feabb0458b8545d0c7ebaf0469b15c9686031296b905588b77d3d",
+   "retrieval": "Public unauthenticated HTTPS download."
+  },
+  {
+   "id": "ZF_install",
+   "url": "https://www.wabco-customercentre.com/catalog/docs/doc000132_ml.pdf",
+   "kind": "manufacturer chamber installation service hint",
+   "local": "doc000132_ml.pdf",
+   "bytes": 93440,
+   "sha256": "75f0453a6add4f7fab58a7d59d5a90e1a59bb3f1b6e1cb07b91f45772f434452",
+   "retrieval": "Public unauthenticated HTTPS download."
+  },
+  {
+   "id": "legacyOEM",
+   "url": "https://digital.hendrickson-intl.com/view/513311/365/",
+   "kind": "historical OEM exact PAN17 chamber package"
+  },
+  {
+   "id": "L949T",
+   "url": "https://www.hendrickson-intl.com/getattachment/54c582a0-10e2-4fe2-9e8f-f4e33f9fccb4/L949.pdf",
+   "kind": "current OEM catalog; PAN17 22/24 chamber table p15 and232 pad table p11",
+   "web_ref": "turn402view4"
+  },
+  {
+   "id": "L1259H",
+   "url": "https://www.hendrickson-intl.com/getattachment/c1e7664c-224b-4f6f-bbed-918851ac5d31/L1259-Rev-H-PAN17-Ordering-Guide-WEB.pdf",
+   "kind": "OEM ordering guide RevH Oct2026; current PAN17 238/22-24 package; exact238 kit unresolved"
+  },
+  {
+   "id": "Sealco",
+   "url": "https://sealcocvp.com/?catalog=compounding-anti-compounding-feature",
+   "kind": "manufacturer system-function explanation; not selected coach circuit",
+   "web_ref": "turn407view0"
+  },
+  {
+   "id": "CountrySupply",
+   "url": "https://www.country-supply.com/product/hendrickson-brake-chamber-type-20-24-left-s-38724-l/",
+   "kind": "seller availability only; conflicting exact-SKU labeling",
+   "web_ref": "turn405view0"
+  },
+  {
+   "id": "FleetPride0250",
+   "url": "https://www.fleetpride.com/parts/wabco-diaphragm-9253800250",
+   "kind": "seller availability only",
+   "web_ref": "turn356search2"
+  },
+  {
+   "id": "TSE3710",
+   "url": "https://www.tsebrakes.com/brake-chambers/hot-high-output-technology/2016HTND2-3710",
+   "kind": "manufacturer alternative candidate, not selected",
+   "web_ref": "turn392view2"
+  },
+  {
+   "id": "TSE2026",
+   "url": "https://www.tsebrakes.com/medias/iw/TSE-SalesSheetsTSE-HOT-Web-2026.pdf",
+   "kind": "manufacturer family brochure; not exact4627/4628 qualification",
+   "web_ref": "turn401view0"
+  },
+  {
+   "id": "TSEinstall",
+   "url": "https://www.tsebrakes.com/medias/iw/TSE_Disc_Brake_Installation_Instructions_1_1_1.pdf",
+   "kind": "manufacturer generic installation guide; not WABCO instructions",
+   "web_ref": "turn401view1"
+  }
+ ]
+}

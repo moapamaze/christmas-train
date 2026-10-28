@@ -1,0 +1,18 @@
+LT20 articulated connections · Pulsipher FarmsSkip to contentWhole locomotive ·3DLT20 connectionsSeparate engineeringLT19 rear support
+LT20 · POWERED-TRUCK CONNECTIONS · OCTOBER21,2026
+Captured pivots.
+Defined rebound attachments.
+The eight-driver layout retains its current truck positions and low body height. This revision replaces the flat pivot stacks with pocketed spherical joints and adds eight rebound-rod assemblies with removable guide cartridges. These are dimensioned candidates for engineering review.
+Eight driversTwo powered trucks retainedTurn + tiltLongitudinal spherical pivotsMechanical captureShoulders, nuts and split pins
+Inspect the connections
+Powered pivot and retention
+A longitudinal Ø100 pin holds the spherical inner ring between the body clevis cheeks. The truck carries the outer ring in a capped housing with transverse wings. The pin has an integral head, an anti-rotation abutment and an M80 castellated retaining nut with a split pin. Both housing caps also have positively locked through-bolts.
+Rebound locks and guide cartridges
+Each axlebox has a Ø24 rebound rod on an outboard clevis,100 mm aft of the axle centre. A shouldered Ø30 lower pin and the upper stop nut both use castellated nuts and split pins. The 20 mm nominal stop gap is a development setting. It is not approved suspension travel.
+The replaceable guide has a Ø46/34 sleeve and a 100×56×8 flange. Four M8 bolts retain the cartridge; four M16 bolts attach its 16 mm bracket to the truck sideframe. Drilled heads provide for paired safety wire. The rod guide controls the loose capture rod; the axlebox horns still need their own traction, braking and lateral-guidance design.
+What the checks establish
+25 sampled assembly positions: 0 rigid intersections,0 full-wheel-envelope intersections and 0 spring-space intersections.
+At 30 m, the largest sampled bearing misalignment is 3.22°. The retained 6° catalog envelope is a geometric reference, not bearing or operating-radius approval.
+10 nominal removal corridors:0 intersections. The pivot pin extracts aft; rod replacement removes the guide bracket as well as the cartridge.
+Roll support remains an open design item. The spherical pivots alone do not control body roll. Purple pads show the space for a compliant support, whose stiffness, preload, sliding surface and load sharing must be selected. Pins, brackets, bolts, welds and the modified frame connections also require structural and fatigue review before fabrication.
+Load probes, clearances and review holds →Updated preliminary mass ledger CSVLT20 · Development geometry · Structural review required before fabricationLocomotive

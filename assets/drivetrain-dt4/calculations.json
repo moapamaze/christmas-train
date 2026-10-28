@@ -1,0 +1,55 @@
+{
+  "revision": "DT4-R0",
+  "basis": "Screening only; efficiencies assumed constant, not supplier maps. Gross intermittent engine power is not installed continuous power.",
+  "assumptions": {
+    "wheel_diameter_mm": 1000,
+    "axles": 4,
+    "direct_ratio": 1,
+    "pump_cc": 45,
+    "pump_rpm": 2600,
+    "pump_vol_eff": 0.95,
+    "pump_total_eff": 0.855,
+    "motor_vol_eff": 0.95,
+    "motor_torque_eff": 0.9,
+    "engine_gross_intermittent_kW": 55.4,
+    "auxiliary_allowance_kW": 10
+  },
+  "alternatives": [
+    {
+      "displacement_cc": 376,
+      "wheel_rpm_at_7_5_mph": 64.0337631838208,
+      "flow_at_7_5_mph_L_min": 101.37555771417524,
+      "motor_torque_at_300bar_Nm": 1615.7409822689215,
+      "total_rim_force_at_300bar_N": 12925.927858151372,
+      "full_flow_speed_mph": 8.223136018155143,
+      "input_plus_aux_at_7_5_mph_300bar_kW": 69.28395187963466,
+      "optimistic_300bar_speed_mph": 5.743544234219131
+    },
+    {
+      "displacement_cc": 468,
+      "wheel_rpm_at_7_5_mph": 64.0337631838208,
+      "flow_at_7_5_mph_L_min": 126.18021545275003,
+      "motor_torque_at_300bar_Nm": 2011.0818609091896,
+      "total_rim_force_at_300bar_N": 16088.654887273517,
+      "full_flow_speed_mph": 6.606622100056269,
+      "input_plus_aux_at_7_5_mph_300bar_kW": 83.78959967997078,
+      "optimistic_300bar_speed_mph": 4.614471436039301
+    }
+  ],
+  "creep_motor_rpm_at_0_25_mph": 2.1344587727940265,
+  "optimistic_full_speed_pressure_bar": 229.74176936876526,
+  "nominal_motor_envelope": {
+    "diameter_bound_mm": 300,
+    "axial_length_without_rear_brake_mm": 308,
+    "shaft_tip_Y": 900,
+    "rear_Y": 1208,
+    "body_side_Y": 1300,
+    "static_gap_mm": 92
+  },
+  "limitations": [
+    "No line/valve pressure losses, continuous engine derating, coupling losses or transient limits included.",
+    "300 bar is a comparison point, not a released pressure setting.",
+    "Traction force is at wheel rims before locomotive resistance and adhesion limits.",
+    "A 92 mm static body-plane gap does not establish loading gauge, curve clearance, hose bend radius or service access."
+  ]
+}

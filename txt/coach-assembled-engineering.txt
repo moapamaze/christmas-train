@@ -1,0 +1,240 @@
+Coach frame and suspension engineering · CI3
+CI3-R0 · 20 October 2026 · Separate engineering
+Frame connections and suspension limits
+Dimensioned drawings · Installed CAD and connection views
+Physical changes made
+The bridge ends now use a full 12 mm closure and a stepped 20 mm endplate and an86.5 mm-high closure. The endplate top is Z758, placing the 6 mm girder weld below the rounded HSS corner. The corner screen allows an outside radius up to19.05 mm (3×6.35), giving4.45 mm nominal clearance above the weld toe atZ764; confirm the actual supplied tube. Two 10 mm horizontal welds connect closure to endplate. The box remains 254 ×76.2 with 10 mm walls. Actual weld envelopes are included in the revised CAD and upper-frame clearance test.
+The central bogie chord is lowered 12 mm, to Z438, with the closing plate at Z426–438. Upper shoulders rejoin at X±350. Outer spring-seat ribs move clear of the capture hardware, taper from 40 to 8 mm high over 128 mm, and use a Ø90 outer capture washer. Keeper bolt heads now seat at the plate underside, and the guide columns have actual blind tapped-hole envelopes.
+Rubber contact moves from 35 to 25 mm jounce. Integral metal shoulders limit nominal travel to32 mm. Two 12 ×140 ×50 ribs above each stop transfer load from the 16 mm guide bridge into the side webs; the unreinforced plate did not pass the conservative strip screen. Block/shoulder solids are separated in the viewer for inspection; integral machining is the preferred metal-stop construction.
+Mass and spring reconciliation
+ | Budget item
+ | Updated value
+ | Additional body frame
+ | 247.0 kg
+ | Additional sprung parts, each bogie
+ | 12.38 kg
+ | Net CI2 + CI3 increase per coach
+ | 271.8 kg
+ | Regular / accessible revised tare budgets
+ | 8311.8 / 8856.8 kg
+ | Complete / unsprung allowance per bogie
+ | 2012.38 / 1400 kg
+These figures reconcile CI2/CI3 solids against the C5 development allowances; they do not establish build tare. C57 brake changes, CW3 changes, missing body details, weld deposits outside the modeled bridge joints and hardware allowances still need one complete mass register. Complete-bogie and unsprung allowances are distinct: body-support load subtracts complete bogies, while coil load subtracts unsprung mass.
+The old gross caps remain13200 kg regular and11000 kg accessible. Keeping those caps reduces available payload by the added mass. The second calculation below preserves the old payload only as an explicit sensitivity; it does not increase the approved capacity. All cases assume eight equal coils per bogie, wire18 / mean diameter100 / seven active turns, G79000 MPa, giving148.091 N/mm per coil.
+ | Coach
+ | Policy
+ | Gross kg
+ | Coil kN
+ | Free height for250 mm installed
+ | Empty rise mm
+ | Wahl stress at32 mm (MPa)
+ | Regular
+ | Keep gross cap
+ | 13200.0
+ | 6.374
+ | 293.04
+ | 20.23
+ | 618.9
+ | Regular
+ | Keep prior payload (sensitivity)
+ | 13471.8
+ | 6.541
+ | 294.17
+ | 21.36
+ | 628.1
+ | Accessible
+ | Keep gross cap
+ | 11000.0
+ | 5.026
+ | 283.94
+ | 8.87
+ | 543.8
+ | Accessible
+ | Keep prior payload (sensitivity)
+ | 11271.8
+ | 5.192
+ | 285.06
+ | 10.00
+ | 553.0
+Free heights are calculated targets, not purchased spring specifications. A spring maker must confirm material, heat treatment, rate tolerance, end form, buckling guidance, fatigue and set. Nominal solid height including5% allowance is170.1 mm; proposed hard-stop spring height218 mm leaves47.9 mm. Captured60 mm droop unloads the coils; it is not the normal operating rebound setting. Keeping the old springs while preserving the old payload lowers the loaded floor by about1.12 mm before other changes.
+Loads and static screens
+The main connection screen applies2 times body weight vertically together with0.3g longitudinal braking, with0.5g checked separately. Body mass excludes both complete bogies. One quarter of this body load is assigned to each of four bridges: 46.32 kN vertical and6.95 kN longitudinal per member. This is an analyst screening allocation, not a solved coach load distribution. Actual seat-rail reactions, central bolsters, drawbar buff/draft, load eccentricity and whole-frame stiffness remain outside it.
+Beam bending uses a central point load and simple supports over1625.6 mm. A separate fixed-end sensitivity uses PL/8 plus a32 mm connection offset for the weld group. Those are alternative load envelopes, not one solved boundary condition. Plate screening uses candidate Fy345 MPa divided by1.67; fillet weld metal uses candidate FEXX490 MPa, effective throat leg/√2 and0.60FEXX/2 =147 MPa. No directional strength increase is used.
+ | Check
+ | Calculated demand
+ | Comparison
+ | Scope
+ | Bridge bending, 2g vertical + 0.3g longitudinal
+ | 129.6 MPa
+ | 206.6 MPa
+ | Gross section only
+ | Bridge bending at 0.5g longitudinal
+ | 135.1 MPa
+ | 206.6 MPa
+ | Same 2g vertical probe
+ | Bridge vertical deflection
+ | 3.51 mm
+ | No adopted service limit
+ | Simple supports; central point load
+ | W1 endplate / girder, 6 mm
+ | 128.7 MPa
+ | 147 MPa
+ | Weld-metal static screen
+ | W2 closure / endplate, 10 mm
+ | 109.4 MPa
+ | 147 MPa
+ | Two horizontal weld lines
+ | W1 / W2 at 0.5g longitudinal
+ | 134.7 / 116.1 MPa
+ | 147 MPa
+ | Alternate braking sensitivity
+ | Spring-seat transverse strip
+ | 94.4 MPa
+ | 206.6 MPa
+ | Hole deducted; ribs not credited
+ | Spring-seat ribbed root
+ | 47.9 MPa
+ | 206.6 MPa
+ | 30 mm ideal cantilever
+ | Stop supporting plate BEFORE ribs
+ | 804.8 MPa
+ | 206.6 MPa
+ | Failed strip screen; superseded
+ | Stop ribs / local plate AFTER reinforcement
+ | 137.4 / 92.0 MPa
+ | 206.6 MPa
+ | Ideal beam/strip sections
+ | Stop rib end welds, 6 mm
+ | 46.3 MPa
+ | 147 MPa
+ | Static shear only
+ | Keeper plate / M12 bolt tension
+ | 66.4 / 20.4 MPa
+ | No assembly rating
+ | 2g ×350 kg / symmetric bolt share
+The weld calculation is a static elastic line-group calculation. Endplate bending and prying, the existing HSS wall beneath the weld, local yielding/crippling, plate buckling, weld access and the actual joint rigidity are not qualified. A passing weld-metal result cannot release this connection. The lowered sideframe chord, guide and spring-seat weld roots also need local stress and fatigue analysis. W3 corner seams are a10 mm effective CJP proposal; bevel/root dimensions must come from a qualified welding procedure rather than an invented universal preparation.
+Stop attachment calculations conservatively apply39.25 kN to one stop: three times one box's static sprung reaction, without subtracting spring support. This is a static probe, not a validated impact case. The revised ribs screen at137.4 MPa, but weld fatigue, guide-bridge local load spreading and axlebox roof contact remain unresolved. Keeper calculations assume2g on350 kg with equal bolt load; uneven lifting, impact capture, threaded parent material, washer/rod capture strength and locking inspection still require qualification.
+Clearance budget and travel
+Both bogies were checked in34 upper-frame poses each, including±7° yaw,0/32 mm jounce and a2° resultant body-tilt cone. The minimum sampled gap is14.445 mm, at the outer bogie web / main girder. This replaces the earlier7 mm minimum. New local stop/rib/washer geometry was also checked at0,+25,+32 and−60 mm travel against rigid C5 context, excluding intended rubber compression.
+ | One-sided allowance
+ | mm
+ | Fabrication and weld distortion
+ | 2.5
+ | Assembly and alignment
+ | 1.5
+ | Bearing guide wear
+ | 1.0
+ | Elastic frame flex
+ | 4.0
+ | Inspection reserve
+ | 1.0
+ | Total allocation
+ | 10.0
+ | Remaining at sampled minimum
+ | 4.445
+The allowances are proposed budgets, not measured tolerances or demonstrated wear/flex limits. The4 mm flex allocation is slightly above the3.51 mm bridge deflection screen, but full-frame flex remains unsolved. The budget must be checked along each actual local separation direction, including weld distortion, before issuing shop tolerances. No continuous-motion or route acceptance is implied by68 discrete poses.
+At the32 mm metal limit, the guide window and damper envelope each retain8 mm nominal margin. Allocate3 mm to the local stop stack, leaving5 mm. At captured60 mm droop, the damper retains5 mm nominal extension margin. Rubber impact capacity is unselected: at0.25 m/s relative speed the simple one-box energy probe is41.7 J, requiring5.96 kN mean force over7 mm before gravity and continuing forces. A supplier force–deflection/energy curve and physical test must set the final pad.
+Primary axle stops do not constrain the separate body pitch/roll joint. The2° body cone remains a sampled design probe, not an installed angular-stop guarantee. Side-bearer behavior, wheel unloading, combined curve/track twist, all brake/hose motion and actual route requirements remain open. C57 supplier/component status is preserved.
+Drawing and assembly sequence
+CI3-J01 gives the stepped end section and W1/W2/W3 weld details. CI3-S01 gives stop blocks, metal shoulders, reinforcement and measured travel gaps. CI3-R01 gives rib, washer and centre-chord changes. CI3-K01 details keeper holes, engagement and positive bolt-locking provision. Assemble and inspect internal diaphragms and closure seams before closing the box; verify actual travel gaps after axlebox and damper installation. No material order or fabrication release is issued by these drawings.
+CAD, calculations and evidence
+Current frame connection STEP · Current bogie revision STEP · Reproducible calculation results · Front upper-frame check · Rear upper-frame check · Local travel checks · Viewer model checks
+Sources: Steel Tube Institute A500 corner-radius guidance; AISC360-16, J2 weld provisions are used as a transparent static comparison, not a rail-vehicle compliance claim. Scherdel compression-spring manual and Lee Spring design guidance support the coil definitions and need for stress-range, guidance and supplier checks. Project loads and dimensions are stated assumptions and source-CAD values.
+Browser preview navigation and fallback rendering were tested. This browser's WebGL is disabled, so GPU rendering and the user's Samsung phone remain unverified. The site keeps its existing3D viewer and fallback; no separate site was created.
+CI2 — physical clearance correction
+Rotatable assembly and movement views · Current drawing sheets
+The prior installed model was wrong: its 152.4 mm-deep coach crossmembers were lower than the 101.6 mm context used by the earlier C5 bogie check. Actual nominal damper-mount interference was confirmed, and wheel blanks also contacted the crossmembers at 35 mm upward travel.
+Changed geometry
+Four 254 ×76.2 mm fabricated box bridges, with 10 mm top, bottom and side plates, replace the deep over-axle members. Frame top remains787.5 mm and floor remains812.8 mm above rail.
+Bridge centres are433.4,1852.6,5919.8 and7339.0 mm from the coach datum. Each is100 mm farther from its bogie pivot than the old crossmember, keeping the C5.7 body air-support bracket outside the widened bridge.
+End plates are254 ×101.6 ×12 mm, abutting the existing girder inner faces atY±812.8. Internal10 mm diaphragms atY±508 carry re-cut seat-rail end loads into the box walls. The C69 wrap sides/bottom are superseded; its top cap and existing floor interfaces remain.
+Outer bogie webs receive an earlier end taper toX±760 mm. Four outer spring seats per bogie extend20 mm inward and gain two8 mm top ribs each. The inner web remains continuous; this revised spring-seat load path requires local verification.
+Geometry verification
+The revised front and rear upper-frame interfaces are checked in34 local poses each: yaw−7/−2/0/+2/+7 degrees at0 and35 mm jounce, plus a2-degree resultant body-tilt cone sampled every45 degrees at−7/0/+7 yaw and35 mm jounce. These are bounded design probes, not approved operating limits or a selected minimum curve radius.
+Current test results and actual closest pairs are linked below. Wheel-to-centre-span straight clearance is91.3 mm nominal, or56.3 mm at35 mm jounce. The full assembly's closest gaps are smaller at the retained centre/collar interfaces and must be evaluated with manufacturing tolerances, wear, deflection and stop design.
+These checks cover the revised bridges, actual coach HSS members, re-cut seat rails, collar context and relevant upper bogie solids. A separate nominal check covers C5.7 brake and air parts against the new frame. Flexible hose movement, suspension deformation, full wheel/rail behavior and complete vehicle dynamics are not accepted by these tests.
+Structural consequences
+Nominal gross strong-axis inertia of the new box is1.192 times the former6×2×3/16 section; gross section modulus is2.384 times. This comparison does not approve plate buckling, end plates, girder web loads, welds, torsion or fatigue. New represented frame pieces add approximately232.4 kg relative to the removed parts; update the full coach mass, spring-load and brake-load budgets before release. Added bogie ribs and removed web material require their own mass reconciliation.
+Plate material is an A572 Grade50 candidate. Corner groove weld preparation, endplate-to-girder weld sizing, rail-end joints, assembly access, inspections and the new spring-seat load path remain engineering work. No fabrication or operating approval is given.
+Source CAD and results
+Bridge and seat-rail STEP parts (gzip) · Bogie web, seat and rib STEP parts (gzip) · Dimensions and section comparison · Front clearance results · Rear clearance results · Brake/frame interface check · Superseded geometry failure evidence
+Browser interaction remains unverified because the managed preview failed to start. Source CAD, rendered sheets and model mappings were checked locally.
+CA1 R1 · Separate engineering
+Drawbar movement and load checks
+Geometry developed; no fabrication or operating release. The tests do not establish an approved route envelope, frame capacity or secondary capture system.
+What changed
+The clevis gap increases from 60 to 72 mm, with two 14 mm inner-ring spacers. The 5 mm outer-ring retaining plates use four M6 × 16 screws per face, nominal 11 mm thread engagement, and paired lockwire routes. A removable bridge cap positively captures the headed Ø60 pin; flats and stops prevent it rotating in the clevis. The previous threaded-tail and loose cross-keeper proposal is removed. Exact fastener grades, fits, lockwire holes/clocking, plate strength and tolerances are not released.
+The GE60 ES-2RS illustration now uses the catalog 80 mm spherical sliding diameter: the outer ring travels with the bar, while the inner ring stays with the pin. Seals, grooves, running clearance and detailed OEM manufacturing surfaces are not reproduced. Both rings are axially captured. Retainer access and lubrication access still require supplier review.
+Combined movement: bounded results
+735 discrete poses combine relative body yaw from −14° to +14°, pitch from −6° to +6° and roll from −6° to +6°, in 2° steps. Coach A is level; the bar uses half of each relative Euler angle. Both pin centres remain exactly 800 mm apart. These are prescribed poses, not a solved curve/vertical-transition/suspension model; bogies follow their coach body in this view.
+ | Check
+ | Nominal result
+ | Maximum bearing tilt across both joints
+ | 4.301° / conditional catalog 6°
+ | Moving hardware to ear-plane lower bound
+ | 2.234 mm
+ | Retainer opening to spacer radial lower bound
+ | 5.860 mm
+ | Illustrative spherical race edge margin
+ | 1.372 mm
+ | Reserved body-envelope separation
+ | 595.3 mm
+Clearance bounds use enclosing cylinders for each eye-end zone, retainers and fastener/lockwire envelopes against infinite ear planes. They deliberately overbound those parts. The body check uses analyst-selected end rectangles, 1828.8 mm wide and Z 0–3000 mm, on the bar-axis projection. The 1100 mm nominal straight body gap remains unchanged for this bounded study; gangways, doors and the actual track envelope remain unqualified.
+The old 60 mm clevis arrangement has a negative 3.91 mm conservative fastener clearance bound at 6° tilt: possible binding, not a measured penetration. Exact CAD overlap checks at nine selected poses (straight plus the eight combined-angle corners) found no positive overlap for the tested bar/eye assemblies against ears, backplate, spacers, crosshead, braces and capture cap. SKF's conditional 6° is a total inclination cone, not 6° pitch plus 6° roll independently. Manufacturing tolerances, deflection, wear and OEM seals are absent from all quoted nominal gaps.
+Retention dimensions
+ | Item
+ | R1 nominal proposal
+ | Drawbar / bearings
+ | 800 eye centres; 150 width × 36 thickness; Ø90 seats. GE60: bore 60, outer 90, inner width 44, outer width 36, spherical diameter 80.
+ | Inner spacers / ears
+ | Ø66.6 / 60.2 × 14 each; 72 clear gap; 25 mm ears, Ø60.5 pin holes. Installed inner faces Z514 / 586.
+ | Outer retainers
+ | Ø118 / 82 × 5, four M6 × 16 screws each face on 106 PCD. Blind engagement from opposite faces; actual screw/thread grade and strength pending.
+ | Main pin
+ | Ø60 shank Z487–611; 80 diameter head with 70 across flats, 10 thick. Two antirotation stops. No thread or cross-hole in load-bearing pin.
+ | Capture cap
+ | 60 × 170 × 12 bridge, 11 mm high feet, 1 mm nominal head clearance; two M12 tapped-ear attachments at Y±70, 18 mm engagement envelope. Paired lockwire route.
+ | Mounts
+ | 100 × 180 × 10 crosshead; 1625.6 span; 80 × 80 × 8 diagonal braces. Frame interfaces retained at original coordinates.
+Pulling, braking and pushing
+The available train-force file remains a sensitivity study with unaccepted masses and independent binary brake assumptions. Its largest calculated tension is 118.9 kN and compression 78.0 kN, both at joint J2. It excludes grade, slack impact and brake timing. These values are not approved design loads. The earlier 200 kN analyst probe is retained for comparison only.
+ | Check
+ | Nominal result
+ | Pin average double shear at 200 kN
+ | 35.4 MPa
+ | Pin bending: distributed / point-load bounds
+ | 176.8 / 228.7 MPa
+ | Ear projected bearing pressure
+ | 66.7 MPa
+ | Unbraced crosshead nominal bending
+ | 497.2 MPa
+ | Ideal braced crosshead nominal bending
+ | 183.5 MPa
+ | Each brace ideal axial force / stress
+ | 141.8 kN / 61.5 MPa
+The unbraced crosshead result is a warning against treating the end beam as sufficient. The 183.5 MPa braced estimate assumes ideal support at Y±300 mm; actual stiffness sharing is unsolved. Pulling loads the ideal brace pair in tension and pushing reverses it into compression. Each girder also receives about 100.5 kN transverse force in that idealization. Welds, diaphragms, local tube walls, brace buckling and the complete end-to-end frame must be checked before assigning capacity.
+At 200 kN and bar yaw 7° / pitch 3°, the body-A force components are about 198.2 kN longitudinal, 24.3 kN lateral and 10.5 kN vertical; pushing reverses all three. A 5% grade acting on the old 50,600 kg tail mass adds about 24.8 kN static gravity load. Neither is an accepted service case. Pin material/fatigue, ear spreading, backplate welds, retainer axial thrust and M6 eye-thread stripping remain unresolved.
+Independent secondary connection
+Two separate girder-mounted anchor proposals avoid using the primary pin, ears, backplate or crosshead. The 180 × 200 × 20 doubler has a 70 × 170 upper notch to clear the existing end crossmember, leaving a 50 mm bottom web. It and the 140 × 100 × 30 lug are preliminary; the lug has a Ø44 interface hole. Anchors are at local X−70, Y±722.8, Z700. This position raises the slack route clear of the main drawbar. Local diaphragms, welds and the frame's one-sided catch load still need design.
+Across the sampled poses, anchor chords range from 747.3 to 1135.1 mm. The 1200 mm route retains at least 64.9 mm geometric excess over the longest chord. Its 90 mm envelope stays at least 166.6 mm above the local flat rail datum. This excludes real track elevations, fittings, chain dynamics and obstacles.
+The orange tubes are 90 mm outside route envelopes with 1200 mm flexible pin-to-pin length, including reserved end fittings. They use a parabolic slack approximation. They are not actual chain links, a chain cut length, shackle CAD or an approved safety connection. Chain assemblies transmit tension only; they do not replace the main drawbar for pushing.
+Identifiable sourcing leads are Peerless 26 mm Grade 100 chain, raw-chain stock 5511143 (59,700 lb WLL), and Crosby G-2140 1½ in, stock 1021110 (30 tonne WLL, Ø42 pin). The 36.1 mm chain inside width does not accept that pin directly: a supplier-matched enlarged end link is required. Peerless prohibits shock loading; these lifting ratings do not approve a slack catch. No purchase or complete restraint selection has been made.
+A single side catching 200 kN at Y722.8 introduces 144.6 kN·m yaw moment before angled forces. Do not assume equal sharing. With the old mass pair, 1 m/s relative separation represents about 5.64 kJ; an assumed 50 mm arrest stroke would require 112.7 kN average arrest force, with peak and ongoing train forces additional. That stroke is not an available chain extension. Capture energy and manufacturer acceptance block finalization.
+Model scope and evidence
+Current C3.1/C4 bodies are placed on C5 pivots at 45 and 261 in (5486.4 mm spacing), with the latest C5.5 developed brake unit at its native location on each bogie. Other brake locations remain unfinished. Canonical locomotive, coach and brake files remain separate. Small overview fasteners are omitted; detailed source models retain them.
+Numerical checks cover model validity, true 3D pin closure, sampled movement, nominal mount/frame overlap screening and the listed elementary load calculations. Live browser rendering could not be verified in this environment. No other workstream's structural acceptance is claimed.
+Movement bounds · Selected solid-pose checks · Load calculations · Assembly checks · Frame screen · Optional connection STEP
+Primary sources
+SKF spherical plain bearing catalog — dimensions, spherical diameter, abutments, axial location and conditional tilt. Peerless Grade 100 chain and application limitations. Crosby G-2140 dimensions and ratings. Supplier leads do not constitute application approval.
+CI1 installed bogies and connection views
+The coach assembly now opens beneath the underframe. Five views expose the installed bogies, one complete bogie, one axlebox/spring station, the coach-to-bogie connection and an exploded connection. Existing C5 suspension, CW3 bearing ends and C56 brake geometry are reused without changing dimensions.
+CAD checks verify eight wheels, eight revised bearing ends, two bogies and body adapter centres at X1143 and X6629.4 mm (5486.4 spacing). Each bogie has 1200 mm axle spacing. The adapter uses the existing four M16 bolt and sleeve locations at X±18/Y±160; dimensions in the installation sheets are inherited nominal values.
+Detailed views retain bolts and retention components that were simplified out of the older whole-coach view. The axlebox detail omits the wheel and long sideframe webs for visibility. The exploded connection is a display separation, not an approved dismantling procedure.
+This update checks model composition and explains the intended load path. It adds no load capacity, weld, bearing, fastener, spring, braking or motion acceptance. Browser interaction testing remains unverified because the preview environment is unavailable.
+Assembly mapping checks · Installed CAD and drawings
+CC1 · whole-vehicle display integration
+20 October 2026. Regular C1/C21 and accessible C3.1/C4 are distinct models. The paired view now places one of each; it no longer repeats the accessible body. C1 retains its bored perimeter members, C21 benches and notched floor panels. Its common crossmembers and rails receive the current CI2/CI3 replacements; both plain body bolsters replace the duplicate uncut frame members. Two current C57/CW3 truck instances are placed at X45 and X261 in. Existing CA1 hitch mounts are shown at both ends; the connected view retains the 800 mm drawbar and spherical joints.
+This is assembly integration, not a new structural release. Added body, benches, hitch and floor interfaces have not undergone a full combined solid-intersection or motion check. CI3’s earlier bounded underframe checks do not validate this whole model. One C57 brake development unit per truck is represented; the other brake stations, air reservoirs, controls and full trainline remain unresolved. Regular stairs, end-platform deck, walkway, handrails, door hardware and inter-car passenger passage are not designed. Accessible body/roof and fixed-seat space references are not construction solids. No accessibility compliance claim is made.
+The whole-locomotive page displays the existing LT13 straight nominal composition of LT11 body and LT12 drives. It does not close recorded turning/full-bump clashes, supply holds, missing locomotive brake details or equipment-envelope status.
+CB2 · Attached regular-coach stairs
+Folding flights and handrails, retained hinge pins, boarding/travel locks and revised local frame recesses. Current checks and unresolved engineering →. Historical CB1 removable-stair instructions are superseded.CA1 R1 · Installation study · Supplier and engineering release pending

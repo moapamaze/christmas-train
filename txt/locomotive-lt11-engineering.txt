@@ -1,0 +1,54 @@
+LT11 profile engineeringProfile drawings & 3DPrevious LT10 checksRetained DT5 engineering
+LT11 R0 / 19 October 2026 Pacific
+Northern-inspired proportions: engineering consequences
+This is a new proportion and running-gear concept, not a completed locomotive design. The current reference supersedes the LT10 exterior direction. DT5 and LT10 mechanical files remain intact as retained development work; their fit/performance results do not validate this new arrangement.
+Reference established
+The user supplied a Western Train screenshot showing locomotive200 under “The Northern Railroad.” The manufacturer lists that model as a4-6-4 with hydrostatic or electric propulsion and15-inch gauge. The24-inch icon above the screenshot is not adopted as this locomotive’s gauge. This project retains36 inches (914.4mm) as its working gauge and a sit-in operator station. The factory’s tender-riding arrangement is not copied.
+Sources: Western Train locomotive catalog and Western Train’s Northern Railroad introduction. Factory wheel diameters, spoke drawings and certified dimensions have not been incorporated. This is a visual adaptation, not a claim of identical manufacturer construction.
+New dimensions for review
+ | Item
+ | LT10
+ | LT11 proposed
+ | Running gear
+ | Two two-axle powered trucks
+ | Two leading axles, three driving axles, two trailing axles
+ | Large wheel diameter
+ | 1000mm blanks
+ | 1450mm spoked appearance; casting/spoke/rail profile not engineered
+ | Small wheels
+ | Not present
+ | Leading650mm / trailing700mm; proposed proportions only
+ | Main frame
+ | Top1775 / railsY±850
+ | Top1350 / inside railsY±340; entirely new load-path review
+ | Driving axle positions
+ | 2600 /4000 /5300 /6700
+ | 3500 /5050 /6600;3100mm first-to-last driver wheelbase
+ | Leading/trailing axles
+ | —
+ | 1000 /2050 and8000 /8950
+ | Cab
+ | Floor1800 / roof about4000
+ | Floor1500 / shallow curved roof3503
+ | Engine/pump/cores/fan
+ | LT9 equipment locations
+ | Saved equipment shapes moved250mm down; all supporting attachments need rework
+The proposed frame top reduces by425mm. The rails keep a nominal304.8×152.4 section only for space study. They lie inside the wheel envelopes with41mm nominal lateral space; that is not an approved flange, suspension or wheelset clearance. Running-board top1605 sits155 above nominal driver top1450, but side rods and suspension need their own swept-volume review.
+Drivetrain redesign required
+The existing outboard DT5 motor/carrier installation would remain visible across the new driver spokes. LT11 does not conceal it by deleting necessary hardware and claiming completion. The three amber inboard volumes are reserved spaces only: no motor, reduction unit, attachment or torque path has been designed inside them. The drivetrain owner must develop a packaging solution compatible with the wheel appearance and suspension.
+At equal torque per driving axle, total ideal wheel force is proportional to powered-axle count divided by wheel diameter. Changing from4×1000mm to3×1450mm gives (3/1450)/(4/1000)=0.517 of the previous force. To preserve that force requires1.933 times as much torque per driving axle. This is a ratio, not a motor selection or permission to increase pressure. Adhesion depends on the weight carried by powered wheels; pilot and trailing trucks change that distribution. Loaded train demand, curves, acceleration, speed and continuous installed engine power must be recalculated before selecting components.
+The brass rod shapes are static appearance envelopes. Independent hydraulic wheelsets cannot simply be tied together with these rods. A working mechanism needs compatible phasing, bearings, axle motion, lubrication, balance and guards. The choice of a mechanically coupled or another coordinated drive arrangement remains open.
+Curves and suspension
+A3100mm three-driver group needs a new steering/lateral-motion design. For context only, a straight3.1m chord differs from circular arcs by about60.2mm at20m radius,40.1mm at30m, and30.0mm at40m: s=R−sqrt(R²−(L/2)²). These values are geometric sagittas, not required flange clearance or an approved minimum curve radius. Actual wheel/rail profiles, gauge clearances, axle yaw/lateral movement, rod joints, truck steering and route geometry must be resolved together.
+The LT4 centre bearings and LT10 two-truck motion checks do not transfer to this architecture. Leading/trailing-truck pivots, spring equalization, bump/rebound stops, restraint and body supports are unresolved. Locomotive brakes remain with the brake owner; no coach brake geometry has been transplanted.
+Engine, cooling and service access
+The engine and pump stay inside the locomotive, with one shared cooling fan. Retained equipment shapes fit above the nominal wheel envelopes in the limited check performed, but the lowered installation has no verified support joints, duct design or continuous motion proof. Existing air-divider floors and panel hardware cannot be reused at new elevations without review. Engine lifting, filter/tool clearances, coupling withdrawal, exhaust/aftertreatment, thermal inlet/outlet behavior and fan removal must be rechecked with configured OEM data.
+The cab floor lowers300mm with the saved seat/console geometry. Its centre roof clearance is about2003mm; side headroom, standing positions, reach, sightlines, doors and steps need an operator mock-up. The illustrated300mm-rise entry is still a placeholder. The tender structure and coach interfaces are preserved, not redesigned here.
+Verification and next work
+All195 nominal solids are valid; the model contains14 wheels including6 drivers and one shared fan. A limited nominal wheel/equipment intersection check found no overlap. This does not establish whole-assembly collision freedom, strength, stability, thermal performance, service access or passenger safety.
+Reconcile the4-6-4 appearance, powered-wheel load distribution, actual curve radius and propulsion architecture with the drivetrain owner.
+Select wheelsets and rail-compatible profiles; obtain real motor/reduction/coupling and brake envelopes.
+Develop the new inside frame, leading/trailing supports and equalized suspension using confirmed loads.
+Redetail equipment supports, service panels, ducts and operator station around the reviewed frame height.
+No supplier confirmation, structural approval, purchase or fabrication release is claimed. No supplier message was sent during this revision.
+Limited checks and assumptions · Shared drivetrain/body handoffLT11 R0 · New concept basis · Not for fabrication

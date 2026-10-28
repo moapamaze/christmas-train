@@ -1,0 +1,196 @@
+LT6 installation record · Pulsipher FarmsDrawingsChecksComponentsSupplier dataAssemblyInterfaces
+PF–LOCO–LT6 / R0 / 20 OCTOBER 2026
+Engine & attachment record
+Nominal detail development on the retained LT5 installation. Frame top 1,775 mm remains provisional. Engine, mount and operator-station interfaces are not released for fabrication.
+19 OCTOBER 2026 · PACIFIC / LT6 R1 DATA REVIEW
+Configured equipment and service access
+The owner confirms the diesel and pump remain in the locomotive. Routine service and major removal must be designed into the installation. Tender relocation is not adopted. R0 attachment geometry is retained; this review does not release new engine holes or claim supplier approval.
+ | Item
+ | Verified / applied
+ | Still unavailable
+ | Kubota
+ | Public V3307-CR-TI-E5 standard outline and299kg dry figure reconfirmed. Dimensions/weight vary with completed specification.
+ | Configured order code, foot/shaft drawing, wet CG/mass, coolant/CAC heat rejection and continuous installed rating.
+ | Pump family
+ | Recovered H1P045/053 technical information, actual revisionJune2025/001701.41kg dry excludes charge pump;1.3L internal oil.
+ | Exact H1P045 order code, complete operating mass/CG, actual ports/options, engine housing and coupling.
+ | Pump mounting
+ | SAE B101-2 flange;Ø101.6 pilot(0/−0.05);fixings±73mm about shaft,±0.25 each;catalogØ14.3 holes(+0.25/−0.12).
+ | Mating housing/register tolerance, material, alignment, screw grip/preload and configured installation approval. Use M12×1.75 or half-inch with OEM-specified hardened washers; do not infer M14 from hole diameter.
+ | Pump shaft
+ | 300bar×45cc/(2π×0.90) gives238.7Nm before charge auxiliaries. G4 limits180rated/222maximum: exclude it for this study.
+ | G5 rated277/maximum370;G1 rated534/maximum592. Request G1 evaluation, including335Nm engine peak and torsional/shock duty. Neither ratio alone nor a catalog torque rating approves the coupling.
+ | CG
+ | Catalog pump drawing shows approximate128mm aft mounting face and29mm above shaft with control up.
+ | These are pump-only approximate coordinates. No configured transverse CG or full engine/pump wet CG inferred.
+ | Approval
+ | No written engine/pump/mount/structural acceptance found in reviewed records.
+ | Supplier application review and responsible engineer’s design/test release. Existing KTR request covers the axle coupling, not this engine-pump joint.
+Danfoss primary technical document: the “latest” URL returns revision001701 despite its older suffix; source revision and checksum are recorded. Pages6,54–56 and64–66 support the interface fields. These are conditional family data, not permission to machine the engine adapters. Kubota standard specification explicitly distinguishes configured dimensions and weight.
+Routine service and major removal
+ | Task
+ | Design requirement
+ | Current status
+ | Daily oil/coolant checks
+ | Small accessible hatches; dipstick/fill points reachable from a safe working position. No59kg panel removal for daily checks.
+ | Hatch positions await actual engine handing and service drawings. High mounting elevation requires a suitable service platform/access provision.
+ | Oil/fuel/air filters and drains
+ | Tool/hand clearance, full element withdrawal, drain collection and accessible shutoffs. Protect hoses from heat/chafing.
+ | Exact filter positions and withdrawal distances unavailable; do not cut final openings yet.
+ | Pump and coupling
+ | Expose fasteners and shaft joint; provide withdrawal space, supported handling and isolation/clean capped lines.
+ | Actual housing length, shaft engagement and service movement must be provided by matched-package supplier.
+ | Cooling and DPF
+ | Reach both core faces for cleaning and allow fan/guard, belt and aftertreatment service with heat shielding maintained.
+ | Heat rejection, fan choice, regeneration keep-outs and extraction paths unconfirmed.
+ | Major shell panels
+ | Bay2 and3 near-side half-panels weigh59.43 and59.51kg with ribs in current CAD; plan rated handling aids and removable attachments.
+ | Their omission in the new3D service view is a visibility study, not a verified lift path.
+ | Engine removal
+ | Remove necessary dome/support arches and panels via designed bolted joints, disconnect services and use OEM lifting points. Preserve frame and cab.
+ | Arch base/boss release, rigging envelope and continuous extraction clearance still required; current geometry is not an approved lifting procedure.
+Supplier route and prepared request
+Kubota identifies Anderson Industrial Engines as its distributor covering Nevada. AIE offers engine integration, CAD, thermal/vibration testing and application validation, plus configurable hydraulic pump drives and SAE housings. This makes it a relevant route for one supported engine/pump/cooling package; no particular P-Series or older E4B package has been substituted into this design.
+Contact: AIE sales/engineering, info@ai-engines.com,800-747-1438. Prepared request below has not been sent.
+Please propose a serviceable Kubota V3307-CR-TI-E5 installation for a36-inch-gauge diesel-hydrostatic passenger locomotive. The engine and pump stay together inside a removable decorative boiler enclosure. We are evaluating the retained45cc/2600rpm pump study with four Poclain376cc axle motors; this is not an accepted matched system or an order.
+Please return the exact engine/package and pump order codes; dimensioned CAD with mount pattern, flywheel/shaft references and lifting points; operating mass and three-axis CG; continuous derated output; coolant/CAC heat rejection and a supported fan/core/duct arrangement; aftertreatment hot-zone and regeneration requirements; and an approved bellhousing/coupling with torsional review. Include the complete service drawing showing filter, drain, belt, pump/coupling and DPF removal space. Recommend modifications needed to make routine service possible through small hatches and major removal possible without cutting the frame or dismantling the cab.
+Please identify installation-validation and commissioning tests, warranty conditions, budget price/lead time, and whether you can coordinate the complete engine/hydraulic package. Our mounts,1775mm frame height and existing equipment envelopes are provisional. This is a technical/quote request; no purchase or paid engineering is authorized.
+For structural review, the existing Recreation Engineering proposal discussion should expressly include the locomotive frame, engine cradle, isolators, pump-housing loads, service/removal provisions and commissioning tests. A proposal discussion is not acceptance of this design. Final approval must identify the responsible engineer, drawing revisions, load cases and required testing.
+Structured supplier/service review · Service-bay CAD view
+Resolved geometry and remaining holds
+ | Assembly
+ | This issue
+ | Still required
+ | Engine package
+ | Public Kubota E5 outline recovered; catalog dimensions/dry mass retained. Common isolated engine/pump cradle remains the installation basis.
+ | Configured installation drawing, wet mass/CG, foot pattern, continuous rating, service envelope and cooling data. No earlier E3 engine data substituted.
+ | Cradle attachments
+ | Four AMC BRB110 candidate envelopes on20mm pedestals;143mm nominal lower bolt pitch, sleeved M12 beam connection; detachable220×760×12 adapter plates with twelve gusseted rail ears and M10×40 bolts.
+ | Mount dynamic/retention approval, loaded deflection, blind thread depth and joint/preload/fatigue proof. Engine/pump foot holes remain blank. Rail-top bosses elsewhere remain unresolved.
+ | Skid/frame
+ | Retained four skid feet and eight M16 stud/sleeve clamp stacks; load demand refreshed below.
+ | Actual installed reactions, HSS local walls, prying, slip, fatigue and coupler/global frame cases. No torque values or final frame elevation issued.
+ | Driving station
+ | MSG65/531 mounting family and APEM drop-in pattern incorporated. Seat moved65mm forward and50mm inboard on a revised top adapter.
+ | Exact seat/slide/belt SKU, restraint proof, reach/sightline/egress mock-up. Joystick and emergency-stop candidates are not the final safety-control design; brake controller remains external interface.
+ | Smokebox/lamp
+ | Two headed-pin hinges, backing plates, cotters and two pinned dogs; reinforced12mm surround with through-slots; lamp bracket and rear studs. Lamp raised170mm to clear sampled door motion.
+ | Hold-open stay, pad retention/adjustment, hinge fit/lubrication, pin/weld/ligament loads and actual lamp selection. No lifting rating or pressure closure.
+ | Stack/domes/panels
+ | Independent curved support arches and bolt-off flanges. Dome holes300×420 and300×440; stack300square.44square skin clearances. Retained lower M8 panel-tab arrangement.
+ | Weather flashings, rail-top boss attachments, local stress/weld fatigue and handling/lift proof. Fitting removal precedes shell-panel removal; complete maintenance procedure remains to prove.
+Calculation and clearance record
+ | Check
+ | Result
+ | Assumptions / limit
+ | Exact solids
+ | 1033 valid shapes; 138 candidate pairs; 0 positive-volume overlaps
+ | New LT6 fabricated parts against each other and retained fabricated parts. Purchased reservations/fasteners excluded; not whole-vehicle collision acceptance.
+ | Door leaf motion
+ | 0 intersections in sampled screen
+ | Door/attached hinge leaves versus surround and lamp at0..90deg in15deg increments. Does not include dogs, lanyards, people, trackside objects or continuous sweep. Released dogs are hidden in the open-door viewer. Stay and continuous service envelope unresolved.
+ | Static isolator corner demand
+ | 71.4–228.6 kg equivalent
+ | 600kg trial common package, equal mount stiffness,1200×1000 pitch; CG offsets±150X/±80Y and335Nm torque. R/g=m/4(1±2ex/L±2ey/B)±T/(2Bg). Actual wet package/CG unknown; catalog305kg is not a dynamic allowable.
+ | Adapter bending demand
+ | 3923 N per plate; 96.6 MPa nominal
+ | 600kg trial at2g,3 equal plate loads,520mm simple span; M=FL/4, S=bt²/6=5280mm³. No strength conclusion: actual feet/load distribution, ears, local walls, prying and fatigue remain unresolved.
+ | M16 skid slip sensitivity
+ | 40.1 kN trial friction versus 6.58 kN horizontal demand
+ | Eight bolts; trial preload0.55×580MPa×157mm² each; friction0.10.600kg at1g longitudinal+0.5g lateral. Surface/preload scatter, uplift/prying and combined fatigue unresolved; no torque inferred.
+ | Door hinge demand
+ | 1079 N at2g; 1169 N radial couple/hinge
+ | 55kg trial leaf/hardware,650mm CG offset,600mm hinge spacing. Ideal Ø20 double-shear demand1.86MPa is not a pin or hinge capacity; plate bearing, bending, welds and wind remain separate.
+ | Wind sensitivity
+ | 1208 N on door at1kPa
+ | Illustrative pressure only, not a site design wind. Stay/hinges/latches require force direction, lever arms, gust and dynamic review.
+ | Seat nominal fit
+ | 38.5mm sidewall gap;78mm rear gap to gate plane
+ | Documented518mm width and554mm depth; assumed+60mm rear slide. Ordered travel/recline, occupant, deflection, tolerances and entry swept clearances unverified.
+ | Operator reach
+ | 610mm straight-line trial shoulder-to-joystick distance
+ | Assumed shoulder(8190,−1000,2750), grip(7660,−1170,2501). Not an ergonomic pass. Verify seat reference, supported reach and both operating postures in a full-size mock-up before final console drilling.
+ | Sightlines
+ | Unresolved
+ | Trial eyeZ3000 is below3250 shell crown. Side-window eye-box ray checks, stack/dome obstruction and near-track visibility must be checked with actual operators. No sightline acceptance claimed.
+ | Suspension/frame
+ | 1775mm frame top retained provisionally
+ | DT5R1 reserves240mm spring space and reports20.104mm nominal width margin at sampled travel/yaw. That is not an actual frame/brake/hose sweep. Selected springs/dampers, masses and curve radius still required.
+LT5 static-deflection example used an assumed5mm value. It is not the selected AMC loaded height or natural frequency. Obtain the BRB load/deflection curves and three-axis dynamic stiffness, damping, load direction and retention limits for the actual engine/pump mass and excitation spectrum. Cradle fabricated mass is about103.1kg before the new upper attachment pieces; the299kg engine is dry. A600kg study is not an operating-weight specification.
+Cooling and pump connection
+Installed pump power must fit Pcontinuous,derated − Pfan − Palternator − Pauxiliary at the actual duty. The55.4kW catalog gross-intermittent rating is not that value. Pump hydraulic power is p(bar)×Q(L/min)/600; divide by efficiency for shaft demand. An illustrative300bar/130L/min point gives65kW hydraulic before losses and cannot be accepted with this engine. It is not the current selected Danfoss configuration.
+Cooling remains a reserved cassette atX5075/5310 with1050×1000 faces, side-panel air openings and a600×900 top outlet. OEM coolant/CAC heat rejection, hydraulic losses, fan/system curves, actual ambient/altitude and duty must set the cores and ducts. Qair=Qheat/(ρcpΔT) is only an air heat balance; it does not size a radiator or prove fan pressure. No cooling-capacity selection was made from the old engine sheet or a guessed heat figure.
+Component selection and purchasing status
+ | Component / quantity
+ | Installation candidate
+ | Purchasing status / alternative
+ | Diesel /1
+ | Kubota V3307-CR-TI-E5, configured DOC/DPF package
+ | Order code and price require dealer quote. Buy engine/aftertreatment and supported installation package. Alternative engine must reopen the power, mass, cooling and mounting basis.
+ | Isolator /4
+ | AMC135242 BRB110 M12,50Sh
+ | Documented envelope/static candidate only. Quote and application approval required. Alternative captive mount requires equal or approved new footprint, load/deflection/retention data.
+ | Seat /2
+ | GRAMMER MSG65/531 family, vinyl, belt/presence-switch options, no armrest/swivel in this study
+ | Exact ordered SKU, travel and price require quote. Supplier-approved alternative industrial seat reopens mount, restraint and eye-box checks.
+ | Traction sample /1
+ | APEM3110AE700
+ | Real catalog mounting pattern, standard analog sample only. Final redundant/configured variant must follow drivetrain control requirements. Price unquoted.
+ | Emergency-stop sample /1
+ | Schneider XB5AS8442
+ | Real catalog component;1NC is not system architecture approval. Final contact count and stop/brake behavior unresolved. Price unquoted.
+ | Display /1
+ | Retained PV380-R3 candidate
+ | ECU compatibility and configuration outstanding; alternative OEM Kubota panel.
+ | Trim/frame pieces
+ | Fabricated plates, HSS, hinge pins and gussets
+ | Development CSV separates fabricated details from purchased envelopes. Material grades and weld sizes are proposed; no shop or fastener purchase release.
+ | Pump/coupling, cooler, tanks, optical lamp
+ | Not selected here
+ | Buy serviceable matched assemblies. Quote after owner/supplier interfaces; no invented cost total or availability.
+The STEP ZIP contains new and modified fabricated attachment parts; it excludes purchased envelope solids and unchanged inherited frame members. The CSV is the LT6 change list, not the complete locomotive BOM. All cost fields remain unquoted; no order has been placed.
+Configured engine data request — prepared, not sent
+Request one consistent installation package for the exact proposed V3307-CR-TI-E5 order code and continuous locomotive duty. Supplier responses must identify their revision and configuration.
+CAD and dimensioned PDF for exact engine order code, all mount-hole coordinates/thread engagement, mounting-pad flatness, flywheel SAE pattern/shaft axis and allowable overhung/moment loads
+Operating mass and three-axis CG for engine plus DOC/DPF, oil/coolant inventories, starter/alternator/fan options; identify excluded auxiliaries
+Coolant and charge-air heat rejection at continuous rated duty and duty map, coolant flow/restriction/thermostat data, permitted CAC pressure drop, fan curve and installed airflow restriction limits
+DPF regeneration temperature/keep-out and allowed orientation, service intervals and removal paths; supported shutdown method and residual-cooling requirements
+Return complete orderable package contents, current price/lead time, warranty/duty conditions, installation review and commissioning requirements.
+AMC additionally needs the actual wet package mass/CG, torque and excitation spectrum, proposed geometry and railway shock/retention cases. Ask for permissible M12 engagement/torque, installed deflection, dynamic stiffness, temperature limits and application approval. GRAMMER must return the exact rail/belt mounting drawing and seat restraint loads; APEM must return the electrical variant required by the accepted control design.
+Assembly and inspection sequence
+Close OEM/structural holds and issue material, tolerance, WPS, locking and preload specifications. Use the retained rail-top datum. Do not machine blank OEM foot areas from catalog envelope boxes.
+Fixture the common cradle. Weld proposed gusseted ears and through-sleeves in a controlled sequence; inspect welds, rail straightness, adapter contact/flatness and hole pitch. Provisional cut tolerance±1mm and non-OEM hole location±0.25mm are development targets, not released fits.
+Fit pedestal plates and approved captive mounts. Gauge lower fastening engagement and centre-bolt blind depth. Confirm sleeve length, full bearing surfaces and loaded deflection. Install complete engine/pump package with rated lifting equipment at OEM points; align and check coupling/soft-foot by supplier procedure.
+Verify each skid clamp’s grip, thread projection, locking, locator fit and wrench access. Apply and record released preload. Verify joint separation/slip response using engineer-approved load cases before running.
+Complete coolant/CAC/oil circuits and independent cooler supports from approved thermal data. Inspect flexible connections, fan guards, drainage and exhaust/DPF heat clearances. Demonstrate filters, dipstick, belt, pump and aftertreatment service and extraction paths.
+Install selected seats on approved adapters. Verify rail/belt anchor fasteners, full seat adjustment, gate/steps and operator eye/reach positions in a physical mock-up. Finalize console holes only after this test and the brake/traction interfaces are accepted.
+Trial-fit door hinges with released pin fits and lubrication. Fit fresh cotters, retained wear pads and positive dog pins. Install the missing hold-open stay before service use. Verify controlled motion, latch engagement, rattle and access without relying on gravity or hand support.
+Fit lamp flange studs and frame bracket; demonstrate access to rear nuts and cable grommet. Install arch-supported stack/domes with locked flange fasteners; complete flashings. Remove fittings and panels in sequence and prove reinstallation/alignment.
+Commission to an approved test plan: neutral/start and failed-signal checks, coordinated brake/engine stop, vibration survey, thermal duty test, leak/crack inspection and recorded fastener reinspection. Passenger operation requires completed design review and acceptance testing.
+Required equipment: fixture and height/diagonal gauges, bore/thread/depth gauges, approved weld/NDT tools, calibrated preload tooling, coupling alignment instruments, rated lifting/stands, full-size cab mock-up, electrical and thermal/hydraulic instruments. Loads, pass criteria, torque and maintenance intervals remain the responsible engineer/OEM’s release items.
+Shared interface record
+Latest DT5 R1, coach C5.5 and CA1 drawbar update are preserved. This is a published handoff for the other workstreams, not a message or acknowledgment from another chat. No brake or drive-wheel geometry was changed.
+ | Owner
+ | Required return
+ | Drivetrain
+ | Actual pump order code, housing/shaft/feet CAD, operating mass/CG, torque and power/efficiency map, supported coupling and torsional review; required command variant and neutral/fault behavior.
+ | Brakes
+ | Physical controller and force/travel, service/parking status, emergency-stop and traction-inhibit connections. Coach C5.5 is not the locomotive brake selection.
+ | Suspension / frame
+ | Complete sprung/unsprung masses and support reactions, selected springs/dampers, bump/roll/yaw limits and complete hose/motor/brake sweep at actual minimum curve radius.
+ | Passenger cars
+ | Retain shared36in gauge and provisional coupler/brake/electrical interface records. No unavailable loaded mass, coupler height or braking demand is invented by this issue.
+Detailed handoff · Check results · LT6 parts change list · Retained LT5 drawings
+Primary references
+Kubota configured family — V3307-CR-TI-E5; 55.4 kW at 2600 rpm, gross intermittent SAE J1995; 335 N·m at 1600 rpm.
+Kubota E5 outline sheet, February 2026 — 856 × 557 × 749 mm with DOC/DPF, excluding fan; 299 kg dry. This public outline is not the configured installation drawing.
+AMC BRB manufacturer catalog — BRB110 M12 / 50 Sh / 135242 candidate: A106, B40, E175, F13, G3, D1–D2 137–149 mm; 305 kg catalog maximum, 0.857 kg. Captive construction; supplier rail/shock approval absent.
+GRAMMER MSG65 series — Selected installation family MSG65/531. Exact vinyl/slide/belt/presence-switch SKU, travel and anchorage approval required.
+GRAMMER MSG65/531 drawing linked by manufacturer — Family drawing dated 2014, still linked by manufacturer: width518, depth554, height578; transverse rail centres286 and outer longitudinal fixing centres280 mm. Ordered variant must match.
+GRAMMER US family data sheet — Family variants differ in suspension travel; no unconfirmed seat stroke is adopted.
+APEM3110AE700 — Single-axis E-handle drop-in sample candidate, 5 V standard analog; final command architecture not accepted by drivetrain owner.
+APEM3000 mounting data — Drop-in Ø39 aperture, four Ø3.2 holes on35.5 square; M3×16 recommended for panel under3 mm. Circular cover, not square mounting variant.
+Schneider XB5AS8442 — Ø40 red mushroom, Ø22 mounting class, turn-to-release latching, 1NC. Component candidate only: one contact does not establish the emergency-stop architecture.
+Checked20 October2026. Public drawings establish the stated catalog information only. They do not establish application approval, configured engine geometry, quotations or guaranteed availability.
+Verification limits
+Exact solids and the stated nominal collision samples were checked. Drawing sheets were rendered and reviewed. Model decoding, mesh schema, rotation, zoom, selection, isolation and exploded transforms were exercised in a local software-renderer harness. Browser preview infrastructure was unavailable, so live-browser visual QA remains incomplete. No global structural, fatigue, thermal, controls or full moving-vehicle acceptance is claimed.PF–LOCO–LT6 · R0 · 20 October2026 · NOT FOR FABRICATION

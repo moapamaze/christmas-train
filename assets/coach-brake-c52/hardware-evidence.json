@@ -1,0 +1,120 @@
+{
+  "record": "C5.2 stock chamber-yoke and bearing sourcing supplement",
+  "checked_on": "2026-10-19",
+  "status": "DEVELOPMENT CANDIDATES; GEOMETRY AND STRENGTH RELEASE REMAIN OPEN",
+  "scope": "Bounded follow-up to actuator-evidence.json. Bearing and pivot specifications remain canonical in joint-components.json; this record supplements availability and chamber connections.",
+  "chamber_yoke": {
+    "development_candidate": "MGM 8292002P",
+    "complete_assembly": "A factory yoke assembly with a matching 5/8-inch pin; use the supplied pin rather than substituting the 20 mm hanger pivot.",
+    "manufacturer_url": "https://www.mgmbrakes.com/products/8292002P",
+    "rod_thread": "5/8-18 UNF",
+    "pin_diameter_mm": 15.875,
+    "fork_gap_mm": 14.2875,
+    "catalog_A_mm": 47.752,
+    "A_definition": "Threaded-end face to clevis-pin axis, interpreted from the manufacturer dimension illustration.",
+    "catalog_E_mm": 42.8625,
+    "E_definition": "Overall pin span shown in the manufacturer illustration; not an under-head grip or cotter-hole coordinate.",
+    "dimension_source": "Primary indexed MGM Master Catalog, printed page 138, 8292002 row. Direct source download currently returns 404.",
+    "dimension_source_url": "https://mgmbrakes.com/files/9117/2744/6783/MC2021_12.pdf",
+    "dimension_evidence_refs": [
+      "turn218search3",
+      "turn218search5"
+    ],
+    "revision_conflict": {
+      "newer_indexed_catalog_A_mm": 47.752,
+      "older_OEM_catalog_and_quick_guide_A_mm": 50.8,
+      "resolution": "Confirm the supplied revision before fixing rod length or machining the linkage. The difference is 3.048 mm."
+    },
+    "unpublished_dimensions": [
+      "Ear thickness and complete outside profile",
+      "Internal thread depth and minimum engagement",
+      "Pin length beneath head and cross-hole location",
+      "Cotter diameter, leg length and installed bend envelope",
+      "Dimensional tolerances and joint clearance"
+    ],
+    "rated_working_load_N": null,
+    "load_rating_status": "No numerical yoke/pin working-load or fatigue rating recovered from the exact OEM documents. Existing truck-brake application is not a rail-duty rating.",
+    "availability": {
+      "seller": "Big Rig World",
+      "url": "https://bigrigworld.com/yoke-assy-58-x-58-pin-8292002p.html",
+      "observed_status": "Ships up to 72 h",
+      "quantity_on_hand": null,
+      "interpretation": "Public orderable exact SKU with a shipment estimate; quantity and delivery date not confirmed. AnythingTruck separately marks this SKU special order."
+    }
+  },
+  "matched_stainless_alternative": {
+    "complete_assembly_sku": "MGM 8292011P",
+    "thread": "5/8-18 UNF",
+    "pin_diameter_mm": 15.875,
+    "fork_gap_mm": 14.2875,
+    "bulletin_A_mm": 50.8,
+    "bulletin_E_mm": 42.8625,
+    "matched_spare_pin_sku": "MGM 8038008P",
+    "matched_spare_pin_description": "5/8-inch stainless-steel pin for threaded yokes, two per pack.",
+    "matched_cotter_sku": "MGM 8151001X",
+    "matched_cotter_description": "Plated heavy-duty cotter for 1/2-inch or 5/8-inch yoke pins, eight per pack.",
+    "source_url": "https://www.mgmbrakes.com/application/files/5717/6952/7411/PB22011_CF_Parts.pdf",
+    "source_title": "MGM PB22011, revised February 2014, currently hosted on manufacturer site.",
+    "local_pdf": "c52-research/sources/mgm-clevis-bulletin.pdf",
+    "local_render": "c52-research/sources/mgm-clevis-bulletin.png",
+    "pdf_sha256": "7cf32e9a99ff45ea30075e9d258d83e7414efbf31a92bfce709700b1861522d0",
+    "limits": "The newer indexed catalog gives 1.88 in for this variant as well, versus 2.00 in in the bulletin. Confirm the supplied geometry. Stainless grade, heat treatment, pin cross-hole dimensions and assembly load rating are not stated.",
+    "availability": "FinditParts category listing marks 8292011P in stock, but exact quantity and delivery time are not established. This remains an alternative, not a silent substitute for 8292002P.",
+    "availability_url": "https://www.finditparts.com/categories/brake/brake-system-service/air-brake-spring-brake-yoke-assembly/"
+  },
+  "bearing_additional_availability": {
+    "exact_part": "Aurora GE20ES-2RS",
+    "technical_record": "joint-components.json",
+    "additional_us_seller": "Motion Industries",
+    "seller_item": "01807848",
+    "url": "https://www.motion.com/products/sku/01807848",
+    "observed_text": [
+      "In Stock",
+      "Factory Order",
+      "Shipping time may vary. Motion rep will advise."
+    ],
+    "quantity_on_hand": null,
+    "conclusion": "A second US source for the exact Aurora part is established. The combined stock/factory-order wording does not verify sufficient quantity or a shipment date. Do not combine another manufacturer\u2019s GE20 dimensions or rating with Aurora\u2019s record.",
+    "original_us_seller": "https://bearingsdirect.com/ge20es-2rs-spherical-plain-bearing-20x35x16mm-sealed-aurora/",
+    "original_quantity_from_foundation_record": 1,
+    "assembly_quantity_secured": false
+  },
+  "interface_handoff": [
+    "Use a purchased, matched MGM yoke/pin/retainer assembly; the chamber rod thread is 5/8-18 UNF.",
+    "The 14.2875 mm fork opening limits the central linkage-eye thickness and running-clearance stack. It does not specify an allowable load.",
+    "The chamber clevis is 15.875 mm nominal bore, distinct from the 20 mm spherical hanger pivots.",
+    "Rod setup must preserve the MGM 3-degree maximum misalignment through full stroke and verify actual thread engagement; no thread cut length is released here.",
+    "No undimensioned ear profile, pin cross-hole or cotter clearance should be presented as an exact OEM manufacturing model."
+  ],
+  "page_parts": [
+    {
+      "part": "MGM 8292002P",
+      "name": "Matched chamber yoke and 5/8-inch pin",
+      "role": "Connects the MGM 5/8-18 UNF chamber rod to the bellcrank.",
+      "availability": "Big Rig World lists the exact assembly with shipment up to 72 hours; quantity is unknown.",
+      "availability_as_of": "2026-10-19",
+      "fit_status": "Catalog fork gap and pin size identified. Revision-dependent length, thread engagement, retainer detail and load rating remain open.",
+      "source_url": "https://www.mgmbrakes.com/products/8292002P",
+      "availability_source_url": "https://bigrigworld.com/yoke-assy-58-x-58-pin-8292002p.html"
+    },
+    {
+      "part": "MGM 8292011P / 8038008P / 8151001X",
+      "name": "Stainless-pin yoke alternative and matching cotter",
+      "role": "Documented OEM replacement assembly, spare pin and positive retainer.",
+      "availability": "Factory catalog identities verified; retailer lists the assembly in stock, with quantity unconfirmed.",
+      "availability_as_of": "2026-10-19",
+      "fit_status": "Alternative only. Do not substitute without confirming the supplied dimensions and load suitability.",
+      "source_url": "https://www.mgmbrakes.com/application/files/5717/6952/7411/PB22011_CF_Parts.pdf"
+    },
+    {
+      "part": "Aurora GE20ES-2RS",
+      "name": "Additional source for selected spherical bearing",
+      "role": "Availability supplement to the bearing record in joint-components.json.",
+      "availability": "Motion lists the exact Aurora part, but stock quantity and shipment date remain unconfirmed.",
+      "availability_as_of": "2026-10-19",
+      "fit_status": "Keep Aurora geometry and ratings together. Full-coach supply is not secured.",
+      "source_url": "https://www.motion.com/products/sku/01807848"
+    }
+  ],
+  "no_actions": "No supplier contact, quotation request, account action or purchase was made."
+}

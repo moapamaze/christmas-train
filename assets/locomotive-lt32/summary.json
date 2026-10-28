@@ -1,0 +1,126 @@
+{
+  "issue": "LT32",
+  "mass": {
+    "prior_kg": 16133.448776971685,
+    "removed_reserve_kg": 100,
+    "added_loco_kg": 384.79580863256876,
+    "new_kg": 16418.244585604254,
+    "before": {
+      "mass_kg": 16133.448776971685,
+      "cg_mm": [
+        5450.02501298971,
+        -1.5261294668280696,
+        1208.2729379514394
+      ]
+    },
+    "after": {
+      "mass_kg": 16418.244585604254,
+      "cg_mm": [
+        5540.02820588197,
+        -1.6163928143447333,
+        1205.2046208319114
+      ]
+    },
+    "coach_new_hardware_and_shared_kg": 179.71919277789306,
+    "shared_hardware_total_kg": 43.723359904326394,
+    "basis": "Combined LT31 installation and rear connection. Replace COUPLER reserve; retain old train pipes only to X10600. Rear extensions separately modeled. Coach hardware is separately listed, not locomotive mass. Coach replaced front hitch masses not subtracted here; no net coach mass claim."
+  },
+  "normal": {
+    "mass_kg": 16418.244585604254,
+    "count": 504,
+    "converged": 504,
+    "within_model": 504,
+    "capacity_flag_count": 309,
+    "min_wheel_N": 3593.822169906609,
+    "max_bumper_N": 5892.142962453562,
+    "max_rebound_N": 6335.031136496307,
+    "max_link_N": 22887.13025519644,
+    "max_primary_mapping_error_mm": 0.032387551477611964,
+    "max_rebound_mapping_error_mm": 0.0366107058465559,
+    "min_exact_rebound_gap_mm": -0.02420574493890526,
+    "min_slide_margin_mm": 7.828600119096734,
+    "min_roll_capture_margin_mm": 13.4597862278298,
+    "max_bearing_angle_deg": 2.625102194573826,
+    "max_link_angle_deg": 2.7820467046985033,
+    "historical_default_regression_max_coordinate_error": 0.0
+  },
+  "connection": {
+    "parts": 5612,
+    "poses": 189,
+    "minimum": {
+      "step": {
+        "gap": 294.81180437696185,
+        "parts": [
+          "L32-BP-FIXED-GUARD",
+          "LOCO-N11-STEP-1-3"
+        ],
+        "pose": {
+          "radius": 0,
+          "hand": 1,
+          "heave": -50,
+          "pitch": -2,
+          "roll": -2
+        }
+      },
+      "body": {
+        "gap": 583.9716955131098,
+        "parts": [
+          "COACH-BOARDING-CB1-END-TOP",
+          "LOCO-N11-CABSIDE-1"
+        ],
+        "pose": {
+          "radius": 30,
+          "hand": -1,
+          "heave": -50,
+          "pitch": 2,
+          "roll": 2
+        }
+      },
+      "route": {
+        "gap": 12.507331875008063,
+        "route": "L32-BP-YAW",
+        "obstacle": "L32-BP-FIXED-GUARD",
+        "pose": {
+          "radius": 30,
+          "hand": -1,
+          "heave": -50,
+          "pitch": -2,
+          "roll": -2
+        }
+      },
+      "betweenLines": {
+        "gap": 635.9999999999998,
+        "routes": [
+          "L32-BP-VERTICAL",
+          "L32-FP-VERTICAL"
+        ],
+        "pose": {
+          "radius": 45,
+          "hand": -1,
+          "heave": 0,
+          "pitch": -2,
+          "roll": -2
+        }
+      },
+      "radius": {
+        "gap": 70.27316869940076,
+        "route": "L32-BP-YAW",
+        "pose": {
+          "radius": 30,
+          "hand": -1,
+          "heave": -50,
+          "pitch": -2,
+          "roll": -2
+        }
+      }
+    },
+    "route_conflicts": 0,
+    "support_conflicts": 0,
+    "step_body_conflicts": 0
+  },
+  "service_paths": 7,
+  "installation_tools": 10,
+  "rear_service_checks": 8,
+  "pivot_conditional_margin_mm": 3.955232589,
+  "fabrication_release": false
+}

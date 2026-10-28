@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="972pt" height="410.4pt" viewBox="0 0 972 410.4" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-21T20:02:49.372806</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 410.4
+L 972 410.4
+L 972 0
+L 0 0
+z
+" style="fill: #fafcfb"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 107.1 271.01088
+L 864.9 271.01088
+L 864.9 181.5696
+L 107.1 181.5696
+z
+" clip-path="url(#p27476ca197)" style="fill: #dce8e2; stroke: #dce8e2; stroke-linejoin: miter"/>
+   </g>
+   <g id="PathCollection_1">
+    <defs>
+     <path id="m016ea7d216" d="M 0 5
+C 1.326016 5 2.597899 4.473168 3.535534 3.535534
+C 4.473168 2.597899 5 1.326016 5 0
+C 5 -1.326016 4.473168 -2.597899 3.535534 -3.535534
+C 2.597899 -4.473168 1.326016 -5 0 -5
+C -1.326016 -5 -2.597899 -4.473168 -3.535534 -3.535534
+C -4.473168 -2.597899 -5 -1.326016 -5 0
+C -5 1.326016 -4.473168 2.597899 -3.535534 3.535534
+C -2.597899 4.473168 -1.326016 5 0 5
+z
+" style="stroke: #b17b34"/>
+    </defs>
+    <g clip-path="url(#p27476ca197)">
+     <use xlink:href="#m016ea7d216" x="721.868301" y="256.104" style="fill: #b17b34; stroke: #b17b34"/>
+    </g>
+   </g>
+   <g id="line2d_1">
+    <path d="M 107.1 256.104
+L 864.9 256.104
+" clip-path="url(#p27476ca197)" style="fill: none; stroke: #738a81; stroke-width: 3; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_2">
+    <path d="M 107.1 270.5968
+L 107.1 241.6112
+" clip-path="url(#p27476ca197)" style="fill: none; stroke: #17364a; stroke-width: 2; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_3">
+    <path d="M 486 270.5968
+L 486 241.6112
+" clip-path="url(#p27476ca197)" style="fill: none; stroke: #17364a; stroke-width: 2; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_4">
+    <path d="M 864.9 270.5968
+L 864.9 241.6112
+" clip-path="url(#p27476ca197)" style="fill: none; stroke: #17364a; stroke-width: 2; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_5">
+    <path d="M 721.868301 278.8784
+L 721.868301 222.9776
+" clip-path="url(#p27476ca197)" style="fill: none; stroke: #b17b34; stroke-width: 4; stroke-linecap: square"/>
+   </g>
+   <g id="text_1">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle" x="107.1" y="289.2304" transform="rotate(-0 107.1 289.2304)">-10 mm</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle" x="486" y="289.2304" transform="rotate(-0 486 289.2304)">+0 mm</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle" x="864.9" y="289.2304" transform="rotate(-0 864.9 289.2304)">+10 mm</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'; fill: #8d6027" transform="translate(669.155957 199.272806)">Calculated position</text>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'; fill: #8d6027" transform="translate(689.051348 211.5904)">+6.225 mm</text>
+   </g>
+   <g id="patch_3">
+    <path d="M 726.107895 178.464
+Q 793.385271 178.464 860.662647 178.464
+" style="fill: none; stroke: #b17b34; stroke-width: 2; stroke-linecap: round"/>
+    <path d="M 730.507895 180.664
+L 726.107895 178.464
+L 730.507895 176.264
+" style="fill: none; stroke: #b17b34; stroke-width: 2; stroke-linecap: round"/>
+    <path d="M 856.262647 176.264
+L 860.662647 178.464
+L 856.262647 180.664
+" style="fill: none; stroke: #b17b34; stroke-width: 2; stroke-linecap: round"/>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'; fill: #8d6027" transform="translate(765.176026 149.583206)">3.775 mm</text>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'; fill: #8d6027" transform="translate(747.912901 161.9008)">travel remaining</text>
+   </g>
+   <g id="text_6">
+    <text style="font-weight: 700; font-size: 15px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #17364a" x="69.21" y="106" transform="rotate(-0 69.21 106)">Main pivot sleeve · retained ±10 mm travel assumption</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #52665f" x="69.21" y="328.568" transform="rotate(-0 69.21 328.568)">The remaining travel is a geometric budget. Wear, tolerances, flex and supplier articulation limits are not deducted.</text>
+   </g>
+  </g>
+  <g id="text_8">
+   <text style="font-weight: 700; font-size: 17px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #17364a" x="77.76" y="21.125344" transform="rotate(-0 77.76 21.125344)">LT26-S01 · Pivot travel governs the next connection review</text>
+  </g>
+  <g id="text_9">
+   <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #52665f" x="77.76" y="375.516" transform="rotate(-0 77.76 375.516)">Governing pose: front-heavy/all_coach_loss_0.7_demand/twist_right/left · Front truck</text>
+  </g>
+  <g id="text_10">
+   <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #52665f" x="77.76" y="396.036" transform="rotate(-0 77.76 396.036)">Travel axis shown to an enlarged graphical scale · no new attachment dimensions · no fabrication release</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p27476ca197">
+   <rect x="31.32" y="69.768" width="909.36" height="279.504"/>
+  </clipPath>
+ </defs>
+</svg>

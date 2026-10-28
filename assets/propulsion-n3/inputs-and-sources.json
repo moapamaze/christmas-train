@@ -1,0 +1,26 @@
+{
+  "issue":"PF-3N3-ALT-R0",
+  "checked_utc":"2026-10-19",
+  "role":"Alternative screening only; hydrostatic remains development lead, not selected/approved hardware",
+  "shared_basis":"../propulsion-n1/inputs.json",
+  "comparison_mass_kg":65100,
+  "grade_percent":0,
+  "running_coefficient":0.005,
+  "starting_coefficient":0.010,
+  "extra_resistance_N":2000,
+  "speed_probes_mph":[5,7.5],
+  "shared_auxiliary_normalization_kW":10,
+  "auxiliary_warning":"Shared10kW only normalizes comparisons; actual alternatives have different auxiliaries. Hotel loads excluded in every case.",
+  "mechanical_locked_efficiency_probes":[0.85,0.90,0.95],
+  "electric_efficiency_probes":{"generator":0.90,"rectifier":0.98,"inverter":0.97,"motor":0.92,"gear":0.95},
+  "efficiency_warning":"All alternative-chain efficiencies are analyst assumptions, not supplier ratings, maps or fuel-consumption promises. Locked mechanical efficiency cannot represent converter launch/crawl.",
+  "electric_gearing_probe":{"motor_base_rpm":6500,"wheel_diameter_mm":600,"gear_efficiency":0.95,"top_speed_mph":7.5,"rated_torque_reference_Nm":78.6,"peak_torque_reference_Nm":173,"reference_model":"Parker GVM210-100-SPW at320V from manufacturer catalog; exact current configuration/drive match unconfirmed"},
+  "sources":[
+    {"id":"N3-S01","authority":"Carraro","title":"Current Construction solutions product table","url":"https://www.carraro.com/en/solutions-and-services/construction","publication_date":"not stated","locator":"Backhoe torque-converter transmission table","verified":"TCB80 2WD/TCB80 appear in50–82kW engine-power application band.","not_verified":["specific rail duty approval","input torque/speed limits","converter maps","ratios","cooling loss","Kubota housing match","current stock"]},
+    {"id":"N3-S02","authority":"Parker","title":"Global Vehicle Motor catalog","url":"https://www.parker.com/content/dam/Parker-com/Literature/SSD-Drives/Literature/192_300108_GVM_catalogue.pdf","publication_date":"2015-10","document":"192-300108N4","locator":"printed page10/PDFpage10 high-voltage liquid-cooled table; page11 high-voltage drive association note","verified":{"model":"GVM210-100-SPW","reference_bus_VDC":320,"rated_torque_Nm":78.6,"rated_power_kW":53.5,"rated_speed_rpm":6500,"peak_torque_Nm":173,"rated_current_Arms":166,"peak_current_Arms":418.1,"maximum_speed_rpm":8000,"coolant_inlet_condition_C":65},"warning":"This is manufacturer-published historical detail still hosted today, not proof of current exact-order availability, matched inverter or standstill torque. Current detail required before selection."},
+    {"id":"N3-S03","authority":"Parker","title":"GVM technical manual hosted by Parker Japan","url":"https://www.parker.com/content/dam/Parker-com/Literature/Japan/Calalog/MSG/GVM-manual-EU.pdf","publication_date":"technical content2020-07; Japanese issue2021-08","locator":"PDFpage20 high-voltage table","verified":"Same GVM210-100-SPW 320V/78.6Nm/53.5kW/6500rpm values; qualified optimal inverter association and65C coolant condition retained.","warning":"Later hosted manual corroborates catalog, but not a2026 order-code confirmation."},
+    {"id":"N3-S04","authority":"Parker","title":"Current GVM product page","url":"https://discover.parker.com/GVM","publication_date":"not stated","verified":"GVM210 family currently listed for mobile motor/generator applications.","retrieval_limit":"Current catalog links returned a redirect fetch error in this review. No claim that historical winding data were confirmed against the latest catalog."},
+    {"id":"N3-S05","authority":"Parker","title":"GVI mobile motor controllers","url":"https://discover.parker.com/GVI","publication_date":"not stated","verified":"GVI075 is advertised as75kW continuous liquid cooled controller family.","warning":"Power alone does not demonstrate320V bus, motor-current/frequency/resolver, regeneration or rail compatibility. No specific GVI/GVM pairing selected."},
+    {"id":"N3-S06","authority":"Kubota and Danfoss","title":"Recovered hydrostatic candidate sources","url":"https://engine.kubota.com/products/detail?id=212&ln=en","project_source_register":"../propulsion-n1/sources.json","use":"Gross intermittent engine power and documented H1P/H1B family limits; no continuous-duty acceptance."}
+  ]
+}

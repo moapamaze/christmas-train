@@ -1,0 +1,152 @@
+
+Insulated machinery tender · Pulsipher Farms
+Skip to content
+PF
+PULSIPHER FARMS
+TRAIN DESIGN WORKSHOP
+Coaches
+Coach power
+Engineering
+Current power layout: LT45.1.
+ Existing AIE engine plus separate Kubota-powered 35 kW continuous generator target. 
+Open current tender →
+CURRENT TENDER DEVELOPMENT · LT44
+Tender frame, connections and power-package fit →
+ Six proposed service zones, coupling load transfer and a catalog height conflict. 
+Calculations and remaining work →
+LT43.1 · ENCLOSURE DEVELOPMENT · 24 OCTOBER 2026
+An insulated coal-style machinery tender.
+The tender carries the power equipment, diesel tank, hydraulic reservoir and oil cooler behind a coal-style enclosure. The cab and driven wheels remain in the locomotive. A combined diesel package for hydraulic traction, brake air and electricity is being investigated separately; its final arrangement is still open.
+Layout & 3D
+Insulation
+Connections
+Weight & checks
+Power package under selection.
+ The exterior is shown first. The cutaway and calculation records retain the earlier Kubota plus separate-generator arrangement as a comparison only. Mounts, ventilation and final car dimensions will follow the selected combined package.
+4.2 × 2.6 m
+Trial tender body footprint, about 13 ft 9 in × 8 ft 6 in. Service access and cooling may change this.
+50 mm lining
+About 2 inches reserved for heat and sound insulation. Complete panel construction and performance remain unselected.
++5.8 m / 19 ft
+Trial increase in coupled train length. Includes a 5 m tender pin spacing and the additional 0.8 m coupling span.
+Tender exterior & cutaway
+The exterior opens first. Use the tabs to inspect the earlier equipment layout, insulation or the tender beside the train.
+Exterior
+Cutaway
+Insulation
+With train
+3D
+Side
+Top
+Fit
+−
++
+Loading the tender exterior…
+Viewer options
+Reload view
+The wheelsets and trucks reuse coach geometry as a development reference; tender capacity, springs and brakes remain open. The body footprint remains 4.2 × 2.6 m. The upper cover and exterior handles extend the earlier equipment-box envelope; final overall dimensions and moving clearance require a fresh check. The cover represents formed material over a sealed roof, not loose coal.
+Earlier equipment plan and space allowances
+This plan preserves the previous two-engine comparison. The combined power unit is being selected in a separate workstream.
+TOP VIEW · equipment core envelopes · front toward locomotive at left
+Kubota package
+handedness allowance
+Pump
+Generator
+own diesel engine
+Diesel tank
+150 L target
+Hydraulic
+reservoir
+Oil cooler
+Brake
+compressor
+space
+Panel
+600 mm trial access aisle
+not an accepted service clearance
+4200 mm body length
+2600 mm body width
+50 mm perimeter lining space. Core geometry only; supports, vent sizing, openings and final partitions require development.
+Earlier equipment allowances — pending package selection
+Equipment
+Working provision
+Still to establish
+Kubota & pump
+Retain the quoted V3307 package and H1P045 investigation; relocate the package together.
+Exact package hand, pump order code, drive loads, new mounts and remote engine controls.
+Generator
+PowerTech PTI-30SI core envelope, 30 kW; 30–35 kW planning range.
+Final HVAC input, hot-weather derating, service clearance, airflow and load steps. No purchase selection.
+Diesel tank
+Existing 150 L working-volume target and 600 × 700 × 500 mm box retained for the first layout.
+Runtime for both engines; usable volume, ullage, baffles, protected fill/vent and independent feed/return circuits. Box volume is not tank capacity.
+Hydraulic reservoir
+Existing 600 × 600 × 450 mm space; located near the pump.
+Actual operating fill, deaeration, suction conditions, baffles and expansion. The old 100 L allowance is total-system oil, not a 100 L reservoir fill.
+Hydraulic cooler
+Retained 1050 × 170 × 1000 mm side-mounted space, with independent airflow provision.
+Heat rejection, fan demand, oil-temperature target, cold-oil bypass and case-pressure limits. Additional long-line losses belong in this calculation.
+Brake compressor
+Space reserved in the tender with the traction engine.
+Actual mechanically driven compressor, Kubota drive approval, idle output, treatment and complete air circuit. The former E-Bull/VFD candidate is not installed here.
+Insulated for heat and noise
+Reserve 
+50 mm of noncombustible mineral-wool lining
+ in the walls, removable coal-effect cover and service doors. Protect the lining with an oil-resistant acoustic facing and perforated metal inner panels. Seal panel joints with an appropriate temperature-rated system and keep insulation secured against vibration. This is a construction approach to develop, not a selected fire-rated assembly or a promised noise reduction.
+Keep cooling passages open:
+ engine radiator intake, engine hot-air outlet, generator base intake/discharge, and hydraulic-cooler air supply/discharge must be sized independently. Baffled vents add resistance that must be included.
+Separate exhaust protection:
+ exhaust pipes, DOC and mufflers need their own shields and supplier clearances; lining thickness does not substitute for those clearances. Tailpipe termination must avoid the cab and coach intakes.
+Keep the spill floor serviceable:
+ use a cleanable metal spill-control surface, with no exposed absorbent lining on the floor. Provide appropriate containment and controlled servicing of leaks.
+Retain access:
+ removable insulated panels, vibration isolation, tank inspection and an equipment removal path. The shown 600 mm aisle is a space allowance, not proof of every service operation.
+ROCKWOOL engine-room acoustic facing
+ illustrates oil-resistant acoustic protection with perforated cladding. Its marine approval does not establish approval of this train enclosure. 
+PowerTech's airflow arrangement
+ must remain functional inside the additional enclosure.
+Connections follow the new equipment locations
+System
+Connection to develop
+Required check
+Traction hydraulics
+Tender pump A/B loop → flexible locomotive/tender interface → retained locomotive motors; separate low-pressure motor case return to tender reservoir.
+Pressure drop, charge pressure, additional oil volume, case backpressure, bend/twist and simultaneous coupling/suspension movement. No driveshaft spans the coupling.
+Reservoir & cooling
+Short reservoir-to-charge-pump suction; selected filtration, flushing/cooling return and separate permitted case returns.
+Final circuit topology, cold oil, cleanliness and bypass. Do not force case drains through an unverified restrictive cooler.
+Diesel
+Common baffled tank with dedicated supply, filtration and return provisions for each engine.
+Lift/return limits, isolation, fuel compatibility, fill/vent routing and combined endurance.
+Brakes & controls
+Tender compressor/treatment → protected train air system; engineer commands and independent emergency-stop functions across the connection.
+New tender brakes, reservoir sizing, loss-of-link response and breakaway behavior. Existing vehicle reserves are not consolidated without brake-system approval.
+Coach power
+Generator → protected tender distribution → moving feeder connections to four coaches.
+Electrical protection, bonding, load sequencing, disconnects, strain relief and movement. Cab controls remain at the engineer's station.
+Danfoss transmission guidance
+ identifies long-line, charge-pressure and case-drain considerations. The 3D interface markers are intentionally labeled boundaries; no unqualified hose route is presented as complete.
+Earlier packaging checks and remaining work
+These LT43 results apply to the earlier equipment boxes and mass allowances. They do not validate the revised exterior, reference trucks or a future combined power unit. LT43.1 changes the visible enclosure and presentation; no new structural or operating release is claimed.
+The eight main equipment core boxes do not overlap within this trial body. That check excludes installation clearances, fittings, thermal performance and full suspension movement.
+The partial ledger relocates 
+959 kg
+ of existing machinery, tank and fluid allowances and adds the 
+516 kg
+ generator candidate: 
+1,475 kg (about 3,250 lb) of equipment allowances
+ before the tender frame, running gear, new compressor, panels, insulation and connections. This is not a complete tender weight. The earlier 50.6 kg electric compressor/VFD allocation is retired separately.
+Driven-wheel weight falls about 6.5% in the partial static comparison.
+ The locomotive changes from 16.81 t to 15.80 t before new connection hardware; front-truck body support drops from about 2,563 kg to 1,712 kg. All static axle reactions remain positive in this limited screen. Adhesion on wet rail, spring preload, dynamic movement and braking are not accepted by this result. Moving propulsion to the tender is a separate architecture option if the retained-drive arrangement proves unsuitable.
+The new 5.8 m train-length increment must be included in the turnaround, depot and coupling checks. No previous LT42 clearance result is claimed for the inserted tender. Next: select the cooling/tank/compressor packages, complete a wet-mass ledger, resolve the flexible hydraulic interface, and rerun the coordinated movement and braking calculations.
+Calculation records and history
+LT43 equipment and enclosure space record
+ · 
+Partial mass and core-fit calculation record
+ · 
+Current climate and LED allowance
+ · 
+Earlier LT42 installation and unresolved supplier work
+No purchase, fabrication or operating release. Previous model revisions remain available as history.
+LT43.1 · Insulated coal-style tender · Development geometry
+Project overview

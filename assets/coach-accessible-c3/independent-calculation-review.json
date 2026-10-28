@@ -1,0 +1,70 @@
+{
+  "revision": "C3-INDEPENDENT-CALCULATION-REVIEW-R0",
+  "reviewed_utc": "2026-10-19T18:38:00.856013+00:00",
+  "status": "ARITHMETIC_AND_EQUILIBRIUM_REVIEW_ONLY_NOT_DESIGN_ACCEPTANCE",
+  "input_files": [
+    {
+      "path": "foundation-screen.json",
+      "sha256": "8c959337e985781b6af7bfae4a4188a5bd79e835a8b243ac2bdd81d4f0189cb4"
+    },
+    {
+      "path": "foundation_screen.py",
+      "sha256": "288b7a298dc0a991dc754330e7a04dc828d152c504634958334e8c7970127818"
+    },
+    {
+      "path": "mechanism-calculations.json",
+      "sha256": "23d0a630a0452c580bf04ea9f21b0bffe9b33a30e9ef31cedd6bb2715fad104c"
+    },
+    {
+      "path": "calculate_mechanism.py",
+      "sha256": "84ea125aa8453bd82705226601d9d28bb641b6dfa35aa8f34b46008c82940ee1"
+    }
+  ],
+  "inputs_unchanged_during_audit": true,
+  "scope": "Independent vector wrench reconstruction for foundation feet and rails; nominal bolt-group recovery; mechanism stop statics and pin section arithmetic. No finite-element, contact, weld, material or physical validation.",
+  "foundation_load_count": 33,
+  "foundation_foot_case_count": 198,
+  "max_absolute_residuals": {
+    "paired_foot_force_N": 4.547473508864641e-13,
+    "paired_foot_moment_Nm": 2.2737367544323206e-13,
+    "rail_force_N": 2.2737367544323206e-13,
+    "rail_bending_Nm": 2.2737367544323206e-13,
+    "rail_torsion_Nm": 5.684341886080802e-14,
+    "rail_moment_translation_Nm": 0,
+    "post_moment_translation_Nm": 0,
+    "signed_bolt_wrench_force_N": 2.7284841053187847e-12,
+    "signed_bolt_wrench_moment_Nm": 2.2737367544323206e-13,
+    "mechanism_stop_force_lbf": 0,
+    "mechanism_stop_moment_lbf_in": 0,
+    "pin_bending_psi": 0,
+    "pin_average_shear_psi": 0
+  },
+  "arithmetic_residual_check_pass": true,
+  "foundation_envelope_reviewed": {
+    "max_ideal_bolt_tension_N": 13053.296900390627,
+    "max_bolt_shear_N": 1147.8547785014478,
+    "max_post_gross_stress_MPa": 238.50203809711107,
+    "max_rail_normal_MPa": 93.34066146017626,
+    "max_rail_full_torque_shear_MPa": 22.705821503895294,
+    "max_rail_von_mises_MPa": 93.39890692932367,
+    "max_rail_end_vertical_abs_N": 6277.210017993357,
+    "max_rail_end_horizontal_abs_N": 947.9518446180555,
+    "max_rail_one_end_torque_Nm": 662.305515279297,
+    "max_rail_both_fixed_twist_deg": 0.08051925102805042
+  },
+  "resolved_findings": [
+    "Initial mechanism handoff used old longitudinal bolt spacing. Author withdrew duplicate bolt results and made the foundation file canonical; final integrated CAD synchronization remains to be checked.",
+    "Initial foundation verification claimed rail equilibrium without assertions. Author added explicit all-force/three-moment/rail assertions; independent vector reconstruction performed here.",
+    "Initial foundation centerline-only loading omitted transverse occupancy sensitivity. Author added occupantCG offset plus front/back comparison offsets; revised demand envelope is higher.",
+    "Initial stop screen used only the contact-land centroid. Author added near-edge resultant sensitivity and shifted the land to localX1.0..1.5in with nominal1.25in arm; CAD reconciliation remains necessary."
+  ],
+  "limitations": [
+    "Linear tributary load shares and roll partitions are sensitivity assumptions, not solved connection or frame stiffness. Cases do not establish a universal worst distribution.",
+    "The plate prying multipliers are unverified sensitivity factors. Gross-strip stresses below material yield do not mean joint acceptance or define allowable passenger loads.",
+    "Nominal stoparm1.25in assumes a contact resultant. Near-edge contact at1.0in raises reaction; the full land cannot simultaneously be assumed uniformly loaded in that edge-contact case. Actual contact stress remains unresolved.",
+    "Pin calculations are nominal center-force beam/average double-shear screens; notch, fits, retainer, edge effects, contact, fatigue and wear are excluded.",
+    "Post/rail/member gross screens omit local attachment, weld and wall resistance; final CAD dimensions and masses must be reconciled before reuse.",
+    "Wheelchair clearances, actual device maneuvering, companion alignment, guards and mechanism sweep are separate geometry and human-factors reviews."
+  ],
+  "release_claim": false
+}

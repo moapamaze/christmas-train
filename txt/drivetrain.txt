@@ -1,0 +1,546 @@
+DT5 · Powered axle mounting drawings
+DT5 R1 · Motor moved inward · bearing and coupling section
+Motor mount, axlebox and drive
+The motor mounting face moves inward127mm, with a shorter geared coupling and revised carrier. New section drawings connect the axle, bearing stack, recessed retainers and motor. The motor moves and tilts with the axle.
+Rotate / explode assemblyMounting drawingsIndividual partsCalculations and supplier holds
+Development assembly: purchased component candidates and nominal custom parts. Custom hub approval, bearing setting, structural ratings and final hose/brake clearances remain open. Supplier confirmation comes before fabrication.
+Explore the mounting assembly
+Use separate suspension sliders to see axle roll. Cutaway hides the near wheel, a carrier web and the guards. Purchased parts are simplified catalog envelopes. Amber brake and spring spaces are reservations, not selected parts.
+Dimensioned drawings
+Powered axle assembly
+DT5-A01 · nominal dimensions in mmEnlarge drawing
+Motor carrier and torque reaction
+DT5-M01 · nominal dimensions in mmEnlarge drawing
+Bearings and pivoting axlebox
+DT5-B01 · nominal dimensions in mmEnlarge drawing
+Coupling, hubs and guard
+DT5-C01 · nominal dimensions in mmEnlarge drawing
+Hydraulic connections and travel
+DT5-H01 · nominal dimensions in mmEnlarge drawing
+Connected axle, bearing and coupling section
+DT5-S01 · nominal dimensions in mmEnlarge drawing
+Motor fit through curves
+DT5-F01 · nominal dimensions in mmEnlarge drawing
+What keeps the motor from rotating?
+The motor flange bolts to the carrier. Its reaction torque passes through the carrier into the pivoting axlebox cradle and then through two vertically separated guide pads into the truck frame. The fore–aft trunnions allow axle roll while restraining motor rotation about the axle. The coupling transmits shaft torque to the axle; it does not carry the locomotive’s weight.
+Individual parts and dimensions
+Select a CAD part above or expand the parts schedule below. Nominal dimensions describe this study, not approved machining tolerances.Open 171-part schedule
+ | Part
+ | Description
+ | Dimensions / remaining detail
+ | AX01
+ | Stepped axle candidate
+ | Ø140 wheel seats, Ø90 bearing seats, Ø80 drive extension toY820; M12 end retention. Root fillets, press fits, thread/key fatigue and steel specification held.
+ | WH-1
+ | Ø1000 wheel blank
+ | 100 wide; nominal wheel reference, no released rail profile or fit.
+ | BX-1
+ | Stepped bearing cartridge
+ | Ø200 ×110, cup seatsØ140; central Ø130 opening atY638..662 supports cup backs. Nominal shoulders; fit/cold setting and fillets held.
+ | BR-1_0
+ | SKF32018X cone interface proxy
+ | 90 journal; coneB32. Large rib outward. Radial outline simplified, not actual race or cage CAD.
+ | BC-1_0
+ | SKF32018X cup interface proxy
+ | 140 seat, cupC24; Y614..638 /662..686. Full catalog bearing mass allocated half to each proxy.
+ | BR-1_1
+ | SKF32018X cone interface proxy
+ | 90 journal; coneB32. Large rib outward. Radial outline simplified, not actual race or cage CAD.
+ | BC-1_1
+ | SKF32018X cup interface proxy
+ | 140 seat, cupC24; Y614..638 /662..686. Full catalog bearing mass allocated half to each proxy.
+ | SP-1
+ | Matched inner spacer blank
+ | Ø98/90×24 nominal; measured final length establishes setting with actual cup/cone stand and fits. No endplay value released.
+ | IC-1
+ | Inboard removable thrust collar
+ | Ø108/90×16. Install gland and100mm seal first, then collar against integral100→90 axle shoulder atY590.
+ | OC-1
+ | Outboard thrust / seal collar
+ | Ø108 at694..700; groundØ100 seal track700..724. Rotating washer724 leaves2mm from outer gland keeper722.
+ | CV-1_0
+ | Inboard cup/seal gland
+ | Ø220 flange; cup-contact noseØ140/136. Inner seal seat570..582; outer706..718. Nose lengths and matched bearing setting require review.
+ | CV-1_1
+ | Outboard cup/seal gland
+ | Ø220 flange; cup-contact noseØ140/136. Inner seal seat570..582; outer706..718. Nose lengths and matched bearing setting require review.
+ | CB-1_0
+ | M12 fastener
+ | Nominal M12 ×40; grade, preload, thread engagement and locking require joint calculation.
+ | CB-1_1
+ | M12 fastener
+ | Nominal M12 ×140; grade, preload, thread engagement and locking require joint calculation.
+ | CB-1_2
+ | M12 fastener
+ | Nominal M12 ×40; grade, preload, thread engagement and locking require joint calculation.
+ | CB-1_3
+ | M12 fastener
+ | Nominal M12 ×140; grade, preload, thread engagement and locking require joint calculation.
+ | CB-1_4
+ | M12 fastener
+ | Nominal M12 ×40; grade, preload, thread engagement and locking require joint calculation.
+ | CB-1_5
+ | M12 fastener
+ | Nominal M12 ×140; grade, preload, thread engagement and locking require joint calculation.
+ | CB-1_6
+ | M12 fastener
+ | Nominal M12 ×40; grade, preload, thread engagement and locking require joint calculation.
+ | CB-1_7
+ | M12 fastener
+ | Nominal M12 ×140; grade, preload, thread engagement and locking require joint calculation.
+ | SE-1_0
+ | SKF100X130X12 HMSA10RG
+ | Seal lip onØ100 land/collar; supplier surface, lubrication and thermal limits held.
+ | SK-1_0
+ | Seal keeper plate
+ | Ø148/102×2; fourM6 holes on140PCD. Inboard keeper fitted on bench before gland installation; thread/head details held.
+ | SE-1_1
+ | SKF100X130X12 HMSA10RG
+ | Seal lip onØ100 land/collar; supplier surface, lubrication and thermal limits held.
+ | SK-1_1
+ | Seal keeper plate
+ | Ø148/102×2; fourM6 holes on140PCD. Inboard keeper fitted on bench before gland installation; thread/head details held.
+ | MB-1
+ | SKFMB18 lock washer
+ | 90ID/126OD/1.75 atY724; tang/keyway geometry held.2mm stationary keeper gap.
+ | KM-1
+ | SKFKM18 locknut
+ | M90×2,120OD×16 ending741.75. Nut clamps cone/spacer/collar stack; measured bearing setting still required.
+ | GM-1
+ | Roll-following trunnion sleeve
+ | Drive end axially captured; opposite end requires ±8 mm complete-cartridge float and sliding antirotation key. Fits/stops held.
+ | AK-1
+ | Sliding cartridge antirotation key
+ | 8×60×6 study key; sleeve slot10×90×8. Non-drive key allows complete-cartridge axial float.
+ | AS-1_0
+ | Floating cartridge stop spacer
+ | Drive captured; non-drive total16mm nominal travel (±8). Stop anchorage, fits and wear acceptance held.
+ | AS-1_1
+ | Floating cartridge stop spacer
+ | Drive captured; non-drive total16mm nominal travel (±8). Stop anchorage, fits and wear acceptance held.
+ | TP-1_-1
+ | Ø60 roll trunnion
+ | 56 mm projection; integral/retained pin joint and root fillet require fatigue review.
+ | TB-1_-1
+ | SKF GE60 ES-2RS
+ | 60×90; inner44/outer36. Complete plain-bearing proxy. Rotation about pin follows axle roll; grease access required.
+ | CC-1_-1
+ | Slider cradle cheek
+ | 36 mm nominal plate, Ø90 trunnion bearing housing. Fit, outer-ring cover and thrust restraint not released.
+ | TC-1_-1
+ | Trunnion retention cap
+ | 12 mm nominal ring; M10 keeper pattern and axial thrust setting held.
+ | WP-1_-1_-1
+ | Replaceable guide wear pad
+ | 65-high pad; 220 mm reaction separation. Material, lubrication, working clearances and wear adjustment held.
+ | WP-1_-1_1
+ | Replaceable guide wear pad
+ | 65-high pad; 220 mm reaction separation. Material, lubrication, working clearances and wear adjustment held.
+ | HG-1_-1
+ | Fixed horn guide
+ | 680 mm guide, tied to existing Y±730 frame reference. Nominal fabrication; attachment and lateral guide retention require detail.
+ | HS-1_-1
+ | Frame guide saddle
+ | Guide saddle proposal under frame; 80 mm journal inboard shift from old Y730 reference needs frame acceptance.
+ | TP-1_1
+ | Ø60 roll trunnion
+ | 56 mm projection; integral/retained pin joint and root fillet require fatigue review.
+ | TB-1_1
+ | SKF GE60 ES-2RS
+ | 60×90; inner44/outer36. Complete plain-bearing proxy. Rotation about pin follows axle roll; grease access required.
+ | CC-1_1
+ | Slider cradle cheek
+ | 36 mm nominal plate, Ø90 trunnion bearing housing. Fit, outer-ring cover and thrust restraint not released.
+ | TC-1_1
+ | Trunnion retention cap
+ | 12 mm nominal ring; M10 keeper pattern and axial thrust setting held.
+ | WP-1_1_-1
+ | Replaceable guide wear pad
+ | 65-high pad; 220 mm reaction separation. Material, lubrication, working clearances and wear adjustment held.
+ | WP-1_1_1
+ | Replaceable guide wear pad
+ | 65-high pad; 220 mm reaction separation. Material, lubrication, working clearances and wear adjustment held.
+ | HG-1_1
+ | Fixed horn guide
+ | 680 mm guide, tied to existing Y±730 frame reference. Nominal fabrication; attachment and lateral guide retention require detail.
+ | HS-1_1
+ | Frame guide saddle
+ | Guide saddle proposal under frame; 80 mm journal inboard shift from old Y730 reference needs frame acceptance.
+ | CR-1_320
+ | Cradle crossplate
+ | 20 mm plate welded to cheeks; upper plate supports spring space. Full weld group/fatigue unresolved.
+ | CR-1_700
+ | Cradle crossplate
+ | 20 mm plate welded to cheeks; upper plate supports spring space. Full weld group/fatigue unresolved.
+ | STOP-1
+ | Bolted lower axle retention beam
+ | Retains cradle at rebound. Stop contact loads and M20 fastening require calculation.
+ | SPR-1
+ | Primary spring space
+ | Ø140 ×240 installed space is NOT a selected spring or accepted LT4 rate.
+ | FR-1
+ | Truck frame reference
+ | Inherited 100-wide ×200-high rail reference; guide attachment is proposed, not accepted.
+ | WH1
+ | Ø1000 wheel blank
+ | 100 wide; nominal wheel reference, no released rail profile or fit.
+ | BX1
+ | Stepped bearing cartridge
+ | Ø200 ×110, cup seatsØ140; central Ø130 opening atY638..662 supports cup backs. Nominal shoulders; fit/cold setting and fillets held.
+ | BR1_0
+ | SKF32018X cone interface proxy
+ | 90 journal; coneB32. Large rib outward. Radial outline simplified, not actual race or cage CAD.
+ | BC1_0
+ | SKF32018X cup interface proxy
+ | 140 seat, cupC24; Y614..638 /662..686. Full catalog bearing mass allocated half to each proxy.
+ | BR1_1
+ | SKF32018X cone interface proxy
+ | 90 journal; coneB32. Large rib outward. Radial outline simplified, not actual race or cage CAD.
+ | BC1_1
+ | SKF32018X cup interface proxy
+ | 140 seat, cupC24; Y614..638 /662..686. Full catalog bearing mass allocated half to each proxy.
+ | SP1
+ | Matched inner spacer blank
+ | Ø98/90×24 nominal; measured final length establishes setting with actual cup/cone stand and fits. No endplay value released.
+ | IC1
+ | Inboard removable thrust collar
+ | Ø108/90×16. Install gland and100mm seal first, then collar against integral100→90 axle shoulder atY590.
+ | OC1
+ | Outboard thrust / seal collar
+ | Ø108 at694..700; groundØ100 seal track700..724. Rotating washer724 leaves2mm from outer gland keeper722.
+ | CV1_0
+ | Inboard cup/seal gland
+ | Ø220 flange; cup-contact noseØ140/136. Inner seal seat570..582; outer706..718. Nose lengths and matched bearing setting require review.
+ | CV1_1
+ | Outboard cup/seal gland
+ | Ø220 flange; cup-contact noseØ140/136. Inner seal seat570..582; outer706..718. Nose lengths and matched bearing setting require review.
+ | CB1_0
+ | M12 fastener
+ | Nominal M12 ×40; grade, preload, thread engagement and locking require joint calculation.
+ | CB1_1
+ | M12 fastener
+ | Nominal M12 ×140; grade, preload, thread engagement and locking require joint calculation.
+ | CB1_2
+ | M12 fastener
+ | Nominal M12 ×40; grade, preload, thread engagement and locking require joint calculation.
+ | CB1_3
+ | M12 fastener
+ | Nominal M12 ×140; grade, preload, thread engagement and locking require joint calculation.
+ | CB1_4
+ | M12 fastener
+ | Nominal M12 ×40; grade, preload, thread engagement and locking require joint calculation.
+ | CB1_5
+ | M12 fastener
+ | Nominal M12 ×140; grade, preload, thread engagement and locking require joint calculation.
+ | CB1_6
+ | M12 fastener
+ | Nominal M12 ×40; grade, preload, thread engagement and locking require joint calculation.
+ | CB1_7
+ | M12 fastener
+ | Nominal M12 ×140; grade, preload, thread engagement and locking require joint calculation.
+ | SE1_0
+ | SKF100X130X12 HMSA10RG
+ | Seal lip onØ100 land/collar; supplier surface, lubrication and thermal limits held.
+ | SK1_0
+ | Seal keeper plate
+ | Ø148/102×2; fourM6 holes on140PCD. Inboard keeper fitted on bench before gland installation; thread/head details held.
+ | SE1_1
+ | SKF100X130X12 HMSA10RG
+ | Seal lip onØ100 land/collar; supplier surface, lubrication and thermal limits held.
+ | SK1_1
+ | Seal keeper plate
+ | Ø148/102×2; fourM6 holes on140PCD. Inboard keeper fitted on bench before gland installation; thread/head details held.
+ | MB1
+ | SKFMB18 lock washer
+ | 90ID/126OD/1.75 atY724; tang/keyway geometry held.2mm stationary keeper gap.
+ | KM1
+ | SKFKM18 locknut
+ | M90×2,120OD×16 ending741.75. Nut clamps cone/spacer/collar stack; measured bearing setting still required.
+ | GM1
+ | Roll-following trunnion sleeve
+ | Drive end axially captured; opposite end requires ±8 mm complete-cartridge float and sliding antirotation key. Fits/stops held.
+ | AK1
+ | Sliding cartridge antirotation key
+ | 8×60×6 study key; sleeve slot10×90×8. Non-drive key allows complete-cartridge axial float.
+ | AS1_0
+ | Axial capture spacer
+ | Drive captured; non-drive total16mm nominal travel (±8). Stop anchorage, fits and wear acceptance held.
+ | AS1_1
+ | Axial capture spacer
+ | Drive captured; non-drive total16mm nominal travel (±8). Stop anchorage, fits and wear acceptance held.
+ | TP1_-1
+ | Ø60 roll trunnion
+ | 56 mm projection; integral/retained pin joint and root fillet require fatigue review.
+ | TB1_-1
+ | SKF GE60 ES-2RS
+ | 60×90; inner44/outer36. Complete plain-bearing proxy. Rotation about pin follows axle roll; grease access required.
+ | CC1_-1
+ | Slider cradle cheek
+ | 36 mm nominal plate, Ø90 trunnion bearing housing. Fit, outer-ring cover and thrust restraint not released.
+ | TC1_-1
+ | Trunnion retention cap
+ | 12 mm nominal ring; M10 keeper pattern and axial thrust setting held.
+ | WP1_-1_-1
+ | Replaceable guide wear pad
+ | 65-high pad; 220 mm reaction separation. Material, lubrication, working clearances and wear adjustment held.
+ | WP1_-1_1
+ | Replaceable guide wear pad
+ | 65-high pad; 220 mm reaction separation. Material, lubrication, working clearances and wear adjustment held.
+ | HG1_-1
+ | Fixed horn guide
+ | 680 mm guide, tied to existing Y±730 frame reference. Nominal fabrication; attachment and lateral guide retention require detail.
+ | HS1_-1
+ | Frame guide saddle
+ | Guide saddle proposal under frame; 80 mm journal inboard shift from old Y730 reference needs frame acceptance.
+ | TP1_1
+ | Ø60 roll trunnion
+ | 56 mm projection; integral/retained pin joint and root fillet require fatigue review.
+ | TB1_1
+ | SKF GE60 ES-2RS
+ | 60×90; inner44/outer36. Complete plain-bearing proxy. Rotation about pin follows axle roll; grease access required.
+ | CC1_1
+ | Slider cradle cheek
+ | 36 mm nominal plate, Ø90 trunnion bearing housing. Fit, outer-ring cover and thrust restraint not released.
+ | TC1_1
+ | Trunnion retention cap
+ | 12 mm nominal ring; M10 keeper pattern and axial thrust setting held.
+ | WP1_1_-1
+ | Replaceable guide wear pad
+ | 65-high pad; 220 mm reaction separation. Material, lubrication, working clearances and wear adjustment held.
+ | WP1_1_1
+ | Replaceable guide wear pad
+ | 65-high pad; 220 mm reaction separation. Material, lubrication, working clearances and wear adjustment held.
+ | HG1_1
+ | Fixed horn guide
+ | 680 mm guide, tied to existing Y±730 frame reference. Nominal fabrication; attachment and lateral guide retention require detail.
+ | HS1_1
+ | Frame guide saddle
+ | Guide saddle proposal under frame; 80 mm journal inboard shift from old Y730 reference needs frame acceptance.
+ | CR1_320
+ | Cradle crossplate
+ | 20 mm plate welded to cheeks; upper plate supports spring space. Full weld group/fatigue unresolved.
+ | CR1_700
+ | Cradle crossplate
+ | 20 mm plate welded to cheeks; upper plate supports spring space. Full weld group/fatigue unresolved.
+ | STOP1
+ | Bolted lower axle retention beam
+ | Retains cradle at rebound. Stop contact loads and M20 fastening require calculation.
+ | SPR1
+ | Primary spring space
+ | Ø140 ×240 installed space is NOT a selected spring or accepted LT4 rate.
+ | FR1
+ | Truck frame reference
+ | Inherited 100-wide ×200-high rail reference; guide attachment is proposed, not accepted.
+ | MC01
+ | Carrier axlebox backplate
+ | 350×350×20; Ø232 service opening. Eight M16 on X±145/Z380,460,540,620. Nominal bolted connection to gimbal sleeve, with cartridge retention access.
+ | MCB0
+ | M16 fastener
+ | Nominal M16 ×100; grade, preload, thread engagement and locking require joint calculation.
+ | MCB1
+ | M16 fastener
+ | Nominal M16 ×100; grade, preload, thread engagement and locking require joint calculation.
+ | MCB2
+ | M16 fastener
+ | Nominal M16 ×100; grade, preload, thread engagement and locking require joint calculation.
+ | MCB3
+ | M16 fastener
+ | Nominal M16 ×100; grade, preload, thread engagement and locking require joint calculation.
+ | MCB4
+ | M16 fastener
+ | Nominal M16 ×100; grade, preload, thread engagement and locking require joint calculation.
+ | MCB5
+ | M16 fastener
+ | Nominal M16 ×100; grade, preload, thread engagement and locking require joint calculation.
+ | MCB6
+ | M16 fastener
+ | Nominal M16 ×100; grade, preload, thread engagement and locking require joint calculation.
+ | MCB7
+ | M16 fastener
+ | Nominal M16 ×100; grade, preload, thread engagement and locking require joint calculation.
+ | MCS0
+ | Carrier standoff sleeve
+ | Ø30/18×39; compressed between gimbal and backplate by M16 fastener. Joint preload and bending remain open.
+ | MCS1
+ | Carrier standoff sleeve
+ | Ø30/18×39; compressed between gimbal and backplate by M16 fastener. Joint preload and bending remain open.
+ | MCS2
+ | Carrier standoff sleeve
+ | Ø30/18×39; compressed between gimbal and backplate by M16 fastener. Joint preload and bending remain open.
+ | MCS3
+ | Carrier standoff sleeve
+ | Ø30/18×39; compressed between gimbal and backplate by M16 fastener. Joint preload and bending remain open.
+ | MCS4
+ | Carrier standoff sleeve
+ | Ø30/18×39; compressed between gimbal and backplate by M16 fastener. Joint preload and bending remain open.
+ | MCS5
+ | Carrier standoff sleeve
+ | Ø30/18×39; compressed between gimbal and backplate by M16 fastener. Joint preload and bending remain open.
+ | MCS6
+ | Carrier standoff sleeve
+ | Ø30/18×39; compressed between gimbal and backplate by M16 fastener. Joint preload and bending remain open.
+ | MCS7
+ | Carrier standoff sleeve
+ | Ø30/18×39; compressed between gimbal and backplate by M16 fastener. Joint preload and bending remain open.
+ | MC02_-1
+ | Motor carrier side web
+ | 12×175×310; nominal continuous 6 mm fillet welds to end plates. Weld group, buckling and fatigue not released.
+ | MC02_1
+ | Motor carrier side web
+ | 12×175×310; nominal continuous 6 mm fillet welds to end plates. Weld group, buckling and fatigue not released.
+ | MC03
+ | Motor mounting plate
+ | 350×350×20; motor face Y945, Ø200 pilot opening; eight holes on265PCD. Pattern/fit needs configured OEM confirmation.
+ | MMB0
+ | M16 fastener
+ | Nominal M16 ×70; grade, preload, thread engagement and locking require joint calculation.
+ | MMB1
+ | M16 fastener
+ | Nominal M16 ×70; grade, preload, thread engagement and locking require joint calculation.
+ | MMB2
+ | M16 fastener
+ | Nominal M16 ×70; grade, preload, thread engagement and locking require joint calculation.
+ | MMB3
+ | M16 fastener
+ | Nominal M16 ×70; grade, preload, thread engagement and locking require joint calculation.
+ | MMB4
+ | M16 fastener
+ | Nominal M16 ×70; grade, preload, thread engagement and locking require joint calculation.
+ | MMB5
+ | M16 fastener
+ | Nominal M16 ×70; grade, preload, thread engagement and locking require joint calculation.
+ | MMB6
+ | M16 fastener
+ | Nominal M16 ×70; grade, preload, thread engagement and locking require joint calculation.
+ | MMB7
+ | M16 fastener
+ | Nominal M16 ×70; grade, preload, thread engagement and locking require joint calculation.
+ | HS01
+ | Axle hub shoulder spacer
+ | Ø100/80×2 separates hub from KM18; shoulder fillet/chamfer and face setting require review.
+ | CP01
+ | GEARexFA25 keyed axle hub candidate
+ | Ø80 bore; hubL76,22×14×70 key. Gear teeth not manufactured. Factory fit/key/retention rating required.
+ | KEY01
+ | Axle parallel key
+ | 22×14×70; unapproved material/keyway fatigue. Actual depths and end chamfers need joint calculation.
+ | CP03
+ | GEARexFA25 custom spline hub
+ | DIN5480 nominal55×3×17; proposed100mm counterbore825..844 and57mm spline844..901. Within catalog bore bound, but not a rated stock configuration.
+ | CP02_0
+ | GEARexFA25 sleeve reference
+ | DH213 /DH1=157; split sleeve, seal and tooth interiors simplified. Grease access/low-speed offset require KTR approval.
+ | CP02_1
+ | GEARexFA25 sleeve reference
+ | DH213 /DH1=157; split sleeve, seal and tooth interiors simplified. Grease access/low-speed offset require KTR approval.
+ | AR1
+ | Axle hub retaining plate
+ | Ø98×8; M12 countersunk seat. Plate enters motor hub100mm recess. Nominal6mm to opposing M10 head envelope; axial/fatigue rating held.
+ | AR2
+ | Axle retainer ISO10642 M12×30 candidate
+ | Head-height envelope6.7 fits8mm plate;22mm nominal shaft engagement. Class/preload/locking and retention force require review.
+ | RET1
+ | Motor thrust washer
+ | SolidØ80×3 with twoØ11 holes; no central opening. 1mm nominal gap to custom hub shoulder844. Poclain joint approval required.
+ | MR0
+ | Motor spline retaining screw M10×16
+ | 2×M10,23.8mm reference pitch;13mm nominal shaft engagement. Hardware dimensions and tightening require OEM review.
+ | MR1
+ | Motor spline retaining screw M10×16
+ | 2×M10,23.8mm reference pitch;13mm nominal shaft engagement. Hardware dimensions and tightening require OEM review.
+ | MTS
+ | MS05 spline shaft bound
+ | MS05-8-113-A05-2A50 base; simplified catalog profile, actual OEM CAD required. Motor assembly41kg allocated to body only.
+ | MNO
+ | MS05 front housing
+ | MS05-8-113-A05-2A50 base; simplified catalog profile, actual OEM CAD required. Motor assembly41kg allocated to body only.
+ | MPI
+ | MS05 Ø200 pilot
+ | MS05-8-113-A05-2A50 base; simplified catalog profile, actual OEM CAD required. Motor assembly41kg allocated to body only.
+ | MFL
+ | MS05 mounting flange
+ | MS05-8-113-A05-2A50 base; simplified catalog profile, actual OEM CAD required. Motor assembly41kg allocated to body only.
+ | MBO
+ | MS05 body reference
+ | MS05-8-113-A05-2A50 base; simplified catalog profile, actual OEM CAD required. Motor assembly41kg allocated to body only.
+ | MRE
+ | MS05 rear cover reference
+ | MS05-8-113-A05-2A50 base; simplified catalog profile, actual OEM CAD required. Motor assembly41kg allocated to body only.
+ | GD-1
+ | Split coupling guard
+ | Stepped3mm shell: neckID224, mainID260;23.5mm nominal main radial gap to213OD. Removable upper half; latch/retention details held.
+ | GD1
+ | Split coupling guard
+ | Stepped3mm shell: neckID224, mainID260;23.5mm nominal main radial gap to213OD. Removable upper half; latch/retention details held.
+ | GT-1_775
+ | Guard attachment tab
+ | 6 mm welded tab to carrier web; split guard seam and M8 captive screw detail require release.
+ | GT-1_890
+ | Guard attachment tab
+ | 6 mm welded tab to carrier web; split guard seam and M8 captive screw detail require release.
+ | GT1_775
+ | Guard attachment tab
+ | 6 mm welded tab to carrier web; split guard seam and M8 captive screw detail require release.
+ | GT1_890
+ | Guard attachment tab
+ | 6 mm welded tab to carrier web; split guard seam and M8 captive screw detail require release.
+ | RH-1_-1
+ | Rebound catch hanger
+ | 20 mm hanger connects fixed horn to removable catch beam. M20 joint and impact load held.
+ | RH-1_1
+ | Rebound catch hanger
+ | 20 mm hanger connects fixed horn to removable catch beam. M20 joint and impact load held.
+ | RH1_-1
+ | Rebound catch hanger
+ | 20 mm hanger connects fixed horn to removable catch beam. M20 joint and impact load held.
+ | RH1_1
+ | Rebound catch hanger
+ | 20 mm hanger connects fixed horn to removable catch beam. M20 joint and impact load held.
+ | BK-1
+ | Inboard brake clearance reservation
+ | Ø500×100 swept space, Y250..350. No rotor/caliper selected for locomotive; actual brake clash acceptance is blocked.
+ | BK1
+ | Inboard brake clearance reservation
+ | Ø500×100 swept space, Y250..350. No rotor/caliper selected for locomotive; actual brake clash acceptance is blocked.
+ | AD0
+ | Parker GE16SR3/4EDOMDCF
+ | Actual selected adapter family/length; cylindrical hex proxy. Port position and orientation are provisional pending OEM CAD.
+ | EN0
+ | Parker 1C977-16-8
+ | 16S24° female crimp end; catalog installation allowance modeled. Crimp assembly must be made by qualified hose shop.
+ | FC0
+ | Fixed-end hose clamp
+ | Nominal clamp on frame-supported service rail; size/lining and rail attachment held.
+ | AD1
+ | Parker GE16SR3/4EDOMDCF
+ | Actual selected adapter family/length; cylindrical hex proxy. Port position and orientation are provisional pending OEM CAD.
+ | EN1
+ | Parker 1C977-16-8
+ | 16S24° female crimp end; catalog installation allowance modeled. Crimp assembly must be made by qualified hose shop.
+ | FC1
+ | Fixed-end hose clamp
+ | Nominal clamp on frame-supported service rail; size/lining and rail attachment held.
+ | AD2
+ | Parker GE16SR3/8EDOMDCF
+ | Actual selected adapter family/length; cylindrical hex proxy. Port position and orientation are provisional pending OEM CAD.
+ | EN2
+ | Parker 1C943-16-8
+ | 16S24° female crimp end; catalog installation allowance modeled. Crimp assembly must be made by qualified hose shop.
+ | FC2
+ | Fixed-end hose clamp
+ | Nominal clamp on frame-supported service rail; size/lining and rail attachment held.
+ | HR
+ | Frame hose support rail
+ | Nominal12mm rail from existing frame to hose clamps. Fatigue and supporting brace/bolt detail held.
+ | HRP0
+ | Clamp support standoff
+ | 25×20×49 from rail936 to clamp985. Rail/braces and fastener forces remain structural holds.
+ | HRP1
+ | Clamp support standoff
+ | 25×20×49 from rail936 to clamp985. Rail/braces and fastener forces remain structural holds.
+ | HRP2
+ | Clamp support standoff
+ | 25×20×49 from rail936 to clamp985. Rail/braces and fastener forces remain structural holds.
+The STEP includes the nominal solid parts; flexible hoses are generated in the site viewer from the routing data. Optional CAD export: STEP assembly (gzip). No download is needed to review the drawings.
+Previous versions ↗ · Previous versions ↗DT5 R1 · 20 October 2026 · Development issue · No fabrication release
+DrawingClose ✕

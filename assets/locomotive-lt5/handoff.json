@@ -1,0 +1,100 @@
+{
+  "issue": "PF-LOCO-LT5-R0",
+  "date": "2026-10-20",
+  "source_base": "f827157362b2d51014a0fb0903ededb316357d72",
+  "construction_approved": false,
+  "acknowledgment": "Shared-site handoff only; no separate-chat receipt or acceptance claimed.",
+  "scope": "Locomotive frame, machinery mounts, driving station, exterior trim. Tender retained unchanged this phase.",
+  "brakes_and_wheels_modified": false,
+  "current_DT": "DT5 R1; spring-space reservation240 replaces earlier305; do not reuse archived DT3 masses/rates.",
+  "fixed_layout_basis_mm": {
+    "gauge": 914.4,
+    "frame_top_provisional": 1775,
+    "cab_finish": 1800,
+    "main_rail_centres_Y": [
+      -850,
+      850
+    ],
+    "powered_pivots_X": [
+      3300,
+      6000
+    ],
+    "engine_catalog_boundary": {
+      "X": [
+        3000,
+        3856
+      ],
+      "Y": [
+        -278.5,
+        278.5
+      ],
+      "Z": [
+        2096.7,
+        2845.7
+      ]
+    },
+    "pump_reservation": {
+      "X": [
+        3856,
+        4406
+      ],
+      "Y": [
+        -225,
+        225
+      ],
+      "Z": [
+        2096.7,
+        2596.7
+      ]
+    },
+    "seat_centres": [
+      8125,
+      1050
+    ],
+    "driver_station_Y": -1050,
+    "cooling_bay_X": [
+      4775,
+      5675
+    ]
+  },
+  "required_from_drivetrain": [
+    "Configured pump, bellhousing and coupling OEM CAD, mass/CG, input power/torque and torsional approval",
+    "Complete truck/body reactions and loaded train mass with brakes, wheelsets, motor carriers, guards and fluids",
+    "Selected springs/dampers within240mm reservation, usable jounce/rebound and actual installed lengths",
+    "Combined truck, brake, motor, hose sweep at minimum route radius and suspension extremes",
+    "Traction lever physical/interface specification; neutral/start, enable, fault, reversal and loss-of-command behavior"
+  ],
+  "required_from_brakes": [
+    "Brake controller boundary and connection type; lever stroke and operating force",
+    "Service/parking status feedback and traction-inhibit requirements; pressure system if applicable",
+    "Fail-safe behavior, emergency stop coordination and release interlocks; test acceptance criteria"
+  ],
+  "required_from_engine_supplier": [
+    "Exact engine variant/continuous derated power versus site ambient/altitude and duty",
+    "Configured engine foot pattern, shaft centre, lifting points, wet mass/CG, service/extraction envelope",
+    "Flywheel housing, coupling/pump interface and torsional compatibility",
+    "Coolant/CAC/oil heat rejection and fan performance; cooling air restrictions",
+    "DOC/DPF/regen layout, surface temperatures, allowable exhaust backpressure and shielding",
+    "Fuel supply/return/filter/vent data; ECU wiring, J1939 compatibility and start/stop/e-stop instructions"
+  ],
+  "controls_boundary": {
+    "display": "PV380-R3 engine monitoring candidate; not the sole emergency control path",
+    "power": "12V nominal control-bus proposal; alternator/battery/starter/fuses and cable sizes unresolved",
+    "traction": "Single active driver atY\u2212; other seat is conductor",
+    "signals": [
+      "Engine run/stop and fault",
+      "Keyed enable; neutral/start permissive",
+      "Traction command and loss-of-command neutral response",
+      "Service brake demand and available/released status",
+      "Parking brake applied status and drive inhibit",
+      "Independent emergency-stop request to coordinated brake/engine/drive system",
+      "Gate state; horn; forward/reverse lights; work lights",
+      "Engine speed, oil pressure, coolant temperature, charge voltage, DPF/regen status"
+    ]
+  },
+  "unresolved_route": {
+    "minimum_curve_radius_m": null,
+    "clearance_envelope": null
+  },
+  "frame_release_gate": "Complete mass/reactions, accepted suspension/clearances, structural and fatigue review, OEM mounting data. All1775-related dimensions remain coordinated provisional datums."
+}

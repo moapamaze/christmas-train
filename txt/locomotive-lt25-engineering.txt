@@ -1,0 +1,1109 @@
+LT25 · AIE engine integration · Pulsipher FarmsWhole locomotiveLT25 engine installationLT25 calculationsLT23 running gearLT24 brake / bumper evidence
+LT25 · ENGINEERING RECORD
+Supplier data, usable power and installation checks.
+This revision replaces the generic E5 engine reservation with Tony’s quoted Tier 4 Final AIE package and updates the duty and mass assumptions. Source facts, provisional design choices and unresolved supplier interfaces are separated below.
+Power budgetPump interfaceInstallationLoadsSources
+LT25 FOLLOW-UP · OCTOBER 21, 2026
+Eight supplier inquiries sent. Ratings still await confirmation.
+The quoted package is placed in the model. This follow-up adds service-path reservations, corrects the asymmetric package clearance screen, and defines the proposed complete-train brake-failure requirements. No new supplier capacity or bumper curve has been received.
+Component statusSent supplier questionsBrake-failure requirementsAttachment calculation holds
+Confirmed facts and remaining component decisions
+“Quoted” and “documented” describe the available evidence. They do not mean that a component has been accepted for the installed duty.
+ | Component
+ | Status
+ | Evidence / remaining hold
+ | Engine candidate
+ | Quoted
+ | Kubota V3307-TIE4AB-KEA-1, AIE assembly 102089 Rev B. Quote is evidence of contents; no purchase or application acceptance.
+ | Radiator, suction fan, adapter
+ | Quoted
+ | Package includes radiator, suction fan and SAE B / 13-tooth drive. Configured geometry, fan rating, guarding and exact coupling remain open.
+ | Reference geometry
+ | Documented; mapping open
+ | AIE generic Rev C: 1,249.68 × 687.07 × 1,027.94 mm. Shaft datum is asymmetric; conservative model reservation is 809.244 mm wide.
+ | Continuous power
+ | Reference only
+ | 45.6 kW with Kubota reference fan. Installed continuous power, ambient derating and quote terminology await AIE.
+ | Pump / motors
+ | Candidates
+ | H1P045 and two MS05 Classic 560 cc units with 4:1 reduction. Complete order codes, maps, charge flow and controls not accepted.
+ | Brake package / system lead
+ | Open
+ | Exact locomotive and coach ratings, integrated fault circuit and responsible system designer remain unconfirmed.
+ | Compression bumper
+ | Unselected
+ | ACE TA37-16 and Miner GBA-4 are comparisons only; neither has verified application curves through the current 5 mm window.
+ | Pins, guides, locks and welds
+ | Review geometry
+ | Candidate dimensions retained; no allowable-capacity, fatigue or dynamic-contact approval.
+Supplier follow-up sent
+Eight supplier inquiries were sent from the existing project email account on October 21, in nine messages including the ACE routing follow-up. Replies to prior inquiries stay in those threads. ZF’s referral and the new application-support contacts were verified before sending. No purchase or paid-work authorization was sent.
+ | Supplier / route
+ | Send status
+ | Questions sent
+ | AIE / Tony
+ | Sent in existing quote thread
+ | Continuous output; Rev B/C mapping; wet mass/CG; asymmetric shaft datum; coupling; cooling and service
+ | OneHydraulics + Poclain
+ | Sent in existing motor thread
+ | Supersedes four × 376 cc inquiry with two × 560 cc / 4:1; performance, charge flow, shaft loads and CAD
+ | Hydraquip / Danfoss route
+ | Receipt acknowledged; technical reply pending
+ | H1P045 order code, input torque/power control, charge system, coupling and configured geometry
+ | ZF engineering referral
+ | Sent to address provided by ZF Specifications
+ | Exact PAN17/TRISTOP compatibility, force/stroke, anti-compounding, torque and application limits
+ | Webb
+ | Sent in existing rotor thread
+ | Controlled 55030PK-65 interfaces, torque/thermal duty and caliper compatibility
+ | Custom Braking / Adam
+ | Sent in existing system inquiry
+ | Complete-train fault requirements, offered scope and system-integrator responsibility
+ | ACE Controls
+ | Sent to sizing experts; rerouted to customer service per automatic reply
+ | Low-speed/static and dynamic force–travel curves, tolerances and 5 mm window feasibility
+ | Miner Elastomer
+ | Sent to technical/engineering; out-of-office reply received
+ | Loading/unloading curves, creep/cycles/temperature, mounting and suitable working travel
+All eight technical responses are pending at this revision. A send receipt is not a product rating or an engineering acceptance.
+Complete-train brake-failure requirements
+Proposed functional specification for the system designer: one locomotive plus four loaded coaches. This is not a completed circuit or an operating procedure. Hydrostatic safety-braking credit remains zero. The current 0.5 / 0.7 m/s² service/emergency demands and 5 kNm locomotive-axle target remain study inputs.
+ | Condition
+ | Required design response
+ | Evidence needed to close
+ | Normal service / emergency
+ | Distributed friction braking; define traction inhibit and empty/full-load allocation.
+ | Minimum guaranteed torque, application time, heat/fade, adhesion and coupler-load validation.
+ | Locomotive power or brake-supply loss
+ | Independent stop and hold using defined local reserve and/or spring application; a common supply loss must not disable all coaches.
+ | Selected circuit, stored-energy sizing, leakage duration, low-pressure trigger and valve failure states.
+ | Breakaway / severed connection
+ | Both separated portions initiate the specified emergency response and remain secured without the severed connection.
+ | Continuity/breakaway logic, local reserve, response-time, stop and hold tests.
+ | One coach unavailable
+ | Detect and identify; inhibit departure. Demonstrate the response to a failure occurring in motion.
+ | Remaining-brake allocation, delay, coupler force, local wheel adhesion, stopping distance and heat.
+ | All coach brakes unavailable
+ | Remove traction; indicate fault; apply available independent locomotive brakes. Severe fault, not a continued-service mode.
+ | Common-cause prevention plus residual stopping capability; more brake torque cannot create wheel adhesion.
+ | Local reserve depleted / excessive leakage
+ | Detect before reserve becomes insufficient; inhibit departure and initiate the defined stop response while usable reserve remains.
+ | Minimum pressure/energy, leak-down time, monitoring coverage and fault thresholds.
+ | Parking / reset
+ | Hold independently of running hydrostatics; define anti-compounding and prevent unintended release during reset.
+ | Holding grade/load, spring force, release logic, isolation/recovery procedure and tests.
+The engineering lead must reconcile valves, reservoirs, springs, pressure thresholds, train-line continuity, controls, parking and recovery as one system. These functions cannot be inferred merely from selecting spring-brake chambers. Danfoss’s hydrostatic application manual requires independent stopping and holding capability.
+Bumper decision: keep selection open
+The current +25 mm contact / +30 mm steel-stop geometry leaves 5 mm working compression. No received curve qualifies a standard part for that window. ACE TA37-16 and Miner GBA-4 remain comparison candidates. Changing the engagement point or mount pocket may be necessary; neither change is released here.
+ACE separates dynamic behavior above 0.5 m/s from low-speed behavior requiring a static curve. The relevant speed is local vertical motion at the bumper. Requested data includes loading and unloading curves, tolerance bands, temperature, held load, creep, stabilized cycles, lateral expansion and mounting. Selection also requires local effective mass, impact speed, load sharing and cycle rate from suspension dynamics.
+The 4 kN/mm law and its 50 J loading work over 5 mm are placeholders. They are neither a measured demand nor demonstrated dissipation. Compression-bumper data does not qualify rebound-catch impact.
+What remains before final attachment calculations
+The LT25 installation already changes the base mass by +16.60 kg to 16,086.12 kg and retains 168 equilibrium cases with fixed LT23 preloads. No new confirmed supplier input arrived in this follow-up, so those results are retained rather than presented as a newly qualified calculation.
+ | Review input
+ | Retained demand / constraint
+ | Needed before final sizing
+ | Traction links / pivots
+ | 22.763 kN maximum modeled link demand in LT25; 80 kN earlier gross probe is not a rating.
+ | Verified traction/brake/control envelope, inclined-link loads, combined bearing forces, transient/fatigue duty and materials.
+ | Compression bumper / stop
+ | Retain LT23 5.765 kN bumper maximum and LT24 2.885 kN steel-stop sensitivity; they use different case sets.
+ | Selected nonlinear curves and dynamics; local impact peaks, mounting load sharing, stop compliance and fatigue.
+ | Rebound locks / guides
+ | LT25 maximum equilibrium rebound 7.059 kN; earlier 40.907 kN single-rod probe remains a separate review input.
+ | Rebound impact, rod/thread/washer/flange strength, guide side loads, bolts, prying, welds and fatigue.
+ | Engine / pump supports
+ | Proposed common skid and undrilled support blanks; mass/CG and mounting details unconfirmed.
+ | AIE configured feet and wet mass/CG; pump housing overhang, torsion, common-base stiffness and vibration.
+ | 30 m curve clearance
+ | Historical LT23 samples retained; new installation is screened at nominal ride height.
+ | Full new load poses, suspension travel, tolerances, hoses, chain/brakes and service interfaces in the sweep.
+Final attachment calculations remain unfinished. Do not freeze pins, brackets, welds, rebound locks or guide-bushing mounts until the verified inputs and structural review close these holds. Positive wheel loads or numerical convergence do not release fabrication.
+Continuous power controls the duty
+ | Quantity
+ | Value
+ | Basis
+ | Quoted power
+ | 55.4 kW / 74.3 hp at 2,600 rpm
+ | Quote calls this NET INT.; Kubota p12 calls it gross intermittent. Discrepancy remains open.
+ | Reference net intermittent
+ | 52.5 kW / 70.4 hp
+ | Kubota p12, specified reference fan.
+ | Reference net continuous
+ | 45.6 kW / 61.2 hp
+ | Kubota p12, specified reference fan. Not a confirmed AIE package rating.
+ | Main pump allowance
+ | 35 kW
+ | New provisional ceiling; formerly 40 kW.
+ | Charge reserve
+ | 3 kW
+ | Assumption, included in total pump-input torque.
+ | Other auxiliary reserve
+ | 7 kW
+ | Alternator/compressor and package fan differences; exact loads unresolved. Reference fan is already in net output.
+ | Remaining reference margin
+ | 0.6 kW
+ | 45.6 − 35 − 3 − 7. Hot-weather/package derating can consume it.
+ | Old trial budget
+ | 40 + 10 = 50 kW
+ | 4.4 kW above the reference continuous figure. Superseded.
+The 35 kW cap is a development allowance, not a confirmed continuous installation rating. Supplier confirmation may require a lower duty or a different engine package.
+ | 3.5 mph calculation
+ | Result
+ | Motor / gearing
+ | Two 560 cc motors; 4:1 overall ratio; 1,450 mm drivers
+ | Motor flow / speed
+ | 97.19 L/min / 82.43 rpm
+ | Power-limited motor differential
+ | 174.75 bar
+ | Calculated wheel-rim force
+ | 15.00 kN; adhesion may impose a lower limit
+ | Start-force comparison
+ | 26.71 kN at 350 bar and assumed 0.80 starting efficiency; no adhesion guarantee
+ | Wheel power / modeled drivetrain losses
+ | 23.47 kW / 14.53 kW including charge reserve and chain loss. Not all loss necessarily reaches hydraulic oil.Main shaft cap = min(35 kW, 45.6 − 10 kW, 150 Nm × engine rpm × 2π / 60 / 1000 − 3 kW)
+Flow = 2 × motor rpm × 0.560 L/rev / 0.95
+Motor differential = min(350 bar, main shaft cap × 0.855 × 600 / flow − 10 bar)
+Rim force = 2 × motor differential × displacement / (2π) × 0.90 × 4 × 0.97 / 0.725 m
+Efficiencies, 10 bar circuit allowance and charge power are assumptions carried into this comparison. Pump flow limit uses 45 cc/rev, 2,600 rpm and 0.95 volumetric efficiency. No pressure overshoot or engine lugging performance is established.
+The 13-tooth connection needs torque control
+ | Interface fact / calculation
+ | Result
+ | Quoted connection
+ | SAE B / 13 tooth. Candidate H1P045 flange F and shaft G4; no complete order code selected.
+ | Danfoss G4 shaft
+ | 180 Nm rated / 222 Nm maximum; 13 teeth, 16/32 pitch.
+ | Engine peak gross torque
+ | 265 Nm at 1,500 rpm; above the G4 maximum.
+ | Unrestricted full-stroke comparison
+ | 297.5 Nm at 360 bar pump differential, 45 cc, assumed 0.90 mechanical efficiency and charge reserve. This operating point is not available or approved.
+ | Provisional total pump-input cap
+ | 150 Nm; a control target only, no transient or torsional qualification.
+ | Alternative for supplier review
+ | G5 15-tooth shaft: 277 Nm rated / 370 Nm maximum. Requires a revised AIE coupling; not automatically substituted.
+ | Engine rpm
+ | Main-pump cap under torque target
+ | Main + charge input torque
+ | 1500
+ | 20.56 kW
+ | 150.00 Nm
+ | 2200
+ | 31.56 kW
+ | 150.00 Nm
+ | 2600
+ | 35.00 kW
+ | 139.57 Nm
+Lower-rpm rows are control-envelope examples, not verified continuous engine ratings at those speeds. Specify the final torque curve, destroking response, charge pump and auxiliary-pad loads with both suppliers.
+Package, cooling and service
+ | Check
+ | Result / limit
+ | Reference package dimensions
+ | 1,249.68 × 687.07 × 1,027.94 mm. Generic AIE Rev C drawing, quote assembly Rev B not reconciled.
+ | Placed package
+ | Radiator front X 3,000; base Z 1,846.7; shaft Z 2,135.244; generic flywheel plane X 4,139.952. All in mm.
+ | Circular shell screen
+ | Both-hand package reservation: 153.3 mm nominal radial gap; cooler box: 102.7 mm. Assumes retained inner shell radius 897.5 mm. No allowance acceptance or complete component-clearance finding.
+ | Cab controls
+ | Included 5 ft = 1,524 mm harness; current installation-to-cab-key box separation is at least 4.60 m. An approved longer harness and connector/routing detail are needed.
+ | One-fan path
+ | Fresh inlet → hydraulic cooler → packaged radiator/CAC region → packaged suction fan → engine bay → separated outlet. Ducts, vents and outlet area are not detailed.
+ | Thermal source values
+ | Kubota coolant rejection 42.2 kW and charge-air rejection 6.0 kW at gross rated output/reference conditions. These are separate source conditions, not a single final cooling design point.
+ | Additional loss screening
+ | Approx. 14.53 kW modeled pump/charge/drive loss at the 3.5 mph example; split among oil, air and chain needs review.
+ | Mass field on AIE drawing
+ | 1070.6766 has unconfirmed units and accessory scope. It is not adopted as a confirmed package mass.
+ | Support blanks
+ | Rails extended to X 5,000; new pump saddle at X 4,500. Cantilever, compliant supports, bolt/weld and housing load acceptance remain open.
+Service and airflow checks
+Use Service paths in the 3D viewer to inspect purple withdrawal reservations. The illustrative motions reserve 650 mm aft for the pump and 300 mm forward for the hydraulic cooler. These are planning allowances, not supplier-specified removal distances.
+ | Check
+ | Finding
+ | Open item
+ | Package to shell
+ | Both-hand shaft-based reservation gives 153.3 mm nominal radial gap; replaces the centered-width result of 184.6 mm.
+ | Actual configured protrusions, motion, tolerances and thermal clearances.
+ | Pump withdrawal
+ | Swept reservation X4,250–5,450, Y±225, Z1,885.244–2,385.244 mm.
+ | No retained machinery AABB overlap in the cutaway screen. Enclosure opening, fitting disconnect, tools, lift/exit path and OEM distance remain unproven.
+ | Cooler withdrawal
+ | Swept reservation X2,400–2,870, Y±525, Z1,846.7–2,846.7 mm.
+ | No retained machinery AABB overlap in the cutaway screen. Front opening, drained mass, hose disconnect and lifting still require design.
+ | Radiator / fan service
+ | Upstream cooler occupies the proposed forward removal corridor.
+ | Plan cooler removal before radiator extraction; fan guard/shroud, belts and actual extraction path await AIE.
+ | Air path
+ | Fresh inlet → oil cooler → packaged radiator/CAC region → suction fan → engine bay → separate outlet.
+ | This is topology only. Fan curve, core losses, inlet/outlet free area, hot-air sealing and hot-weather test remain open.
+ | Remote filters / cab harness
+ | Filters and key panel are off-engine per drawing; included harness 1.524 m versus ≥4.60 m current separation screen.
+ | Locate serviceable filters, prevent fuel exposure to hot parts, obtain approved harness, shields and routing.
+The service screen excludes the removed enclosure surfaces and schematic boundary bars; it is a broad-phase machinery check, not a collision-free removal demonstration. No vents or access doors have been cut from the shell.
+Mass and suspension rerun
+ | Result
+ | Scope
+ | 500 kg AIE package allowance
+ | 450–650 kg sensitivity; includes engine/radiator/fan/fluids once. Replaces prior 494 kg combined entries. Actual mass/CG unconfirmed.
+ | 16.086 t locomotive / 66.686 t consist
+ | Proxy budget, not weighed train. Change +16.60 kg including fabricated blanks; four-coach 50.6 t upper allowance retained.
+ | 168 of 168 reduced-model equilibria
+ | LT23 preloads held fixed. Six mass budgets, flat/twisted track, power-limited pull and brake demands.
+ | 48 contact-event cases / 102 capacity flags
+ | Convergence is not operating acceptance. Some requested braking or pull exceeds trial adhesion/brake capacity.
+ | Minimum sampled wheel load 4.863 kN
+ | Prescribed-contact small-angle model; no transient rail dynamics.
+ | Peak link / bumper / rebound 22.763 / 5.191 / 7.059 kN
+ | Quasi-static demands; no impact, fatigue or local attachment release.
+LT23 friction-brake architecture and unresolved brake/bumper supplier ratings remain. New load-derived positions have not been propagated through a full CAD sweep. The separate LT24 supplier and brake/bumper review, its 306 sensitivity cases and the broader LT23 demand envelope are retained. They are not replaced by this narrower 168-case installation rerun. Earlier stopping-distance envelopes and clearance results are historical evidence, not reissued as LT25 acceptance.
+Download all 168 load-and-travel cases · CSVInspect every recalculated load case
+ | Case
+ | Min wheel kN
+ | Primary mm
+ | Bumper / rebound kN
+ | Flags
+ | base/level/flat
+ | 14.633
+ | -0.36 / 0.46
+ | 0.00 / 0.00
+ | Within reduced model
+ | base/power_limited_pull_1/flat
+ | 9.656
+ | -11.96 / 12.07
+ | 0.00 / 0.00
+ | above trial adhesion mu0.15
+ | base/power_limited_pull_1/twist_right
+ | 8.677
+ | -15.47 / 15.54
+ | 0.00 / 0.00
+ | above trial adhesion mu0.15
+ | base/power_limited_pull_1/twist_left
+ | 8.608
+ | -15.59 / 15.66
+ | 0.00 / 0.00
+ | above trial adhesion mu0.15
+ | base/power_limited_pull_3/flat
+ | 11.417
+ | -7.33 / 7.46
+ | 0.00 / 0.00
+ | above trial adhesion mu0.15
+ | base/power_limited_pull_3/twist_right
+ | 10.996
+ | -10.74 / 10.84
+ | 0.00 / 0.00
+ | above trial adhesion mu0.15
+ | base/power_limited_pull_3/twist_left
+ | 10.368
+ | -10.95 / 11.05
+ | 0.00 / 0.00
+ | above trial adhesion mu0.15
+ | base/power_limited_pull_3.5/flat
+ | 11.738
+ | -6.43 / 6.57
+ | 0.00 / 0.00
+ | above trial adhesion mu0.15
+ | base/power_limited_pull_3.5/twist_right
+ | 11.545
+ | -10.01 / 10.10
+ | 0.00 / 0.00
+ | above trial adhesion mu0.15
+ | base/power_limited_pull_3.5/twist_left
+ | 10.690
+ | -10.06 / 10.17
+ | 0.00 / 0.00
+ | above trial adhesion mu0.15
+ | base/service/flat
+ | 14.707
+ | -4.52 / 4.71
+ | 0.00 / 0.00
+ | Within reduced model
+ | base/service/twist_right
+ | 15.245
+ | -8.11 / 8.33
+ | 0.00 / 0.00
+ | Within reduced model
+ | base/service/twist_left
+ | 13.658
+ | -7.92 / 7.90
+ | 0.00 / 0.00
+ | Within reduced model
+ | base/emergency/flat
+ | 15.085
+ | -5.92 / 6.11
+ | 0.00 / 0.00
+ | Within reduced model
+ | base/emergency/twist_right
+ | 14.685
+ | -9.51 / 9.74
+ | 0.00 / 0.00
+ | Within reduced model
+ | base/emergency/twist_left
+ | 14.037
+ | -8.87 / 8.84
+ | 0.00 / 0.00
+ | Within reduced model
+ | base/one_coach_service/flat
+ | 15.303
+ | -7.15 / 7.16
+ | 0.00 / 0.00
+ | Within reduced model
+ | base/one_coach_service/twist_right
+ | 14.269
+ | -10.55 / 10.77
+ | 0.00 / 0.00
+ | Within reduced model
+ | base/one_coach_service/twist_left
+ | 14.798
+ | -10.77 / 10.75
+ | 0.00 / 0.00
+ | Within reduced model
+ | base/one_coach_emergency/flat
+ | 14.352
+ | -9.34 / 9.54
+ | 0.00 / 0.00
+ | above trial adhesion mu0.15
+ | base/one_coach_emergency/twist_right
+ | 13.318
+ | -12.93 / 13.16
+ | 0.00 / 0.00
+ | above trial adhesion mu0.15
+ | base/one_coach_emergency/twist_left
+ | 14.886
+ | -12.86 / 12.84
+ | 0.00 / 0.00
+ | above trial adhesion mu0.15
+ | base/all_coach_loss_0.5_demand/flat
+ | 12.536
+ | -15.23 / 15.24
+ | 0.00 / 0.00
+ | above trial adhesion mu0.15; above 5 kNm per-axle brake target
+ | base/all_coach_loss_0.5_demand/twist_right
+ | 11.502
+ | -17.47 / 17.70
+ | 0.00 / 0.00
+ | above trial adhesion mu0.15; above 5 kNm per-axle brake target
+ | base/all_coach_loss_0.5_demand/twist_left
+ | 12.455
+ | -18.61 / 18.79
+ | 0.00 / 0.13
+ | above trial adhesion mu0.15; above 5 kNm per-axle brake target
+ | base/all_coach_loss_0.7_demand/flat
+ | 10.520
+ | -19.66 / 20.41
+ | 0.00 / 0.48
+ | above trial adhesion mu0.15; above 5 kNm per-axle brake target
+ | base/all_coach_loss_0.7_demand/twist_right
+ | 8.709
+ | -19.46 / 22.94
+ | 0.00 / 2.21
+ | above trial adhesion mu0.15; above 5 kNm per-axle brake target
+ | base/all_coach_loss_0.7_demand/twist_left
+ | 9.485
+ | -19.29 / 23.69
+ | 0.00 / 2.89
+ | above trial adhesion mu0.15; above 5 kNm per-axle brake target
+ | low/level/flat
+ | 12.820
+ | -7.53 / -2.65
+ | 0.00 / 0.00
+ | Within reduced model
+ | low/power_limited_pull_1/flat
+ | 7.847
+ | -18.18 / 6.72
+ | 0.00 / 0.00
+ | above trial adhesion mu0.15
+ | low/power_limited_pull_1/twist_right
+ | 6.733
+ | -19.22 / 9.97
+ | 0.00 / 1.39
+ | above trial adhesion mu0.15
+ | low/power_limited_pull_1/twist_left
+ | 6.665
+ | -19.24 / 9.92
+ | 0.00 / 1.34
+ | above trial adhesion mu0.15
+ | low/power_limited_pull_3/flat
+ | 9.657
+ | -14.18 / 2.71
+ | 0.00 / 0.00
+ | above trial adhesion mu0.15
+ | low/power_limited_pull_3/twist_right
+ | 9.129
+ | -17.78 / 6.33
+ | 0.00 / 0.00
+ | above trial adhesion mu0.15
+ | low/power_limited_pull_3/twist_left
+ | 8.610
+ | -16.92 / 5.51
+ | 0.00 / 0.00
+ | above trial adhesion mu0.15
+ | low/power_limited_pull_3.5/flat
+ | 9.998
+ | -13.40 / 1.92
+ | 0.00 / 0.00
+ | above trial adhesion mu0.15
+ | low/power_limited_pull_3.5/twist_right
+ | 9.658
+ | -17.00 / 5.55
+ | 0.00 / 0.00
+ | above trial adhesion mu0.15
+ | low/power_limited_pull_3.5/twist_left
+ | 8.951
+ | -15.83 / 4.43
+ | 0.00 / 0.00
+ | above trial adhesion mu0.15
+ | low/service/flat
+ | 12.917
+ | -10.72 / 0.54
+ | 0.00 / 0.00
+ | Within reduced model
+ | low/service/twist_right
+ | 13.292
+ | -11.96 / 1.85
+ | 0.00 / 0.00
+ | Within reduced model
+ | low/service/twist_left
+ | 11.870
+ | -14.34 / 4.14
+ | 0.00 / 0.00
+ | Within reduced model
+ | low/emergency/flat
+ | 13.245
+ | -11.54 / 1.36
+ | 0.00 / 0.00
+ | Within reduced model
+ | low/emergency/twist_right
+ | 12.821
+ | -12.80 / 2.67
+ | 0.00 / 0.00
+ | Within reduced model
+ | low/emergency/twist_left
+ | 12.198
+ | -15.16 / 4.95
+ | 0.00 / 0.00
+ | Within reduced model
+ | low/one_coach_service/flat
+ | 13.351
+ | -13.57 / 3.39
+ | 0.00 / 0.00
+ | Within reduced model
+ | low/one_coach_service/twist_right
+ | 12.315
+ | -14.81 / 4.70
+ | 0.00 / 0.00
+ | Within reduced model
+ | low/one_coach_service/twist_left
+ | 12.640
+ | -17.19 / 6.99
+ | 0.00 / 0.00
+ | Within reduced model
+ | low/one_coach_emergency/flat
+ | 12.488
+ | -15.53 / 5.35
+ | 0.00 / 0.00
+ | above trial adhesion mu0.15
+ | low/one_coach_emergency/twist_right
+ | 11.453
+ | -16.77 / 6.66
+ | 0.00 / 0.00
+ | above trial adhesion mu0.15
+ | low/one_coach_emergency/twist_left
+ | 11.788
+ | -18.73 / 8.88
+ | 0.00 / 0.23
+ | above trial adhesion mu0.15
+ | low/all_coach_loss_0.5_demand/flat
+ | 10.169
+ | -19.84 / 11.20
+ | 0.00 / 0.99
+ | above trial adhesion mu0.15; above 5 kNm per-axle brake target
+ | low/all_coach_loss_0.5_demand/twist_right
+ | 8.943
+ | -19.55 / 13.10
+ | 0.00 / 2.05
+ | above trial adhesion mu0.15; above 5 kNm per-axle brake target
+ | low/all_coach_loss_0.5_demand/twist_left
+ | 8.422
+ | -19.21 / 14.29
+ | 0.00 / 3.34
+ | above trial adhesion mu0.15; above 5 kNm per-axle brake target
+ | low/all_coach_loss_0.7_demand/flat
+ | 8.027
+ | -20.00 / 15.62
+ | 0.00 / 3.02
+ | above trial adhesion mu0.15; above 5 kNm per-axle brake target
+ | low/all_coach_loss_0.7_demand/twist_right
+ | 5.841
+ | -19.83 / 19.20
+ | 0.00 / 5.18
+ | above trial adhesion mu0.15; above 5 kNm per-axle brake target
+ | low/all_coach_loss_0.7_demand/twist_left
+ | 5.192
+ | -19.48 / 20.40
+ | 0.00 / 6.47
+ | above trial adhesion mu0.15; above 5 kNm per-axle brake target
+ | high/level/flat
+ | 19.241
+ | 9.15 / 11.71
+ | 0.00 / 0.00
+ | Within reduced model
+ | high/power_limited_pull_1/flat
+ | 14.259
+ | -3.28 / 22.36
+ | 0.00 / 0.00
+ | above trial adhesion mu0.15
+ | high/power_limited_pull_1/twist_right
+ | 13.237
+ | -6.97 / 25.13
+ | 0.52 / 0.00
+ | above trial adhesion mu0.15
+ | high/power_limited_pull_1/twist_left
+ | 13.159
+ | -7.08 / 25.11
+ | 0.45 / 0.00
+ | above trial adhesion mu0.15
+ | high/power_limited_pull_3/flat
+ | 15.921
+ | 1.17 / 18.65
+ | 0.00 / 0.00
+ | Within reduced model
+ | high/power_limited_pull_3/twist_right
+ | 15.713
+ | -1.17 / 22.28
+ | 0.00 / 0.00
+ | Within reduced model
+ | high/power_limited_pull_3/twist_left
+ | 14.870
+ | -2.47 / 20.89
+ | 0.00 / 0.00
+ | Within reduced model
+ | high/power_limited_pull_3.5/flat
+ | 16.203
+ | 1.99 / 17.98
+ | 0.00 / 0.00
+ | Within reduced model
+ | high/power_limited_pull_3.5/twist_right
+ | 16.300
+ | -0.51 / 21.62
+ | 0.00 / 0.00
+ | Within reduced model
+ | high/power_limited_pull_3.5/twist_left
+ | 15.152
+ | -1.64 / 20.08
+ | 0.00 / 0.00
+ | Within reduced model
+ | high/service/flat
+ | 19.273
+ | 4.16 / 16.00
+ | 0.00 / 0.00
+ | Within reduced model
+ | high/service/twist_right
+ | 20.188
+ | 1.61 / 19.63
+ | 0.00 / 0.00
+ | Within reduced model
+ | high/service/twist_left
+ | 18.221
+ | 0.53 / 17.78
+ | 0.00 / 0.00
+ | Within reduced model
+ | high/emergency/flat
+ | 19.754
+ | 2.95 / 17.80
+ | 0.00 / 0.00
+ | Within reduced model
+ | high/emergency/twist_right
+ | 19.472
+ | -0.19 / 21.43
+ | 0.00 / 0.00
+ | Within reduced model
+ | high/emergency/twist_left
+ | 18.702
+ | -0.68 / 18.98
+ | 0.00 / 0.00
+ | Within reduced model
+ | high/one_coach_service/flat
+ | 20.245
+ | 1.31 / 18.44
+ | 0.00 / 0.00
+ | Within reduced model
+ | high/one_coach_service/twist_right
+ | 19.213
+ | -0.83 / 22.07
+ | 0.00 / 0.00
+ | Within reduced model
+ | high/one_coach_service/twist_left
+ | 19.360
+ | -2.32 / 20.63
+ | 0.00 / 0.00
+ | Within reduced model
+ | high/one_coach_emergency/flat
+ | 19.138
+ | -1.04 / 21.21
+ | 0.00 / 0.00
+ | above trial adhesion mu0.15
+ | high/one_coach_emergency/twist_right
+ | 18.107
+ | -3.60 / 24.84
+ | 0.00 / 0.00
+ | above trial adhesion mu0.15
+ | high/one_coach_emergency/twist_left
+ | 19.226
+ | -4.67 / 22.97
+ | 0.00 / 0.00
+ | above trial adhesion mu0.15
+ | high/all_coach_loss_0.5_demand/flat
+ | 17.500
+ | -6.67 / 25.04
+ | 0.17 / 0.00
+ | above trial adhesion mu0.15; above 5 kNm per-axle brake target
+ | high/all_coach_loss_0.5_demand/twist_right
+ | 16.589
+ | -7.27 / 25.50
+ | 2.01 / 0.00
+ | above trial adhesion mu0.15; above 5 kNm per-axle brake target
+ | high/all_coach_loss_0.5_demand/twist_left
+ | 17.057
+ | -9.98 / 25.47
+ | 1.87 / 0.00
+ | above trial adhesion mu0.15; above 5 kNm per-axle brake target
+ | high/all_coach_loss_0.7_demand/flat
+ | 15.773
+ | -10.55 / 25.66
+ | 2.62 / 0.00
+ | above trial adhesion mu0.15; above 5 kNm per-axle brake target
+ | high/all_coach_loss_0.7_demand/twist_right
+ | 14.149
+ | -13.59 / 26.30
+ | 5.19 / 0.00
+ | above trial adhesion mu0.15; above 5 kNm per-axle brake target
+ | high/all_coach_loss_0.7_demand/twist_left
+ | 14.602
+ | -16.33 / 26.27
+ | 5.07 / 0.00
+ | above trial adhesion mu0.15; above 5 kNm per-axle brake target
+ | rear-heavy/level/flat
+ | 11.762
+ | -6.72 / 4.51
+ | 0.00 / 0.00
+ | Within reduced model
+ | rear-heavy/power_limited_pull_1/flat
+ | 6.790
+ | -19.13 / 16.94
+ | 0.00 / 0.00
+ | above trial adhesion mu0.15
+ | rear-heavy/power_limited_pull_1/twist_right
+ | 5.289
+ | -19.33 / 19.88
+ | 0.00 / 1.80
+ | above trial adhesion mu0.15
+ | rear-heavy/power_limited_pull_1/twist_left
+ | 5.209
+ | -19.31 / 19.98
+ | 0.00 / 1.86
+ | above trial adhesion mu0.15
+ | rear-heavy/power_limited_pull_3/flat
+ | 8.589
+ | -14.46 / 12.32
+ | 0.00 / 0.00
+ | above trial adhesion mu0.15
+ | rear-heavy/power_limited_pull_3/twist_right
+ | 8.083
+ | -17.12 / 14.83
+ | 0.00 / 0.00
+ | above trial adhesion mu0.15
+ | rear-heavy/power_limited_pull_3/twist_left
+ | 7.540
+ | -18.08 / 15.91
+ | 0.00 / 0.00
+ | above trial adhesion mu0.15
+ | rear-heavy/power_limited_pull_3.5/flat
+ | 8.925
+ | -13.54 / 11.42
+ | 0.00 / 0.00
+ | above trial adhesion mu0.15
+ | rear-heavy/power_limited_pull_3.5/twist_right
+ | 8.616
+ | -15.86 / 13.54
+ | 0.00 / 0.00
+ | above trial adhesion mu0.15
+ | rear-heavy/power_limited_pull_3.5/twist_left
+ | 7.877
+ | -17.17 / 15.02
+ | 0.00 / 0.00
+ | above trial adhesion mu0.15
+ | rear-heavy/service/flat
+ | 11.931
+ | -11.43 / 9.44
+ | 0.00 / 0.00
+ | Within reduced model
+ | rear-heavy/service/twist_right
+ | 12.392
+ | -15.03 / 13.07
+ | 0.00 / 0.00
+ | Within reduced model
+ | rear-heavy/service/twist_left
+ | 10.883
+ | -12.36 / 10.06
+ | 0.00 / 0.00
+ | Within reduced model
+ | rear-heavy/emergency/flat
+ | 12.300
+ | -12.79 / 10.81
+ | 0.00 / 0.00
+ | Within reduced model
+ | rear-heavy/emergency/twist_right
+ | 12.000
+ | -16.38 / 14.44
+ | 0.00 / 0.00
+ | Within reduced model
+ | rear-heavy/emergency/twist_left
+ | 11.252
+ | -13.71 / 11.43
+ | 0.00 / 0.00
+ | Within reduced model
+ | rear-heavy/one_coach_service/flat
+ | 12.598
+ | -13.88 / 11.89
+ | 0.00 / 0.00
+ | Within reduced model
+ | rear-heavy/one_coach_service/twist_right
+ | 11.564
+ | -17.47 / 15.51
+ | 0.00 / 0.00
+ | above trial adhesion mu0.15
+ | rear-heavy/one_coach_service/twist_left
+ | 12.023
+ | -14.80 / 12.50
+ | 0.00 / 0.00
+ | above trial adhesion mu0.15
+ | rear-heavy/one_coach_emergency/flat
+ | 11.667
+ | -16.21 / 14.23
+ | 0.00 / 0.00
+ | above trial adhesion mu0.15
+ | rear-heavy/one_coach_emergency/twist_right
+ | 10.470
+ | -18.75 / 17.69
+ | 0.00 / 0.57
+ | above trial adhesion mu0.15
+ | rear-heavy/one_coach_emergency/twist_left
+ | 12.141
+ | -17.13 / 14.85
+ | 0.00 / 0.00
+ | above trial adhesion mu0.15
+ | rear-heavy/all_coach_loss_0.5_demand/flat
+ | 9.667
+ | -19.73 / 18.64
+ | 0.00 / 0.58
+ | above trial adhesion mu0.15; above 5 kNm per-axle brake target
+ | rear-heavy/all_coach_loss_0.5_demand/twist_right
+ | 7.985
+ | -19.12 / 21.60
+ | 0.00 / 2.85
+ | above trial adhesion mu0.15; above 5 kNm per-axle brake target
+ | rear-heavy/all_coach_loss_0.5_demand/twist_left
+ | 9.974
+ | -19.57 / 19.08
+ | 0.00 / 1.16
+ | above trial adhesion mu0.15; above 5 kNm per-axle brake target
+ | rear-heavy/all_coach_loss_0.7_demand/flat
+ | 7.161
+ | -20.00 / 23.28
+ | 0.00 / 2.93
+ | above trial adhesion mu0.15; above 5 kNm per-axle brake target
+ | rear-heavy/all_coach_loss_0.7_demand/twist_right
+ | 5.278
+ | -19.55 / 25.13
+ | 0.50 / 5.30
+ | above trial adhesion mu0.15; above 5 kNm per-axle brake target
+ | rear-heavy/all_coach_loss_0.7_demand/twist_left
+ | 7.071
+ | -19.93 / 24.02
+ | 0.00 / 3.88
+ | above trial adhesion mu0.15; above 5 kNm per-axle brake target
+ | front-heavy/level/flat
+ | 16.049
+ | -9.86 / 6.88
+ | 0.00 / 0.00
+ | Within reduced model
+ | front-heavy/power_limited_pull_1/flat
+ | 11.962
+ | -20.00 / 17.51
+ | 0.00 / 0.23
+ | above trial adhesion mu0.15
+ | front-heavy/power_limited_pull_1/twist_right
+ | 10.229
+ | -19.42 / 20.41
+ | 0.00 / 2.53
+ | above trial adhesion mu0.15
+ | front-heavy/power_limited_pull_1/twist_left
+ | 10.315
+ | -19.44 / 20.32
+ | 0.00 / 2.46
+ | above trial adhesion mu0.15
+ | front-heavy/power_limited_pull_3/flat
+ | 13.471
+ | -16.58 / 13.61
+ | 0.00 / 0.00
+ | above trial adhesion mu0.15
+ | front-heavy/power_limited_pull_3/twist_right
+ | 12.253
+ | -18.99 / 17.05
+ | 0.00 / 0.64
+ | above trial adhesion mu0.15
+ | front-heavy/power_limited_pull_3/twist_left
+ | 12.913
+ | -19.15 / 16.21
+ | 0.00 / 0.02
+ | above trial adhesion mu0.15
+ | front-heavy/power_limited_pull_3.5/flat
+ | 13.736
+ | -15.82 / 12.87
+ | 0.00 / 0.00
+ | Within reduced model
+ | front-heavy/power_limited_pull_3.5/twist_right
+ | 12.618
+ | -18.88 / 16.41
+ | 0.00 / 0.29
+ | Within reduced model
+ | front-heavy/power_limited_pull_3.5/twist_left
+ | 13.230
+ | -18.08 / 15.10
+ | 0.00 / 0.00
+ | Within reduced model
+ | front-heavy/service/flat
+ | 14.300
+ | -13.53 / 10.63
+ | 0.00 / 0.00
+ | Within reduced model
+ | front-heavy/service/twist_right
+ | 14.910
+ | -14.42 / 11.38
+ | 0.00 / 0.00
+ | Within reduced model
+ | front-heavy/service/twist_left
+ | 13.252
+ | -17.15 / 14.22
+ | 0.00 / 0.00
+ | Within reduced model
+ | front-heavy/emergency/flat
+ | 13.932
+ | -14.45 / 11.56
+ | 0.00 / 0.00
+ | Within reduced model
+ | front-heavy/emergency/twist_right
+ | 14.542
+ | -15.35 / 12.31
+ | 0.00 / 0.00
+ | Within reduced model
+ | front-heavy/emergency/twist_left
+ | 12.884
+ | -18.07 / 15.15
+ | 0.00 / 0.00
+ | Within reduced model
+ | front-heavy/one_coach_service/flat
+ | 13.159
+ | -16.38 / 13.48
+ | 0.00 / 0.00
+ | Within reduced model
+ | front-heavy/one_coach_service/twist_right
+ | 13.770
+ | -17.28 / 14.24
+ | 0.00 / 0.00
+ | Within reduced model
+ | front-heavy/one_coach_service/twist_left
+ | 11.919
+ | -18.75 / 16.87
+ | 0.00 / 0.68
+ | above trial adhesion mu0.15
+ | front-heavy/one_coach_emergency/flat
+ | 12.335
+ | -18.44 / 15.55
+ | 0.00 / 0.00
+ | above trial adhesion mu0.15
+ | front-heavy/one_coach_emergency/twist_right
+ | 12.946
+ | -19.34 / 16.31
+ | 0.00 / 0.00
+ | above trial adhesion mu0.15
+ | front-heavy/one_coach_emergency/twist_left
+ | 10.803
+ | -18.92 / 18.64
+ | 0.00 / 1.70
+ | above trial adhesion mu0.15
+ | front-heavy/all_coach_loss_0.5_demand/flat
+ | 9.281
+ | -20.00 / 20.89
+ | 0.00 / 2.37
+ | above trial adhesion mu0.15; above 5 kNm per-axle brake target
+ | front-heavy/all_coach_loss_0.5_demand/twist_right
+ | 9.693
+ | -19.87 / 21.44
+ | 0.00 / 2.96
+ | above trial adhesion mu0.15; above 5 kNm per-axle brake target
+ | front-heavy/all_coach_loss_0.5_demand/twist_left
+ | 7.543
+ | -19.41 / 23.77
+ | 0.00 / 4.68
+ | above trial adhesion mu0.15; above 5 kNm per-axle brake target
+ | front-heavy/all_coach_loss_0.7_demand/flat
+ | 7.276
+ | -20.00 / 25.16
+ | 0.64 / 4.37
+ | above trial adhesion mu0.15; above 5 kNm per-axle brake target
+ | front-heavy/all_coach_loss_0.7_demand/twist_right
+ | 7.501
+ | -20.00 / 25.20
+ | 0.81 / 5.07
+ | above trial adhesion mu0.15; above 5 kNm per-axle brake target
+ | front-heavy/all_coach_loss_0.7_demand/twist_left
+ | 4.863
+ | -19.91 / 25.43
+ | 1.71 / 7.06
+ | above trial adhesion mu0.15; above 5 kNm per-axle brake target
+ | fuel-empty/level/flat
+ | 14.525
+ | -0.86 / 0.19
+ | 0.00 / 0.00
+ | Within reduced model
+ | fuel-empty/power_limited_pull_1/flat
+ | 9.548
+ | -12.23 / 11.57
+ | 0.00 / 0.00
+ | above trial adhesion mu0.15
+ | fuel-empty/power_limited_pull_1/twist_right
+ | 8.569
+ | -15.74 / 15.04
+ | 0.00 / 0.00
+ | above trial adhesion mu0.15
+ | fuel-empty/power_limited_pull_1/twist_left
+ | 8.500
+ | -15.86 / 15.16
+ | 0.00 / 0.00
+ | above trial adhesion mu0.15
+ | fuel-empty/power_limited_pull_3/flat
+ | 11.312
+ | -7.64 / 6.95
+ | 0.00 / 0.00
+ | above trial adhesion mu0.15
+ | fuel-empty/power_limited_pull_3/twist_right
+ | 10.884
+ | -11.23 / 10.56
+ | 0.00 / 0.00
+ | above trial adhesion mu0.15
+ | fuel-empty/power_limited_pull_3/twist_left
+ | 10.264
+ | -11.21 / 10.54
+ | 0.00 / 0.00
+ | above trial adhesion mu0.15
+ | fuel-empty/power_limited_pull_3.5/flat
+ | 11.635
+ | -6.90 / 6.19
+ | 0.00 / 0.00
+ | above trial adhesion mu0.15
+ | fuel-empty/power_limited_pull_3.5/twist_right
+ | 11.431
+ | -10.49 / 9.82
+ | 0.00 / 0.00
+ | above trial adhesion mu0.15
+ | fuel-empty/power_limited_pull_3.5/twist_left
+ | 10.587
+ | -10.31 / 9.65
+ | 0.00 / 0.00
+ | above trial adhesion mu0.15
+ | fuel-empty/service/flat
+ | 14.604
+ | -4.75 / 4.14
+ | 0.00 / 0.00
+ | Within reduced model
+ | fuel-empty/service/twist_right
+ | 15.163
+ | -8.31 / 7.76
+ | 0.00 / 0.00
+ | Within reduced model
+ | fuel-empty/service/twist_left
+ | 13.556
+ | -8.37 / 7.58
+ | 0.00 / 0.00
+ | Within reduced model
+ | fuel-empty/emergency/flat
+ | 14.980
+ | -6.11 / 5.53
+ | 0.00 / 0.00
+ | Within reduced model
+ | fuel-empty/emergency/twist_right
+ | 14.608
+ | -9.70 / 9.15
+ | 0.00 / 0.00
+ | Within reduced model
+ | fuel-empty/emergency/twist_left
+ | 13.932
+ | -9.32 / 8.52
+ | 0.00 / 0.00
+ | Within reduced model
+ | fuel-empty/one_coach_service/flat
+ | 15.220
+ | -7.60 / 6.84
+ | 0.00 / 0.00
+ | Within reduced model
+ | fuel-empty/one_coach_service/twist_right
+ | 14.186
+ | -10.76 / 10.20
+ | 0.00 / 0.00
+ | Within reduced model
+ | fuel-empty/one_coach_service/twist_left
+ | 14.696
+ | -11.22 / 10.43
+ | 0.00 / 0.00
+ | Within reduced model
+ | fuel-empty/one_coach_emergency/flat
+ | 14.275
+ | -9.69 / 8.95
+ | 0.00 / 0.00
+ | above trial adhesion mu0.15
+ | fuel-empty/one_coach_emergency/twist_right
+ | 13.241
+ | -13.12 / 12.57
+ | 0.00 / 0.00
+ | above trial adhesion mu0.15
+ | fuel-empty/one_coach_emergency/twist_left
+ | 14.709
+ | -13.31 / 12.52
+ | 0.00 / 0.00
+ | above trial adhesion mu0.15
+ | fuel-empty/all_coach_loss_0.5_demand/flat
+ | 12.454
+ | -15.68 / 14.92
+ | 0.00 / 0.00
+ | above trial adhesion mu0.15; above 5 kNm per-axle brake target
+ | fuel-empty/all_coach_loss_0.5_demand/twist_right
+ | 11.420
+ | -17.68 / 17.13
+ | 0.00 / 0.00
+ | above trial adhesion mu0.15; above 5 kNm per-axle brake target
+ | fuel-empty/all_coach_loss_0.5_demand/twist_left
+ | 12.213
+ | -18.66 / 18.41
+ | 0.00 / 0.35
+ | above trial adhesion mu0.15; above 5 kNm per-axle brake target
+ | fuel-empty/all_coach_loss_0.7_demand/flat
+ | 10.461
+ | -19.70 / 20.03
+ | 0.00 / 0.70
+ | above trial adhesion mu0.15; above 5 kNm per-axle brake target
+ | fuel-empty/all_coach_loss_0.7_demand/twist_right
+ | 8.566
+ | -19.49 / 22.49
+ | 0.00 / 2.36
+ | above trial adhesion mu0.15; above 5 kNm per-axle brake target
+ | fuel-empty/all_coach_loss_0.7_demand/twist_left
+ | 9.220
+ | -19.29 / 23.40
+ | 0.00 / 3.14
+ | above trial adhesion mu0.15; above 5 kNm per-axle brake target
+Source register
+AIE-Q · C-PUF quote.pdf · pages 1-2. Quoted engine, package contents, SAE B/13 tooth, price and expiration. No pump line item.
+AIE-GA · AIE-V3307T.DOC-CPU OPEN.pdf · pages 1. Generic package dimensions only. Quote assembly Rev B is not proven identical. Remote filters and control panel outside box.
+KUB-TECH · KORD3_25-047_Technical_information_for_V3307-CR-TIE4.pdf · pages 4-8,12,13,19. Reference output, DOC/EGR, torque and heat rejection.
+KUB-PTO · KORD3_26-107_PTO_system_for_Vertical_engine.pdf · pages 6 (printed 4). Direct rear flywheel connection; assembly alignment and long/heavy pump consultation.
+DAN-H1 · Danfoss H1P 045/053 Technical Information · pages 17,55,56. F/G4 interface; G4 180/222 Nm, G5 277/370 Nm. Not complete component selection.
+Supplier PDFs were received in Tony’s October 21 email. The original private correspondence and attachments are not republished here. Public page values are transcribed reference facts and documented development calculations.LT25 · Development drawings · No fabrication or operating releaseEngineering

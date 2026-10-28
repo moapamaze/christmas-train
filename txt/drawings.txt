@@ -1,0 +1,36 @@
+
+Drawings & Fabrication · Pulsipher Farms
+
+DrawingsRotate 3DFabrication notes
+CURRENT POWER / MOVEMENT REVIEW · LT42
+Full power budget, revised brake routes and combined movement findings → Coach HVAC exposes a power shortfall. Brake ratings, configured controls, generator drive and hose twist remain open.
+Cab C3 · ladder mechanism study
+Indexed lock geometry, manual-drive effort and exit time, plus unexecuted cab and camera test records. C2 remains the integrated LT32 baseline.Open the mechanism and physical-trial review →
+Current cab · C2
+Left-side controls, front / last-coach cameras, dimensioned exits and a mass-reconciled LT32 assembly.Open Cab C2 drawings and model → · Engineering →
+LT31 · Locomotive to first coach
+Rear frame attachment, turning movement, step clearance and brake-line connections. Open the connection model → · Engineering evidence →
+STANDARD SUSPENSION BUMPER · LT33
+A commercial bump stop in the existing spring
+Revised pedestal, 3D and dimensions → · Loading curves and checks →
+COORDINATED LOCOMOTIVE + FIRST COACH · LT32
+Installation, rear connection and updated loads
+One coordinated 3D assembly and revised sections → · Updated engineering and interface package →
+LT20 · Articulated locomotive connections
+Pivot, rebound and guide drawings → · Loads and structural review →
+LT19 · Rear support and eight-driver layout
+Layout, 3D and preliminary axle loads → · Separate structural and movement study →
+RALPH · SUPPLIERS · FABRICATORS
+Drawings & fabrication
+Choose an assembly. Earlier alternatives are in previous versions.
+Development drawings · No construction release. Each assembly shows its current limitations.
+AssemblySearch this assembly
+Loading drawings…
+Enable JavaScript to browse drawings. Open the preserved drawing index.
+Model
+Locomotive models
+Current engine installationService hardwareTruck connections
+Work split: precision work and finish work will be subcontracted. Farm/Ralph tasks will be assigned against shop capability and released drawings.
+Dimensions, units, materials and release notes remain on the original sheets and in the part viewers. Missing bolt, weld, fit or mounting details require closure before fabrication.
+36-inch candidate gauge · 3 regular + 1 accessible coachEngineering decisions & supporting evidence →
+DrawingEnlargeOpen original ↗Close ✕

@@ -1,0 +1,50 @@
+{
+ "A+": {
+  "fall_m": 7.68,
+  "length_m": 505.0,
+  "from_ch": 1076.19,
+  "avg_pct": 1.52
+ },
+ "A-": {
+  "fall_m": 7.31,
+  "length_m": 460.0,
+  "from_ch": 775.86,
+  "avg_pct": 1.59
+ },
+ "B+": {
+  "fall_m": 4.51,
+  "length_m": 270.0,
+  "from_ch": 880.21,
+  "avg_pct": 1.67
+ },
+ "B-": {
+  "fall_m": 7.28,
+  "length_m": 445.0,
+  "from_ch": 695.17,
+  "avg_pct": 1.64
+ },
+ "C+": {
+  "fall_m": 4.0,
+  "length_m": 355.0,
+  "from_ch": 918.7,
+  "avg_pct": 1.13
+ },
+ "C-": {
+  "fall_m": 3.69,
+  "length_m": 190.0,
+  "from_ch": 1467.93,
+  "avg_pct": 1.94
+ },
+ "D+": {
+  "fall_m": 4.69,
+  "length_m": 385.0,
+  "from_ch": 1120.98,
+  "avg_pct": 1.22
+ },
+ "D-": {
+  "fall_m": 4.81,
+  "length_m": 345.0,
+  "from_ch": 710.62,
+  "avg_pct": 1.39
+ }
+}

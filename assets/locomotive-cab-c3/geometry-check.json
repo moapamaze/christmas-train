@@ -1,0 +1,159 @@
+{
+  "issue": "C3 isolated cartridge geometry",
+  "fabrication_release": false,
+  "full_assembly_collision_check": false,
+  "units": [
+    {
+      "unit": "L-F",
+      "hinge_mm": [
+        10240,
+        -1400,
+        1508
+      ],
+      "disc_x_mm": 10198,
+      "pin_location_mm": [
+        10198,
+        -1400,
+        1408
+      ],
+      "pin_withdrawal_direction": -1,
+      "hole_radius_mm": 100,
+      "disc_thickness_mm": 12,
+      "cheek_thickness_mm": 8,
+      "cheek_gap_mm": 20,
+      "pin_diameter_mm": 20,
+      "lock_bore_mm": 21,
+      "pin_stroke_mm": 60,
+      "pin_clearance_when_withdrawn_mm": 16
+    },
+    {
+      "unit": "L-A",
+      "hinge_mm": [
+        10900,
+        -1400,
+        1508
+      ],
+      "disc_x_mm": 10942,
+      "pin_location_mm": [
+        10942,
+        -1400,
+        1408
+      ],
+      "pin_withdrawal_direction": 1,
+      "hole_radius_mm": 100,
+      "disc_thickness_mm": 12,
+      "cheek_thickness_mm": 8,
+      "cheek_gap_mm": 20,
+      "pin_diameter_mm": 20,
+      "lock_bore_mm": 21,
+      "pin_stroke_mm": 60,
+      "pin_clearance_when_withdrawn_mm": 16
+    },
+    {
+      "unit": "R-F",
+      "hinge_mm": [
+        10240,
+        1400,
+        1508
+      ],
+      "disc_x_mm": 10198,
+      "pin_location_mm": [
+        10198,
+        1400,
+        1408
+      ],
+      "pin_withdrawal_direction": -1,
+      "hole_radius_mm": 100,
+      "disc_thickness_mm": 12,
+      "cheek_thickness_mm": 8,
+      "cheek_gap_mm": 20,
+      "pin_diameter_mm": 20,
+      "lock_bore_mm": 21,
+      "pin_stroke_mm": 60,
+      "pin_clearance_when_withdrawn_mm": 16
+    },
+    {
+      "unit": "R-A",
+      "hinge_mm": [
+        10900,
+        1400,
+        1508
+      ],
+      "disc_x_mm": 10942,
+      "pin_location_mm": [
+        10942,
+        1400,
+        1408
+      ],
+      "pin_withdrawal_direction": 1,
+      "hole_radius_mm": 100,
+      "disc_thickness_mm": 12,
+      "cheek_thickness_mm": 8,
+      "cheek_gap_mm": 20,
+      "pin_diameter_mm": 20,
+      "lock_bore_mm": 21,
+      "pin_stroke_mm": 60,
+      "pin_clearance_when_withdrawn_mm": 16
+    }
+  ],
+  "samples_deg": [
+    0,
+    1,
+    15,
+    30,
+    60,
+    90,
+    120,
+    145,
+    150,
+    150.8809172206103
+  ],
+  "exact_solid_intersections": [],
+  "endpoint_contacts": [
+    {
+      "unit": "L-F",
+      "angle_deg": 0,
+      "endpoint_stop_gap_mm": 0.0
+    },
+    {
+      "unit": "L-F",
+      "angle_deg": 150.8809172206103,
+      "endpoint_stop_gap_mm": 0.0
+    },
+    {
+      "unit": "L-A",
+      "angle_deg": 0,
+      "endpoint_stop_gap_mm": 0.0
+    },
+    {
+      "unit": "L-A",
+      "angle_deg": 150.8809172206103,
+      "endpoint_stop_gap_mm": 0.0
+    },
+    {
+      "unit": "R-F",
+      "angle_deg": 0,
+      "endpoint_stop_gap_mm": 0.0
+    },
+    {
+      "unit": "R-F",
+      "angle_deg": 150.8809172206103,
+      "endpoint_stop_gap_mm": 0.0
+    },
+    {
+      "unit": "R-A",
+      "angle_deg": 0,
+      "endpoint_stop_gap_mm": 0.0
+    },
+    {
+      "unit": "R-A",
+      "angle_deg": 150.8809172206103,
+      "endpoint_stop_gap_mm": 0.0
+    }
+  ],
+  "withdrawn_pins_checked": true,
+  "solid_count": 32,
+  "modeled_steel_mass_both_sides_kg": 73.68604297621198,
+  "added_moving_steel_per_ladder_kg": 10.268538445039852,
+  "scope": "Uninstalled concept. C2 pins/cheeks/latch must be replaced; carriers, bearings, springs, attachment, drive, guarded release and tolerance analysis are absent. Not included in C2/LT32 ledger or load cases."
+}

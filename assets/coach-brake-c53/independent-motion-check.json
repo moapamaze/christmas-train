@@ -1,0 +1,100 @@
+{
+  "status": "NARROW DISCRETE MOTION CHECK; NO FULL OEM CLEARANCE CLAIM",
+  "source_hashes": {
+    "checkpoint.brep": "aa185910be1ce9ae54cedfd60dd73eba8f4c48357680b655a933fb70f8bdf7c2",
+    "parts.json": "b8c81017d0f841228cec12a6f579d95e1c5826a2ad388b9e8676d67ac5555d84",
+    "independent-motion-states.json": "5ff65d30b8a2f29a4c09f83682dbc390bc707d497f3d80394a89eb5ca026db63"
+  },
+  "part_count": 141,
+  "states": 9,
+  "fixed_C5_context_count": 276,
+  "exact_intersections_tested": 145,
+  "positive_pairs": [],
+  "pose_clearances": [
+    {
+      "state": "ordinary-roll-2-rebound",
+      "minimum_link_hardware_to_clevis": {
+        "a": "LINK-RETAINER11",
+        "b": "TORQUE-FORK1",
+        "distance_mm": 0.6508663412596734
+      }
+    },
+    {
+      "state": "ordinary-roll-2-mid",
+      "minimum_link_hardware_to_clevis": {
+        "a": "LINK-RETAINER11",
+        "b": "TORQUE-FORK1",
+        "distance_mm": 0.6691028188981621
+      }
+    },
+    {
+      "state": "ordinary-roll-2-jounce",
+      "minimum_link_hardware_to_clevis": {
+        "a": "LINK-RETAINER11",
+        "b": "TORQUE-FORK1",
+        "distance_mm": 0.6822083565689895
+      }
+    },
+    {
+      "state": "ordinary-roll+0-rebound",
+      "minimum_link_hardware_to_clevis": {
+        "a": "LINK-RETAIN-M4011",
+        "b": "FRAME-LINK-CHEEK1",
+        "distance_mm": 1.9999999999999432
+      }
+    },
+    {
+      "state": "ordinary-roll+0-mid",
+      "minimum_link_hardware_to_clevis": {
+        "a": "LINK-RETAIN-M4010",
+        "b": "FRAME-LINK-CHEEK1",
+        "distance_mm": 1.9999999999999432
+      }
+    },
+    {
+      "state": "ordinary-roll+0-jounce",
+      "minimum_link_hardware_to_clevis": {
+        "a": "LINK-RETAIN-M4010",
+        "b": "FRAME-LINK-CHEEK1",
+        "distance_mm": 1.9999999999999432
+      }
+    },
+    {
+      "state": "ordinary-roll+2-rebound",
+      "minimum_link_hardware_to_clevis": {
+        "a": "LINK-RETAINER1-1",
+        "b": "TORQUE-FORK-1",
+        "distance_mm": 0.7032294309945898
+      }
+    },
+    {
+      "state": "ordinary-roll+2-mid",
+      "minimum_link_hardware_to_clevis": {
+        "a": "LINK-RETAINER1-1",
+        "b": "TORQUE-FORK-1",
+        "distance_mm": 0.7200087566978861
+      }
+    },
+    {
+      "state": "ordinary-roll+2-jounce",
+      "minimum_link_hardware_to_clevis": {
+        "a": "LINK-RETAINER1-1",
+        "b": "TORQUE-FORK-1",
+        "distance_mm": 0.7320731180652897
+      }
+    }
+  ],
+  "minimum_link_hardware_to_clevis": {
+    "state": "ordinary-roll-2-rebound",
+    "minimum_link_hardware_to_clevis": {
+      "a": "LINK-RETAINER11",
+      "b": "TORQUE-FORK1",
+      "distance_mm": 0.6508663412596734
+    }
+  },
+  "exclusions": [
+    "Unverified rotor/caliper/chamber supplier solids and assumed spherical-bearing interiors.",
+    "Whole body yaw/tilt combinations, continuous sweep, rail/wheel profile and complete left/right mirrored brakes.",
+    "Intended spherical-pin contacts are not a clearance requirement; mechanical tolerances and flexure remain unqualified."
+  ]
+}

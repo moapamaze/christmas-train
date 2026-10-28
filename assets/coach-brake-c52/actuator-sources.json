@@ -1,0 +1,114 @@
+{
+ "retrieved_on": "2026-10-19",
+ "sources": [
+  {
+   "id": "MGM_PRODUCT",
+   "title": "MGM3420051 / TR2024 current product page",
+   "url": "https://www.mgmbrakes.com/products/3420051",
+   "authority": "manufacturer",
+   "retrieved_on": "2026-10-19",
+   "evidence": "Exact part identity,20/24,57.15mm stroke,203.2mm rod without yoke,3/8-18NPTF ports,M16x1.5 mounting-stud claim,2-day lead time,minimum1.",
+   "critical_quote": null
+  },
+  {
+   "id": "MGM_TR_GA",
+   "title": "MGM Form5019 Rev5-2018, TR model brochure, currently linked on manufacturer site",
+   "url": "https://www.mgmbrakes.com/download_file/8ffc37a4-da80-4e10-85cb-417ecbec5a08/9",
+   "authority": "manufacturer",
+   "retrieved_on": "2026-10-19",
+   "pdf_page": 2,
+   "local_evidence": "c52-research/sources/mgm-tr-current.pdf",
+   "sha256": "f42c1dbc6e571f41813653f130f00c2b34d4b79b4dde287a7159bc7b5546159f",
+   "render": "c52-research/sources/mgm-tr-dims.png",
+   "evidence": "Exact3420051 row: A8.34,B6.18,C6.72,D7.34,E4.75in;2.25in stroke;5/8-11UNC mounting studs;5/8-18UNF rod;15.9lb. This is an outline brochure, not manufacturing drawing or exact solid."
+  },
+  {
+   "id": "MGM_MANUAL",
+   "title": "MGM EB24-001 Rev02, November2024, S-cam drum and disc actuator service manual",
+   "url": "https://www.mgmbrakes.com/application/files/2617/6941/6228/EB_24-001_MGM_Brakes_S-Cam_Drum__Disc_Actuator_Service_Manual_rev._02.pdf",
+   "authority": "manufacturer",
+   "retrieved_on": "2026-10-19",
+   "local_evidence": "c52-research/sources/mgm-service-manual.pdf",
+   "sha256": "37525fa7902317946898d62222fef89744ce12ccd47191c59bf6c1aa5b01971d",
+   "pages": {
+    "drain_and_alignment": 11,
+    "caging_projection": 17,
+    "breather_orientation": 22,
+    "mounting_alignment": 23,
+    "rod_setup": 27
+   },
+   "evidence": "Drain bottom within30deg; vertical installation requires low NPC sidewall drain; pushrod remains within3deg of mounting-face normal throughout stroke. Typexx24 caging bolt82.6mm above nut fullycaged. Rod cut/yoke setup follow vehicle design.90\u2013100psi service/test instructions are not maximum-pressure rating."
+  },
+  {
+   "id": "MGM_SPRING_INDEX",
+   "title": "MGM Master Catalog MC2021_14, primary search-index extraction",
+   "url": "https://mgmbrakes.com/files/4817/4907/0230/MC2021_14.pdf",
+   "authority": "manufacturer, indexed text only",
+   "retrieved_on": "2026-10-19",
+   "download_status": "HTTP404; direct PDF not recovered",
+   "web_refs": [
+    "turn198search3",
+    "turn194search25"
+   ],
+   "evidence": "TR2024 table gives springforce1280/1210/1150/1080/1000/840lbf at1/1.25/1.5/1.75/2/2.25in; holdoff76psi. Primary-index only; current PDF and footnote validation remain hold."
+  },
+  {
+   "id": "MGM_SPRING_NOTES_INDEX",
+   "title": "MGM Master Catalog MC2021_12 primary indexed notes",
+   "url": "https://mgmbrakes.com/files/9117/2744/6783/MC2021_12.pdf",
+   "authority": "manufacturer, indexed text only",
+   "retrieved_on": "2026-10-19",
+   "download_status": "HTTP404",
+   "web_refs": [
+    "turn198search0",
+    "turn198search2"
+   ],
+   "evidence": "Manufacturer indexed footnote says spring forces are nominal plus/minus10percent after24h compressed conditioning; not zero-stroke maximum or fatigue qualification."
+  },
+  {
+   "id": "MGM_HISTORICAL",
+   "title": "Manufacturer-authored MGM2007 Master Catalog, distributor-hosted archival copy",
+   "url": "https://cumberland-companies.com/wp-content/uploads/2014/11/MGMBrakes-Master-Catalog-MC2007_006.pdf",
+   "authority": "historical OEM-authored document mirrored by distributor; not current manufacturer-hosted source",
+   "retrieved_on": "2026-10-19",
+   "local_evidence": "c52-research/sources/mgm-master-2007-historical.pdf",
+   "sha256": "85e393d42eea8cd70bf9775c03a0068659dbd68e2c8e04236f32ee9dfb61a34c",
+   "evidence": "Historical cross-check only, not selected current rating; springtable sameforcepoints but78psi holdoff, versus76psi newer indexedtable. Service table has100psi points, not maximumpressure."
+  },
+  {
+   "id": "US_STOCK_ANYTHINGTRUCK",
+   "title": "AnythingTruck exact3420051 stock listing",
+   "url": "https://www.anythingtruck.com/product/460-3420051.html",
+   "authority": "seller, own inventory and offer",
+   "retrieved_on": "2026-10-19",
+   "web_ref": "turn186view2",
+   "critical_quote": null,
+   "evidence": "8 listed on hand;6 additional in1\u20134days; inventory reflects5:00AM CST; fetchedOct19 but inventory does not display calendar-date timestamp. Current order/delivery and lot specification not confirmed. No order placed."
+  },
+  {
+   "id": "WABCO1212_GA",
+   "title": "ZF WABCO9254550150 Type12/12 exact assembly drawing",
+   "url": "https://www.wabco-customercentre.com/catalog/docs/9254550150____005_dascheck_c4_page-1---notset_tif.pdf",
+   "authority": "manufacturer",
+   "retrieved_on": "2026-10-19",
+   "local_evidence": "c52-research/sources/wabco-9254550150.pdf",
+   "sha256": "ceacdd070ae44ff61700a6958677fc3b5a271a2f17ef96144777e2206296afed",
+   "evidence": "Compact dimensioned comparison with spring forceplot and8bar normal/10bar temporary pressure limits; not selected, USstock not verified."
+  },
+  {
+   "id": "WABCO1212_PRODUCT",
+   "title": "ZF WABCO9254550150 product catalog",
+   "url": "https://www.wabco-customercentre.com/catalog/en_US/9254550150",
+   "authority": "manufacturer",
+   "retrieved_on": "2026-10-19"
+  },
+  {
+   "id": "HALDEX_COMPARISON",
+   "title": "Haldex GC2024 official active product listing",
+   "url": "https://www.haldex.com/en/na/actuators/goldseal-combination-spring-brakes/gc2024-66a98c52/",
+   "authority": "manufacturer",
+   "retrieved_on": "2026-10-19",
+   "evidence": "Alternative20/24;150psi maximum pressure stated for Haldex only, not transferable to MGM; current exact spring curve not recovered."
+  }
+ ]
+}

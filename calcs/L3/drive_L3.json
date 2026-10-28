@@ -1,0 +1,350 @@
+{
+ "basis": {
+  "added_per_axle_kg": {
+   "reducer_TA7315H15MS": 226.8,
+   "TA_rod_907109": 19.6,
+   "H1B110_SAE": 48.8,
+   "belt_drop_bracket_guard_sprockets": 45.0,
+   "disc_2_calipers": 58.0,
+   "rod_anchor_bracket": 10.0
+  },
+  "added_per_axle_total_kg": 408.2,
+  "m_L3_delta_kg": 857,
+  "train_kg": 78801,
+  "W_kN": 772.8,
+  "driver_weight_kN": 151.7,
+  "need_2pct_start_kN": 31.53,
+  "adh_dry_kN": 37.93,
+  "adh_wet_kN": 22.76,
+  "v_governed_mph": 6.0,
+  "v_overspeed_trip_mph": 7.0,
+  "v_hardware_capability_mph": 10.0,
+  "governed_note": "6 mph = OWNER-SELECTED governed maximum (28 Oct 2026); hard hydraulic limit = H1B minimum-displacement stop at 60 cc (tamper-sealed) + PLUS+1 pump speed control + independent overspeed trip 7 mph (ASSUMED) -> emergency brake. PE to confirm."
+ },
+ "components": {
+  "reducer": "Dodge Torque-Arm II TA7315H15MS x 120 mm straight bore, part 907012, ratio 14.9, 226.8 kg (catalog)",
+  "rod": "TA7315/8407RA TA rod assembly 907109, 19.6 kg",
+  "motor": "Danfoss H1B110 SAE-D (152-4) flange, 110/22 cc (min setting 22-74 cc), electric proportional control L* or two-position with PCOR (T*/P*), speed sensor (VS housing), 48.8 kg; 1.75 N.m/bar; rated 2,900 rpm @max / 4,800 @min disp; max working 450 bar",
+  "belt": "1:1 synchronous belt drop (Gates Poly Chain GT Carbon 14MGT class, ~Ø160 sprockets, c-c ~195) - catalog parts, rating AWAIT Gates",
+  "pump": "Danfoss H1P053 kept (G1 shaft, L35 PL 350 / HPRV 400, AC-2 or EDC + PLUS+1 anti-stall)",
+  "eff": {
+   "reducer": 0.96,
+   "belt": 0.97,
+   "motor_start_hm": 0.9,
+   "motor_run_hm": 0.92,
+   "motor_vol": 0.95
+  }
+ },
+ "start": {
+  "F350_theory_capped_kN": 37.93,
+  "F350_kN": 42.2,
+  "F400_kN": 48.23,
+  "adh_dry_kN": 37.93,
+  "need_kN": 31.53,
+  "margin_vs_need": 1.203,
+  "p_for_need_bar": 262,
+  "p_at_adhesion_bar": 315,
+  "F350_eta080_kN": 37.51,
+  "p_for_need_eta080_bar": 294,
+  "wet_unsanded_kN": 22.76,
+  "mu_sand_req": 0.208,
+  "note": "Adhesion-limited: pressure need only reach ~262 bar for the 2% start; still holds at a pessimistic start eta 0.80 (294 bar)"
+ },
+ "speed": {
+  "wheel_rpm_6mph": 35.3,
+  "motor_rpm_6mph": 526,
+  "wheel_rpm_10mph": 58.9,
+  "motor_rpm_10mph": 877,
+  "reducer_input_rpm_6mph": 526,
+  "reducer_input_limit_rpm": 1790,
+  "reducer_output_limit_rpm": 120,
+  "flow_10mph_full_Lmin": 406,
+  "flow_10mph_min22_Lmin": 81.3,
+  "vmax_hw_22cc_mph": 16.37,
+  "Vg_stop_for_6mph_cc": 60.0,
+  "Vg_stop_set_cc": 60.0,
+  "vmax_at_60cc_mph": 6.0,
+  "motor_rated_rpm_at_min": 4800,
+  "motor_util_10mph_hw": 0.183,
+  "spin_one_axle_60cc_rpm": 2106,
+  "spin_one_axle_22cc_rpm": 5743,
+  "spin_note": "If one wheelset spins while the others stick, it can take all pump flow: 60 cc stop -> 2106 rpm (< 2,900 motor rated) but > 1,790 TA II input max -> per-motor speed sensors + PLUS+1 anti-slip destroke REQUIRED (spec); with 22 cc it would be 5743 rpm (> 4,800 rated)"
+ },
+ "power_speed": {
+  "table": [
+   {
+    "grade_pct": 0,
+    "resistance_kN": 3.86,
+    "speed_6mph_gov": 6.0,
+    "limit": "governor",
+    "dp_bar": 57,
+    "Vg_cc": 60.0,
+    "rim_kW": 20.7,
+    "speed_hw_uncapped": 10.0
+   },
+   {
+    "grade_pct": 0.5,
+    "resistance_kN": 7.73,
+    "speed_6mph_gov": 6.0,
+    "limit": "governor",
+    "dp_bar": 115,
+    "Vg_cc": 60.0,
+    "rim_kW": 22.4,
+    "speed_hw_uncapped": 6.83
+   },
+   {
+    "grade_pct": 1.0,
+    "resistance_kN": 11.59,
+    "speed_6mph_gov": 4.44,
+    "limit": "power",
+    "dp_bar": 172,
+    "Vg_cc": 60.0,
+    "rim_kW": 23.0,
+    "speed_hw_uncapped": 4.57
+   },
+   {
+    "grade_pct": 1.5,
+    "resistance_kN": 15.46,
+    "speed_6mph_gov": 3.38,
+    "limit": "power",
+    "dp_bar": 230,
+    "Vg_cc": 60.0,
+    "rim_kW": 23.3,
+    "speed_hw_uncapped": 3.43
+   },
+   {
+    "grade_pct": 2.0,
+    "resistance_kN": 19.32,
+    "speed_6mph_gov": 2.73,
+    "limit": "power",
+    "dp_bar": 287,
+    "Vg_cc": 60.0,
+    "rim_kW": 23.5,
+    "speed_hw_uncapped": 2.74
+   }
+  ],
+  "hold_2pct_mph": 2.73,
+  "target_mph": 2.0,
+  "method": "35 kW pump allowance x pump 0.855 x motor 0.92 hm x 0.95 vol x dp/(dp+10) x reducer 0.96 x belt 0.97; motor at the displacement that holds dp<=350, not below the 60 cc stop"
+ },
+ "reducer": {
+  "rating_10rpm_SF1": 11030,
+  "start_allow_200pct": 22060,
+  "start_need_SF16": {
+   "T": 9143,
+   "cap": 22060,
+   "util": 0.414
+  },
+  "adhesion_slip_SF16": {
+   "T": 10998,
+   "cap": 22060,
+   "util": 0.499
+  },
+  "hprv_400bar_peak": {
+   "T": 10430,
+   "cap": 22060,
+   "util": 0.473
+  },
+  "running_2pct_SF16": {
+   "T": 5603,
+   "n_rpm": 16.1,
+   "cap": 10718,
+   "util": 0.523
+  },
+  "adhesion_as_running_SF1": {
+   "T": 6874,
+   "cap": 11030,
+   "util": 0.623,
+   "note": "even a sustained slip-limit pull is inside the SF 1.0 running rating"
+  },
+  "limiter_350bar": {
+   "T": 8498
+  },
+  "SF_used": 1.6,
+  "note": "Catalog is for electric-motor industrial drives; Dodge requires Application Engineering review for a non-electric prime mover / heavy shock -> AWAIT Dodge AE (rail traction not a catalog application)"
+ },
+ "motor": {
+  "T_350_Nm": 612,
+  "T_400_Nm": 700,
+  "p_max_working_bar": 450,
+  "p_hprv_bar": 400,
+  "util_pressure": 0.889,
+  "n_6mph": 526,
+  "n_10mph_hw": 877,
+  "rated_min": 4800,
+  "rated_max": 2900,
+  "control": "H1B electric proportional (L*) driven by PLUS+1: starts at max displacement (max start torque), destrokes toward the 60 cc stop with speed; PCOR (pressure compensator override, option T*/P* family) returns motor toward max displacement when loop pressure rises (hill/start) = hydraulic anti-stall/auto-downshift; BPD (brake pressure defeat) keeps PCOR from fighting dynamic braking. Pump anti-stall (engine droop) unchanged on H1P053.",
+  "min_stop": "minimum-displacement limiter screw set to 60 cc and lock-wired/sealed (6 mph). Hardware can be reset to 22 cc for ~10 mph capability (not permitted in service).",
+  "brake": "H1B has NO brake -> axle disc + 2 spring-applied calipers per powered axle (B1)",
+  "speed_sensor": "VS/DS housing with speed sensor port - order with sensor (overspeed + anti-slip)"
+ },
+ "axle": {
+  "seat_d_mm": 120,
+  "body_d_mm": 130,
+  "M_EN_kNm": 13.35,
+  "M_hub_kNm": 3.33,
+  "M_seat_kNm": 16.67,
+  "P_hub_kN": 24.1,
+  "hung_mass_kg": 320.6,
+  "sigma_nom_MPa": 98.3,
+  "tau_start_MPa": 16.8,
+  "tau_hprv_MPa": 30.7,
+  "vm_nom_MPa": 111.8,
+  "EN13103_screen": {
+   "perm_A1N": 120,
+   "perm_A4T_class": 145,
+   "util_A4T": 0.771,
+   "note": "EN 13103 has no keyed-seat permissible -> Shigley/Goodman fatigue with key Kf, required n >= 1.5 (ASSUMED)"
+  },
+  "fatigue": {
+   "A_4140QT_profile_key": {
+    "Su": 965,
+    "Se": 204,
+    "sigma_a": 196.6,
+    "sigma_m_vm": 75.8,
+    "n": 0.96,
+    "util_vs_req15": 1.562
+   },
+   "B_34CrNiMo6_QT_sled_runner_key": {
+    "Su": 1000,
+    "Se": 210,
+    "sigma_a": 152.4,
+    "sigma_m_vm": 64.2,
+    "n": 1.26,
+    "util_vs_req15": 1.187
+   },
+   "C_34CrNiMo6_QT_sled_runner_key_induction_hardened_seat": {
+    "Su": 1000,
+    "Se": 314,
+    "sigma_a": 152.4,
+    "sigma_m_vm": 64.2,
+    "n": 1.82,
+    "util_vs_req15": 0.823
+   },
+   "D_TA9415H_125_34CrNiMo6_sled_runner": {
+    "Su": 1000,
+    "Se": 208,
+    "sigma_a": 134.8,
+    "sigma_m_vm": 56.8,
+    "n": 1.42,
+    "util_vs_req15": 1.056
+   }
+  },
+  "required_n": 1.5,
+  "result": "FAILS as a plain 4140 Ø120 profile keyseat (n 0.96). FIX APPLIED: 34CrNiMo6 (EN 10083-3) Q&T Rm>=1000, sled-runner keyseat 32x11 (catalog 32x11x269), induction-hardened + ground seat zone (k 1.5 ASSUMED, PE/metallurgist to confirm) -> n 1.82. TA9415H Ø125 alone gives n 1.42 (rejected: +117 kg/axle, larger housing, still needs the material change).",
+  "static_peak_vm_with_Kt_MPa": 240,
+  "Sy_34CrNiMo6": 700,
+  "static_util": 0.343,
+  "key": {
+   "size": "32x11 keyseat x 269 (Dodge 120 mm bore), ISO key 32x18 C45",
+   "F_hprv_kN": 173.8,
+   "bearing_hub_MPa": 92.3,
+   "bearing_shaft_MPa": 58.7,
+   "allow": 150
+  },
+  "fit": "Dodge straight bore is a slip fit: specify shaft k6 (AWAIT Dodge), anti-fretting compound, Dodge setscrews + axial retaining collar; check key/seat for reversing traction torque at each 500 h inspection"
+ },
+ "torque_arm": {
+  "arm_m": 0.47,
+  "F_adhesion_kN": 14.6,
+  "F_hprv_kN": 22.2,
+  "F_start_need_kN": 12.2,
+  "layout": "Dodge TA rod vertical (within the +/-30 deg Dodge rule) from the housing input-end fulcrum, up to a rubber-bushed anchor bracket PL20 cantilevered 155 mm from the transom's axle-side face (Z~1,000) - classic nose suspension, rides the primary-spring motion",
+  "bracket_M_kNm": 5.16,
+  "weld": "bracket PL20 to transom PL16: 2 x 200 x 10 fillet both sides (throat 2,828 mm2), S_weld = 2*200^2/6*7.07*... see PE C7n",
+  "weld_shear_MPa": 11.9,
+  "weld_bending_MPa": 34.2,
+  "note": "Dodge TA rod itself rated by Dodge for the reducer torque (AWAIT AE for rail shock); bush the anchor end (rubber) for vertical/lateral compliance",
+  "weld_resultant_MPa": 36.2,
+  "weld_allow_MPa": 145.0
+ },
+ "belt": {
+  "T_input_adhesion_Nm": 481,
+  "T_input_hprv_Nm": 700,
+  "sprocket_pd_mm": 160,
+  "c_c_mm": 195,
+  "F_eff_hprv_kN": 8.8,
+  "spec": "Gates Poly Chain GT Carbon 14MGT 37-68 mm wide (catalog), rating >= 980 N.m at 50-900 rpm incl. SF 1.4 -> AWAIT Gates selection",
+  "why": "H1B110 in line with the TA II input shaft does not fit (see packaging): the belt drop moves the motor 195 mm further from the axle so it clears the horn cheeks and passes through the open sideframe window inside the wheel line"
+ },
+ "packaging": {
+  "reducer_hub_Y": [
+   -267.5,
+   2.5
+  ],
+  "reducer_radial_mm": 299,
+  "reducer_input_end_X": 487,
+  "input_shaft_X": 229,
+  "input_shaft_end_Y_ASSUMED": 100,
+  "inline_motor": {
+   "flange_Y": 175,
+   "rear_Y": 491.4,
+   "limit_sideframe_Y": 330,
+   "limit_wheel_inner_Y": 427,
+   "result": "NO FIT: H1B110 SAE AA 316.4 + coupling puts the motor rear at Y491 vs sideframe 330 (X109-349 hits horn cheek X110-140) / wheel inner face 427"
+  },
+  "belt_motor": {
+   "X": [
+    300,
+    540
+   ],
+   "Z": [
+    620,
+    900
+   ],
+   "Y": [
+    105,
+    421
+   ],
+   "centre": [
+    420,
+    760
+   ],
+   "clear_cheek_mm": 160,
+   "clear_bottom_chord_mm": 45,
+   "clear_top_chord_mm": 100,
+   "clear_wheel_inner_face_mm": 6,
+   "clear_transom_mm": 85
+  },
+  "disc": {
+   "d": 340,
+   "Y": [
+    190,
+    215
+   ],
+   "X_max": 170,
+   "clear_to_motor_mm": 130,
+   "clear_axlebox_mm": 55
+  },
+  "transom_clear_input_end_mm": 138,
+  "reducer_top_Z": 1024,
+  "reducer_bottom_Z": 426,
+  "mirror": "input ends point to the truck centre on both axles of each truck (mirrored in X); reducers on Y-, discs/motors/belts on Y+ (all 4 axles)"
+ },
+ "brake": {
+  "disc": "Ø340x25 on the axle, Y+190..215 (side away from the reducer)",
+  "calipers": "2 x spring-applied air-released per disc (ref Coremo Ocmea D 3.5N 24.2 kN) - axle torque is now 1:1 (no gear multiplication)",
+  "r_eff": 0.135,
+  "note": "see PE B1-g: clamp per caliper with 2 calipers"
+ },
+ "options": [
+  {
+   "id": "L3 (chosen)",
+   "what": "TA7315H15MS + H1B110 + 1:1 sync belt",
+   "pros": "all catalog parts; adhesion-limited start at ~262 bar; 10 mph hardware capability on the existing H1P053; governed 6 mph by a hard min-displacement stop; same H1 family as the pump (one supplier/controls); no custom gears",
+   "cons": "TA II is industrial (not rail-traction rated) - Dodge AE must accept; Ø120 keyed axle seat needs 34CrNiMo6 + induction hardening; belt drop + guard to maintain; H1B has no brake (axle disc + 2 calipers); heavier (+408 kg/axle hung)"
+  },
+  {
+   "id": "Fallback",
+   "what": "TA7315H05MS 5.2:1 + Poclain MS05 ~280 cc (brake version)",
+   "pros": "LSHT motor with built-in multi-disc brake; catalog parts",
+   "cons": "Dodge must rate 5:1 below 90 rpm; ~7.4 mph flow cap on H1P053 (fine for 6 mph); MS05 length also needs the drop/space check; two suppliers"
+  },
+  {
+   "id": "L2 (rejected)",
+   "what": "custom 1.81:1 spur case + MSE05 750",
+   "pros": "designed to fit; rail-style nose suspension; Ø150 seat",
+   "cons": "one-off gear case (design, cutting, heat treat, inspection) - owner not keen; start η 0.78 marginal pending Poclain; 7.4 mph flow cap"
+  }
+ ]
+}

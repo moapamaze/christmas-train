@@ -1,0 +1,19 @@
+{
+  "definition": "Conservative geometry screen; not approved tolerances or operating limits",
+  "angle_deg": 2,
+  "axial_float_mm": 3,
+  "illustrative_combined_error_mm": 0.5,
+  "disc_front_nominal_min_mm": 1.218868031437978,
+  "disc_rear_overlap_nominal_min_mm": 1.1756167497937895,
+  "disc_front_after_reserve_mm": 0.7188680314379781,
+  "disc_rear_overlap_after_reserve_mm": 0.6756167497937895,
+  "barrel_radial_after_reserve_mm": 0.8601196669444136,
+  "disc_cup_radial_after_reserve_mm": 3.0803996813537253,
+  "formulas": {
+    "front": "620+(583.5-620)cos(a)-66sin(a)-3-577",
+    "overlap": "592-[620+(585.5-620)cos(a)+66sin(a)+3]",
+    "barrel_radial": "58-[55/cos(a)+46tan(a)]",
+    "disc_radial": "71-[66/cos(a)+39.5tan(a)]"
+  },
+  "qualification": "Flinger position, shaft fit, cage envelope, temperature, manufacturing and contamination tests remain unapproved."
+}

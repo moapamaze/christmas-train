@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="864pt" height="648pt" viewBox="0 0 864 648" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 648 
+L 864 648 
+L 864 0 
+L 0 0 
+z
+" style="fill: #f4f1e9"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 166.153846 228.96 
+L 219.323077 228.96 
+C 251.224615 228.96 245.907692 117.304615 330.978462 117.304615 
+C 416.049231 117.304615 410.732308 228.96 442.633846 228.96 
+L 495.803077 228.96 
+" clip-path="url(#p15e6e5fc00)" style="fill: none; stroke: #34776e; stroke-width: 7; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 166.153846 236.935385 
+L 208.689231 236.935385 
+L 208.689231 220.984615 
+L 166.153846 220.984615 
+z
+" clip-path="url(#p15e6e5fc00)" style="fill: #d6a05c; stroke: #203c3b; stroke-width: 0.7; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 453.267692 236.935385 
+L 495.803077 236.935385 
+L 495.803077 220.984615 
+L 453.267692 220.984615 
+z
+" clip-path="url(#p15e6e5fc00)" style="fill: #d6a05c; stroke: #203c3b; stroke-width: 0.7; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start" x="166.153846" y="252.886154" transform="rotate(-0 166.153846 252.886154)">Body fixed bulkhead</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end" x="495.803077" y="252.886154" transform="rotate(-0 495.803077 252.886154)">Truck bulkhead</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'" transform="translate(527.704615 174.119982)">10 compound spans</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'" transform="translate(527.704615 186.249591)">Constant sampled length</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'" transform="translate(527.704615 198.379201)">Twist / clocking unqualified</text>
+   </g>
+   <g id="patch_5">
+    <path d="M 216.202759 266.178462 
+Q 192.738236 266.178462 169.273712 266.178462 
+" style="fill: none; stroke: #203c3b; stroke-linecap: round"/>
+    <path d="M 212.202759 264.178462 
+L 216.202759 266.178462 
+L 212.202759 268.178462 
+" style="fill: none; stroke: #203c3b; stroke-linecap: round"/>
+    <path d="M 173.273712 268.178462 
+L 169.273712 266.178462 
+L 173.273712 264.178462 
+" style="fill: none; stroke: #203c3b; stroke-linecap: round"/>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #203c3b" x="192.738462" y="263.52" transform="rotate(-0 192.738462 263.52)">100 straight leg</text>
+   </g>
+   <g id="patch_6">
+    <path d="M 492.682759 266.178462 
+Q 469.218236 266.178462 445.753712 266.178462 
+" style="fill: none; stroke: #203c3b; stroke-linecap: round"/>
+    <path d="M 488.682759 264.178462 
+L 492.682759 266.178462 
+L 488.682759 268.178462 
+" style="fill: none; stroke: #203c3b; stroke-linecap: round"/>
+    <path d="M 449.753712 268.178462 
+L 445.753712 266.178462 
+L 449.753712 264.178462 
+" style="fill: none; stroke: #203c3b; stroke-linecap: round"/>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #203c3b" x="469.218462" y="263.52" transform="rotate(-0 469.218462 263.52)">100 straight leg</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: middle" x="330.978462" y="287.446154" transform="rotate(-0 330.978462 287.446154)">80 mm fitting reservations · HP hose reference 797-16 · final ports and thread sizes unselected</text>
+   </g>
+   <g id="text_7">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #203c3b" x="139.569231" y="84.72" transform="rotate(-0 139.569231 84.72)">Single body-to-truck flex span · developed schematic, not a hose cutting drawing</text>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="patch_7">
+    <path d="M 128.0448 438.048 
+L 338.5152 438.048 
+L 338.5152 432.03456 
+L 128.0448 432.03456 
+z
+" clip-path="url(#p953282c35e)" style="fill: #80979c; stroke: #203c3b; stroke-width: 0.7; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 120.528 475.632 
+L 346.032 475.632 
+L 346.032 468.1152 
+L 120.528 468.1152 
+z
+" clip-path="url(#p953282c35e)" style="fill: #80979c; stroke: #203c3b; stroke-width: 0.7; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 139.32 432.03456 
+L 176.904 432.03456 
+L 176.904 426.02112 
+L 139.32 426.02112 
+z
+" clip-path="url(#p953282c35e)" style="fill: #d6a05c; stroke: #203c3b; stroke-width: 0.7; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 143.0784 468.1152 
+L 173.1456 468.1152 
+L 173.1456 438.048 
+L 143.0784 438.048 
+z
+" clip-path="url(#p953282c35e)" style="fill: #34776e; stroke: #203c3b; stroke-width: 0.7; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 155.85696 479.3904 
+L 160.36704 479.3904 
+L 160.36704 425.26944 
+L 155.85696 425.26944 
+z
+" clip-path="url(#p953282c35e)" style="fill: #b8c1c1; stroke: #203c3b; stroke-width: 0.7; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 289.656 432.03456 
+L 327.24 432.03456 
+L 327.24 426.02112 
+L 289.656 426.02112 
+z
+" clip-path="url(#p953282c35e)" style="fill: #d6a05c; stroke: #203c3b; stroke-width: 0.7; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 293.4144 468.1152 
+L 323.4816 468.1152 
+L 323.4816 438.048 
+L 293.4144 438.048 
+z
+" clip-path="url(#p953282c35e)" style="fill: #34776e; stroke: #203c3b; stroke-width: 0.7; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_14">
+    <path d="M 306.19296 479.3904 
+L 310.70304 479.3904 
+L 310.70304 425.26944 
+L 306.19296 425.26944 
+z
+" clip-path="url(#p953282c35e)" style="fill: #b8c1c1; stroke: #203c3b; stroke-width: 0.7; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'" transform="translate(161.706094 386.627569)">M12 candidate tabs / Ø13 holes</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'" transform="translate(140.581406 396.7056)">Two isolators; two M12 reservations each</text>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'" transform="translate(139.743984 511.034434)">Common skid carries pump and package.</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'" transform="translate(152.419219 522.480184)">OEM feet, adapter, bolt preload and</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'" transform="translate(142.564922 533.925934)">isolator load sharing remain unselected.</text>
+   </g>
+   <g id="text_10">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #203c3b" x="97.9776" y="356.88" transform="rotate(-0 97.9776 356.88)">Pump carrier / isolation interface · schematic</text>
+   </g>
+  </g>
+  <g id="axes_3">
+   <g id="patch_15">
+    <path d="M 588.083478 499.053913 
+L 707.916522 499.053913 
+L 707.916522 395.561739 
+L 588.083478 395.561739 
+z
+" clip-path="url(#peedc5a3f8e)" style="fill: #80979c; stroke: #203c3b; stroke-width: 0.7; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_16">
+    <path d="M 594.619826 492.517565 
+L 701.380174 492.517565 
+L 701.380174 402.098087 
+L 594.619826 402.098087 
+z
+" clip-path="url(#peedc5a3f8e)" style="fill: #f4f1e9; stroke: #203c3b; stroke-width: 0.7; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_17">
+    <path d="M 592.441043 496.330435 
+C 592.874408 496.330435 593.290082 496.158257 593.596517 495.851822 
+C 593.902953 495.545387 594.07513 495.129713 594.07513 494.696348 
+C 594.07513 494.262983 593.902953 493.847309 593.596517 493.540874 
+C 593.290082 493.234439 592.874408 493.062261 592.441043 493.062261 
+C 592.007679 493.062261 591.592005 493.234439 591.28557 493.540874 
+C 590.979134 493.847309 590.806957 494.262983 590.806957 494.696348 
+C 590.806957 495.129713 590.979134 495.545387 591.28557 495.851822 
+C 591.592005 496.158257 592.007679 496.330435 592.441043 496.330435 
+z
+" clip-path="url(#peedc5a3f8e)" style="fill: #203c3b; stroke: #203c3b; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_18">
+    <path d="M 592.441043 448.941913 
+C 592.874408 448.941913 593.290082 448.769735 593.596517 448.4633 
+C 593.902953 448.156865 594.07513 447.741191 594.07513 447.307826 
+C 594.07513 446.874461 593.902953 446.458787 593.596517 446.152352 
+C 593.290082 445.845917 592.874408 445.673739 592.441043 445.673739 
+C 592.007679 445.673739 591.592005 445.845917 591.28557 446.152352 
+C 590.979134 446.458787 590.806957 446.874461 590.806957 447.307826 
+C 590.806957 447.741191 590.979134 448.156865 591.28557 448.4633 
+C 591.592005 448.769735 592.007679 448.941913 592.441043 448.941913 
+z
+" clip-path="url(#peedc5a3f8e)" style="fill: #203c3b; stroke: #203c3b; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_19">
+    <path d="M 592.441043 401.553391 
+C 592.874408 401.553391 593.290082 401.381214 593.596517 401.074778 
+C 593.902953 400.768343 594.07513 400.352669 594.07513 399.919304 
+C 594.07513 399.485939 593.902953 399.070266 593.596517 398.76383 
+C 593.290082 398.457395 592.874408 398.285217 592.441043 398.285217 
+C 592.007679 398.285217 591.592005 398.457395 591.28557 398.76383 
+C 590.979134 399.070266 590.806957 399.485939 590.806957 399.919304 
+C 590.806957 400.352669 590.979134 400.768343 591.28557 401.074778 
+C 591.592005 401.381214 592.007679 401.553391 592.441043 401.553391 
+z
+" clip-path="url(#peedc5a3f8e)" style="fill: #203c3b; stroke: #203c3b; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_20">
+    <path d="M 703.558957 496.330435 
+C 703.992321 496.330435 704.407995 496.158257 704.71443 495.851822 
+C 705.020866 495.545387 705.193043 495.129713 705.193043 494.696348 
+C 705.193043 494.262983 705.020866 493.847309 704.71443 493.540874 
+C 704.407995 493.234439 703.992321 493.062261 703.558957 493.062261 
+C 703.125592 493.062261 702.709918 493.234439 702.403483 493.540874 
+C 702.097047 493.847309 701.92487 494.262983 701.92487 494.696348 
+C 701.92487 495.129713 702.097047 495.545387 702.403483 495.851822 
+C 702.709918 496.158257 703.125592 496.330435 703.558957 496.330435 
+z
+" clip-path="url(#peedc5a3f8e)" style="fill: #203c3b; stroke: #203c3b; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_21">
+    <path d="M 703.558957 448.941913 
+C 703.992321 448.941913 704.407995 448.769735 704.71443 448.4633 
+C 705.020866 448.156865 705.193043 447.741191 705.193043 447.307826 
+C 705.193043 446.874461 705.020866 446.458787 704.71443 446.152352 
+C 704.407995 445.845917 703.992321 445.673739 703.558957 445.673739 
+C 703.125592 445.673739 702.709918 445.845917 702.403483 446.152352 
+C 702.097047 446.458787 701.92487 446.874461 701.92487 447.307826 
+C 701.92487 447.741191 702.097047 448.156865 702.403483 448.4633 
+C 702.709918 448.769735 703.125592 448.941913 703.558957 448.941913 
+z
+" clip-path="url(#peedc5a3f8e)" style="fill: #203c3b; stroke: #203c3b; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_22">
+    <path d="M 703.558957 401.553391 
+C 703.992321 401.553391 704.407995 401.381214 704.71443 401.074778 
+C 705.020866 400.768343 705.193043 400.352669 705.193043 399.919304 
+C 705.193043 399.485939 705.020866 399.070266 704.71443 398.76383 
+C 704.407995 398.457395 703.992321 398.285217 703.558957 398.285217 
+C 703.125592 398.285217 702.709918 398.457395 702.403483 398.76383 
+C 702.097047 399.070266 701.92487 399.485939 701.92487 399.919304 
+C 701.92487 400.352669 702.097047 400.768343 702.403483 401.074778 
+C 702.709918 401.381214 703.125592 401.553391 703.558957 401.553391 
+z
+" clip-path="url(#peedc5a3f8e)" style="fill: #203c3b; stroke: #203c3b; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: middle" x="648" y="379.22087" transform="rotate(-0 648 379.22087)">4 mm flange · six Ø9 holes / M8 candidate</text>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'" transform="translate(562.210312 516.78642)">Cooler 1104×1054; radiator 704×954</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'" transform="translate(583.102266 528.23217)">5 mm flexible seal envelope.</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'" transform="translate(567.963984 539.67792)">Separate carrier bears duct weight;</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'" transform="translate(578.094609 551.12367)">no unverified core attachment.</text>
+   </g>
+   <g id="text_13">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #203c3b" x="569.01913" y="356.88" transform="rotate(-0 569.01913 356.88)">Removable duct flange · face view</text>
+   </g>
+  </g>
+  <g id="text_14">
+   <text style="font-weight: 700; font-size: 18px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #203c3b" x="47.52" y="26.715937" transform="rotate(-0 47.52 26.715937)">LT29-S03  |  Installation connection sections</text>
+  </g>
+  <g id="text_15">
+   <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #203c3b" x="47.52" y="631.8" transform="rotate(-0 47.52 631.8)">REVIEW CANDIDATE • All dimensions in mm • No qualified catch • Fabrication dimensions UNRELEASED</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p15e6e5fc00">
+   <rect x="139.569231" y="90.72" width="584.861538" height="207.36"/>
+  </clipPath>
+  <clipPath id="p953282c35e">
+   <rect x="97.9776" y="362.88" width="270.6048" height="187.92"/>
+  </clipPath>
+  <clipPath id="peedc5a3f8e">
+   <rect x="569.01913" y="362.88" width="157.961739" height="187.92"/>
+  </clipPath>
+ </defs>
+</svg>

@@ -1,0 +1,30 @@
+Locomotive drivetrain integration · Pulsipher FarmsSkip to contentWhole locomotive · 3DDrive mounts & hosesSeparate engineering
+LT14 · CURRENT LOCOMOTIVE INTEGRATION
+Power from the motor to the wheels
+The revised locomotive retains three 1,450 mm powered wheelsets and the leading and trailing trucks. Each powered axle has one inboard hydraulic motor, a separately supported input shaft and a 21/49-tooth duplex-chain reduction. The engine and pump stay inside the locomotive.
+Open the whole locomotive in 3D. Select straight track or either 50 m curve, then axle travel and roll. The cutaway, one-axle, exploded and hydraulic views show how the parts fit. Red identifies remaining guide clashes; the displayed curve pose is not a working steering mechanism.
+The mechanical connections
+Motor housing: eight flange fasteners attach the stationary motor housing to the pilot plate. Gussets and removable feet connect that plate to the axle-following carrier; the motor is not supported by its spline.
+Motor shaft: the male spline drives a female quill supported by two input bearings. A keyed input sprocket sits between those bearings, keeping chain pull off the motor spline.
+Reduction: a duplex chain transfers rotation from the 21-tooth input sprocket to the 49-tooth keyed axle hub. The solid axle drives both wheels. No automotive differential is used.
+Reaction: motor-housing and chain reactions pass through the carrier and axlebox connections toward the frame guides. Those guides currently bind during the required curve movement, so this frame reaction path is not finished or approved.
+Motor support and shaft detail
+Body and frame clearance revisions
+Hydraulic connections
+Red and blue routes are the reversible work lines; gold is the separate case-drain return. Each motor has a moving-side support, a free U loop and a fixed-side bulkhead leading toward the distribution rails. The visible adapter bends represent fittings; they are not sharp bends in flexible hose.
+Current component schedule
+ | Component
+ | Development selection / status
+ | Motor
+ | Poclain MS05 Classic 376 cc, 2A50 shaft family retained; configured order, port map and application approval pending
+ | Input bearings
+ | Two SKF 22212 E envelope references, 60 × 110 × 28 mm; bearing arrangement, setting and service life pending
+ | Drive chain
+ | 20B-2 duplex, 21/49 teeth, nominal 764.787 mm centres; rating, tension adjustment, guards and lubrication pending
+ | Mount
+ | 350 × 390 × 20 mm pilot plate; 12 mm gussets; four M16 foot-bolt reservations with through-sleeves
+ | Shaft keys
+ | 18 × 11 × 70 mm input; 32 × 18 × 70 mm axle key candidates; fits, fatigue and axial retention unresolved
+ | Hoses
+ | 32 mm work-line OD / 20 mm case-line OD reservations; actual hose and fittings unselected
+See the measured checks, load-path limitations and next design decisions →LT14 · Development only · Not for fabricationWhole locomotive

@@ -1,0 +1,38 @@
+{
+ "Dodge TA7315H15MS housing output lobe r2": [
+  30,
+  "inside axlebox + primary guide (AWAIT bearing) T1"
+ ],
+ "Dodge TA7315H15MS housing to input end": [
+  90,
+  "inside sideframe bottom chord PL30 T1"
+ ],
+ "belt drop driver sprocket Ø160 on H1B110": [
+  125.0,
+  "truck transom box PL16 T1"
+ ],
+ "motor bracket PL20 bolted to reducer hou": [
+  65.0,
+  "truck transom box PL16 T1"
+ ],
+ "Danfoss H1B110 bent-axis variable motor ": [
+  6.2,
+  "wheel tread rim 50 deep T2 Ø1450 driver (spoked lo"
+ ],
+ "brake disc Ø340x25 on the axle": [
+  55,
+  "inside axlebox + primary guide (AWAIT bearing) T1"
+ ],
+ "spring-applied air-released caliper": [
+  61.0,
+  "inside axlebox + primary guide (AWAIT bearing) T1"
+ ],
+ "Dodge TA rod": [
+  133.0,
+  "truck transom box PL16 T1"
+ ],
+ "TA rod anchor bracket PL20, cantilever 1": [
+  0.0,
+  "truck transom box PL16 T1"
+ ]
+}

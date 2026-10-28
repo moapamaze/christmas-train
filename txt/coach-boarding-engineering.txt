@@ -1,0 +1,34 @@
+Folding stair engineering · Pulsipher FarmsSkip to contentWhole regular coach · 3DFolding steps & drawingsSeparate engineering
+CB2 · ENGINEERING RECORD
+Attached stair development checks
+CB2 supersedes the removable CB1 stairs on the regular coach. This is a geometric and connection-layout revision, not a fabrication release or an operating rating. Local perimeter and end crossmembers change to create the folding recess. The accessible coach, main longitudinal girders, current brakes and wheelsets retain their previous designs.
+Measured CAD screening
+ | Screen
+ | Minimum part-box separation
+ | Front truck / stored stairs, 405 poses
+ | 229.3 mm; no overlaps
+ | Rear truck / stored stairs, 405 poses
+ | 217.5 mm; no overlaps
+ | Fixed hitch / stored boarding assembly
+ | 10.5 mm; nominal
+ | Articulated hitch and secondary route, 27 poses
+ | 11.7 mm; no overlaps
+ | Rail fold 0–90° and flight fold 0–120°, every 5°
+ | No overlaps with the existing body/frame parts after the stairwell cuts
+These are conservative distances between bounding boxes, not exact closest-surface distances. Truck probe: yaw ±7° in 1° increments, nine tilt directions with resultant tilt ≤2°, heave −60 / 0 / +32 mm about assumed Z28 in support. Rigid pose transforms do not solve springs or flexible hoses. Hitch probe: relative yaw ±14° / 0 and pitch/roll ±6° / 0; some combinations exceed existing bearing tilt allowances and are not permitted operating limits.
+Scope limit: the automated sweep excludes contacts among the new boarding parts themselves. Internal linkage fit, pin access, moving gate clearance, tolerances, flex, wear, terrain, overhead envelope and continuous motion are not certified. In particular, the 10.5 and 11.7 mm gaps are review holds, not accepted allowances. Full-size rail joints and lock access need a mock-up.
+Structure and lifting demands
+Retained screening loads: 4.8 kPa on the 44 × 110 in deck gives 15.0 kN before self-weight; on the 39 × 44 in flight gives 5.31 kN. An assumed 5 kN outer-tread point load at 44 in gives 5.59 kN·m about the flight hinge. At two equally loaded locks on a 4 in radius this implies approximately 27.5 kN tangential demand per lock, before self-weight, impact, unequal sharing and prying. No pin, bearing, plate or weld capacity is established by these demand estimates.
+Lift geometry has a minimum sampled effective lever arm of 2.259 in (57.38 mm). For illustration only, a 200 kg moving assembly with a 0.75 m CG arm and a 1.5 lift factor would demand about 38.5 kN actuator thrust. Actual mass, CG, friction, wind, duty cycle, column buckling and emergency lowering must be resolved before selecting an actuator. The modeled 2.5 in body / 1.25 in rod are reservation envelopes, not a rated product. Required eye lengths are 30.311–43.603 in; travel is 13.292 in.
+The actuator is not the boarding or travel restraint. Both independent flight pins must engage. Backdrive/holding behavior is product-specific: manufacturer explanation. Power, controls, limits, manual recovery and departure interlock remain unselected.
+Connection completion holds
+Qualify local perimeter cuts, shortened crossmembers, inner trimmers, actuator foundation and outrigger-to-main-girder welds. Add cut-end closures, weld sizes, joint preparation, drainage and inspection requirements after analysis.
+Specify pin/bush materials, hardness, running fits, lubrication, axial retention, hole edge distances, lock wear limits and redundant retention. Nominal CAD diameters are not machining tolerances.
+Complete production detailing of rail pivot eyes, top grip joints, gate striker/hinge foundations and guard post load paths. Layout barrels and retainers are visible; strength and assembly fit are not released.
+Check all moving boarding parts against one another, guards and controls. Add pinch protection without trapping fingers or obstructing the locks.
+Verify loaded/empty floor heights and actual station surface. Current 6.374 in rise is based on model floor Z31.872 and reference surface Z0 only. No measured station match exists.
+Verify stored maximum Z123.155 and external actuator X−50.75 / mirrored rear against the complete vehicle and route envelope.
+Retain separate brake engineering: one current brake unit per truck is shown; remaining stations and upstream air controls remain unfinished.
+Reference and evidence
+Access Board stair guide is a dimensional reference only, not an applicable-code or ADA determination for this train. The modeled lower handrail extension is horizontal and still requires review against the applicable requirements.
+CB2 reproducible geometry results. Source geometry, checking scripts and previous CB1 assets remain in the shared project. No supplier confirmation or fabrication authorization has been obtained.CB2 · Development design · Not released for constructionWhole coach

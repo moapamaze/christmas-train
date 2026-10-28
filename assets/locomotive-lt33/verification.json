@@ -1,0 +1,131 @@
+{
+  "issue": "LT33",
+  "part": "GMT STOP-BF1001-71",
+  "quantity": 8,
+  "mass_delta_kg": 8.089224757815806,
+  "curves": [
+    {
+      "curve_scale": 1.0,
+      "max_hard_stop_N": 0.0,
+      "max_bumper_compression_mm": 14.372243983820532,
+      "mass_kg": 16809.861713285456,
+      "count": 504,
+      "converged": 504,
+      "within_model": 504,
+      "capacity_flag_count": 322,
+      "min_wheel_N": 2127.460928549646,
+      "max_bumper_N": 7286.700832992638,
+      "max_rebound_N": 6603.12667770766,
+      "max_link_N": 23089.22275282659,
+      "max_primary_mapping_error_mm": 0.032387551477611964,
+      "max_rebound_mapping_error_mm": 0.0366107058465559,
+      "min_exact_rebound_gap_mm": -0.020391669741214313,
+      "min_slide_margin_mm": 8.363077721850743,
+      "min_roll_capture_margin_mm": 13.261502992641905,
+      "max_bearing_angle_deg": 2.5125526259304394,
+      "max_link_angle_deg": 2.806571314856064,
+      "historical_default_regression_max_coordinate_error": 0.0,
+      "unresolved_case_ids": []
+    },
+    {
+      "curve_scale": 0.8,
+      "max_hard_stop_N": 668.6761710127527,
+      "max_bumper_compression_mm": 14.999999999999996,
+      "mass_kg": 16809.861713285456,
+      "count": 504,
+      "converged": 504,
+      "within_model": 504,
+      "capacity_flag_count": 322,
+      "min_wheel_N": 2105.8916009867107,
+      "max_bumper_N": 6316.340222747337,
+      "max_rebound_N": 6626.70250836213,
+      "max_link_N": 23089.22275282659,
+      "max_primary_mapping_error_mm": 0.032387551477611964,
+      "max_rebound_mapping_error_mm": 0.0366107058465559,
+      "min_exact_rebound_gap_mm": -0.02024932726298645,
+      "min_slide_margin_mm": 8.297277098938594,
+      "min_roll_capture_margin_mm": 13.336035359054108,
+      "max_bearing_angle_deg": 2.5264010759091295,
+      "max_link_angle_deg": 2.803317398660205,
+      "historical_default_regression_max_coordinate_error": 0.0,
+      "unresolved_case_ids": []
+    },
+    {
+      "curve_scale": 1.2,
+      "max_hard_stop_N": 0.0,
+      "max_bumper_compression_mm": 13.487901190527225,
+      "mass_kg": 16809.861713285456,
+      "count": 504,
+      "converged": 504,
+      "within_model": 504,
+      "capacity_flag_count": 322,
+      "min_wheel_N": 2146.151911556671,
+      "max_bumper_N": 7768.196756687125,
+      "max_rebound_N": 6587.926505858315,
+      "max_link_N": 23089.22275282659,
+      "max_primary_mapping_error_mm": 0.03238755147761552,
+      "max_rebound_mapping_error_mm": 0.0366107058465559,
+      "min_exact_rebound_gap_mm": -0.02051643832432215,
+      "min_slide_margin_mm": 8.418420424816645,
+      "min_roll_capture_margin_mm": 13.186856603456272,
+      "max_bearing_angle_deg": 2.5009487637158485,
+      "max_link_angle_deg": 2.811811775459719,
+      "historical_default_regression_max_coordinate_error": 0.0,
+      "unresolved_case_ids": []
+    }
+  ],
+  "case_count": 1512,
+  "curve_method": "Digitized solid loading curve from manufacturer PDF; \u00b120% only covers stated production/hardness tolerance, not dynamics, temperature or aging.",
+  "hard_stop_cases": [
+    {
+      "scale": 0.8,
+      "id": "high/all_coach_loss_0.7_demand/twist_left/right",
+      "force_N": 668.6761710127527
+    }
+  ],
+  "minimum_stop_edge": {
+    "scale": 0.8,
+    "id": "high/all_coach_loss_0.7_demand/twist_left/right",
+    "corner": [
+      "REAR",
+      2,
+      -1
+    ],
+    "gap_mm": -0.4778637732728157
+  },
+  "minimum_coil_corridor": {
+    "scale": 0.8,
+    "id": "rear-heavy/all_coach_loss_0.7_demand/twist_right/left",
+    "corner": [
+      "FRONT",
+      2,
+      -1
+    ],
+    "gap_mm": 2.4275590329489205
+  },
+  "nonfault_minimum_stop_edge": {
+    "scale": 0.8,
+    "id": "high/power_limited_pull_1/twist_right/right",
+    "corner": [
+      "REAR",
+      1,
+      -1
+    ],
+    "gap_mm": 1.5217845889125101
+  },
+  "nominal_max_stroke_mm": 15,
+  "nominal_rubber_strain_fraction": 0.375,
+  "catalog_standard_strain_limit_fraction": 0.4,
+  "ideal_uniform_bulge_at15_mm": 63.245553203367585,
+  "reserved_bulge_diameter_mm": 70,
+  "cup_bore_mm": 72,
+  "notes": [
+    "Cylindrical spring corridor is a sampled geometric screen. Not a continuous helical-coil clearance, tolerance or deformation proof.",
+    "Finite ring edge can contact before the reduced center-plane stop. The reported negative edge gap remains unresolved in the extreme brake-loss demand case; these cases are not operational permission.",
+    "The 70 mm bulge reservation is a design requirement for supplier confirmation, not a GMT published expanded diameter.",
+    "Catalog loading-curve area is loading work, not proven dissipated energy. No certified impact inputs or unloading curve.",
+    "Upper backup rim wall is4 mm. Material, local edge loading, retained base attachment, tapped retention and fatigue remain unreleased.",
+    "Original LT24 extended fault studies and LT30 emergency catch remain historical comparisons; this revision does not qualify them."
+  ],
+  "fabrication_release": false
+}

@@ -1,0 +1,166 @@
+Coach comfort requirements · Pulsipher FarmsSkip to contentPFPULSIPHER FARMSTRAIN DESIGN WORKSHOPCoachesPower & movementEngineeringCL2 · Heat-recovery ventilation evaluation. Equal-flow cooling/heating comparisons and full thermal occupancy for all four coaches. Airflow, HVAC count and final 35 kW generator selection remain open. Current ventilation study →
+Proposed requirementLighting & fresh airCoach loadsPower decisionEquipment selection
+CL1.1 / EL1 · CLIMATE, LIGHTING & FRESH AIR · 24 OCTOBER 2026PROPOSED — OPERATING RANGE NOT YET ACCEPTED
+Define the ride conditions before buying the power system.
+Keep heating, air conditioning and fresh air in all four enclosed coaches. Develop the fall–spring evening case first, with the summer cases visible for comparison. The comparison below retains the earlier electric brake compressor; an engine-driven replacement is now the preferred development direction.
+68°F / 75°F
+Proposed heating and cooling targets at passenger level.20°F / 95°F
+Winter and warm-evening check points. These are study choices, not local weather design percentiles or approved operating limits.3 + 1 coaches
+Three regular coaches and one accessible coach, with independent temperature control.
+The decision is not yet closed. Fall–spring evenings is a proposed development basis; it does not remove summer air conditioning from the requirements. No HVAC unit, generator or reduction in traction power is approved by this study.
+Proposed comfort requirement
+ | Item
+ | Working proposal
+ | What remains to settle
+ | Operating duty
+ | Fall–spring evening rides; retain heating and cooling.
+ | Year-round daytime service would require the solar and high-ambient cases to become selection conditions.
+ | Occupied temperature
+ | Heat to 68°F; cool to 75°F, measured at passenger level.
+ | Comfort tolerance and recovery after boarding; no promise that temperature is maintained with doors held open.
+ | Winter
+ | Check 30°F and 20°F outside, with full occupancy ventilation.
+ | Delivered heat and electrical input at the selected low ambient, including defrost and any auxiliary heater.
+ | Cooling
+ | Compare 85°F and 95°F evening conditions; retain 110°F, solar and humidity stress cases.
+ | Accepted maximum outdoor temperature, humidity and solar exposure. “Evening” does not eliminate heat stored in a sun-soaked coach.
+ | Occupancy
+ | 32 regular passenger places and 13 accessible-coach passenger places; thermal study adds one person per car: 113 total.
+ | Inherited occupancy only: confirm maximum occupancy with fold-down seating before selecting equipment. These extra heat allowances are not a staffing prescription or passenger-capacity approval.
+ | Preconditioning
+ | Bring empty coaches to the target before boarding; control each coach separately.
+ | Body heat capacity, initial temperature, warm-up time and door-opening schedule are unknown. Occupied steady-state heat cannot size preheat.
+ | Equipment approach
+ | Retain standard inverter heat-pump/mini-split investigation, with a separate engineered fresh-air path.
+ | Exact matched units, mobile/rail installation acceptance, distribution, condensate, supports and service access.
+LED lighting load set: 100 watts per coach
+The working allowance is 100 W of LED fixtures per coach, 400 W across all four coaches. The same allowance applies to the accessible coach. This covers normal interior, boarding and exit/orientation lighting; decorative Christmas lights, locomotive lamps and other show loads are separate.
+ | Lighting function
+ | Each coach
+ | Four coaches
+ | Interior LEDs
+ | 70 W
+ | 280 W
+ | Steps and platforms
+ | 20 W
+ | 80 W
+ | Exit and orientation lights
+ | 10 W
+ | 40 W
+ | LED fixture total
+ | 100 W
+ | 400 W
+ | AC supply allowance, including conversion
+ | 112 W
+ | 448 W
+For a proposed 24 V lighting circuit, that is 4.17 A per coach at the fixture bus. With an assumed 90% AC/DC efficiency and 0.9 input power factor, the rounded 448 W input allowance is about 2.1 A equivalent at 240 V for all four coaches. The actual feeder arrangement, converter and circuit protection remain to be selected; these numbers are not branch-circuit ratings.
+The budget is supported by real vehicle-light examples: six Grote 61P71 lamps at 24 V × 0.46 A total 66.24 W, within the 70 W interior allowance. Four HELLA 2JA 343 606-011 lamps at 3.6 W total 14.4 W, within the 20 W steps/platform allowance. These are rating examples, not a selected fixture layout or a demonstration of adequate illumination. Final appearance, glare, dimming and exit-light performance still need matching.
+Emergency illumination must remain available from its backup supply. Its lamps are counted within the lighting allowance; the emergency battery/charger and recharge load remain separate. Do not count the same lamp twice.
+Yes, fresh-air ventilation is normal in enclosed passenger vehicles
+Passenger-vehicle suppliers offer dedicated ventilation, and standard mini-splits primarily recirculate cabin air. Their indoor fan is not an outside-air supply. Retain a controlled fresh-air intake and an outlet/relief path for the enclosed coaches. Vehicle ventilation example ↗ · Mini-split ventilation limits ↗
+The existing 250 W per-coach fan allowance stays provisional; it is not a selected motor rating. Select from the needed airflow at the actual filter and duct resistance, using the fullest permitted seating configuration, including fold-down seats. The fan moves air; the mini-split must also heat or cool that incoming air. Those are separate loads.
+Does this bring hot air in while the mini-split runs? Yes, on a hot day. A controlled amount of outside air replaces stale cabin air; the mini-split removes the added heat and, when needed, moisture. The cooling calculation already includes an outside-air allowance, so it must not be added twice. A heat-recovery ventilator could reduce the temperature load, but adds equipment; no recovery credit is assumed here. Heat-recovery principle ↗ (building guidance, not vehicle approval). The intake must be located away from locomotive exhaust.
+Current electrical boundary: replacing the old 120 W lighting input allowance with 112 W changes the four-coach auxiliary allowance from 4.320 to 4.288 kW. The remaining 250 W fan, 600 W brake-battery charger, 60 W emergency-light charger and 50 W controls per coach are still placeholders. The large charger allowances need a device-based review before a generator is chosen.
+Brake compressor direction: develop an engine-driven compressor. Its main electric motor would come off the electrical schedule for that arrangement; its mechanical power, drive and electrical auxiliaries still need confirmation. The power table below retains the earlier electric-compressor arrangement only as a comparison. It is not the final proposed train supply load.
+What the current load model says
+These are delivered heating/cooling loads, not electrical consumption. The regular coach’s clear window area is corrected from 8.630 to 9.910 m² (+14.8%) using C1. The rectangular 306 × 104 in × 2.2 m envelope remains a proxy for the curved/raised roof; accessible glazing remains inherited. Window frames, doors and final shell surfaces still need a coordinated takeoff.
+The table retains opaque U = 1.5 W/m²K, window U = 2.7 W/m²K and SHGC = 0.5. Those are assumptions, not confirmed materials. It includes full thermal occupancy, 420 W cabin equipment heat per car as a retained sensitivity pending actual LED/fan/charger heat locations, inherited fresh air, average door leakage and a 15% cooling allowance. Heating has no equivalent allowance.
+ | Condition
+ | Each regular coach
+ | Accessible coach
+ | Four-coach total
+ | 30°F outside → 68°F inside
+ | 7.2 kW 24,498 BTU/h
+ | 4.9 kW 16,688 BTU/h
+ | 26.4 kW
+ | 20°F outside → 68°F inside
+ | 9.8 kW 33,544 BTU/h
+ | 6.6 kW 22,400 BTU/h
+ | 36.1 kW
+ | 85°F evening → 75°F inside
+ | 8.1 kW 27,590 BTU/h
+ | 4.3 kW 14,809 BTU/h
+ | 28.6 kW
+ | 95°F evening → 75°F inside
+ | 11.1 kW 37,993 BTU/h
+ | 6.3 kW 21,377 BTU/h
+ | 39.7 kW
+ | 95°F with solar load → 75°F
+ | 14.7 kW 50,132 BTU/h
+ | 8.9 kW 30,335 BTU/h
+ | 53.0 kW
+ | 110°F evening → 75°F inside
+ | 15.7 kW 53,598 BTU/h
+ | 9.2 kW 31,229 BTU/h
+ | 56.3 kW
+ | 110°F with solar + humidity stress → 75°F
+ | 25.0 kW 85,345 BTU/h
+ | 14.6 kW 49,727 BTU/h
+ | 89.6 kW
+The dry cases retain occupant moisture but no additional outdoor humidity load. The last row adds a 0.006 kg/kg humidity-ratio stress, not measured site humidity. Solar uses the inherited 500 W/m² glazing exposure and 20 K roof sol-air increment. Actual orientation, shade and thermal storage are unresolved.
+Insulation helps, but does not remove the fresh-air load
+ | Envelope comparison
+ | Opaque / window U (W/m²K)
+ | 20°F heating
+ | 95°F evening cooling
+ | Retained envelope assumptions
+ | 1.5 / 2.7
+ | 36.1 kW
+ | 39.7 kW
+ | Better insulation sensitivity
+ | 0.7 / 2.7
+ | 29.4 kW
+ | 36.5 kW
+ | Higher window heat-loss sensitivity
+ | 1.5 / 5.7
+ | 39.0 kW
+ | 41.1 kW
+Values are whole-train thermal loads with the corrected window area. The U = 0.7 opaque case is a better-insulation target to investigate, not a verified assembly. Window U = 5.7 is a sensitivity only; it is not a rating of C1’s unselected 6 mm polycarbonate option. The existing glass U = 2.7 must not be assigned to that option without manufacturer evidence.
+Fresh air needs its own equipment and airflow check
+The inherited 7.5 L/s per thermal person gives 247.5 L/s (524 cfm) per regular coach and 105 L/s (222 cfm) for the accessible coach. The extra 30 L/s per car in the load model is average door/leakage allowance; it is not a mechanical fresh-air supply. The rate still requires a vehicle-specific ventilation basis and maximum actual seating occupancy; the lower accessible-coach value is not accepted for a fuller fold-down-seat arrangement.
+Mini-splits principally recirculate cabin air, so their fan airflow cannot be counted as this outside-air supply. Keep ventilation, filtration and distribution separate in the schedule. No reduction in fresh air or heat-recovery credit has been used to make the power calculation fit. Manufacturer ventilation guidance ↗
+LT43 · Insulated machinery tender → Kubota, pump, generator, diesel tank, hydraulic reservoir and cooler move into a separate tender. First layout and partial weight check; new connections and movement remain open.
+Earlier electric-compressor arrangement: power comparison
+These are comparison cases, not a final budget for the preferred engine-driven compressor. Its shaft load and any electrical treatment/control loads remain unknown.
+ | Condition
+ | Heat-pump COP
+ | Coach electricity
+ | Coaches + compressor electricity
+ | Total engine shaft demand
+ | 20°F outside → 68°F inside
+ | 2 assumed
+ | 22.3 kW
+ | 26.9 kW
+ | 70.8 kW
+ | 85°F evening → 75°F inside
+ | 2.5 assumed
+ | 15.7 kW
+ | 20.3 kW
+ | 63.3 kW
+ | 95°F evening → 75°F inside
+ | 2.5 assumed
+ | 20.2 kW
+ | 24.7 kW
+ | 68.3 kW
+ | 95°F with solar load → 75°F
+ | 2.5 assumed
+ | 25.5 kW
+ | 30.1 kW
+ | 74.4 kW
+Coach electricity includes the revised 4.288 kW auxiliary allocation once. In this earlier electric-compressor arrangement, the compressor adds the LT42 4.593 kW electrical screen. Engine totals also include 35 kW traction, 3 kW charge allowance and 2 kW other mechanical auxiliaries, with 90% generator and 97% drive efficiency. The 3 kW engine charge allowance still needs a device ledger to confirm its boundary against coach chargers. COP values are arithmetic sensitivities, not selected-machine ratings.
+The Kubota reference is 45.6 kW net continuous. For the earlier electric-compressor arrangement at the proposed 95°F evening point, the comparison needs about 68.3 kW at the engine while retaining 35 kW traction. About 12.3 kW would remain for traction under those assumptions. Better insulation alone does not close this gap. Compare a separate coach-power supply with a fully recalculated propulsion duty before committing to a generator or drive.
+Do not turn the table’s electrical load into a generator order size. Actual unit input at hot/cold conditions, compressor package auxiliaries, starting/load steps, power factor, nonlinear loads, derating and reserve are still required. No generator is installed or selected here.
+The next purchasable package starts with this worksheet
+Set the operating envelope: retain the proposed evening check points or include summer daytime duty; settle the indoor comfort and boarding recovery requirements.
+Specify the enclosure: insulation assemblies, actual safety glazing U/SHGC, window/door areas and seals. Reconcile the raised roof and accessible shell.
+Match standard units to delivered loads: obtain both sensible/latent cooling and low-temperature heating capacity, input power, defrost and starting data for each exact indoor/outdoor pairing. A nominal “ton” or BTU label alone is insufficient.
+Close ventilation and power together: add actual fresh-air fans and all coach loads, then size the power supply and confirm generator/drive compatibility.
+Keep the installation simple: investigate independently controlled heat-pump systems for each coach. No between-coach refrigerant or hot-water system has been introduced. Actual unit count and mounting arrangement follow verified performance and the final coach body.
+Sources, assumptions and reproducible calculations
+CL1.1 / EL1 calculation record (compressed JSON): 21 comparisons and 16 successful replays of inherited thermal cases before correcting regular glazing.
+C1 body calculations and design record: corrected clear glazing area and unfinished thermal construction.
+Inherited thermal assumptions and 3P1 reconciliation. Historical calculations are retained.
+LT42 power, brakes and movement review: compressor and propulsion allocation. Brake and hose holds remain unchanged.
+PNNL heat-pump guidance: load-based sizing, cold-weather capacity, distribution and ventilation. This building guidance is not approval for rail installation.
+Carrier mini-split guidance: recirculated air and separate ventilation.
+CL1.1 / EL1 · Working lighting allocation and climate sensitivities · Not a purchase or construction releaseCoach design

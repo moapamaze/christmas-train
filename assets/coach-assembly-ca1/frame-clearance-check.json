@@ -1,0 +1,36 @@
+{
+  "coupling_height_mm": 550,
+  "checked_pairs": 6440,
+  "potential_box_overlaps": [],
+  "modeled_notch_checks": [
+    {
+      "parts": [
+        "JOINT-A-SECONDARY-DOUBLER--1",
+        "COACH-A-BODY-FOUNDATION-T352_1"
+      ],
+      "result": "Crossmember box lies inside modeled through-notch in X/Z; void passes full plate thickness."
+    },
+    {
+      "parts": [
+        "JOINT-A-SECONDARY-DOUBLER-1",
+        "COACH-A-BODY-FOUNDATION-T352_1"
+      ],
+      "result": "Crossmember box lies inside modeled through-notch in X/Z; void passes full plate thickness."
+    },
+    {
+      "parts": [
+        "JOINT-B-SECONDARY-DOUBLER--1",
+        "COACH-B-BODY-FOUNDATION-T-46_1"
+      ],
+      "result": "Crossmember box lies inside modeled through-notch in X/Z; void passes full plate thickness."
+    },
+    {
+      "parts": [
+        "JOINT-B-SECONDARY-DOUBLER-1",
+        "COACH-B-BODY-FOUNDATION-T-46_1"
+      ],
+      "result": "Crossmember box lies inside modeled through-notch in X/Z; void passes full plate thickness."
+    }
+  ],
+  "scope": "Nominal straight pose: both joint mounts against retained body frame group. AABB rejection screen; 0.1mm threshold removes tessellation/contact rounding. No articulated, draft load or body-access-component proof."
+}

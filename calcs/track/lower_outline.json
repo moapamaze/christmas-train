@@ -1,0 +1,455 @@
+{
+ "basis": "K-401 lower outline: >= 150 mm ATOR between the rails (|Y| < 489), >= 100 mm ATOR outside (|Y| >= 489); level track and vertical curves R >= 500 m; new wheels; static. Wheels/flanges excluded. Truck-mounted parts use the truck as the vehicle (VC effect < 0.2 mm).",
+ "vehicles": {
+  "locomotive": {
+   "n_checked": 37,
+   "worst": [
+    {
+     "name": "leading axlebox (inside)",
+     "grp": "truck",
+     "x": [
+      910,
+      1090
+     ],
+     "y": [
+      250,
+      330
+     ],
+     "z0": 255.0,
+     "vc_loss": 0.0,
+     "clear": 255.0,
+     "zone": "between",
+     "limit": 150.0,
+     "util": 0.59
+    },
+    {
+     "name": "leading axlebox (inside)",
+     "grp": "truck",
+     "x": [
+      910,
+      1090
+     ],
+     "y": [
+      -330,
+      -250
+     ],
+     "z0": 255.0,
+     "vc_loss": 0.0,
+     "clear": 255.0,
+     "zone": "between",
+     "limit": 150.0,
+     "util": 0.59
+    },
+    {
+     "name": "leading axlebox (inside)",
+     "grp": "truck",
+     "x": [
+      1960,
+      2140
+     ],
+     "y": [
+      250,
+      330
+     ],
+     "z0": 255.0,
+     "vc_loss": 0.0,
+     "clear": 255.0,
+     "zone": "between",
+     "limit": 150.0,
+     "util": 0.59
+    },
+    {
+     "name": "leading axlebox (inside)",
+     "grp": "truck",
+     "x": [
+      1960,
+      2140
+     ],
+     "y": [
+      -330,
+      -250
+     ],
+     "z0": 255.0,
+     "vc_loss": 0.0,
+     "clear": 255.0,
+     "zone": "between",
+     "limit": 150.0,
+     "util": 0.59
+    },
+    {
+     "name": "leading-truck inside sideframe PL25",
+     "grp": "truck",
+     "x": [
+      670,
+      2380
+     ],
+     "y": [
+      330,
+      355
+     ],
+     "z0": 255.0,
+     "vc_loss": 0.0,
+     "clear": 255.0,
+     "zone": "between",
+     "limit": 150.0,
+     "util": 0.59
+    },
+    {
+     "name": "leading-truck inside sideframe PL25",
+     "grp": "truck",
+     "x": [
+      670,
+      2380
+     ],
+     "y": [
+      -355,
+      -330
+     ],
+     "z0": 255.0,
+     "vc_loss": 0.0,
+     "clear": 255.0,
+     "zone": "between",
+     "limit": 150.0,
+     "util": 0.59
+    },
+    {
+     "name": "axle lead",
+     "grp": "axle",
+     "x": [
+      945,
+      1055
+     ],
+     "y": [
+      -640,
+      640
+     ],
+     "z0": 270.0,
+     "vc_loss": 0.0,
+     "clear": 270.0,
+     "zone": "between",
+     "limit": 150.0,
+     "util": 0.56
+    },
+    {
+     "name": "axle lead",
+     "grp": "axle",
+     "x": [
+      1995,
+      2105
+     ],
+     "y": [
+      -640,
+      640
+     ],
+     "z0": 270.0,
+     "vc_loss": 0.0,
+     "clear": 270.0,
+     "zone": "between",
+     "limit": 150.0,
+     "util": 0.56
+    }
+   ],
+   "ok": true
+  },
+  "tender": {
+   "n_checked": 33,
+   "worst": [
+    {
+     "name": "transom HSS10x4x1/4 (upright, pair) tender",
+     "grp": "truck",
+     "x": [
+      1096,
+      1198
+     ],
+     "y": [
+      -712,
+      712
+     ],
+     "z0": 196,
+     "vc_loss": 0.0,
+     "clear": 196.0,
+     "zone": "between",
+     "limit": 150.0,
+     "util": 0.77
+    },
+    {
+     "name": "transom HSS10x4x1/4 (upright, pair) tender",
+     "grp": "truck",
+     "x": [
+      1202,
+      1304
+     ],
+     "y": [
+      -712,
+      712
+     ],
+     "z0": 196,
+     "vc_loss": 0.0,
+     "clear": 196.0,
+     "zone": "between",
+     "limit": 150.0,
+     "util": 0.77
+    },
+    {
+     "name": "transom HSS10x4x1/4 (upright, pair) tender",
+     "grp": "truck",
+     "x": [
+      3696,
+      3798
+     ],
+     "y": [
+      -712,
+      712
+     ],
+     "z0": 196,
+     "vc_loss": 0.0,
+     "clear": 196.0,
+     "zone": "between",
+     "limit": 150.0,
+     "util": 0.77
+    },
+    {
+     "name": "transom HSS10x4x1/4 (upright, pair) tender",
+     "grp": "truck",
+     "x": [
+      3802,
+      3904
+     ],
+     "y": [
+      -712,
+      712
+     ],
+     "z0": 196,
+     "vc_loss": 0.0,
+     "clear": 196.0,
+     "zone": "between",
+     "limit": 150.0,
+     "util": 0.77
+    },
+    {
+     "name": "axle tender",
+     "grp": "axle",
+     "x": [
+      545,
+      655
+     ],
+     "y": [
+      -700,
+      700
+     ],
+     "z0": 245.0,
+     "vc_loss": 0.0,
+     "clear": 245.0,
+     "zone": "between",
+     "limit": 150.0,
+     "util": 0.61
+    },
+    {
+     "name": "axle tender",
+     "grp": "axle",
+     "x": [
+      1745,
+      1855
+     ],
+     "y": [
+      -700,
+      700
+     ],
+     "z0": 245.0,
+     "vc_loss": 0.0,
+     "clear": 245.0,
+     "zone": "between",
+     "limit": 150.0,
+     "util": 0.61
+    },
+    {
+     "name": "axle tender",
+     "grp": "axle",
+     "x": [
+      3145,
+      3255
+     ],
+     "y": [
+      -700,
+      700
+     ],
+     "z0": 245.0,
+     "vc_loss": 0.0,
+     "clear": 245.0,
+     "zone": "between",
+     "limit": 150.0,
+     "util": 0.61
+    },
+    {
+     "name": "axle tender",
+     "grp": "axle",
+     "x": [
+      4345,
+      4455
+     ],
+     "y": [
+      -700,
+      700
+     ],
+     "z0": 245.0,
+     "vc_loss": 0.0,
+     "clear": 245.0,
+     "zone": "between",
+     "limit": 150.0,
+     "util": 0.61
+    }
+   ],
+   "ok": true
+  },
+  "coach": {
+   "n_checked": 22,
+   "worst": [
+    {
+     "name": "transom HSS10x4x1/4 (upright, pair) coach",
+     "grp": "truck",
+     "x": [
+      2233,
+      2335
+     ],
+     "y": [
+      -712,
+      712
+     ],
+     "z0": 196,
+     "vc_loss": 0.0,
+     "clear": 196.0,
+     "zone": "between",
+     "limit": 150.0,
+     "util": 0.77
+    },
+    {
+     "name": "transom HSS10x4x1/4 (upright, pair) coach",
+     "grp": "truck",
+     "x": [
+      2339,
+      2441
+     ],
+     "y": [
+      -712,
+      712
+     ],
+     "z0": 196,
+     "vc_loss": 0.0,
+     "clear": 196.0,
+     "zone": "between",
+     "limit": 150.0,
+     "util": 0.77
+    },
+    {
+     "name": "transom HSS10x4x1/4 (upright, pair) coach",
+     "grp": "truck",
+     "x": [
+      7719,
+      7821
+     ],
+     "y": [
+      -712,
+      712
+     ],
+     "z0": 196,
+     "vc_loss": 0.0,
+     "clear": 196.0,
+     "zone": "between",
+     "limit": 150.0,
+     "util": 0.77
+    },
+    {
+     "name": "transom HSS10x4x1/4 (upright, pair) coach",
+     "grp": "truck",
+     "x": [
+      7825,
+      7927
+     ],
+     "y": [
+      -712,
+      712
+     ],
+     "z0": 196,
+     "vc_loss": 0.0,
+     "clear": 196.0,
+     "zone": "between",
+     "limit": 150.0,
+     "util": 0.77
+    },
+    {
+     "name": "axle coach",
+     "grp": "axle",
+     "x": [
+      1682,
+      1792
+     ],
+     "y": [
+      -700,
+      700
+     ],
+     "z0": 245.0,
+     "vc_loss": 0.0,
+     "clear": 245.0,
+     "zone": "between",
+     "limit": 150.0,
+     "util": 0.61
+    },
+    {
+     "name": "axle coach",
+     "grp": "axle",
+     "x": [
+      2882,
+      2992
+     ],
+     "y": [
+      -700,
+      700
+     ],
+     "z0": 245.0,
+     "vc_loss": 0.0,
+     "clear": 245.0,
+     "zone": "between",
+     "limit": 150.0,
+     "util": 0.61
+    },
+    {
+     "name": "axle coach",
+     "grp": "axle",
+     "x": [
+      7168,
+      7278
+     ],
+     "y": [
+      -700,
+      700
+     ],
+     "z0": 245.0,
+     "vc_loss": 0.0,
+     "clear": 245.0,
+     "zone": "between",
+     "limit": 150.0,
+     "util": 0.61
+    },
+    {
+     "name": "axle coach",
+     "grp": "axle",
+     "x": [
+      8368,
+      8478
+     ],
+     "y": [
+      -700,
+      700
+     ],
+     "z0": 245.0,
+     "vc_loss": 0.0,
+     "clear": 245.0,
+     "zone": "between",
+     "limit": 150.0,
+     "util": 0.61
+    }
+   ],
+   "ok": true
+  }
+ }
+}

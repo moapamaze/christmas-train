@@ -1,0 +1,29 @@
+{
+  "issue": "3L.2 air-volume interface R0",
+  "status": "catalog-reference sums only; not reservoir or compressor sizing",
+  "coach_count": 4,
+  "braked_axles_per_coach": 4,
+  "combination_chambers_per_axle": 2,
+  "combination_chambers_per_coach": 8,
+  "coach_combination_chambers_total": 32,
+  "locomotive_combination_chambers": null,
+  "source": "Dexter LIT-123-00 2019.09 printed page 19, 10K column",
+  "source_url": "https://www.dextergroup.com/user_area/content_media/raw/2019.09_LIT-123-00Online%281%29.pdf",
+  "reference_pressure_psig": 100,
+  "service_full_stroke_catalog_volume_in3_per_chamber": 64,
+  "spring_caged_catalog_volume_in3_per_chamber": 96,
+  "service_catalog_sum_in3_per_coach": 512,
+  "spring_catalog_sum_in3_per_coach": 768,
+  "service_catalog_sum_litre_per_coach": 8.390176768,
+  "spring_catalog_sum_litre_per_coach": 12.585265152,
+  "service_catalog_sum_litre_four_coaches": 33.560707072,
+  "spring_catalog_sum_litre_four_coaches": 50.341060608,
+  "holds": [
+    "Confirm precise manufacturer meaning and delivered revision of the stated volumes; do not infer a free-air consumption or add the two fields without resolving their basis.",
+    "100 PSIG is catalog reference, not selected train operating pressure.",
+    "Obtain usable reservoir pressure range and protected service/emergency reserve criteria.",
+    "Add locomotive chambers, piping and valve volumes, leakage and cycling duty.",
+    "Recalculate compressor recharge, release capacity and measured command-to-effective-braking timing.",
+    "No Phase3K tank/compressor selection is validated by retaining its part number."
+  ]
+}

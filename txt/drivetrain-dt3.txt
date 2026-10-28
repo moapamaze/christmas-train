@@ -1,0 +1,61 @@
+Drivetrain assembly drawings & CAD · DT3
+Previous version · Earlier shaft-and-gear drivetrain
+This page is retained as history. Open the current assembly →
+Historical DT3 issue. Confirmed interference prevents building this assembly as drawn. Current DT4 direct-drive layout →
+DT3 · Motor-to-wheel assembly · R0
+The drive behind the wheels
+One hydraulic motor per truck drives a central 2.5:1 reducer, two sliding cardan shafts and two 3:1 axle gearboxes. The complete locomotive uses two of these trucks.
+Dimensioned mechanism proposal. The model now includes the drive components and their mounting geometry. Gear ratings, final supplier configurations, fits, suspension and brake integration remain unfinished.
+View assembly drawingsRotate the assemblyCAD and editable source
+DT3 drive geometry; the latest LT3 frame and support interfaces are recorded in the engineering audit. DT3 proposes a 1,400 mm truck wheelbase to fit the drive; truck pivot locations stay unchanged. Coordination record →
+19 October audit: correction required. Both axle input flanges clash with their housings. Engineering findings and correction order →
+Dimensioned assembly drawings
+Review all six drawings here. Select a drawing to enlarge it on the site and scroll to inspect its dimensions. Drawing revisions will be updated on this page.
+DT3-A01 · R0 · mm
+Powered truck assembly
+Motor, reducer, articulated shafts and both axle drives; new axle positions.
+Open drawing on site
+DT3-G01 · R0 · mm
+Motor mount & central reducer
+SAE flange, adapter recess, gear centres and supported input/output shafts.
+Open drawing on site
+DT3-X01 · R0 · mm
+Axle gearbox section
+Bevel pair, pinion and axle-bearing stations, seal and handed assembly.
+Open drawing on site
+DT3-S01 · R0 · mm
+Shafts, joints & movement
+Commercial shaft family, flange dimensions, plunge range and joint spacing.
+Open drawing on site
+DT3-M01 · R0 · mm
+Cradle & torque-reaction mounts
+Crossbearers, drop plates, torque-link geometry and frame hardpoints.
+Open drawing on site
+DT3-H01 · R0 · mm
+Hydraulic connections
+Pump-to-motor A/B branches, separate case returns and charge/flush connections.
+Open drawing on site
+Inspect the assembly
+Drive cutawayComplete truckIsometricTopSideEnd
+FrameWheelsGearcase coversMountsBearingsHose corridors
+Loading assembly geometry…
+Select a component to see its identity and modelling status. Drag to rotate; scroll or pinch to zoom.
+162 named model components. Motor body, commercial joints and bearings are dimensional representations; bevel teeth are illustrative. The interactive geometry and STEP exports share the same CAD source. Hoses show routing corridors, not fabrication-ready bends.
+CAD and editable source
+ | Download
+ | Contents
+ | Truck assembly · STEP in ZIP
+ | Frame, relocated wheelsets, motor interface, reducers, shafts and mounting proposal.
+ | Named assembly components
+ | Isolate the drive or individual components in your CAD application. The included source can regenerate separate part STEP files.
+ | Motor adapter · DXF
+ | Nominal plate outline, four mounting holes and pilot recess; no fit tolerance release.
+ | Cradle drop plate · DXF
+ | 120 × 200 × 12 plate proposal and four-hole pattern.
+ | Model parts · CSV · Component selection · CSV
+ | Per-truck quantities, candidate components and explicit selection status.
+ | Complete editable package · ZIP
+ | Complete named STEP assembly, part-geometry source, dimensions, drawings and separate engineering records.
+Calculations, component ratings and unresolved interfaces →
+Earlier issue: DT2 frame and wheel-blank drawings. Their 1,200 mm wheelbase and LT1 clearance warning are historical.DT3 R0 · Millimetres · Assembly proposal; not a working, validated or fabrication-released transmission.
+DrawingClose ✕

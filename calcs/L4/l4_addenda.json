@@ -1,0 +1,248 @@
+{
+ "rev": "L4 addenda 28 Oct 2026",
+ "L107_P1L": {
+  "L107_kg": 36.3,
+  "loco_kg": 19934,
+  "train_kg": 81513,
+  "front_ballast_kg": 151,
+  "ballast_plates_per_side": 1,
+  "ballast_plates": 2,
+  "axle_kN_adhesion_basis": {
+   "F1": 44.95,
+   "F2": 37.11,
+   "R1": 44.59,
+   "R2": 45.0
+  },
+  "axle_kN_L3asis_basis": {
+   "F1": 49.12,
+   "F2": 41.28,
+   "R1": 45.37,
+   "R2": 45.78
+  },
+  "wheel_kN_max_of_bases": {
+   "F1": 24.56,
+   "F2": 20.64,
+   "R1": 22.68,
+   "R2": 22.89
+  },
+  "lead_pony_wheel_kN": 5.95,
+  "K2a_max_wheel_kN": 25.89,
+  "K2a_util": 0.996,
+  "all_wheels_pass_26kN": true,
+  "equal_torque_2pct_dry_margin": 1.14,
+  "wet_unsanded_2pct_margin_equal": 0.68,
+  "unsprung_drive_per_axle_kg": 127.4,
+  "note": "Steering 11: L-107 is P1-L (aluminium deck) net +36.5 kg (moment CG X6024) - Steering 17: rev L.1 +28.2 + SS± HSS3x3x1/8 +9.1 = +37.3 kg; the 939/470 kg cases are DROPPED. Front ballast = smallest pair of 75.4 kg plates giving the equal-torque dry 2% start margin ≥ 1.10 (L4.1: no flow divider - equal torque governs) → 151 kg (2 plates of 75.4 kg; Steering 17 trim with BT-1 68.2 kg in the Y- pocket). Lead/pony wheel = 2.89 kN + own 1.25 t ballast / 4. Owner decision C9."
+ },
+ "base_contents": {
+  "deck": {
+   "answer": "YES - the 16,657 kg base INCLUDES the L3 PL6 deck 1,248 kg",
+   "evidence": [
+    "train/cad/mass_report.json PF-L110_loco_frame_only 3,815.3 kg = frame 2,229.4 + deck 1,248.1 + coupler 209.9 + ballast 127.9",
+    "structural_body_study.md §4 option 1 'R2 as drawn': frame steel 3,815 inside loco 16,810 (LT42) → 16,657 after the LT43 double-count removal (loco_check.py)"
+   ]
+  },
+  "hood": {
+   "answer": "YES - includes the L3 3 mm hood 898 kg",
+   "evidence": [
+    "structural_body_study.md §4: body/shell steel 1,900 = hood 898 + ~1,002 cab/front"
+   ]
+  },
+  "cab": {
+   "answer": "The base carries the L3 cab inside the 1,900 kg body/shell (1,900 - 898 hood = ~1,002 kg cab/front). Treated as a 1,000 kg placeholder at X9350 (cab X8000-10700 mid).",
+   "replaced_by": "Cab L-111 C1 813.9 kg @X9283 Z2722 (net -186.1 kg) + FT-1 15.6 kg @X200"
+  },
+  "deductions_for_LocoBot": [
+   "P1-L net +36.5 kg as ledgered (deck -529.9 = Al 718 - PL6 1,248; outriggers -78; edge angles -103.1) - do NOT also add P1, and do not add 1,248 back",
+   "L3-HOOD-REMOVE -898 @X4300 - correct, keep",
+   "Add a CAB-L3-REMOVE -1,000 @X9350 row against CAB-L111-C1 +813.9 @X9283 (net -186.1); FT-1 +15.6 @X200",
+   "Barrel L-108 enters as its full 2,135 kg (net +1,237 after the hood removal) - unchanged"
+  ]
+ },
+ "cab_effect": {
+  "front_truck_kg": 137.7,
+  "rear_truck_kg": -323.8,
+  "front_wheel_kN": 0.34,
+  "rear_wheel_kN": -0.79,
+  "ft1_front_wheel_kN": 0.085,
+  "note": "Cab swap alone moves ~138 kg onto the front truck (lever, behind the rear pivot) and takes ~324 kg off the rear. Final K2-a with all steering-11 changes and rebalanced ballast in L107_P1L."
+ },
+ "FT1": {
+  "load": "70.0 kN at up to 20° vertical / 15° lateral (L-111)",
+  "axial_kN": 63.5,
+  "shear_resultant_kN": 29.4,
+  "shear_per_bolt_kN": 3.67,
+  "FT1a": {
+   "LocoBot": "T 14.0 / V 3.7 kN per bolt, T/21 + V/30 = 0.79",
+   "check": 0.79,
+   "uniform_tension_per_bolt_kN": 7.94,
+   "verdict": "VERIFIED: 14.0/21 + 3.7/30 = 0.79; V matches 70 kN components/8 = 3.67; T 14.0 vs uniform 7.94 implies the lug-eccentricity moment on the far row (plausible). HB16-2 clamp range covers PL + 9.5 wall (ASSUMED from Lindapter range table - confirm)."
+  },
+  "FT1b": {
+   "LocoBot": "Pu 220 kN / 1.67 = 131.55 vs 70 → 0.53",
+   "mp_Nmm_per_mm": 6771,
+   "Pu_pyramid_kN": 280.6,
+   "Pu_pyramid_other_orientation_kN": 497.5,
+   "Pu_with_10pct_corner_lever_reduction_kN": 252.5,
+   "util_independent": 0.46,
+   "verdict": "VERIFIED (conservative): independent pyramid yield-line with clamped edges gives Pu ≈ 281 kN (≈ 252 kN with a 10% corner-lever allowance) ≥ Loco Bot's 220 kN, so 0.53 stands as the governing (lower-bound) figure; independent util 0.46. Full 70 kN applied to the wall (the axial component is 63.5 kN)."
+  },
+  "other_checks": "FT-1c lug 0.16, d 0.23, e 0.32, f 0.42, g weld 0.42, h Crosby G-209 shackle 0.84, i end-sill W2 welds 0.05 (Loco Bot) - accepted",
+  "holes": "8 HB16-2 in the FRONT end sill are ACCEPTED (provisional) - the earlier 'end-sill holes REJECTED' applies to the L-107 running-board brackets in the drawgear/end-sill zones, not to FT-1. Conditions: drilled not burned; ≥ 50 mm from weld toes and ≥ 3t from the HSS corner radius; no other holes inside the 126 × 236 patch; Lindapter install torque; line of pull through the bolt-group centroid ±25 mm.",
+  "verdict": "FT-1 PASS - governing util 0.84 (G-209 shackle); bolts 0.79; wall 0.53"
+ },
+ "hood_in_base": {
+  "answer": "YES - the 16,657 kg base includes the L3 3 mm hood (898 kg)",
+  "evidence": [
+   "structural_body_study.md §4: R2 as drawn body/shell steel 1,900 kg INCLUDING the 3 mm hood 898 kg + 1,500 ballast, inside the LT42 16,810 kg",
+   "loco_check.py: 16,657 = LT42 16,810 - 1,010 relocated + 857 L3 (hood not removed)"
+  ],
+  "consequence": "barrel delta = 2,135 - 898 = +1,237 kg (not +385 vs the 1,750 L-107 provisional shell load). Loco Bot ledger line L3-HOOD-REMOVE -898 is CORRECT and must stay."
+ },
+ "HB16_holes": {
+  "table_max": {
+   "RB_Fz_down_kN": 21.62,
+   "RB_Fx_3g_kN": 17.01,
+   "RB_Fy_1g_kN": 11.34,
+   "BS_uplift_kN": 5.99
+  },
+  "rail_web_24": {
+   "where": "HSS12x6x3/8 outer webs, Z1360, X station ±70, B1/B2/B3/B5/B7/B8",
+   "HB16_linear_worst": 0.51,
+   "HB16_combined_LC_note": "Loco Bot L7-B1..B3 linear T/21+V/30 max 0.51 (3 g long.)",
+   "bearing_kN": {
+    "demand": 15.4,
+    "allow": 72.6,
+    "util": 0.21
+   },
+   "net_section": "hole 57.6 mm off the rail NA; Ix loss 0.93 % → rail bending util 0.262 (C4 net); fatigue Δσ 10.3 vs Cat D 48 MPa (0.21)",
+   "verdict": "APPROVED with the loco_interfaces_L4 conditions (B1 group moved to X530; ≥ 50 mm from weld toes; drilled)"
+  },
+  "bolster_4": {
+   "uplift_kN": 5.99,
+   "util": 0.29,
+   "verdict": "APPROVED if moved to Y±90 (52 mm from the rail-web weld toe)"
+  },
+  "end_sill_2": {
+   "verdict": "REJECTED (drawgear zone X ≥ 10,148) - SD-2 bears on the sill without holes; hold-down by a clamp plate under the sill flange"
+  },
+  "summary": "28 of 30 holes approved (24 rail web + 4 bolster); 2 end-sill holes rejected. Worst HB16 0.51, web bearing 0.21, rail net section 0.26."
+ },
+ "L104_pin": {
+  "grip_mm": 108,
+  "head_mm": 20,
+  "washer_mm": 2,
+  "crossbolt_hole_centre_below_mm": 15,
+  "end_distance_mm": 15,
+  "L_under_head_required_mm": 140,
+  "L_specified_mm": 150,
+  "overall_mm": 170,
+  "drawn_mm": 250,
+  "verdict": "model.py grip 108 is right; L-104 '250' was wrong (142 mm hanging below the pocket). Specify Ø60 × 150 under head (170 o/a). L-104 schedule corrected.",
+  "count": "5 joints × 2 = 10 + 2 spares = 12 pins, 12 bushes, 12 Ø10 cross-bolts, 12 R-clips"
+ },
+ "chain_case_clearance": {
+  "stations": {
+   "B3/S3/F5": {
+    "X": 2450.0,
+    "plan_gap_mm": 414,
+    "vertical_gap_mm": 114,
+    "vertical_gap_at_25_bump_mm": 89,
+    "lateral_gap_mm": 59
+   },
+   "B5/S5/F11": {
+    "X": 5675.0,
+    "plan_gap_mm": 389,
+    "vertical_gap_mm": 114,
+    "vertical_gap_at_25_bump_mm": 89,
+    "lateral_gap_mm": 59
+   },
+   "B7": {
+    "X": 8900.0,
+    "plan_gap_mm": 414,
+    "vertical_gap_mm": 114,
+    "vertical_gap_at_25_bump_mm": 89,
+    "lateral_gap_mm": 59
+   }
+  },
+  "truck_yaw_R50_lateral_mm": 35,
+  "verdict": "CLEAR - bracket half-width 100 deducted; the case is 114 mm below and 59 mm inboard of every RB-1 and ≥ 389 mm away in plan; saddles S3/S5 sit on top of the bearers at Z ≥ 1,400 (frames F5/F11 above the rails)"
+ },
+ "electrical_E3": {
+  "battery": "BT-1: 2 × Lifeline GPL-27T 24 V + box, 68.2 kg, MOVED to the Y- front ballast pocket X4075 (Electro E3.3, Steering 17) - replaces plates kg-for-kg; was 56 kg under the cab X≈10,200",
+  "jumpers": "2/0 jumpers ~40 kg (tender/coach), train mass only",
+  "hot_kW": "30.94 / 32.44 vs 33 shed point",
+  "winter_kW": "31.20 / 32.70"
+ },
+ "spline_W55x3x17": {
+  "motor_shaft": "Poclain MS05 shaft code 5, DIN 5480 W55x3x17 (male; 30°, flank-centred, 7H slide fit); 15T Martin D120B15 hub broached DIN 5480 N55x3x17 (female)",
+  "L_engaged_mm": 60.0,
+  "L_L4_assumed_mm": 70.0,
+  "flank_pressure_L70_MPa": 88.0,
+  "L_min_for_100MPa_mm": 61.6,
+  "flank_at_limiter_350_x1p5_MPa": 94.5,
+  "L41_decision": "Engage the FULL code-5 spline (~60 mm, AWAIT Poclain shaft drawing): REQUIRE ≥ 58 mm engaged, 15T hub face to shaft shoulder ≤ 2 mm, end plate + M16 retaining bolt; util 1.03 at HPRV × 1.5 (≤ 1.0 OK). If the drawing shows < 58 mm: 15T made to order from 4140 Q&T 28-32 HRC (allow ~150 MPa → util ~0.68)",
+  "T_HPRV_Nm": 3203.0,
+  "shock_KA": 1.5,
+  "T_design_Nm": 4804.5,
+  "flank_pressure_MPa": 102.6,
+  "flank_allow_C1045_MPa": 100.0,
+  "flank_util_C1045": 1.03,
+  "flank_allow_MPa": 150.0,
+  "flank_util": 0.68,
+  "L42_strength_basis": "430 bar strength basis x KA 1.5: catalogue C1045 15T hub 102.6 MPa vs 100 = 1.03 NG -> L4.2 RULING: 15T sprocket MADE TO ORDER from 4140 Q&T 28-32 HRC, DIN 5480 N55x3x17 broached, >= 58 mm engaged (allow 150 MPa, util 0.68); Martin D120B15 stock hub NOT accepted",
+  "basis": "p = 2·T·KA/(d·z·h_w·L·φ), d 51, h_w 2.4 (ASSUMED effective), L 60 engaged (L4.1 = full code-5 spline per Source Bot rev 3.5; L4 assumed 70), φ 0.75; allow 100 MPa = C1045 hub, fixed spline, reversing (ASSUMED)",
+  "hub_torsion_MPa": 10.8,
+  "hub_torsion_allow_MPa": 124.0,
+  "hub_torsion_util": 0.09,
+  "shaft_note": "Shaft code 5 itself is Poclain-rated to the motor's 450 bar torque (3,352 N·m) > 3,203 at HPRV 380; shock above that - AWAIT Poclain AE written confirmation",
+  "ring_bolts": "L4.1: 45T ring web to the Ø350 hub flange: 12 × M16 cl.8.8 FITTED DIN 609 / DIN 7968 (catalog), reamed Ø17, PCD 300, edge 25 mm = 1.47 d0; 5.34 kN/bolt at HPRV (× 1.5 = 8.01) vs 87 kN shear (util 0.09); tighten 219 N·m dry (153 lubricated), Nord-Lock NL16 - see drive_L4.json axle.ring_bolts"
+ },
+ "pump_H1P053": {
+  "input_shaft": "L4.1: KEEP shaft G1 (ISO 3019-1 32-4, 14T 12/24, 534/592 N·m) on the SAE B 2-bolt flange; the AIE 'SAE B 13T pump drive' mates only G4 (180/222 N·m) which FAILS on the 265 N·m engine peak (1.19) → engine pump-drive coupling hub 14T 12/24 (≥ 48 mm engagement); alternate G5 15T 16/32 (370 N·m max). AIE confirmation HELD. Calc: drive_L4.json pump_shaft",
+  "CCO": "order EDC WITH CCO (control cut-off; Danfoss option E7/E8 12/24 V, Deutsch 2-pin): de-energized = pump to neutral. Wired in series with the Pilz PNOZ s30 7 mph safe output (independent of PLUS+1)",
+  "charge_filter": "external charge filtration, HYDAC DF 60 pressure filter (420 bar) with clogging indicator, β ≥ 200 at 10 µm (ASSUMED grade)"
+ },
+ "brake_failsafe": {
+  "BP_bar": 5.0,
+  "BP_psi": 72.5,
+  "distributor": "Knorr KE (UIC), apply-on-pressure output C",
+  "inverting_relay": "WABCO IR-2 inverting relay 971 899 152 0 between the KE output C and the loco spring-brake (release) chambers, supply from MR via a ≤ 6 bar regulator",
+  "BP_vent": "ASCO 8210G035 24 VDC, de-energize-to-vent, on the BP",
+  "logic": [
+   "BP drop → KE output C rises → IR-2 exhausts the release chambers → springs apply (proportional in service, full in emergency)",
+   "24 V loss or s30 overspeed trip → ASCO de-energizes → BP vents → emergency on all vehicles; same s30 output drops H1P053 CCO → pump neutral",
+   "MR / IR-2 supply loss → release chambers exhaust → springs apply",
+   "Release only when BP ≥ 4.8 bar, MR healthy and 24 V healthy"
+  ],
+  "verify": "IR-2 part number and its inversion curve vs the Coremo release range (5.1-6 bar) - AWAIT WABCO data sheet; PE to confirm the PL for the s30 → ASCO/CCO path"
+ },
+ "drawbar": {
+  "loco_tender_mm": 800,
+  "tender_coach_mm": 1473,
+  "coach_coach_mm": 1473,
+  "status": "AS DRAWN - KEPT (Loco Bot confirmed A-001/L-104, parent steering 28 Oct)",
+  "swing_R60_DB800": {
+   "loco_deg": 19.32,
+   "loco_limit_deg": 32.4,
+   "loco_util": 0.6,
+   "tender_deg": 10.98,
+   "tender_limit_deg": 19.2,
+   "tender_util": 0.57,
+   "end_corner_inside_mm": 869
+  },
+  "swing_R50_DB800": {
+   "loco_deg": 23.22,
+   "tender_deg": 13.24,
+   "tender_util": 0.69
+  },
+  "tender_lateral_R60_kN_at_31kN_pull": {
+   "DB-800": 5.9,
+   "DB-1473_info": 2.3
+  },
+  "note": "Steady exact-geometry swing at R60 with DB-800: 19.3 deg at the loco pocket (limit 32.4, 150 mouth) and 11.0 deg at the tender pocket (limit 19.2, 300 mouth). Both PASS. Information only: a 1,473 bar at loco-tender would cut the tender-side angle to 4.3 deg. It is not adopted because the as-drawn 800 passes and Loco Bot confirmed it. Transient (spiral) angles come from the route sweep calcs/track/L4.",
+  "joints": 5,
+  "pins": "2 per joint x 5 = 10 + 2 spares = 12 (Ø60 4140 Q&T, L 150 under head: grip 108 + cross-bolt; drawn 250 corrected)",
+  "safety_chain": "2 x 5/8 in Grade 100 (WLL 100.5 kN, ASTM A973) per joint, with Crosby G-2130 1 in bolt-type shackles (WLL 8.5 t = 83.4 kN); replaces 1/2 in (66.7 kN < 70 kN service)"
+ }
+}

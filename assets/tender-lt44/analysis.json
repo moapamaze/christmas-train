@@ -1,0 +1,199 @@
+{
+  "revision": "LT44",
+  "basis_sha256": "5854403698d1a7e4783bf308da82d6cebcc167d2503d04974bb9ed9aa30a615f",
+  "fit": {
+    "clear_box_mm": [
+      4088,
+      2488,
+      1204
+    ],
+    "candidate_mm": [
+      3098.7999999999997,
+      1371.6,
+      1879.6
+    ],
+    "remaining_total_mm": [
+      989.2000000000003,
+      1116.4,
+      -675.5999999999999
+    ],
+    "minimum_roof_top_without_service_clearance_mm": 3035.6,
+    "height_shortfall_mm": 675.5999999999999,
+    "fits_current_roof": false
+  },
+  "mass": {
+    "declared_dry_kg": 2333,
+    "assumed_full_fuel_and_reservoir_oil_kg": 816.94,
+    "dry_plus_those_fluids_kg": 3149.94,
+    "excludes": "Extra generator/compressor, tender tare, external lines/oil, any other fluids not included in declared dry mass; not complete operating mass"
+  },
+  "load_path": {
+    "coupler_to_rail_centroid_offset_m": 0.4,
+    "local_moment_kNm_per_kN_of_drawbar_force": 0.4,
+    "basis": "M = F \u00d7 vertical offset; local transfer demand only, not a section-capacity check"
+  },
+  "attachment_screen": [
+    {
+      "id": "F-HYD",
+      "nominal_direct_distance_mm": 1700.0,
+      "cases": 81,
+      "minimum": {
+        "pose": [
+          -10,
+          -3,
+          3,
+          -50
+        ],
+        "distance_mm": 1509.534992116421,
+        "attachment_shift_mm": 217.63849435762714
+      },
+      "maximum": {
+        "pose": [
+          10,
+          3,
+          3,
+          50
+        ],
+        "distance_mm": 1880.4894402126365,
+        "attachment_shift_mm": 195.41776228447543
+      },
+      "max_attachment_shift_mm": 217.63849435762714
+    },
+    {
+      "id": "F-AIR",
+      "nominal_direct_distance_mm": 1700.0,
+      "cases": 81,
+      "minimum": {
+        "pose": [
+          -10,
+          -3,
+          3,
+          -50
+        ],
+        "distance_mm": 1603.9356259766514,
+        "attachment_shift_mm": 148.4831805387377
+      },
+      "maximum": {
+        "pose": [
+          0,
+          3,
+          -3,
+          50
+        ],
+        "distance_mm": 1786.525505258466,
+        "attachment_shift_mm": 96.85722211591201
+      },
+      "max_attachment_shift_mm": 148.4831805387377
+    },
+    {
+      "id": "F-CTRL",
+      "nominal_direct_distance_mm": 1700.0,
+      "cases": 81,
+      "minimum": {
+        "pose": [
+          10,
+          -3,
+          -3,
+          -50
+        ],
+        "distance_mm": 1509.534992116421,
+        "attachment_shift_mm": 217.63849435762714
+      },
+      "maximum": {
+        "pose": [
+          -10,
+          3,
+          -3,
+          50
+        ],
+        "distance_mm": 1880.4894402126365,
+        "attachment_shift_mm": 195.41776228447543
+      },
+      "max_attachment_shift_mm": 217.63849435762714
+    },
+    {
+      "id": "R-AIR",
+      "nominal_direct_distance_mm": 1700.0,
+      "cases": 81,
+      "minimum": {
+        "pose": [
+          10,
+          3,
+          3,
+          50
+        ],
+        "distance_mm": 1509.534992116421,
+        "attachment_shift_mm": 217.63849435762714
+      },
+      "maximum": {
+        "pose": [
+          -10,
+          -3,
+          3,
+          -50
+        ],
+        "distance_mm": 1880.4894402126365,
+        "attachment_shift_mm": 195.41776228447543
+      },
+      "max_attachment_shift_mm": 217.63849435762714
+    },
+    {
+      "id": "R-PWR",
+      "nominal_direct_distance_mm": 1700.0,
+      "cases": 81,
+      "minimum": {
+        "pose": [
+          -10,
+          3,
+          -3,
+          50
+        ],
+        "distance_mm": 1603.9356259766514,
+        "attachment_shift_mm": 148.4831805387377
+      },
+      "maximum": {
+        "pose": [
+          0,
+          -3,
+          -3,
+          -50
+        ],
+        "distance_mm": 1786.525505258466,
+        "attachment_shift_mm": 96.85722211591201
+      },
+      "max_attachment_shift_mm": 148.4831805387377
+    },
+    {
+      "id": "R-DATA",
+      "nominal_direct_distance_mm": 1700.0,
+      "cases": 81,
+      "minimum": {
+        "pose": [
+          -10,
+          3,
+          -3,
+          50
+        ],
+        "distance_mm": 1509.534992116421,
+        "attachment_shift_mm": 217.63849435762714
+      },
+      "maximum": {
+        "pose": [
+          10,
+          -3,
+          -3,
+          -50
+        ],
+        "distance_mm": 1880.4894402126365,
+        "attachment_shift_mm": 195.41776228447543
+      },
+      "max_attachment_shift_mm": 217.63849435762714
+    }
+  ],
+  "attachment_case_total": 486,
+  "release": {
+    "fabrication": false,
+    "purchase": false,
+    "operation": false
+  }
+}

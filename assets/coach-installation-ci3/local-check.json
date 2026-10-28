@@ -1,0 +1,21 @@
+{
+  "states": [
+    {
+      "travel_mm": 0,
+      "intersections": []
+    },
+    {
+      "travel_mm": 25,
+      "intersections": []
+    },
+    {
+      "travel_mm": 32,
+      "intersections": []
+    },
+    {
+      "travel_mm": -60,
+      "intersections": []
+    }
+  ],
+  "scope": "New ribs, stops, lowered closing plates and washers against C5 rigid context after CI2/CI3 replacements. Coils/damper flex, C57 brake and CW3 internals excluded; no general old-part collision acceptance. Rubber/roof contact beyond25 is intended and excluded."
+}

@@ -1,0 +1,147 @@
+C2 Benches & floor attachments← All drawingsCoach body C1Calculations & evidence
+C2 benches & floor attachments
+Regular coach · R0 · 19 October 2026 · preliminary physical design
+32 places retained. This issue adds fabricated bench frames, seat/back plates and revised four-bolt steel floor mounts. The complete coach remains unfinished. Joint stiffness, fatigue, locking, upholstery and floor sealing require further development and later engineer review.
+Assembled bench. Upholstery shown as a proposed shape; material and retention remain unfinished.Exposed structure from the same CAD source.
+Rotate and inspect
+Bench & mounting detailAll benches in the coach
+Drag to rotate. Select a part for its dimensions and material. Use group checkboxes to expose connections.
+Drawings
+Bench assembly and dimensionsAssembled floor mount / cutawayMounting plates and hole coordinatesBench members and panel partsAll sixteen bench assemblies at the retained row positions. Body and roof hidden to show the floor connections.
+What connects to what
+The bench legs attach to the upper sole plates. Four bolts per foot pass through rigid steel spacers into the lower cap plate.
+The cap and its two side cheeks connect to the retained seat rail. The floor opening clears this steel assembly; the sole is nominally ¼ inch above the finished floor.
+The seat plate attaches to four tabs. The back plate uses four through-tube sleeves. Small panel fasteners and positive locking remain to be finalized.
+Foot envelopes now extend ¼ inch beyond the former 20-inch seat-space box at each end: 20½ inches overall at the floor. The 32-inch pitch leaves 11½ inches between foot envelopes. The padded seating depth proposal is 15⅞ inches and needs a full-size adult comfort trial before freezing it.
+Prototype fabrication order
+Make one bench and one representative steel floor bay first. Verify actual tube corners, frame station and floor stack.
+Cut and jig the tube frame and plate blanks from the matching schedule. Trial-fit the rounded tube joints and qualify the proposed weld sequence.
+Weld the rail cap/cheeks before fitting floor panels. Measure distortion, then finish matched spacers and align the four-hole patterns.
+Dry-assemble the sole/spacer/cap stack with exact hardware. Verify socket access, thread engagement, positive locking and unloaded/loaded floor isolation.
+Fit pan/back fasteners, insulation between dissimilar metals, retained upholstery and a nonstructural floor closeout. Those details are still open.
+Complete engineer-defined prototype load, fatigue, retention, comfort and evacuation checks before repeating the sixteen-bench set.
+Precision machining and finish work are planned for subcontracting. General work requires demonstrated shop capability and later released drawings.
+Part families
+Quantities are per bench / per regular coach. All dimensions are inches unless marked. These are proposed part definitions for review and quoting, not production release.
+ | ID / part
+ | Qty bench / coach
+ | Material
+ | Definition
+ | HP01
+HP01 plate
+ | 4 / 64
+ | ASTM A36
+ | bounds in: {'x': [-9.75, -6.25], 'y': [17, 23], 'z': [31.003937007874015, 31.753937007874015]}; hole axis: z; holes: [[-8.875, 18, 0.5625], [-8.875, 22, 0.5625], [-7.125, 18, 0.5625], [-7.125, 22, 0.5625]]; hole axes: ['x', 'y']; profile: Rectangular blank; break edges after cutting
+ | HP02
+HP02 plate
+ | 4 / 64
+ | ASTM A36
+ | bounds in: {'x': [-10.25, -5.75], 'y': [16.25, 23.75], 'z': [32.25, 33]}; hole axis: z; holes: [[-8.875, 18, 0.5625], [-8.875, 22, 0.5625], [-7.125, 18, 0.5625], [-7.125, 22, 0.5625]]; hole axes: ['x', 'y']; profile: Rectangular blank; break edges after cutting
+ | HP03
+HP03 plate
+ | 8 / 128
+ | ASTM A36
+ | bounds in: {'x': [-9.5, -6.5], 'y': [18.75, 19], 'z': [29.003937007874015, 31.003937007874015]}; hole axis: z; holes: []; hole axes: ['x', 'y']; profile: Rectangular blank; break edges after cutting
+ | HP04
+Machined rigid spacer
+ | 16 / 256
+ | ASTM A36 machined bar; verify machinability/certification
+ | OD in: 1; ID in: 0.5625; nominal length in: 0.49606299212598426; nominal length mm: 12.6; fit: Finish matched set after weld distortion/actual floor stack measured. Preliminary length tolerance +/-0.05 mm, within-set spread<=0.05 mm; no interference fit.
+ | HW02
+F436 nominal washer
+ | 32 / 512
+ | ASTM F436 candidate
+ | OD in: 1.0625; ID in: 0.53125; display t in: 0.125; delivered t range in: [0.097, 0.177]; catalog example: Portland Bolt plain 16440; availability not confirmed
+ | HW01
+1/2-13 x 3 hex cap screw
+ | 16 / 256
+ | SAE J429 Grade 8 candidate
+ | nominal diameter: 0.5; length under head: 3.0; AF: 0.75; head height: 0.3125; threaded length: 1.25; thread geometry: Cylindrical major-diameter envelope; threads not modeled; spec: SAE J429 Grade 8 candidate; coating and locking procedure unresolved
+ | HW03
+1/2-13 standard hex nut envelope
+ | 16 / 256
+ | SAE J995 Grade 8 candidate
+ | AF in: 0.75; nominal height in: 0.4375; thread: Bore represents thread major envelope; locking: J995 Grade8 ordinary nut geometry only; positive locking system still to select. Not a locknut model.
+ | BF01
+HSS 1.5 square x 1/8
+ | 2 / 32
+ | ASTM A500 Grade C
+ | section in: [1.5, 1.5, 0.125]; length in: 13.5; axis: z; sleeve bores: []; end prep: Square cut; nominal corner contact requires fit-up/WPS review
+ | BF02
+HSS 2 square x 1/8
+ | 2 / 32
+ | ASTM A500 Grade C
+ | section in: [2, 2, 0.125]; length in: 37; axis: z; sleeve bores: []; end prep: Square cut; nominal corner contact requires fit-up/WPS review
+ | BF03
+HSS 1.5 square x 1/8
+ | 1 / 16
+ | ASTM A500 Grade C
+ | section in: [1.5, 1.5, 0.125]; length in: 39.75; axis: y; sleeve bores: []; end prep: Square cut; nominal corner contact requires fit-up/WPS review
+ | BF04
+HSS 1.5 square x 1/8
+ | 2 / 32
+ | ASTM A500 Grade C
+ | section in: [1.5, 1.5, 0.125]; length in: 14.5; axis: x; sleeve bores: []; end prep: Square cut; nominal corner contact requires fit-up/WPS review
+ | BF05
+HSS 1.5 square x 1/8
+ | 1 / 16
+ | ASTM A500 Grade C
+ | section in: [1.5, 1.5, 0.125]; length in: 36.75; axis: y; sleeve bores: []; end prep: Square cut; nominal corner contact requires fit-up/WPS review
+ | BF06
+HSS 1.5 square x 1/8
+ | 2 / 32
+ | ASTM A500 Grade C
+ | section in: [1.5, 1.5, 0.125]; length in: 6.875; axis: y; sleeve bores: []; end prep: Square cut; nominal corner contact requires fit-up/WPS review
+ | BF08
+HSS 1.5 square x 1/8
+ | 4 / 64
+ | ASTM A500 Grade C
+ | section in: [1.5, 1.5, 0.125]; length in: 6.875; axis: y; sleeve bores: [{'axis': 'x', 'y': 14.25, 'z': 58.75, 'diameter': 0.5}]; end prep: Square cut; nominal corner contact requires fit-up/WPS review
+ | BF07
+HSS 1.5 square x 1/8
+ | 1 / 16
+ | ASTM A500 Grade C
+ | section in: [1.5, 1.5, 0.125]; length in: 22; axis: y; sleeve bores: []; end prep: Square cut; nominal corner contact requires fit-up/WPS review
+ | BF09
+HSS 1.5 square x 1/8
+ | 2 / 32
+ | ASTM A500 Grade C
+ | section in: [1.5, 1.5, 0.125]; length in: 22; axis: y; sleeve bores: []; end prep: Square cut; nominal corner contact requires fit-up/WPS review
+ | BP03
+BP03 plate
+ | 4 / 64
+ | ASTM A36
+ | bounds in: {'x': [-5.25, -3.75], 'y': [13.625, 15.125], 'z': [47.8125, 48]}; hole axis: z; holes: [[-4.5, 14.375, 0.28125]]; hole axes: ['x', 'y']; profile: Rectangular blank; break edges after cutting
+ | BP01
+BP01 plate
+ | 1 / 16
+ | 5052-H32 aluminum, proposed
+ | bounds in: {'x': [-10, 6.875], 'y': [12, 52], 'z': [48, 48.125]}; hole axis: z; holes: [[-4.5, 14.375, 0.28125], [-4.5, 49.625, 0.28125], [3.5, 14.375, 0.28125], [3.5, 49.625, 0.28125]]; hole axes: ['x', 'y']; profile: Rectangular blank; break edges after cutting
+ | BP04
+Back panel through-tube spacer
+ | 4 / 64
+ | ASTM A36 machined bar
+ | OD in: 0.5; ID in: 0.28125; length in: 1.5; axis: x; y: 14.25; z: 58.75; fit: Nominal bore/OD shown. Match actual outside tube width, flush ends; slip-fit proposal, exact production fit and clamp torque to validate. Captured by panel/washer during assembly.
+ | BP02
+BP02 plate
+ | 1 / 16
+ | 5052-H32 aluminum, proposed
+ | bounds in: {'x': [6.875, 7], 'y': [12, 52], 'z': [50.25, 70]}; hole axis: x; holes: [[14.25, 58.75, 0.28125], [14.25, 69.25, 0.28125], [49.75, 58.75, 0.28125], [49.75, 69.25, 0.28125]]; hole axes: ['y', 'z']; profile: Rectangular blank; break edges after cutting
+ | BP05
+BP05 plate
+ | 2 / 32
+ | ASTM A36
+ | bounds in: {'x': [7, 9], 'y': [19, 21], 'z': [70, 70.0625]}; hole axis: z; holes: []; hole axes: ['x', 'y']; profile: Rectangular blank; break edges after cutting
+ | SEAT-PAD
+Upholstery shape — specification incomplete
+ | 1 / 16
+ | Foam/upholstery grade, cover, attachment and fire evidence unresolved
+ | bounds in: {'x': [-10, 5.875], 'y': [12, 52], 'z': [48.125, 50]}; status: Geometry proposal only: upholstery, foam, fire performance and retention unfinished
+ | BACK-PAD
+Upholstery shape — specification incomplete
+ | 1 / 16
+ | Foam/upholstery grade, cover, attachment and fire evidence unresolved
+ | bounds in: {'x': [5.875, 6.875], 'y': [12, 52], 'z': [50.25, 70]}; status: Geometry proposal only: upholstery, foam, fire performance and retention unfinished
+Editable geometry and fabrication source
+Bench STEP · mm · gzipFoot STEP · mm · gzipEditable CAD builderParametersEvery part / locationBOM
+Flat blank DXF (inches): cap · sole · seat pan · back plate. Verify units on import. STEP contains solids without a native feature history; edit the Python parameters to regenerate coordinated files.

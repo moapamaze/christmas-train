@@ -1,0 +1,22 @@
+LT30 physical restraint review · Pulsipher FarmsSkip to contentWhole locomotiveLT30 restraintEngineer review packageArchived LT29
+CURRENT LOCOMOTIVE REVIEW · LT30
+A cartridge with room for the crushed core
+The revised restraint keeps a physical residual core, uses a separate hard ring, and includes a local removal route. The main bearing and housing still carry the shown catch load; an engineer must accept that path or replace it with an independent frame restraint.
+Not released for fabrication. The 20 mm working stroke remains a performance requirement. The 41 mm core and 20.5 mm residual pocket are proposed packaging. New normal travel margin: 3.96 mm conditional; the previous 4.16 mm is archived.
+What changed
+ | Item
+ | LT30 candidate
+ | Core occupancy
+ | Ø109 / Ø94 × 41 mm free → 21 mm after the required 20 mm stroke → 20.5 mm at the nominal hard stop.
+ | Retention
+ | Stepped pusher, inner/outer telescoping debris sleeves, four traveling guide screws and a fixed hard ring.
+ | Pivot steel
+ | 40 mm cheeks at ±112 mm inner faces; 304 mm pin grip. Existing relieved faces and rail diaphragms retained.
+ | Replacement
+ | 354 mm pin extraction. Cartridge exchange then requires truck separation; pack moves 21 mm inward, 180 mm down and 250 mm laterally.
+ | Checks
+ | 504 normal load cases; 2,520 route positions; 70 local restraint and 42 retained-frame states; 14 local service sweeps.
+ | Open decision
+ | Bearing/housing impact approval or an independently anchored safety link. No application-rated absorber, brake, bumper or final pump connection supplied.
+Installation and engineer-review sections
+Open the calculations, limits and decision package →LT30 · 21 October 2026 · Review candidate · Fabrication unreleasedEngineering

@@ -1,0 +1,163 @@
+ID,Description,Quantity per truck,Category,Status,Mass kg,Mass basis
+DT3-F01,"Side member HSS 200 × 100 × 8, cut 2000 — sleeve holes Ø30 added",1,frame,Inherited preliminary blank; not released,70.631,nominal solid volume
+DT3-F02,"Side member HSS 200 × 100 × 8, cut 2000 — sleeve holes Ø30 added",1,frame,Inherited preliminary blank; not released,70.631,nominal solid volume
+DT2-F03,"End crossmember HSS 100 × 100 × 8, cut 1360",1,frame,Inherited preliminary blank; not released,31.43,nominal solid volume
+DT2-F04,"End crossmember HSS 100 × 100 × 8, cut 1360",1,frame,Inherited preliminary blank; not released,31.43,nominal solid volume
+DT2-F05,"Centre crossmember HSS 200 × 200 × 10, cut 1360",1,frame,Inherited preliminary blank; not released,81.138,nominal solid volume
+DT2-P01,"Top bearing interface plate 400 × 400 × 20, undrilled",1,frame,Inherited preliminary blank; not released,25.12,nominal solid volume
+DT2-P02,Spring pocket backing plate 200 × 180 × 15 — relocated for DT3,1,frame,Inherited preliminary blank; not released,4.239,nominal solid volume
+DT2-P03,Spring pocket backing plate 200 × 180 × 15 — relocated for DT3,1,frame,Inherited preliminary blank; not released,4.239,nominal solid volume
+DT2-P04,Spring pocket backing plate 200 × 180 × 15 — relocated for DT3,1,frame,Inherited preliminary blank; not released,4.239,nominal solid volume
+DT2-P05,Spring pocket backing plate 200 × 180 × 15 — relocated for DT3,1,frame,Inherited preliminary blank; not released,4.239,nominal solid volume
+DT2-W01,Disc wheel blank Ø1000; rail profile and fit pending — relocated for DT3,1,wheel,Inherited preliminary blank; not released,296.431,nominal solid volume
+DT2-W02,Disc wheel blank Ø1000; rail profile and fit pending — relocated for DT3,1,wheel,Inherited preliminary blank; not released,296.431,nominal solid volume
+DT2-W03,Disc wheel blank Ø1000; rail profile and fit pending — relocated for DT3,1,wheel,Inherited preliminary blank; not released,296.431,nominal solid volume
+DT2-W04,Disc wheel blank Ø1000; rail profile and fit pending — relocated for DT3,1,wheel,Inherited preliminary blank; not released,296.431,nominal solid volume
+DT3-A1,Revised axle: Ø125 centre / Ø120 bearing and wheel seat blanks,1,axle,"Keyway and bearing locations proposed; axle fatigue, threads, fits and wheel profile not released",137.612,nominal solid volume
+DT3-K1,Axle gear key 32 × 18 × 60 nominal,1,shaft,Proposed nominal geometry; detailed fits and strength unapproved,0.271,nominal solid volume
+DT3-A2,Revised axle: Ø125 centre / Ø120 bearing and wheel seat blanks,1,axle,"Keyway and bearing locations proposed; axle fatigue, threads, fits and wheel profile not released",137.612,nominal solid volume
+DT3-K2,Axle gear key 32 × 18 × 60 nominal,1,shaft,Proposed nominal geometry; detailed fits and strength unapproved,0.271,nominal solid volume
+DT3-G1,Custom spur gear 24T module 7 face 50,1,gear,"Approximate involute CAD; gear rating, microgeometry, backlash and heat treatment pending",7.853,nominal solid volume
+DT3-G2,Custom spur gear 60T module 7 face 50,1,gear,"Approximate involute CAD; gear rating, microgeometry, backlash and heat treatment pending",52.884,nominal solid volume
+DT3-CI,"Central input shaft Ø45, two bearing supports",1,shaft,Proposed nominal geometry; detailed fits and strength unapproved,2.256,nominal solid volume
+DT3-CO,Central through output shaft Ø60; keyed gear and flange seats,1,shaft,Proposed nominal geometry; detailed fits and strength unapproved,3.25,nominal solid volume
+DT3-IK,Central input gear key14×9×50,1,shaft,Proposed nominal geometry; detailed fits and strength unapproved,0.049,nominal solid volume
+DT3-OK,Central output gear key18×11×50,1,shaft,Proposed nominal geometry; detailed fits and strength unapproved,0.078,nominal solid volume
+DT3-CK,Coupling/input key14×9×45,1,shaft,Proposed nominal geometry; detailed fits and strength unapproved,0.045,nominal solid volume
+DT3-B25,NTN 4T-30209 opposed bearing envelope,1,bearing,"Catalog boundary dimensions; races/rollers, preload and life calculation not defined",0.665,envelope only; NOT actual mass
+DT3-B26,NTN 4T-30209 opposed bearing envelope,1,bearing,"Catalog boundary dimensions; races/rollers, preload and life calculation not defined",0.665,envelope only; NOT actual mass
+DT3-B27,NTN 4T-30212 opposed bearing envelope,1,bearing,"Catalog boundary dimensions; races/rollers, preload and life calculation not defined",1.245,envelope only; NOT actual mass
+DT3-B28,NTN 4T-30212 opposed bearing envelope,1,bearing,"Catalog boundary dimensions; races/rollers, preload and life calculation not defined",1.245,envelope only; NOT actual mass
+DT3-OF1,Central output companion flange and keyed hub,1,shaft,"Short hub/key requires rating; GWB mating pilot, fasteners and axial retention not released",0.704,nominal solid volume
+DT3-OFK1,Output flange key18×11×18,1,shaft,Proposed nominal geometry; detailed fits and strength unapproved,0.028,nominal solid volume
+DT3-OF3,Central output companion flange and keyed hub,1,shaft,"Short hub/key requires rating; GWB mating pilot, fasteners and axial retention not released",0.704,nominal solid volume
+DT3-OFK3,Output flange key18×11×18,1,shaft,Proposed nominal geometry; detailed fits and strength unapproved,0.028,nominal solid volume
+DT3-C1,Central split gearcase half,1,case,"12 mm nominal end walls; flange screws, oilways, seals and machined bearing shoulders unfinished",21.157,nominal solid volume
+DT3-C3,Central split gearcase half,1,case,"12 mm nominal end walls; flange screws, oilways, seals and machined bearing shoulders unfinished",21.157,nominal solid volume
+DT3-MP,Motor adapter plate 220 × 220 × 20; SAE 152-4 interface,1,mount,Recess Ø152.4 nominal ×12.5; fit tolerance and M20 bolt grade/preload pending,5.258,nominal solid volume
+DT3-MB,"Motor coupling bell: 130 OD / 100 ID, 130 long",1,case,Proposed nominal geometry; detailed fits and strength unapproved,5.53,nominal solid volume
+DT3-MC,Motor spline sleeve / gearbox input coupling envelope,1,shaft,Internal 27T 16/32 ANSI spline on motor end; keyed input end. Tooth geometry not manufactured in CAD,1.931,nominal solid volume
+DT3-MOTOR,Danfoss H1B110 L2BA / SAE flange / DS shaft candidate body envelope,1,motor,Supplier control-family bounding envelope only; not OEM CAD; full order code and capacity validation pending,47,installation allowance; not certified
+DT3-MF,H1B110 flange interface representation,1,motor,Verified interface dimensions; 47 kg motor mass is a provisional installation allowance,0,installation allowance; not certified
+DT3-MSP,H1B110 Ø152.375 pilot and DS spline major-diameter envelope,1,motor,"Spline DS 27T 16/32; teeth omitted, envelope only",0,installation allowance; not certified
+DT3-BP1,Integral20T bevel pinion and Ø50 shaft,1,gear,Tapered illustrative teeth and integral shaft proposal; no manufacturing tooth definition or heat-treatment release,4.978,nominal solid volume
+DT3-BG1,Custom 60T axle bevel gear: module 6 / pitch Ø360,1,gear,Tapered illustrative teeth; keyed hub nominal; no gear rating or manufacturing release,19.053,nominal solid volume
+DT3-PB01,NTN 4T-30210 pinion bearing envelope,1,bearing,Proposed assembly geometry; rating and detailed joints pending,0.751,envelope only; NOT actual mass
+DT3-PB11,NTN 4T-30210 pinion bearing envelope,1,bearing,Proposed assembly geometry; rating and detailed joints pending,0.751,envelope only; NOT actual mass
+DT3-AH1,Axle gearcase barrel and pinion neck,1,case,"Nominal cast/fabricated casing; split joint, bolt schedule, seals and lubrication still to detail",34.556,nominal solid volume
+DT3-AB01,Axle bearing Ø120 × Ø180 × 38 trial boundary,1,bearing,"32024 size family proposal; supplier width data conflict unresolved, not an exact selected SKU",4.217,envelope only; NOT actual mass
+DT3-AC01,Removable axle-bearing cover and bearing boss,1,case,Proposed assembly geometry; rating and detailed joints pending,10.015,nominal solid volume
+DT3-AN01,"Bearing retention collar envelope, Ø145 × 16",1,shaft,M120 thread/locking method and axial preload not released,0.654,nominal solid volume
+DT3-SP01,"Bearing-to-centre shoulder spacer, 21 long",1,shaft,Proposed assembly geometry; rating and detailed joints pending,1.049,nominal solid volume
+DT3-AB11,Axle bearing Ø120 × Ø180 × 38 trial boundary,1,bearing,"32024 size family proposal; supplier width data conflict unresolved, not an exact selected SKU",4.217,envelope only; NOT actual mass
+DT3-AC11,Removable axle-bearing cover and bearing boss,1,case,Proposed assembly geometry; rating and detailed joints pending,10.015,nominal solid volume
+DT3-AN11,"Bearing retention collar envelope, Ø145 × 16",1,shaft,M120 thread/locking method and axial preload not released,0.654,nominal solid volume
+DT3-SP11,"Bearing-to-centre shoulder spacer, 21 long",1,shaft,Proposed assembly geometry; rating and detailed joints pending,1.049,nominal solid volume
+DT3-PF1,Axle input companion flange and keyed hub at250 from axle,1,shaft,Short16×10×20 key and hub require rating; axial retention incomplete,0.786,nominal solid volume
+DT3-PFK1,Pinion flange key16×10×20,1,shaft,Proposed assembly geometry; rating and detailed joints pending,0.025,nominal solid volume
+DT3-SE1,Pinion hub oil-seal boundary Ø70 / Ø90 ×10,1,bearing,"Seal compound, lip direction and precise bore fit unselected",0.197,envelope only; NOT actual mass
+DT3-TA1,Axle gearcase torque arm; 210 mm vertical lever,1,mount,Proposed assembly geometry; rating and detailed joints pending,3.171,nominal solid volume
+DT3-BP2,Integral20T bevel pinion and Ø50 shaft,1,gear,Tapered illustrative teeth and integral shaft proposal; no manufacturing tooth definition or heat-treatment release,4.978,nominal solid volume
+DT3-BG2,Custom 60T axle bevel gear: module 6 / pitch Ø360,1,gear,Tapered illustrative teeth; keyed hub nominal; no gear rating or manufacturing release,19.053,nominal solid volume
+DT3-PB02,NTN 4T-30210 pinion bearing envelope,1,bearing,Proposed assembly geometry; rating and detailed joints pending,0.751,envelope only; NOT actual mass
+DT3-PB12,NTN 4T-30210 pinion bearing envelope,1,bearing,Proposed assembly geometry; rating and detailed joints pending,0.751,envelope only; NOT actual mass
+DT3-AH2,Axle gearcase barrel and pinion neck,1,case,"Nominal cast/fabricated casing; split joint, bolt schedule, seals and lubrication still to detail",34.556,nominal solid volume
+DT3-AB02,Axle bearing Ø120 × Ø180 × 38 trial boundary,1,bearing,"32024 size family proposal; supplier width data conflict unresolved, not an exact selected SKU",4.217,envelope only; NOT actual mass
+DT3-AC02,Removable axle-bearing cover and bearing boss,1,case,Proposed assembly geometry; rating and detailed joints pending,10.015,nominal solid volume
+DT3-AN02,"Bearing retention collar envelope, Ø145 × 16",1,shaft,M120 thread/locking method and axial preload not released,0.654,nominal solid volume
+DT3-SP02,"Bearing-to-centre shoulder spacer, 21 long",1,shaft,Proposed assembly geometry; rating and detailed joints pending,1.049,nominal solid volume
+DT3-AB12,Axle bearing Ø120 × Ø180 × 38 trial boundary,1,bearing,"32024 size family proposal; supplier width data conflict unresolved, not an exact selected SKU",4.217,envelope only; NOT actual mass
+DT3-AC12,Removable axle-bearing cover and bearing boss,1,case,Proposed assembly geometry; rating and detailed joints pending,10.015,nominal solid volume
+DT3-AN12,"Bearing retention collar envelope, Ø145 × 16",1,shaft,M120 thread/locking method and axial preload not released,0.654,nominal solid volume
+DT3-SP12,"Bearing-to-centre shoulder spacer, 21 long",1,shaft,Proposed assembly geometry; rating and detailed joints pending,1.049,nominal solid volume
+DT3-PF2,Axle input companion flange and keyed hub at250 from axle,1,shaft,Short16×10×20 key and hub require rating; axial retention incomplete,0.786,nominal solid volume
+DT3-PFK2,Pinion flange key16×10×20,1,shaft,Proposed assembly geometry; rating and detailed joints pending,0.025,nominal solid volume
+DT3-SE2,Pinion hub oil-seal boundary Ø70 / Ø90 ×10,1,bearing,"Seal compound, lip direction and precise bore fit unselected",0.197,envelope only; NOT actual mass
+DT3-TA2,Axle gearcase torque arm; 210 mm vertical lever,1,mount,Proposed assembly geometry; rating and detailed joints pending,3.171,nominal solid volume
+DT3-SF10,GWB Ø120 cardan flange representation,1,shaft,Catalog flange envelope and holes; joint geometry schematic,0.491,nominal solid volume
+DT3-SF11,GWB Ø120 cardan flange representation,1,shaft,Catalog flange envelope and holes; joint geometry schematic,0.491,nominal solid volume
+DT3-U10,Universal-joint cross envelope,1,shaft,Joint bearing cups and yoke profile require OEM CAD,0.592,nominal solid volume
+DT3-Y10,Forked flange yoke representation,1,shaft,Proposed nominal geometry; detailed fits and strength unapproved,0.842,nominal solid volume
+DT3-Z10,Forked shaft yoke representation,1,shaft,Proposed nominal geometry; detailed fits and strength unapproved,0.508,nominal solid volume
+DT3-U11,Universal-joint cross envelope,1,shaft,Joint bearing cups and yoke profile require OEM CAD,0.592,nominal solid volume
+DT3-Y11,Forked flange yoke representation,1,shaft,Proposed nominal geometry; detailed fits and strength unapproved,0.842,nominal solid volume
+DT3-Z11,Forked shaft yoke representation,1,shaft,Proposed nominal geometry; detailed fits and strength unapproved,0.508,nominal solid volume
+DT3-SL1,Sliding spline sleeve envelope Ø89; neutral assembly,1,shaft,Vendor design9.03 355–425 face spacing requested; supplier order confirmation needed,4.011,nominal solid volume
+DT3-ST1,Sliding spline core envelope Ø45,1,shaft,"45 ×1.5 spline family boundary, teeth omitted",2.247,nominal solid volume
+DT3-SF20,GWB Ø120 cardan flange representation,1,shaft,Catalog flange envelope and holes; joint geometry schematic,0.491,nominal solid volume
+DT3-SF21,GWB Ø120 cardan flange representation,1,shaft,Catalog flange envelope and holes; joint geometry schematic,0.491,nominal solid volume
+DT3-U20,Universal-joint cross envelope,1,shaft,Joint bearing cups and yoke profile require OEM CAD,0.592,nominal solid volume
+DT3-Y20,Forked flange yoke representation,1,shaft,Proposed nominal geometry; detailed fits and strength unapproved,0.842,nominal solid volume
+DT3-Z20,Forked shaft yoke representation,1,shaft,Proposed nominal geometry; detailed fits and strength unapproved,0.508,nominal solid volume
+DT3-U21,Universal-joint cross envelope,1,shaft,Joint bearing cups and yoke profile require OEM CAD,0.592,nominal solid volume
+DT3-Y21,Forked flange yoke representation,1,shaft,Proposed nominal geometry; detailed fits and strength unapproved,0.842,nominal solid volume
+DT3-Z21,Forked shaft yoke representation,1,shaft,Proposed nominal geometry; detailed fits and strength unapproved,0.508,nominal solid volume
+DT3-SL2,Sliding spline sleeve envelope Ø89; neutral assembly,1,shaft,Vendor design9.03 355–425 face spacing requested; supplier order confirmation needed,4.011,nominal solid volume
+DT3-ST2,Sliding spline core envelope Ø45,1,shaft,"45 ×1.5 spline family boundary, teeth omitted",2.247,nominal solid volume
+DT3-FC1,"Drive cradle crossbearer HSS 80 ×60 ×6, cut1348",1,mount,Proposed nominal geometry; detailed fits and strength unapproved,16.254,nominal solid volume
+DT3-FD10,"Cradle drop plate120 ×200 ×12, 4 Ø18 holes",1,mount,"Four sleeved through-bolts proposed; weld, preload and local HSS capacity require design",2.165,nominal solid volume
+DT3-FB10,"Outer backing plate120×120×12,4Ø18",1,mount,Proposed nominal geometry; detailed fits and strength unapproved,1.261,nominal solid volume
+DT3-FS100,HSS crush sleeve Ø30/18 ×100; welded flush,1,mount,Sleeve through both Ø30 HSS wall holes; weld sizes and fatigue not released,0.355,nominal solid volume
+DT3-FBOLT100,M16 through-bolt and nut envelope;124mm grip,1,mount,"M16×150 class8.8 dimensional proposal; final thread length, washers, locking and tightening not released",0.308,nominal solid volume
+DT3-FS101,HSS crush sleeve Ø30/18 ×100; welded flush,1,mount,Sleeve through both Ø30 HSS wall holes; weld sizes and fatigue not released,0.355,nominal solid volume
+DT3-FBOLT101,M16 through-bolt and nut envelope;124mm grip,1,mount,"M16×150 class8.8 dimensional proposal; final thread length, washers, locking and tightening not released",0.308,nominal solid volume
+DT3-FS102,HSS crush sleeve Ø30/18 ×100; welded flush,1,mount,Sleeve through both Ø30 HSS wall holes; weld sizes and fatigue not released,0.355,nominal solid volume
+DT3-FBOLT102,M16 through-bolt and nut envelope;124mm grip,1,mount,"M16×150 class8.8 dimensional proposal; final thread length, washers, locking and tightening not released",0.308,nominal solid volume
+DT3-FS103,HSS crush sleeve Ø30/18 ×100; welded flush,1,mount,Sleeve through both Ø30 HSS wall holes; weld sizes and fatigue not released,0.355,nominal solid volume
+DT3-FBOLT103,M16 through-bolt and nut envelope;124mm grip,1,mount,"M16×150 class8.8 dimensional proposal; final thread length, washers, locking and tightening not released",0.308,nominal solid volume
+DT3-FD11,"Cradle drop plate120 ×200 ×12, 4 Ø18 holes",1,mount,"Four sleeved through-bolts proposed; weld, preload and local HSS capacity require design",2.165,nominal solid volume
+DT3-FB11,"Outer backing plate120×120×12,4Ø18",1,mount,Proposed nominal geometry; detailed fits and strength unapproved,1.261,nominal solid volume
+DT3-FS110,HSS crush sleeve Ø30/18 ×100; welded flush,1,mount,Sleeve through both Ø30 HSS wall holes; weld sizes and fatigue not released,0.355,nominal solid volume
+DT3-FBOLT110,M16 through-bolt and nut envelope;124mm grip,1,mount,"M16×150 class8.8 dimensional proposal; final thread length, washers, locking and tightening not released",0.308,nominal solid volume
+DT3-FS111,HSS crush sleeve Ø30/18 ×100; welded flush,1,mount,Sleeve through both Ø30 HSS wall holes; weld sizes and fatigue not released,0.355,nominal solid volume
+DT3-FBOLT111,M16 through-bolt and nut envelope;124mm grip,1,mount,"M16×150 class8.8 dimensional proposal; final thread length, washers, locking and tightening not released",0.308,nominal solid volume
+DT3-FS112,HSS crush sleeve Ø30/18 ×100; welded flush,1,mount,Sleeve through both Ø30 HSS wall holes; weld sizes and fatigue not released,0.355,nominal solid volume
+DT3-FBOLT112,M16 through-bolt and nut envelope;124mm grip,1,mount,"M16×150 class8.8 dimensional proposal; final thread length, washers, locking and tightening not released",0.308,nominal solid volume
+DT3-FS113,HSS crush sleeve Ø30/18 ×100; welded flush,1,mount,Sleeve through both Ø30 HSS wall holes; weld sizes and fatigue not released,0.355,nominal solid volume
+DT3-FBOLT113,M16 through-bolt and nut envelope;124mm grip,1,mount,"M16×150 class8.8 dimensional proposal; final thread length, washers, locking and tightening not released",0.308,nominal solid volume
+DT3-FC2,"Drive cradle crossbearer HSS 80 ×60 ×6, cut1348",1,mount,Proposed nominal geometry; detailed fits and strength unapproved,16.254,nominal solid volume
+DT3-FD20,"Cradle drop plate120 ×200 ×12, 4 Ø18 holes",1,mount,"Four sleeved through-bolts proposed; weld, preload and local HSS capacity require design",2.165,nominal solid volume
+DT3-FB20,"Outer backing plate120×120×12,4Ø18",1,mount,Proposed nominal geometry; detailed fits and strength unapproved,1.261,nominal solid volume
+DT3-FS200,HSS crush sleeve Ø30/18 ×100; welded flush,1,mount,Sleeve through both Ø30 HSS wall holes; weld sizes and fatigue not released,0.355,nominal solid volume
+DT3-FBOLT200,M16 through-bolt and nut envelope;124mm grip,1,mount,"M16×150 class8.8 dimensional proposal; final thread length, washers, locking and tightening not released",0.308,nominal solid volume
+DT3-FS201,HSS crush sleeve Ø30/18 ×100; welded flush,1,mount,Sleeve through both Ø30 HSS wall holes; weld sizes and fatigue not released,0.355,nominal solid volume
+DT3-FBOLT201,M16 through-bolt and nut envelope;124mm grip,1,mount,"M16×150 class8.8 dimensional proposal; final thread length, washers, locking and tightening not released",0.308,nominal solid volume
+DT3-FS202,HSS crush sleeve Ø30/18 ×100; welded flush,1,mount,Sleeve through both Ø30 HSS wall holes; weld sizes and fatigue not released,0.355,nominal solid volume
+DT3-FBOLT202,M16 through-bolt and nut envelope;124mm grip,1,mount,"M16×150 class8.8 dimensional proposal; final thread length, washers, locking and tightening not released",0.308,nominal solid volume
+DT3-FS203,HSS crush sleeve Ø30/18 ×100; welded flush,1,mount,Sleeve through both Ø30 HSS wall holes; weld sizes and fatigue not released,0.355,nominal solid volume
+DT3-FBOLT203,M16 through-bolt and nut envelope;124mm grip,1,mount,"M16×150 class8.8 dimensional proposal; final thread length, washers, locking and tightening not released",0.308,nominal solid volume
+DT3-FD21,"Cradle drop plate120 ×200 ×12, 4 Ø18 holes",1,mount,"Four sleeved through-bolts proposed; weld, preload and local HSS capacity require design",2.165,nominal solid volume
+DT3-FB21,"Outer backing plate120×120×12,4Ø18",1,mount,Proposed nominal geometry; detailed fits and strength unapproved,1.261,nominal solid volume
+DT3-FS210,HSS crush sleeve Ø30/18 ×100; welded flush,1,mount,Sleeve through both Ø30 HSS wall holes; weld sizes and fatigue not released,0.355,nominal solid volume
+DT3-FBOLT210,M16 through-bolt and nut envelope;124mm grip,1,mount,"M16×150 class8.8 dimensional proposal; final thread length, washers, locking and tightening not released",0.308,nominal solid volume
+DT3-FS211,HSS crush sleeve Ø30/18 ×100; welded flush,1,mount,Sleeve through both Ø30 HSS wall holes; weld sizes and fatigue not released,0.355,nominal solid volume
+DT3-FBOLT211,M16 through-bolt and nut envelope;124mm grip,1,mount,"M16×150 class8.8 dimensional proposal; final thread length, washers, locking and tightening not released",0.308,nominal solid volume
+DT3-FS212,HSS crush sleeve Ø30/18 ×100; welded flush,1,mount,Sleeve through both Ø30 HSS wall holes; weld sizes and fatigue not released,0.355,nominal solid volume
+DT3-FBOLT212,M16 through-bolt and nut envelope;124mm grip,1,mount,"M16×150 class8.8 dimensional proposal; final thread length, washers, locking and tightening not released",0.308,nominal solid volume
+DT3-FS213,HSS crush sleeve Ø30/18 ×100; welded flush,1,mount,Sleeve through both Ø30 HSS wall holes; weld sizes and fatigue not released,0.355,nominal solid volume
+DT3-FBOLT213,M16 through-bolt and nut envelope;124mm grip,1,mount,"M16×150 class8.8 dimensional proposal; final thread length, washers, locking and tightening not released",0.308,nominal solid volume
+DT3-FL1,"Longitudinal support HSS50 ×50 ×5, cut560",1,mount,Proposed nominal geometry; detailed fits and strength unapproved,3.956,nominal solid volume
+DT3-FV10,Support standoff50 ×50 ×40,1,mount,Proposed nominal geometry; detailed fits and strength unapproved,0.785,nominal solid volume
+DT3-FV11,Support standoff50 ×50 ×40,1,mount,Proposed nominal geometry; detailed fits and strength unapproved,0.785,nominal solid volume
+DT3-FE10,Central gearcase mounting strap20 ×50 ×180,1,mount,Proposed nominal geometry; detailed fits and strength unapproved,1.413,nominal solid volume
+DT3-FE11,Central gearcase mounting strap20 ×50 ×180,1,mount,Proposed nominal geometry; detailed fits and strength unapproved,1.413,nominal solid volume
+DT3-FL2,"Longitudinal support HSS50 ×50 ×5, cut560",1,mount,Proposed nominal geometry; detailed fits and strength unapproved,3.956,nominal solid volume
+DT3-FV20,Support standoff50 ×50 ×40,1,mount,Proposed nominal geometry; detailed fits and strength unapproved,0.785,nominal solid volume
+DT3-FV21,Support standoff50 ×50 ×40,1,mount,Proposed nominal geometry; detailed fits and strength unapproved,0.785,nominal solid volume
+DT3-FE20,Central gearcase mounting strap20 ×50 ×180,1,mount,Proposed nominal geometry; detailed fits and strength unapproved,1.413,nominal solid volume
+DT3-FE21,Central gearcase mounting strap20 ×50 ×180,1,mount,Proposed nominal geometry; detailed fits and strength unapproved,1.413,nominal solid volume
+DT3-FA1,Frame torque-link clevis; Ø24 pin at Z710,1,mount,Proposed nominal geometry; detailed fits and strength unapproved,1.992,nominal solid volume
+DT3-TL1,Torque link450 eye centres; tubeØ40 ×8,1,mount,"Spherical-end inserts required; geometry alone does not validate fatigue, buckling or articulation",3.523,nominal solid volume
+DT3-TE10,Spherical-end bearing envelope36 OD /24 ID,1,bearing,Spherical joint procurement target ≥40 kN reversible axial load; exact joint not selected,0.16,envelope only; NOT actual mass
+DT3-TP10,Retained torque-link pin Ø24 ×80 envelope,1,mount,"Retainers, fit, hardness and fatigue detail unfinished",0.284,nominal solid volume
+DT3-TE11,Spherical-end bearing envelope36 OD /24 ID,1,bearing,Spherical joint procurement target ≥40 kN reversible axial load; exact joint not selected,0.16,envelope only; NOT actual mass
+DT3-TP11,Retained torque-link pin Ø24 ×80 envelope,1,mount,"Retainers, fit, hardness and fatigue detail unfinished",0.284,nominal solid volume
+DT3-FA2,Frame torque-link clevis; Ø24 pin at Z710,1,mount,Proposed nominal geometry; detailed fits and strength unapproved,1.992,nominal solid volume
+DT3-TL2,Torque link450 eye centres; tubeØ40 ×8,1,mount,"Spherical-end inserts required; geometry alone does not validate fatigue, buckling or articulation",3.523,nominal solid volume
+DT3-TE20,Spherical-end bearing envelope36 OD /24 ID,1,bearing,Spherical joint procurement target ≥40 kN reversible axial load; exact joint not selected,0.16,envelope only; NOT actual mass
+DT3-TP20,Retained torque-link pin Ø24 ×80 envelope,1,mount,"Retainers, fit, hardness and fatigue detail unfinished",0.284,nominal solid volume
+DT3-TE21,Spherical-end bearing envelope36 OD /24 ID,1,bearing,Spherical joint procurement target ≥40 kN reversible axial load; exact joint not selected,0.16,envelope only; NOT actual mass
+DT3-TP21,Retained torque-link pin Ø24 ×80 envelope,1,mount,"Retainers, fit, hardness and fatigue detail unfinished",0.284,nominal solid volume
+DT3-HA,A hydraulic hose route corridor,1,hose,Centreline corridor only: bends are not a hose fabrication shape; no verified minimum bend radius,0,installation allowance; not certified
+DT3-HB,B hydraulic hose route corridor,1,hose,Centreline corridor only: bends are not a hose fabrication shape; no verified minimum bend radius,0,installation allowance; not certified
+DT3-HD,D hydraulic hose route corridor,1,hose,Centreline corridor only: bends are not a hose fabrication shape; no verified minimum bend radius,0,installation allowance; not certified

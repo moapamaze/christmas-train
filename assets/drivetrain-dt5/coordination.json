@@ -1,0 +1,41 @@
+{
+  "issue": "PF-DT5-R1",
+  "fabrication_released": false,
+  "scope": "Locomotive powered axle only",
+  "source_baseline": "48df9eb9616cdc8d020bf42f2096420fb6c2bb0d",
+  "frame_context": "LT4 R0",
+  "brake_context": "C5.3 R0 inboard disc/caliper development; no accepted locomotive rotor/caliper geometry",
+  "proposed_interfaces": {
+    "journal_centres_Y_mm": [
+      -650,
+      650
+    ],
+    "inherited_frame_rails_Y_mm": [
+      -730,
+      730
+    ],
+    "spring_space_diameter_height_mm": [
+      140,
+      240
+    ],
+    "motor_flange_Y_mm": 945,
+    "motor_rear_Y_mm": 1151,
+    "primary_travel_mm": [
+      -40,
+      50
+    ],
+    "float_each_direction_mm": 8
+  },
+  "open_items": [
+    "Supplier-approved short spline hub, custom counterbore and two-M10 retention with low-speed lubrication, operating offset and service access",
+    "Cup/cone/shoulder/spacer/cover stack and measured cold bearing setting",
+    "Cartridge sleeve fits, float stop anchorage, trunnion retention and guide lateral capture",
+    "Complete strength/fatigue of carrier, bolt groups, welds, guide saddles and rebound catches",
+    "Spring/damper selection, bump stop and accepted wheel/axle profiles",
+    "Configured OEM motor port locations and complete formed hose assemblies; actual hose sweep",
+    "Actual locomotive rotor/caliper package and full combined brake/body/track-twist sweep",
+    "Whole-train mass/adhesion, route and installed continuous engine power"
+  ],
+  "direct_chat_message_sent": false,
+  "other_workstreams_acknowledged": false
+}

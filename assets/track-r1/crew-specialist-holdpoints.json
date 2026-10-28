@@ -1,0 +1,49 @@
+{
+  "issue": "PF-3R1-R0",
+  "method": "Proposed controlled installation sequence, not an instruction to start construction",
+  "holdpoints": [
+    {
+      "id": "R-HP01",
+      "when": "Before disturbing ground",
+      "accountable": "Survey/civil/geotechnical lead",
+      "evidence": "Accepted control, locates, approved limits, drainage/formation design and permits.",
+      "crew_scope": "Farm crew can clear/stage/assist only within released limits; no earthwork from a synthetic sample."
+    },
+    {
+      "id": "R-HP02",
+      "when": "Before covering formation/drainage",
+      "accountable": "Geotechnical/civil inspector",
+      "evidence": "As-built formation, drainage elevations/outfalls, compaction/moisture evidence and disposition.",
+      "crew_scope": "Crew performs released work and records materials/locations; specialist accepts hidden work before cover."
+    },
+    {
+      "id": "R-HP03",
+      "when": "Before rail assembly",
+      "accountable": "Track + vehicle engineer",
+      "evidence": "Coordinated rail/wheel profile, approved ties/spacing/fastenings/joints/ballast and curve/turnout details, traceable rail condition.",
+      "crew_scope": "Crew may assemble to released details under track-specialist setup/training; matching nominal gauge is insufficient."
+    },
+    {
+      "id": "R-HP04",
+      "when": "Before ballast/tamping completion",
+      "accountable": "Track engineer / inspection team",
+      "evidence": "Controlled gauge/alignment/elevations, ties/fastenings, joints, ballast and drainage; correct measuring references and instrument checks.",
+      "crew_scope": "Crew records every adjusted location; no invented allowable gauge, cant, twist or curve radius."
+    },
+    {
+      "id": "R-HP05",
+      "when": "Before station/bridge fixing",
+      "accountable": "Vehicle + station/boarding designers",
+      "evidence": "Loaded/unloaded floor motion, stopping/lateral envelope, actual bridge/lift bearing and retention, settlement and escape route.",
+      "crew_scope": "Coordinate station work with vehicle\u2014not a frozen32in study floor."
+    },
+    {
+      "id": "R-HP06",
+      "when": "Before locomotive/loaded train tests",
+      "accountable": "Responsible track/vehicle/brake engineers + authority/inspection parties",
+      "evidence": "Accepted track inspection and controlled test plan, exclusion zone, loads, speeds, failure/stop cases and emergency response.",
+      "crew_scope": "No passenger proving runs or fabricated acceptance values. Track, train and stations must be accepted as a system."
+    }
+  ],
+  "not_training_manual": "Keep separate rail-installation training Site unchanged; these are project-specific interface/release requirements."
+}

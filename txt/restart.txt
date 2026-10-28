@@ -1,0 +1,118 @@
+
+Project restart · Pulsipher Farms train
+
+Recovered project record · 19 October 2026
+Continue from the work already done.
+The current design, drawings, source files and owner decisions are recovered. This record reconciles the project through the C2 bench issue and sets the next fabrication-development work.
+Current coach issue: Previous versions ↗: two single folding places, two clear wheelchair bays and 13 passengers in every mode. Four drawings, physical mechanism CAD and separate foundation/path evidence are available. C3.1 local retention, guards and rail-end connections remain next. The recovery inventory below preserves the earlier baseline.
+Latest physical issueC2 benches & floor mountsPrevious versions ↗
+Next defined workC2.1 weight & connectionsLighter braced benches and realistic mounting stiffness, then accessible folding seats.
+Major unfinished assemblyComplete sprung truckCustom wheelsets, axleboxes, suspension, frame supports and installed air drums.
+These are preliminary design proposals. The owner wants substantiated dimensions, materials and mechanisms developed now, followed by qualified engineer review. No fabrication or passenger-operation release is recorded. This recovery adds no new component geometry.
+Current coach details: C3.1 seat locks, guards and reinforced floor connections, C4 side doorway, boarding and securement, and C5 sprung truck parts and body connections. These are preliminary physical design issues. The calculation pages preserve conditional and failed checks; the complete coach is not released.Current decisionsWorking dimensionsRecovered workSuperseded detailsNext workSources
+Continuation update: C2.1 braced benches and compact floor mounts are now issued. The recovery inventory below preserves the prior C2 baseline. C3.1/C4/C5 are the current coach detail issues; this C2.1 recovery entry remains historical.
+Current decisions and requirements
+ | Area
+ | Carried forward
+ | Train
+ | Rail-mounted diesel locomotive with historic steam-era styling; three enclosed regular coaches and one accessible coach. Custom fabrication is the primary route. The 36-inch gauge remains the working evaluation basis.
+ | Regular seating
+ | Retain 32 places per regular coach: sixteen two-person benches. A change needs a demonstrated fit, comfort, circulation, load or weight reason. The current compact layout has no tables; the earlier facing-bench/table concept is historical.
+ | Accessible coach
+ | Working layout of 11 fixed seats and two wheelchair bays. Add fold-up or removable seats for use when those bays are unoccupied by wheelchair users. Additional seat count is not yet assigned. Preserve companion access and all occupied, stowed and maneuvering envelopes.
+ | Suspension & trucks
+ | Develop the entire custom two-axle sprung truck, including wheelsets, bearings, axleboxes, guides, springs, damping, stops, retention, truck frame, body pivot/center bearing, sidebearers, brakes, reaction paths and service access. Show dimensioned mounts to the truck and coach frame.
+ | Brakes
+ | Air service and spring-applied, air-released parking. Current prototype lead is Dexter 12¼ × 4 PQ S-cam drum family with its documented Type 20/24 combination chamber. Family matching is established in the study; final rail performance and exact custom mounting interfaces are not.
+ | Heating & cooling
+ | Mini-split heat pumps for occupied hot fall days and Christmas heating. Indoor head high above an end door; outdoor section on the non-boarding side. A raised end roof is allowed. Exact equipment, head count and weather design points remain open.
+ | Power
+ | Retain diesel propulsion. Evaluate generation from the propulsion diesel before defaulting to a second generator engine. The 120/240 V split-phase recommendation is a study architecture, not selected equipment.
+ | Boarding
+ | Normal boarding and unloading from the same physical vehicle side at both stations. Left/right and route topology remain unassigned. Emergency egress remains a separate requirement.
+ | Route
+ | Owner target is 0% longitudinal grade. North Pole location is deferred; guests will disembark there. Actual route length, survey, curve radii and accepted operating speed are unresolved. Keep unrelated horse-route/county crossing details out of this train alignment.
+ | Fabrication split
+ | Precision work and finish work will be subcontracted. General farm/Ralph work is to be assigned against actual shop capability and the eventual released drawings.
+ | Drawing standard
+ | Recognizable physical assemblies, numbered parts/BOM, dimensioned plan/elevation/sections/details, materials, connections and mounts. Use one geometry source for models, drawings and parts. The owner's reference images define presentation quality only. Show commercial brakes installed on the train, without a separate internal drum teardown.
+ | Delivery
+ | Use this existing Site. Keep drawings, rotatable models and concise fabrication notes separate from long calculations. Continue useful independent development without repeated next-phase prompts; notify after substantive published issues. The separate track-training site remains separate.
+Working geometry, with its status preserved
+These dimensions describe the recovered design proposal; they are not manufacturing approval or a confirmed capacity rating.
+ | Item
+ | Current working value
+ | Qualification
+ | Cabin / body
+ | 306 × 104 in clear cabin; 312 in body length
+ | C1 skin width 110.375 in; glazing 110.972 in; backing plates 111 in. The old 110-in envelope is not the whole current exterior.
+ | Underframe
+ | 400 × 110 in; bogie centers 216 in apart
+ | J1a has 110 members and 1,816.35 kg member-only calculated mass. Connections and equipment add mass.
+ | Floor
+ | 32 in above rail in the current model
+ | No accepted loaded/empty suspension state. The earlier 28-in option is historical and unresolved; final wheel/truck travel must determine the mounting stack.
+ | Regular benches
+ | 40 in wide; 32 in row pitch; 24 in aisle; 18 in seat height
+ | Sixteen benches. Current floor-foot envelope is 20½ in long. Comfort, circulation and completed attachment behavior remain to validate.
+ | C2 steel floor bypass
+ | Four bolts per foot; four feet per bench; 64 revised floor openings
+ | C2 replaces the old I1 two-bolt joint. Proposed steel spacers carry load around the panel. Locking, local flexibility and sealed closeouts remain unfinished.
+ | C2 seating mass
+ | 61.47 kg metal/hardpoints per bench; 983.53 kg for sixteen
+ | 65 kg complete-bench trial allowance totals 1,040 kg, leaving only 3.53 kg each for remaining materials. The old 15 kg/bench allowance is rejected.
+ | Loads
+ | 13,200 kg regular / 11,000 kg accessible / 65,100 kg whole-train upper studies
+ | Analytical allowances, not weighed masses or certified ratings. Latest body and seating changes require reconciliation.
+ | Capacity
+ | 32 × 3 regular; 11 fixed + 2 wheelchair places accessible
+ | 109 guest places in every C3 convertible layout; no certified capacity rating.
+What is recovered
+ | Package
+ | Delivered scope and remaining work
+ | C1 body
+ | Physical body/frame/roof/enclosure proposals, eighteen interior J01 post connections, four drawings, STEP and rotatable model. Four special end-post receivers, full joints/skins/liners/windows/doors/weathering and HVAC mounts remain unfinished.
+ | Previous versions ↗
+ | Bench tube/plate parts, revised four-bolt hardpoints, floor openings, four drawing sheets, CAD/STEP/DXF, loads and mass calculations. Joint stiffness, prying, welds, locking, pan fasteners, upholstery and closeouts are still under development.
+ | J1a underframe
+ | Retains the deeper sixteen central crossmembers and wider fifty-two seat rails. Baseline bolsters remain. I-BA angle roots and I-BT tapered bolsters were alternatives, not incorporated selections.
+ | 3L complete truck
+ | Suspension load/rate, axle/bearing, track-twist and body-support calculations; real bearing leads; functional interface records. A complete physical custom truck and selected spring/bearing/mount geometry are still missing.
+ | D1 air drums
+ | Two brakes per axle, eight per coach, thirty-two coach chambers; locomotive package separate. Proposed wheel → bearing/axlebox → outboard drum and removable hub arrangement. Exact drum/hub/carrier dimensions, torque curves, reverse behavior and control verification remain open.
+ | 3M coupling
+ | DB01 custom drawbar part alternative, source geometry and force comparisons. Complete coupling, final length, pins, retention, draft gear and frame connections are not finalized.
+ | 3N propulsion
+ | Kubota V3307-CR-TI-E5 + Danfoss H1P045 + one H1B110 remains the development lead; mechanical/electric alternatives compared. Wheel size, reduction, adhesive mass, actual duty output, shaft supports, cooling and controls remain open. No order-ready match.
+ | 3P climate & power
+ | Mini-split placement, thermal/electrical sensitivities and above-door fit conflicts recorded. No selected heat pump, generator output, distribution hardware or mount drawing. New C1 glazing and convertible occupancy must feed updated loads.
+ | 3R track & stations
+ | Geometry-checking methods, procurement/interface records and a conditional one-direction loop comparison. Actual route length, survey, rail section/joints/ties and alignment remain unselected.
+ | 3S readiness
+ | Coordinated evidence, hazards, manufacturing/installation/commissioning and operation-development records exist. Prepared forms and synthetic calculations are not physical tests or sign-off.
+ | Earlier studies
+ | Stage 2 and 3A–3K remain preserved, with source/calculations and earlier models. Separate Rev I/Rev J tongue drawings are a different revision branch; do not equate them with Phase 3I/3J.
+Details that must not slip back into the design
+Hydraulic service-brake preference is superseded by air service and spring parking.
+Tolomatic ME220 linkage is an earlier alternative, superseded as the lead by D1 air drums. Its holes, rotor and carrier must not be mixed into D1.
+596 mm wheels, 1,165 mm wheelbase, 2-in axle and the old box-shaped axleboxes/sideframes are display values, not selected fabrication sizes. The Railteco RTKZ1 example was rejected as supplied.
+The earlier I1 two-bolt seat mount, floor-contacting sole and 15.775 mm spacer do not describe the current C2 four-bolt joint.
+Older 24-ft/32-ft narrow coach studies, table layouts and mass estimates are history; the current C1/C2 geometry and explicit owner decisions govern continuation.
+Rooftop HVAC and its trial unit counts are historical comparisons. Mini-splits now lead development; evaluate a shared propulsion/generation engine before selecting a second diesel.
+The old conclusion that all work must wait for an external engineer is superseded by the owner's preliminary-design workflow. Actual missing OEM data still constrain dependent interfaces.
+One mile or 6,000 ft is an earlier planning estimate. The current track quantity record has no confirmed route length. Crossings from unrelated farm plans are not a train alignment.
+Exact restart sequence
+C2.1 — reduce bench weight and refine mounts. Compare a lighter braced frame with realistic foot stiffness and prying/contact behavior. Reconcile metal, hardpoints, padding, finishes and small parts in the full coach mass. Preserve 32 places unless a demonstrated reason changes the layout.
+C3 — accessible convertible seats. Model both wheelchair bays in occupied, seated, stowed and intermediate positions. Develop the hinge, stops, positive latches, attachment load path, storage and access before assigning extra places.
+Advance the complete sprung truck. Coordinate actual wheel/axle/bearing/axlebox and D1 brake interfaces with primary suspension, guides, torque reaction, body pivot and sidebearers. Develop supported custom dimensions and identify exact remaining component data.
+Finish coach integration. Resolve special end-post receivers, body/roof/panel/door/window connections, seals and mini-split supports. Update mass, CG, braking, propulsion and HVAC together.
+Resume from the current source before every change, preserve predecessor issues, and publish each coherent completed issue. A recovery page or a support calculation does not complete a physical assembly.
+Recovery basis
+Source recovered from published Site version 40, commit a5493a7b47b904a7944443bbf5ee11097320f9fe, carrying PROGRAM-R29 and OWNER-R27. The drawing catalog contains 21 packages and 102 sheet entries. Prior conversation decisions and current saved Stage 2–3K reports/workbooks were reconciled with the newer source. This is a consolidated project record, not a verbatim export of every prior message or an independent engineering validation.
+Preserved program state at recovery
+Current owner operating, seating and fabrication decisions
+C1 body design record · C2 bench design record
+Drawing requirements · D1 development selection
+Current continuation record · Recovered source index and hashes
+Separate track-installation training site
+Recovery R1 · 19 October 2026 · Existing technical project and audience preserved.

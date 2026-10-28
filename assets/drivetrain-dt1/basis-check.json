@@ -1,0 +1,18 @@
+{
+  "issue": "PF-DT1-R0",
+  "basis": "Inherited N1 constant-efficiency study, not selected hardware",
+  "launch_pull_N": 13471.67015801348,
+  "motor_torque_Nm": 472.6901809829291,
+  "combined_wheel_torque_Nm": 4041.5010474040437,
+  "speed_trial_mph": 7.495513073518385,
+  "wheel_diameter_trial_mm": 600,
+  "ratio_trial": 9,
+  "mass_trial_kg": 65100,
+  "required_adhesive_mass_kg": {
+    "0.1": 13737.280476017273,
+    "0.15": 9158.186984011516,
+    "0.2": 6868.6402380086365
+  },
+  "formula": "adhesive mass = pull / (mu * g)",
+  "note": "Only load carried on powered wheels counts. Tender/body mass on unpowered wheels cannot be counted. No claim of verified adhesion or low-speed output."
+}

@@ -1,0 +1,164 @@
+{
+  "issue": "PF-LOCO-LT1-R0",
+  "assumptions": {
+    "pump_cc": 45,
+    "pump_rpm": 2600,
+    "motor_count": 2,
+    "each_motor_cc": 110,
+    "ratio": 7.5,
+    "wheel_m": 1,
+    "pressure_bar": 300,
+    "pump_eta_v": 0.95,
+    "pump_eta_m": 0.9,
+    "motor_eta_v": 0.95,
+    "motor_eta_t": 0.9,
+    "gear_eta": 0.95,
+    "auxiliary_kW": 10,
+    "gross_intermittent_engine_kW": 55.4,
+    "powered_mass_trial_kg": 10000
+  },
+  "results": {
+    "pump_flow_l_min": 111.15,
+    "each_motor_rpm": 479.96590909090907,
+    "speed_m_s": 3.350794164385659,
+    "speed_mph": 7.495513073518385,
+    "force_N": 13471.67015801348,
+    "total_wheel_torque_Nm": 6735.83507900674,
+    "overall_efficiency": 0.6944737499999999,
+    "full_flow_pressure_limit_bar": 209.53846153846155,
+    "pump_cc_at_300bar_power_limit": 31.43076923076923,
+    "speed_mph_at_300bar_power_limit": 5.2353275928882255,
+    "min_adhesive_mass_at_mu015_kg": 9158.186984011516,
+    "main_loop_heat_kW": 12.211465000000002,
+    "gear_heat_kW": 1.6594267500000013,
+    "one_branch_all_flow_rpm_at_110cc": 959.9318181818181,
+    "one_branch_all_flow_rpm_at_22cc": 4799.659090909091,
+    "powered_axle_load_trial_kg": 2500
+  },
+  "mass_cases": [
+    {
+      "mass_kg": 54755,
+      "extra_drag_N": 0,
+      "run_force_N": 2684.8156037500003,
+      "start_force_N": 5369.6312075000005,
+      "cruise_engine_kW": 22.954074156866348,
+      "launch_acceleration_m_s2_at_mu015": 0.14796893344011466,
+      "launch_acceleration_m_s2_at_mu010": 0.08103403876358321
+    },
+    {
+      "mass_kg": 54755,
+      "extra_drag_N": 2000,
+      "run_force_N": 4684.81560375,
+      "start_force_N": 7369.6312075000005,
+      "cruise_engine_kW": 32.60395412536238,
+      "launch_acceleration_m_s2_at_mu015": 0.11144258881405313,
+      "launch_acceleration_m_s2_at_mu010": 0.04450769413752167
+    },
+    {
+      "mass_kg": 54755,
+      "extra_drag_N": 5000,
+      "run_force_N": 7684.81560375,
+      "start_force_N": 10369.6312075,
+      "cruise_engine_kW": 47.07877407810643,
+      "launch_acceleration_m_s2_at_mu015": 0.056653071874960804,
+      "launch_acceleration_m_s2_at_mu010": -0.01028182280157065
+    },
+    {
+      "mass_kg": 65100,
+      "extra_drag_N": 0,
+      "run_force_N": 3192.064575,
+      "start_force_N": 6384.12915,
+      "cruise_engine_kW": 25.401520000219143,
+      "launch_acceleration_m_s2_at_mu015": 0.10887159766533763,
+      "launch_acceleration_m_s2_at_mu010": 0.05257328494623656
+    },
+    {
+      "mass_kg": 65100,
+      "extra_drag_N": 2000,
+      "run_force_N": 5192.064575,
+      "start_force_N": 8384.12915,
+      "cruise_engine_kW": 35.051399968715174,
+      "launch_acceleration_m_s2_at_mu015": 0.07814963145950045,
+      "launch_acceleration_m_s2_at_mu010": 0.02185131874039937
+    },
+    {
+      "mass_kg": 65100,
+      "extra_drag_N": 5000,
+      "run_force_N": 8192.064575,
+      "start_force_N": 11384.12915,
+      "cruise_engine_kW": 49.526219921459216,
+      "launch_acceleration_m_s2_at_mu015": 0.03206668215074468,
+      "launch_acceleration_m_s2_at_mu010": -0.02423163056835639
+    },
+    {
+      "mass_kg": 67500,
+      "extra_drag_N": 0,
+      "run_force_N": 3309.744375,
+      "start_force_N": 6619.48875,
+      "cruise_engine_kW": 25.969317972577457,
+      "launch_acceleration_m_s2_at_mu015": 0.10151379863723672,
+      "launch_acceleration_m_s2_at_mu010": 0.04721720370370369
+    },
+    {
+      "mass_kg": 67500,
+      "extra_drag_N": 2000,
+      "run_force_N": 5309.744375,
+      "start_force_N": 8619.48875,
+      "cruise_engine_kW": 35.61919794107349,
+      "launch_acceleration_m_s2_at_mu015": 0.0718841690076071,
+      "launch_acceleration_m_s2_at_mu010": 0.01758757407407406
+    },
+    {
+      "mass_kg": 67500,
+      "extra_drag_N": 5000,
+      "run_force_N": 8309.744375,
+      "start_force_N": 11619.48875,
+      "cruise_engine_kW": 50.09401789381753,
+      "launch_acceleration_m_s2_at_mu015": 0.027439724563162654,
+      "launch_acceleration_m_s2_at_mu010": -0.02685687037037038
+    }
+  ],
+  "curve_cases": [
+    {
+      "radius_m": 20,
+      "powered_truck_angle_relative_body_deg": 3.8704080113109764,
+      "truck_wheelbase_mid_ordinate_mm": 9.002025911762246,
+      "rigid_four_axle_span_mid_ordinate_mm": 95.28950223088373,
+      "body_mid_ordinate_between_drive_pivots_mm": 45.61451710426567
+    },
+    {
+      "radius_m": 30,
+      "powered_truck_angle_relative_body_deg": 2.5791810516483755,
+      "truck_wheelbase_mid_ordinate_mm": 6.000600120028565,
+      "rigid_four_axle_span_mid_ordinate_mm": 63.442081628689806,
+      "body_mid_ordinate_between_drive_pivots_mm": 30.39039293304313
+    },
+    {
+      "radius_m": 45,
+      "powered_truck_angle_relative_body_deg": 1.7191313208778112,
+      "truck_wheelbase_mid_ordinate_mm": 4.00017779357853,
+      "rigid_four_axle_span_mid_ordinate_mm": 42.26985267160899,
+      "body_mid_ordinate_between_drive_pivots_mm": 20.25455830146683
+    }
+  ],
+  "interpretation": [
+    "Two motors share flow; 1000mm wheels and 7.5:1 preserve the old 600mm/9:1/single-motor ideal force and speed. This is an analytical rematch, not a supplier-approved design.",
+    "7.5mph and 300bar cannot occur simultaneously within the 55.4kW gross intermittent budget. Installed continuous power is unknown.",
+    "Parallel branch overspeed and reverse/retarding flow must be controlled. Generic flow divider not selected; no credit for equal sharing under faults.",
+    "300bar is a calculation point, not a relief setting. Constant efficiency assumptions do not establish stall or creeping torque.",
+    "67,500kg adds a 2,400kg seat-growth sensitivity to the old 65,100kg case: 3 x (1,040 - 240). This may double-count existing growth margins; it is not a revised rated gross mass.",
+    "The old 14,500kg locomotive/hotel allowance is provisionally split 12,000/2,500 between locomotive and tender. Tender creates a sixth braked vehicle and another separation point. Do not add tender mass a second time.",
+    "Latest R30/DT1 direction: evaluate generation from propulsion diesel first. Hotel shaft demand is additional to the 10kW traction auxiliary allowance. Tender generator bay is an optional fallback reservation only; selected generator kW is null.",
+    "Curve mid-ordinate is chord geometry only, not required wheelset lateral travel, flange clearance or proof of curving. Wheel profile, gauge widening, lead/trailer yaw, suspension, end swing and couplings require full swept analysis."
+  ],
+  "formulas": [
+    "Q = Dp * np * eta_pv / 1000 (L/min)",
+    "nm = (Q / 2) * 1000 * eta_mv / Dm",
+    "v = (nm/i)*pi*d/60",
+    "Tm = dp_bar * Dm_cc * eta_mt / (20*pi)",
+    "F = 2 * Tm * i * eta_g / (d/2)",
+    "P_engine = F_running*v/(1000*eta_total) + P_aux",
+    "a = (min(F_drive,mu*m_powered*g)-F_start)/m_train",
+    "mid ordinate = R - sqrt(R^2-(L/2)^2)"
+  ]
+}

@@ -1,0 +1,34 @@
+[
+  {
+    "id": "BE-J01",
+    "manufacturer": "JTEKT / Koyo",
+    "designation": "30214JR",
+    "bearing_type": "Single-row tapered roller",
+    "d_mm": 70,
+    "D_mm": 125,
+    "T_mm": 26.25,
+    "inner_ring_width_B_mm": 24,
+    "outer_ring_width_C_mm": 21,
+    "Cr_kN": 173,
+    "C0r_kN": 173,
+    "source": "https://koyo.jtekt.co.jp/en/products/detail/?pno=30214JR",
+    "source_kind": "Current manufacturer product data",
+    "checked": "2026-10-19",
+    "inventory": "Listed in manufacturer product catalog; stock, price, lead time and rail suitability unconfirmed"
+  },
+  {
+    "id": "BE-S01",
+    "manufacturer": "SKF",
+    "designation": "30214 J2/Q",
+    "bearing_type": "Single-row tapered roller",
+    "d_mm": 70,
+    "D_mm": 125,
+    "T_mm": 26.25,
+    "Cr_kN": 125,
+    "C0r_kN": 156,
+    "source": "https://cdn.skfmediahub.skf.com/api/public/094da9ad401d0567/pdf_preview_medium/094da9ad401d0567_pdf_preview_medium.pdf",
+    "source_kind": "SKF Agri solutions, printed p15 / PDF page8; catalog evidence, not exact delivered revision",
+    "checked": "2026-10-19",
+    "inventory": "Listed in manufacturer catalog; stock, price, lead time and rail suitability unconfirmed"
+  }
+]

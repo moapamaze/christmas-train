@@ -1,0 +1,76 @@
+LT7 engineering · Pulsipher Farms
+LT7 R0 · 19 OCTOBER 2026 · PACIFIC
+Service hardware — engineering record
+Nominal detail development, not for fabrication. The diesel and pump remain in the locomotive. LT7 adds service hardware and checks a common-cradle removal envelope. It does not change the engine selection, drivetrain, wheel/brake work or passenger cars.
+Completed geometry
+ | Assembly
+ | Developed detail
+ | Remaining release work
+ | Routine hatch
+ | 360×360 projected opening; 400×400 curved leaf, approximately 3.31 kg with attached arms/barrels. Reinforcement, two pin hinges and two captive compression dogs modeled.
+ | Trial X3260/Z2240 location, actual service reach, seal/pad material, pad fixing, hold-open stay and wind/fatigue proof.
+ | Upper shell seam
+ | Two bay2 bridge clips with internal doublers and captive M6 tapped blocks; outside-access removal. Existing lower tabs and M8 fasteners shown in a local section.
+ | Other bays, locking/washer seating and complete heavy-panel handling attachments. No panel lifting rating.
+ | Dome feet
+ | Four removable feet /eight M8 bolts into separate welded receiver pads. Shortened risers preserve dome elevation; main HSS remains undrilled.
+ | Receiver/frame wall stress, weld fatigue, corrosion, thread stripping, preload/locking and cosmetic-dome loads.
+ | Crown relief
+ | Bay2 column apertures opened to the crown to permit panel withdrawal past fixed columns.
+ | Split weather covers, cut-edge reinforcement and complete panel/handrail removal-motion proof.
+ | Engine cradle
+ | Existing LT6 cradle and engine-interface blanks retained.
+ | Configured mounting pattern, operating mass/CG and actual reactions are still unavailable; final engine holes remain undrilled.
+Fit checks and limits
+ | Check
+ | Result
+ | Scope
+ | Exact CAD
+ | 1106 valid solids/parts; 0 new fabricated-part intersections above1mm³.
+ | Checks new fabricated solids versus fabricated retained/new solids. Fastener threads and compliant seals are simplified; this is not stress analysis.
+ | Hatch opening
+ | 0 detected collisions at0–110° in10° steps.
+ | Hinge axis X3030/Y−918. Dogs must be released first. Rigid leaf/barrels/arms checked; gasket, fingers, wind and continuous sweep not proven.
+ | Dome bolt access
+ | 0 collisions for assumedØ22×100mm straight socket approach.
+ | No selected socket, torque-wrench swing, hand clearance or approved tightening specification.
+ | Common-cradle lift
+ | 0 intersections with the continuous swept bounding prism for a1600mm vertical lift.
+ | Current engine/pump/cradle reservations only. Remove bays1–3 half-panels, bands3000/4400, dome/support, exhaust reservation and cradle retention bolts first. No sling/crane/actual OEM accessories modeled.
+ | Reduced panel removal
+ | Bay1 skins and ribs obstruct the full common-cradle lift if only bays2/3 are removed.
+ | This is why the removal arrangement includes six half-panels. An alternate narrower OEM-approved lift package has not been established.
+ | Filter service
+ | Not verifiable yet.
+ | Configured filter positions, element withdrawal lengths, dipstick/fill/drain locations and working posture are missing. No fictitious filters or distances inserted.
+ | Pump/coupling service
+ | Not verifiable yet.
+ | Supplier housing, spline engagement, axial separation, hose/port clearances and supported-removal method are missing. The550mm reservation is not a withdrawal distance.
+Assembly and inspection sequence
+Confirm the configured package and service-side drawing. Locate the hatch from actual routine tasks before cutting the shell.
+Form the leaf and reinforcement to their specified radii. Jig to the retained shell; inspect fit, edge clearance and seal land. Proposed welds require an accepted thin-sheet procedure.
+Jig both hinge axes together, assemble pins with new retainers, set the compression dogs and captive end stops, and verify operation. Add and prove a positive hold-open device before service use.
+Fit seam doublers and tapped blocks before closing the shell. Verify all removable-panel fasteners can be reached from outside or the intended access opening, with the panel safely supported.
+Fit the dome receiver pads and shortened risers in a fixture that preserves the saddle elevation. Engineer acceptance is required before welding receivers to the main frame.
+Trial-fit service tools and a representative filter, then demonstrate the final supplier-approved powerpack removal using its rated lifting points and a documented lift plan.
+Development tools: sheet-forming equipment, drilling/tapping jig, welding fixture, radius gauges, deburring tools and appropriate sockets. A suitable work platform and rated handling equipment must be selected from actual access height, component weights and the approved removal plan. These are development tasks, not construction authorization.
+Configured supplier package
+The relevant incoming-mail check found no configured Kubota/Danfoss package drawing or written installation approval. The existing engineering correspondence concerns a proposal and meeting, not structural release. The prepared AIE technical request and verified supplier sources remain available. Update20 October2026 UTC: the request was sent to info@ai-engines.com; no supplier review or approval is implied.
+ | Required data
+ | Use
+ | Exact engine/pump order codes and CAD
+ | Set feet, flywheel/housing/shaft references and service openings.
+ | Wet package mass and three-axis CG
+ | Calculate isolator reactions, cradle/adapter loads and approved lifting arrangement.
+ | Cooling/CAC heat rejection and continuous installed rating
+ | Select supported radiator/fan/duct arrangement and confirm power at duty.
+ | Approved pump shaft and torsional coupling
+ | Resolve the G4 torque-screen failure and accept the complete interface.
+ | Service/lifting drawing
+ | Verify filter, drain, belt, DPF, coupling and pump removal space; set rigging and maintenance openings.
+Structural-review input — not yet submitted for release
+Review set: LT6 retained frame/cradle attachments and LT7 service hardware, exact STEP and drawings. Final review must cover configured engine-foot reactions, isolator dynamic loads, frame/twist/fatigue and local HSS stresses, adapter prying and welds, mount preload/locking, dome receiver loads, hatch wind/inertia and lifting/removal provisions. The earlier600kg engine-package sensitivity study is an assumption, not an approved operating weight.
+Configured loads and interfaces are not confirmed, so this set is not presented as a completed structural submission. No supplier or engineer approval is recorded. Final fabrication tolerances, weld procedures, bolt torques and inspection acceptance criteria require the responsible engineer and supplier to identify the accepted drawing revisions.
+Verification files
+Geometry and maintenance checks · Parts and release status · Shared interface handoff
+Drawing sheets were rendered and inspected. Software model checks cover decoding, scope selection, transforms and viewer interaction. Live-browser QA remains unavailable due to the managed preview failure; no browser pass is claimed.LT7 R0 · 19 October 2026 Pacific · NOT FOR FABRICATION

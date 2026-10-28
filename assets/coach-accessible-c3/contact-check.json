@@ -1,0 +1,22 @@
+{
+  "down_stop_to_sector_at_0deg_gap_in": 0.0,
+  "up_stop_to_sector_at_90deg_gap_in": 8.951719505639057e-15,
+  "nominal_planar_bearing_area_in2_each_stop": 0.25,
+  "nominal_sector_to_clevis_side_gap_in": 0.0625,
+  "nominal_hinge_pin_bushing_diametral_clearance_in": 0.003,
+  "nominal_lock_pin_hole_diametral_clearance_in": 0.03125,
+  "status": "Nominal geometry only; contact pressure distribution, wear and final fits unqualified",
+  "sector_DXF_check": {
+    "units_code": 1,
+    "entities": {
+      "LINE": 6,
+      "ARC": 2,
+      "CIRCLE": 3
+    },
+    "circular_hole_radii_in": [
+      0.328125,
+      0.328125,
+      0.5
+    ]
+  }
+}

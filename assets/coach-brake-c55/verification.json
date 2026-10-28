@@ -1,0 +1,102 @@
+{
+  "revision": "C55-D1",
+  "checkpoint_sha256": "59d31e5bef10caaa2b9aa07ffbbe0ed00dba73ca57731dcdb542dff89fcfd339",
+  "contract_sha256": "5e37a4f1fde39990bb724cd09bce2ab2eaeb55f9f256929771d65a638744e14b",
+  "scope": "Bounded source corrections and geometric diagnostics for one brake; no complete purchased-kit fit or engineering release.",
+  "part_count": 155,
+  "valid_shapes": 155,
+  "preserved_C54_part_count": 149,
+  "preserved_geometry_byte_identity_verified_after_export": true,
+  "nominal_exact_pair_tests": 317,
+  "nominal_thread_approximation_pairs": 36,
+  "unresolved_custom_nominal_intersections": 0,
+  "purchased_exterior_junction_intersections": 0,
+  "unresolved_thread_interface_reservations": [
+    {
+      "a": "PARKER-THREAD-INTERFACE-PORT97",
+      "b": "WABCO-SPRING-INTERMEDIATE",
+      "volume_mm3": 747.7202105715826,
+      "classification": "unresolved below-face fitting/chamber interface reservation; not known material and not a clearance pass"
+    },
+    {
+      "a": "PARKER-THREAD-INTERFACE-PORT116",
+      "b": "WABCO-SPRING-INTERMEDIATE",
+      "volume_mm3": 747.7079389859301,
+      "classification": "unresolved below-face fitting/chamber interface reservation; not known material and not a clearance pass"
+    }
+  ],
+  "independent_sampled_poses": 10,
+  "independent_moving_internal_exact_pair_tests": 1239,
+  "independent_frame_exact_pair_tests": 142,
+  "independent_custom_frame_and_articulation_hits": 0,
+  "retained_uncut_axle_keyway_witnesses": 10,
+  "axle_context_note": "The independent C5 source contains an uncut axle blank; key/blank intersections are explicit modification witnesses. Current truck uses the unchanged C54 full-keyway replacement asset.",
+  "hose_motion": {
+    "curve_count": 40,
+    "exact_solid_tests": 82,
+    "minimum_curve_radius_mm": 78.95857253794338,
+    "maximum_length_residual_mm": 8.662937034387141e-11,
+    "minimum_mutual_clearance_lower_bound_mm": 13.113610672888278,
+    "maximum_relative_end_frame_rotation_deg": 2.1032643114570106,
+    "positive_intersections": [],
+    "errors": []
+  },
+  "hose_nominal_curvature": [
+    {
+      "circuit": "PORT97",
+      "sampled_minimum_radius_mm": 97.16076386885585,
+      "required_radius_mm": 45,
+      "nominal_radius_screen": "PASS AT SAMPLED POINTS",
+      "sample_count": 2001,
+      "sampled_centreline_length_mm": 910.4168541222786,
+      "scope": "Independent cubic centreline calculation at nominal pose only; exact cubic CAD sweep, moving length, twist and routing remain unqualified by this checker"
+    },
+    {
+      "circuit": "PORT116",
+      "sampled_minimum_radius_mm": 96.49167937432388,
+      "required_radius_mm": 45,
+      "nominal_radius_screen": "PASS AT SAMPLED POINTS",
+      "sample_count": 2001,
+      "sampled_centreline_length_mm": 937.3442061964776,
+      "scope": "Independent cubic centreline calculation at nominal pose only; exact cubic CAD sweep, moving length, twist and routing remain unqualified by this checker"
+    }
+  ],
+  "service_access": {
+    "sample_count": 9,
+    "positive_pairs": [],
+    "minimum_sampled_envelope_gap_mm": 29.941841944472003,
+    "scope": "Nine sampled translations of the dimensioned chamber exterior in the nominal truck state, after hoses/fittings and nuts are removed",
+    "accepted_installed_service_procedure": false
+  },
+  "drawings": {
+    "sheets": [
+      "C55-M01",
+      "C55-D01",
+      "C55-D02"
+    ],
+    "source_brep_sha256": "59d31e5bef10caaa2b9aa07ffbbe0ed00dba73ca57731dcdb542dff89fcfd339",
+    "visual_review": "drawing-visual-review.json"
+  },
+  "maximum_actuator_torque_Nm": null,
+  "fabrication_released": false,
+  "operation_released": false,
+  "evidence_files": {
+    "independent": "independent-review.json.gz",
+    "hose_motion": "hose-motion-review.json.gz",
+    "service": "service-access-review.json",
+    "strength": "strength-gap-review.json",
+    "supplier_requests": "supplier-requests.json"
+  },
+  "limits": [
+    "Exact rotor annulus, toleranced hub/hat section, bolt engagement and compatible pad/caliper package are not established. Catalog cross-references do not authorize automatic substitution.",
+    "WABCO9253800250 is retained as a legacy development reference; the manufacturer-listed0460 alternative is not selected or qualified. Exact supply, maximum service/parking force and combined-force cases remain open.",
+    "The chamber/caliper axial mating datum and complete OEM material contours remain provisional. The source-supported89mm port-face ordinate does not establish boss or port-cavity geometry.",
+    "The8mm thread insertion and20mm fitting envelope are explicit scenarios. Two below-face interface reservations remain unresolved; separating them is not a physical-clearance acceptance.",
+    "Cast11 means service and cast12 means spring/parking, but their assignment to the97/116mm axial port stations is not established.",
+    "Forty constant-length hose curves are geometric samples. Actual fixed fittings/clamps, straight leads, cut lengths, torsion allowance, pressure growth and flex/abrasion validation remain open.",
+    "The chamber withdrawal screen excludes the unknown caliper mating seat and actual tools. Pad/retainer/spring/pressure-plate extraction and caging/tool access are not accepted.",
+    "Actual maximum brake torque, bearing application/minimum load, fits, key contact, bolt preload, weld fatigue, materials and vehicle dynamic loads remain unqualified.10kNm is a comparison load, not a brake rating.",
+    "Only one brake installation is modeled. Remaining locations, full service/spring air distribution and anti-compounding circuit are deferred.",
+    "Discrete geometry samples do not establish continuous motion, manufacturing tolerances, structural flexure or an operating release."
+  ]
+}

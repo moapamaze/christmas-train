@@ -1,0 +1,182 @@
+Wheel profile and axle machining review · CW2
+Current bearing-end revision: centered spacer, seals and assembly · CW3
+CW2-R0 · 20 October 2026
+Wheel profile & axle machining review
+Four dimensioned sheets connect the wheel blank, axle seats, bearing retention and current brake. The profile sheet identifies every running-surface control needed from the wheelset shop and track supplier.
+For quotation and design review. The rail profile and turnout geometry are not yet approved. The finished wheel contour, wheel spacing and press-fit limits remain marked HOLD. The axle drawings define the full nominal layout, but are not a complete manufacturing release.
+Drawings on the site
+Tap a sheet to enlarge it. Solid dimensions show existing nominal geometry or catalog interfaces. Amber dashed features require supplier definition.
+Wheel profile and finished-contour controlsEnlarge CW2-P01
+Complete axle station and machining layoutEnlarge CW2-A01
+Axle-end and brake-key detailsEnlarge CW2-A02
+Wheel, rail, brake and seal interfacesEnlarge CW2-I01
+Inspect the machining features
+Keyed axle 2Wheel blankBearing-end sectionWheelset with brake
+Loading CAD…
+What the review found
+The rail interface is unresolved. The candidate 30 lb rail paper drawing and linked CAD disagree. Finished flange shape and wheel spacing need a matched rail/turnout definition.
+The bearing spacer needs a centering solution. Its current bore sits over the thread relief without a positive pilot. The axle-end sheet identifies this for correction.
+The inner cover opening needs a seal design. The floating side must accommodate axial travel as well as tolerances and tilt.
+The nearest nominal brake clearance is 4.428 mm. This is the current rotor-bolt end to wheel hub; it is a measured CAD gap, not an accepted tolerance or movement margin.
+Axle station schedule
+All dimensions below are nominal millimetres. Origin Y=0 is the axle midplane. Datum A is the common journal axis; proposed datum B is the right locating shoulder face at Y600.
+ | Feature
+ | Start Y
+ | End Y
+ | Length
+ | Nominal diameter
+ | Hold
+ | body
+ | -405
+ | 405
+ | 810
+ | Ø100
+ | D01/M01
+ | wheel seat left
+ | -550
+ | -405
+ | 145
+ | Ø110
+ | F01/D01
+ | wheel seat right
+ | 405
+ | 550
+ | 145
+ | Ø110
+ | F01/D01
+ | bearing shoulder left
+ | -600
+ | -550
+ | 50
+ | Ø104
+ | D02/S01
+ | bearing shoulder right
+ | 550
+ | 600
+ | 50
+ | Ø104
+ | D02/S01
+ | journal left
+ | -640
+ | -600
+ | 40
+ | Ø90
+ | F02
+ | journal right
+ | 600
+ | 640
+ | 40
+ | Ø90
+ | F02
+ | relief left
+ | -643
+ | -640
+ | 3
+ | Ø86
+ | D03
+ | relief right
+ | 640
+ | 643
+ | 3
+ | Ø86
+ | D03
+ | thread left
+ | -665
+ | -643
+ | 22
+ | M90×2 envelope
+ | D04
+ | thread right
+ | 643
+ | 665
+ | 22
+ | M90×2 envelope
+ | D04
+Wheelset-shop review and quote scope
+Request one complete first-article wheelset: one axle, two one-piece wheels, approved press assembly and inspection record. Quote the plain axle and keyed brake axle separately. Existing 1330 length and Ø600 running-diameter reference are interface targets, not approved stock or material selections.
+Agree the finished profile and wheel back-to-back jointly with the trackwork supplier, using actual rail and turnout drawings.
+Return wheel and axle materials, final limit sizes, fits, fillets, keyway details and inspection controls against the hold schedule below.
+Confirm the staged assembly of closed brake components before wheel pressing. Retain the current split brake hub and reducers.
+Define pressing tooling, lubricant, force–travel acceptance and final wheelset checks. Do not press through bearing rollers or use the bearing nut to install a wheel.
+Resolve spacer centering, bearing clearance, seals and nut locking, then review full loads and fatigue before issuing machining drawings.
+Supplier confirmation has not been received through this package. This page prepares the technical return; no order or supplier acceptance is recorded.
+Supplier-return schedule
+ | Code / feature
+ | Required return
+ | Owner / status
+ | P01
+Wheel running profile
+ | Supplier coordinate table / named profile and revision, tread conicity, taping line, flange thickness at defined height, height/angle/root/tip radii, outboard chamfer and worn limits.
+ | Wheelset shop + track engineer
+HOLD
+ | P02
+Wheel back-to-back
+ | Final dimension, measurement height, tolerance and loaded/unloaded basis; coordinate with frog/check rail. 860 is only the current blank back-face separation.
+ | Wheelset shop + trackwork maker
+HOLD
+ | P03
+Rail and turnout interface
+ | Resolve 30ASCE paper/CAD discrepancy; identify actual rail head/cant/wear, gauge measurement depth, flangeway/check gauge/frog and point drawings, curves and twist.
+ | Trackwork maker + track engineer
+HOLD
+ | F01
+Wheel press fit
+ | Measured Ø110 seat and bore limit sizes, interference min/max, temperature basis, lead-in, roughness/waviness and approved lubricant. No fit selected.
+ | Wheelset shop
+HOLD
+ | F02
+Bearing journal fit
+ | Ø90 fit class from actual P/C and shock; residual CN/C3 clearance, form, runout and finish. m6/n6/p6 are alternatives, not released limits.
+ | SKF/application engineer
+HOLD
+ | F03
+Housing fit and float
+ | Ø160 H7 review candidate; confirm load direction, thermal regime and ±3 travel at nonlocating outer ring.
+ | SKF/application engineer
+HOLD
+ | D01
+Wheel-seat and body transitions
+ | All transition/lead-in radii, chamfers and effective contact length; rotating-bending and press-fit fatigue assessment.
+ | Wheelset designer
+HOLD
+ | D02
+Bearing abutment fillet
+ | Radius ≤2 catalog envelope, exact radius and bearing chamfer clearance to be specified; shoulder diameter104 nominal ≥101 minimum.
+ | Wheelset designer + SKF
+HOLD
+ | D03
+Thread relief and spacer
+ | Replace square Ø86×3 relief envelope with approved undercut/root radii; resolve unpiloted Ø90.2-bore spacer over Ø86 relief, full nut engagement and centering.
+ | Wheelset designer + machine shop
+HOLD
+ | D04
+Washer groove / end thread
+ | M90×2 tolerance class, full-thread length, runout and end chamfer;10.4×4 groove is an envelope, radiused stop and fatigue check required.
+ | Wheelset designer
+HOLD
+ | D05
+Brake keyway
+ | Preserve nominal28-wide×100-long capsule, R14 ends and floor42 from axle axis; specify key/shaft/hub fits, corner radii, finish and fatigue.
+ | Brake + wheelset designers
+HOLD
+ | S01
+Axlebox seals
+ | Select seal/gland/shaft land together. Current Ø107 hole / Ø104 shaft is1.5 radial opening. Floating end needs ±3 motion plus tolerance and tilt.
+ | SKF/seal supplier
+HOLD
+ | M01
+Material and heat treatment
+ | Axle and one-piece wheel grades, forging/casting route, cleanliness, strength/fatigue evidence, hardness/heat treatment and material certificates.
+ | Wheelset shop
+HOLD
+ | Q01
+Inspection and pressing
+ | Press force/travel envelope, calibrated record, wheel position, wheel diameter matching, radial/lateral runout, bore/seat form, NDT and traceability.
+ | Wheelset shop
+HOLD
+ | L01
+Load qualification
+ | Signed wheel/rail, uneven loading, lateral/twist/curving and local C5.5 brake-bearing forces; duty/speed and rotating fatigue. No approved rating.
+ | Vehicle engineer
+HOLD
+Load screens, clearance evidence and source documents →CW2-R0 · Supplier review · No fabrication release

@@ -1,0 +1,66 @@
+{
+  "issue": "PF-DT2-R0",
+  "units": "mm",
+  "truck_centres_global_x": [
+    3300,
+    6000
+  ],
+  "axle_offsets_x": [
+    -600,
+    600
+  ],
+  "axle_z": 500,
+  "wheel_diameter": 1000,
+  "wheel_centres_y": [
+    -507.2,
+    507.2
+  ],
+  "wheel_rim_width": 100,
+  "wheel_hub_width": 140,
+  "axle_half_length": 840,
+  "frame_side_centres_y": [
+    -730,
+    730
+  ],
+  "frame_z": 1050,
+  "side_length": 2000,
+  "side_hss": [
+    200,
+    100,
+    8
+  ],
+  "end_cross_x": [
+    -950,
+    950
+  ],
+  "end_hss": [
+    100,
+    100,
+    8
+  ],
+  "centre_hss": [
+    200,
+    200,
+    10
+  ],
+  "cross_cut_length": 1360,
+  "top_plate": [
+    400,
+    400,
+    20
+  ],
+  "top_plate_z": 1160,
+  "primary_spring_envelope_diameter": 140,
+  "primary_spring_envelope_z": [
+    630,
+    935
+  ],
+  "spring_pocket_plate": [
+    200,
+    180,
+    15
+  ],
+  "status": "Preliminary designer geometry; not for fabrication",
+  "profile_status": "Wheel blank only: no accepted tread/flange/back-to-back or press fit",
+  "mount_status": "Top plate undrilled. Pivot, sidebearers, guide and torque-link joints not sized."
+}

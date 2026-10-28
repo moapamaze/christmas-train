@@ -1,0 +1,14 @@
+Truck connections · LT3 drawings · Pulsipher Farms
+Previous version · Earlier truck-connection issue
+This page is retained as history. Open the current assembly →Drawings3D modelsEngineeringDrivetrain
+LOCOMOTIVE / LT3
+Truck connections
+Centre pivot · Side supports · Retention · Raised frame & body
+PRELIMINARYGeometry R0 · Presentation P119 October 2026
+DrawingsCAD projections · Nominal dimensions in mm
+J01 Centre bearing & pivotJ02 Catch & side supportA01 Frame & bodyB01 Body accessLT3-J01 · Centre bearing & pivotOpen full-size ↗LT3-J02 · Catch & side supportOpen full-size ↗LT3-A01 · Frame & bodyOpen full-size ↗LT3-B01 · Body accessOpen full-size ↗
+Not released for fabrication. Dimensions, calculations & unresolved details →
+3D assembliesLoading…
+Centre bearingTruck connectionFrame & trucksCab & shell
+Loading CAD geometry… Compatibility 3DEnable JavaScript to rotate the CAD models. Drawing sheets and STEP downloads are available without JavaScript.
+FilesConnection & body STEP ↗Parts list CSV ↗Engineering & drivetrain handoff ↗PF–LOCO–LT3 · R0 geometry / P1 presentation · 19 October 2026

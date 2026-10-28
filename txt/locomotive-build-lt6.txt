@@ -1,0 +1,14 @@
+Locomotive engine & attachments · LT6 · Pulsipher FarmsDrawings3D assembliesSupplier data & service accessTruck connectionsDrive wheels
+LOCOMOTIVE / LT6
+Engine & attachment details
+Engine cradle · Seats & controls · Door · Lamp · Stack & domes
+DETAIL DEVELOPMENTR0 CAD · R1 supplier/access review20 October 2026
+Detail drawingsExact CAD projections · Nominal dimensions in mm
+E01 Engine isolatorE02 Adapter & earsC01 Seat & joystickD01 Door hinges & dogsH01 Headlamp bracketT01 Stack & dome supportsLT6-E01 · Engine isolatorFull-size ↗LT6-E02 · Adapter & earsFull-size ↗LT6-C01 · Seat & joystickFull-size ↗LT6-D01 · Door hinges & dogsFull-size ↗LT6-H01 · Headlamp bracketFull-size ↗LT6-T01 · Stack & dome supportsFull-size ↗
+Frame top 1,775 mm provisional · OEM interfaces and structural release pending. Open issues & checks →
+3D assembliesLoading…
+Engine mountsEngine package boundaryService bay · panels omittedDoor attachmentsDoor at 90°HeadlampDriving stationTrim supportsWhole bodyInternal installationMain frameSkid clampsCooling & service bay
+ Exploded view Compatibility 3D
+Loading CAD geometry…
+Select a component for its definition. Purchased equipment appears as labeled installation boundaries. Service view omits two near-side panels and their ribs; removal paths are unverified. Door-at-90° view hides released dogs; the stay remains unresolved. Trucks and brakes are reviewed on their own pages.Enable JavaScript to rotate the CAD models. Drawing sheets and STEP downloads remain available.
+FilesFabricated detail STEP ↗Parts CSV ↗Engineering & handoff ↗Vector drawing set ↗LT5 retained installation drawings ↗PF–LOCO–LT6 · R0 · 20 October 2026

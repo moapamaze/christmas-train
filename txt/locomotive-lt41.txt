@@ -1,0 +1,248 @@
+Brake and compressor integration · Pulsipher FarmsSkip to content
+CURRENT POWER / MOVEMENT REVIEW · LT42
+Full power budget, revised brake routes and combined movement findings → Coach HVAC exposes a power shortfall. Brake ratings, configured controls, generator drive and hose twist remain open.Whole installationPrevious parts reviewBrake detail
+LT41 · BRAKE / POWER / INSTALLATION · 23 OCTOBER 2026
+Four brake stations. Compressor parts selected.
+The model now includes the missing coach brake units, corrected keyed axles and the exact catalog envelopes for the E-Bull compressor and Invertek drive. The pressure calculation rejects the previous valve reference as a ready-to-install match.
+3.7265 barPublished valve-reference delivery; actual caliper torque at this pressure remains unconfirmed.
+4 stations / coachDevelopment layout installed on the first displayed coach. Train schedule covers 16 coach brakes.
+4.31 kWIllustrative engine-shaft demand for compressor generation; generator and auxiliary budget still open.
+The confirmed-package milestone is not yet reached. Catalog family compatibility is documented. Actual brake torque, load-dependent control configuration, generator/coupling, OEM mount/port details and hose torsion prevent purchase or fabrication release. More structure around those unresolved interfaces is on hold.
+What changed
+Brakes: retained PAN17 /325×34 rotor /WABCO 232 pads /20-24 chamber as the documented standard road family. The custom rail application is not approved.
+Controls: removed II93258 from the ready-to-install path. A configured KEf/KRf load-dependent rail-control package needs an exact order code and pressure characteristic.
+Power: selected Dürr 1037800300_230_60 plus Invertek ODP-2-32040-1KF4A-MN for development. No traction-pump or charge-flow availability is assumed.
+Installation: added two 270-part C57 units by proper 180° rotation, and replaced each plain axle 1 with the keyed geometry. The discarded compressor block is removed.
+Coordinated 3D installation
+Only the first regular coach is shown. Select the power, underframe or four-brake view to inspect the new parts. Red interface markers identify missing OEM connection details.
+Brake demand at the actual reference pressure
+The published 3.8 kgf/cm² delivery is 3.726527 bar; feed 6 kgf/cm² is 5.88399 bar. Required torques below use level track, four braked axles per vehicle and a 5% rotating-mass allowance. They are demand targets, not predicted brake output.
+ | Vehicle
+ | Study mass
+ | Per brake at 0.5 m/s²
+ | Per brake at 0.7 m/s²
+ | Energy / brake at 5 mph
+ | Locomotive
+ | 16,810 kg
+ | 1,599.6 N·m
+ | 2,239.4 N·m
+ | 11.02 kJ
+ | Regular coach
+ | 13,200 kg
+ | 519.8 N·m
+ | 727.6 N·m
+ | 8.66 kJ
+ | Accessible coach
+ | 11,000 kg
+ | 433.1 N·m
+ | 606.4 N·m
+ | 7.21 kJ
+A regular coach requires 727.65 N·m per brake for the 0.7 m/s² target, equivalent to 195.26 N·m/bar averaged over the reference pressure. Neither a nominal 20 in² chamber area nor a torque factor from another PAN17 rotor/pad/chamber variant establishes this exact package’s output. Actual torque, stopping performance and parking force remain uncalculated until the correct curves arrive.
+At an assumed adhesion coefficient 0.05, the coach deceleration ceiling is 0.467 m/s² before unequal wheel loading; the 0.7 m/s² target is unavailable regardless of brake size. A 40%-load sensitivity has only 388 N·m/axle adhesion at μ=0.10, so a fixed loaded brake torque can lock light wheels. Empty mass and adhesion are unknown; use a configured load-dependent control.
+The retained train mass is 67,410 kg before unreconciled later equipment changes. A 5 mph stop at the 0.7 m/s² target would be 3.57 m with zero delay or 8.04 m with 2 s delay; these are kinematic examples, not performance claims. If all coach brakes are unavailable, the optimistic locomotive adhesion bound at μ=0.10 is only 0.217 m/s². Grade, fade, response timing and repeated-stop thermal duty remain open.
+Reserve pressure changes the decision
+Three applications, retained chamber/dead-volume assumptions and 20% consumption factor; final bores and valve volumes remain provisional. The 5.10 bar floor is the catalog spring-brake release threshold with no margin. Raising the floor to 5.50 bar makes the reference-feed case worse.
+ | Vehicle
+ | Start → reserve floor
+ | Required reserve
+ | Existing 80 L
+ | Locomotive
+ | 5.884 → 5.10 bar
+ | 91.9 L
+ | Insufficient
+ | Locomotive
+ | 8.000 → 6.50 bar
+ | 47.6 L
+ | Passes volume screen only
+ | Coach (larger physical-port path)
+ | 5.884 → 5.10 bar
+ | 89.6 L
+ | Insufficient
+ | Coach (larger physical-port path)
+ | 8.000 → 6.50 bar
+ | 46.4 L
+ | Passes volume screen only
+The 8 bar study row requires a different approved control configuration. It is not permission to connect II93258 to 8–9 bar. Control vessels, release cycles, line losses and transient timing must be sized with the selected module.
+Compressor and drive
+ | Item
+ | Selected development basis
+ | Remaining interface
+ | E-Bull1037800300_230_60
+ | 230 V3 phase 60 Hz ·11.3 A ·3.8 kW ·533×456×221 mm
+ | Complete dry package, feet, discharge, ventilation/service drawing and quote
+ | P2ODP-2-32040-1KF4A-MN
+ | 200–240 V1 phase input ·33.2 A catalog continuous ·4 kW/15.3 A3 phaseoutput ·211×225×310 mm
+ | Approved motor settings, supply voltage, EMC/vibration, fixing pattern and cooling
+ | Propulsion-diesel generation
+ | 3.8/(0.98×0.90)=4.31 kW shaft sensitivity
+ | Generator/coupling unselected; efficiencies assumed; hotel/HVAC demand unclosed
+The drive has 4.0 A nominal output-current margin. It cannot boost a 200 V supply into 230 V. Its full catalog input is 7.97 kVA at 240 V; generator sizing must consider current, harmonics and voltage regulation, not just compressor kW. The old 7 kW other-auxiliary allowance has only 2.69 kW left in this sensitivity, before remaining auxiliaries and treatment.
+Dürr publishes 315 Nl/min at 10 bar/60 Hz for the unit. At equal reference conditions, the current service-cycle plus 15 L/min leakage estimate is 100.5 referenceL/min. Normal conditions, dryer/purge losses, parking release, BP refill and actual net dry-system delivery are not confirmed. This is capacity screening, not guaranteed recharge time.
+Fit and movement evidence
+Nominal exact-solid check: added unit against 812 current truck/original-brake obstacles. The plain axle interfered with the key by 19,416 mm³; the keyed replacement removes that conflict without adding shaft material.
+Current front/rear body checks use 89/81 actual obstacles. Both clear at nominal placement.
+45 body yaw/tilt cases and 32 axle/heave/roll/wear cases: no positive-volume intersections in the tested separate-axis set. Full combined independent-axle motion and continuous trajectories are not covered.
+Rotated hose curves retain sampled minimum radii 51.83 mm supply and 66.68 mm local versus 45 mm catalog minimum. Clock changes 21.084°/14.488° remain unresolved; these diagnostics do not establish permissible material twist. Parker requires installation/movement without induced twist.
+E-Bull and P2 catalog boxes have no retained display-mesh surface intersection at nominal placement. This limited screen does not qualify feet, service space, mounting loads or operating vibration.
+The added fixed feeds use short outlet elbows and revised corridors around the existing bridge. The first elbow uses catalog M/N dimensions with assumed 8 mm engagement and a provisional 20 mm exterior; actual fitting profile and tool access remain unconfirmed. All four revised branch reservations clear nominal geometry and 45 sampled body poses each; the route comparison finds no unintended overlaps against 289 inherited polylines. Fixed branches still require combined body/axle movement and support checks. See the route records for the rejected straight-outlet attempt and subsequent changes.
+Updated installation and circuit sheets
+A01 · InstallationC01 · CircuitOpen full-size sheet ↗
+Updated parts schedule
+One locomotive plus three regular and one accessible coach. The retained rotor/pad subtotal is[price removed]; the complete package, quantities in stock and delivery remain unquoted. Existing observations below are dated 23 October 2026.Show group All itemsCoach brakesLocomotive brakesAir supplyReservoirsBrake controlsLines and hoses
+ | Tag
+ | Part
+ | Train quantity
+ | Status / remaining work
+ | Price / availability
+ | B01
+ | 325 mm rotor kit
+Hendrickson S-33391
+ | 164 per coach × 4 coaches
+ | Catalog family matchedWebb confirms its existing 55030 PK65 is the 325 mmPAN17 version; Meritor M44 D75180/Bendix AMR2224 N/WABCO CT826 crosses supplied. Webb does not approve our caliper/pads or custom installation. No controlled interchange to S-33391 established.
+ | [price removed]Listing in stock; earliest displayed Oct 27. Stock for 16 and destination delivery unconfirmed. Retained LT40 listing observation; not a new quote.
+ | B02
+ | Caliper with mounting hardware
+S-39094-L / R; WABCO 40175072 / 40175073
+ | 164 development stations per coach ×4; exact hand allocation held
+ | Catalog family matchedStandard PAN17/325×34/232/20-24 road family documented. Exact torque at 3.7265 bar, thermal duty and custom rail carrier/hand approval absent.
+ | Not quotedQuote required
+ | B03
+ | WABCO 232 pad kit
+Hendrickson S-41159-1
+ | 84 pads/kit = 2 brakes; 2 kits/coach
+ | Catalog family matchedConfirm complete application schedule and thermal duty.
+ | [price removed]Special order; estimated 10–14 days before shipping. Quantity 8 lead time unconfirmed. Retained LT40 listing observation; not a new quote.
+ | B04
+ | 20/24 spring/service chamber
+WABCO 9253800250 / 9253800240
+ | 164 per coach; part/hand split TBD
+ | Legacy application matched9253800240 catalog:64 mmstroke,200 Nreturn,5.10 barrelease,10 barmaximum. Nominal Type 20 area is not an exact pressure/force/stroke curve. Confirm 0250 and physical 97/116 to 11/12.
+ | Not quotedQuote required
+ | B05
+ | Custom hub / carrier / attachments
+C57 development interfaces
+ | 161 set per proposed coach brake
+ | Four-station development layout installedAdded axle 1 stations use proper Rz180 C57 unit and CW3 keyed axle. Nominal and77separate-axis cases clear tested obstacles; axle fatigue, attachments, complete motion and supplier interfaces remain held.
+ | Not quotedQuote required
+ | B06
+ | Locomotive brake package
+Unselected
+ | 4Air-budget assumption: 1 per powered axle
+ | UnselectedActual rotor/caliper/actuator and torque/thermal duty; 4 is not a released brake count.
+ | Not quotedQuote required
+ | A01
+ | Complete electric main-air package
+Dürr E-Bull Rail System; core 1037800300_230_60
+ | 1One package proposed; compressor count follows recovery target
+ | Exact compressor core selected for development1037800300_230_60:230 V3 phase 60 Hz,11.3 A,3.8 kW;533×456×221 mm core installed. Complete dry-system configuration, port/foot drawings, net output, price and lead time still required.
+ | Not quotedQuote required
+ | A02
+ | Single-phase-input variable-frequency drive
+Invertek Optidrive P2 ODP-2-32040-1KF4A-MN
+ | 1One system; final configuration TBD
+ | Nominal electrical match; catalog enclosure installed200–240 V1 phase 33.2 A input;4 kW15.3 A3 phaseoutput. 230 V motor requires adequate supply voltage. Generator, harmonic/start capacity, settings, environment and fixing pattern held.
+ | Not quotedQuote required
+ | A03
+ | Treatment, fans, isolation, check/relief and controls
+Within coordinated A01 package
+ | NoneIncluded scope; do not count a second complete package
+ | Package scopeSupplier schedule must identify included items, purge, drains, relief settings and exhausts.
+ | Not quotedQuote required
+ | A04
+ | 40 L air reservoir
+WABCO 9505400000
+ | 113 loco including 1 wet; 2 per coach ×4
+ | Catalog candidateM22×1.5 location/sealing, mount and drain details, US supply. Protected pairs total 80 L per vehicle.
+ | Not quotedQuote required
+ | A05
+ | Local charging / reserve protection
+Matched valve-module function
+ | 51 per vehicle
+ | UnselectedFP loss must preserve local reserve; valve rating and charging/stop thresholds.
+ | Not quotedQuote required
+ | A06
+ | Automatic distributor / relay
+Configured Knorr KEf/KRf load-dependent rail-control family; order code TBD
+ | 44 coach reference modules; loco automatic/independent arrangement remains separate
+ | II93258 rejected as ready-to-install matchReference 3.7265 bar delivery/5.884 bar feed and our 80 L reserve do not meet retained three-application screen. Obtain actual pressure/torque/load curve, reserve sizes and order code before physical installation.
+ | Not quotedQuote required
+ | A07
+ | Parking release / anti-compounding
+Matched valve-module function
+ | 51 functional package per vehicle
+ | UnselectedService/spring interaction, release volume, low pressure and manual release sequence.
+ | Not quotedQuote required
+ | A08
+ | Driver automatic / independent control
+Unselected brake controller
+ | 11 cab control system
+ | UnselectedBP pressure schedule; independent loco control and emergency blending.
+ | Not quotedQuote required
+ | A09
+ | Fail-safe command, sensing and indication
+Traction inhibit / BP emergency vent / pressure monitoring
+ | 1System scope; sensor/valve count TBD
+ | UnselectedPower loss and separation response, alarm/stop thresholds and testing.
+ | Not quotedQuote required
+ | A10
+ | Intervehicle BP / FP connections
+Qualified train hose/coupling/cock assemblies
+ | 82 pipe crossings ×4 vehicle joints
+ | Unselected8 crossings, not 8 coupling halves; exact ends/cocks and tail termination TBD. Both train portions must apply on separation.
+ | Not quotedQuote required
+ | A11
+ | Separate control reservoir
+6 L reference control chamber; vessel part TBD
+ | 4Reference-only quantity; exact configured control may change
+ | Not selected or placed6 L from superseded II93258 reference; not a selected vessel or extra service reserve.
+ | Not quotedQuote required
+ | H01
+ | Moving hose family
+Parker 271-6
+ | 6416 moving hose assemblies per coach:8 body/truck +8 local;64 across 4 coaches
+ | Moving route held for torsionParker271-6 catalog 45 mmminradius. Rotated C57 curves retain 51.83/66.68 mmminimum sampled radii, but 21.084°/14.488° clock mismatch is unresolved. Assembly swivels are not live joints. No hose order or cut lengths released.
+ | Not quotedQuote required
+ | H02
+ | Chamber hose end
+Parker 10125-6-6B-VS
+ | 322 per coach chamber ×16; subject to approved port/assembly schedule
+ | Family matched; interface held3/8-18NPTF candidate. Physical 97/116 to cast 11/12 mapping and engagement open.
+ | Not quotedQuote required
+ | H03
+ | Anchor hose end / adapter
+Parker 17B25-8-6B + 017M-6-8B
+ | NoneCount after final branches and hose schedule
+ | Family matched; routing heldAssembly swivel is not a live joint; exact crimp, supported lead and anchor hardware open.
+ | Not quotedQuote required
+ | H04
+ | Fixed tubes, fittings and supports
+Bore/material/fitting schedule unselected
+ | NoneLengths from LT39 are inventory inputs, not cut lengths
+ | UnselectedAdditional fixed branches are nominal route reservations. Physical 97/116 identity, actual tees, clamp positions, bores, engagement and support loads remain held.
+ | Not quotedQuote required
+Latest supplier evidence
+Webb’s 23 October reply confirms the existing 325 mmPAN17 rotor and supplies cross-references, but expressly does not approve the caliper/pad pairing or custom mounting. ZF’s 22 October reply routes the request to an account contact; it contains no technical acceptance or new performance curves.
+What closes this milestone
+Exact brake torque/pressure/stroke and parking-force curves, rotor section, carrier/hand schedule and thermal rating for the selected family.
+One configured load-dependent automatic/parking/protection module with order code, pressures, reserve/control sizes, port map and failure-response circuit.
+Complete E-Bull package drawing and quote; approved VFD/motor configuration and a generator/coupling/load budget compatible with the propulsion engine.
+Qualified moving hose arrangement without induced twist; actual fittings, supports and mounts, followed by combined motion, strength, mass and response checks.
+Until these interfaces are fixed, additional structural detailing and purchases stay on hold.
+Sources and calculation records
+Calculation record · Parts schedule · Installation and route register · Nominal solid checks · Sampled movement checks · Catalog-envelope screen · Fixed branch motion / rejected attempts · Route-to-route check
+Hendrickson L949 Rev T, pp 11–13,15,28
+Hendrickson legacy chamber schedule, p 363
+FinditParts S-33391 listing
+AnythingTruck S-41159-1 listing
+Parker 271 / 25-series bulletin
+Indian Railways Knorr handbook, printed pp 3,15–18,40–41
+Dürr E-Bull Rail System
+Dürr core reference
+Dürr Technik USA contact
+WABCO 9505400000 catalog
+Hendrickson L809 RevAA, PAN17 application family
+Invertek exact P2 drive datasheet
+Knorr KEf/KRf configured rail distributor families
+WABCO 9253800240 catalog
+Parker hose safety guide, installation twist requirements
+Dürr E-Bull Rail System delivery and scopeDevelopment integration · Not released for constructionEngineering

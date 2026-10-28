@@ -1,0 +1,34 @@
+{
+  "revision": "Q1",
+  "inspected": [
+    "L2-M01.png",
+    "L2-M02.png",
+    "L2-M03.png",
+    "layout_parameters_R0.json",
+    "build_layout.py"
+  ],
+  "mechanical_geometry_changed": false,
+  "original_sheets_preserved": true,
+  "sheets": [
+    {
+      "id": "L2-M01",
+      "classification": "Concept layout / schematic section",
+      "use": "Discuss the proposed wheel\u2013bearing\u2013outboard brake arrangement.",
+      "missing": "Actual wheel/axle/bearing geometry; complete cam and chamber mechanism; drum external and mounting geometry; hub joint, fits and retention; component details and numbered BOM."
+    },
+    {
+      "id": "L2-M02",
+      "classification": "Concept service-removal study",
+      "use": "Discuss the intention to remove the drum and custom hub together.",
+      "missing": "Selected hub connection and retainer; actual fasteners and tooling; measured extraction envelope; supported component weights; executable assembly/service instructions."
+    },
+    {
+      "id": "L2-M03",
+      "classification": "Brake reaction / load-path schematic",
+      "use": "Discuss where the stationary brake reaction must enter the bogie.",
+      "missing": "Real three-dimensional carrier, spider, cam, chamber and link arrangement; joint axes and travel; materials, thicknesses, welds, bolts/pins, fits and fatigue design."
+    }
+  ],
+  "approved_for_fabrication": false,
+  "browser_qa": "not performed; no control-browser capability available"
+}

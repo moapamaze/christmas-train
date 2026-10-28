@@ -1,0 +1,61 @@
+{
+  "revision": "C5.5",
+  "issue": "C55-D1",
+  "date": "2026-10-20",
+  "units": "mm in canonical CAD; viewer mesh converted to inches",
+  "installed_brake_units": 1,
+  "location": "Axle2, right side of retained C5 truck",
+  "checkpoint_sha256": "59d31e5bef10caaa2b9aa07ffbbe0ed00dba73ca57731dcdb542dff89fcfd339",
+  "part_count": 155,
+  "preserved_C54_part_count": 149,
+  "approved_for_fabrication": false,
+  "approved_for_operation": false,
+  "page_status": {
+    "title": "Corrected air interfaces and moving-hose study for one brake.",
+    "summary": "The89mm port datum, exact tangent hoses and separate unresolved thread reservations are in the CAD.149 prior parts are preserved.40 constant-length hose curves and10 rigid assembly poses were checked. Supplier fit, maximum force, actual fixed hose hardware, strength qualification and installed service remain open."
+  },
+  "actual_changes": [
+    "Source-corrected chamber port-face ordinate88\u219289mm",
+    "Physical PORT97/PORT116 labels avoid an unverified circuit assignment",
+    "Exact cubic annular hose sweeps remove the sampled-chord junction artifacts",
+    "Unknown below-face fitting threads are separate hidden interface reservations; no port cavities invented",
+    "Unsupported generic pad box removed; source service sequence and bounded chamber-removal screen recorded"
+  ],
+  "component_decisions": {
+    "rotor": {
+      "selected_development_rotor": "Webb 55030PK-65",
+      "selection_status": "Conditional catalog envelope only; no fabrication release.",
+      "package_change_recommended": false,
+      "reason": "No investigated alternative provides the missing exact annulus and toleranced mating section. Switching to a 173 mm pilot rotor would add a new hub interface without closing the fit evidence.",
+      "automatic_substitution_permitted": false,
+      "interchange_conclusion": "Do not treat S-33391, CT826, M44D75180, MPBR75180 or DuraBrake 75180 as dimensionally interchangeable in a custom hub merely because catalogs cross-reference them. This rejects an unproved equivalence; it does not prove that manufacturer-approved replacements cannot fit an original OEM hub.",
+      "purchased_component_fit_confirmed": false,
+      "public_drawing_search_closed": true
+    },
+    "chamber": {
+      "selected_reference": "WABCO9253800250 with companion9253800240",
+      "package": "Historical PAN17 / WABCO232 /20-24 reference package",
+      "cad_change_recommendation": "Retain0250 geometry; correct independently dimensioned port-face height from88 to89mm. Do not substitute0460 or22/24 without complete package evidence.",
+      "reason": "Manufacturer-supported0460/0450 candidates improve replacement traceability but do not close maximum force, exact supply, controlled caliper mating datum or rail application acceptance.",
+      "fabrication_release": false
+    }
+  },
+  "strength_status": "READ-ONLY REVIEW; NO MOUNTED-BRAKE RATING OR METAL CHANGE",
+  "deferred": [
+    "Remaining brake locations",
+    "Full air distribution and anti-compounding circuit",
+    "Qualified pad/caging/rotor maintenance procedures"
+  ],
+  "release_holds": [
+    "Exact rotor annulus, toleranced hub/hat section, bolt engagement and compatible pad/caliper package are not established. Catalog cross-references do not authorize automatic substitution.",
+    "WABCO9253800250 is retained as a legacy development reference; the manufacturer-listed0460 alternative is not selected or qualified. Exact supply, maximum service/parking force and combined-force cases remain open.",
+    "The chamber/caliper axial mating datum and complete OEM material contours remain provisional. The source-supported89mm port-face ordinate does not establish boss or port-cavity geometry.",
+    "The8mm thread insertion and20mm fitting envelope are explicit scenarios. Two below-face interface reservations remain unresolved; separating them is not a physical-clearance acceptance.",
+    "Cast11 means service and cast12 means spring/parking, but their assignment to the97/116mm axial port stations is not established.",
+    "Forty constant-length hose curves are geometric samples. Actual fixed fittings/clamps, straight leads, cut lengths, torsion allowance, pressure growth and flex/abrasion validation remain open.",
+    "The chamber withdrawal screen excludes the unknown caliper mating seat and actual tools. Pad/retainer/spring/pressure-plate extraction and caging/tool access are not accepted.",
+    "Actual maximum brake torque, bearing application/minimum load, fits, key contact, bolt preload, weld fatigue, materials and vehicle dynamic loads remain unqualified.10kNm is a comparison load, not a brake rating.",
+    "Only one brake installation is modeled. Remaining locations, full service/spring air distribution and anti-compounding circuit are deferred.",
+    "Discrete geometry samples do not establish continuous motion, manufacturing tolerances, structural flexure or an operating release."
+  ]
+}

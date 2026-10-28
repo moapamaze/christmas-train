@@ -1,0 +1,33 @@
+{
+  "revision":"LT43",
+  "date":"2026-10-24",
+  "status":"Owner-directed equipment relocation; preliminary packaging only",
+  "architecture":"Kubota, pump, brake-compressor provision, generator, diesel tank, hydraulic reservoir and cooler in an insulated tender; driven locomotive wheels and cab retained for the first study.",
+  "generator_kw_range":[30,35],
+  "generator_candidate":"PowerTech PTI-30SI, 30 kW; its own Isuzu engine",
+  "tender_front_pin_global_mm":12050,
+  "rear_pin_local_mm":5000,
+  "coupling_span_mm":800,
+  "coach_translation_mm":5800,
+  "body_local_bounds_mm":{"x":[400,4600],"y":[-1300,1300],"z":[1080,2360]},
+  "lining_reserve_mm":50,
+  "lining_status":"50 mm planning space for a noncombustible acoustic/thermal lining, protective oil-resistant facing and perforated metal liner. Product, fastening and complete fire/acoustic performance not selected. No absorbent lining on spill floor; exhaust shields separate.",
+  "engine_translation_local_mm":[-2200,-670,-746.7],
+  "engine_reference":"AIE generic GA used by LT25; quoted Rev B configuration remains unconfirmed. Wider 809.244 mm handedness reservation retained.",
+  "equipment":[
+    {"id":"GENERATOR","name":"PowerTech PTI-30SI candidate","center":[1850,725,1473.0625],"size":[1330.325,676.275,746.125],"color":"#347f7b","mass_kg":516.18811706,"basis":"Published whole-genset envelope and 1,138 lb. Core fit only; OEM service/cooling clearances unresolved."},
+    {"id":"FUEL","name":"Diesel tank — 150 L working target retained","center":[3500,700,1350],"size":[600,700,500],"color":"#b58b45","mass_kg":166,"basis":"Existing 40 kg tank + 126 kg diesel allowance relocated once. Runtime for both engines, usable volume, baffling and ullage unresolved."},
+    {"id":"RESERVOIR","name":"Hydraulic reservoir — fill volume unresolved","center":[3150,-500,1325],"size":[600,600,450],"color":"#5d86a5","mass_kg":128.09782101112496,"basis":"Existing 50 kg tank + 78.098 kg residual tank-oil allocation. Inherited 100 L is whole-system budget, not reservoir fill; longer lines need reconciliation."},
+    {"id":"COOLER","name":"Hydraulic cooler — independent side airflow provision","center":[3750,-1100,1600],"size":[1050,170,1000],"color":"#5a8c91","mass_kg":55,"basis":"Retained 170 × 1050 × 1000 mm cooler reservation turned sideways; 55 kg allowance. No heat rejection, fan draw or pressure-drop rating selected."},
+    {"id":"COMPRESSOR","name":"Engine-driven brake compressor — space reservation","center":[825,725,1400],"size":[400,500,500],"color":"#a57556","mass_kg":null,"basis":"New unselected mechanical compressor/drive. Space marker only; no approved Kubota drive, capacity, lubrication or cooling arrangement."},
+    {"id":"PANEL","name":"Coach electrical distribution — dry compartment","center":[4250,700,1475],"size":[300,600,650],"color":"#d5b873","mass_kg":null,"basis":"Unselected panel and protected feeder; separated from tank bay by a partition reservation."}
+  ],
+  "service_aisle_local_mm":{"x":[800,2450],"y":[-250,350],"z":[1100,2250]},
+  "sources":[
+    {"title":"PowerTech PTI-30SI","url":"https://powertechgenerators.com/generators/diesel-generators/enclosed-diesel-generators/30-kw-enclosed-si-diesel-generator/"},
+    {"title":"Danfoss transmission circuit recommendations","url":"https://assets.danfoss.com/documents/latest/284995/BC152886483346en-000202.pdf"},
+    {"title":"ROCKWOOL engine-room acoustic facing","url":"https://rti.rockwool.com/en/products/searox-acoustic-foil/"}
+  ],
+  "release":{"purchase":false,"fabrication":false,"operation":false},
+  "limits":["Straight static placement only; 5 m tender pin spacing and 5.8 m added consist pitch are study choices, not confirmed minimum length.","No tender axle, frame, brake, coupler, spring, tank or cooler is selected. Running gear is a space marker.","50 mm lining reservation is not a fire rating or a promised noise reduction. Vent areas and baffle losses require thermal/airflow calculation.","Locomotive adhesion, suspension and train braking must be recalculated with final wet masses and tender geometry. No existing LT42 movement result transfers to the new connections.","Long A/B pressure loops and separate motor case-drain return cross the locomotive/tender connection. No drive shaft across the coupling.","Mechanical compressor and generator have separate power duties; relocating the Kubota does not make its 45.6 kW reference available for both full traction and 30 kW generation."]
+}

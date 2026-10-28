@@ -1,0 +1,24 @@
+[
+  {
+    "id": "SRC-SKF",
+    "publisher": "SKF",
+    "url": "https://evolution.skf.com/us/the-evolution-of-railway-axlebox-technology-3/",
+    "published": "2010-12-07",
+    "checked": "2026-10-19",
+    "use": "Wheelset bearings in axleboxes; springs connect axleboxes and running gear. No dimensions transferred."
+  },
+  {
+    "id": "SRC-CFD",
+    "publisher": "CFD",
+    "url": "https://www.cfd.group/rolling-stock/railcar-bogie",
+    "checked": "2026-10-19",
+    "use": "Real passenger bogie example with primary coils and dampers; two-stage suspension is a comparison, not selected equipment."
+  },
+  {
+    "id": "SRC-LEE",
+    "publisher": "Lee Spring",
+    "url": "https://www.leespring.com/sites/default/files/2021-02/compression-springs-lee-spring-us.pdf",
+    "checked": "2026-10-19",
+    "use": "Definitions of rate, free length and solid height; avoid operation at solid. No catalog spring selected."
+  }
+]

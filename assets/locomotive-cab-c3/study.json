@@ -1,0 +1,88 @@
+{
+  "issue": "C3 bounded mechanism study",
+  "fabrication_release": false,
+  "installed": false,
+  "baseline": {
+    "moving_mass_kg": 41.44339888989659,
+    "peak_absolute_torque_Nm": 350.2185231113881,
+    "analytic_peak_angle_deg": 60.01364468463167,
+    "sampled_peak_absolute_torque_Nm": 350.2185131804368,
+    "reversal_angle_deg": 150.01364468463166,
+    "overcentre_angle_at_stow_deg": 0.8672723153683535,
+    "deployed_torque_in_increasing_stow_angle_Nm": -175.0370277552686,
+    "stowed_torque_in_increasing_stow_angle_Nm": 5.300970393367229,
+    "stow_to_deployed_net_potential_release_J": 653.5182332210678,
+    "maximum_potential_above_deployed_J": 653.5583537385631,
+    "initial_energy_to_move_from_stow_to_reversal_J": 0.04012051749532475
+  },
+  "with_moving_lock_parts": {
+    "moving_mass_kg": 51.711937334936444,
+    "cg_deployed_mm": [
+      10571.488677546564,
+      -1745.4606991604026,
+      909.8551386954659
+    ],
+    "peak_gravity_torque_Nm": 350.28816414570883,
+    "reversal_angle_deg": 149.9912646222619,
+    "stow_to_deployed_energy_J": 653.5776805184742,
+    "stowed_gravity_torque_Nm": 5.438834338644451,
+    "scope": "C2 ladder + two C3 discs/hubs. Missing drive and couplings may add moving mass."
+  },
+  "drive": {
+    "ratio": 48,
+    "crank_radius_mm": 150,
+    "input_turns": 20.11745562941471,
+    "time_examples": [
+      {
+        "rpm": 30,
+        "seconds": 40.23491125882942
+      },
+      {
+        "rpm": 60,
+        "seconds": 20.11745562941471
+      }
+    ],
+    "motoring_sensitivities": [
+      {
+        "total_forward_efficiency": 0.25,
+        "peak_crank_force_N": 194.60453563650492,
+        "input_torque_Nm": 29.190680345475737
+      },
+      {
+        "total_forward_efficiency": 0.35,
+        "peak_crank_force_N": 139.00323974036067,
+        "input_torque_Nm": 20.8504859610541
+      },
+      {
+        "total_forward_efficiency": 0.45,
+        "peak_crank_force_N": 108.11363090916939,
+        "input_torque_Nm": 16.21704463637541
+      }
+    ],
+    "ideal_final_stage_input_torque_Nm": 175.14408207285442,
+    "scope": "Unoccupied motion only. 24:1 S24 + proposed 2:1 external stage. Efficiencies are assumptions, not measured performance. No reverse-efficiency, holding, braking or exit-time acceptance is inferred."
+  },
+  "locks": {
+    "declared_static_person_kg": 150,
+    "ground_support_credited": false,
+    "each_pin_assigned_full_torque": true,
+    "worst_opening_torque_Nm": 1381.4082805479043,
+    "tangential_force_at_R100_N": 13814.082805479042,
+    "nominal_double_shear_MPa": 21.985795627727466,
+    "nominal_disc_bearing_MPa": 57.55867835616267,
+    "nominal_cheek_bearing_MPa_if_equal_reactions": 43.16900876712201,
+    "scope": "Static force demand only. No allowable stress, pin bending, edge tear-out, carrier, hub attachment, fatigue, transport acceleration, impact, wind or positive-retention approval."
+  },
+  "mass": {
+    "modeled_steel_both_sides_kg": 73.68604297621198,
+    "candidate_devices_both_sides_kg": 18.02,
+    "minimum_gross_represented_and_device_mass_kg": 91.70604297621198,
+    "scope": "Gross study inventory, not a net LT32 addition. Old pins/cheeks/latches need removal and new carriers/drive/guards/cables need inclusion. Current C2 504-case results are unchanged and do not qualify C3."
+  },
+  "assumptions": [
+    "Rigid-body quasistatic gravity, trial CAD densities, symmetric ladder sides.",
+    "Index holes are nominal diameters and coordinates, not fits or manufacturing tolerances.",
+    "10-angle exact solid check covers isolated cartridges only, not the C2 cab, hand clearance, ground or continuous swept volume.",
+    "No person is carried while the ladder moves. A supported, instrumented rig must precede occupied trials."
+  ]
+}

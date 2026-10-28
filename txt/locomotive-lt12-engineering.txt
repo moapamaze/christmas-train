@@ -1,0 +1,165 @@
+Inboard locomotive drive · LT12
+LT13 CURVE CHECK · 50/30 m curve placements reveal guide, body and frame clashes. Open the drawings and highlighted CAD. Neither radius is approved.Drive drawings & 3DLT11 exterior basisRetained DT5
+LT12 R0 / 20 October 2026 UTC
+Inboard drive: selection and limits
+Preferred development arrangement, not a construction release. Three MS05 Classic376cc motors, each with a bearing-supported input shaft and21/49 chain reduction on an axle-following carrier. The nominal physical arrangement now replaces the three empty LT11 drive spaces in this separate study. Canonical wheel, brake and DT5 files are preserved.
+Architecture decision
+ | Option
+ | Finding
+ | Disposition
+ | Three376cc direct drives
+ | About8.0kN at300bar with assumed90% motor torque efficiency on1450mm wheels. Outboard shaft installation spoils the profile.
+ | Reject as the new baseline.
+ | Three inboard376cc motors with2.333:1 reduction
+ | 15.13kN comparison pull; compact motor reused as a candidate; commercial chain/sprockets with custom supported shafts and carriers.
+ | Develop first; actual train duty and curve compatibility still govern.
+ | Larger direct radial-piston motors
+ | Poclain offers larger displacement families. More torque alone does not solve the solid-axle coupling position or adhesion.
+ | Alternative if a supplier proposes a better packaged axle unit.
+ | Single central drive with working coupling rods
+ | Can preserve a traditional mechanical appearance, but concentrates transmission duty in rods/cranks and needs quartering, bearings, suspension and balance design.
+ | Do not promote the LT11 static rods into drive members. Obtain a rail-specialist mechanism if rods are required to work.
+ | Custom bevel boxes / short cardans
+ | Previous DT3 interference, shaft-angle and load concerns remain recorded.
+ | Do not reuse the rejected geometry.
+Power and speed
+Working basis:36-inch gauge, three1450mm driver axles, zero grade. Efficiencies are screening assumptions: pump total0.855, motor volumetric0.95, motor torque0.90, chain0.97. A10bar line/valve-loss allowance is added to motor differential pressure. These are not supplier maps, especially at starting/creep conditions.
+Tmotor=Δp·D/(2π)·ηt; Taxle=Tmotor·49/21·ηchain; Frim=3·Taxle/0.725. At300bar across each motor:1615.7Nm motor torque,3657.0Nm per axle and15.13kN total rim pull. Three motors share the same differential pressure; their flows add. An ideal equal-flow calculation does not establish anti-spin control.
+Q=3·D·nmotor/ηv. Main pump input=(Δpmotor+10)·Q/(600·0.855). H1P045 at2600rpm and0.95 volumetric efficiency supplies111.15L/min as a trial.40kW main-pump shaft input plus10kW auxiliaries is an allocation to investigate, not confirmed Kubota continuous power. The configured engine/pump package and torsional coupling remain on hold.
+ | Speed mph
+ | Axle / motor rpm
+ | Flow L/min
+ | Input +10kW aux at300bar
+ | Flow check
+ | 0.25
+ | 1.5 / 3.4
+ | 4.1
+ | 12.5 kW
+ | Within trial flow
+ | 1
+ | 5.9 / 13.7
+ | 16.3
+ | 19.9 kW
+ | Within trial flow
+ | 3
+ | 17.7 / 41.2
+ | 48.9
+ | 39.6 kW
+ | Within trial flow
+ | 5
+ | 29.4 / 68.7
+ | 81.6
+ | 59.3 kW
+ | Within trial flow
+ | 7.5
+ | 44.2 / 103.0
+ | 122.3
+ | 83.9 kW
+ | EXCEEDS flow
+Five mph is the development cruise case. Full300bar pull at5mph would require59.3kW including the auxiliary allowance, exceeding the saved55.4kW gross intermittent engine rating. With40kW available to the main pump, full comparison pull is limited to about4.06mph before additional derating. Flow alone limits this ratio to6.81mph;7.5mph is not supported by the current pump-flow assumption. A larger pump cannot create additional engine power.
+For the upper-mass steady resistance trial below,5mph needs about27.8kW including auxiliaries. That suggests light-load cruise is plausible; it does not prove starting, curve or continuous cooling performance. At the40kW/full-pull case, total drive loss is about12.6kW: roughly11.7kW hydraulic and0.85kW chain-case heat under these assumptions. Charge-pump, control and auxiliary heat remain additional. The one-fan preference is retained; radiator/CAC/oil-core heat rejection and fan pressure drop are not approved.
+At full45cc displacement and310bar pump differential, assumed shaft torque is246.7Nm before auxiliaries. The H1P G4 shaft maximum222Nm is inadequate for that case. A higher-rated shaft/coupling option, configured mounting and engine torsional review are mandatory; no ordering code is released.
+Loaded-train resistance and adhesion
+Recovered mass cases are54,755kg nominal,59,840kg stress and65,100kg upper screening mass. They are budgets, not weighed completed vehicles. Tender and leading/trailing-wheel weight must not be counted as powered adhesion weight.
+F=1.15[m·g·(rolling/starting coefficient + curve allowance)+m·a], zero grade. The coefficients below are explicit sensitivity assumptions. They are not measured resistance and are not inferred from the chord-sagitta calculation. Curve resistance must ultimately be determined from the route, rail/wheel profiles and actual wheelbase/steering geometry.
+ | 65,100kg case
+ | Rolling/start + curve trial
+ | Acceleration
+ | Demand
+ | 300bar force screen
+ | steady level
+ | 0.005 + 0.002
+ | 0 m/s²
+ | 5.14 kN
+ | Pass force only
+ | moderate launch
+ | 0.010 + 0.003
+ | 0.05 m/s²
+ | 13.29 kN
+ | Pass force only
+ | severe launch
+ | 0.015 + 0.003
+ | 0.05 m/s²
+ | 16.96 kN
+ | FAIL
+ | adverse launch
+ | 0.020 + 0.005
+ | 0.05 m/s²
+ | 22.10 kN
+ | FAIL
+The upper-mass severe and adverse starting trials fail this300bar configuration. Do not raise pressure to hide that result: verify actual starting resistance, launch acceleration, loaded mass and adhesion first. A468cc same-family option could add torque while reducing available speed, but would require a new chain/hub/power/duty check and supplier selection. Removing launch acceleration reduces demand, but must not be treated as proof that a stalled train will start.
+Using the full15.13kN requires approximately15.43t on the powered wheels atμ=0.10,10.29t atμ=0.15, or7.72t atμ=0.20. The new seven-axle load distribution is unknown; the14.5t locomotive/hotel allocation is not all powered weight. Set the eventual torque limit from measured axle loads and wet/contaminated-rail tests. No adhesion acceptance is claimed.
+Chain, shafts and supports
+ | Item
+ | Arrangement / screen
+ | Outstanding
+ | Reduction
+ | 21/49 teeth;20B duplex; PD213.027/495.550mm;84pitches; nominal centres764.787mm.
+ | Exact tooth profile, chain engagement/sag and bidirectional adjustment.
+ | Chain load
+ | Use ideal motor torque1795.3Nm for chain-force screening, not the optimistic efficiency-reduced value. Net tangential force16.85kN; trial1.5 factor gives25.28kN versus31.30kN catalog allowable.
+ | Added tension, reversal, connecting link, blocked wheel/backdrive, lubrication, duty life and supplier-selected factor. This is only a net-force screen.
+ | Input shaft
+ | Ø60 bearing seats; two22212 E envelopes; bearings atY95/235, sprocketY160. Chain pull is reacted by the two bearings.
+ | Female spline, rated hub, keys/locking, seals, shoulders and axial retention. Nominal stress screen is not fatigue approval.
+ | Motor mount
+ | Retained simplified MS05 mounting profile;350×390×20 plate,Ø200 opening,8Ø17.5 on265PCD.
+ | Configured drawing, pilot fit, fasteners, welds and joint fatigue.
+ | Axlebox / carrier
+ | Inside-frame bearing proposal120×215×58 atY±340; motor, shaft and chaincase follow axle.
+ | Full axle/bearing design, carrier strength, guide torque reactions, equalization, spring/damper/retention and axle-owner acceptance.
+ | Working rods
+ | Omitted from mechanical views.
+ | The reference exterior retains static visual rods only. A working linkage is a separate required mechanism, not a bolt-on decoration.
+Fit, curves and service access
+117 new nominal CAD parts are valid.2790 pair samples found no intersections between axle-following drive parts and the saved main rails, crossmembers, engine and pump at−40,0,+50mm vertical positions. The selected internal carrier/guard versus bearing/shaft/motor pairs also have no positive intersection. Intentional joints, chain/tooth engagement representations and all other pairs are outside that test.
+Frame top remains1350mm. Nominal input-housing faceY253 leaves only10.8mm to the rail inner face263.8. The chaincase lowest point is443.2mm above rail at nominal height and403.2 at the−40mm sample. These are geometry results, not route or dynamic clearances. No yaw, roll, lateral shift, brake, hose or continuous-motion acceptance exists.
+The3100mm driver group still needs a railway curve-negotiation design. Chord sagittas at20/30/50/75m are60.2/40.1/24.0/16.0mm; they do not prescribe axle float or a permitted radius. Rigid horn guides shown here establish a vertical arrangement only. Final steering/lateral compliance, equalization, driver back-to-back/profile and any rod motion must be resolved together.
+Two case covers, separate motor and supported-shaft parts are shown for maintenance planning. Exploded offsets are display separation, not proven removal paths. With large wheels and inboard rails, side withdrawal cannot be assumed. Removable carrier members, a supported drop-out/lowering arrangement, lifting points, chain opening/tensioning access and wheelset service sequence must be engineered before the installation is accepted as serviceable.
+Purchased components and fabrication scope
+ | Qty
+ | Candidate
+ | Buy / make
+ | Cost status
+ | 3
+ | Poclain MS05 Classic376cc shaft motors, sensor-ready configured version
+ | Buy matched configured units; base family inherited from DT5
+ | Current application quote pending; previous bare-base listing is not a configured quote.
+ | 1
+ | Danfoss H1P045 with appropriate shaft/control and matched engine coupling
+ | Buy engine/pump package through application supplier
+ | Quote and installed continuous rating pending.
+ | 3 lengths
+ | Tsubaki RS20B-2 chain;84pitch trial each
+ | Buy exact cut length and approved connecting joint
+ | Quote required; no purchase authorization implied.
+ | 3 pairs
+ | 21T /49T duplex sprockets with approved hubs
+ | Buy supplier-machined sprockets/hubs
+ | Tooth/bore/hub configuration and quotation pending.
+ | 6 +6
+ | SKF22212 E input bearings +22224 E axle bearing-space candidates
+ | Buy after duty and wheelset acceptance
+ | Local quantity quote pending; overseas retail prices are not a project estimate.
+ | 3 assemblies
+ | Supported shafts, carriers, axleboxes, guards and attachments
+ | Supplier-build/inspect precision shaft and bearing assemblies; shop-fabricate reviewed structural members
+ | No reliable fabrication cost before drawings, tolerances and weld scope are released.
+Prefer a supplier-built, bench-tested reduction cassette over shop-made gears or a chain load hung directly on a motor shaft. No complete commercial cassette with this exact rail duty and envelope has yet been verified. The custom carrier remains engineering work, not a catalog product.
+Control and brake interface
+The three parallel motor branches need a system-supplier hydraulic circuit: anti-spin/branch flow control, individual speed sensing, pressure/overspeed limits, bidirectional overrun protection, charge/makeup capacity, case drains, flushing and filtration. Equal flow must not be imposed blindly while wheel rolling radii differ. Engine-speed/torque feedback must destroke the pump under load; a pressure limiter alone cannot prevent engine overload. Hydrostatic retardation is not the independent service or parking brake.
+The brake chat receives3657Nm/axle comparison drive torque,376cc motors,2.333ratio,29.44wheel rpm at5mph,117-part new packaging study and the full geometry/movement exclusions. Brake discs/calipers/actuators are not yet present. A final motor/brake-fault and blocked-wheel load case is required; no other-chat acknowledgment is claimed.
+Release sequence
+Confirm the tightest route curve, rail/profile data, actual loaded vehicle masses and powered-axle load distribution. Resolve lateral motion and the working-rod requirement with the wheel/drivetrain owner.
+Have the hydraulic supplier size the complete system and confirm engine continuous power, creep torque, pressure/flow controls and cooling. Obtain motor, chain, bearing, sprocket and coupling application approvals.
+Finish and review the carrier/guide/axlebox load paths, axle fatigue, fasteners, retention, spring/damper system, case sealing and supported service-removal sequence. Re-run combined3D movement with the actual brakes and hoses.
+Engineer-reviewed bench tests, guarded unloaded wheelset tests, brake/interlock tests, incremental ballast traction/curve tests and thermal endurance tests precede passenger service. No test authorization or acceptance is granted by this document.
+Verified source references
+Accessed20 October2026. Manufacturer information supports the catalog facts; it is not approval of this custom locomotive.
+Poclain MS05/MSE05 technical catalog — 23 January2023; pp4–5,17,19.376cc Classic,41kg shaft motor; retained DT5 interface shape. Catalogue limits do not approve this rail duty.
+Danfoss H1P045/053 — June2025 rev1701;45cc pump, input-shaft and protection options. G4 maximum222Nm is insufficient for full displacement at310bar with assumed90% torque efficiency.
+Tsubaki RS20B-2RB — 31.75mm pitch;19.05mm roller;36.449mm transverse pitch; L1+L2=79.756mm pin width.84-pitch trial uses2667mm chain.
+Tsubaki roller-chain general catalog — Printed46; RS20B-2RB allowable7037lbf (31.30kN). Average tensile strength is NOT working capacity; complete application selection still required.
+SKF22212 E — Input-shaft bearing60×110×28; envelope only. Fits, internal clearance, retention, lubrication and life unresolved.
+SKF22224 E — Axle bearing space120×215×58; proposed inside-frame architecture, not an approved substitution for DT5.
+Full calculation inputs/results · Limited geometry check · Viewer verification scope · Coordination handoffLT12 R0 · No supplier message, purchase, structural approval or fabrication release in this revision

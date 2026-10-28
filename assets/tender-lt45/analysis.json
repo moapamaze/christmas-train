@@ -1,0 +1,125 @@
+{
+  "revision": "LT45.1",
+  "fit": {
+    "generator_space_bounds_mm": [
+      [
+        1050.0,
+        2750.0
+      ],
+      [
+        350.0,
+        1150.0
+      ],
+      [
+        1180.0,
+        2180.0
+      ]
+    ],
+    "space_overhead_mm": 124.0,
+    "space_side_gap_mm": 94.0,
+    "space_partition_gap_mm": 25.0,
+    "space_to_compressor_gap_mm": 25.0,
+    "reservation_bounds_mm": [
+      [
+        1050.0,
+        2750.0
+      ],
+      [
+        350.0,
+        1150.0
+      ],
+      [
+        1180.0,
+        2180.0
+      ]
+    ],
+    "reservation_overhead_mm": 124.0,
+    "reservation_side_gap_mm": 94.0,
+    "reservation_partition_gap_mm": 25.0,
+    "placement_intersections": [],
+    "scope": "Axis-aligned box screening only. Excludes fittings, heat shielding, ducting, mount deflection, removal motions and service clearances."
+  },
+  "power": {
+    "generator_target_kw": 35,
+    "previous_target_kw": 30,
+    "target_current_240_v_pf1_a": 145.83333333333334,
+    "previous_target_current_240_v_pf1_a": 125.0,
+    "coach_cases": [
+      {
+        "id": "coach-auxiliary-only",
+        "coach_kw": 4.32,
+        "margin_at_35_kw": 30.68,
+        "margin_at_previous_30_kw": 25.68,
+        "scope": "Inherited four-coach auxiliary allocation; HVAC off. Not a measured essential-load schedule."
+      },
+      {
+        "id": "hot_evening_dry",
+        "coach_kw": 26.78947051300266,
+        "margin_at_35_kw": 8.210529486997341,
+        "margin_at_previous_30_kw": 3.2105294869973413,
+        "scope": "Inherited thermal/COP sensitivity; includes4.32kW auxiliary allocation. Not installed HVAC nameplate input."
+      },
+      {
+        "id": "hot_day_dry",
+        "coach_kw": 31.666909016170663,
+        "margin_at_35_kw": 3.3330909838293366,
+        "margin_at_previous_30_kw": -1.6669090161706634,
+        "scope": "Inherited thermal/COP sensitivity; includes4.32kW auxiliary allocation. Not installed HVAC nameplate input."
+      },
+      {
+        "id": "hot_day_humid",
+        "coach_kw": 39.68101337617066,
+        "margin_at_35_kw": -4.681013376170661,
+        "margin_at_previous_30_kw": -9.681013376170661,
+        "scope": "Inherited thermal/COP sensitivity; includes4.32kW auxiliary allocation. Not installed HVAC nameplate input."
+      },
+      {
+        "id": "winter-COP1",
+        "coach_kw": 30.652247173546666,
+        "margin_at_35_kw": 4.347752826453334,
+        "margin_at_previous_30_kw": -0.652247173546666,
+        "scope": "Inherited30Foccupied resistance heating sensitivity; not installed appliance input."
+      },
+      {
+        "id": "winter-COP2",
+        "coach_kw": 17.48612358677333,
+        "margin_at_35_kw": 17.51387641322667,
+        "margin_at_previous_30_kw": 12.513876413226669,
+        "scope": "30Foccupied heat-pump sensitivity only; low-ambient COP, defrost, capacity and warmup unconfirmed."
+      },
+      {
+        "id": "winter-COP3",
+        "coach_kw": 13.097415724515555,
+        "margin_at_35_kw": 21.902584275484443,
+        "margin_at_previous_30_kw": 16.902584275484443,
+        "scope": "30Foccupied heat-pump sensitivity only; low-ambient COP, defrost, capacity and warmup unconfirmed."
+      }
+    ],
+    "engine_reference_kw": 45.6,
+    "traction_kw": 35,
+    "charge_kw": 3,
+    "remaining_for_all_engine_auxiliaries_kw": 7.600000000000001,
+    "retained_7_kw_auxiliary_allowance_margin_kw": 0.6000000000000014,
+    "compressor_drive_kw": null,
+    "scope": "Coach figures are inherited thermal/COP sensitivities, including 4.32 kW auxiliary allocation, not measured appliance loads. No electric brake compressor is included; mechanical compressor must be budgeted on the traction engine. Margins assume the required output is available at installation conditions, before starting demand and added tender electrical loads. Catalog-to-installed derating must be resolved by the supplier."
+  },
+  "mass": {
+    "relocated_allowance_kg": 959.097821011125,
+    "selected_genset_kg": null,
+    "equipment_subtotal_kg": null,
+    "previous_LT45_EPS_equipment_subtotal_kg": 1558.746934151125,
+    "complete_tender_mass_kg": null,
+    "excluded": "Tender frame, body, lining, running gear, new mounts/ducts/exhaust, mechanical compressor/drive/treatment, electrical equipment, batteries and unreconciled longer fluid lines. No installed CG or axle/spring rating implied."
+  },
+  "fuel": {
+    "shared_working_target_l": 150,
+    "selected_generator_at_full_load_lph": null,
+    "combined_runtime_hours": null,
+    "note": "Both engines draw from the same retained fuel allowance. Separate approved pickups/returns, isolation and venting need design; traction consumption and usable fuel are unknown."
+  },
+  "release": {
+    "purchase": false,
+    "fabrication": false,
+    "operation": false
+  }
+}

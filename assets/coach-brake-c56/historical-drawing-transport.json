@@ -1,0 +1,42 @@
+{
+  "scope": "Transport packaging only; historical SVGs are byte-identical after decompression. Existing source/audit hashes continue to describe the decoded SVG payloads. Re-run after any older drawing build.",
+  "records": [
+    {
+      "original": "assets/coach-truck-c5/C5-A01.svg",
+      "packaged": "assets/coach-truck-c5/C5-A01.svg.gz",
+      "preview": "assets/coach-truck-c5/C5-A01.png",
+      "decoded_sha256": "174d1998dc36b87d90abae07587d77224eeb5e116cb6bfc7bd63f646328d214f",
+      "original_bytes": 2262852,
+      "packaged_bytes": 221168,
+      "round_trip_identical": true
+    },
+    {
+      "original": "assets/coach-body-c1/C1-A01.svg",
+      "packaged": "assets/coach-body-c1/C1-A01.svg.gz",
+      "preview": "assets/coach-body-c1/C1-A01.png",
+      "decoded_sha256": "de431f8ca4d8fff7a77ca9a11eeee6e9f14aace6eca8097f28354640eb900310",
+      "original_bytes": 2061860,
+      "packaged_bytes": 131885,
+      "round_trip_identical": true
+    },
+    {
+      "original": "assets/coach-seats-c2/C2-A01.svg",
+      "packaged": "assets/coach-seats-c2/C2-A01.svg.gz",
+      "preview": "assets/coach-seats-c2/C2-A01.png",
+      "decoded_sha256": "5a03f0692daae657dffd678a45b9efa00955ff912c9bdafae648bae6a3f67182",
+      "original_bytes": 1258500,
+      "packaged_bytes": 116523,
+      "round_trip_identical": true
+    },
+    {
+      "original": "assets/coach-accessible-c3/C3-A01.svg",
+      "packaged": "assets/coach-accessible-c3/C3-A01.svg.gz",
+      "preview": "assets/coach-accessible-c3/C3-A01.png",
+      "decoded_sha256": "6e38a1bb13c761e4623cd98638352a2fafc58389d87b15cdd9aa8c202723b826",
+      "original_bytes": 1145443,
+      "packaged_bytes": 94650,
+      "round_trip_identical": true
+    }
+  ],
+  "saved_svg_bytes": 6164429
+}

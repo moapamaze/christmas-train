@@ -1,0 +1,38 @@
+LT10 integration engineeringCombined drawings & 3DDT5 engineeringCooling
+LT10 R0 / 19 October 2026 Pacific
+Drivetrain integration checks
+Development issue. No fabrication or operating release. The body, retained centre connections and powered axle proposals are now composed in one coordinate system. Canonical DT5, brake and coach geometry is unchanged.
+Placement basis
+ | Interface
+ | Current value
+ | Gauge / wheel reference
+ | 914.4 mm working gauge / Ø1000 mm wheel blanks. Actual rail profile and back-to-back remain unapproved.
+ | Truck pivots
+ | X3300 and6000; 2700 mm centres. Study articulation reference Z1335.
+ | Axles
+ | X2600,4000,5300,6700;1400 mm wheelbase per truck.
+ | Rails
+ | Main-frame centres Y±850; truck rails Y±730; axlebox/spring centres Y±650.
+ | Frame height
+ | Top1775 / underside1470.2 mm; provisional. Cab floor remains1800.
+ | Motors
+ | Unmodified DT5 R1 geometry. First axle motor on+Y; second assembly rotated180° about Z, motor on−Y. Four Poclain MS05 candidates with1:1 coupling.
+ | Propulsion package
+ | Engine and pump remain inside locomotive. LT9 one-fan layout preserved. Main pump-to-truck hydraulic routes remain undeveloped.
+What was checked
+The1250 lower-assembly shapes pass solid validity. The full combined source contains2505 parts; the default viewer hides16 spring/brake reservation solids, displaying2489. No nominal powered-axle/body intersections were found: their bounding boxes are disjoint against all1255 retained body parts.
+Five primary suspension states—level, +50 both sides, −40 both sides, and the two opposite +50/−40 states—were combined with yaw−8/0/+8°, pitch−2/0/+2° and roll−2/0/+2°, for135 poses per axle and540 axle poses total. Conservative transformed rigid-group bounding boxes found no overlaps with the retained frame/underbody obstacles below Z1700. This is a sampled packaging screen, not continuous motion, dynamic testing or strength approval. It excludes flexible hoses, actual locomotive brakes, tolerance, wear and deflection.
+LT4 centre-bearing internal articulation, support contact and catch limits were not revalidated by this screen. Wheel/rail contact, actual minimum curve radius, transition curves and clearance limits remain unapproved. The existing ±8° yaw study does not establish a safe route radius.
+Actual attachment conflicts
+J01 records a20mm vertical intrusion: DT5 guide saddles occupy Z950..970 while truck rails start at950; horn guides also extend to970. The front truck has16 exact guide/saddle-to-rail overlaps; the rear repeats the same geometry. Those are unresolved attachment solids, not weld preparations. Retained nominal rail sections are200×100×8 longitudinal,100×100×8 end ties and200×200×10 centre crossmember. They carry no accepted rating in this integration.
+The old DT3 spring-pocket plates atY±730 and obsolete gearbox mounting holes are omitted. DT5’s spring spaces are centredY±650, Ø140×240; no complete upper seat, spring, damper or bump-stop installation is created here. Moving the guide/saddle alone would not close the spring load path. Resolve their heights and attachments together, then return support reactions and complete truck/unsprung masses for structural review.
+Hydraulic and brake interfaces
+Existing axle-to-truck hose loops remain on the DT5 detail page. The combined model does not contain flexible hoses, pump-to-truck runs, yaw loops, clamps or service disconnects. Confirm motor A/B assignment for the opposite-side installation before any powered commissioning. No pressure settings, flow split or control changes are released here.
+The coach brake assembly has not been copied onto the locomotive. The brake owner must provide locomotive-specific rotor/caliper/actuator, mounting, hose and service envelopes. Until then, full brake/drive clearance is blocked. Suspension rebound retention, motor carrier, bearing setting, custom coupling, fasteners and weld fatigue remain DT5 review items.
+Next mechanical revision
+Resolve the guide saddle/horn-to-truck rail interface and upper spring seats.
+Reconcile selected springs, dampers, bump/rebound stops and current equipment loads with the drivetrain owner.
+Add locomotive brake geometry and flexible hydraulic routing; repeat combined-motion and removal checks.
+Freeze frame height only after those interfaces and structural review close.
+Configured Kubota package data, supplier approval and structural approval are still not incorporated. No new supplier message was sent during this revision. Handoff is in the shared source; this is not another chat’s acknowledgment.
+Detailed check results · Shared interface handoffLT10 R0 · Nominal CAD integration · No construction release

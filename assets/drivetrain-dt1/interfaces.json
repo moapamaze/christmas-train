@@ -1,0 +1,111 @@
+{
+  "issue": "PF-DT1-R0",
+  "date": "2026-10-19",
+  "title": "Locomotive drivetrain ownership and interface baseline",
+  "status": "Preliminary integration baseline; no new fabrication geometry or accepted interface dimensions",
+  "owner_direction": "This chat focuses only on locomotive drivetrain, including wheels, hydraulics and connections to frame and drive. Separate chats own passenger cars and locomotive/tender. Use the existing project site.",
+  "canonical_site": "https://pulsipher-train-review.fixinitcheap.chatgpt.site",
+  "source_commit": "af1a281f1e20370956f6392bb5a864728036add7",
+  "source_program": "PROGRAM-R30",
+  "coordination": {
+    "mechanism": "Shared versioned Site source and this interface register. Read latest remote state before each edit; merge concurrent additions and never force-push.",
+    "direct_chat_message_sent": false,
+    "other_workstreams_acknowledged": false,
+    "rule": "Scope assignments follow owner instruction. Proposed engineering interfaces remain pending until reconciled with each workstream. Do not treat publication as acceptance."
+  },
+  "ownership": [
+    {
+      "workstream": "Drivetrain \u2014 this chat",
+      "scope": "Diesel-to-pump matching and coupling; hydraulic circuit, controls and cooling budget; traction motor; supported reduction/distributor; axle drive; powered wheels, axles, bearings, axleboxes and their suspension interfaces; torque reaction, mounts, guards and connection loads."
+    },
+    {
+      "workstream": "Locomotive and tender \u2014 separate chat",
+      "scope": "Overall Polar Express appearance, chassis arrangement and main frame, packaging, cab/body/tender, fuel/exhaust and installed equipment integration. Receives drivetrain envelope, hardpoints, loads, travel and cooling needs; coordinates engine/generator packaging."
+    },
+    {
+      "workstream": "Passenger cars \u2014 separate chat",
+      "scope": "Coach frame/body/interior and coach trucks/brakes. Supplies current loaded mass/CG, drawbar demand, brake trainline and electrical/HVAC demand. No coach geometry is revised here."
+    }
+  ],
+  "lead": "Retain N2-D01: one H1B110 with mechanically distributed drive as lead comparison, not a final axle layout or order-ready selection.",
+  "interfaces": [
+    {
+      "id": "DT-01",
+      "topic": "Common locomotive geometry",
+      "from": "Locomotive \u2192 drivetrain",
+      "required": "Common rail-top/centerline/front datum; frame rail spacing/depth; powered axle count and spacing; real versus cosmetic driving wheels; curve envelope; allowed service zones.",
+      "return": "Proposed powered-wheel geometry, mechanism envelope and mount coordinates in same datum.",
+      "status": "Open; axle arrangement not established in recovered source."
+    },
+    {
+      "id": "DT-02",
+      "topic": "Frame attachments and reactions",
+      "from": "Drivetrain \u2192 locomotive",
+      "required": "Engine/pump cradle, motor/reduction support, axlebox/spring/guide supports and torque reaction interfaces.",
+      "return": "Hardpoint table with XYZ, force/moment cases, movement constraints, bolt/weld/material proposals and service removal paths. Main-frame owner checks local reinforcement.",
+      "status": "Open; no hole patterns released."
+    },
+    {
+      "id": "DT-03",
+      "topic": "Wheelsets and suspension movement",
+      "from": "Drivetrain \u2194 locomotive",
+      "required": "Powered wheel profile/diameter, axle/journal and bearing seats; vertical/lateral travel, roll/yaw, wheel unloading, stops and retention.",
+      "return": "Wheelset, axlebox, spring and articulated-drive assemblies; full-travel interference and load-path checks.",
+      "status": "600 mm is inherited matching trial only; no coach wheel dimensions substituted."
+    },
+    {
+      "id": "DT-04",
+      "topic": "Consist mass and pull",
+      "from": "Passenger cars + locomotive \u2192 drivetrain",
+      "required": "Each car/tender/locomotive tare, payload, CG and axle loads; mass changes from latest body/seats/HVAC.",
+      "return": "Start/cruise/curve/acceleration envelope, adhesive load requirement and power budget.",
+      "status": "65,100 kg retained upper study, not certified capacity; latest mass reconciliation pending."
+    },
+    {
+      "id": "DT-05",
+      "topic": "Hydraulics and thermal installation",
+      "from": "Drivetrain \u2192 locomotive",
+      "required": "Loop A/B, charge/flush/case drain circuits, service access, cooler air and reservoir zones, hose swept envelopes.",
+      "return": "P&ID, port/order-code register, hose schedule and pressure-drop/thermal calculations; mount and clearance drawings.",
+      "status": "Candidate H1P045/H1B110; exact order codes, port variants and cooler unselected."
+    },
+    {
+      "id": "DT-06",
+      "topic": "Brakes and control permission",
+      "from": "Drivetrain \u2194 locomotive + passenger cars",
+      "required": "Independent air service and spring parking; separate locomotive brake package; trainline air volume/timing and brake proof/fault signals.",
+      "return": "Traction inhibit, neutral/reverse and independent speed sensing interface; wheel brake attachment and reaction envelope coordinated with brake designer.",
+      "status": "Coach 32-chamber study is not a locomotive chamber count."
+    },
+    {
+      "id": "DT-07",
+      "topic": "Shared diesel / hotel power",
+      "from": "Passenger cars + locomotive \u2194 drivetrain",
+      "required": "HVAC continuous/start loads, generator shaft demand and efficiency, charging/fans/compressor demand, accepted net continuous engine curve.",
+      "return": "One combined time-dependent power budget and engine-to-pump/generator coupling arrangement.",
+      "status": "Evaluate shared engine first. Existing 10 kW traction auxiliary allowance excludes coach hotel power."
+    },
+    {
+      "id": "DT-08",
+      "topic": "Coupling and drawbar load path",
+      "from": "Drivetrain \u2194 locomotive + passenger cars",
+      "required": "Hitch datum, articulation and traction/braking/shock load cases from current coupling work.",
+      "return": "Maximum drive-generated pull and reverse reactions into locomotive frame; interface with tender and first coach.",
+      "status": "No drawbar length, pin, coupler or frame geometry changed."
+    }
+  ],
+  "next_physical_issue": {
+    "id": "DT2",
+    "scope": "Powered-axle arrangement and physical drive/support layout. Propose coordinated locomotive wheelsets, supported reducer/distributor and suspension-compatible axle drives; derive hardpoint loads before dimensioned mount parts.",
+    "inputs": "Reconcile locomotive chassis and cosmetic driving-wheel layout with DT-01. Develop proposals where design choices remain open; do not invent delivered OEM interfaces.",
+    "deliverables": [
+      "Labeled arrangement and sections",
+      "Wheel/axle/bearing and drive part register",
+      "Mount and torque reaction drawings",
+      "Hydraulic circuit and port schedule",
+      "Matched rotatable model and dimensioned parts",
+      "Mass/adhesion, torque, motion and power calculations"
+    ]
+  },
+  "construction_approved": false
+}

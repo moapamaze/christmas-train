@@ -1,0 +1,62 @@
+LT45.1 · Engineering · Pulsipher FarmsSkip to content
+LT45.1 · ENGINEERING RECORD
+Two-engine tender: fit, duty and weight.
+← Drawings and 3D
+Architecture and retained engine
+Owner direction: retain the packaged engine and add a Kubota 35 kW diesel generator. Traction reference is AIE quote 74419, Kubota V3307-TIE4AB-KEA-1, assembly AIE-V3307T.DOC-CPU-102089 Rev B. LT25 geometry comes from a generic Rev C GA; equivalence to the quoted Rev B is still open. The 1249.68 × 687.07 × 1027.938 mm package retains an 809.244 mm wider handedness allowance. Remote filters, controls and actual mounts need the configured drawing.
+Reference engine net continuous output: 45.6 kW at 2600 rpm. Retaining 35 kW main traction and 3 kW charge leaves 7.6 kW for all other engine auxiliaries before installed derating. The earlier 7 kW allowance leaves only 0.6 kW reference margin; do not add a compressor on top of that allowance without reconciling what it contains. Reference fan treatment follows LT25 and must not be counted twice. Compressor drive, torque, air delivery at idle and loaded duty remain unknown.
+35 kW continuous generator requirement
+Owner increased the target to 35 kW. Required output is 35 kW continuous at installed temperature/elevation, 120/240 V single phase, 60 Hz, with starting and nonlinear-load capability checked against the actual coach equipment. The generator remains a separate Kubota-powered diesel package. Exact model and purchase selection are open.
+WRICO advertises configurable 20–35 kW V2403 applications, but its published configuration is 30.0 kW continuous / 33.5 kW standby. This is a supplier lead, not verification of a 35 kW continuous package. WRICO official configuration details →
+The previous EPS S10030J4BENC reference is only 27.9 kW continuous and is superseded. Its 1623.822 × 654.304 × 730.758 mm dimensions and 599.649 kg mass are retained in the historical basis only; neither is assigned to the 35 kW unit. Earlier EPS specification →
+Space reservation and fit status
+Actual 35 kW package fit is unconfirmed. The brown block shows available procurement space: x = 1050–2750, y = 350–1150, z = 1180–2180 mm. It is 1700 × 800 × 1000 mm above an 80 mm mounting allowance. Tender body x = 400–4600, y = ±1300; deck z = 1100; inner roof z = 2304.
+The reserved envelope leaves 124 mm overhead, 94 mm at the right lining, 25 mm before the tank partition and 25 mm behind the compressor provision. These are boundary gaps, not accepted OEM service clearances. The 600 mm-wide access strip has 1150 mm reserved height and is not a standing passage. Major maintenance/removal, ducts, heat shielding and actual mounts remain to be detailed; a supplier package exceeding this space will require a layout change.
+Eight equipment/reservation boxes have no positive-volume intersections. This validates only their declared placement. It does not validate an unselected generator, fittings, hot surfaces, airflow or moving/removal clearances. The coal exterior remains the target. Floor cutouts and vent locations must follow the selected package.
+Coach electrical screen
+All figures below are kW. Margins assume 35 kW or the previous 30 kW is actually available on the train. Transient starts, auxiliaries outside the generator rating and added tender loads are excluded. Supplier catalog-to-installed derating must be resolved when selecting a package. Source: LT42 inherited thermal/COP cases including 4.32 kW coach auxiliaries. These are not measured or installed HVAC inputs. The retired electric brake compressor and VFD are excluded because the proposed brake supply is mechanical.
+ | Case
+ | Coach demand
+ | Margin at 35 kW
+ | Previous 30 kW margin
+ | Coach auxiliaries only
+ | 4.32
+ | +30.68
+ | +25.68
+ | Hot evening · dry
+ | 26.79
+ | +8.21
+ | +3.21
+ | Hot day · dry
+ | 31.67
+ | +3.33
+ | -1.67
+ | Hot day · humid
+ | 39.68
+ | -4.68
+ | -9.68
+ | Winter · resistance heat
+ | 30.65
+ | +4.35
+ | -0.65
+ | Winter · heat pump COP 2
+ | 17.49
+ | +17.51
+ | +12.51
+ | Winter · heat pump COP 3
+ | 13.10
+ | +21.90
+ | +16.90
+At PF 1.0, 35 kW / 240 V = 145.83 A, up from 125 A at the previous 30 kW target. These are arithmetic load references, not breaker or cable sizes. Protection, conductor ampacity, connector rating, earthing/bonding, neutral arrangement and load balance require the configured electrical design. Positive steady margin does not establish starting performance.
+Retain the 35 kW target with a measured load schedule and controller that stages optional HVAC while preserving essential ventilation/controls. Negative margins identify cases that cannot run at their estimated full demand. Load management alone does not establish adequate occupied comfort; revise HVAC selection or permitted operating conditions if needed.
+Weight and fuel accounting
+Retained relocated equipment allowance: 959.098 kg. Selected 35 kW genset mass is unknown, so the new equipment subtotal and complete tender mass remain null. The earlier 1558.747 kg subtotal used the smaller EPS reference and is retained only as history. Tender frame, body, lining, running gear, new mounts/ducts/exhaust, mechanical compressor/drive/treatment, electrical equipment, batteries and unreconciled longer fluid lines. No installed CG or axle/spring rating implied.
+The 150 L working fuel target is counted once for both engines. Consumption of the selected 35 kW generator and combined runtime are unknown. The hydraulic reservoir retains the 78.098 kg residual tank-oil allowance; 100 L remains the inherited whole-system budget, not the reservoir fill specification.
+Retained frame and interfaces
+Front/rear pins: x = 0 / 5000, z = 550; bogie centers: x = 1200 / 3800. LT44’s six fixed service zones are retained: front hydraulics, brake air and controls; rear brake air, coach power and data. The 400 mm coupling-to-rail offset and proposed crosshead load transfer still need structural design. No LT42 motion, braking or suspension result automatically validates the six-vehicle arrangement.
+Remaining configured details
+AIE quote/drawing match, actual mass/CG, complete pump interface and engine-driven compressor installation.
+Selected Kubota-powered genset duty, exact envelope, mounts, service sides, airflow/exhaust requirements and site rating.
+Separate engine and generator cooling paths with intake/discharge isolation; oil-cooler fan duty and electrical demand; exhaust heat shielding and protected insulation.
+Full wet mass/CG, tender frame and bogie/brake ratings, actual hose/cable routing, train movement and complete power/load schedule.
+Machine-readable basis · Calculated dimensions and margins · Retained frame/interface recordDesign development · Not released for constructionEarlier frame & interface study

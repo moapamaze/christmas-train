@@ -1,0 +1,126 @@
+{
+  "issue": "LT9-R0",
+  "date_local": "2026-10-19",
+  "timezone": "America/Los_Angeles",
+  "construction_approved": false,
+  "geometry": {
+    "part_count": 1255,
+    "all_valid": true,
+    "changed_parts": 28,
+    "intersections_above_1mm3": []
+  },
+  "fan_count": 1,
+  "fan_withdrawal": {
+    "id": "LT9-FAN",
+    "travel_mm": 1600,
+    "removed_before_withdrawal": [
+      "LT9-FAN",
+      "LT9-OUT-1",
+      "LT5-GR-1-0",
+      "LT5-GR-1-1",
+      "SHELL-3--1",
+      "LT8-HR-1-3"
+    ],
+    "hits": [],
+    "installed_obstructions": [
+      [
+        "SHELL-3--1",
+        68533.181
+      ],
+      [
+        "LT8-HR-1-3",
+        49197.341
+      ],
+      [
+        "LT9-OUT-1",
+        713310.0
+      ]
+    ],
+    "scope": "Continuous rectangular swept envelope of\u00d8900\u00d7180 fan reservation. Requires near half-shell, rail span and discharge-arm removal. Supplier brackets, tool/rigging space, wires/hoses and weight/CG not available; no approved handling method."
+  },
+  "retained_cradle_lift_new_hits": [],
+  "airflow": {
+    "order": [
+      "Forward underbody screened inlet",
+      "Engine/pump bay",
+      "Core A",
+      "Core B",
+      "ONE shared puller fan",
+      "Common header",
+      "Both side louver banks"
+    ],
+    "fan_module_reservation_mm": [
+      900,
+      180
+    ],
+    "intake_gross_m2": 1.2,
+    "existing_outlet_slot_m2": 0.4752,
+    "core_face_gross_m2": 1.05,
+    "no_core_bypass_permitted": true,
+    "roof_intake_removed": true,
+    "air_sealing_status": "Floor support cutouts, core edges, removable joints and service openings require sealed interfaces and leakage testing; nominal CAD does not establish airtightness."
+  },
+  "thermal_example": {
+    "not_Kubota_or_Danfoss_data": true,
+    "assumed_air_density_kg_m3": 1.1,
+    "assumed_cp_J_kgK": 1005,
+    "assumed_flow_m3_s": 4.0,
+    "assumed_ambient_C": 45,
+    "stages": [
+      {
+        "stage": "Engine/pump bay",
+        "assumed_heat_kW": 10,
+        "inlet_C": 45,
+        "outlet_C": 47.26142017186793
+      },
+      {
+        "stage": "Upstream core cassette",
+        "assumed_heat_kW": 35,
+        "inlet_C": 47.26142017186793,
+        "outlet_C": 55.1763907734057
+      },
+      {
+        "stage": "Downstream core cassette",
+        "assumed_heat_kW": 15,
+        "inlet_C": 55.1763907734057,
+        "outlet_C": 58.5685210312076
+      }
+    ],
+    "combined_heat_kW": 60,
+    "intake_gross_velocity_m_s": 3.3333333333333335,
+    "outlet_slot_velocity_m_s": 8.417508417508417,
+    "core_gross_velocity_m_s": 3.8095238095238093,
+    "formula": "T_out=T_in+Q/(rho*cp*Vdot). The same air passes each stage; no summation of independent fan CFM demands. All core ratings must use their own preheated inlet temperature.",
+    "fan_power_sensitivity": [
+      {
+        "assumed_total_pressure_Pa": 250,
+        "assumed_overall_efficiency": 0.5,
+        "drive_input_kW": 2.0
+      },
+      {
+        "assumed_total_pressure_Pa": 500,
+        "assumed_overall_efficiency": 0.5,
+        "drive_input_kW": 4.0
+      },
+      {
+        "assumed_total_pressure_Pa": 750,
+        "assumed_overall_efficiency": 0.5,
+        "drive_input_kW": 6.0
+      }
+    ],
+    "power_formula": "Pdrive=Vdot*deltaP/overall_efficiency. Pressure and efficiency examples only; not selected duty points."
+  },
+  "controls": "One fan command responds to the highest cooling demand across coolant, charge-air, hydraulic oil and bay temperature. Setpoints, drive, RPM monitoring, fault response and OEM derate remain open. No second cooling or ventilation fan specified.",
+  "release_holds": [
+    "Configured engine, CAC, hydraulic and surface/exhaust-to-bay heat duties",
+    "Core order, actual inlet-temperature capability and pressure curves",
+    "Single fan installed duty point, drive power, dimensions and supplier mounts",
+    "Frame/support reactions, wet mass, cantilever/vibration and structural approval",
+    "Inlet protection, sealed floor penetrations, drainage and screen pressure drop",
+    "Discharge turning losses, louver free area and external recirculation",
+    "Actual fan removal/handling, core cleaning and service access",
+    "Stationary hot-weather full-load verification with all service panels closed"
+  ],
+  "source": "https://powersuite.cummins.com/sites/powersuite/files/2024-04/t030.pdf",
+  "source_scope": "General enclosure/radiator ventilation integration only; not Kubota installation approval."
+}

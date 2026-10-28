@@ -1,0 +1,99 @@
+LT8 engineering · Pulsipher Farms
+LT8 R0 · 20 OCTOBER 2026 · UTC
+Cooling & service connections
+Layout development, not for fabrication. The engine and pump remain in the locomotive. LT8 turns both core envelopes90° in plan, adds outward-facing fan spaces and duct boundaries, and develops removable handrail spans. Core/fan sizes are installation reservations; no heat-exchanger capacity or supplier acceptance is claimed.
+Revised arrangement
+ | Assembly
+ | Current geometry
+ | Release hold
+ | Core pair
+ | Upright1050×1000 faces,170 deep; X4700–5750, centresY±350. Engine radiator/CAC negativeY; hydraulic cooler positiveY. Allocation provisional.
+ | Independent thermal loads, fluid flow, tank/port geometry, pressure losses and wet weights. The engine radiator/CAC reservation may require multiple cores.
+ | Fans and collectors
+ | EachØ740×120 fan space,Ø700 rotor sweep;155 deep full-face collector. Fan flow outward±Y through side louvers.
+ | Supplier installed fan curve, motor power/drive, tip clearance, mounting loads, guard and speed control. Blade geometry shown only to identify the rotation axis.
+ | Fresh-air path
+ | Sealed central intake,594×494 clear neck. Hood raised80 to underside3450,200 above duct lip; cab roof4000 retained.
+ | Intake screen, rain separator/drain, flexible seals, supports and wind/recirculation test. Existing shell opening has nominal zero X-edge allowance: flashing/installation tolerance still held.
+ | Hot-air outlets
+ | Existing two400×750 panels per side; nine330×40 nominal slots each. Sealed side discharge plenums retained.
+ | Final louver blade angle/free area, screen pressure drop, hot-surface protection and centre carrier. Current CAD slots are not a purchased louver specification.
+ | Rail access
+ | 1296-long removable spans in bays2 and3. Split80-long sleeves captureØ36 collars;4 M6 candidate bolts per coupling. Rails moved40 outward toY±980.
+ | Welds, locking/preload, stand-off/rib loads, fatigue and corrosion. Rails have no fall-protection rating. Lower casing/walkway clearances and safe work platform require review.
+ | Cooling supports
+ | Existing transverse frame beams4950/5450 retained. Rails moved toY±350, extended to1100; four105-high support posts.
+ | Wet loads, cantilevers, vibration, fan thrust, isolators, restraints and supplier mount pattern. Main frame height1775 still provisional.
+Air-area and heat sensitivity
+Total nominal slot throat =4 ×9 ×0.330 ×0.040 =0.4752m²; each side0.2376m². Intake neck =0.594 ×0.494 =0.293436m². Hood approach perimeter =2 ×(0.600 +0.500) ×0.200 =0.44m² gross. Screens, baffles and blades reduce effective areas and add pressure loss.
+Illustrative combined heat only: V̇ =Q /(ρ cp ΔT), with assumed air density1.10kg/m³, cp1005J/(kg·K), air rise15K. These are sensitivity inputs, not Kubota or Danfoss data. Separate coolant/CAC and hydraulic branch duties must determine each fan flow.
+ | Assumed combined heat
+ | Total air volume
+ | Total-slot average speed
+ | Intake-neck speed
+ | 40 kW
+ | 2.41 m³/s
+ | 5.08 m/s
+ | 8.22 m/s
+ | 60 kW
+ | 3.62 m³/s
+ | 7.61 m/s
+ | 12.33 m/s
+ | 80 kW
+ | 4.82 m³/s
+ | 10.15 m/s
+ | 16.44 m/s
+These velocities do not establish an acceptable cooling system. Sum core, screen, intake, collector, duct and louver losses at the required flow; select each fan from its installed pressure/flow curve. Air power =V̇ ×Δp; drive input also depends on fan/drive efficiency. No fan wattage or alternator/hydraulic demand is assigned without those values. Check continuous stationary operation and low engine speed at the agreed hot-weather ambient, altitude and fouling condition.
+Parker’s fan-drive integration guide, pp2–3 identifies engine heat rejection, coolant flow, fan power/flow curves, core performance and recirculation as coupled inputs. It also describes remote fan placement. This supports the integration checklist; it does not select or approve a Parker drive for this train.
+CAD verification
+ | Check
+ | Result
+ | Scope
+ | Exact geometry
+ | 1261 valid parts; 0 new/increased intersections above1mm³; 34 inherited stand-off/body overlaps remain.
+ | Changed cooling/rail parts checked against all retained solids. Inherited stand-off penetrations into shell/ribs/bands need final anchor and clearance details before major-panel removal is released. Threads and compliant items simplified.
+ | Fan withdrawal
+ | BothØ740 cylindrical envelopes clear for1000mm outward travel after listed removals.
+ | Includes nominal fan/hub/rotor/guard space. Remove rail span, louvers and outlet plate. Actual brackets, tools, cables/hoses, lifting fixture and module CG absent.
+ | Handrail withdrawal
+ | 4 rail-span swept-prism checks; 0 hits.
+ | 600mm outward travel, split coupling caps/fasteners removed. No worker, tools or temporary support included.
+ | Original rail obstruction
+ | Installed cooling-bay rail intersects the fan removal sweep on both sides.
+ | New detachable joints are required for the route; moving the rail outward alone would not solve access.
+ | Engine cradle lift
+ | 0 added cooling/rail intersections with the retained LT7 vertical cradle envelope.
+ | LT7 prerequisite removals and all OEM/rigging holds remain in force.
+ | Viewer
+ | Software interaction checks and drawing renders recorded with this issue.
+ | Live browser QA unavailable after managed-preview failure; no browser pass claimed.
+Build and maintenance sequence — development only
+Obtain configured engine/CAC and hydraulic heat duties, actual core/fan CAD and installed curves. Confirm independent coolant/oil circuits, port directions and bleed/fill/drain requirements before ordering.
+Choose a purchased cooling module, fan drive and protective guard. Validate power supply, low-speed cooling, overtemperature response, fan speed sensing and positive maintenance isolation.
+Release rail/post loads and mounting pattern with the structural reviewer. Jig the support rails and cassette interfaces; install compliant supplier mounts and positive restraints.
+Trial-fit sealed fresh-air and hot-air ducts. Add weather separation, drains, screens and removable sealed joints. Pressure-test leakage as agreed with the cooling supplier; do not feed the cores from the hot engine bay.
+Make the split rail joints after weld/strength acceptance. Inspect collar capture, bore fit, fastener seating and rail stiffness; prove each span can be supported and removed from a safe work platform.
+Demonstrate fan removal with the actual module isolated and supported: remove the rail span, louvers/carrier and outlet connection; disconnect services, release supplier mounts and withdraw under an approved handling plan. Refit guards and all positive retention before operation.
+Commission at the specified ambient and duty: record coolant, CAC and oil temperatures, inlet/discharge air temperatures, fan speed/power and pressure drops, including zero train speed. Check hot-air recirculation under representative wind, fouling allowance and cleaning access.
+Fabrication tools depend on released parts: tube-cutting and collar-welding jig, drill jig, sheet brake/rolling tools, alignment gauges and suitable sockets. Handling equipment and acceptance limits follow actual component weights and approved procedures.
+Purchase versus fabrication
+ | Item
+ | Approach
+ | Supplier/cost status
+ | Radiator/CAC and oil cooler
+ | Buy configured heat exchangers with known thermal/pressure characteristics.
+ | AIE configured-engine request sent20 October2026 UTC. Exact models, prices, wet mass and installation approval not available in the recovered record.
+ | Fan, motor, shroud and guard
+ | Buy a matched assembly; avoid fabricated impellers or improvised blade reversal.
+ | No SKU selected. Request installed fan curve, drive losses, controls, guard and mounting drawing through the cooling supplier.
+ | Ducts and removable adapters
+ | Fabricate around accepted cooler/fan interfaces; flexible seals isolate vibration.
+ | Current3mm aluminium geometry is a layout basis. Material, seam, fastener and seal cost held until dimensions are accepted.
+ | Handrail sleeves/collars
+ | Fabricated nominal connection with purchased verified fasteners.
+ | Dimensions shown; strength/preload/locking release and quotations pending. No unsupported supplier or cost claims.
+Supplier and workstream record
+The configured Kubota/hydrostatic technical request was sent to AIE at info@ai-engines.com on20 October2026 UTC. This is not confirmation of supplier review, a reply, or installation approval. Kubota corporate was not separately contacted. No structural approval is recorded.
+Brake, drive-wheel, drivetrain/suspension and passenger-car work is retained. Fan drive demand must be handed to the drivetrain owner when selected; no hydraulic connection or electrical load is assigned here. Final engine-foot holes, operating mass/CG, cooling requirements and pump/coupling approval remain supplier holds.
+Remaining access work: positive hatch hold-open stay, heavy-panel handling/captive retention, split weather covers around dome supports, handrail load/locking release, and final filter/pump access. These are open items, not completed hardware. This issue advances the cooling correction and its removable handrail interfaces.
+Geometry & airflow checks · Shared handoff · Viewer checks · Retained LT7 recordLT8 R0 · 20 October2026 UTC · NOT FOR FABRICATION

@@ -1,0 +1,35 @@
+{
+  "max_abs_F_N": [
+    1715.1422239583335,
+    1176.7736772268686,
+    8109.4356033428085
+  ],
+  "max_abs_M_Nm": [
+    713.2847723886721,
+    813.0734206316093,
+    118.18545642059468
+  ],
+  "rail_end_3_16_fillet_max_MPa": 96.14211831787051,
+  "governing": {
+    "case_index": 126,
+    "seat": "seat2",
+    "end": 1,
+    "k1": 1000000000.0,
+    "k2": 1000000000.0,
+    "F_N": [
+      1715.1422239583335,
+      972.1888417457765,
+      6869.750377300196
+    ],
+    "M_Nm": [
+      713.2847723886721,
+      720.7183349327081,
+      -111.21269795354222
+    ],
+    "weld_3_16_MPa": 96.14211831787051
+  },
+  "case_count": 28512,
+  "weld_nominal_0p6_Fexx_MPa": 289.579794,
+  "weld_ASD_div2_comparison_MPa": 144.789897,
+  "basis": "Full effective flat weldgroup; no directionalstrengthbonus. Load cases are analyst comparisons, not approvedcodecombinations."
+}

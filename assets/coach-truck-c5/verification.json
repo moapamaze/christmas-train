@@ -1,0 +1,115 @@
+{
+  "part_count": 660,
+  "solids": 660,
+  "invalid": [],
+  "brake_link_kinematics": [
+    {
+      "box_travel_mm": -60,
+      "axle_x": -600,
+      "carrier_angle_deg": 1.033992487305367,
+      "link_length_error_mm": 5.684341886080802e-14,
+      "link_slope_deg": -6.888343527861069
+    },
+    {
+      "box_travel_mm": -60,
+      "axle_x": 600,
+      "carrier_angle_deg": -1.033992487305367,
+      "link_length_error_mm": 5.684341886080802e-14,
+      "link_slope_deg": -6.888343527861069
+    },
+    {
+      "box_travel_mm": -40,
+      "axle_x": -600,
+      "carrier_angle_deg": 0.4589593693740632,
+      "link_length_error_mm": 0.0,
+      "link_slope_deg": -4.587828090611647
+    },
+    {
+      "box_travel_mm": -40,
+      "axle_x": 600,
+      "carrier_angle_deg": -0.45895936937409576,
+      "link_length_error_mm": -1.1368683772161603e-13,
+      "link_slope_deg": -4.587828090611649
+    },
+    {
+      "box_travel_mm": 0,
+      "axle_x": -600,
+      "carrier_angle_deg": 8.696829207126802e-18,
+      "link_length_error_mm": 0.0,
+      "link_slope_deg": 0.0
+    },
+    {
+      "box_travel_mm": 0,
+      "axle_x": 600,
+      "carrier_angle_deg": -1.62891611049485e-14,
+      "link_length_error_mm": -1.1368683772161603e-13,
+      "link_slope_deg": 0.0
+    },
+    {
+      "box_travel_mm": 35,
+      "axle_x": -600,
+      "carrier_angle_deg": 0.3514454469531432,
+      "link_length_error_mm": -5.684341886080802e-14,
+      "link_slope_deg": 4.014419421871336
+    },
+    {
+      "box_travel_mm": 35,
+      "axle_x": 600,
+      "carrier_angle_deg": -0.3514454469531432,
+      "link_length_error_mm": -5.684341886080802e-14,
+      "link_slope_deg": 4.014419421871336
+    }
+  ],
+  "nominal_frame_to_body_yaw": [
+    {
+      "yaw_deg": -7,
+      "body_roll_deg": -2,
+      "intersections": []
+    },
+    {
+      "yaw_deg": -7,
+      "body_roll_deg": 0,
+      "intersections": []
+    },
+    {
+      "yaw_deg": -7,
+      "body_roll_deg": 2,
+      "intersections": []
+    },
+    {
+      "yaw_deg": 0,
+      "body_roll_deg": -2,
+      "intersections": []
+    },
+    {
+      "yaw_deg": 0,
+      "body_roll_deg": 0,
+      "intersections": []
+    },
+    {
+      "yaw_deg": 0,
+      "body_roll_deg": 2,
+      "intersections": []
+    },
+    {
+      "yaw_deg": 7,
+      "body_roll_deg": -2,
+      "intersections": []
+    },
+    {
+      "yaw_deg": 7,
+      "body_roll_deg": 0,
+      "intersections": []
+    },
+    {
+      "yaw_deg": 7,
+      "body_roll_deg": 2,
+      "intersections": []
+    }
+  ],
+  "not_claimed": [
+    "Structural, fatigue, spring, brake, wheel profile or fabrication acceptance",
+    "Collision-free complete OEM brake installation",
+    "Validated dynamic wheel unloading or track radius"
+  ]
+}

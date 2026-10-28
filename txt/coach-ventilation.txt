@@ -1,0 +1,67 @@
+Coach ventilation with heat recovery · Pulsipher FarmsSkip to contentPFPULSIPHER FARMSTRAIN DESIGN WORKSHOPCoachesTender & powerEngineering
+CL2 · HEAT RECOVERY · 25 OCTOBER 2026DESIGN EVALUATION · AIRFLOW AND HARDWARE UNCONFIRMED
+Keep fresh air. Recover useful heat.
+Controlled, balanced ventilation with heat recovery is worth developing for these enclosed coaches. Its strongest benefit is lower Christmas heating demand and warmer incoming air. Summer savings are useful, but do not yet justify reducing the HVAC count or the 35 kW generator target.
+Explore the loadsReal equipmentCoach arrangementCalculations & open decisions →
+One per coach
+Study independent balanced supply and exhaust. No ventilation duct between coaches.300 CFM
+Comparison point, about 8.1 CFM per thermal occupant. This is not an adopted minimum.60% recovery
+Conservative modeling assumption at the comparison point, pending a manufacturer selection.
+Compare equal fresh-air flow
+Each coach uses a 221 ft² cabin and 37 thermal occupants: 36 passenger allowances plus one attendant allowance. The full fold-down ADA case uses the same occupancy; this does not establish permitted seating. Results below are for the regular coach, including a 15% cooling allowance.
+Outdoor air per coach250 CFM300 CFM · study point400 CFM588 CFM · earlier assumptionAssumed sensible recovery50%60% · study point75%
+300 CFM ÷ 37 people = 8.1 CFM/person. Capacity figures below are BTU/h.
+ | Condition
+ | Without recovery
+ | With recovery
+ | Total load reduction
+ | 95°F evening · 75°F cabin
+ | 34,302
+ | 29,831
+ | 13%
+ | 95°F sun · 75°F cabin
+ | 46,440
+ | 41,969
+ | 10%
+ | 30°F outside · 68°F cabin
+ | 14,264
+ | 6,876
+ | 52%
+ | 20°F outside · 68°F cabin
+ | 20,886
+ | 11,555
+ | 45%
+Airflow reduction is a separate decision. At 95°F in the evening, changing the old 588 CFM allowance to 300 CFM changes the modeled load from 41,456 to 34,302 BTU/h before any heat recovery. Only the further reduction to 29,831 BTU/h is the recovery benefit. The higher flow may still be needed after the ventilation requirement is established.
+Winter figures are occupied steady-state heating after passenger and equipment heat. They do not size an empty coach warm-up or recovery after boarding. Doors and leakage receive no recovery credit. Humidity, actual glazing, duct losses and cabin fan heat remain to be checked.
+Heat-only HRV or moisture-recovering ERV?
+An HRV transfers heat; an ERV transfers heat and moisture. For crowded Christmas trips, an HRV may better release passenger moisture and reduce window fogging. An ERV can reduce incoming moisture during humid weather, but also retains moisture when the cabin is wetter than outdoors. That tradeoff needs a coach moisture balance and humidity controls; dry desert weather alone does not settle it. NREL explanation ↗
+Illustratively, a core with 60% temperature effectiveness would temper 95°F air to about 83°F with a 75°F cabin, or 30°F air to about 53°F with a 68°F cabin. These are ideal temperature examples before fan and duct effects, not product ratings.
+Real equipment to evaluate
+ | Candidate
+ | What the published data supports
+ | Implication for this train
+ | Fantech ATMO300E-ECCompact ERV benchmark
+ | 301 CFM at 0.4 in. w.g.; 235 W rated; 120 V; 60 lb. Cabinet approximately 30 × 24 × 17 in., plus connections and service space.
+ | Near the 300 CFM study point with little pressure margin. Four units total 240 lb and 0.94 kW rated fan input. Mobile installation unverified.
+ | RenewAire HE07INLarger commercial ERV
+ | 166–694 CFM family range, depending on motor and pressure; weight starts at 148 lb. Indoor package.
+ | More airflow options if the accepted requirement exceeds 300 CFM, with a much larger packaging burden. Obtain a configured fan/core selection.
+ | Lifebreath 350DCSHeat-only HRV comparison
+ | 350 CFM nominal at 0.5 in. w.g.; 18.75 H × 49 W × 28.25 D in. Five-port defrost arrangement.
+ | Useful HRV benchmark, but large for a coach. Exact fan watts, recovery at duty, condensate and vehicle suitability need verification.
+Fantech is listed at [price removed] each, or [price removed] for four bare units, checked October 25, 2026 Pacific. Ducts, controls, filters, mounts, electrical work and tax are additional. No installed quote or fuel-payback claim is established.
+A protected installation in each coach
+Outside air
+Weather-protected intake
+Filter and insulated duct
+Recovery cabinet
+Separate supply and exhaust passages
+Heat passes through the core
+Cabin
+Distributed supply
+Separated stale-air pickup
+Develop a protected end-wall or overhead service cabinet, with short outside connections through the coach side. This is a layout proposal; these candidates have no confirmed exposed-side or rail/mobile approval. Check supports, vibration, water protection, condensate and service removal before choosing a location. Keep all intake locations clear of engine/generator exhaust under stationary, forward and reverse operation, and separate them from the ventilation discharge.
+Use a verified occupied airflow, CO₂-based boost, humidity override, airflow-failure indication and filter monitoring. Specify a bypass/free-cooling mode where supported so recovery does not warm useful cool evening air. Occupancy controls must preserve the accepted ventilation minimum. Keep the mini-splits responsible for cabin temperature and air circulation.
+What changes for the generator?
+The old electrical ledger already contains 250 W per coach for fresh-air fans. Replacing that allowance with four 235 W rated ERVs changes the auxiliary subtotal from 4.288 to 4.228 kW; adding another 0.94 kW would count ventilation twice. Maximum input, starting VA and any frost heaters remain unconfirmed.
+Keep the 35 kW target provisional. Recovery should lower operating demand, especially in winter. Final generator sizing still follows the exact heat-pump inputs, ventilator maximum input, all auxiliaries, simultaneous load steps and installed derating. The eight mini-splits remain a candidate arrangement, not a final selection.CL2 · Development study · Not a purchase or construction releaseEngineering & sources →

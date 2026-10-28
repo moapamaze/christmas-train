@@ -1,0 +1,38 @@
+{
+  "revision": "Q1",
+  "basis": "Project-specific drawing acceptance criteria following owner feedback, not a claim of an adopted drafting standard.",
+  "requirements": [
+    {
+      "name": "Recognizable assembly",
+      "criterion": "Show an assembled isometric or cutaway and its position on the bogie/car. Depict the actual selected mechanism and identify omitted parts. A rectangular placeholder is not a component model."
+    },
+    {
+      "name": "Part identification",
+      "criterion": "Use consistent part numbers and numbered leaders tied to a bill of materials, with quantity, make/buy status, material or exact purchased part, and revision."
+    },
+    {
+      "name": "Manufacturable geometry",
+      "criterion": "Give coordinated orthographic views, identified sections and enlarged details, units, scale or NOT TO SCALE, datums and all dimensions needed to make and inspect each part. Do not measure pixels."
+    },
+    {
+      "name": "Connections",
+      "criterion": "Show each mating face, pilot, bolt pattern, fastener, thread, retention feature and assembly access. State supported fits, tolerances, torque or preload, and material requirements."
+    },
+    {
+      "name": "Welded assemblies",
+      "criterion": "Show exact member and plate sizes, joint preparations, supported weld symbols/specifications, fabrication sequence, distortion control and inspection locations. Do not invent an unverified weld size."
+    },
+    {
+      "name": "Installation and service",
+      "criterion": "Show real clearances, suspension and turning travel, guards, hose/cable routing, access and removal path. A proposed removal arrow does not establish that parts can be removed."
+    },
+    {
+      "name": "Engineering traceability",
+      "criterion": "Link selections and critical dimensions to calculations, controlled manufacturer interfaces or explicit engineering decisions. Separate dimension closure from professional approval and physical test evidence."
+    },
+    {
+      "name": "Release status",
+      "criterion": "Keep concept, engineering-review and fabrication-release status distinct. A complete-looking drawing with critical HOLDs is not a fabrication drawing ready for use. Record the responsible review and release evidence before marking it released."
+    }
+  ]
+}

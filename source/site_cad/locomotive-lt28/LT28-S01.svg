@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="864pt" height="648pt" viewBox="0 0 864 648" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 648 
+L 864 648 
+L 864 0 
+L 0 0 
+z
+" style="fill: #f4f1e9"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 351.016284 262.967994 
+L 375.911761 262.967994 
+L 375.911761 115.586772 
+L 351.016284 115.586772 
+z
+" clip-path="url(#pe2eeb27b6e)" style="fill: #7c8e94; stroke: #203c3b; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 375.911761 243.549522 
+L 391.844866 243.549522 
+L 391.844866 234.089241 
+L 375.911761 234.089241 
+z
+" clip-path="url(#pe2eeb27b6e)" style="fill: #d7a44c; stroke: #8e6a20; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 375.911761 144.465525 
+L 391.844866 144.465525 
+L 391.844866 135.005244 
+L 375.911761 135.005244 
+z
+" clip-path="url(#pe2eeb27b6e)" style="fill: #d7a44c; stroke: #8e6a20; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 375.911761 135.005244 
+L 375.911761 129.03033 
+L 381.886675 135.005244 
+z
+" clip-path="url(#pe2eeb27b6e)" style="fill: #ba7866"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 505.368239 262.967994 
+L 530.263716 262.967994 
+L 530.263716 115.586772 
+L 505.368239 115.586772 
+z
+" clip-path="url(#pe2eeb27b6e)" style="fill: #7c8e94; stroke: #203c3b; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 489.435134 243.549522 
+L 505.368239 243.549522 
+L 505.368239 234.089241 
+L 489.435134 234.089241 
+z
+" clip-path="url(#pe2eeb27b6e)" style="fill: #d7a44c; stroke: #8e6a20; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 489.435134 144.465525 
+L 505.368239 144.465525 
+L 505.368239 135.005244 
+L 489.435134 135.005244 
+z
+" clip-path="url(#pe2eeb27b6e)" style="fill: #d7a44c; stroke: #8e6a20; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 505.368239 135.005244 
+L 505.368239 129.03033 
+L 499.393325 135.005244 
+z
+" clip-path="url(#pe2eeb27b6e)" style="fill: #ba7866"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 351.016284 234.089241 
+L 530.263716 234.089241 
+L 530.263716 144.465525 
+L 351.016284 144.465525 
+z
+" clip-path="url(#pe2eeb27b6e)" style="fill: #bdc3c2; stroke: #bdc3c2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 405.786333 239.068336 
+L 475.493667 239.068336 
+L 475.493667 234.089241 
+L 405.786333 234.089241 
+z
+" clip-path="url(#pe2eeb27b6e)" style="fill: #789d8f; stroke: #789d8f; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 405.786333 144.465525 
+L 475.493667 144.465525 
+L 475.493667 139.48643 
+L 405.786333 139.48643 
+z
+" clip-path="url(#pe2eeb27b6e)" style="fill: #789d8f; stroke: #789d8f; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 405.786333 254.005622 
+L 475.493667 254.005622 
+L 475.493667 239.068336 
+L 405.786333 239.068336 
+z
+" clip-path="url(#pe2eeb27b6e)" style="fill: #34776e; stroke: #34776e; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_14">
+    <path d="M 405.786333 139.48643 
+L 475.493667 139.48643 
+L 475.493667 124.549144 
+L 405.786333 124.549144 
+z
+" clip-path="url(#pe2eeb27b6e)" style="fill: #34776e; stroke: #34776e; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle" x="440.64" y="192.043789" transform="rotate(-0 440.64 192.043789)">Ø90 smooth pin</text>
+   </g>
+   <g id="patch_15">
+    <path d="M 440.64 91.793673 
+Q 440.64 110.655376 440.64 128.399045 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+    <path d="M 442.64 124.399045 
+L 440.64 128.399045 
+L 438.64 124.399045 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'" transform="translate(373.572812 74.514388)">70 mm sleeve + inner ring</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'" transform="translate(378.399375 85.7122)">nominal centred position</text>
+   </g>
+   <g id="patch_16">
+    <path d="M 649.504651 256.376825 
+Q 574.448838 247.835882 500.50389 239.42135 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+    <path d="M 504.25211 241.860785 
+L 500.50389 239.42135 
+L 504.70437 237.886434 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'" transform="translate(653.494338 257.745096)">16 mm collar</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'" transform="translate(662.188088 268.942908)">Ø109 / Ø90</text>
+   </g>
+   <g id="patch_17">
+    <path d="M 194.449713 92.464561 
+Q 277.721798 105.85869 359.890037 119.075269 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+    <path d="M 356.258411 116.465423 
+L 359.890037 119.075269 
+L 355.623185 120.414662 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'" transform="translate(121.977899 83.476759)">25 mm cheek</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'" transform="translate(121.977899 94.674572)">Ø90.5 bore</text>
+   </g>
+   <g id="patch_18">
+    <path d="M 646.534411 99.191552 
+Q 575.432024 115.137187 505.420573 130.838165 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+    <path d="M 509.761283 131.914381 
+L 505.420573 130.838165 
+L 508.885972 128.011327 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'" transform="translate(682.280226 83.476759)">6 mm trial fillet</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'" transform="translate(648.589601 94.674572)">profile/fit not released</text>
+   </g>
+   <g id="patch_19">
+    <path d="M 486.318715 278.901099 
+Q 440.63996 278.901099 394.961204 278.901099 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+    <path d="M 482.318715 276.901099 
+L 486.318715 278.901099 
+L 482.318715 280.901099 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+    <path d="M 398.961204 280.901099 
+L 394.961204 278.901099 
+L 398.961204 276.901099 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: middle" x="440.64" y="292.710426" transform="rotate(-0 440.64 292.710426)">98 mm stop-face spacing</text>
+   </g>
+   <g id="patch_20">
+    <path d="M 472.371718 300.809118 
+Q 440.63599 300.809118 408.900262 300.809118 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+    <path d="M 468.371718 298.809118 
+L 472.371718 300.809118 
+L 468.371718 302.809118 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+    <path d="M 412.900262 302.809118 
+L 408.900262 300.809118 
+L 412.900262 298.809118 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: middle" x="440.64" y="314.618446" transform="rotate(-0 440.64 314.618446)">70 mm sleeve width</text>
+   </g>
+   <g id="patch_21">
+    <path d="M 486.319141 106.624401 
+Q 482.464115 106.624401 478.60909 106.624401 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+    <path d="M 482.319141 104.624401 
+L 486.319141 106.624401 
+L 482.319141 108.624401 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+    <path d="M 482.60909 108.624401 
+L 478.60909 106.624401 
+L 482.60909 104.624401 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: middle" x="482.464401" y="101.765225" transform="rotate(-0 482.464401 101.765225)">14</text>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="patch_22">
+    <path d="M 233.28 525.547375 
+C 251.669269 525.547375 269.307837 518.241241 282.311014 505.238064 
+C 295.314191 492.234887 302.620325 474.59632 302.620325 456.20705 
+C 302.620325 437.817781 295.314191 420.179213 282.311014 407.176036 
+C 269.307837 394.172859 251.669269 386.866725 233.28 386.866725 
+C 214.890731 386.866725 197.252163 394.172859 184.248986 407.176036 
+C 171.245809 420.179213 163.939675 437.817781 163.939675 456.20705 
+C 163.939675 474.59632 171.245809 492.234887 184.248986 505.238064 
+C 197.252163 518.241241 214.890731 525.547375 233.28 525.547375 
+z
+" clip-path="url(#p4bacb9f031)" style="fill: #d7a44c; stroke: #d7a44c; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_23">
+    <path d="M 233.28 519.822027 
+C 250.150889 519.822027 266.333062 513.119152 278.262582 501.189632 
+C 290.192102 489.260112 296.894977 473.07794 296.894977 456.20705 
+C 296.894977 439.336161 290.192102 423.153989 278.262582 411.224469 
+C 266.333062 399.294949 250.150889 392.592073 233.28 392.592073 
+C 216.409111 392.592073 200.226938 399.294949 188.297418 411.224469 
+C 176.367898 423.153989 169.665023 439.336161 169.665023 456.20705 
+C 169.665023 473.07794 176.367898 489.260112 188.297418 501.189632 
+C 200.226938 513.119152 216.409111 519.822027 233.28 519.822027 
+z
+" clip-path="url(#p4bacb9f031)" style="fill: #789d8f; stroke: #789d8f; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_24">
+    <path d="M 233.28 513.46053 
+C 248.4638 513.46053 263.027755 507.427942 273.764324 496.691374 
+C 284.500892 485.954806 290.533479 471.390851 290.533479 456.20705 
+C 290.533479 441.02325 284.500892 426.459295 273.764324 415.722727 
+C 263.027755 404.986159 248.4638 398.953571 233.28 398.953571 
+C 218.0962 398.953571 203.532245 404.986159 192.795676 415.722727 
+C 182.059108 426.459295 176.026521 441.02325 176.026521 456.20705 
+C 176.026521 471.390851 182.059108 485.954806 192.795676 496.691374 
+C 203.532245 507.427942 218.0962 513.46053 233.28 513.46053 
+z
+" clip-path="url(#p4bacb9f031)" style="fill: #bdc3c2; stroke: #bdc3c2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_25">
+    <path d="M 247.100249 530.720087 
+Q 272.695694 494.281056 297.648505 458.756914 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+    <path d="M 293.712744 460.880539 
+L 297.648505 458.756914 
+L 296.985948 463.179698 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'" transform="translate(178.981562 541.956886)">Steel contact annulus</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'" transform="translate(198.122969 553.154699)">Ø100 to Ø109</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'" transform="translate(158.082344 564.352511)">1,477 mm² assumed effective</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'" transform="translate(225.819844 453.367519)">Pin</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'" transform="translate(222.981562 464.565332)">Ø90</text>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start" x="131.496037" y="354.784585" transform="rotate(-0 131.496037 354.784585)">Collar / ring contact, viewed along pin</text>
+   </g>
+  </g>
+  <g id="axes_3">
+   <g id="text_12">
+    <text style="font-weight: 700; font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: start" x="475.2" y="370.662553" transform="rotate(-0 475.2 370.662553)">Datum and load-path notes</text>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'" transform="translate(475.2 396.628072)">X is the pin axis; pivot centre is X = 0.</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'" transform="translate(475.2 410.105416)">Cheek inner faces ±65; stop faces ±49.</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'" transform="translate(475.2 423.58276)">Pin smooth grip ends ±90; cheek centres ±77.5.</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'" transform="translate(475.2 437.060103)"/>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'" transform="translate(475.2 450.537447)">Normal: ring → sleeve → pin → cheeks.</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'" transform="translate(475.2 464.014791)">Axial traction normally passes through the link.</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'" transform="translate(475.2 477.492135)">Catch: ring face → one collar → seated cheek</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'" transform="translate(475.2 490.969478)">→ crosshead → main rails.</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'" transform="translate(475.2 504.446822)"/>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'" transform="translate(475.2 517.924166)">Outer bearing housing and internal race profile</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'" transform="translate(475.2 531.40151)">are omitted; ring profile is schematic.</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'" transform="translate(475.2 544.878853)">Sleeve fit, weld access, seat gap, grades and</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'" transform="translate(475.2 558.356197)">retention remain engineering holds.</text>
+   </g>
+  </g>
+  <g id="text_14">
+   <text style="font-weight: 700; font-size: 18px; font-family: 'DejaVu Sans'; text-anchor: start" x="51.84" y="26.715937" transform="rotate(-0 51.84 26.715937)">LT28-S01  |  Pivot connection sections — REVIEW ONLY</text>
+  </g>
+  <g id="text_15">
+   <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start" x="51.84" y="631.8" transform="rotate(-0 51.84 631.8)">All dimensions describe the review model. Proposed tolerances, weld, materials and fabrication dimensions are UNRELEASED.</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pe2eeb27b6e">
+   <rect x="92.103327" y="64.8" width="697.073345" height="258.912957"/>
+  </clipPath>
+  <clipPath id="p4bacb9f031">
+   <rect x="131.496037" y="360.784585" width="203.567927" height="235.375415"/>
+  </clipPath>
+ </defs>
+</svg>

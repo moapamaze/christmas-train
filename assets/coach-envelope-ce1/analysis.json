@@ -1,0 +1,967 @@
+{
+  "revision": "CE1",
+  "date": "2026-10-26",
+  "status": "CONSTRUCTION PROPOSAL; NOT FABRICATION RELEASE",
+  "geometry": {
+    "floor_z_in": 32.0,
+    "finished_wall_y_in": 51.085,
+    "finished_width_in": 102.17,
+    "finished_length_in": 304.91999999999996,
+    "center_headroom_in": 85.57417322834647,
+    "aisle_edge_headroom_in": 85.16099057088755,
+    "local_eave_headroom_in": 76.96,
+    "raised_headroom_in": 98.96000000000001,
+    "bench_width_in": 38.75,
+    "bench_wall_gap_in": 0.33500000000000085,
+    "aisle_width_in": 24,
+    "bracket_box_inner_y_in": 48.585,
+    "bracket_box_top_z_in": 42.54,
+    "floor_panel_bottom_z_in": 31.122047244094475,
+    "floor_panel_top_z_in": 31.872047244094475,
+    "floor_insulation_bottom_z_in": 29.122047244094475,
+    "mini_split_bottom_above_floor_in": 82.77250000000001
+  },
+  "areas_m2": {
+    "side_wall": 20.00673418000114,
+    "roof": 24.411571406413657,
+    "end_wall": 8.663124646660153,
+    "door": 3.3032192,
+    "window": 9.9096576,
+    "floor": 20.099105866223997,
+    "floor_panel_takeoff": 21.673011089374942
+  },
+  "thermal_sets": {
+    "study": {
+      "u_w_m2k": {
+        "side_wall": 0.5815688662427705,
+        "roof": 0.6400387807748174,
+        "end_wall": 0.6596379859416284,
+        "door": 2.127921972495545,
+        "floor": 3.2275132275132274,
+        "window": 2.7
+      },
+      "ua_w_k": 131.62937048800214,
+      "frame_fraction_wall": 0.2,
+      "frame_fraction_roof": 0.12,
+      "direct_bridge_fraction": 0.02,
+      "floor_insulated_fraction": 0.6
+    },
+    "conservative": {
+      "u_w_m2k": {
+        "side_wall": 0.815327835104839,
+        "roof": 0.890541122768743,
+        "end_wall": 0.8822583508282112,
+        "door": 2.127921972495545,
+        "floor": 3.880070546737213,
+        "window": 5.7
+      },
+      "ua_w_k": 187.19465926203492,
+      "frame_fraction_wall": 0.3,
+      "frame_fraction_roof": 0.2,
+      "direct_bridge_fraction": 0.05,
+      "floor_insulated_fraction": 0.5
+    },
+    "old_u_same_geometry": {
+      "u_w_m2k": {
+        "side_wall": 1.5,
+        "roof": 1.5,
+        "end_wall": 1.5,
+        "door": 1.5,
+        "floor": 1.5,
+        "window": 2.7
+      },
+      "ua_w_k": 141.48170846894843
+    },
+    "limited_floor": {
+      "u_w_m2k": {
+        "side_wall": 0.5815688662427705,
+        "roof": 0.6400387807748174,
+        "end_wall": 0.6596379859416284,
+        "door": 2.127921972495545,
+        "floor": 5.511463844797178,
+        "window": 2.7
+      },
+      "ua_w_k": 177.5347357380199,
+      "frame_fraction_wall": 0.2,
+      "frame_fraction_roof": 0.12,
+      "direct_bridge_fraction": 0.02,
+      "floor_insulated_fraction": 0.25
+    }
+  },
+  "cases": [
+    {
+      "envelope": "study",
+      "condition": "85\u00b0F evening",
+      "cfm": 300,
+      "parts_kw": {
+        "conduction": 0.7312742804889008,
+        "ventilation": 0.949558255848054,
+        "doors": 0.2012,
+        "people_sensible": 2.775,
+        "people_latent": 1.665,
+        "equipment": 0.42,
+        "solar": 0,
+        "outside_latent": 0.0
+      },
+      "kw": 7.753337416787497,
+      "btuh": 26455.485394517294
+    },
+    {
+      "envelope": "study",
+      "condition": "95\u00b0F evening",
+      "cfm": 300,
+      "parts_kw": {
+        "conduction": 1.4625485609778015,
+        "ventilation": 1.899116511696108,
+        "doors": 0.4024,
+        "people_sensible": 2.775,
+        "people_latent": 1.665,
+        "equipment": 0.42,
+        "solar": 0,
+        "outside_latent": 0.0
+      },
+      "kw": 9.917674833574996,
+      "btuh": 33840.51120219759
+    },
+    {
+      "envelope": "study",
+      "condition": "95\u00b0F sun",
+      "cfm": 300,
+      "parts_kw": {
+        "conduction": 1.4625485609778015,
+        "ventilation": 1.899116511696108,
+        "doors": 0.4024,
+        "people_sensible": 2.775,
+        "people_latent": 1.665,
+        "equipment": 0.42,
+        "solar": 2.7899014479951676,
+        "outside_latent": 0.0
+      },
+      "kw": 13.126061498769436,
+      "btuh": 44787.980917269575
+    },
+    {
+      "envelope": "study",
+      "condition": "110\u00b0F sun",
+      "cfm": 300,
+      "parts_kw": {
+        "conduction": 2.5594599817111527,
+        "ventilation": 3.3234538954681887,
+        "doors": 0.7041999999999999,
+        "people_sensible": 2.775,
+        "people_latent": 1.665,
+        "equipment": 0.42,
+        "solar": 2.7899014479951676,
+        "outside_latent": 0.0
+      },
+      "kw": 16.372567623950683,
+      "btuh": 55865.51962879002
+    },
+    {
+      "envelope": "study",
+      "condition": "110\u00b0F sun + humidity stress",
+      "cfm": 300,
+      "parts_kw": {
+        "conduction": 2.5594599817111527,
+        "ventilation": 3.3234538954681887,
+        "doors": 0.7041999999999999,
+        "people_sensible": 2.775,
+        "people_latent": 1.665,
+        "equipment": 0.42,
+        "solar": 2.7899014479951676,
+        "outside_latent": 3.0897516001054295
+      },
+      "kw": 19.925781964071927,
+      "btuh": 67989.59020969033
+    },
+    {
+      "envelope": "study",
+      "condition": "20\u00b0F occupied heating",
+      "cfm": 300,
+      "parts_kw": {
+        "conduction": 3.5101165463467234,
+        "ventilation": 4.557879628070659,
+        "doors": 0.9657599999999998,
+        "people_sensible": -2.775,
+        "people_latent": 0,
+        "equipment": -0.42,
+        "solar": 0,
+        "outside_latent": 0
+      },
+      "kw": 5.838756174417383,
+      "btuh": 19922.663027665363
+    },
+    {
+      "envelope": "study",
+      "condition": "85\u00b0F evening",
+      "cfm": 400,
+      "parts_kw": {
+        "conduction": 0.7312742804889008,
+        "ventilation": 1.2660776744640723,
+        "doors": 0.2012,
+        "people_sensible": 2.775,
+        "people_latent": 1.665,
+        "equipment": 0.42,
+        "solar": 0,
+        "outside_latent": 0.0
+      },
+      "kw": 8.117334748195919,
+      "btuh": 27697.49584331687
+    },
+    {
+      "envelope": "study",
+      "condition": "95\u00b0F evening",
+      "cfm": 400,
+      "parts_kw": {
+        "conduction": 1.4625485609778015,
+        "ventilation": 2.5321553489281445,
+        "doors": 0.4024,
+        "people_sensible": 2.775,
+        "people_latent": 1.665,
+        "equipment": 0.42,
+        "solar": 0,
+        "outside_latent": 0.0
+      },
+      "kw": 10.645669496391836,
+      "btuh": 36324.53209979673
+    },
+    {
+      "envelope": "study",
+      "condition": "95\u00b0F sun",
+      "cfm": 400,
+      "parts_kw": {
+        "conduction": 1.4625485609778015,
+        "ventilation": 2.5321553489281445,
+        "doors": 0.4024,
+        "people_sensible": 2.775,
+        "people_latent": 1.665,
+        "equipment": 0.42,
+        "solar": 2.7899014479951676,
+        "outside_latent": 0.0
+      },
+      "kw": 13.85405616158628,
+      "btuh": 47272.00181486872
+    },
+    {
+      "envelope": "study",
+      "condition": "110\u00b0F sun",
+      "cfm": 400,
+      "parts_kw": {
+        "conduction": 2.5594599817111527,
+        "ventilation": 4.4312718606242525,
+        "doors": 0.7041999999999999,
+        "people_sensible": 2.775,
+        "people_latent": 1.665,
+        "equipment": 0.42,
+        "solar": 2.7899014479951676,
+        "outside_latent": 0.0
+      },
+      "kw": 17.646558283880157,
+      "btuh": 60212.55619958852
+    },
+    {
+      "envelope": "study",
+      "condition": "110\u00b0F sun + humidity stress",
+      "cfm": 400,
+      "parts_kw": {
+        "conduction": 2.5594599817111527,
+        "ventilation": 4.4312718606242525,
+        "doors": 0.7041999999999999,
+        "people_sensible": 2.775,
+        "people_latent": 1.665,
+        "equipment": 0.42,
+        "solar": 2.7899014479951676,
+        "outside_latent": 3.9395968001405723
+      },
+      "kw": 22.177094604041812,
+      "btuh": 75671.38779743073
+    },
+    {
+      "envelope": "study",
+      "condition": "20\u00b0F occupied heating",
+      "cfm": 400,
+      "parts_kw": {
+        "conduction": 3.5101165463467234,
+        "ventilation": 6.077172837427546,
+        "doors": 0.9657599999999998,
+        "people_sensible": -2.775,
+        "people_latent": 0,
+        "equipment": -0.42,
+        "solar": 0,
+        "outside_latent": 0
+      },
+      "kw": 7.3580493837742695,
+      "btuh": 25106.70664004618
+    },
+    {
+      "envelope": "conservative",
+      "condition": "85\u00b0F evening",
+      "cfm": 300,
+      "parts_kw": {
+        "conduction": 1.0399703292335274,
+        "ventilation": 0.949558255848054,
+        "doors": 0.2012,
+        "people_sensible": 2.775,
+        "people_latent": 1.665,
+        "equipment": 0.42,
+        "solar": 0,
+        "outside_latent": 0.0
+      },
+      "kw": 8.108337872843817,
+      "btuh": 27666.79723036105
+    },
+    {
+      "envelope": "conservative",
+      "condition": "95\u00b0F evening",
+      "cfm": 300,
+      "parts_kw": {
+        "conduction": 2.079940658467055,
+        "ventilation": 1.899116511696108,
+        "doors": 0.4024,
+        "people_sensible": 2.775,
+        "people_latent": 1.665,
+        "equipment": 0.42,
+        "solar": 0,
+        "outside_latent": 0.0
+      },
+      "kw": 10.627675745687636,
+      "btuh": 36263.13487388511
+    },
+    {
+      "envelope": "conservative",
+      "condition": "95\u00b0F sun",
+      "cfm": 300,
+      "parts_kw": {
+        "conduction": 2.079940658467055,
+        "ventilation": 1.899116511696108,
+        "doors": 0.4024,
+        "people_sensible": 2.775,
+        "people_latent": 1.665,
+        "equipment": 0.42,
+        "solar": 2.912204564176339,
+        "outside_latent": 0.0
+      },
+      "kw": 13.976710994490425,
+      "btuh": 47690.51747670962
+    },
+    {
+      "envelope": "conservative",
+      "condition": "110\u00b0F sun",
+      "cfm": 300,
+      "parts_kw": {
+        "conduction": 3.639896152317345,
+        "ventilation": 3.3234538954681887,
+        "doors": 0.7041999999999999,
+        "people_sensible": 2.775,
+        "people_latent": 1.665,
+        "equipment": 0.42,
+        "solar": 2.912204564176339,
+        "outside_latent": 0.0
+      },
+      "kw": 17.755717803756152,
+      "btuh": 60585.02394199569
+    },
+    {
+      "envelope": "conservative",
+      "condition": "110\u00b0F sun + humidity stress",
+      "cfm": 300,
+      "parts_kw": {
+        "conduction": 3.639896152317345,
+        "ventilation": 3.3234538954681887,
+        "doors": 0.7041999999999999,
+        "people_sensible": 2.775,
+        "people_latent": 1.665,
+        "equipment": 0.42,
+        "solar": 2.912204564176339,
+        "outside_latent": 3.0897516001054295
+      },
+      "kw": 21.3089321438774,
+      "btuh": 72709.09452289602
+    },
+    {
+      "envelope": "conservative",
+      "condition": "20\u00b0F occupied heating",
+      "cfm": 300,
+      "parts_kw": {
+        "conduction": 4.99185758032093,
+        "ventilation": 4.557879628070659,
+        "doors": 0.9657599999999998,
+        "people_sensible": -2.775,
+        "people_latent": 0,
+        "equipment": -0.42,
+        "solar": 0,
+        "outside_latent": 0
+      },
+      "kw": 7.32049720839159,
+      "btuh": 24978.57329901322
+    },
+    {
+      "envelope": "conservative",
+      "condition": "85\u00b0F evening",
+      "cfm": 400,
+      "parts_kw": {
+        "conduction": 1.0399703292335274,
+        "ventilation": 1.2660776744640723,
+        "doors": 0.2012,
+        "people_sensible": 2.775,
+        "people_latent": 1.665,
+        "equipment": 0.42,
+        "solar": 0,
+        "outside_latent": 0.0
+      },
+      "kw": 8.47233520425224,
+      "btuh": 28908.807679160625
+    },
+    {
+      "envelope": "conservative",
+      "condition": "95\u00b0F evening",
+      "cfm": 400,
+      "parts_kw": {
+        "conduction": 2.079940658467055,
+        "ventilation": 2.5321553489281445,
+        "doors": 0.4024,
+        "people_sensible": 2.775,
+        "people_latent": 1.665,
+        "equipment": 0.42,
+        "solar": 0,
+        "outside_latent": 0.0
+      },
+      "kw": 11.355670408504478,
+      "btuh": 38747.15577148425
+    },
+    {
+      "envelope": "conservative",
+      "condition": "95\u00b0F sun",
+      "cfm": 400,
+      "parts_kw": {
+        "conduction": 2.079940658467055,
+        "ventilation": 2.5321553489281445,
+        "doors": 0.4024,
+        "people_sensible": 2.775,
+        "people_latent": 1.665,
+        "equipment": 0.42,
+        "solar": 2.912204564176339,
+        "outside_latent": 0.0
+      },
+      "kw": 14.704705657307269,
+      "btuh": 50174.538374308766
+    },
+    {
+      "envelope": "conservative",
+      "condition": "110\u00b0F sun",
+      "cfm": 400,
+      "parts_kw": {
+        "conduction": 3.639896152317345,
+        "ventilation": 4.4312718606242525,
+        "doors": 0.7041999999999999,
+        "people_sensible": 2.775,
+        "people_latent": 1.665,
+        "equipment": 0.42,
+        "solar": 2.912204564176339,
+        "outside_latent": 0.0
+      },
+      "kw": 19.029708463685626,
+      "btuh": 64932.060512794196
+    },
+    {
+      "envelope": "conservative",
+      "condition": "110\u00b0F sun + humidity stress",
+      "cfm": 400,
+      "parts_kw": {
+        "conduction": 3.639896152317345,
+        "ventilation": 4.4312718606242525,
+        "doors": 0.7041999999999999,
+        "people_sensible": 2.775,
+        "people_latent": 1.665,
+        "equipment": 0.42,
+        "solar": 2.912204564176339,
+        "outside_latent": 3.9395968001405723
+      },
+      "kw": 23.560244783847285,
+      "btuh": 80390.89211063641
+    },
+    {
+      "envelope": "conservative",
+      "condition": "20\u00b0F occupied heating",
+      "cfm": 400,
+      "parts_kw": {
+        "conduction": 4.99185758032093,
+        "ventilation": 6.077172837427546,
+        "doors": 0.9657599999999998,
+        "people_sensible": -2.775,
+        "people_latent": 0,
+        "equipment": -0.42,
+        "solar": 0,
+        "outside_latent": 0
+      },
+      "kw": 8.839790417748477,
+      "btuh": 30162.61691139404
+    },
+    {
+      "envelope": "old_u_same_geometry",
+      "condition": "85\u00b0F evening",
+      "cfm": 300,
+      "parts_kw": {
+        "conduction": 0.786009491494158,
+        "ventilation": 0.949558255848054,
+        "doors": 0.2012,
+        "people_sensible": 2.775,
+        "people_latent": 1.665,
+        "equipment": 0.42,
+        "solar": 0,
+        "outside_latent": 0.0
+      },
+      "kw": 7.816282909443544,
+      "btuh": 26670.264330618687
+    },
+    {
+      "envelope": "old_u_same_geometry",
+      "condition": "95\u00b0F evening",
+      "cfm": 300,
+      "parts_kw": {
+        "conduction": 1.572018982988316,
+        "ventilation": 1.899116511696108,
+        "doors": 0.4024,
+        "people_sensible": 2.775,
+        "people_latent": 1.665,
+        "equipment": 0.42,
+        "solar": 0,
+        "outside_latent": 0.0
+      },
+      "kw": 10.043565818887085,
+      "btuh": 34270.069074400366
+    },
+    {
+      "envelope": "old_u_same_geometry",
+      "condition": "95\u00b0F sun",
+      "cfm": 300,
+      "parts_kw": {
+        "conduction": 1.572018982988316,
+        "ventilation": 1.899116511696108,
+        "doors": 0.4024,
+        "people_sensible": 2.775,
+        "people_latent": 1.665,
+        "equipment": 0.42,
+        "solar": 3.209761542192409,
+        "outside_latent": 0.0
+      },
+      "kw": 13.734791592408357,
+      "btuh": 46865.05421303492
+    },
+    {
+      "envelope": "old_u_same_geometry",
+      "condition": "110\u00b0F sun",
+      "cfm": 300,
+      "parts_kw": {
+        "conduction": 2.7510332202295524,
+        "ventilation": 3.3234538954681887,
+        "doors": 0.7041999999999999,
+        "people_sensible": 2.775,
+        "people_latent": 1.665,
+        "equipment": 0.42,
+        "solar": 3.209761542192409,
+        "outside_latent": 0.0
+      },
+      "kw": 17.07571595657367,
+      "btuh": 58264.76132870744
+    },
+    {
+      "envelope": "old_u_same_geometry",
+      "condition": "110\u00b0F sun + humidity stress",
+      "cfm": 300,
+      "parts_kw": {
+        "conduction": 2.7510332202295524,
+        "ventilation": 3.3234538954681887,
+        "doors": 0.7041999999999999,
+        "people_sensible": 2.775,
+        "people_latent": 1.665,
+        "equipment": 0.42,
+        "solar": 3.209761542192409,
+        "outside_latent": 3.0897516001054295
+      },
+      "kw": 20.628930296694914,
+      "btuh": 70388.83190960776
+    },
+    {
+      "envelope": "old_u_same_geometry",
+      "condition": "20\u00b0F occupied heating",
+      "cfm": 300,
+      "parts_kw": {
+        "conduction": 3.7728455591719574,
+        "ventilation": 4.557879628070659,
+        "doors": 0.9657599999999998,
+        "people_sensible": -2.775,
+        "people_latent": 0,
+        "equipment": -0.42,
+        "solar": 0,
+        "outside_latent": 0
+      },
+      "kw": 6.101485187242616,
+      "btuh": 20819.131630523334
+    },
+    {
+      "envelope": "old_u_same_geometry",
+      "condition": "85\u00b0F evening",
+      "cfm": 400,
+      "parts_kw": {
+        "conduction": 0.786009491494158,
+        "ventilation": 1.2660776744640723,
+        "doors": 0.2012,
+        "people_sensible": 2.775,
+        "people_latent": 1.665,
+        "equipment": 0.42,
+        "solar": 0,
+        "outside_latent": 0.0
+      },
+      "kw": 8.180280240851964,
+      "btuh": 27912.274779418254
+    },
+    {
+      "envelope": "old_u_same_geometry",
+      "condition": "95\u00b0F evening",
+      "cfm": 400,
+      "parts_kw": {
+        "conduction": 1.572018982988316,
+        "ventilation": 2.5321553489281445,
+        "doors": 0.4024,
+        "people_sensible": 2.775,
+        "people_latent": 1.665,
+        "equipment": 0.42,
+        "solar": 0,
+        "outside_latent": 0.0
+      },
+      "kw": 10.77156048170393,
+      "btuh": 36754.089971999514
+    },
+    {
+      "envelope": "old_u_same_geometry",
+      "condition": "95\u00b0F sun",
+      "cfm": 400,
+      "parts_kw": {
+        "conduction": 1.572018982988316,
+        "ventilation": 2.5321553489281445,
+        "doors": 0.4024,
+        "people_sensible": 2.775,
+        "people_latent": 1.665,
+        "equipment": 0.42,
+        "solar": 3.209761542192409,
+        "outside_latent": 0.0
+      },
+      "kw": 14.462786255225199,
+      "btuh": 49349.07511063407
+    },
+    {
+      "envelope": "old_u_same_geometry",
+      "condition": "110\u00b0F sun",
+      "cfm": 400,
+      "parts_kw": {
+        "conduction": 2.7510332202295524,
+        "ventilation": 4.4312718606242525,
+        "doors": 0.7041999999999999,
+        "people_sensible": 2.775,
+        "people_latent": 1.665,
+        "equipment": 0.42,
+        "solar": 3.209761542192409,
+        "outside_latent": 0.0
+      },
+      "kw": 18.349706616503145,
+      "btuh": 62611.797899505946
+    },
+    {
+      "envelope": "old_u_same_geometry",
+      "condition": "110\u00b0F sun + humidity stress",
+      "cfm": 400,
+      "parts_kw": {
+        "conduction": 2.7510332202295524,
+        "ventilation": 4.4312718606242525,
+        "doors": 0.7041999999999999,
+        "people_sensible": 2.775,
+        "people_latent": 1.665,
+        "equipment": 0.42,
+        "solar": 3.209761542192409,
+        "outside_latent": 3.9395968001405723
+      },
+      "kw": 22.8802429366648,
+      "btuh": 78070.62949734816
+    },
+    {
+      "envelope": "old_u_same_geometry",
+      "condition": "20\u00b0F occupied heating",
+      "cfm": 400,
+      "parts_kw": {
+        "conduction": 3.7728455591719574,
+        "ventilation": 6.077172837427546,
+        "doors": 0.9657599999999998,
+        "people_sensible": -2.775,
+        "people_latent": 0,
+        "equipment": -0.42,
+        "solar": 0,
+        "outside_latent": 0
+      },
+      "kw": 7.620778396599503,
+      "btuh": 26003.17524290415
+    },
+    {
+      "envelope": "limited_floor",
+      "condition": "85\u00b0F evening",
+      "cfm": 300,
+      "parts_kw": {
+        "conduction": 0.9863040874334438,
+        "ventilation": 0.949558255848054,
+        "doors": 0.2012,
+        "people_sensible": 2.775,
+        "people_latent": 1.665,
+        "equipment": 0.42,
+        "solar": 0,
+        "outside_latent": 0.0
+      },
+      "kw": 8.046621694773721,
+      "btuh": 27456.212889738435
+    },
+    {
+      "envelope": "limited_floor",
+      "condition": "95\u00b0F evening",
+      "cfm": 300,
+      "parts_kw": {
+        "conduction": 1.9726081748668876,
+        "ventilation": 1.899116511696108,
+        "doors": 0.4024,
+        "people_sensible": 2.775,
+        "people_latent": 1.665,
+        "equipment": 0.42,
+        "solar": 0,
+        "outside_latent": 0.0
+      },
+      "kw": 10.504243389547444,
+      "btuh": 35841.96619263987
+    },
+    {
+      "envelope": "limited_floor",
+      "condition": "95\u00b0F sun",
+      "cfm": 300,
+      "parts_kw": {
+        "conduction": 1.9726081748668876,
+        "ventilation": 1.899116511696108,
+        "doors": 0.4024,
+        "people_sensible": 2.775,
+        "people_latent": 1.665,
+        "equipment": 0.42,
+        "solar": 2.7899014479951676,
+        "outside_latent": 0.0
+      },
+      "kw": 13.712630054741886,
+      "btuh": 46789.435907711864
+    },
+    {
+      "envelope": "limited_floor",
+      "condition": "110\u00b0F sun",
+      "cfm": 300,
+      "parts_kw": {
+        "conduction": 3.452064306017053,
+        "ventilation": 3.3234538954681887,
+        "doors": 0.7041999999999999,
+        "people_sensible": 2.775,
+        "people_latent": 1.665,
+        "equipment": 0.42,
+        "solar": 2.7899014479951676,
+        "outside_latent": 0.0
+      },
+      "kw": 17.399062596902468,
+      "btuh": 59368.06586206401
+    },
+    {
+      "envelope": "limited_floor",
+      "condition": "110\u00b0F sun + humidity stress",
+      "cfm": 300,
+      "parts_kw": {
+        "conduction": 3.452064306017053,
+        "ventilation": 3.3234538954681887,
+        "doors": 0.7041999999999999,
+        "people_sensible": 2.775,
+        "people_latent": 1.665,
+        "equipment": 0.42,
+        "solar": 2.7899014479951676,
+        "outside_latent": 3.0897516001054295
+      },
+      "kw": 20.95227693702371,
+      "btuh": 71492.13644296433
+    },
+    {
+      "envelope": "limited_floor",
+      "condition": "20\u00b0F occupied heating",
+      "cfm": 300,
+      "parts_kw": {
+        "conduction": 4.73425961968053,
+        "ventilation": 4.557879628070659,
+        "doors": 0.9657599999999998,
+        "people_sensible": -2.775,
+        "people_latent": 0,
+        "equipment": -0.42,
+        "solar": 0,
+        "outside_latent": 0
+      },
+      "kw": 7.062899247751189,
+      "btuh": 24099.612572936214
+    },
+    {
+      "envelope": "limited_floor",
+      "condition": "85\u00b0F evening",
+      "cfm": 400,
+      "parts_kw": {
+        "conduction": 0.9863040874334438,
+        "ventilation": 1.2660776744640723,
+        "doors": 0.2012,
+        "people_sensible": 2.775,
+        "people_latent": 1.665,
+        "equipment": 0.42,
+        "solar": 0,
+        "outside_latent": 0.0
+      },
+      "kw": 8.410619026182143,
+      "btuh": 28698.22333853801
+    },
+    {
+      "envelope": "limited_floor",
+      "condition": "95\u00b0F evening",
+      "cfm": 400,
+      "parts_kw": {
+        "conduction": 1.9726081748668876,
+        "ventilation": 2.5321553489281445,
+        "doors": 0.4024,
+        "people_sensible": 2.775,
+        "people_latent": 1.665,
+        "equipment": 0.42,
+        "solar": 0,
+        "outside_latent": 0.0
+      },
+      "kw": 11.232238052364286,
+      "btuh": 38325.98709023902
+    },
+    {
+      "envelope": "limited_floor",
+      "condition": "95\u00b0F sun",
+      "cfm": 400,
+      "parts_kw": {
+        "conduction": 1.9726081748668876,
+        "ventilation": 2.5321553489281445,
+        "doors": 0.4024,
+        "people_sensible": 2.775,
+        "people_latent": 1.665,
+        "equipment": 0.42,
+        "solar": 2.7899014479951676,
+        "outside_latent": 0.0
+      },
+      "kw": 14.440624717558729,
+      "btuh": 49273.456805311005
+    },
+    {
+      "envelope": "limited_floor",
+      "condition": "110\u00b0F sun",
+      "cfm": 400,
+      "parts_kw": {
+        "conduction": 3.452064306017053,
+        "ventilation": 4.4312718606242525,
+        "doors": 0.7041999999999999,
+        "people_sensible": 2.775,
+        "people_latent": 1.665,
+        "equipment": 0.42,
+        "solar": 2.7899014479951676,
+        "outside_latent": 0.0
+      },
+      "kw": 18.673053256831942,
+      "btuh": 63715.10243286251
+    },
+    {
+      "envelope": "limited_floor",
+      "condition": "110\u00b0F sun + humidity stress",
+      "cfm": 400,
+      "parts_kw": {
+        "conduction": 3.452064306017053,
+        "ventilation": 4.4312718606242525,
+        "doors": 0.7041999999999999,
+        "people_sensible": 2.775,
+        "people_latent": 1.665,
+        "equipment": 0.42,
+        "solar": 2.7899014479951676,
+        "outside_latent": 3.9395968001405723
+      },
+      "kw": 23.203589576993597,
+      "btuh": 79173.93403070471
+    },
+    {
+      "envelope": "limited_floor",
+      "condition": "20\u00b0F occupied heating",
+      "cfm": 400,
+      "parts_kw": {
+        "conduction": 4.73425961968053,
+        "ventilation": 6.077172837427546,
+        "doors": 0.9657599999999998,
+        "people_sensible": -2.775,
+        "people_latent": 0,
+        "equipment": -0.42,
+        "solar": 0,
+        "outside_latent": 0
+      },
+      "kw": 8.582192457108075,
+      "btuh": 29283.65618531703
+    }
+  ],
+  "mass": {
+    "wall_roof_end_liners_kg": 144.5343647530351,
+    "door_liners_kg": 8.994269495296,
+    "wall_insulation_kg": 110.57802008223351,
+    "roof_insulation_kg": 109.52632332001427,
+    "end_insulation_kg": 36.61521610658794,
+    "door_insulation_kg": 4.295770505216001,
+    "floor_insulation_kg": 39.207727795360476,
+    "floor_trays_kg": 32.836472028614395,
+    "replacement_floor_panel_delta_kg": 58.408764885865466,
+    "rubber_finish_kg": 90.37645624269351,
+    "unmodeled_fixings_closeouts_seals_adhesive_reserve_kg": 60,
+    "subtotal_increment_kg": 695.3733852149167,
+    "quantity_fit_allowance_kg": 63.53733852149167,
+    "screen_increment_with_allowance_kg": 758.9107237364083
+  },
+  "basis": {
+    "thermal_people": 37,
+    "airflow_cfm": [
+      300,
+      400
+    ],
+    "recovery": 0,
+    "cooling_allowance": 1.15,
+    "cabin_equipment_w": 420,
+    "door_leakage_m3s": 0.03,
+    "glass_shgc": 0.5,
+    "rockboard_rsi_per_in": 0.74,
+    "steel_k_w_mk": 45,
+    "film_r_m2k": {
+      "wall_inside": 0.13,
+      "roof_inside": 0.1,
+      "floor_inside": 0.1,
+      "outside": 0.04
+    },
+    "floor_panel_thermal_credit": 0,
+    "assembly_u_status": "1D screening only; 2D bridges, fasteners, openings and moisture not qualified",
+    "floor_clear_fraction_basis": "Current static bounding-box union: 61.847% with 0.25in XY allowance; use60% study/50% sensitivity. Moving/service envelopes excluded."
+  },
+  "limitations": [
+    "Regular C1 envelope only; ADA cutouts, seats, turning and bridge interfaces require separate integration.",
+    "No heat-recovery cabinet selected. Compact powered roof intake/exhaust remain unselected; no recovery credit.",
+    "Neither300CFM nor400CFM is an adopted ventilation rate. Eight mini-splits and35kW generator remain provisional.",
+    "Final glazing, floor support/point-load capacity, fastening and transport fire qualification remain open.",
+    "Thermal outputs are delivered steady-state loads, not electrical input or equipment selection.",
+    "No whole-coach mass/CG or suspension acceptance; do not add historicalCL3 cabinet reserve as installed equipment."
+  ],
+  "source_sha256": {
+    "dist/assets/coach-body-c1/parts.json.gz": "81eae7fa1d92f1298e6ae930921972583e51a196961c7cdb003b6054677280ac"
+  },
+  "verification": {
+    "finite_cases": 48,
+    "floor_datum_retained": true,
+    "aisle_retained": true,
+    "airflow_and_envelope_sensitivities_monotonic": true,
+    "source_model_changed": false,
+    "whole_coach_clearance_accepted": false
+  }
+}

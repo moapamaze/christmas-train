@@ -1,0 +1,243 @@
+{
+  "revision": "CE1-floor-projection-R0",
+  "status": "STATIC ENVELOPE AND AREA SCREEN; NOT FIT, MOTION OR FABRICATION ACCEPTANCE",
+  "reproduce": "python cad/coach-envelope-ce1/floor_projection.py",
+  "inputs": {
+    "dist/assets/coach-body-c1/model.json.gz": {
+      "sha256": "4683b6da2e9ecb182dfb6111f8d6ab6553e5d9a43cd871ec9bb00ebb60ed8559",
+      "bytes": 2632278
+    },
+    "dist/assets/coach-installation-ci2/replacement-model.json.gz": {
+      "sha256": "3e4fa4e6b4ec939b3df993446017567632a5dfd40fee5c8d4bbfacf17ad47437",
+      "bytes": 116942
+    },
+    "dist/assets/coach-installation-ci3/frame-update.json.gz": {
+      "sha256": "49ddef4fb7381cfb77ed681a2d4d679fba44be313bcdcdac2d393f79a2ed0071",
+      "bytes": 8145
+    },
+    "dist/assets/coach-seats-c21/model.json.gz": {
+      "sha256": "eb002d068eba38343b8167f9523d70464c28dacb509decec4645e8fa50e9dcf3",
+      "bytes": 877948
+    },
+    "dist/assets/coach-seats-c21/coach-assembly.json": {
+      "sha256": "a553afe9be10d8a910a52233d634f2bd1daeb1a8da66e8bf379e9443defb24a3",
+      "bytes": 116150
+    },
+    "dist/assets/coach-truck-c5/model-full.json.gz": {
+      "sha256": "623ff051c34c11dadd6c58cd402fd47abc3460d998cb27780f5c8ebfd45197eb",
+      "bytes": 1836590
+    },
+    "dist/assets/coach-truck-c5/model-interface-plain.json.gz": {
+      "sha256": "6fb9b4025b39755c3d705c4877f20e7f076fe5986b02107976f8f7d929fdbc7e",
+      "bytes": 1554
+    },
+    "dist/coach-complete.js": {
+      "sha256": "709fcadc99d728b20ea928ed4922f0fb4871ae49b1a2af8b0d918d5cd7556229",
+      "bytes": 6223,
+      "role": "Coordination reference; no code from this file is executed."
+    },
+    "dist/coach-frame-ci2.js": {
+      "sha256": "fc7e9e4abfef1bd9b61bae2af7ccca805e620c58670f69c09e2830ca58103332",
+      "bytes": 2011,
+      "role": "Coordination reference; no code from this file is executed."
+    },
+    "dist/coach-boarding.js": {
+      "sha256": "f358fd78ba4fcb58fb86872e73349b77ebabe4566a60bbae5eb0fbdc22abb210",
+      "bytes": 15327,
+      "role": "Coordination reference; no code from this file is executed."
+    },
+    "cad/coach-installation-ci3/check_revision.py": {
+      "sha256": "445657928e9216d132bc69f72315543829c622c1fccde2104ec05e8bba94c523",
+      "bytes": 5551,
+      "role": "Coordination reference; no code from this file is executed."
+    }
+  },
+  "geometry": {
+    "finished_interior_rectangle_xy_in": [
+      0.54,
+      305.46,
+      -51.085,
+      51.085
+    ],
+    "candidate_insulation_slab_z_in": [
+      29.1220472441,
+      31.1220472441
+    ],
+    "total_area_in2": 31153.676399999997,
+    "total_area_ft2": 216.34497499999998,
+    "total_area_m2": 20.099105866223997,
+    "intersection_z_epsilon_in": 1e-06,
+    "bench_instances": 16,
+    "hardpoint_opening_keepouts": 64,
+    "J01_box_keepouts": 18,
+    "floor_opening_nominal_xy_in": [
+      3.875,
+      6.375
+    ],
+    "J01_box_half_length_in": 3.54,
+    "J01_box_inner_abs_y_in": 48.585,
+    "J01_box_top_z_in": 42.54
+  },
+  "method": [
+    "Project full XY axis-aligned bounds of every selected part intersecting the candidate Z interval.",
+    "Clip to finished interior rectangle and compute exact rectangle union by X slabs and merged Y intervals; never sum overlapping areas.",
+    "Apply CI2/CI3 common-frame replacements in the sequence used by coach-complete.js. CI2/CI3 meshes are already global coach inches.",
+    "Replace original central T45/T261 with plain C5 body bolsters and body-attached C5 hardware/access bases translated to X45/261. Other C5 context and moving parts are excluded.",
+    "Use C21 actual instance translations including Y=-64 on the left; feet remain in existing positions under the proposed narrower upper benches.",
+    "Add all64 floor-opening rectangles and18 proposed J01-box footprints as omission zones, even where their physical material lies outside the slab.",
+    "Quarter-inch fitting margin expands each intersecting physical part in XY. Keepouts are then unioned without a second margin.",
+    "CB2 perimeter/stair modifications lie outside this interior rectangle and do not change this area calculation."
+  ],
+  "results": {
+    "frame_and_plain_bolsters_access_bases": {
+      "clipped_rectangle_count": 190,
+      "blocked_area_in2": 9284.168582374095,
+      "clear_area_in2": 21869.5078176259,
+      "clear_area_ft2": 151.87158206684654,
+      "clear_area_m2": 14.109331663619527,
+      "clear_fraction": 0.7019880266081824,
+      "clear_percent": 70.19880266081825
+    },
+    "plus_J01_steel": {
+      "clipped_rectangle_count": 226,
+      "blocked_area_in2": 9294.02358281453,
+      "clear_area_in2": 21859.652817185466,
+      "clear_area_ft2": 151.80314456378795,
+      "clear_area_m2": 14.102973611535376,
+      "clear_fraction": 0.701671691537037,
+      "clear_percent": 70.1671691537037
+    },
+    "plus_all_regular_C21_hardpoints": {
+      "clipped_rectangle_count": 1314,
+      "blocked_area_in2": 10190.255539057825,
+      "clear_area_in2": 20963.42086094217,
+      "clear_area_ft2": 145.57931153432062,
+      "clear_area_m2": 13.524760602645449,
+      "clear_fraction": 0.6729035954466732,
+      "clear_percent": 67.29035954466733
+    },
+    "plus_joint_boxes_and_floor_opening_keepouts": {
+      "clipped_rectangle_count": 1396,
+      "blocked_area_in2": 10672.17369445651,
+      "clear_area_in2": 20481.502705543488,
+      "clear_area_ft2": 142.23265767738533,
+      "clear_area_m2": 13.213846285508437,
+      "clear_fraction": 0.6574345333298606,
+      "clear_percent": 65.74345333298605
+    },
+    "part_bounds_margin_0.125_in": {
+      "clipped_rectangle_count": 1396,
+      "blocked_area_in2": 11254.218067153002,
+      "clear_area_in2": 19899.458332846996,
+      "clear_area_ft2": 138.19068286699303,
+      "clear_area_m2": 12.838334538019568,
+      "clear_fraction": 0.6387515257379703,
+      "clear_percent": 63.87515257379703
+    },
+    "part_bounds_margin_0.25_in": {
+      "clipped_rectangle_count": 1396,
+      "blocked_area_in2": 11886.074008092619,
+      "clear_area_in2": 19267.602391907378,
+      "clear_area_ft2": 133.80279438824567,
+      "clear_area_m2": 12.430686359162964,
+      "clear_fraction": 0.6184696195890184,
+      "clear_percent": 61.84696195890184
+    },
+    "part_bounds_margin_0.5_in": {
+      "clipped_rectangle_count": 1396,
+      "blocked_area_in2": 13244.09791428505,
+      "clear_area_in2": 17909.57848571495,
+      "clear_area_ft2": 124.37207281746493,
+      "clear_area_m2": 11.554543655843856,
+      "clear_fraction": 0.5748784912497502,
+      "clear_percent": 57.48784912497503
+    }
+  },
+  "bogie_study_exclusion_sensitivity": {
+    "source": "cad/coach-installation-ci3/check_revision.py: pivot-1393mm to pivot+1457mm",
+    "qualification": "Selected body-study intervals; these are not verified truck swept envelopes.",
+    "unclipped_x_intervals_in": [
+      [
+        -9.84251968503937,
+        102.36220472440945
+      ],
+      [
+        206.15748031496062,
+        318.3622047244095
+      ]
+    ],
+    "results": {
+      "half_width_36_in": {
+        "no_extra_margin": {
+          "clipped_rectangle_count": 1398,
+          "blocked_area_in2": 19207.30097913145,
+          "clear_area_in2": 11946.375420868546,
+          "clear_area_ft2": 82.96094042269823,
+          "clear_area_m2": 7.707323566527551,
+          "clear_fraction": 0.383465991861832,
+          "clear_percent": 38.3465991861832
+        },
+        "quarter_in_part_margin": {
+          "clipped_rectangle_count": 1398,
+          "blocked_area_in2": 19977.956391883417,
+          "clear_area_in2": 11175.72000811658,
+          "clear_area_ft2": 77.6091667230318,
+          "clear_area_m2": 7.210127520436492,
+          "clear_fraction": 0.3587287697485546,
+          "clear_percent": 35.87287697485546
+        }
+      },
+      "half_width_51.085_in": {
+        "no_extra_margin": {
+          "clipped_rectangle_count": 1398,
+          "blocked_area_in2": 23406.672510389464,
+          "clear_area_in2": 7747.0038896105325,
+          "clear_area_ft2": 53.798638122295365,
+          "clear_area_m2": 4.998057029421131,
+          "clear_fraction": 0.24867061563271978,
+          "clear_percent": 24.867061563271978
+        },
+        "quarter_in_part_margin": {
+          "clipped_rectangle_count": 1398,
+          "blocked_area_in2": 23835.02333690128,
+          "clear_area_in2": 7318.653063098718,
+          "clear_area_ft2": 50.82397960485221,
+          "clear_area_m2": 4.721702210188769,
+          "clear_fraction": 0.2349210080097872,
+          "clear_percent": 23.492100800978722
+        }
+      }
+    }
+  },
+  "provisional_screen_at_60_percent": {
+    "insulated_fraction": 0.6,
+    "uninsulated_fraction": 0.4,
+    "insulated_area_ft2": 129.80698499999997,
+    "insulated_area_m2": 12.059463519734399,
+    "two_in_insulation_volume_m3": 0.6126207468025074,
+    "qualification": "Scenario below61.847% static allowance; not a verified installed fraction. Evaluate limited-floor sensitivity separately."
+  },
+  "J01_box_to_existing_bench_screen": {
+    "box_aabb_intersections": [],
+    "minimum_aabb_separation_in": 3.1394784544858454,
+    "closest_pair": {
+      "box": "J01-281-L",
+      "bench_part": "C21-08L-F3-SOLE",
+      "axis_gaps_xyz_in": [
+        2.7099999960629475,
+        1.584999996062983,
+        0
+      ]
+    },
+    "qualification": "No AABB intersections is a sufficient nominal static separation result for these listed envelopes only; no tooling, occupant, tolerance or service proof."
+  },
+  "limits": [
+    "AABB projection is conservative for rounded, hollow and irregular parts; this is not an exact solid-sectional area.",
+    "Clear fraction means free from selected static projected envelopes, not an accepted insulation/tray footprint. Unmodeled obstructions can reduce it.",
+    "No truck sweep, brake hose/chamber sweep, installation/service allowance, fastener access, panel support or tray retention is qualified.",
+    "C5 body-fixed reference components are included; later C57 brake/service routing and other equipment are not represented by this calculation.",
+    "Accessible coach collars, folding seats, securement and side-door foundations require a separate layout calculation. Do not apply this fraction as accessible-coach acceptance.",
+    "No thermal bridge analysis is performed; the uninsulated fraction must not be interpreted as steel area alone.",
+    "Areas cover the finished interior rectangle, not exterior platform deck or the full purchased floor-panel takeoff."
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "issue": "PF-3R2-R0",
+  "decision": "TO-A continuous-loop study lead, conditional on survey/vehicle design; not a final site alignment or owner property choice",
+  "alternatives": [
+    {
+      "id": "TO-A",
+      "name": "Continuous one-direction loop",
+      "normal": "Locomotive leads the same consist around a continuous route through origin andNorthPole stops.",
+      "benefit": "Avoids routine pushing, running around and passenger-service recoupling.",
+      "condition": "Study lead only if actual boundary/terrain can support a0%route with accepted curves, two boarding locations and emergency/maintenance access.",
+      "new_interfaces": "Protected stops and occupancy/dispatch; future second train still needs engineered separation and blocked-route response.",
+      "selected_final_alignment": false
+    },
+    {
+      "id": "TO-B",
+      "name": "Point-to-point with terminal balloon loops",
+      "normal": "Train turns on track at each end and locomotive leads both travel directions on the shared stem.",
+      "benefit": "Can preserve locomotive-leading operation when an outbound/return stem is needed.",
+      "condition": "Requires actual land and acceptable curve/swept envelopes at BOTHends, plus engineered turnouts and route protection. No minimum radius or loop footprint is selected.",
+      "new_interfaces": "Opposing movements on common track, point position/locking and fouling protection; no default trailing-point movement.",
+      "selected_final_alignment": false
+    },
+    {
+      "id": "TO-C",
+      "name": "Point-to-point reversing / push-pull",
+      "normal": "Whole consist reverses; locomotive at one end pushes on one leg unless another accepted drive/control arrangement is developed.",
+      "benefit": "May avoid terminal loop footprints; not an automatic reduction in total system complexity.",
+      "condition": "Not cleared for normal service: leading-end visibility/control, braking in both directions, compressive coupling stability and protected doors/platforms need new integrated validation.",
+      "new_interfaces": "Accepted leading-end control and communication; reversal/rollback/retarding behavior and trainline failure cases. A diesel reverser alone does not qualify a pushed passenger consist.",
+      "selected_final_alignment": false
+    },
+    {
+      "id": "TO-D",
+      "name": "Locomotive run-around",
+      "normal": "Locomotive disconnects, changes end using additional track and reconnects.",
+      "benefit": "Can restore locomotive-leading direction without turning the complete consist.",
+      "condition": "Not preferred normal guest cycle: extra movements, turnouts, physical couplings/hoses, positive coach restraint and post-reconnection checks require an approved operating case.",
+      "new_interfaces": "Controlled uncoupling/air isolation/parking/recharge/brake continuity; no assumption that passengers may remain aboard during shunting.",
+      "selected_final_alignment": false
+    }
+  ],
+  "normal_boarding": "Retain controlled near-level station boarding at origin andNorthPole as development lead; actual loaded level, gap/bridge and accessible solution unresolved.",
+  "emergency": "Do not rely solely on reversing/towing to a station: fire, blocked track or brake/control failure may prevent it. Off-station evacuation must remain coordinated with terrain, access, lights and qualified response.",
+  "reversing_approval": false,
+  "two_train_operation_approval": false,
+  "next": "Consolidate all subsystem drawing/interface/release status under3S; complete supportable procurement/fabrication/installation/commissioning records, not repeated held geometry."
+}

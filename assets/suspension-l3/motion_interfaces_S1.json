@@ -1,0 +1,44 @@
+{
+  "issue": "3L.3-S1",
+  "design_direction": "Retain custom axleboxes and frame as the primary route; define bearing arrangement and guide articulation before spring saddles or brake-reaction joints.",
+  "motions": [
+    {
+      "pair": "Axle / bearing inner rings",
+      "required": "Rotate together; inner-ring fit and axial retention must be designed.",
+      "must_not": "Treat the journal as a stationary semi-trailer spindle."
+    },
+    {
+      "pair": "Bearing outer rings / axlebox",
+      "required": "Nonrotating support with controlled fits, shoulders, seal seats, lubrication and retention.",
+      "must_not": "Invent clearance/preload, bore tolerance or end-cap clamp loads."
+    },
+    {
+      "pair": "Axlebox / bogie frame",
+      "required": "Specified vertical travel plus angular compliance for wheelset tilt, controlled longitudinal/lateral restraint and removal retention.",
+      "must_not": "Assume long rigid square guides permit tilt without binding."
+    },
+    {
+      "pair": "D1 brake carrier / axlebox",
+      "required": "Spider, cam and chamber support remain aligned to the rotating drum through allowed motions. Brake reaction closes into guide/frame without an incompatible additional constraint.",
+      "must_not": "Weld the stationary spider to the rotating axle, or add a rigid torque link that locks suspension motion."
+    },
+    {
+      "pair": "Bogie / coach",
+      "required": "A separately retained body bearing/pivot, prescribed yaw and roll/pitch accommodation, controlled sidebearer law.",
+      "must_not": "Use spring travel as a substitute for truck yaw."
+    }
+  ],
+  "supplier_return_needed": [
+    "Controlled bearing arrangement drawing, exact suffixes, tolerances, fits, shoulder/radius data, setting method and retention; usable bearing CAD if provided.",
+    "Rail wheel profile, back-to-back, minimum worn diameter, hub/wheel-seat geometry, material and inspection basis.",
+    "Exact delivered D1 drum pilot/bolt circle/mating face/OD/depth and chamber/cam/spider geometry plus full service/spring force-torque curves."
+  ],
+  "engineer_definition_needed": [
+    "Accepted operational/fault load cases and fatigue spectrum",
+    "Whole-truck sprung/unsprung mass and CG",
+    "Axle strength/deflection and bearing load distribution",
+    "Guide tilt freedom, bush/link/liner design, brake-reaction compatibility and wheel-load response on track twist",
+    "Joint materials, tolerances, bolt/weld calculations and prototype acceptance criteria"
+  ],
+  "not_all_work_blocked": "Supplier-dependent parts remain held; spring/damper functional specification, complete-truck load-case model, electrical/HVAC and other independent program work can continue."
+}

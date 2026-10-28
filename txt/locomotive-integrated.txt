@@ -1,0 +1,15 @@
+Locomotive & powered trucks · LT10
+Earlier mechanical arrangement. The user-selected Northern Railroad appearance is developed in LT11 · revised profile and cutaway. This LT10 two-truck study remains a retained engineering reference.3D assemblyDrawingsEngineering & interfacesAxle / motor detailsSingle-fan cooling
+LOCOMOTIVE / LT10
+Locomotive & powered trucks
+Two trucks · Four powered axles · Current body and frame
+INTEGRATION DEVELOPMENTR0 · Not for fabrication19 October 2026 · Pacific
+Combined assemblyLoading…
+Whole locomotiveMachinery cutawayFrame & running gearFront powered truckAxle / motor connections
+ Exploded axle Compatibility 3D
+Loading combined CAD…
+Rotate, zoom or select a component. Frame & running gear exposes the mounting interfaces. Springs and brakes remain reservations; flexible hoses are not included in this combined model.
+Integration drawingsCAD projections · Nominal dimensions in mm
+A01 Locomotive on powered trucksP01 Underframe & staggered motorsT01 Truck & centre connectionJ01 Guide-to-rail interfaceLT10-A01 · Locomotive on powered trucksFull-size ↗LT10-P01 · Underframe & staggered motorsFull-size ↗LT10-T01 · Truck & centre connectionFull-size ↗LT10-J01 · Guide-to-rail interfaceFull-size ↗
+Frame top 1,775 mm remains provisional. J01 identifies the guide attachment that requires revision. Checks and unresolved interfaces →
+Related detailsDT5 axle, bearings & coupling ↗LT4 pivot, side supports & catches ↗LT9 engine-bay cooling ↗Vector drawing set ↗PF–LOCO–LT10 · R0 · 19 October 2026 Pacific · No fabrication release

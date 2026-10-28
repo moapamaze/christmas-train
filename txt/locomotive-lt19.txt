@@ -1,0 +1,47 @@
+LT19 rear-support study · Pulsipher FarmsSkip to contentWhole locomotive · 3DLT19 layout & loadsSeparate engineeringLT18 with trailing wheels
+LT19 · REAR-SUPPORT STUDY · OCTOBER 21, 2026
+Eight large drivers.
+Study the rear without trailing wheels.
+The revised study removes the four small wheels under the cab and keeps both powered trucks at their LT18 positions. The leading small truck remains. This is the preferred option for further engineering; removing the trailing truck is not yet structurally approved.
+17.0 metric tonsPreliminary operating estimate30 m / 98 ftCurve development targetTwo powered supportsMain-body weight in this study
+Revised layout
+Inspect the two options
+Compare the current truck positions with moving the rear powered truck 800 mm aft. The latter reduces frame bending but collides with the low cab floor in a combined suspension pose. Red marks checked interference.
+Preliminary axle loads
+16,979 kg / 37,433 lb total. These are static estimates on level track, with full trial fuel/oil quantities and two 100 kg crew. The powered pivots carry the body; the leading truck carries its own estimated weight. Individual wheel loads need a lateral/track-twist model.
+ | Axle, front to rear
+ | Position X (mm)
+ | Static axle load (kg)
+ | Static axle load (lb)
+ | Leading-1
+ | 1,000
+ | 590
+ | 1,301
+ | Leading-2
+ | 2,050
+ | 590
+ | 1,301
+ | Front drive-1
+ | 3,300
+ | 4,025
+ | 8,873
+ | Front drive-2
+ | 4,850
+ | 3,160
+ | 6,966
+ | Rear drive-1
+ | 6,500
+ | 4,292
+ | 9,461
+ | Rear drive-2
+ | 8,050
+ | 4,322
+ | 9,529
+The low and high mass budgets are 14.5–21.5 metric tons. They are assumption cases, not measured weights or confidence limits. The historical 12-ton drivetrain basis is not validated by this study.
+What this revision establishes
+The rear small wheels can be removed from the packaging model while retaining eight drivers and the low body profile.
+The current pivot positions clear the sampled exterior envelopes at 30 m, including the prescribed jounce/rebound and tilt probes. The flat pivot stacks themselves interfere when tilted.
+Moving the rear powered truck 800 mm aft is held: cab-floor interference and a reduced front-support gap outweigh its lower preliminary rear-frame bending.
+The weight map, preliminary axle loads and gross frame-bending comparison are ready for structural review.
+The support study does not establish that the trailing wheels are unnecessary in the finished train. Actual component masses, powered-truck capacity, leading-truck load sharing, pivot articulation and frame/attachment design still decide that question.
+Calculations, mass ledger and open connections →Download preliminary mass ledger CSVLT19 · Preliminary support study · Structural review required before fabricationLocomotive

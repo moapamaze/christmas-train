@@ -1,0 +1,80 @@
+{
+ "issue": "PF-3P2-R0",
+ "date": "2026-10-19",
+ "scope": "Physical HVAC interface/manual audit; not a mounting design or complete3P",
+ "primary_manual": {
+  "publisher": "Dometic",
+  "url": "https://media.dometic.com/externalassets/dometic-freshjet-3-series-15k_107740.pdf",
+  "document": "4445104227 / 3317817.000",
+  "publication_date": "2025-10-24",
+  "retrieved_date": "2026-10-19",
+  "sha256_retrieved_pdf": "e9be58b37fc63f3f002ee63a3f1f94e61a49ca087bfedac234a6dbb469ee8377",
+  "visual_review": "Rendered and inspected English printed pages5\u20137; read installation sections7.2,7.3,7.7,7.8 and specifications. Full copyrighted manual is linked, not republished.",
+  "quoted_text_words": null,
+  "intended_application": "RV roof; train acceptance unconfirmed"
+ },
+ "body_study": {
+  "source": "assets/systems-p1/inherited-inputs.json / geometry",
+  "floor_above_rail_in": 32,
+  "floor_load_state": null,
+  "clear_head_height_m": 2.2,
+  "roof_stack_proxy_in": 3,
+  "roof_stack_actual_materials": null,
+  "body_outer_length_in": 312,
+  "body_outer_width_in": 110
+ },
+ "manual_dimensions_in": {
+  "ADB_outer_L_W_H": [
+   23,
+   20.4,
+   2.3
+  ],
+  "FreshJet3_outer_L_W_H": [
+   29.6,
+   27.6,
+   14.4
+  ],
+  "FreshJet5_outer_L_W_H": [
+   40.39,
+   29.21,
+   11.1
+  ],
+  "dimension_status": "Published overall nominal dimensions; not complete solid geometry, base/gasket/pilot/fastener patterns, tolerances or unit mass. See English printed pages5\u20137."
+ },
+ "manual_conflicts": [
+  {
+   "id": "P2-C01",
+   "locator": "English printed page7 / figure6 / clearance legend",
+   "finding": "FreshJet5 clearance is printed XXX; no accepted numeric replacement inferred.",
+   "resolution": "Exact current variant installation drawing with directional operating airflow and service/lifting envelopes."
+  },
+  {
+   "id": "P2-C02",
+   "locator": "English printed page6 / figure5",
+   "finding": "FreshJet3 plan callout numbering and legend do not consistently identify the shaded clearances. Do not turn a nominal18in callout into a complete directional envelope.",
+   "resolution": "Corrected/confirmed figure for selected variant and all directional clearance datums."
+  },
+  {
+   "id": "P2-C03",
+   "locator": "English section7.2 versus7.3.1",
+   "finding": "New-opening nominal14.3\u00b10.1in implies14.2\u201314.4in; existing-opening instructions use14.1in as the lower enlargement threshold.",
+   "resolution": "Manufacturer-confirmed opening/flatness/tolerance and applicable new-roof assembly; no cutting release from either threshold."
+  },
+  {
+   "id": "P2-C04",
+   "locator": "English section7.2 versus13.3",
+   "finding": "The general roof-thickness range and later divider/accessory table cover different ranges. A3in proxy is not an actual engineered roof assembly.",
+   "resolution": "Accepted basepan-to-ceiling stack, gasket compression, divider and OEM mounting hardware for exact configuration."
+  }
+ ],
+ "retained_unit_counts_trial": {
+  "regular": 6,
+  "accessible": 4
+ },
+ "inherited_serial_access_gap_probe_in": 18,
+ "accepted_unit_count": null,
+ "accepted_mounting_holes": null,
+ "accepted_unit_mass_kg": null,
+ "accepted_roof_or_undercar_connection": null,
+ "accepted_rail_application": null
+}

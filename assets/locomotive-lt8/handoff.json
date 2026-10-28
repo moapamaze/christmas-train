@@ -1,0 +1,40 @@
+{
+  "revision": "LT8-R0",
+  "date_UTC": "2026-10-20",
+  "engine_location": "Locomotive",
+  "frame_top_mm": 1775,
+  "frame_top_status": "Provisional",
+  "cooling": "Two upright side-facing core envelopes, independent outward fans, sealed top fresh-air intake. Capacity, fan drive and equipment interfaces unselected.",
+  "fan_drive_load": "Unresolved; drivetrain/electrical owner to accept selected duty and transients. No circuit altered.",
+  "handrail": "Engine and cooling spans removable at captured split couplings; no load rating or structural release.",
+  "supplier_request": {
+    "sent": true,
+    "recipient": "info@ai-engines.com",
+    "date_UTC": "2026-10-20",
+    "scope": "Configured Kubota and matched hydrostatic package technical/quote request only",
+    "review_or_reply_confirmed": false
+  },
+  "supplier_approval": false,
+  "structural_approval": false,
+  "release_holds": [
+    "Configured coolant/CAC and hydraulic heat duties at continuous duty, altitude and design ambient",
+    "Core and louver pressure-loss curves; branch flow split; actual coolant/oil plumbing",
+    "Fan curve, power, diameter, depth, drive, speed control, guard and supplier mount pattern",
+    "Intake weather separator/screen/drains and hot-air recirculation test",
+    "Rail overhang, vibration, fan thrust, wet package weights, isolation and frame approval",
+    "Removable handrail joint, louver centre carrier, outlet connector and fan handling method",
+    "Core cleaning/extraction; fan brackets/wire or hose disconnection; lockout and temperature controls"
+  ],
+  "remaining_access": [
+    "Hatch hold-open stay",
+    "Heavy-panel handling/captive retention",
+    "Dome-column weather covers",
+    "Supplier-based filter/pump and powerpack removal proof"
+  ],
+  "preserved_owners": [
+    "Passenger cars",
+    "Brakes",
+    "Drive wheels",
+    "Drivetrain and suspension"
+  ]
+}

@@ -1,0 +1,49 @@
+Wheels, axle and bearing retention · CW1
+Current bearing-end revision: centered spacer, seals and assembly · CW3
+New: wheel-profile and axle machining review · CW2
+CW1 · 20 October 2026
+How the wheels attach to the axles
+Both wheels are pressed tightly onto one solid, rotating axle. The interference fit holds each wheel and transfers torque. The bearing locknut clamps the bearing inner ring against the axle shoulder.
+The proposed retainer is an SKF KM18 locknut with an MB18 tab washer. The washer keys into the axle; one outer tab bends into a nut slot to prevent loosening. There is no castle nut in this proposal.
+Development drawings. Wheel fit, running profile, materials and load approval remain open. Engineering and source evidence are separate.
+Dimensioned drawings
+Tap a drawing to enlarge it on the site. All dimensions are millimetres; no PDF download is needed.
+Wheel and axle sectionEnlarge CW1-W01
+Bearing nut, tab washer and closed coverEnlarge CW1-W02
+Inspect the CAD
+Whole wheelsetWheelset sectionBearing retention close-upSee shortened axles under the connected coaches →
+Loading the wheelset…
+Parts for one wheelset
+ | Part
+ | Quantity
+ | Current design basis
+ | Solid steel axle
+ | 1
+ | 1330 overall; Ø100 body; Ø110 nominal wheel seats; Ø90 bearing journals
+ | One-piece steel wheel
+ | 2
+ | Ø600 nominal running diameter; hub Ø200 ×140 long; final rail profile and press fit pending
+ | SKF 22218 E bearing
+ | 2
+ | 90 ×160 ×40; application, fit and clearance selection pending
+ | Custom abutment spacer
+ | 2
+ | Ø104 / Ø90.2 ×3 provisional; provides thread-runout space
+ | SKF MB18 tab washer
+ | 2
+ | 1.75 thick; new washer at each installation
+ | SKF KM18 locknut
+ | 2
+ | M90×2; Ø120 ×16; tightening procedure pending
+ | Blind outer axlebox cover
+ | 2
+ | 200 ×200 ×12; retains existing four-hole cover pattern
+Build and assembly plan
+Release the wheelset specification with a wheelset shop. Agree rail/wheel profile, back-to-back, materials, loads, measured seat/bore tolerances and acceptable press records before machining.
+Machine and inspect the axle and wheels. Include shoulders, fillets, bearing fits, thread runout, washer grooves and the axle-2 brake keyway. Final heat treatment and inspection requirements belong on the released shop drawings.
+Stage the closed inboard brake parts before pressing the adjacent wheel. Preserve the existing split brake hub and reducer arrangement. Check the C5.5 service sequence for rotor, bearings and seal tracks.
+Press both wheels onto their seats. Use the approved process and support tooling; record force versus travel, set the approved wheel back-to-back, and inspect wheelset runout. Do not use the bearing nut to draw a wheel onto its seat.
+Mount the journal bearings, spacer, new MB18 washer and KM18 nut. Seat the inner rings against the Ø104 shoulders. Tighten using the approved bearing procedure, then bend a washer tab into a nut slot. This is not a tapered trailer-bearing back-off adjustment.
+Fit the axleboxes, seals and covers. Both inner rings stay clamped. The left bearing outer ring is the floating end; the right housing locates the axle. Verify free rotation, end clearances, brake clearance and the supplier’s inspection acceptance.
+The connected-coach model now uses 1330 mm axles, removing 615 mm from each obsolete extension. Wheel, bearing and inboard brake locations remain at their current datums.CAD interchange file
+Compressed STEP study — optional for CAD users; drawings and 3D inspection are available above. Nominal shapes, not released manufacturing geometry.CW1 · Nominal development · Not for fabrication

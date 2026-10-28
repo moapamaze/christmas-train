@@ -1,0 +1,170 @@
+{
+  "revision": "C3-INDEPENDENT-GEOMETRY-REVIEW-R0",
+  "status": "BOUNDED_NOMINAL_GEOMETRY_REVIEW_NOT_FABRICATION_OR_ACCESSIBILITY_ACCEPTANCE",
+  "reviewed_utc": "2026-10-19T18:38:10.497862+00:00",
+  "source_files": [
+    {
+      "path": "parameters.json",
+      "sha256": "fe37f088c65937494744a04a35c1b9abdc1056481448b4e5523b74a076ad32ea"
+    },
+    {
+      "path": "parts.json",
+      "sha256": "82ab8890eb29ba840324a3d0292e487e05781715ec7585e0b4b1442823970d69"
+    },
+    {
+      "path": "verification.json",
+      "sha256": "850bf2ddbbb692749395312fbbdb8da93790ab53bdcb030e31f305914e27009a"
+    },
+    {
+      "path": "model-stowed.json",
+      "sha256": "dd1400125f7b4a6f9da3a06164c109f8016a54b64b5874197d2656a3947d6798"
+    },
+    {
+      "path": "model-deployed.json",
+      "sha256": "96223511eedf1efb317614a7abcc54a15df0cf8d4013b0557425f6ce83ffa732"
+    },
+    {
+      "path": "C3-fold-seat-90-R0.step",
+      "sha256": "002b5a4d2eb0b22eb76543ece3c7fd4dcbede2e6e9511792e19993b5f3abce27"
+    },
+    {
+      "path": "layout-proposal.json",
+      "sha256": "c4e2d89e810c36cd3fa52cdd485f82acff01060a9a33f8c85f1110d554a62e24"
+    },
+    {
+      "path": "path-bay1.json",
+      "sha256": "33ff2248b87593464cb6b547bd28ca8f11d765f63d3b14112d0e7a3b3d8b2ee4"
+    },
+    {
+      "path": "path-bay2.json",
+      "sha256": "0dcdee07e2ce7ebe1372aba73b71afd81f22b2e57c2fe3a6db9633994476fbb8"
+    },
+    {
+      "path": "maneuvering-verification.json",
+      "sha256": "c649f835b1439abc59dd309c803cdb73c8f1101f1cbcc6a8f03d7c8ad8e7a118"
+    }
+  ],
+  "inputs_unchanged_during_review": true,
+  "stowed_mesh_bounds_in_including_padding_excluding_context": {
+    "x": [
+      60.0,
+      65.875
+    ],
+    "y": [
+      -47.0,
+      -17.0
+    ],
+    "z": [
+      27.628937,
+      70.0
+    ]
+  },
+  "independent_stowed_step_check": {
+    "independent_import": "CadQuery/OpenCascade reimport of exported stowed STEP",
+    "valid": true,
+    "physical_solid_count": 93,
+    "bbox_in": {
+      "x": [
+        60.0,
+        65.875
+      ],
+      "y": [
+        -47.0,
+        -17.0
+      ],
+      "z": [
+        27.628937000000004,
+        70.0
+      ]
+    },
+    "excludes": "Export excludes the two padding envelopes, two contextual rails and floor context; those five account for98CADparts versus93physicalexportedsolids."
+  },
+  "stowed_mesh_inside_first_declared_support_strip": true,
+  "nominal_stowed_forward_gap_to_wheelchair_bay_in": 0.125,
+  "nominal_aft_strip_margin_in": 0.0,
+  "second_seat": {
+    "translation_x_in": 66,
+    "equivalent_forward_gap_in": 0.125
+  },
+  "lock_endpoint_index_checks": [
+    {
+      "state_deg": 0,
+      "moving_hole_angle_before_rotation_deg": 135,
+      "center_xz_in": [
+        63.186827201635474,
+        49.313172798364526
+      ],
+      "center_error_in": 0.0
+    },
+    {
+      "state_deg": 90,
+      "moving_hole_angle_before_rotation_deg": 45,
+      "center_xz_in": [
+        63.186827201635474,
+        49.313172798364526
+      ],
+      "center_error_in": 0.0
+    }
+  ],
+  "mass_reconciliation": {
+    "physical_excluding_padding_context_kg": 54.05593160109914,
+    "quoted_physical_kg": 54.05593160109914,
+    "moving_with_padding_kg": 13.14925096089262,
+    "quoted_moving_with_padding_kg": 13.149250960892617,
+    "moving_excluding_padding_kg": 12.62579948763637,
+    "quoted_moving_excluding_padding_kg": 12.62579948763637,
+    "all_agree_within_1e_9kg": true
+  },
+  "layout_counts": {
+    "fixed_seats": 11,
+    "optional_seats": 2,
+    "wheelchair_bays": 2,
+    "route_width_in": 36
+  },
+  "independent_path_reports": [
+    {
+      "bay": 1,
+      "method": "Independent separating-axis projections; maximum separation on candidate unit axes is a conservative Euclidean distance lower bound. Analytic arc sampled independently.",
+      "sample_count": 1693,
+      "minimum_separating_axis_distance_lower_bound_in": 1.1786661188675254,
+      "max_between_sample_body_excursion_bound_in": 0.125,
+      "continuous_distance_lower_bound_in": 1.0536661188675254,
+      "other_bay_actual_parked_proxy_distance_lower_bound_in": 12.324258837543738,
+      "other_bay_fold_user_proxy_distance_lower_bound_in": 1.7674928025208203,
+      "sample_collision_count": 0,
+      "parked_inside_bay": true,
+      "straight_segment_lateral_error_in": 5.551115123125783e-15
+    },
+    {
+      "bay": 2,
+      "method": "Independent separating-axis projections; maximum separation on candidate unit axes is a conservative Euclidean distance lower bound. Analytic arc sampled independently.",
+      "sample_count": 2404,
+      "minimum_separating_axis_distance_lower_bound_in": 1.023771564463921,
+      "max_between_sample_body_excursion_bound_in": 0.125,
+      "continuous_distance_lower_bound_in": 0.8987715644639209,
+      "other_bay_actual_parked_proxy_distance_lower_bound_in": 3.062282218951923,
+      "other_bay_fold_user_proxy_distance_lower_bound_in": 0.8987715644639209,
+      "sample_collision_count": 0,
+      "parked_inside_bay": true,
+      "straight_segment_lateral_error_in": 7.771561172376096e-15
+    }
+  ],
+  "limitations": [
+    "The 5-degree mechanism interference report is author-generated sampled exact-solid evidence; this audit does not claim a continuous mechanism swept volume or tolerance proof.",
+    "Nominal lock-hole center coincidence verifies indexing only. Captive retention, anti-release, pin engagement, guard openings and finger protection are unfinished.",
+    "Masses exclude contextual floor/rail, and the54kg physical total excludes padding. Welds, finish, final retention, panel fastening and purchased components remain unfinalized.",
+    "Path findings apply only to the declared30x48in rigid proxy, assumed rear axle, ideal pivots/arcs and listed obstacles. Actual devices, casters, door leaves, threshold/bridge, securement, effort and boarding-side confirmation remain open.",
+    "Companion seats exist adjacent to both bays but actual shoulder alignment is still proxy-dependent. No anthropometric acceptance claimed.",
+    "Source foundation load shares/prying remain sensitivity assumptions; this geometry finding does not validate strength."
+  ],
+  "release_claim": false,
+  "later_transport_packaging": {
+    "record": "lossless-mesh-packaging.json",
+    "meaning": "Original mesh hashes refer to decoded payloads. Historical verification is preserved; the current mesh files add .gz. Builder and renderer now support gzip.",
+    "mapping": {
+      "model-deployed.json": "model-deployed.json.gz",
+      "model-mid.json": "model-mid.json.gz",
+      "model-stowed.json": "model-stowed.json.gz"
+    }
+  }
+}

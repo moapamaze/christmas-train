@@ -1,0 +1,233 @@
+LT20 articulated connections · Pulsipher FarmsSkip to contentWhole locomotive ·3DLT20 connectionsSeparate engineeringLT19 rear support
+LT20 · ENGINEERING RECORD
+Articulated connections.
+Geometry checked; strength unapproved.
+This record replaces the flat LT18/LT19 powered-pivot interfaces. It retains the 914.4 mm gauge,1450 mm drivers,1550 mm truck wheelbase and powered pivot centres X4075/7275. The small trailing truck remains removed from the candidate. No operating radius, axle guidance, spring set or structural fabrication release is established.
+Load paths and joint freedoms
+Body crosshead → two clevis cheeks → inner-ring spacers and Ø100 pin → spherical bearing → captive outer-ring housing → wing bolster → truck sideframes. The longitudinal pin makes vertical and lateral loads radial to the bearing; traction/braking acts along its axis and therefore needs combined-load qualification. Body roll is rotation about this axis; yaw and pitch consume the bearing misalignment allowance. A sealed GE100ES-2RS is a catalog geometry candidate, with no final bearing selection.
+Uplift reverses radial loading through the same captured spherical assembly. The integral head and mechanically locked nut retain the pin axially. Outer-ring caps retain the housing assembly. This is positive capture, not a redundant second suspension path or proof against bearing fracture.
+Updated static mass ledger
+Base estimate:15,894 kg. The change from LT19 is-1,085 kg, mainly because solid placeholder crossmembers/bolsters were replaced by shaped connection geometry. This is a proxy-model change, not measured weight savings. Existing missing-equipment allowances remain; some double counting is deliberately retained. Static axle loads remain preliminary.
+ | Axle
+ | Load kg
+ | Load kN
+ | LEAD-1
+ | 590
+ | 5.8
+ | LEAD-2
+ | 590
+ | 5.8
+ | FRONT-1
+ | 3,751
+ | 36.8
+ | FRONT-2
+ | 2,892
+ | 28.4
+ | REAR-1
+ | 4,017
+ | 39.4
+ | REAR-2
+ | 4,054
+ | 39.8
+Six mass cases close force and moment equilibrium. Main-body weight is carried by the two powered supports in this model; leading-truck body load sharing is unresolved. All wheel loads still need lateral and track-twist analysis. Exact assumptions, ledger, load cases and formulas →
+Explicit structural probes
+The rebound probe applies40.76 kN to one restraint:3×the high-budget hanging wheelset proxy, including the added moving fittings. The pivot probe uses115.09 kN vertical (2×the highest assumed body reaction),40 kN lateral and 40 kN longitudinal. These are analyst load probes; accepted operating, impact and separation events have not been defined.
+ | Gross-section demand
+ | Result
+ | M24 rebound rod, nominal thread tension
+ | 115.6 MPa
+ | Ø30 lower pin, central point-load bending
+ | 223.0 MPa
+ | Lower pin, double shear
+ | 28.8 MPa
+ | 16 mm guide plate,100 mm effective width
+ | 229.3 MPa
+ | M16 upper bracket bolt, tension before prying
+ | 173.4 MPa
+ | Ø100 pivot pin, central point-load bending
+ | 48.1 MPa
+ | Pivot cheek projected bearing
+ | 24.4 MPa
+Rod stress uses the metric-thread tensile-area approximation π/4(d−0.9382p)². Pin bending uses a central point load on simply supported spans 155 mm (pivot) and 58 mm (lower pin). Plate bending uses F×24 mm divided by 100×16²/6. The bracket's 40 mm eccentricity gives 27.17 kN tension per upper M16 bolt before prying, plus 10.19 kN direct shear per bolt. No allowable stress, safety factor, material certification or fatigue acceptance is assigned.
+The lower rebound pin and guide plate have the largest reported local bending demands. Their stress concentrations, real load spread, prying, threaded engagement and cyclic/impact response must be resolved. A mechanical lock prevents loss of hardware; it does not establish retained preload or joint strength.
+Bearing combined-load hold: The illustrative axial/radial ratio is 0.328. It exceeds the 0.25 range plotted for this bearing type in the SKF catalog (printed page 42). No factor is extrapolated and no bearing capacity is accepted. Obtain supplier approval or redesign the traction-load path before selection.
+Body roll is a separate requirement
+Four side supports at Y±285 are reserved. The base body CG estimate is Z1717, above the joint atZ1130. Gravity contributes about 43.6 kN·m/rad of destabilizing roll stiffness. For four equally active supports, the purely static lower bound is more than 134 N/mm each merely to overcome that term. This is not a selected rate or adequate stability margin. Preload, wheel unloading, side forces, suspension twist, damping, pad shear and sliding wear remain open.
+Across the sampled tilted poses, the four corner gaps required of the roll-support space range 22.4–37.6 mm. Purple viewer volumes are warped to the contact planes only for illustration; they do not implement a spring material or solve load sharing.
+Clearance evidence
+25 sampled rigid BREP positions, new parts internally and against retained locomotive; full powered-wheel disks supplement spokes. Compliant roll pads omitted from rigid collision checking. Spring annular occupancy checked separately against all new geometry; no spring bow/coil movement model. Original same-motion internal overlaps and fixed joints omitted. Exact fit contacts allowed; intersections >0.5 mm³ reported. No swept continuum, tolerance stack, elastic frame deflection, rail contact or dynamic qualification.
+30 m receives both turn directions, ±1° roll and pitch in all four sign combinations, and +25/−20 mm equal primary travel. Additional axle-roll probes use ±1° with−10 mm heave to avoid forcing one stop through its flange. At those poses the smallest analytical rod radial clearance is 2.32 mm, and the smallest noncontact rebound-stop gap is 2.65 mm. Full 20 mm droop is intentional stop contact. These small gaps require a tolerance/deflection budget; they are not acceptance margins.
+25 m is checked only at nominal suspension height in this revision. The older 22.5 m front-support/leading-anchor conflict is not repaired by the pivot redesign. Coupling rods, crank rotation, chain travel, leading suspension and real wheel/rail contact remain undeveloped.All 25 sampled positions
+ | Radius m
+ | Hand
+ | Heave mm
+ | Roll / pitch / axle roll°
+ | Bearing°
+ | Rigid / wheel / spring hits
+ | Straight
+ | 0
+ | 0
+ | 0/0/0
+ | 0.00
+ | 0/0/0
+ | 30.0
+ | -1
+ | 0
+ | 0/0/0
+ | 3.06
+ | 0/0/0
+ | 30.0
+ | -1
+ | 25
+ | -1/-1/0
+ | 3.22
+ | 0/0/0
+ | 30.0
+ | -1
+ | 25
+ | -1/1/0
+ | 3.22
+ | 0/0/0
+ | 30.0
+ | -1
+ | 25
+ | 1/-1/0
+ | 3.22
+ | 0/0/0
+ | 30.0
+ | -1
+ | 25
+ | 1/1/0
+ | 3.22
+ | 0/0/0
+ | 30.0
+ | -1
+ | -20
+ | -1/-1/0
+ | 3.22
+ | 0/0/0
+ | 30.0
+ | -1
+ | -20
+ | -1/1/0
+ | 3.22
+ | 0/0/0
+ | 30.0
+ | -1
+ | -20
+ | 1/-1/0
+ | 3.22
+ | 0/0/0
+ | 30.0
+ | -1
+ | -20
+ | 1/1/0
+ | 3.22
+ | 0/0/0
+ | 30.0
+ | -1
+ | -10
+ | 0/0/1
+ | 3.06
+ | 0/0/0
+ | 30.0
+ | -1
+ | -10
+ | 0/0/-1
+ | 3.06
+ | 0/0/0
+ | 25.0
+ | -1
+ | 0
+ | 0/0/0
+ | 3.67
+ | 0/0/0
+ | 30.0
+ | 1
+ | 0
+ | 0/0/0
+ | 3.06
+ | 0/0/0
+ | 30.0
+ | 1
+ | 25
+ | -1/-1/0
+ | 3.22
+ | 0/0/0
+ | 30.0
+ | 1
+ | 25
+ | -1/1/0
+ | 3.22
+ | 0/0/0
+ | 30.0
+ | 1
+ | 25
+ | 1/-1/0
+ | 3.22
+ | 0/0/0
+ | 30.0
+ | 1
+ | 25
+ | 1/1/0
+ | 3.22
+ | 0/0/0
+ | 30.0
+ | 1
+ | -20
+ | -1/-1/0
+ | 3.22
+ | 0/0/0
+ | 30.0
+ | 1
+ | -20
+ | -1/1/0
+ | 3.22
+ | 0/0/0
+ | 30.0
+ | 1
+ | -20
+ | 1/-1/0
+ | 3.22
+ | 0/0/0
+ | 30.0
+ | 1
+ | -20
+ | 1/1/0
+ | 3.22
+ | 0/0/0
+ | 30.0
+ | 1
+ | -10
+ | 0/0/1
+ | 3.06
+ | 0/0/0
+ | 30.0
+ | 1
+ | -10
+ | 0/0/-1
+ | 3.06
+ | 0/0/0
+ | 25.0
+ | 1
+ | 0
+ | 0/0/0
+ | 3.67
+ | 0/0/0
+BREP check results JSON →
+Service checks
+Nominal unloaded discrete extraction corridors only. Main pin 250 mm aft; cartridge 126 mm up; bracket 100 mm up; rod 80 mm up then 200 mm aft. Requires independently supporting body, both trucks and wheelsets, removing spring/rebound loads and safe lifting provisions. Lockwire cut/removed; listed parts removed before each probe. Not an approved maintenance/jacking procedure; tools, hand access and service lifting apparatus unmodeled.
+The guide cartridge can be changed after removing the upper stop lock and four M8 bolts. Rod removal also requires removing the guide bracket's four M16 bolts, then the lower pin. Locks are not removed under load. Safe jacking points, spring unloading, temporary restraint, lifting tools and a signed maintenance procedure remain to be developed. Removal-corridor evidence →
+Still required before fabrication
+Rod thread root and eye transition fatigue; castle-nut stripping and cotter geometry; stop-washer bending and contact pressure.
+Lower clevis bending, axlebox weld group, cast/weldable material compatibility and bearing distortion.
+Guide bracket bending load spread, prying, bolt preload/slip, tapped-thread stripping, local sideframe fatigue, cartridge flange bending and wear.
+Crosshead/end welds, main-rail wall crippling/diaphragms, cage/cap bending, cap bolts and nut threads, combined bearing life and lubrication.
+Accepted vertical, braking, traction, buff/draft, side thrust, derailment/separation and jacking events; impact energy/damping.
+Body roll-support selection and complete leading-truck support, axle guidance, wheel unloading, drive/suspension compatibility.
+Castellated nut blanks, split pins and drilled-head fasteners are dimensioned candidates. Threads are simplified cylindrical envelopes; production thread class, root fillets, washers/shims, torque, wire routing, lubrication and inspection intervals require release. No part should be fabricated from the visual meshes.
+Primary references
+SKF spherical plain bearings catalog, printed pages 106–107: GE100ES-2RS dimensions and 6° angle; inner abutment 107.8–109.5, sealed housing abutment 131–143.2, fillet≤1. The chosen 109/134 abutments are nominal geometry only.
+SKF GE100ES-2RS product record: requiring maintenance, sealed steel/steel bearing. Supplier load/life and installation review remains necessary.
+NASA RP1228 Fastener Design Manual: background on locking, preload and combined fastener loads; not a locomotive design standard or release basis.
+LT19 static basis: original assumptions, Kubota engine mass and Steel Tube Institute section properties retained.LT20 · Development geometry · Structural review required before fabricationLocomotive

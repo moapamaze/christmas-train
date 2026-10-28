@@ -1,0 +1,101 @@
+DT4 R1 · Motor sourcing and incorporation
+Previous version · Motor sourcing background
+This page is retained as history. Open the current assembly →
+DT4 R1 · Component sourcing · 19 October 2026
+Motor selected for supplier review
+Poclain MS05-8-113-A05-2A50-0000 is the exact listed base motor for the 376 cc, single-displacement, male-spline study. Four motors, one per axle, with 1:1 couplings. The final sensor-equipped order configuration is held for supplier confirmation.
+Source identified; no quote, supplier application approval or purchase yet. This plan advances the existing layout into component interfaces. The motor carrier and coupling still require detailed design before fabrication.
+View dimensioned motor sheetSupplier request specificationIncorporation sequence
+Where to source it
+ | Route
+ | Evidence / contact
+ | Use
+ | OneHydraulics
+ | SKU 007243726Q. Listed [price removed] each; 16–18 weeks usual shipment. 281-941-2310 · sales@onehydraulics.com
+ | Quote the base unit and the appropriate factory speed-sensor variant. Page also says “call for price”; listing is not a firm quote or stock promise.
+ | MFCP Henderson
+ | 900 W Warm Springs Rd, Suite 105, Henderson NV 89011. [phone removed] · Henderson@mfcpinc.com
+ | Local route for Poclain application support and a complete hydraulic package. Confirm branch territory and support availability; no local stock established.
+ | Poclain application team
+ | Manufacturer configuration and duty review.
+ | Obtain configured CAD, operating limits and written acceptance of the proposed mounting and duty.
+Motor-only planning allowance: [price removed] for four, before sensor upgrades, freight, tax, couplings, carriers, controls, pump and plumbing. Request one prototype first, three balance units after validation, and an optional spare price. No supplier message has been sent.
+Exact base configuration
+ | Code / interface
+ | Meaning / constraint
+ | MS05 / displacement 8
+ | Classic 376 cc/rev. Do not substitute displacement code 0 (468 cc): it exceeds the present pump flow at 7.5 mph.
+ | 113 / A05
+ | Single displacement; cover without mounting; BSP connections; simple plate without rear brake.
+ | 2A50 / 0000
+ | Lug-mounted male spline; DIN 5480 nominal 55 mm, module 3, 17 teeth. No options in this listing; speed sensing must be added or separately engineered.
+ | Flange
+ | Ø200 pilot (0 / −0.072 mm), 23 mm projection; 8 × Ø17.5 holes (+0.25 / −0.10) on Ø265 PCD. Hole angular coordinates and bolts held for OEM drawing.
+ | Size / mass
+ | Ø300 bound × 308 mm maximum axial extent; 206 mm mount-to-rear. Catalog 41 kg without rear brake, 164 kg for four bare motors. Carrier/coupling/sensor/hoses and final mass split remain unknown.
+ | Hydraulic interfaces
+ | R/L working ports BSP 3/4; case ports 1/2 BSP 3/8. Catalog case-pressure limit 1 bar. Confirm exact fitting, sealing and transient limits for final configuration.
+Correction: the flange supports the motor
+The MS05 male-spline motor cannot be hung from its output shaft or coupling and held only by a torque arm. Poclain's installation manual requires chassis mounting for male-spline versions. Here that means a properly supported flange carrier, with its suitability confirmed by Poclain. A generic torque-arm example does not approve this particular motor installation.
+The carrier must track the axle through suspension travel. Its support carries motor weight and dynamic loads; its restraint transfers casing reaction into the truck. The coupling carries drive torque and only its rated misalignment/load. Two possible restraint concepts remain open: a guided axlebox carrier that transmits reaction through rated guides, or a separately supported articulated carrier with a reaction link. Combining both rigid constraints can bind suspension travel. We have not selected or detailed either concept.
+The next mechanical release must include the carrier supports, bearing/axlebox attachment, fasteners and fits, coupling/hub, torque path, retention, guards and suspension sweep. No bracket thickness, weld or bolt torque is inferred from the motor's hole size.
+Loads and operating request
+ | Input
+ | Requirement / implication
+ | Speed / flow
+ | Ø1,000 wheels: 64.03 rpm at 7.5 mph; 2.13 rpm at 0.25 mph. Estimated 25.34 L/min per motor at top speed, 101.38 total, using 0.95 volumetric efficiency.
+ | Power
+ | 300 bar at top speed needs about 69.3 kW including 10 kW auxiliaries, above the inherited 55.4 kW gross intermittent engine figure. Confirm installed continuous engine power and apply pump power limiting. Full speed and full pull are not simultaneous.
+ | Structural torque request
+ | Ideal torque: 1795 N·m at 300 bar; 2693 N·m at 450 bar. Use pressure/displacement torque for mount screening, not the lower efficiency-adjusted propulsion estimate. 450 bar is a catalog ceiling, not a relief setting.
+ | Transient sensitivity
+ | 1.5 × ideal 450-bar torque = 4039 N·m. This is an illustrative request envelope only; reversal, braking, faults, fatigue and actual pressure controls determine the design loads.
+ | Duty approval
+ | Obtain 376 cc maps, starting torque at near-zero speed, leakage, thermal limits and continuous/intermittent ratings. Catalog maxima are not simultaneously available duty ratings.
+Incorporation sequence
+Supplier configuration: review the exact base motor, sensor and controls; obtain configured STEP and dimension drawing, mounting approval, operating map and quote.
+Freeze wheelset interfaces: select railway axle/bearings/axleboxes and finalize axle-end geometry. The existing Y840 axle end and Ø160 × 140 coupling space are reservations, not compatible purchased interfaces.
+Specify the mechanical assembly: procure a rated coupling with the correct DIN 5480 motor hub and a designed axle connection; resolve carrier support, reaction path and full suspension movement together. Request torsional and fatigue ratings for reversing duty.
+Integrate hydraulics: matched reversible pump, charge/protection, power limiting, four speed signals and slip management, flushing, cooler, reservoir and filters. Confirm R/L mapping separately for each motor mounting side. Size work lines and independent low-pressure case drains from the selected system and actual routing.
+Return the complete assembly to frame/brake coordination: mass, CG, unsprung split, dynamic reactions, hose sweeps, guards, brake envelopes and removal clearance. Check combined truck yaw, body articulation and axle travel.
+Release one prototype axle: after detailed design review, fabricate and instrument one complete motor/carrier/coupling/wheelset assembly. Validate rotation agreement, creep/start, temperature, control faults and independent brakes under a reviewed test plan. Then release the other three.
+Buy / design schedule
+ | Quantity
+ | Assembly
+ | Status
+ | 4
+ | Poclain motor and speed sensing
+ | Base motor sourced; final sensor variant and duty acceptance held.
+ | 4
+ | Coupling + motor spline hub + axle connection
+ | Supplier-rated assembly required; no selected SKU or approved fit.
+ | 4
+ | Flange carrier + support + reaction restraint
+ | Custom design with axlebox/suspension owner; no manufacturing release.
+ | 4 wheelsets / 8 axle bearings
+ | Railway wheelsets and bearing/axlebox system
+ | Final supplier, bearing arrangement, seats and ratings held.
+ | 1 system
+ | Pump, controls, protection, cooling and filtration
+ | Matched package review required; current pump is a calculation basis.
+ | 4 motor branches
+ | Two work connections and a case-drain route per motor
+ | Fittings, hose count/lengths, ratings and routing held for the complete schematic.
+Shared frame and coach interfaces
+Reviewed source 72e9cbdf: locomotive LT4 R0 and coach C5.1. Retain study datums: 1,400 mm truck wheelbase, pivots X3300 / X6000, nominal Ø1,000 wheels; DT top plate Z1170, joint Z1335, body-pad bottom Z1451.15, frame top Z1775 and cab floor Z1800. These are integration references, not strength acceptance.
+LT4 proposes a 400 × 400 × 20 top plate, fasteners, side feet and catches. Their load capacity, welds and retention are not accepted by this motor plan. Return new drivetrain mass and reactions before spring or frame release. Motion checks must cover proposed primary axle travel +50 / −40 mm, truck yaw ±8° and body pitch/roll ±2° in their correct joints; these are study requirements, not a validated combined sweep.
+Coach C5.1 prefers tread brakes; that does not select the locomotive brake. Keep locomotive brake space and independent service/parking brakes in the integration review. Current coach masses and seating loads must be reconciled with the locomotive mass ledger before grade or passenger capacity claims. Coordination is recorded in shared source files; no response from another chat is claimed.
+Ready-to-use supplier request specification
+Request quotation and application engineering for four Poclain MS05 Classic 376 cc, single-displacement shaft motors. Reference base MS05-8-113-A05-2A50-0000, supplier SKU 007243726Q; final ordering code to include compatible speed sensing. Quote one prototype, three balance units and one optional spare, with lead time, freight, warranty and spares.
+Application: low-speed passenger railway locomotive, four independently controlled solid wheelsets, direct 1:1 drive, Ø1,000 mm wheels, 0.25–7.5 mph target; 2.13–64.03 rpm, frequent starting/reversing. 300 bar screening point; final pressure and duty pending accepted route, mass and continuous engine power. Review retained 45 cc pump at 2,600 rpm, four-motor antislip control and independent service/parking brakes.
+Provide 376 cc performance and breakaway/leakage data, continuous/intermittent duty and thermal limits, pressure/overspeed protection requirements, exact working/drain ports and case limits, selected sensor/control interface, configured STEP/drawing and mounting instructions. Confirm the flange-supported axle-following carrier concept and permissible coupling loads/misalignment; recommend the complete rated coupling/hub and hydraulic package. Identify remaining application data required before approving the selection.
+Source record
+OneHydraulics · exact base motor — Listing: SKU 007243726Q; [price removed]; usually ships within 16–18 weeks. Also says call for price; obtain a written quote.
+MFCP · Henderson branch — Local inquiry route; Poclain application support and territory to be confirmed.
+MFCP · Poclain partnership — Company carries Poclain; no local stock commitment.
+Poclain · distributor network — OneHydraulics authorized sales listing; MFCP network entries.
+Poclain · MS05 catalog — 23 January 2023: Classic 376 cc data p5; ordering p8–9; mounting p17; spline p19; connections p26. References, not project drawing downloads.
+Poclain · MS/MSE installation manual — Male-spline mounting matrix p126 and chassis mounting instruction p127. Shaft coupling examples p135. Male-shaft MS05 is not approved as a shaft-hung torque-arm motor.
+Poclain · application contact — Request application review, configured CAD, duty map and integrated control package.
+Structured sourcing and interface record
+Checked: source evidence, arithmetic, local links and static drawing rendering. No strength, motion, thermal or supplier acceptance is implied.DT4 R1 · Sourcing and incorporation plan · No order or fabrication release

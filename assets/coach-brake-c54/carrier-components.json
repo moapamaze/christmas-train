@@ -1,0 +1,51 @@
+{
+  "issue": "C54 structural component candidates",
+  "status": "Development; no fabricated assembly rating",
+  "page_parts": [
+    {
+      "part": "SKF NA 4824",
+      "name": "Radial carrier bearings",
+      "role": "Two 120 × 150 × 30 mm needle bearings at Y85 / Y175; C0r 255 kN reference.",
+      "availability": "Catalogued product; stock and delivery not verified",
+      "availability_as_of": "2026-10-19",
+      "fit_status": "Development installation; actual fits, temperature, loads and service qualification remain open.",
+      "source_url": "https://cdn.skfmediahub.skf.com/api/public/0901d196809a65c0/pdf_preview_medium/0901d196809a65c0_pdf_preview_medium.pdf"
+    },
+    {
+      "part": "SKF AXK 120155",
+      "name": "Thrust cages and hardened washers",
+      "role": "Opposed AXK 120155 plus 4 AS 120155 washers; separate axial location in both directions.",
+      "availability": "Catalogued product; stock and delivery not verified",
+      "availability_as_of": "2026-10-19",
+      "fit_status": "Development installation; actual fits, temperature, loads and service qualification remain open.",
+      "source_url": "https://assets.rs-online.com/v1677239467/Datasheets/1ffe90d1457876633c023ee3b9706eb4.pdf"
+    },
+    {
+      "part": "Ruland MSPH-100-F",
+      "name": "Split shaft collars",
+      "role": "Two carrier collars and one rotor-hub collar; published 88.95 kN axial reference under installation conditions.",
+      "availability": "Manufacturer page showed 3 units in stock when checked; no purchase or reservation",
+      "availability_as_of": "2026-10-19",
+      "fit_status": "Development installation; actual fits, temperature, loads and service qualification remain open.",
+      "source_url": "https://www.ruland.com/msph-100-f.html"
+    },
+    {
+      "part": "SKF 120X150X12 HMSA10 RG",
+      "name": "Carrier shaft seals",
+      "role": "120 × 150 × 12 mm seals on continuous running rings.",
+      "availability": "Catalogued product; stock and delivery not verified",
+      "availability_as_of": "2026-10-19",
+      "fit_status": "Development installation; actual fits, temperature, loads and service qualification remain open.",
+      "source_url": "https://africa.promo.skf.com/acton/attachment/22833/f-3563f5d2-e047-4714-89a9-985efe5eb18a/0/-/-/-/Radial%20Shaft%20Seals%20HMS5%20and%20HMSA10%20-%20PUB%20SE%20P2%2006234%206%20EN.pdf"
+    },
+    {
+      "part": "QA1 GE30ES-2RS",
+      "name": "Torque-link joints",
+      "role": "Two 30 mm bore spherical joints; catalogue 6° misalignment.",
+      "availability": "Catalogued product; stock and delivery not verified",
+      "availability_as_of": "2026-10-19",
+      "fit_status": "Development installation; actual fits, temperature, loads and service qualification remain open.",
+      "source_url": "https://qa1.net/content/OE-IND/qa1_ge_bearing_brochure_web.pdf"
+    }
+  ]
+}

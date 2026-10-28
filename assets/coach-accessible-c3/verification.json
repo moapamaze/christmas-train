@@ -1,0 +1,149 @@
+{
+  "lock_state_penetrations": [],
+  "fixed_bounds_in": {
+    "x": [
+      59.999999996062975,
+      65.8750000039371
+    ],
+    "y": [
+      -47.00000000393703,
+      -16.99999999606297
+    ],
+    "z": [
+      27.628936996062983,
+      70.00028911534676
+    ]
+  },
+  "stowed_complete_physical_bounds_in": {
+    "x": [
+      59.999999996062975,
+      65.8750000039371
+    ],
+    "y": [
+      -47.00000000393703,
+      -16.99999999606297
+    ],
+    "z": [
+      27.628936996062983,
+      70.00028911534676
+    ]
+  },
+  "moving_mass_with_padding_kg": 13.149250960892617,
+  "moving_center_of_mass_deployed_in": [
+    71.5054854343195,
+    -32.00000000000001,
+    48.04398298306847
+  ],
+  "revision": "PF-3O2-C3-R0",
+  "all_solids_valid": true,
+  "solid_part_count": 98,
+  "physical_mass_kg": 54.05593160109914,
+  "moving_mass_kg_excluding_padding": 12.62579948763637,
+  "static_penetrations": [],
+  "sweep_angles_deg": [
+    0,
+    5,
+    10,
+    15,
+    20,
+    25,
+    30,
+    35,
+    40,
+    45,
+    50,
+    55,
+    60,
+    65,
+    70,
+    75,
+    80,
+    85,
+    90
+  ],
+  "sweep_penetrations": [],
+  "sweep_results": [
+    {
+      "angle_deg": 0,
+      "penetrations": []
+    },
+    {
+      "angle_deg": 5,
+      "penetrations": []
+    },
+    {
+      "angle_deg": 10,
+      "penetrations": []
+    },
+    {
+      "angle_deg": 15,
+      "penetrations": []
+    },
+    {
+      "angle_deg": 20,
+      "penetrations": []
+    },
+    {
+      "angle_deg": 25,
+      "penetrations": []
+    },
+    {
+      "angle_deg": 30,
+      "penetrations": []
+    },
+    {
+      "angle_deg": 35,
+      "penetrations": []
+    },
+    {
+      "angle_deg": 40,
+      "penetrations": []
+    },
+    {
+      "angle_deg": 45,
+      "penetrations": []
+    },
+    {
+      "angle_deg": 50,
+      "penetrations": []
+    },
+    {
+      "angle_deg": 55,
+      "penetrations": []
+    },
+    {
+      "angle_deg": 60,
+      "penetrations": []
+    },
+    {
+      "angle_deg": 65,
+      "penetrations": []
+    },
+    {
+      "angle_deg": 70,
+      "penetrations": []
+    },
+    {
+      "angle_deg": 75,
+      "penetrations": []
+    },
+    {
+      "angle_deg": 80,
+      "penetrations": []
+    },
+    {
+      "angle_deg": 85,
+      "penetrations": []
+    },
+    {
+      "angle_deg": 90,
+      "penetrations": []
+    }
+  ],
+  "limitations": [
+    "Sampled5deg exact solid intersection is not continuous swept-volume proof or tolerance analysis.",
+    "Running clearances are not evidence of finger safety.",
+    "Pins withdrawn in transit; only endpoints are lockable.",
+    "Welds, lock capture/anti-release, fatigue, ergonomics and tests remain incomplete."
+  ]
+}

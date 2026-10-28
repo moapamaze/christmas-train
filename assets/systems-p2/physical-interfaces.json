@@ -1,0 +1,53 @@
+{
+  "issue": "PF-3P2-R0",
+  "interfaces": [
+    {
+      "id": "HV-01",
+      "connection": "OEM gasket/basepan rests on defined weather-tight structural bearing surface; OEM ceiling template/bolts clamp the prescribed stack. Do not bolt a shroud or use a roof skin as an assumed load-bearing frame.",
+      "missing": "Exact unit basepan and gasket geometry, mass/CG, complete OEM hardware, compression and vehicle dynamic loads; custom roof ring and roof member design.",
+      "assembly": "Commercial rooftop unit to coach roof"
+    },
+    {
+      "id": "HV-02",
+      "connection": "Installed ADB uses the same OEM stack, with return/supply separation and filter/control access. Its published2.3in projection gives only a local un-recessed headroom probe.",
+      "missing": "Exact chosen ADB variant, moving door/seat/head envelopes, lighting/emergency paths and access; any recess alters roof/air paths and needs approval.",
+      "assembly": "ADB to interior ceiling"
+    },
+    {
+      "id": "HV-03",
+      "connection": "Recirculation cooling is not outdoor ventilation. Intake/filter/fan/duct supply and controlled exhaust/relief need a real protected path, with condensation and freeze control as needed.",
+      "missing": "Required outside flow, dirty-filter/static pressure, fan selection, inlet/exhaust separation including locomotive exhaust in both travel directions; no generic separation distance assumed.",
+      "assembly": "Outside air to occupied cabin"
+    },
+    {
+      "id": "HV-04",
+      "connection": "Preserve unit intake/discharge flow and safe filter/lid/lift access, without trapping condensate or routing drains onto platforms, brakes, rails or electrical parts.",
+      "missing": "Correct directional OEM envelopes, actual drip/pan/drain provision, roof curvature/flatness, station swept envelope and safe service method.",
+      "assembly": "Rooftop to external weather/drain/service space"
+    },
+    {
+      "id": "HV-05",
+      "connection": "A genuine undercar rail HVAC family remains an alternative; attach only to an engineered frame path, never the floor honeycomb.",
+      "missing": "Exact configured package/CAD/mass/capacity/electrical data, relative truck/suspension and coupling motion, intake clearance, impact/debris guards and service removal.",
+      "assembly": "Rail undercar alternative to frame"
+    },
+    {
+      "id": "HV-06",
+      "connection": "Selected branch protection/isolation, bonding and retained flexible vehicle connections must match generator, neutral scheme and load control. Roof, undercar and locomotive supply choices interact.",
+      "missing": "Actual current/PF/start/time data, electrical professional design, tested simultaneous/restart behavior and brake/egress independence; no OEM RV wire example adopted.",
+      "assembly": "Power and control across moving train"
+    }
+  ],
+  "part_definition_status": "No custom mount released. Actual mating faces/fasteners cannot yet be drawn without guessing; no replacement block model or speculative hole grid added.",
+  "review_sequence": [
+    "Mechanical/HVAC specialist reconciles exact variant/manual conflicts and actual outside-air path.",
+    "Vehicle structural specialist defines roof/undercar load path with actual mass/CG and vehicle motion/load cases; body/suspension datum coordinated.",
+    "Produce recognizable assembled/section/mating-face geometry from controlled parts and custom designed pieces, then supported material, fits, joints, welds, fasteners and inspection detail.",
+    "One full-size nonenergized fit/service mockup before roof cut or production; record threshold/headroom/lighting/duct/filter/tool/removal clearances.",
+    "Qualified installers perform reviewed HVAC/electrical/refrigerant work; measured hot/cold, drainage, vibration, sound, airflow, leakage and live-load tests close accepted limits."
+  ],
+  "farm_crew_scope": "Reviewed non-load-bearing fit mockup, access checks, measurement/travel records and installation assistance within released instructions.",
+  "specialist_scope": "Roof/frame design, OEM compatibility, HVAC/refrigerant/electrical design and energized installation/testing.",
+  "accepted_bolt_or_weld_size": null,
+  "accepted_test_values": null
+}

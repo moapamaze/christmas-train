@@ -1,0 +1,23 @@
+{
+  "issue":"PF-3N3-ALT-R0",
+  "review_complete_scope":"Bounded alternatives comparison with actual manufacturer leads, geometric speed/torque reconciliation and explicit energy interfaces.",
+  "selected_for_procurement":false,
+  "development_recommendation":"Continue Kubota/Danfoss hydrostatic as lead, conditional on the existing drive/brake/OEM evidence gates. Retain diesel-electric as a serious alternative and diesel-mechanical/torque-converter as a comparison. No evidence supports changing the owner's brake requirements or claiming a construction-ready locomotive.",
+  "routes":[
+    {"route":"Diesel hydrostatic","real_lead":"Kubota V3307-CR-TI-E5 + H1P045 + H1B110","advantage":"Existing traceable low-speed/ratio candidate and controllable reversing architecture.","governing_evidence":"OEM continuous engine and hydraulic maps, low-speed behavior, input torsion, custom reduction/axle support and cooling. All3N.1/2 holds remain."},
+    {"route":"Diesel mechanical / torque converter","real_lead":"Carraro TCB80 family documented in manufacturer construction table; not a selected transmission","advantage":"Potentially simpler efficient locked mechanical power path; actual launch/converter and reverse architecture needed.","governing_evidence":"Exact model, input speed/torque limits, converter stall/torque ratio/efficiency, creep heat, forward/reverse gear ratios, Kubota housing/coupling, controls and rail duty. Engine-power application band is not a train-force or towing rating."},
+    {"route":"Diesel electric","real_lead":"Parker GVM210-100-SPW historical reference at320V; current GVM/GVI families listed","advantage":"Potential flexible electrical placement and controlled individual axle torque, without main traction hydraulic plumbing.","governing_evidence":"Current exact motor winding/order, matched inverter, generator/rectifier, DC regulation and energy sink, operating maps and cooling. Historical rating is not current availability or a rail selection."}
+  ],
+  "common_custom_scope":["Custom locomotive frame, suspension and axleboxes","Supported reductions/distribution/axle torque transfer","Movement-compatible torque reaction, joints and guards","Independent air service/emergency/spring parking interfaces","Engine cooling/exhaust enclosure, fuel installation, visibility and service access"],
+  "electric_extra_interfaces":["Generator torsional coupling, net output map and engine controls","Rectifier/DC bus regulation, precharge, contactors, fusing, isolation/ground-fault strategy and high-voltage interlocks","Matched motor/inverter current, speed, resolver/encoder, thermal and torque limits","Battery or braking chopper/resistor energy path for regeneration; no assumption diesel generator absorbs braking energy","Separate hotel-power load/supply coordination; no counting the same generator capacity twice","Defined safe coast/stop behavior after bus/inverter faults and independent air-brake application"],
+  "fabrication_boundary":"No additional locomotive holes, plates, gear teeth, welds or mounts are established. These alternatives cannot share a generic9:1 gearbox or the same support drawing.",
+  "continuation_checkpoint":{
+    "completed_this_sequence":["3N.1 original matching-workbook audit and constraints","3N.2 motor-count/circuit/fault and loss reconciliation","3N.3 bounded alternatives and gear/energy interfaces"],
+    "remaining_locomotive_evidence":"N-G01 through N-G07. Current transmission map/interfaces and exact electric generator/drive pairing are not supplied.",
+    "next_independent_work":"3O.1 coach-body/interior interface audit from latest3J/J1a geometry, then thermal/electrical demand coordination into3P. Preserve maximum practical interior space, floor load-state hold, 32regular places and separate accessible variant. Recover existing thermal source before reusing demand figures. Use actual materials/components where possible; do not duplicate old frame block models.",
+    "running_gear_resume":"Only resume fabrication spring mounts/hub/carrier after controlled wheel/bearing/axlebox, D1 interface geometry and allowed guide/brake reaction movement are supportable.3L and3M remain incomplete.",
+    "continue_without_owner_prompt":true,
+    "pause_automation":false,
+    "reason_not_paused":"Useful independent coach/body/HVAC/electrical/track/operations development remains. No whole-program blocker or completion claimed."
+  }
+}

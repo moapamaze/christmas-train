@@ -1,0 +1,167 @@
+                                                                                                                                                      FV-10VEC2
+                                                                    Energy Recovery Ventilator                                                  Cold Climate ERV
+
+                                                                 / Panasonic ERV                                          Four 4" or 6" ducts
+
+
+             Description                                            Architectural Specifications:                                                                  13
+                                                                                                                                                                      "
+                                                                                                                                                   2"
+             Ceiling or wall mount Cold Climate Energy              ERV shall be ceiling or wall mount type with built-in                      -1/
+
+
+
+
+                                                                                                                                                                6" D Dia
+                                                                                                                                            28
+
+
+
+
+                                                                                                                                                                   4"
+             Recovery Ventilator (ERV) provides a tempered          speed selectors for both Supply and Exhaust air.
+
+
+
+
+                                                                                                                                                                    ia
+             air supply, humidity control, and a balanced           Select from 50/60/70/80/90/100 CFM. ERV shall
+             amount of exhaust to help maintain balanced,           have 100 Net CFM on the exhaust ports and 98
+
+
+
+
+                                                                                                                                                                           6" Dia
+                                                                                                                                                                             4"
+                                                                                                                                                                              Dia
+             positive or negative pressure throughout the           Net CFM on the supply ports as tested in
+             home. The Panasonic Intelli-Balance ERV is             accordance with HVI 915 and 916 standards at 0.1
+             engineered for use in any North America                static pressure in inches water gauge. ERV shall
+             climate zone. Version 2 includes new Hi/Lo             have 100 Net CFM on the exhaust ports and Net
+
+
+
+
+                                                                                                                              8-7/8 "
+             Occupant Controlled Boost Capability. Built-in         100 CFM on the supply ports at 0.4" w.g. static
+             ASHRAE 62.2 Timing function helps ensure               pressure. ERV shall have Hi/Lo Speed Occupant
+             code compliance.                                       Controlled Boost Capability. Power consumption
+                                                                    shall be no greater than 81 watts at 0.1" w.g. and                 23
+             Motor/Blower:                                          100 watts at 0.4" w.g. static pressure. Apparent                      "
+             • ERV shall have Hi/Lo Speed Occupant Controlled       Sensible Effectiveness for heating shall be no less
+               Boost Capability                                     than 84% at 53 CFM net air flow under 32°F (0°C)
+             • Two (2) enclosed DC brushless motors rated           as tested in accordance with CSAC439. Sensible FV-10VEC2
+               for continuous run.                                  Recovery Efficiency for heating shall be no less than
+             • ERV Supply and Exhaust ventilation rates             64% at 57 CFM net air flow under -13°F (-25°C).
+               shall be manually adjustable for                     Total Recovery Efficiency for cooling shall be no
+               50-60-70-80-90-100 CFM.                              less than 60% at 49 CFM net air flow under 95°F
+             • Power rating shall be 120 volts and 60 Hz.           (35°C). The supply port damper shall close when
+             • Motor equipped with thermal cut-off fuse control.    outdoor temperatures are < -13°F (-25°C) to
+             • Removable, permanently lubricated, plug–in           prevent freezing of the core. The (2) motors shall be
+               motor.                                               totally enclosed DC brushless motors rated for
+                                                                    continuous run. DC motor speed shall automatically
+             Housing:                                               increase when the fan senses static pressure to
+             • 22 gauge galvanized steel body.                      maintain selected CFM. ERV shall incorporate an
+             • Four 4" or 6" intake and exhaust ducts.              ASHRAE 62.2 Timing function for code
+             • Built in dampers on exhaust and Outdoor Air          compliance. Power rating shall be 120v/60Hz. Duct
+                                                                                                                          DC Motor Technology
+               ducts for defrost and recirculation cycling.         diameters shall be no less than 4". ERV can be
+             • Filters on supply and exhaust air extend the         used to comply with ASHRAE 62.2, Ontario,             When the ERV senses static pressure, its
+               life of the ERV core.                                ENERGY STAR®* and Novoclimat requirements;            speed is automatically increased to ensure
+             • (4) Pressure ports allow for easy airflow            LEED, IAP, California Title-24, and WA Energy         that the desired CFM is not compromised.
+               verification.                                        Code Credits.
+             • Pre-drilled mounting bracket can
+               accommodate 16", 19", or 24" on center.              ERV Core Technology:
+                                                                    • Indoor and outdoor air passes through
+             Maintenance:                                             Panasonic’s capillary core technology. This
+             • MERV 8 filter included; MERV 8 (FVFL0810VE1)           process tempers supply air while transferring
+               and optional MERV 13 (FVFL1310VE1)                     moisture and energy.
+               replacements available.                              • Built in Frost Prevention Mode prevents the
+             • Unobtrusive alarm notifies owner for filter            core from freezing. Frost Prevention Mode
+               check and maintenance.                                 is intuitive and operates without
+                                                                      homeowner intervention.
+             Warranty:                                              • Core material permeated with anti-mold
+             • DC Motors: 6 years from original purchase date         treatment.
+             • All Parts: 3 Years from original purchase date.
+
+
+
+
+              For complete Installation Instructions visit www.business.panasonic.ca/ventilation
+
+                        Model                   Quantity                         Comments                        Project:
+                                                                                                                 Location:
+                                                                                                                 Architect:
+                                                                                                                 Engineer:
+                                                                                                                 Contractor:
+                                                                                                                 Submitted by:
+                                                                                                                 Date:
+
+              Panasonic Canada Inc.
+              5770 Ambler Dr.
+              Mississauga, ON L4W 2T3
+              www.business.panasonic.ca/ventilation
+
+
+
+
+IAQ19204ST
+r7
+                                                                                                                                                       FV-10VEC2
+                                                              Energy Recovery Ventilator                                                         Cold Climate ERV
+
+                                                          / Panasonic ERV
+             (Continued)
+                                                                                                   Performance Curve 4" or 6" duct
+
+                                                Intelli-Balance 100 FV-10VEC2                                                      1
+
+                       Static Pressure in inches w.g.                  0.1               0.4                                      0.9
+
+                       Net Exhaust Air Volume (CFM)                    100               100
+                                                                                                                                  0.8
+                       Net Supply Air Volume (CFM)                     100               100
+
+
+
+
+                                                                                                    Static Pressure (inch w.g.)
+                                                                                                                                  0.7
+                        Power Consumption (watts)                      81                100
+                                                                                                                                  0.6
+                                Power Rating (V/Hz)                           120/60
+                           ENERGY STAR® Certified                                 Yes                                             0.5
+
+                                                                                                                                  0.4
+
+                         Energy Performance: Intelli-Balance 100 FV-10VEC2                                                        0.3
+
+                  Supply                         Power    Sensible      Apparent         Net
+                                  Net Air Flow Consumed                                                                           0.2
+               Temperature                                Recovery      Sensible        Moisture
+                °C      °F         L/S   CFM    (Watts)                                                                           0.1
+                                                      Heating
+                                                                                                                                   0
+                0       32         25    53       29          81             84           81
+                                                                                                                                        0   20    40    60    80     100    120
+                0       32         31    66       39          77             81           75                                                       Airflow (CFM)
+                0       32         40    85       68          75             80           74
+               -25      -13        27    57       77          64             67           73                                                                       Net Supply Air
+               -25      -13        30    64      100          56             60           64                                                                       Net Exhaust Air
+                                 Cooling                           T                                                                                               4” 60ft Duct
+                35         95      23    49       32                         60                                                                                    4” 70 ft Duct
+
+
+
+
+             Panasonic Canada Inc.
+             5770 Ambler Dr.
+             Mississauga, ON L4W 2T3
+             www.business.panasonic.ca/ventilation
+
+
+
+
+IAQ19204ST
+r7
+

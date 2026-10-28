@@ -1,0 +1,150 @@
+{
+  "revision": "LT44",
+  "date": "2026-10-25",
+  "status": "Tender interface and packaging development; no fabrication release",
+  "retained": {
+    "body_x_mm": [
+      400,
+      4600
+    ],
+    "body_y_mm": [
+      -1300,
+      1300
+    ],
+    "deck_z_mm": 1100,
+    "roof_top_z_mm": 2360,
+    "skin_mm": 6,
+    "lining_mm": 50,
+    "pin_x_mm": [
+      0,
+      5000
+    ],
+    "pin_z_mm": 550,
+    "rail_centroid_z_mm": 950,
+    "main_rail_y_mm": [
+      -700,
+      700
+    ],
+    "bogie_x_mm": [
+      1200,
+      3800
+    ],
+    "coupling_span_mm": 800
+  },
+  "candidate": {
+    "name": "Hydra-Tech HT150DQV standard hydraulic skid \u2014 comparison only",
+    "dimensions_in": [
+      122,
+      54,
+      74
+    ],
+    "dry_mass_kg": 2333,
+    "fuel_l": 605,
+    "oil_l": 359,
+    "fuel_density_kg_l_assumed": 0.84,
+    "oil_density_kg_l_assumed": 0.86,
+    "center_x_mm": 2500,
+    "center_y_mm": 0,
+    "source": "https://hydra-tech.com/product/ht150dqv/",
+    "datasheet": "https://hydra-tech.com/wp-content/uploads/2016/03/HT150DQV-Spec-Sheet-tier-4-.pdf",
+    "limits": "Stock hydraulic skid, not a confirmed combined generator/compressor package. Manufacturer gives rounded metric dimensions and weight; exact configuration, fluid inventory, CG, isolation and service/cooling spaces are pending. Generator and compressor additions are not in this envelope."
+  },
+  "interfaces": [
+    {
+      "id": "F-HYD",
+      "name": "Traction A/B plus separate case return",
+      "end": "front",
+      "x_mm": 450,
+      "y_mm": -550,
+      "z_mm": 1250,
+      "color": "#347f9b",
+      "destination": "Locomotive fixed manifold, then separate body-to-bogie flex stages",
+      "hold": "Confirm closed-loop-compatible pump and ports, bidirectional pressure rating, charge/flush circuit, case backpressure and dynamic hose data."
+    },
+    {
+      "id": "F-AIR",
+      "name": "Brake supply and automatic brake command",
+      "end": "front",
+      "x_mm": 450,
+      "y_mm": 0,
+      "z_mm": 1250,
+      "color": "#b48a42",
+      "destination": "Locomotive brake interface and retained train brake architecture",
+      "hold": "Pneumatic specialist to resolve circuits, breakaway, stored air, stop response and final hardware."
+    },
+    {
+      "id": "F-CTRL",
+      "name": "Low-voltage commands, safety circuits and cab supply",
+      "end": "front",
+      "x_mm": 450,
+      "y_mm": 550,
+      "z_mm": 1250,
+      "color": "#655595",
+      "destination": "Left-hand engineer controls; safety functions independent of camera/network availability",
+      "hold": "Pinout, isolation, fault behavior, protected power and monitored stop system remain open."
+    },
+    {
+      "id": "R-AIR",
+      "name": "Brake air onward to four coaches",
+      "end": "rear",
+      "x_mm": 4550,
+      "y_mm": -550,
+      "z_mm": 1250,
+      "color": "#b48a42",
+      "destination": "First coach fixed manifold; tender has its own brake equipment",
+      "hold": "Do not omit tender brakes or assume locomotive reservoirs cover the added vehicle."
+    },
+    {
+      "id": "R-PWR",
+      "name": "Protected coach AC feeder and bonding",
+      "end": "rear",
+      "x_mm": 4550,
+      "y_mm": 0,
+      "z_mm": 1250,
+      "color": "#bd583c",
+      "destination": "First coach distribution, then the remaining coaches",
+      "hold": "Voltage, phase, conductor sizes, overcurrent protection, bonding and rated moving connector pending electrical design."
+    },
+    {
+      "id": "R-DATA",
+      "name": "Control and last-coach camera link",
+      "end": "rear",
+      "x_mm": 4550,
+      "y_mm": 550,
+      "z_mm": 1250,
+      "color": "#655595",
+      "destination": "Coach controls and rear camera; protected route through tender to cab",
+      "hold": "Keep camera failure indication and independent emergency functions; separation and EMC details pending."
+    }
+  ],
+  "movement_screen": {
+    "description": "Independent attachment-point sensitivity, not solved train motion or a hose route",
+    "yaw_deg": [
+      -10,
+      0,
+      10
+    ],
+    "pitch_deg": [
+      -3,
+      0,
+      3
+    ],
+    "roll_deg": [
+      -3,
+      0,
+      3
+    ],
+    "gap_change_mm": [
+      -50,
+      0,
+      50
+    ],
+    "opposite_bulkhead_setback_mm": 450,
+    "limits": "Declared study assumptions, not approved articulation limits. Fixed adjacent body; tender rotates at its pin in Rz(yaw) Ry(pitch) Rx(roll) order, then receives axial gap change. Excludes S-curves, coupled-train equilibrium, ports, fitting lengths, bend radius, twist, hose stretch, sag and collision."
+  },
+  "release": {
+    "fabrication": false,
+    "purchase": false,
+    "operation": false
+  }
+}

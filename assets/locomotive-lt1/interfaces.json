@@ -1,0 +1,82 @@
+{
+  "issue": "PF-LOCO-LT1-R0",
+  "columns": [
+    "id",
+    "interface",
+    "retained_or_proposed",
+    "open_input",
+    "owner"
+  ],
+  "rows": [
+    [
+      "IF01",
+      "Gauge",
+      "914.4 mm owner working basis",
+      "Wheel back-to-back, tread/flange profile, rail section and check gauge unassigned",
+      "Both vehicle workstreams / track"
+    ],
+    [
+      "IF02",
+      "Mass",
+      "65,100 kg historical upper case; 67,500 kg sensitivity",
+      "Coach C2 seating growth, accessible seating, HVAC, generator and tender allocation must reconcile",
+      "Coach + locomotive"
+    ],
+    [
+      "IF03",
+      "Coupler",
+      "Height and type unresolved; 650 mm drawing proxy only",
+      "Coach J1 and loco/tender interfaces need matched ratings, yaw/pitch/roll, draft gear and retention",
+      "Coupling engineer"
+    ],
+    [
+      "IF04",
+      "Coupler force",
+      "Coach tail mass 50,600 kg historical; 53,000 kg seat-growth probe",
+      "At 0.1 m/s\u00b2 and start c=.01 plus all 2kN drag downstream: 12.02 / 12.50 kN. Tender-front adds 2,500 kg. Shock, slack and fault/compressive loads still open",
+      "Both workstreams"
+    ],
+    [
+      "IF05",
+      "Brakes",
+      "Air service / spring-applied air-released parking; retained CR-G01",
+      "Add tender as sixth vehicle; BP/MR and supervised emergency continuity through both new joints; connector/pressure/line sizes held",
+      "Brake integration"
+    ],
+    [
+      "IF06",
+      "Electrical",
+      "Shared propulsion/generation diesel evaluation first; 120/240V 60Hz proposal",
+      "Exact voltage/current/grounding/protection/interlocks/connector pinout unresolved; no passenger HVAC counted in traction allowance",
+      "Electrical + coach HVAC"
+    ],
+    [
+      "IF07",
+      "Curves",
+      "20/30/45 m sensitivity; no approved minimum radius",
+      "Survey, track design, coach sweep and this locomotive/tender swept envelope must agree",
+      "Track + both vehicles"
+    ],
+    [
+      "IF08",
+      "Clearance",
+      "Proposed locomotive/tender width 2,600 mm, highest point 3,400 mm",
+      "Does not include dynamic roll/yaw, mirror/handrail/guard projection, structure gauge or route clearance",
+      "Both workstreams / track"
+    ],
+    [
+      "IF09",
+      "Operating limits",
+      "7.5 mph calculation speed; zero grade target",
+      "Route speed, acceleration, stops, reverse/push operation and construction grade tolerances not approved",
+      "Operations / vehicle"
+    ],
+    [
+      "IF10",
+      "Work ownership",
+      "LT1 owns locomotive and tender only",
+      "Passenger car drawings and shared PROGRAM-R30 are preserved; this register is a handoff, not live synchronization between chats",
+      "Owner / both chats"
+    ]
+  ]
+}

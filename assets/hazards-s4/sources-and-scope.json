@@ -1,0 +1,23 @@
+{
+  "issue": "PF-3S4-HAZARDS-R0",
+  "primary_context_sources": [
+    {
+      "publisher": "US DOT / FRA / Volpe",
+      "title": "Wheel Unloading of Rail Vehicles Due to Track Twist",
+      "report": "DOT/FRA/ORD-85/14, published1986-02-01",
+      "url": "https://rosap.ntl.bts.gov/view/dot/11952",
+      "retrieved_utc": "2026-10-19",
+      "evidence": "Primary abstract identifies wheel-load redistribution with crosslevel difference and vehicle characteristics. Reference supports investigating the mechanism; no standard-gauge historical numerical limit is imported.",
+      "limitation": "Not our36invehicle validation, acceptance criterion or a source of fabrication geometry."
+    },
+    {
+      "publisher": "RSSB",
+      "title": "GMGN2641 Issue2 Vehicle Static Testing catalogue",
+      "url": "https://www.rssb.co.uk/standards-catalogue/CatalogueItem/gmgn2641-iss-2",
+      "retrieved_utc": "2026-10-19",
+      "evidence": "Catalogue lead checked; full current controlled guidance not obtained through this review.",
+      "limitation": "No UK mainline standard is adopted or claimed applicable, and no consultation draft numerical limit is used."
+    }
+  ],
+  "other_basis": "Exact project evidence hashes are in the register; mechanism/control statements are analyst engineering-development requirements, not verified implemented safety functions."
+}

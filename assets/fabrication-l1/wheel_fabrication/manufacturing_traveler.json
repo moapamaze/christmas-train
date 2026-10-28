@@ -1,0 +1,62 @@
+{
+  "revision": "PF-TRAIN-S3L-WHEEL-R0",
+  "status": "Proposed work sequence; acceptance limits held",
+  "steps": [
+    {
+      "op": "10",
+      "operation": "Freeze the mating system",
+      "owner": "Vehicle/track engineer",
+      "record": "Rail section and new/worn profiles, minimum curve and turnouts, back-to-back/gauge tolerance stack, bearing location, wheel diameter and brake interface drawing.",
+      "hold": "No wheel tooling or cut release before this."
+    },
+    {
+      "op": "20",
+      "operation": "Issue purchase drawings and material/process specification",
+      "owner": "Wheelset designer + rail wheel shop",
+      "record": "Choose one consistent standards route; signed wheel/axle drawings and heat-treatment/inspection requirements; minimum worn geometry and life assumptions.",
+      "hold": "No generic steel substitution."
+    },
+    {
+      "op": "30",
+      "operation": "Obtain qualified blanks",
+      "owner": "Rail forging/foundry supplier",
+      "record": "Heat/lot traceability; wheel and axle blank drawings; material chemistry and mechanical test certificates; agreed machining allowance.",
+      "hold": "Receipt hold for undocumented blanks."
+    },
+    {
+      "op": "40",
+      "operation": "Rough-machine and complete approved heat treatment",
+      "owner": "Rail wheel/axle specialist",
+      "record": "Operation sequence, treatment batch certificate, hardness/test results and NDT at prescribed stages; preserve stock for final machining.",
+      "hold": "No farm torch heating, welded flange or weld-on axle carrier."
+    },
+    {
+      "op": "50",
+      "operation": "Finish-machine wheel and axle",
+      "owner": "Rail wheel/axle specialist",
+      "record": "CNC profile, bore/seat/journal dimension report, radii and surface finish, profile comparison, runout and relevant NDT.",
+      "hold": "No press assembly until dimensional disposition."
+    },
+    {
+      "op": "60",
+      "operation": "Match and press assembly",
+      "owner": "Qualified wheelset assembly shop",
+      "record": "Measured bore/seat pairs and temperatures; approved lubricant; serialized continuous force-displacement record; press tooling verified against hub faces.",
+      "hold": "Engineer-defined force/curve acceptance; no rescue by extra welding or set screws."
+    },
+    {
+      "op": "70",
+      "operation": "Install discs/bearings to approved instructions",
+      "owner": "Wheelset specialist",
+      "record": "Interface-specific torque/preload/locking, runout, end retention, free rotation, dimensional and serialized assembly records.",
+      "hold": "Disc attachment and bearing OEM release first."
+    },
+    {
+      "op": "80",
+      "operation": "Accept and integrate first wheelset",
+      "owner": "Responsible engineer + builder",
+      "record": "Back-to-back/profile/runout records; brake torque test; clearances at wear/travel/yaw; first-article inspection and disposition.",
+      "hold": "No passengers or repeated production until release."
+    }
+  ]
+}

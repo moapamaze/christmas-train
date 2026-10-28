@@ -1,0 +1,70 @@
+{
+  "issue": "LT18",
+  "scope": "Exact closest-surface distance for two selected limiting pairs, both directions, nominal height, no tolerances or deflection.",
+  "cases": [
+    {
+      "radius_mm": 30000,
+      "hand": -1,
+      "gaps": [
+        {
+          "moving": "L18-CYL-EXT1",
+          "fixed": "L18-LEAD-ANCHOR",
+          "nominal_gap_mm": 26.128617272289514
+        },
+        {
+          "moving": "L18-TRAIL-SIDE-1",
+          "fixed": "N11-STEP-1-1",
+          "nominal_gap_mm": 122.52804404896597
+        }
+      ]
+    },
+    {
+      "radius_mm": 30000,
+      "hand": 1,
+      "gaps": [
+        {
+          "moving": "L18-CYL-EXT-1",
+          "fixed": "L18-LEAD-ANCHOR",
+          "nominal_gap_mm": 26.128617272289514
+        },
+        {
+          "moving": "L18-TRAIL-SIDE1",
+          "fixed": "N11-STEP1-1",
+          "nominal_gap_mm": 122.52804404896597
+        }
+      ]
+    },
+    {
+      "radius_mm": 25000,
+      "hand": -1,
+      "gaps": [
+        {
+          "moving": "L18-CYL-EXT1",
+          "fixed": "L18-LEAD-ANCHOR",
+          "nominal_gap_mm": 9.377258971025812
+        },
+        {
+          "moving": "L18-TRAIL-SIDE-1",
+          "fixed": "N11-STEP-1-1",
+          "nominal_gap_mm": 55.58183101701616
+        }
+      ]
+    },
+    {
+      "radius_mm": 25000,
+      "hand": 1,
+      "gaps": [
+        {
+          "moving": "L18-CYL-EXT-1",
+          "fixed": "L18-LEAD-ANCHOR",
+          "nominal_gap_mm": 9.377258971025812
+        },
+        {
+          "moving": "L18-TRAIL-SIDE1",
+          "fixed": "N11-STEP1-1",
+          "nominal_gap_mm": 55.58183101701616
+        }
+      ]
+    }
+  ]
+}

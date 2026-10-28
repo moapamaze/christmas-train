@@ -1,0 +1,66 @@
+{
+  "issue": "PF-3S4-HAZARDS-R0",
+  "criteria": [
+    {
+      "id": "FIN-01",
+      "theme": "Recognizable custom geometry and coordinated drawings",
+      "current_evidence": "Actual J/I/DBtrial geometry exists; wholetruck/body/accessibility/drive/track assembly details remain incomplete.",
+      "action": "Continue only supported physical detail; missing OEM/mass/motion/accepted joint criteria cannot be filled from display models.",
+      "complete": false
+    },
+    {
+      "id": "FIN-02",
+      "theme": "Traceable mass, power, brakes, stability and clearance",
+      "current_evidence": "Current calculation/source issues exist; coupled four-wheel track-twist/load sharing is a specific unfilled independent calculation.",
+      "action": "Next3L.3-S2: four-corner equilibrium with separate wheel/spring lever arms, axle reactions, body-roll boundary and analytical validity checks.",
+      "complete": false
+    },
+    {
+      "id": "FIN-03",
+      "theme": "Materials, fits, joints, welding and inspection",
+      "current_evidence": "Candidate materials and source trials/travelers are present; no complete qualified safety-critical production definition.",
+      "action": "Advance exact part only after controlled mating geometry and governing loads; material/WPS/fit/NDT/professional release stays evidence-specific.",
+      "complete": false
+    },
+    {
+      "id": "FIN-04",
+      "theme": "Parts, component interfaces and procurement",
+      "current_evidence": "D1family documented; bearing/drive/HVAC/rail leads audited, exact selected order codes/returns unresolved.",
+      "action": "Technical requests remain unsent/unordered; no supplier stock, ratings or schedule promises inferred.",
+      "complete": false
+    },
+    {
+      "id": "FIN-05",
+      "theme": "Fabrication and installation sequence / crew roles",
+      "current_evidence": "3E/3F/3Jrecords and3S.2sequence crosswalk retained; actual safe field/process methods depend on accepted build.",
+      "action": "Use existing records and responsible specialist release rather than create more blank forms.",
+      "complete": false
+    },
+    {
+      "id": "FIN-06",
+      "theme": "Operations, maintenance and emergency",
+      "current_evidence": "3S.3conditional procedures cover modes/roles/energy/defects; not a field-ready manual.",
+      "action": "Actual controls, intervals, safe methods, staffing, site access and authority acceptance remain required.",
+      "complete": false
+    },
+    {
+      "id": "FIN-07",
+      "theme": "Test, configuration and closure evidence",
+      "current_evidence": "3S.1open gates,3S.2test/traveler crosswalk and this hazard linkage exist; physical tests/signatures absent.",
+      "action": "No source/hash/calculation/rendering pass can close physical acceptance or practical drawing-readiness.",
+      "complete": false
+    },
+    {
+      "id": "FIN-08",
+      "theme": "Site and approval basis",
+      "current_evidence": "Survey spec/checker and track data interfaces exist; no actual alignment/soil/drainage/NorthPole station or jurisdiction determination.",
+      "action": "Site/authority evidence blocks dependent design only; owner supplies NorthPole location last. Continue independent engineering now.",
+      "complete": false
+    }
+  ],
+  "desktop_package_complete": false,
+  "all_useful_work_blocked": false,
+  "next_independent_issue": "3L.3-S2 four-corner track-twist/wheel-load equilibrium",
+  "reason": "S0explicitly heave-only; S1shaft/guide/bearing screens omit individual wheel reactions. This is a new governing mechanics gap, not another mount/HOLD drawing.",
+  "pause_automation": false
+}

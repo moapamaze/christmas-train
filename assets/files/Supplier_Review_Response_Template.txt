@@ -1,0 +1,44 @@
+PULSIPHER FARMS - CHRISTMAS RAILWAY
+SUPPLIER / ENGINEER REVIEW RESPONSE
+Basis: Stage 2 R0, 17 October 2026. Preliminary; not for construction.
+
+Reviewer / company:
+Contact / date:
+Trade / scope proposed:
+Documents and revisions reviewed:
+
+1. SCOPE AND RESPONSIBILITY
+Items supplied / installed / engineered:
+Responsible engineer and jurisdiction / licensure, where required:
+Interfaces supplied by others:
+
+2. COMPLIANCE AND DEVIATIONS
+Proposed governing standards and their applicability:
+Each accepted requirement:
+Each exception, assumption or missing input (cite sheet/page and dimension):
+Proposed gauge / wheel-rail / coupler / power / brake interface:
+
+3. DOCUMENTED PERFORMANCE
+Manufacturer and exact model:
+Published ratings and source documents:
+Rated load, speed, duty, grade and curve limitations:
+Mass including fluids / installation; CG and axle/corner loads:
+Traction / braking / thermal / electrical demand and derating:
+Failure response, emergency / parking / separation functions:
+
+4. DELIVERABLES AND TESTING
+Engineering calculations / drawings / inspection requirements:
+Materials / fabrication procedures / traceability:
+Factory and site acceptance tests, measured limits and witnesses:
+Manuals / training / maintenance / spares / warranty:
+Open safety-critical decisions and evidence needed to close them:
+
+5. COMMERCIAL PROPOSAL
+Lead time and schedule assumptions:
+Itemized price / currency / validity date:
+Engineering / tooling / transport / installation / commissioning allowances:
+Exclusions, optional items and dependencies:
+Payment terms / cancellation terms:
+
+This template is a local document. Completing it does not send a response.
+Return it using the communication channel agreed with the owner.

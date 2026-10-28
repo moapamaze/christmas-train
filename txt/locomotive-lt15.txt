@@ -1,0 +1,19 @@
+Locomotive drivetrain integration · Pulsipher FarmsSkip to contentWhole locomotive · 3DAxle guidance drawingsSeparate engineering
+LT15 · AXLE GUIDANCE CANDIDATE
+Let the powered axles slide sideways
+The previous curve model tried to turn rectangular axleboxes inside straight guides. This revision studies a different arrangement: all three powered axles stay parallel, and each wheelset, axlebox pair and complete motor carrier moves sideways together. The wider guides keep the axleboxes aligned while allowing vertical suspension movement.
+Open the whole locomotive in 3D, then select Axle guidance detail or Frame & drives. Try the left and right 50 m target curves, suspension travel and roll. This is a proposed alternative to radial steering; it does not establish an acceptable operating radius.
+What now connects to the frame
+Replaceable wear pads sit on the front and rear faces of each axlebox. The padded width is280 mm inside a282 mm guide opening, leaving1 mm nominal clearance at each face.
+Wider horn guides give the pads room to slide sideways. A lower inboard relief clears the motor carrier through the sampled movement.
+Lateral stop ears connect directly to each horn weldment. Their faces are150 mm apart around the100 mm-wide box: ±25 mm nominal hard travel at zero roll. Combined roll reduces available travel.
+Wider attachment headers join the horn weldments to the frame. Traction, braking and motor reaction loads go through the carrier, axleboxes, wear faces and guides into those headers. The welds and supporting frame still need structural design.
+Dimensioned guide and axlebox detail
+Tap the drawing to open it full size. This is a layout drawing; unselected materials, pad fasteners, fits and weld sizes are not released.
+What the movement check establishes
+The revised solid model has no moving-to-fixed intersections in27 sampled combinations of straight/left/right track, −40/0/+50 mm vertical travel and −2/0/+2° rigid-group roll. An additional24 lateral-limit samples also contain no positive-volume intersections. Intentional stop contact is permitted at ±25 mm with zero roll.
+The outer drivers still meet a50 m curve at approximately1.776° to the local track direction. We must check flange forces, wheel unloading and the actual wheel/rail profiles. The model’s lateral offsets are prescribed positions, not a solved steering or centering response.
+Still required before this can carry loads
+Design the lateral centering and damping, sliding spring seats, suspension stops and rebound retention; finish wear-pad fastening and axlebox attachment; calculate guide pressure, motor reaction, fatigue and frame stresses. The current mechanism is not ready to operate or fabricate.
+Open the separate engineering checks and frame-section comparison →
+Earlier motor, chain-drive and hydraulic connection drawings remain available. Their supplier and retention holds still apply.LT15 · Development candidate · Not for fabricationWhole locomotive

@@ -1,0 +1,78 @@
+LT26 · Locomotive motion · Pulsipher FarmsSkip to content
+LT26 · INSTALLATION & CONTROLS
+Engine access, cooling and truck connections
+Installation drawings and model → · Proposed brake circuit → · Checks and remaining holds →Whole locomotiveLT26 movementLT26 calculationsLT25 installation details
+LT26 · SEPARATE ENGINEERING RECORD
+Load positions, clearance and remaining travel.
+LT25 retained 168 new-installation equilibria but its viewer used the older nominal pose. LT26 reruns those duty/track combinations at signed lateral acceleration for the 50 m target, then maps all 504 positions into the retained locomotive geometry.
+Changed basis: left/right use +v²/50 and −v²/50; straight uses zero lateral acceleration. LT23/LT25 historical results remain intact. Their default 30 m calculation is unchanged when the new optional override is absent. No new supplier ratings or masses were received in this revision.
+ | Check
+ | Result
+ | Meaning
+ | Equilibrium
+ | 504 / 504 converge
+ | Numerical balance only; prescribed wheel contact and quasi-static assumptions
+ | Installation box check
+ | 3,878,280 pairs; no overlaps
+ | Minimum 274.180 mm; less 2 mm display allowance = 272.180 mm. Not a construction tolerance budget.
+ | Main pivot slide
+ | 3.775 mm remaining
+ | Retained ±10 mm stroke; no wear / manufacturing / deflection allowance deducted
+ | Roll capture travel
+ | 13.629 mm remaining
+ | Retained ±16 mm capture range
+ | Bearing / link angles
+ | 2.637° / 2.769°
+ | Geometric demand; supplier combined-load articulation ratings still needed
+ | Minimum calculated wheel load
+ | 5.225 kN
+ | Positive in this model; not a derailment, flange-force or stability assessment
+ | Capacity flags
+ | 300 / 504 demand-only cases
+ | Exceed trial μ=0.15 and/or 5 kNm per-axle brake target; no operating credit
+ | Finite-angle contact mapping
+ | 0.0324 mm primary; 0.0366 mm rebound residual
+ | Minimum exact rebound gap -0.0191 mm. No silent position correction; refine contact kinematics before release.
+What the clearance check includes
+Every represented moving part is enclosed in a local box, transformed with its truck, axle, spring, slider or link motion. Full Ø1,450 × 103 mm driver-disk boxes cover wheel rotation; the complete 809.244 mm-wide AIE orientation reservation is occupied rather than checking only its outline bars. The new engine-installation boxes are compared with all these moving boxes. Separated conservative boxes establish separation of these occupants at the listed discrete positions.
+The 504 poses are not a continuous sweep. This check does not requalify every retained truck/body interface, complete connecting-rod rotation, leading-truck vertical movement, track transitions, hoses, supplier protrusions, elastic deflection or thermal clearances. Spring representations are occupancy envelopes.
+Attachment demands retained for review
+ | Demand
+ | Largest magnitude in LT26
+ | Status
+ | Traction link
+ | 22.763 kN
+ | Quasi-static; retain wider prior envelope and fault cases
+ | Compression bumper
+ | 4.814 kN
+ | Unselected 4 kN/mm trial law; impact energy and supplier curves not confirmed
+ | Rebound restraint
+ | 6.750 kN
+ | Quasi-static contact reaction; impact pulse, fatigue and local connections unresolved
+Do not reduce the retained LT23/LT24 review demands simply because the 50 m target gives smaller lateral loading than the older 30 m study. Final connection loads must include the chosen brake-failure architecture, dynamic amplification and actual bumper behavior.
+Supplier support interface
+Danfoss lists orientation-dependent H1P 045/053 mounting-flange moment ratings: 2,020 N·m rated / 4,110 N·m shock with the control on top, and 1,300 / 2,930 N·m with it on the side. These are pump-flange limits, not approval of the AIE adapter, engine housing or proposed skid. The configured mounting arrangement, mass, centre of gravity and support stiffness remain unconfirmed.
+Source: Danfoss H1P 045/053 Technical Information, June 2025, printed page 9. Public document checked October 21, 2026. Requested supplier support and torque data remain open; no inquiry is resent by this revision.
+Evidence and scope
+Signed lateral acceleration is v²/50 m for left/right and zero on straight. Six mass allowances and 168 LT25 duty/track combinations are preserved.
+The quasi-static reduced model assumes rail contact, rigid structure, equal wheel force allocation, fixed LT23 spring preloads and unselected linear bumpers. It is not a dynamic or track-geometry analysis.
+Capacity flags remain demand-only cases, never authorized performance. No friction-brake capacity or adhesion has been demonstrated.
+Small-angle load coordinates map to finite rotations without silently correcting a contact position. Mapping residuals, including slight rebound penetration, are reported.
+Leading truck follows the inherited plan-view path only; no leading-truck suspension or vertical track conformance is modeled.
+Supplier package and pump are reservations; configured protrusions, hoses, guards, tolerances, elastic deflection and thermal clearances are not represented.
+No final attachment, coupling, brake circuit, bumper product or fabrication release.
+504-case result table · CSVSummary and critical cases · JSONClearance evidence · compressed JSONOpen governing positions
+ | Metric
+ | Case
+ | lowest wheel
+ | rear-heavy/power_limited_pull_1/twist_left/left
+ | compression
+ | high/all_coach_loss_0.7_demand/twist_right/left
+ | rebound
+ | front-heavy/all_coach_loss_0.7_demand/twist_right/right
+ | pivot
+ | front-heavy/all_coach_loss_0.7_demand/twist_right/left
+ | roll travel
+ | low/all_coach_loss_0.7_demand/twist_right/left
+ | slide
+ | front-heavy/all_coach_loss_0.7_demand/twist_right/leftLT26 · October 21, 2026 · Development study · No fabrication or operating releaseEngineering

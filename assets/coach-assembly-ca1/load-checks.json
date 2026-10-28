@@ -1,0 +1,91 @@
+{
+  "issue": "CA1-R1",
+  "force_probe_N": 200000.0,
+  "approved_design_load": false,
+  "method": "Elementary elastic average/beam screens, no allowable stresses or safety factors assigned. No stiffness/frame FEA solution. Prior train loads are sensitivity values from original mass and binary-brake assumptions.",
+  "checks": {
+    "pin_average_double_shear_MPa": 35.3677651315323,
+    "pin_bending_point_load_MPa": 228.71154785057553,
+    "pin_bending_distributed44mm_MPa": 176.8388256576615,
+    "bearing_projected_pressure_MPa": 75.75757575757575,
+    "ear_projected_pressure_MPa": 66.66666666666667,
+    "ear_net_stress_MPa": 30.888030888030887,
+    "crosshead_Iz_mm4": 8173333.333333333,
+    "crosshead_Zz_mm3": 163466.66666666666,
+    "unbraced_crosshead_stress_MPa": 497.2267536704731,
+    "ideal_braced_crosshead_stress_MPa": 183.5236541598695,
+    "brace_axial_force_N": 141810.10311010433,
+    "brace_stress_MPa": 61.549523919316115,
+    "brace_transverse_at_frame_N": 100549.01960784313,
+    "one_secondary_anchor_yaw_moment_Nm": 144560.0
+  },
+  "load_components": [
+    {
+      "case": "pull probe",
+      "signed_bar_force_N": 200000.0,
+      "bodyA_force_components_N": [
+        198237.1803272032,
+        24340.465141105564,
+        10467.191248588766
+      ],
+      "note": "Body A, bar yaw7/pitch3; equal opposite end force expressed in other body coordinates separately in motion model. Static load components, not design envelope."
+    },
+    {
+      "case": "push probe",
+      "signed_bar_force_N": -200000.0,
+      "bodyA_force_components_N": [
+        -198237.1803272032,
+        -24340.465141105564,
+        -10467.191248588766
+      ],
+      "note": "Body A, bar yaw7/pitch3; equal opposite end force expressed in other body coordinates separately in motion model. Static load components, not design envelope."
+    },
+    {
+      "case": "prior maximum tension J2",
+      "signed_bar_force_N": 118876,
+      "bodyA_force_components_N": [
+        117828.21524288304,
+        14467.485670570326,
+        6221.4891343361915
+      ],
+      "note": "Body A, bar yaw7/pitch3; equal opposite end force expressed in other body coordinates separately in motion model. Static load components, not design envelope."
+    },
+    {
+      "case": "prior maximum compression J2",
+      "signed_bar_force_N": -78030,
+      "bodyA_force_components_N": [
+        -77342.23590465833,
+        -9496.432474802335,
+        -4083.7746656369072
+      ],
+      "note": "Body A, bar yaw7/pitch3; equal opposite end force expressed in other body coordinates separately in motion model. Static load components, not design envelope."
+    }
+  ],
+  "grade_sensitivity": {
+    "tail_mass_kg": 50600,
+    "grade_percent": 5,
+    "extra_static_tail_gravity_N": 24779.868998862734,
+    "note": "Sensitivity only; not an accepted route grade or braking allocation."
+  },
+  "secondary_capture_example": {
+    "masses_kg": [
+      14500,
+      50600
+    ],
+    "reduced_mass_kg": 11270.353302611367,
+    "relative_speed_m_s": 1,
+    "energy_J": 5635.176651305684,
+    "assumed_arrest_stroke_mm": 50,
+    "average_arrest_force_N": 112703.53302611367,
+    "note": "Not chain elongation allowance. Peak and concurrent train forces additional; shock rating unavailable."
+  },
+  "unresolved": [
+    "Approved full-train masses, maximum traction, brake force/timing, gradient, speed, slack impact and fatigue spectrum.",
+    "Pin material, fit/contact distribution, bending fatigue and wear.",
+    "Retainer axial thrust, M6 thread strip and net ligament/fatigue around eye bores.",
+    "Ear spreading/out-of-plane force, fork/backplate weld group and local wall bending.",
+    "Crosshead/brace stiffness sharing, welds/diaphragms, compression buckling, girder wall reinforcement and end-to-end frame path.",
+    "Secondary one-sided catch, anchor bending/tearout, independent reinforcement, dynamic energy control and matched fitting approval."
+  ],
+  "fabrication_released": false
+}

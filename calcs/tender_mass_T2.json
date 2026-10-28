@@ -1,0 +1,369 @@
+{
+  "rev": "T2 (L4 update 2026-10-28, merged TB-3.13i by Grokky)",
+  "date": "2026-10-28",
+  "approved": [
+    "S1",
+    "D1",
+    "K1",
+    "B1"
+  ],
+  "not_adopted": [
+    "G1",
+    "F1",
+    "L1"
+  ],
+  "ledger": {
+    "Trucks (2)": [
+      {
+        "item": "Wheels 8 \u00d7 \u00d8600 plate-web",
+        "kg": 1152.2,
+        "basis": "CAD rev T2 true section (rim 50, web 25, hub \u00d8200 - section ASSUMED)"
+      },
+      {
+        "item": "Axles 4 \u00d7 \u00d8110",
+        "kg": 417.8,
+        "basis": "CAD"
+      },
+      {
+        "item": "Truck frames, axleboxes, centre plates",
+        "kg": 773.4,
+        "basis": "CAD (C-303)"
+      },
+      {
+        "item": "Springs, brake discs, calipers, spring-brake chambers",
+        "kg": 300,
+        "basis": "ASSUMED 150 kg per truck (not modeled)"
+      }
+    ],
+    "Frame + deck": [
+      {
+        "item": "Main rails, crossmembers, fish-belly bolsters (B1)",
+        "kg": 704.8,
+        "basis": "CAD rev T2 (bolster lightening holes not modeled - conservative)"
+      },
+      {
+        "item": "PF-DB drop boxes and pockets",
+        "kg": 338.7,
+        "basis": "CAD"
+      },
+      {
+        "item": "Deck 6 mm tread plate + 7 C6x8.2 cross-bearers (D1)",
+        "kg": 694.1,
+        "basis": "CAD rev T2"
+      },
+      {
+        "item": "Tread-plate pattern, bearer clips, welds",
+        "kg": 35.8,
+        "basis": "ASSUMED"
+      }
+    ],
+    "Body": [
+      {
+        "item": "Skin 10 ga (3.42 mm) sides, ends, roof (S1)",
+        "kg": 753.0,
+        "basis": "Model rev T2"
+      },
+      {
+        "item": "Posts + roof bows HSS2x2x1/8 at \u2264500",
+        "kg": 284.0,
+        "basis": "Model rev T2"
+      },
+      {
+        "item": "Door frames, bolts / plug welds, post clips",
+        "kg": 40,
+        "basis": "ASSUMED"
+      },
+      {
+        "item": "Lining 50 mm mineral wool 100 kg/m\u00b3 + 0.8 mm perforated steel liner + facing (standard, kept)",
+        "kg": 275.0,
+        "basis": "ASSUMED densities (as TW-1 baseline)"
+      },
+      {
+        "item": "Coal-effect cover 1.5 mm formed steel (K1)",
+        "kg": 126.5,
+        "basis": "Model rev T2 (height ASSUMED)"
+      },
+      {
+        "item": "Cover supports, coal texture coating, gold trim",
+        "kg": 40,
+        "basis": "ASSUMED"
+      },
+      {
+        "item": "Doors, hinges, latches, handles, paint",
+        "kg": 100,
+        "basis": "ASSUMED"
+      }
+    ],
+    "Equipment (dry)": [
+      {
+        "item": "AIE V3307 package + radiator + H1P053",
+        "kg": 610.0,
+        "basis": "rev L4: H1P053 (same SAE B pad)"
+      },
+      {
+        "item": "Fuel tank + hydraulic reservoir (empty)",
+        "kg": 90,
+        "basis": "basis.json 40 + 50 (unchanged)"
+      },
+      {
+        "item": "Hydraulic oil cooler",
+        "kg": 55,
+        "basis": "basis.json (unchanged)"
+      },
+      {
+        "item": "35 kW generator set - PTI-38 (OWNER DECISION; DCA36 1,137 kg alt.)",
+        "kg": 699,
+        "basis": "rev L4 Tender Bot: PTI-38 data sheet 699 kg"
+      },
+      {
+        "item": "Compressor IR 2340 + electric clutch, coach AC panel, batteries",
+        "kg": 190,
+        "basis": "rev L4 Tender Bot"
+      },
+      {
+        "item": "Mounts, exhaust + shields, ducts, hoses, cabling",
+        "kg": 250,
+        "basis": "ASSUMED - not in owner ledger (unchanged)"
+      }
+    ],
+    "Fuel + fluids": [
+      {
+        "item": "Diesel 150 L",
+        "kg": 126,
+        "basis": "basis.json (0.84 kg/L) (150 L kept)"
+      },
+      {
+        "item": "Hydraulic oil in reservoir",
+        "kg": 78.1,
+        "basis": "basis.json (150 L kept)"
+      },
+      {
+        "item": "Hydraulic oil - L4 additional (4 \u00d7 MS05 loops, 14 kW cooler, flow divider)",
+        "kg": 26,
+        "basis": "rev L4 Tender Bot"
+      }
+    ]
+  },
+  "groups": {
+    "Trucks (2)": 2643.4,
+    "Frame + deck": 1773.4,
+    "Body": 1618.5,
+    "Equipment (dry)": 1894.0,
+    "Fuel + fluids": 230.1
+  },
+  "total_kg": 8159,
+  "T1_baseline_kg": 9315.0,
+  "saving_kg": 1156,
+  "study_estimate_kg": 8244,
+  "margin_kN": 0.61,
+  "margin_T1_kN": 0.15,
+  "margin_ledger_kN": 0.61,
+  "limit_t": 9.69,
+  "headroom_t": 1.53,
+  "F350": 31.75,
+  "kN_per_t": 0.4002,
+  "current": {
+    "rev": "TB-3.13i",
+    "kg": 8718.6,
+    "cg_mm": [
+      2419.4,
+      10.8,
+      1110.2
+    ],
+    "src": "tender/calcs_out.json layout_TB313i",
+    "label": "CALC"
+  },
+  "current_kg": 8718.6,
+  "reconciliation_to_current_kg": 559.6,
+  "margin_current_kN": 0.39,
+  "headroom_current_t": 0.97,
+  "previous_current_TB313d": {
+    "rev": "TB-3.13d",
+    "kg": 8706.5,
+    "cg_mm": [
+      2422.7,
+      11.3,
+      1110.4
+    ],
+    "delta_vs_TB311_kg": 59.9,
+    "includes": "tender-end safety-chain shackles",
+    "MR_pipe": "3/4 in x ~5.3 m to the MR glad hand at Y-950/Z1950 (~1.50 L, in the loco MR volume)",
+    "history": "T2 build-up 8159 -> TB-3.4 8,465.3 -> TB-3.8 8,568.8 -> TB-3.9 8,616.3 -> TB-3.11 8,646.6 -> TB-3.13b 8,700.1 -> TB-3.13c 8,705.2 -> TB-3.13d 8,706.5 (+7.9 kg if the A-1342N fallback coupler is used) (Tender Bot layout items: genset/ATS/cabinet, 150 L tank, 3 MR, shore transformer cradle, etc.)"
+  },
+  "governing_baseline": {
+    "kg": 8304.0,
+    "label": "T2 consist budget (governs, Grokky TB-3.13h)",
+    "src": "train/calcs/tender_weight_study.md modeled build-up 8,304; LOCO_BASIS consist; drive_L4.json"
+  },
+  "growth_policy": "Growth above 8,304 accepted out of unallocated train mass (Grokky ruling TB-3.13h)",
+  "growth_total_kg": 414.6,
+  "growth_by_revision": [
+    {
+      "revision": "TB-3 / 3.1",
+      "delta_kg": -6.5,
+      "items": "Genset -201, hydraulic group +98.8, air reservoirs +63, oil +26, DF60 +4.5"
+    },
+    {
+      "revision": "TB-3.2 - 3.5",
+      "delta_kg": 182.0,
+      "items": "Shore transformer +100, under-deck assembly/cradle/shield +54.4/+14.3/+14.2, cabinet -2.6"
+    },
+    {
+      "revision": "TB-3.6",
+      "delta_kg": 43.2,
+      "items": "Loco-interface plates, glad hands, dry-break group estimate"
+    },
+    {
+      "revision": "TB-3.7",
+      "delta_kg": 48.9,
+      "items": "Dry-break bracket + payload +32.2, cabinet +7.7, +9.0"
+    },
+    {
+      "revision": "TB-3.8",
+      "delta_kg": -2.8,
+      "items": ""
+    },
+    {
+      "revision": "TB-3.9",
+      "delta_kg": 47.5,
+      "items": "Loco L-114 interface: chain lugs, glad hands, hoses, air (J/K)"
+    },
+    {
+      "revision": "TB-3.10",
+      "delta_kg": 29.7,
+      "items": "Front end plate +19.6, PL40 lugs, diaphragms, doubler"
+    },
+    {
+      "revision": "TB-3.11 - 3.13",
+      "delta_kg": -7.6,
+      "items": "Discs 12.7 -24.4, coupling payload +8.0, panel items +7.6"
+    },
+    {
+      "revision": "TB-3.13b",
+      "delta_kg": 61.7,
+      "items": "Rear J-AC/J-CC plates, straps, connectors +33.4, LFMC route +17.1, MR pipe +8.6, gussets, couplers"
+    },
+    {
+      "revision": "TB-3.13c - f",
+      "delta_kg": 7.5,
+      "items": "Tender-end shackles +7.5, hose shares, QO2225SL, TB-BR"
+    },
+    {
+      "revision": "TB-3.13g",
+      "delta_kg": 3.9,
+      "items": "1840 half-loops + 45 deg heads (A/B +3.468, CD +0.447)"
+    },
+    {
+      "revision": "TB-3.13h",
+      "delta_kg": 6.7,
+      "items": "Jumper male halves 2 x VEP21HD CODE62 808124019 (2.97 SRC) + FIRG17 male 800804021 (0.44 SRC) = +6.38; bracket bolts M16 -> M20 8.8 +0.34 CALC"
+    },
+    {
+      "revision": "TB-3.13i",
+      "delta_kg": 0.4,
+      "items": "Bracket through-bolts M20x65 10.9 + nuts/washers inside (+0.86), \u00d822 through holes (-0.11), bottom-wall hand hole (-2.31) + PL6 cover (+1.94)"
+    }
+  ],
+  "growth_by_revision_sum_kg": 414.6,
+  "TB313h_items": [
+    {
+      "item": "6 x M20x45 8.8 + washers vs M16 (CALC geometry), less bigger holes",
+      "kg": 0.34,
+      "at_mm": [
+        60,
+        -215,
+        720
+      ]
+    },
+    {
+      "item": "2 x VEP21HD CODE62 male 808124019 (SRC 2.97 kg each) on the A/B jumper heads",
+      "kg": 5.94,
+      "at_mm": [
+        -60.0,
+        -460,
+        1000
+      ]
+    },
+    {
+      "item": "FIRG17 male 800804021 (SRC 0.44 kg) on the CD jumper",
+      "kg": 0.44,
+      "at_mm": [
+        -60.0,
+        -460,
+        800
+      ]
+    }
+  ],
+  "ledger_L4_note": {
+    "total_kg": 8159,
+    "groups": {
+      "Trucks (2)": 2643.4,
+      "Frame + deck": 1773.4,
+      "Body": 1618.5,
+      "Equipment (dry)": 1894.0,
+      "Fuel + fluids": 230.1
+    },
+    "note": "L4 ledger build-up (8,159) kept for reference only; it is NOT the governing baseline. Current minus ledger = 559.2 kg"
+  },
+  "limits_CALC": {
+    "limit_t": 9.69,
+    "headroom_current_t": 0.97,
+    "kN_per_t": 0.4002,
+    "margin_current_kN": 0.39,
+    "method": "linear as implied by the file: margin_kN 0.61 at 8159 kg less kN_per_t x growth (reproduces its 0.4 kN at 8706.5)"
+  },
+  "replaces_fields": {
+    "current_kg": 8718.6,
+    "reconciliation_to_current_kg": 559.6,
+    "current_rev": "TB-3.13i"
+  },
+  "bracket_payload_kg": 29.2,
+  "TB313i_items": [
+    {
+      "item": "M20x45 -> M20x65 10.9 (+20 mm shank) x6",
+      "kg": 0.296,
+      "at_mm": [
+        60,
+        -200,
+        720
+      ]
+    },
+    {
+      "item": "6 x M20 class 10 nuts + 6 x washers inside",
+      "kg": 0.564,
+      "at_mm": [
+        60,
+        -174,
+        720
+      ]
+    },
+    {
+      "item": "tapped -> \u00d822 through the side wall",
+      "kg": -0.109,
+      "at_mm": [
+        60,
+        -192,
+        720
+      ]
+    },
+    {
+      "item": "bottom-wall hand hole",
+      "kg": -2.314,
+      "at_mm": [
+        220,
+        -89,
+        408
+      ]
+    },
+    {
+      "item": "hand-hole cover PL6 + 6 x M8",
+      "kg": 1.94,
+      "at_mm": [
+        220,
+        -89,
+        397
+      ]
+    }
+  ],
+  "note_TB313i": "train/calcs/tender_mass_T2.json was replaced (04:34:40, not by Tender) with the TB-3.13h proposal verbatim; the original L4 ledger is in train/backup_pre_L42/tender_mass_T2_TB313d.json. This TB-3.13i file only moves current to 8718.6 and adds the TB-3.13i row."
+}

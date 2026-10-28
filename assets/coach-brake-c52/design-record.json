@@ -1,0 +1,62 @@
+{
+  "issue": "C52-D2 / compact tread-brake development",
+  "status": "FAILED RELEASE/FIT; NOT A WORKING BRAKE; NOT FABRICATION RELEASE",
+  "scope": "One positive-X axle development module with selected C5 wheel/web/crossbeam/body context. Other axle is a future mirror; this issue does not replace the full C5 truck or its axles.",
+  "completed_scope": [
+    "340 valid separately identified CAD solids with actual fabricated beam, support, link/fork, carrier, bearing-envelope and pin/retainer geometry",
+    "Stock8x3x1/4in beam,3x3x1/4in upper support,63.5mm shaft and sourced spherical-bearing dimensional interfaces",
+    "Real M4 retainer holes/screws, shoulder-pin stacks,16supportwashers and proposed eightmatching innerwebholes",
+    "Compact354part schema3 viewer with14C5contextparts; nine exact finite-link state transforms supplied separately",
+    "Dimensioned M01/D01 sheets and STEP assembly, preserving failed references and unresolved interfaces"
+  ],
+  "unfinished": [
+    "Compatible available friction insert/finished wheel pair;70mm reference is not a selected product",
+    "Eight nominal physicalpart intersections plus16insert-reference conflicts remain, explicitly listed in verification",
+    "Released head attitude does not track suspension and full-arc release fails",
+    "Purchased MGM3420051 clamp/hose/caging complete envelope and studthread revision;8292002P yoke revision/profile/thread engagement",
+    "Actual locator end joints, selected springs and their anchors, qualified stops and drop retention",
+    "Exact bearing spherical profiles, lubrication/seals, locking processes and collar fasteners",
+    "Welds/localwall force paths, fatigue, complete strength qualification, brake balance/control/thermal/system tests",
+    "Full twoaxle installation, shortaxle/retainedbearing cover completion, bodyyaw/tilt and fullvehicle assembly motion"
+  ],
+  "checks": {
+    "valid_parts": 340,
+    "nominal_module_candidate_pairs": 767,
+    "positive_pairs": 104,
+    "thread_envelope_pairs": 80,
+    "unresolved_physical_pairs": 8,
+    "insert_reference_conflicts": 16,
+    "retained_context_positive_pairs": 0,
+    "independent_motion_status": "FAILED; finite beam closure does not qualify whole shoe release"
+  },
+  "mass": {
+    "represented_nonreference_steel_and_hardware_kg_per_axle_module": 118.85441750601548,
+    "excluded": "All catalogue-reference bearings/bronze sleeves, actuator/rod, friction inserts and unselected springs; C5context excluded. Weld consumables, hoses and missing components excluded.",
+    "status": "Incomplete CAD subtotal, not a measured or complete brake mass."
+  },
+  "drawings": [
+    {
+      "file": "C52-M01.svg.gz",
+      "preview": "C52-M01.png",
+      "title": "One-axle assembly, reaction support and actuation"
+    },
+    {
+      "file": "C52-D01.svg.gz",
+      "preview": "C52-D01.png",
+      "title": "Head interface, articulated link and retained pivot details"
+    }
+  ],
+  "model": "model-applied.json.gz",
+  "state_transform_record": "model-states.json.gz",
+  "step": "C52-module-D2.step.gz",
+  "source_package": "C52-development-source.zip",
+  "sourcepaths": [
+    "cad/coach-brake-c52/build_c52.py",
+    "cad/coach-brake-c52/issue_c52.py",
+    "cad/coach-brake-c52/geometry-contract.json",
+    "cad/coach-brake-c52/checkpoint.brep",
+    "cad/coach-truck-c5/checkpoint.brep",
+    "cad/coach-truck-c5/parts.json"
+  ],
+  "next_decision": "Choose a matched available friction-block/wheel pair or reconsider an inboard disc before further tread-mechanism refinement."
+}

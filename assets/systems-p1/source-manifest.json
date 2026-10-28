@@ -1,0 +1,30 @@
+[
+  {
+    "archive": "assets/files/Christmas_Train_Phase3F_Technical_Source_R0.zip",
+    "archive_sha256": "7e805944140ade2632edc9b22cf04d706fa98dcf270f8d251e2cd72a3d8450e2",
+    "member": "phase3f/research/systems_f_inputs.json",
+    "sha256": "8bb81855ebc032a8c7cbddeab8db79a666209d692d0f95ae2ed56a21fce100a0",
+    "preserved_as": "inherited-inputs.json"
+  },
+  {
+    "archive": "assets/files/Christmas_Train_Phase3F_Technical_Source_R0.zip",
+    "archive_sha256": "7e805944140ade2632edc9b22cf04d706fa98dcf270f8d251e2cd72a3d8450e2",
+    "member": "phase3f/research/systems_f_calculations.json",
+    "sha256": "ddde0964b8e47cdad54bf190360155615c57a7383e57866cf0c02e1c090db60f",
+    "preserved_as": "inherited-results.json"
+  },
+  {
+    "archive": "assets/files/Christmas_Train_Phase3F_Technical_Source_R0.zip",
+    "archive_sha256": "7e805944140ade2632edc9b22cf04d706fa98dcf270f8d251e2cd72a3d8450e2",
+    "member": "phase3f/research/calculate_systems_f.py",
+    "sha256": "00f9f0e1847d81a20b99b4d0665f84e51a3faa6d6d7add4acae85ed57de22e11",
+    "preserved_as": "inherited-calculator.py"
+  },
+  {
+    "archive": "assets/files/Christmas_Train_Phase3F_Technical_Source_R0.zip",
+    "archive_sha256": "7e805944140ade2632edc9b22cf04d706fa98dcf270f8d251e2cd72a3d8450e2",
+    "member": "phase3f/research/systems_f.json",
+    "sha256": "57c0cd1ee4a224aa0ed46057065af5cdecf439c36b4dab288837c73f47d3ed7a",
+    "preserved_as": "inherited-system-register.json"
+  }
+]

@@ -1,0 +1,136 @@
+{
+  "issue": "PF-DT3-R0",
+  "checks": {
+    "individual_STEP_valid_and_volume_roundtrip": 162,
+    "assembly_STEP_valid": true,
+    "DXF_mm_and_audit": true,
+    "selected_static_overlap_results": [
+      {
+        "a": "DT3-G1",
+        "b": "DT3-C1",
+        "overlap_mm3": 0.0
+      },
+      {
+        "a": "DT3-G1",
+        "b": "DT3-C3",
+        "overlap_mm3": 0.0
+      },
+      {
+        "a": "DT3-G2",
+        "b": "DT3-C1",
+        "overlap_mm3": 0.0
+      },
+      {
+        "a": "DT3-G2",
+        "b": "DT3-C3",
+        "overlap_mm3": 0.0
+      },
+      {
+        "a": "DT3-BP1",
+        "b": "DT3-AH1",
+        "overlap_mm3": 0.0
+      },
+      {
+        "a": "DT3-BP1",
+        "b": "DT3-AC01",
+        "overlap_mm3": 0.0
+      },
+      {
+        "a": "DT3-BP1",
+        "b": "DT3-AC11",
+        "overlap_mm3": 0.0
+      },
+      {
+        "a": "DT3-BG1",
+        "b": "DT3-AH1",
+        "overlap_mm3": 0.0
+      },
+      {
+        "a": "DT3-BG1",
+        "b": "DT3-AC01",
+        "overlap_mm3": 0.0
+      },
+      {
+        "a": "DT3-BG1",
+        "b": "DT3-AC11",
+        "overlap_mm3": 0.0
+      },
+      {
+        "a": "DT3-BP2",
+        "b": "DT3-AH2",
+        "overlap_mm3": 0.0
+      },
+      {
+        "a": "DT3-BP2",
+        "b": "DT3-AC02",
+        "overlap_mm3": 0.0
+      },
+      {
+        "a": "DT3-BP2",
+        "b": "DT3-AC12",
+        "overlap_mm3": 0.0
+      },
+      {
+        "a": "DT3-BG2",
+        "b": "DT3-AH2",
+        "overlap_mm3": 0.0
+      },
+      {
+        "a": "DT3-BG2",
+        "b": "DT3-AC02",
+        "overlap_mm3": 0.0
+      },
+      {
+        "a": "DT3-BG2",
+        "b": "DT3-AC12",
+        "overlap_mm3": 0.0
+      },
+      {
+        "a": "DT3-MOTOR",
+        "b": "DT3-AH1",
+        "overlap_mm3": 0.0
+      },
+      {
+        "a": "DT3-MOTOR",
+        "b": "DT3-AH2",
+        "overlap_mm3": 0.0
+      },
+      {
+        "a": "DT3-MOTOR",
+        "b": "DT2-W01",
+        "overlap_mm3": 0.0
+      },
+      {
+        "a": "DT3-MOTOR",
+        "b": "DT2-W02",
+        "overlap_mm3": 0.0
+      },
+      {
+        "a": "DT3-MOTOR",
+        "b": "DT2-W03",
+        "overlap_mm3": 0.0
+      },
+      {
+        "a": "DT3-MOTOR",
+        "b": "DT2-W04",
+        "overlap_mm3": 0.0
+      }
+    ],
+    "selected_static_pairs_clear": true,
+    "new_and_archived_page_local_links": true,
+    "drawing_svg_xml": true,
+    "compressed_web_mesh_decode_components": 162,
+    "download_ZIP_assembly_identical_to_verified_STEP": true,
+    "compact_package_links": true
+  },
+  "construction_approved": false,
+  "browser_QA": "Unavailable: Sites preview failed with bwrap proc-mount error. No successful browser run claimed.",
+  "unverified": [
+    "Full assembly collisions and swept movement",
+    "Gear contact/strength and shaft/key fatigue",
+    "Bearing load life/preload/fits",
+    "Hydraulic circuit and control fault performance",
+    "Wheel profile/press fit, suspension, brakes, route clearance and vehicle stability",
+    "Supplier purchase codes, complete mass and installation acceptance"
+  ]
+}

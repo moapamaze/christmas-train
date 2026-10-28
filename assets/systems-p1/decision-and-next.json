@@ -1,0 +1,66 @@
+{
+  "issue": "PF-3P1-R0",
+  "review_issue_complete": true,
+  "complete3P": false,
+  "approved_for_fabrication": false,
+  "removed_from_current_configuration": [
+    "DC-B07 hydraulic pump current/start assumptions",
+    "Hydraulic device reserve numbers as current battery sizing"
+  ],
+  "retained_as_benchmarks": [
+    "All original3F source and results",
+    "6A nonpump and1080Waux allocations explicitly unvalidated",
+    "200W baseline thermal case for exact replay"
+  ],
+  "not_selected": [
+    "HVAC unit counts",
+    "Generator kVA",
+    "Wire size or breaker",
+    "Battery Ah",
+    "Roof/underframe mount",
+    "Compressor or assumed zero compressor load"
+  ],
+  "gates": [
+    {
+      "id": "P-G01",
+      "interface": "Actual environment and ventilation",
+      "accountable": "Mechanical/HVAC engineer + responsible authority",
+      "evidence": "Site climate design, season/day/evening duty, humidity, solar, passengers, door cycle and ventilation/filtration criteria. Current110/75\u00b0F cooling and30/68\u00b0F heating are probes."
+    },
+    {
+      "id": "P-G02",
+      "interface": "Equipment and heat placement",
+      "accountable": "Electrical + HVAC engineers",
+      "evidence": "Actual HVAC and auxiliary nameplates, cold/hot output, input/PF/start curve, fan pressure and sensible/latent/net-fan capacity conventions; heat locations and charger energy balance."
+    },
+    {
+      "id": "P-G03",
+      "interface": "Air compressor / engine / hotel coordination",
+      "accountable": "Brake + propulsion + electrical engineers",
+      "evidence": "32coach chambers plus loco/lines/valves; accepted free-air demand, leakage, recharges, duty, compressor shaft/electrical/start loads. Explicitly allocate compressor to one supply path."
+    },
+    {
+      "id": "P-G04",
+      "interface": "Physical installation",
+      "accountable": "Body structure + HVAC/electrical specialists",
+      "evidence": "Roof/underframe support, loaded CG, headroom, drains, vibration, fire/smoke/materials, return/supply separation, outside intake/exhaust separation, service and swept clearance."
+    },
+    {
+      "id": "P-G05",
+      "interface": "Distribution, protection and emergency reserve",
+      "accountable": "Electrical engineer + authority",
+      "evidence": "Chosen generator/distribution topology, fault/short-circuit and voltage-drop study, bonding/grounding and neutral regime, moving connections, isolation/interlocks, emergency illumination and selected cold/aged battery acceptance."
+    }
+  ],
+  "test_evidence": [
+    "Measure HVAC input, start transient, minimum terminal voltage and generator recovery under selected simultaneous loads. Acceptance values by responsible engineers.",
+    "Verify supply/outside airflow at dirty-filter pressure, temperatures/humidity, duct leakage and occupied comfort; no recirculation fan counted as fresh air without a real outside-air path.",
+    "Measure charger/DC load and thermal locations at operating/recharge/reserve conditions; verify brownout and controlled restart without brake/egress impairment.",
+    "Instrument compressor recovery, brake release/application timing and repeated-stop duty on accepted full trainline; catalog volume sums alone cannot qualify it.",
+    "Inspect bonding, isolation, connectors, condensate routing and exhaust reingestion in both travel directions; qualified specialists own energized and safety tests."
+  ],
+  "next": {
+    "issue": "3P.2",
+    "scope": "Complete current HVAC physical installation comparison from exact manuals; verify ADB/headroom, roof openings, manufacturer service envelopes and ventilation interface. Do not select roof support/bolt dimensions from a roof block. If controlled interfaces unavailable, advance3Q track/station survey-and-construction coordination and operations/authority evidence, keeping open gates consolidated."
+  }
+}

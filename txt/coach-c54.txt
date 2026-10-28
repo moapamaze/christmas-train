@@ -1,0 +1,115 @@
+One brake installation · C5.4 · Pulsipher Farms
+Previous version · Earlier brake installation issue
+This page is retained as history. Open the current assembly →
+C5.5 current brake development: One brake installation with revised chamber-port, fitting and hose geometry. Conflicting manufacturer rotor dimensions, exact chamber selection, maximum force and completed connections remain open. This is not a confirmed matched brake kit. Current truck model · Drawings and parts · Evidence and supplier questions.
+C5.4 · ONE BRAKE INSTALLATION · 20 OCTOBER 2026
+Air chamber, bearings and mounts
+Develop one right-side inboard brake before repeating it. This revision puts the documented air chamber, revised bearing and hub sections, reaction link and frame connection into the same CAD assembly.
+One revised brake installation; supplier fit and qualification remain open.The chamber, separate radial and thrust bearings, longer keyed hub, enlarged pins, wider support webs and frame connections are now in the CAD. Ten sampled axle positions, including captured extension, were checked. Exact rotor interfaces, certified maximum force, legacy chamber availability, flexible hose motion and connection fatigue remain unresolved.
+4 nominal overlaps remain between supplier envelopes at the chamber/fitting and fitting/hose connections. Exact mating geometry remains unresolved.
+Purchased brake
+Historical WABCO PAN17 / 20/24 combination. The exact rotor interface and supply status still require confirmation.
+Supporting hardware
+Revised radial and thrust bearings, axle attachment, link pins and frame load path. Calculated load screens are recorded separately.
+Access and motion
+Chamber ports, parking-release space and local service reservations are shown. Reservations do not prove tool access or full suspension clearance.
+Drawings from the revised CAD
+Published exterior dimensionsCustom development partsProvisional interfaces and access spacesRetained truck context
+C54-M01One brake installed in the truck · actual CAD projectionsC54-D01Bearing and axle-hub sections · actual CAD projectionsC54-D02Air chamber and mounting connections · actual CAD projections
+Inspect the parts and installed brake
+Truck with this brakeBrake close-up
+The truck view contains one developed brake at axle 2, right side. The other three truck brake locations remain empty. They have not been mirrored or copied while this installation’s supplier interfaces and operating loads remain open. Gray outboard axle extensions remain unfinished C5 reference geometry.
+Nominal assembly
+Loading revised geometry…
+Select a part for its source, role and limits. Group controls separate the chamber, bearings, hub, link, frame connections and service reservations. The source-supported chamber exterior is not an internal actuator design.
+Exact component identities
+The documented historical PAN17 set pairs WABCO 40175072 / 40175073 calipers, Hendrickson S-41159-1 / WABCO 232 pads, WABCO 9253800250 / 9253800240 chambers and the S-33391 rotor family. The CAD retains the exact Webb 55030PK-65 dimensional basis. A catalog cross-reference supports the family relationship; conflicting replacement-rotor listings prevent accepting the mating section from a part number alone.
+The newer 22/24 chamber and 238-pad references describe a different current package. They are not mixed into this 20/24 dimensional study. The legacy chamber is a geometry reference with availability unconfirmed; listing a part does not establish a complete purchasable kit.
+ | Part / role
+ | Supply evidence
+ | Selection and fit status
+ | Source
+ | Webb 55030PK-65 rotorReplaceable inboard rotor candidate
+ | Exact seller listing showed four in stock; not reserved.Observed 2026-10-20
+ | Published mounting dimensions retained. Exact section, pad sweep and hub mating face remain open.
+ | Source / listing
+ | WABCO 40175072 / 40175073 calipersPAN17 air-disc caliper and carrier
+ | Exact caliper listings found; no parts ordered.Observed 2026-10-20
+ | OEM mounting pattern established. Complete purchased-part fit is conditional.
+ | Source / listing
+ | Hendrickson S-41159-1 / WABCO 232 padsPads in the documented legacy package
+ | Exact pad kit listing found in stock.Observed 2026-10-20
+ | Historical OEM pairing established; Webb annulus coverage remains open.
+ | Source / listing
+ | WABCO 9253800250 / 9253800240 chambers20/24 air service and spring parking reference
+ | Exact legacy stock and lead time unconfirmed.Observed 2026-10-20
+ | Controlled exterior, studs, ports and caging geometry found; mating position and maximum force remain open.
+ | Source / listing
+ | Parker 271-6 hose and 10125-6-6B-VS endsSeparate local service and spring air connections
+ | Manufacturer catalog parts; stock and assembled lead time unverified.Observed 2026-10-20
+ | Hose/end compatibility established. Routing, cut length, crimp specification and dynamic clearance remain open.
+ | Source / listing
+ | Parker 2202P-6-6 elbow candidateCompact 3/8-inch pipe adapter
+ | Manufacturer catalog part; stock unverified.Observed 2026-10-20
+ | Dimensions documented; final port clocking, thread engagement and complete brake-hose assembly qualification remain open.
+ | Source / listing
+ | SKF NA 4824Two 120 × 150 × 30 mm needle bearings at Y85 / Y175; C0r 255 kN reference.
+ | Catalogued product; stock and delivery not verifiedObserved 2026-10-19
+ | Development installation; actual fits, temperature, loads and service qualification remain open.
+ | Source / listing
+ | SKF AXK 120155Opposed AXK 120155 plus 4 AS 120155 washers; separate axial location in both directions.
+ | Catalogued product; stock and delivery not verifiedObserved 2026-10-19
+ | Development installation; actual fits, temperature, loads and service qualification remain open.
+ | Source / listing
+ | Ruland MSPH-100-FTwo carrier collars and one rotor-hub collar; published 88.95 kN axial reference under installation conditions.
+ | Manufacturer page showed 3 units in stock when checked; no purchase or reservationObserved 2026-10-19
+ | Development installation; actual fits, temperature, loads and service qualification remain open.
+ | Source / listing
+ | SKF 120X150X12 HMSA10 RG120 × 150 × 12 mm seals on continuous running rings.
+ | Catalogued product; stock and delivery not verifiedObserved 2026-10-19
+ | Development installation; actual fits, temperature, loads and service qualification remain open.
+ | Source / listing
+ | QA1 GE30ES-2RSTwo 30 mm bore spherical joints; catalogue 6° misalignment.
+ | Catalogued product; stock and delivery not verifiedObserved 2026-10-19
+ | Development installation; actual fits, temperature, loads and service qualification remain open.
+ | Source / listing
+Chamber and connection
+The controlled WABCO drawing gives the 20/24 exterior, mounting studs, pushrod, two air ports and manual parking-release extension. The model uses the WABCO 9253800250 exterior with the 300° port variant. Catalog left/right labels conflict; the full part number and drawing angle identify this reference. The chamber’s position on the caliper remains provisional.
+The drawing specifies 8 bar working pressure and 10 bar temporary maximum. Its information-only force graphs do not establish a certified maximum at those limits. The PAN17 family’s 10 kNm reference is a structural comparison, not proof of this package’s delivered braking torque.
+Carrier and axle attachment
+The revised carrier separates radial support from thrust location. Needle bearings support the carrier around the axle; the thrust parts and retainers provide the proposed axial load path. The revised hub and key transfer disc torque into the axle.
+The short articulated torque link carries brake reaction into the strengthened frame connection. Nominal geometry and gross strength comparisons remain subject to fits, fatigue, local load introduction and the actual maximum actuator load.
+Service access is part of the installation
+Parking-release access, pad extraction, caliper wear movement and the two chamber hose connections must coexist through suspension travel and truck turning. The commercial caliper and chamber move as the pads and rotor wear; a hose path must allow that motion as well as suspension movement.
+The closed one-piece inboard rotor still requires wheelset removal and shop removal / reinstallation of one rail wheel. Pad service and manual parking release are separate access checks. This revision does not claim an on-car rotor exchange or a complete train air circuit.
+Engineering and source records
+Bearing loads, connection screens, force limits, motion checks and unresolved service interfaces are kept on the engineering page. The remaining brake locations and their air connections follow after this first installation is resolved.
+Open mechanics and calculations
+C54-M01 · SVG gzipC54-D01 · SVG gzipC54-D02 · SVG gzipEditable assembly · STEP gzipPart schedule · gzip JSONGeometry contractDesign recordGeometry checks and scopePurchased-component evidenceBearing and retention evidenceIndependent review
+Decompress gzip STEP files before CAD import and gzip SVG files before vector editing. Source units and the final part metadata govern.Component sources
+Hist pads
+Hist calipers
+Hist chambers
+Hist rotor
+L949 t
+L809 aa
+L1259 h
+Wabco catalog
+Wabco 072
+Wabco ga
+Webb
+Durabrake
+Dayton conflict
+Midwest conflict
+L1272
+Seller webb
+Seller caliper
+Seller pad
+L949t
+Legacyoem
+Ga
+Wabco0250
+Wabcoinstall
+Tseinstall
+Gigant
+Acr 2024C5.4 · One brake installation under development · Supplier fit and qualification remain open

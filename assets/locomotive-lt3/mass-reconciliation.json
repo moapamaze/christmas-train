@@ -1,0 +1,91 @@
+{
+  "body_connection_kg": 529.6442422323533,
+  "connection_per_truck_including_four_catalog_bearings_kg": 278.94418979032935,
+  "DT2_bare_kg": 1787.236735816629,
+  "truck_budget_kg": 2200,
+  "remaining_per_truck_kg": 133.81907439304155,
+  "body_unallocated_remaining_kg": 408.56596696764666,
+  "cab_shell_access_kg": 1084.1660825754611,
+  "old_cab_body_allowance_kg": 1100,
+  "convention": "All gimbal parts allocated to truck; bodyjoint group and catch plates to body. Accounting convention, not rigid-body dynamic model. Gross12t is not revalidated.",
+  "latest_DT3": {
+    "received_issue": "PF-DT3-R0",
+    "received_source": "bf2e949",
+    "wheelbase_mm": 1400,
+    "spring_X_local_mm": [
+      -700,
+      700
+    ],
+    "axles_global_X_mm": [
+      2600,
+      4000,
+      5300,
+      6700
+    ],
+    "pivots_unchanged": [
+      3300,
+      6000
+    ],
+    "truck_top_unchanged_mm": 1170,
+    "frame_height_development_baseline_mm": 1775,
+    "frame_height_production_accepted": false,
+    "DT3_mass_proxy_kg": 2263.4094546437873,
+    "LT3_connection_per_truck_kg": 278.94418979032935,
+    "combined_known_lower_mass_per_truck_kg": 2542.3536444341166,
+    "excess_over_old_2200kg_each": 342.35364443411663,
+    "old_body_other_gear_plus_new_trucks_trial_kg": 12684.707288868234,
+    "DT3_known_wheel_axle_mass_kg": 1460.9496679569434,
+    "new_primary_rate_sensitivity": [
+      {
+        "truck": 1,
+        "supported_mass_trial_kg": 3784.630306590507,
+        "target_rate_each_N_mm": 185.57272398062898,
+        "damper_equivalent_each_Ns_m": 6625.349779698632,
+        "body_reaction_N": 26509.594490205927,
+        "basis": "Mass-floor sensitivity only: DT3 known truck+LT3 connection mass, DT3 wheel/axle unsprung mass. Other axle-mounted masses not split; missing parts and revised body reactions can move this result. NOT a spring selection."
+      },
+      {
+        "truck": 2,
+        "supported_mass_trial_kg": 3952.4016078110203,
+        "target_rate_each_N_mm": 193.7990961361997,
+        "damper_equivalent_each_Ns_m": 6919.049154151521,
+        "body_reaction_N": 28154.86892132007,
+        "basis": "Mass-floor sensitivity only: DT3 known truck+LT3 connection mass, DT3 wheel/axle unsprung mass. Other axle-mounted masses not split; missing parts and revised body reactions can move this result. NOT a spring selection."
+      }
+    ],
+    "nominal_AABB_suspects": [
+      {
+        "LT3": "LT3-T1-C-1X",
+        "DT3": "DT3-HA",
+        "category": "hose"
+      },
+      {
+        "LT3": "LT3-T1-C-1X",
+        "DT3": "DT3-HB",
+        "category": "hose"
+      },
+      {
+        "LT3": "LT3-T1-C-1X",
+        "DT3": "DT3-HD",
+        "category": "hose"
+      }
+    ],
+    "nominal_hose_solid_checks": {
+      "DT3-HA": {
+        "intersection_volume_mm3": 0.0,
+        "minimum_separation_mm": 159.16571990008345
+      },
+      "DT3-HB": {
+        "intersection_volume_mm3": 0.0,
+        "minimum_separation_mm": 159.16571990008345
+      },
+      "DT3-HD": {
+        "intersection_volume_mm3": 0.0,
+        "minimum_separation_mm": 165.1657199000633
+      }
+    },
+    "limits": "No positive AABB overlap with nominal physical DT3 parts; only three hose-corridor candidates, separately checked as disjoint solids. This is not combined movement, hose flex/bend or elastic clearance acceptance.",
+    "old_primary_169_177_targets": "SUPERSEDED for DT3 purchasing; retained as historical DT2 calculation only",
+    "ownership": "DT3 proposal provisionally adopted for LT integration, not engineering/route acceptance. DT source remains unchanged."
+  }
+}

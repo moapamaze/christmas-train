@@ -1,0 +1,40 @@
+{
+  "checked_utc": "2026-10-19",
+  "sources": [
+    {
+      "id": "N2-S01",
+      "authority": "Danfoss",
+      "url": "https://assets.danfoss.com/documents/latest/284995/BC152886483346en-000202.pdf",
+      "document": "BC152886483346en-0202",
+      "publication_date": "2023-08",
+      "title": "Transmission Circuit Recommendations",
+      "locator": "printed pages34-37",
+      "use": "Series/parallel risks, divider/combiner losses, reverse direction and independent pump control alternatives. These are OEM warnings and broad examples, not selected valve ratings."
+    },
+    {
+      "id": "N2-S02",
+      "authority": "Danfoss",
+      "url": "https://assets.danfoss.com/documents/latest/466940/BC152886483576en-001302.pdf",
+      "served_document": "BC152886483576en-001303",
+      "publication_date": "2025-10",
+      "locator": "printed pages11-12",
+      "use": "060/110 displacement and rated/maximum speeds at standard displacement endpoints. Actual order/control limits held."
+    },
+    {
+      "id": "N2-S03",
+      "authority": "Voith",
+      "url": "https://www.voith.com/corp-en/drives-transmissions/gear-units.html",
+      "publication_date": "not stated",
+      "locator": "Diesel-hydraulic locomotive axle-mounted SK/KE architecture and fully sprung examples",
+      "use": "Evidence that rail drives explicitly accommodate relative suspension movement and gearcase torque reaction. No suitable size/rating inferred and no bought complete drive substituted for custom fabrication."
+    },
+    {
+      "id": "N2-S04",
+      "authority": "Dana Spicer",
+      "url": "https://spicerparts.com/calculators/driveline-operating-angle-calculator",
+      "publication_date": "not stated",
+      "locator": "Measurement method and limitations",
+      "use": "Check actual drive/driven axes, unloaded/loaded travel, angle, phasing and critical speed. The simple calculator explicitly excludes horizontal compound angles; no universal rail joint limit adopted."
+    }
+  ]
+}

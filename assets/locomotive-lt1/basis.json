@@ -1,0 +1,90 @@
+{
+  "issue": "PF-LOCO-LT1-R0",
+  "date": "2026-10-19",
+  "status": "Preliminary arrangement; not for fabrication",
+  "scope": "Locomotive/tender frame, appearance and packaging. Separate coach and DT1 drivetrain workstreams retain their detailed designs. LT1 running-gear layout is a proposal for DT-01 reconciliation.",
+  "source_commit": "e7b1ff0288c02f9d45cbc23064122c903346ee83",
+  "recovered_program": "PROGRAM-R30",
+  "units": "mm",
+  "datum": "X aft from locomotive nose, Y left from centreline, Z above rail top",
+  "owner_basis": {
+    "gauge": 914.4,
+    "grade_percent": 0,
+    "regular_cars": 3,
+    "accessible_cars": 1,
+    "appearance": "Polar Express / Pere Marquette 1225 reference; replaces Jupiter for this locomotive",
+    "traction": "Diesel with hydrostatic development lead"
+  },
+  "proposed_geometry": {
+    "loco_length": 9600,
+    "tender_start": 10200,
+    "tender_length": 5000,
+    "overall_length": 15200,
+    "width": 2600,
+    "max_height": 3400,
+    "boiler_start": 1600,
+    "boiler_end": 7400,
+    "boiler_diameter": 1700,
+    "boiler_center_z": 2050,
+    "cab_start": 7300,
+    "cab_end": 9500,
+    "cab_floor_z": 1150,
+    "cab_roof_z": 3300,
+    "drive_wheel_diameter": 1000,
+    "small_wheel_diameter": 600,
+    "powered_truck_centres": [
+      3300,
+      6000
+    ],
+    "powered_truck_wheelbase": 1200,
+    "drive_axles": [
+      2700,
+      3900,
+      5400,
+      6600
+    ],
+    "leading_axles": [
+      1200
+    ],
+    "trailing_axles": [
+      7900,
+      8700
+    ],
+    "tender_axles": [
+      10900,
+      11900,
+      13500,
+      14500
+    ],
+    "tender_truck_centres": [
+      11400,
+      14000
+    ],
+    "tender_truck_wheelbase": 1000,
+    "tender_height": 2700,
+    "coupling_gap": 600,
+    "drawing_coupler_z_proxy": 650,
+    "rail_head_width_visual_proxy": 50,
+    "wheel_width_visual_proxy": 100
+  },
+  "geometry_status": "All arrangement dimensions are new designer proposals, not OEM mounting dimensions or released tolerances. Coupler Z is a drawing proxy only, not an interface agreement.",
+  "running_gear": "2-(4+4)-4 appearance: one leading axle, two swiveling two-axle powered trucks, one two-axle trailing truck. Four large driving axles; not a literal rigid 2-8-4 replica.",
+  "drive_architecture": "One pump; two H1B110 motors in parallel, each at maximum displacement driving a two-axle truck through a nominal 7.5:1 total reduction. Circuit and gear distribution remain unselected. DT1 retains single motor mechanically distributed drive as its current lead; LT1 two-motor option is a packaging alternative awaiting DT1 reconciliation, not an accepted replacement.",
+  "rod_rule": "No rod bridges the two powered trucks. R0 omits moving cosmetic rods; short truck-local rods require separate retention, articulation and guarding design.",
+  "mass_proposal_kg": {
+    "loco_total": 12000,
+    "loco_on_powered_axles": 10000,
+    "loco_leading_support": 600,
+    "loco_trailing_support": 1400,
+    "tender_total": 2500
+  },
+  "mass_status": "Load allocation study only. No component mass takeoff, ballast design, support stiffness solution or as-built weighing. Four independent loco support groups require compliant/equalized load sharing and wheel-unloading review.",
+  "construction_approved": false,
+  "next_work": [
+    "Resolve common coach mass and accepted curve envelope",
+    "Compare rigid 2-8-4 against articulated layout using wheel/rail and support model",
+    "Develop locomotive load ledger, frame and suspension load paths",
+    "Obtain engine/pump/motor installation CAD and matched reversing circuit",
+    "Develop measured component and custom-part drawings after interfaces converge"
+  ]
+}

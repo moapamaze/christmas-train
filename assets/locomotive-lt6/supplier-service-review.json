@@ -1,0 +1,115 @@
+{
+  "issue": "LT6-R1-data-review",
+  "date_local": "2026-10-19",
+  "timezone": "America/Los_Angeles",
+  "geometry_issue": "LT6-R0 unchanged",
+  "engine_location": "Locomotive, confirmed by owner; tender relocation not adopted",
+  "construction_approved": false,
+  "kubota": {
+    "candidate": "V3307-CR-TI-E5",
+    "configured_order_code": null,
+    "public_dry_mass_kg": 299,
+    "configured_operating_mass_kg": null,
+    "configured_CG_mm": null,
+    "mounting_drawing": null,
+    "coolant_heat_rejection_kW": null,
+    "CAC_heat_rejection_kW": null,
+    "status": "Public standard outline only. Configured mass/dimensions depend on specification; no E3 or E4B data substituted."
+  },
+  "pump": {
+    "study_candidate": "H1P045; full order code unresolved",
+    "source_url": "https://assets.danfoss.com/documents/latest/365902/BC152886483105en-001603.pdf",
+    "actual_document_revision": "BC152886483105en-001701, June2025",
+    "source_sha256": "1ad6b1a4d0606257bde7f095d17cbc4f59be80bdaf06b258c58ad6b5fb31505a",
+    "dry_mass_excluding_charge_pump_kg": 41,
+    "internal_oil_volume_L": 1.3,
+    "mounting_flange": "ISO3019-1 flange101-2 / SAE B",
+    "pilot_diameter_mm": 101.6,
+    "pilot_diameter_tolerance_mm": [
+      0,
+      -0.05
+    ],
+    "bolt_centres_about_shaft_mm": [
+      -73,
+      73
+    ],
+    "bolt_centre_tolerance_each_mm": 0.25,
+    "catalog_clearance_diameter_mm": 14.3,
+    "catalog_clearance_tolerance_mm": [
+      0.25,
+      -0.12
+    ],
+    "mounting_screws": "M12\u00d71.75 or half-inch with specified hardened washers; OEM warns against M14. Final length/grade/preload from adapter and supplier.",
+    "pump_only_CG_catalog_approx_mm": {
+      "axial_aft_mounting_face": 128,
+      "above_shaft_for_control_up": 29,
+      "transverse": null
+    },
+    "CG_scope": "Approximate catalog configuration; not configured complete engine-pump package CG.",
+    "input_shafts": {
+      "G4": {
+        "rated_Nm": 180,
+        "maximum_Nm": 222,
+        "spline": "13 teeth16/32,30deg,ANSI B92.1b class6e"
+      },
+      "G5": {
+        "rated_Nm": 277,
+        "maximum_Nm": 370,
+        "spline": "15 teeth16/32,30deg,ANSI B92.1b class6e"
+      },
+      "G1": {
+        "rated_Nm": 534,
+        "maximum_Nm": 592,
+        "spline": "14 teeth12/24,30deg,ANSI B92.1b class6e"
+      }
+    },
+    "interface_conclusion": "G4 rejected for existing300bar/full-displacement study. G1 is a stronger candidate to request; no order code/coupling approval. Shaft designationSAE C does not change the catalog SAE B mounting flange."
+  },
+  "torque_screen": {
+    "pressure_bar": 300,
+    "displacement_cc": 45,
+    "mechanical_efficiency_assumed": 0.9,
+    "input_Nm_before_charge_auxiliaries": 238.73241463784302,
+    "engine_catalog_peak_Nm": 335,
+    "G4_exceeds_rated": true,
+    "G4_exceeds_maximum": true,
+    "scope": "Comparison only, not a released pressure/duty or coupling service factor. Charge-pump torque, transient torque and torsional analysis remain missing."
+  },
+  "serviceability": {
+    "routine_access": "Dedicated small hatches for daily checks/filter/drain work; actual positions from configured OEM service drawings. No routine whole-panel removal.",
+    "panel_assemblies_kg": {
+      "2": 59.43139668140211,
+      "3": 59.50955769079584
+    },
+    "major_removal": "Engine bay panels/ribs, dome and its support arches must be removable through approved bolted joints; prove lifting/extraction without frame cutting or cab dismantling. Current arch boss and lifting details unresolved.",
+    "side_access_view": "Near-side bay2/3 skin and attached ribs omitted for visibility only; not a demonstrated removal sweep.",
+    "pass_status": false
+  },
+  "approvals": {
+    "Kubota_installation": false,
+    "pump_coupling": false,
+    "isolator_application": false,
+    "structural_release": false,
+    "reviewed_correspondence": "No written approval found in the relevant correspondence checked. KTR axle-coupling request is distinct from engine-pump coupling. Engineering proposal discussion is not design acceptance."
+  },
+  "supplier_routes": [
+    {
+      "company": "Anderson Industrial Engines",
+      "role": "Kubota distributor and engine integration; request configured engine/pump/cooling/service package",
+      "url": "https://ai-engines.com/engineering/",
+      "contact": "https://ai-engines.com/contact-us/",
+      "email": "info@ai-engines.com"
+    },
+    {
+      "company": "Danfoss / matched-system integrator",
+      "role": "Complete H1P045 code, controls/protection, four-motor compatibility, shaft/housing/coupling and installation review",
+      "url": "https://assets.danfoss.com/documents/latest/365902/BC152886483105en-001603.pdf"
+    },
+    {
+      "company": "Recreation Engineering",
+      "role": "Existing proposal discussion; request explicit locomotive/frame/install review scope, fees, responsible engineer and required tests",
+      "approval_received": false
+    }
+  ],
+  "new_messages_sent": false
+}

@@ -1,0 +1,14 @@
+Locomotive service hardware · LT7 · Pulsipher FarmsDrawings3D assembliesEngineering & open itemsEngine mounts & trim · LT6Drive wheels
+LOCOMOTIVE / LT7
+Service access & removable connections
+Hatch · Hinges & closures · Panel fasteners · Dome feet · Powerpack removal
+DETAIL DEVELOPMENTR0 · Not for fabrication19 October 2026 · Pacific
+Detail drawingsExact CAD projections · Nominal dimensions in mm
+A01 Hatch assemblyH01 Hinges & closuresP01 Panel fastenersD01 Dome feetF01 Hatch part geometryX01 Powerpack removalLT7-A01 · Hatch assemblyFull-size ↗LT7-H01 · Hinges & closuresFull-size ↗LT7-P01 · Panel fastenersFull-size ↗LT7-D01 · Dome feetFull-size ↗LT7-F01 · Hatch part geometryFull-size ↗LT7-X01 · Powerpack removalFull-size ↗
+Frame top 1,775 mm provisional · Hatch location, OEM service space and lifting plan pending. Open issues & checks →
+3D assembliesLoading…
+Hatch assemblyHatch at 110° · dogs omittedHinge pinCompression closureUpper seam clipDome footInstalled engine bayRemoval · exploded arrangementCradle lifted · 1,600 mm studyWhole body
+ Exploded view Compatibility 3D
+Loading CAD geometry…
+Select a component for its definition. Exploded views separate parts for inspection. The lifted view uses the current equipment reservations; it is not an approved rigging plan. Filter and pump withdrawal dimensions remain unavailable.Enable JavaScript to rotate the CAD models. Drawing sheets and STEP downloads remain available.
+FilesService-hardware STEP ↗Parts CSV ↗Engineering & handoff ↗Vector drawings ↗Engine mounts & trim · LT6 ↗PF–LOCO–LT7 · R0 · 19 October 2026 Pacific

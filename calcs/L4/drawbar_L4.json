@@ -1,0 +1,177 @@
+{
+ "rev": "L4 28 Oct 2026",
+ "cases": {
+  "loco-tender L800 R100": {
+   "angle_a_deg": 11.57,
+   "angle_b_deg": 6.55,
+   "lateral_70kN_kN": 14.0,
+   "corner_inside_mm": 938,
+   "corner_outside_mm": 1163,
+   "gap_straight_mm": 1050
+  },
+  "loco-tender L800 R60": {
+   "angle_a_deg": 19.32,
+   "angle_b_deg": 10.98,
+   "lateral_70kN_kN": 23.2,
+   "corner_inside_mm": 869,
+   "corner_outside_mm": 1236,
+   "gap_straight_mm": 1050
+  },
+  "loco-tender L800 R50": {
+   "angle_a_deg": 23.22,
+   "angle_b_deg": 13.24,
+   "lateral_70kN_kN": 27.6,
+   "corner_inside_mm": 837,
+   "corner_outside_mm": 1271,
+   "gap_straight_mm": 1050
+  },
+  "loco-tender L1473 R100": {
+   "angle_a_deg": 8.0,
+   "angle_b_deg": 2.59,
+   "lateral_70kN_kN": 9.7,
+   "corner_inside_mm": 1602,
+   "corner_outside_mm": 1846,
+   "gap_straight_mm": 1723
+  },
+  "loco-tender L1473 R60": {
+   "angle_a_deg": 13.32,
+   "angle_b_deg": 4.33,
+   "lateral_70kN_kN": 16.1,
+   "corner_inside_mm": 1525,
+   "corner_outside_mm": 1927,
+   "gap_straight_mm": 1723
+  },
+  "loco-tender L1473 R50": {
+   "angle_a_deg": 15.97,
+   "angle_b_deg": 5.2,
+   "lateral_70kN_kN": 19.3,
+   "corner_inside_mm": 1488,
+   "corner_outside_mm": 1967,
+   "gap_straight_mm": 1723
+  },
+  "tender-coach L800 R100": {
+   "angle_a_deg": -3.62,
+   "angle_b_deg": -8.48,
+   "lateral_70kN_kN": 10.3,
+   "corner_inside_mm": 1181,
+   "corner_outside_mm": 1423,
+   "gap_straight_mm": 1300
+  },
+  "tender-coach L800 R60": {
+   "angle_a_deg": -6.05,
+   "angle_b_deg": -14.12,
+   "lateral_70kN_kN": 17.1,
+   "corner_inside_mm": 1098,
+   "corner_outside_mm": 1499,
+   "gap_straight_mm": 1300
+  },
+  "tender-coach L800 R50": {
+   "angle_a_deg": -7.27,
+   "angle_b_deg": -16.95,
+   "lateral_70kN_kN": 20.4,
+   "corner_inside_mm": 1057,
+   "corner_outside_mm": 1535,
+   "gap_straight_mm": 1300
+  },
+  "tender-coach L1473 R100": {
+   "angle_a_deg": -1.01,
+   "angle_b_deg": -6.25,
+   "lateral_70kN_kN": 7.6,
+   "corner_inside_mm": 1846,
+   "corner_outside_mm": 2103,
+   "gap_straight_mm": 1973
+  },
+  "tender-coach L1473 R60": {
+   "angle_a_deg": -1.69,
+   "angle_b_deg": -10.41,
+   "lateral_70kN_kN": 12.6,
+   "corner_inside_mm": 1760,
+   "corner_outside_mm": 2186,
+   "gap_straight_mm": 1973
+  },
+  "tender-coach L1473 R50": {
+   "angle_a_deg": -2.02,
+   "angle_b_deg": -12.48,
+   "lateral_70kN_kN": 15.1,
+   "corner_inside_mm": 1717,
+   "corner_outside_mm": 2226,
+   "gap_straight_mm": 1973
+  },
+  "coach-coach L800 R100": {
+   "angle_a_deg": 3.19,
+   "angle_b_deg": -3.19,
+   "lateral_70kN_kN": 3.9,
+   "corner_inside_mm": 844,
+   "corner_outside_mm": 1155,
+   "gap_straight_mm": 1000
+  },
+  "coach-coach L800 R60": {
+   "angle_a_deg": 5.32,
+   "angle_b_deg": -5.32,
+   "lateral_70kN_kN": 6.5,
+   "corner_inside_mm": 740,
+   "corner_outside_mm": 1258,
+   "gap_straight_mm": 1000
+  },
+  "coach-coach L800 R50": {
+   "angle_a_deg": 6.37,
+   "angle_b_deg": -6.37,
+   "lateral_70kN_kN": 7.8,
+   "corner_inside_mm": 688,
+   "corner_outside_mm": 1309,
+   "gap_straight_mm": 1000
+  },
+  "coach-coach L1473 R100": {
+   "angle_a_deg": 3.39,
+   "angle_b_deg": -3.39,
+   "lateral_70kN_kN": 4.1,
+   "corner_inside_mm": 1508,
+   "corner_outside_mm": 1838,
+   "gap_straight_mm": 1673
+  },
+  "coach-coach L1473 R60": {
+   "angle_a_deg": 5.64,
+   "angle_b_deg": -5.64,
+   "lateral_70kN_kN": 6.9,
+   "corner_inside_mm": 1398,
+   "corner_outside_mm": 1946,
+   "gap_straight_mm": 1673
+  },
+  "coach-coach L1473 R50": {
+   "angle_a_deg": 6.76,
+   "angle_b_deg": -6.76,
+   "lateral_70kN_kN": 8.2,
+   "corner_inside_mm": 1343,
+   "corner_outside_mm": 2000,
+   "gap_straight_mm": 1673
+  }
+ },
+ "decision": {
+  "loco_tender_mm": 800,
+  "tender_coach_mm": 1473,
+  "coach_coach_mm": 1473,
+  "status": "AS DRAWN - KEPT (Loco Bot confirmed A-001/L-104, parent steering 28 Oct)",
+  "swing_R60_DB800": {
+   "loco_deg": 19.32,
+   "loco_limit_deg": 32.4,
+   "loco_util": 0.6,
+   "tender_deg": 10.98,
+   "tender_limit_deg": 19.2,
+   "tender_util": 0.57,
+   "end_corner_inside_mm": 869
+  },
+  "swing_R50_DB800": {
+   "loco_deg": 23.22,
+   "tender_deg": 13.24,
+   "tender_util": 0.69
+  },
+  "tender_lateral_R60_kN_at_31kN_pull": {
+   "DB-800": 5.9,
+   "DB-1473_info": 2.3
+  },
+  "note": "Steady exact-geometry swing at R60 with DB-800: 19.3 deg at the loco pocket (limit 32.4, 150 mouth) and 11.0 deg at the tender pocket (limit 19.2, 300 mouth). Both PASS. Information only: a 1,473 bar at loco-tender would cut the tender-side angle to 4.3 deg. It is not adopted because the as-drawn 800 passes and Loco Bot confirmed it. Transient (spiral) angles come from the route sweep calcs/track/L4.",
+  "joints": 5,
+  "pins": "2 per joint x 5 = 10 + 2 spares = 12 (\u00d860 4140 Q&T, L 150 under head: grip 108 + cross-bolt; drawn 250 corrected)",
+  "safety_chain": "2 x 5/8 in Grade 100 (WLL 100.5 kN, ASTM A973) per joint, with Crosby G-2130 1 in bolt-type shackles (WLL 8.5 t = 83.4 kN); replaces 1/2 in (66.7 kN < 70 kN service)"
+ }
+}

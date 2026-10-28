@@ -1,0 +1,61 @@
+{
+  "issue": "PF-LOCO-LT1-R0",
+  "conflicts": [
+    [
+      "Appearance",
+      "Jupiter",
+      "Polar Express / 1225 appearance per current owner direction"
+    ],
+    [
+      "Running gear",
+      "600 mm wheels, one motor, 9:1 workbook",
+      "LT1 trial: 1,000 mm drive wheels, two 110cc motors, 7.5:1 each. Recalculated, not silently substituted"
+    ],
+    [
+      "Brake system",
+      "Older hydraulic preference",
+      "Superseded by CR-G01 air service and spring parking"
+    ],
+    [
+      "Vehicle count",
+      "Locomotive plus four coaches = five",
+      "Separate tender adds sixth braked vehicle and one more coupling/separation test"
+    ],
+    [
+      "Mass",
+      "65,100 kg treated as fixed upper mass",
+      "Still provisional; C2 seat growth and tender/hotel allocation need reconciliation"
+    ],
+    [
+      "Latest source",
+      "Older Library phases 3E/3F",
+      "Current site PROGRAM-R30 and later N1\u2013N3 studies control recovery"
+    ],
+    [
+      "Published workflow",
+      "Single whole-train continuation record",
+      "Preserve separate coach and DT1 drivetrain workstreams; LT1 packaging proposals need interface reconciliation"
+    ],
+    [
+      "Generation",
+      "Earlier dedicated hotel diesel recommendation",
+      "R30/DT1 owner direction: evaluate propulsion-diesel generation first; tender generator only a fallback"
+    ],
+    [
+      "Motor count",
+      "DT1 single-motor lead",
+      "LT1 two-motor rematch is an alternative for articulation packaging, not a replacement accepted by DT1"
+    ]
+  ],
+  "read_sources": [
+    "Train_Danfoss_Matching_Calculation_R0.xlsx (current Library text)",
+    "Phase3F Prototype Integration R0, pages1\u20135",
+    "Phase3K Air Brake Integration R0, pages1\u20133",
+    "Site PROGRAM-R30",
+    "Site propulsion-n1 inputs and sources",
+    "Site propulsion-n2 decisions and interfaces",
+    "Site README and C1/C2 source",
+    "Current R30 recovery and DT1 drivetrain coordination record"
+  ],
+  "preservation": "Original files unchanged; standalone LT1 pages and records added."
+}

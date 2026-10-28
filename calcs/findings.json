@@ -1,0 +1,184 @@
+[
+ {
+  "id": "F01",
+  "area": "Organization",
+  "finding": "131 sheets, revisions LT1-LT45 / C1-C57 / DT1-DT5 with many superseded; nothing released. Fabricators can't tell what is current.",
+  "fix": "One parametric model (model.py) drives CAD + 12 sheet set PF-CT R2; superseded studies kept as reference only.",
+  "sev": "High"
+ },
+ {
+  "id": "F02",
+  "area": "Couplers",
+  "finding": "Coupler height inherited 800 mm but modeled 550; loco rear pin hangs 752 mm below rail attachment (bending into frame), tender hitch 400 mm offset.",
+  "fix": "Standard 550 mm ARL on every vehicle; one PF-DB closed drop box (PL16 A572-50) + knee gussets; one drawbar design PL32x150, \u00d860 4140 pins. Checked at 200 kN.",
+  "sev": "High"
+ },
+ {
+  "id": "F03",
+  "area": "Drive",
+  "finding": "750 cc motor change not carried into DT5 hub: 22x14x70 key on \u00d880 sees 243 MPa at 420 bar (fails); GEARex FA25 at 1.10\u00d7 capacity with 1.5 SF.",
+  "fix": "RESOLVED rev L2: DT5 outboard stub, hub key and KTR coupling eliminated. Motor splines into an inboard pinion shaft; gear seat keyless/shrink fit (key alt. 68 MPa, C7k).",
+  "sev": "High"
+ },
+ {
+  "id": "F04",
+  "area": "Heights",
+  "finding": "Frame/cab heights still set by old \u00d81,450 driver studies; roof 3,800-4,000.",
+  "fix": "DECIDED R2: roof 3,700 mm ARL adopted. Cab clear headroom verified from the model \u22481,960 mm (3,700 \u2212 3 skin \u2212 76 HSS3x2 purlin = 3,621 underside; cab deck 1,656; 1,959 with 6 mm mat) - good for a 6 ft 3 in crew member with shoes. Route overhead clearance adopted: nothing lower than 4,300 mm ARL within 2,000 mm of CL (train 3,700 + 600).; REV L1: running board 1,605 / rails 1,455 now follow the plan \u00d81,450 drivers (LT18); cab floor 1,605 (plan 1,500, rear-driver clearance per LT19), headroom \u22482,010 with mat.",
+  "sev": "Med"
+ },
+ {
+  "id": "F05",
+  "area": "Stability",
+  "finding": "No wind / overturning case anywhere.",
+  "fix": "Calc C11: empty coach FS 1.37 at 67 mph gust, 3.85 at 40 mph. DECIDED R2: no running above 40 mph gusts (FS \u2265 3.85 all vehicles); tie-downs when parked. Crew checks gusts before each run.",
+  "sev": "High"
+ },
+ {
+  "id": "F06",
+  "area": "Running gear",
+  "finding": "Pony truck axles carry ~590 kg (5.8 kN/wheel) - light wheel, derailment risk on 100 m curve and turnouts.",
+  "fix": "OWNER DECISION (open). Recommend DELETE: gentle 100 m loop, two powered trucks carry and guide the loco; removes a light, derailment-prone axle. Alternative: spring preload \u22651,000 kg/axle. Model still shows it as an option.; REV L1: owner asked for the loco like the plans - leading truck \u00d8650 (LT11/LT18) kept in the model; delete still possible as a later owner decision.",
+  "sev": "High"
+ },
+ {
+  "id": "F07",
+  "area": "Mass / rail",
+  "finding": "Ballast 1.5 t raises front driver wheel to 23.4 kN, above the 22.85 kN rail screening basis; mass figures differ between pages.",
+  "fix": "Single mass ledger: 74,760 best / 77,500 design / 80,000 check. Rail basis raised to 24 kN (ASCE 40 \u2248103 MPa, OK).",
+  "sev": "Med"
+ },
+ {
+  "id": "F08",
+  "area": "Coaches",
+  "finding": "Floor height conflict (28 in placeholder vs 32 in), failed boarding bridge plate, and no way to get passengers off between stations (old 2-tread side steps had 265/275 non-uniform risers and stopped 275 above rail).",
+  "fix": "DECIDED R2: floor 32 in (813) ARL; fold-down steel emergency/boarding stairs at every coach door, both sides (18): 6 equal 177 mm risers to ground (\u2212250 ARL), 5 \u00d7 280 treads (~32\u00b0), 914 clear, handrails both sides, abrasive nosings, latched + traction/brake interlocked, stowed inside the 1,397 body half-width (dynamic outline 1,696 unchanged). Level 32 in platforms now optional. Keep a walkable egress strip to 3,300 mm from CL on at least one side.",
+  "sev": "High"
+ },
+ {
+  "id": "F09",
+  "area": "Coaches",
+  "finding": "Platform guard posts 1-1/2 sch 40 overstress at 200 lb (178 MPa vs 145).",
+  "fix": "2 in sch 40 posts (103 MPa).",
+  "sev": "Med"
+ },
+ {
+  "id": "F10",
+  "area": "Brakes",
+  "finding": "64 moving hose assemblies - leak/maintenance burden.",
+  "fix": "Relay valves on body, 1 caliper per axle, 2 moving hoses per truck \u2192 ~30 total. AWAIT ZF/WABCO.",
+  "sev": "Med"
+ },
+ {
+  "id": "F11",
+  "area": "Couplers",
+  "finding": "No secondary connection between cars.",
+  "fix": "2\u00d7 Grade 100 1/2 in safety chains per joint (MBS 534 kN vs 200 kN).",
+  "sev": "High"
+ },
+ {
+  "id": "F12",
+  "area": "Cab",
+  "finding": "Stowed/moving ladder at cab door.",
+  "fix": "Fixed 4-tread steps + \u00d832 grab irons both sides; checked at 300 lb / 200 lb.",
+  "sev": "Med"
+ },
+ {
+  "id": "F13",
+  "area": "Ballast",
+  "finding": "Ballast pocket end walls PL12 would see 243 MPa at 3 g.",
+  "fix": "PL20 end walls (88 MPa) + 4\u00d7 M20 hold-down rods; pocket moved outboard to clear hood.",
+  "sev": "Med"
+ },
+ {
+  "id": "F14",
+  "area": "Cab roof",
+  "finding": "HSS2x2x1/8 purlins deflect L/233 under 20 psf (11.6 mm); flexible for a walkable roof.",
+  "fix": "HSS3x2x1/8 @600 (4.4 mm).",
+  "sev": "Low"
+ },
+ {
+  "id": "F15",
+  "area": "Fabrication",
+  "finding": "No general notes: welds, bolts, tolerances, materials, mill certs.",
+  "fix": "G-001 general notes added (AWS D1.1, A325/Gr8, tolerances, 4140 Q&T certs).",
+  "sev": "High"
+ },
+ {
+  "id": "F16",
+  "area": "Fabrication",
+  "finding": "Custom machined bearing housings and odd sections.",
+  "fix": "Catalog SKF 22218 E / 32018 X cartridges, standard HSS + plate only; coach truck transom = 2 upright HSS10x4.",
+  "sev": "Med"
+ },
+ {
+  "id": "F17",
+  "area": "Track",
+  "finding": "Rail shown differently across CAD sets; rail not approved.",
+  "fix": "ASCE 40 used as preliminary in all sheets; DO NOT ORDER until PE approves.",
+  "sev": "Med"
+ },
+ {
+  "id": "F18",
+  "area": "Tender",
+  "finding": "R2 modeling error, now fixed. The 676 mm came from the superseded LT44 Hydra-Tech HT150DQV stock skid. Owner plan LT45.1 (AIE V3307 1,028 tall + genset envelope 1,000 on 80 mounts) fits the 1,204 clear bay.",
+  "fix": "R2 tender rebuilt to LT45.1 geometry (Rev T1). Open: genset model, mounts, cooling - AWAIT AIE / supplier.",
+  "sev": "Low"
+ },
+ {
+  "id": "F19",
+  "area": "Clearance",
+  "finding": "No clearance outline for 100 m curve.",
+  "fix": "Dynamic half-width 1,696 mm; keep fixed objects \u22652,000 mm from CL; stations on tangent.",
+  "sev": "Med"
+ },
+ {
+  "id": "F21",
+  "area": "Egress",
+  "finding": "Deployed stairs reach 2,947 mm from track CL (foot pad), beyond the 2,000 mm fixed-object line.",
+  "fix": "Keep ground 2,000-3,300 mm from CL clear and walkable (\u00b175 mm) on at least the outside of the loop; where an object is inside 3,300 mm, sign that side 'do not deploy' and crew directs to the other side. Wheelchair users: crew-assisted evacuation procedure / portable ramp at platforms - PE + County to review.",
+  "sev": "High"
+ },
+ {
+  "id": "F20",
+  "area": "Traction",
+  "finding": "SUPERSEDED by F25 (rev L1): margin 31.75 vs 31.03 kN was on \u00d81,000 wheels.",
+  "fix": "See F25.",
+  "sev": "Med"
+ },
+ {
+  "id": "F25",
+  "area": "Traction / running gear",
+  "finding": "Rev L1 returned the loco to the owner plan (8 \u00d7 \u00d81,450 drivers). 4 \u00d7 MSE05 750 cc at 1:1 gave 21.9 kN at 350 bar vs 31.2 kN needed for a 2% start (T2 tender). Owner plan direct drive (DT4/DT5, sized on \u00d81,000) cannot start 2% on \u00d81,450; chains ruled out by owner 27 Oct.",
+  "fix": "SUPERSEDED BY L3 (28 Oct, see F26) - was RESOLVED rev L2 (owner chose option (c), 27 Oct): inboard axle-hung spur-gear case m10 21:38 = 1.81:1 per axle, MSE05 750/375 cc shaft motor toward truck centre, nose link to transom; nothing outside the wheels. 2% start 38.8 kN at 350 bar (adhesion-capped 35.8 dry; 32.7 at pessimistic \u03b7 0.80). Wet 2% start needs sand (\u03bc \u2265 0.22). 2% hold 2.85 mph on V3307 45.6 kW. PE pass with the +464 kg L2 mass (ASSUMED): cap 36.96 kN dry / 22.2 wet, need 31.37, hold 2.84 mph (PF-CT_PE_calc_package \u00a74). Calc calcs/L2/gear_drive_L2.json; C7g-C7n, C13, C13g, C13s.",
+  "sev": "High"
+ },
+ {
+  "id": "F26",
+  "area": "Drive (rev L3)",
+  "finding": "Owner [pt77u] 28 Oct: not keen on the custom L2 gear case - weigh all options and choose the best fit. Compared L2 custom 1.81:1 + MSE05 750, Dodge 5:1 + Poclain MS05 280 cc, Dodge 14.9:1 + Danfoss H1B110, gearless LSHT (none fit a through axle).",
+  "fix": "ADOPTED rev L3: catalog Dodge Torque-Arm II TA7315H15MS (14.9:1, \u00d8120 straight bore, catalog TA rod) on each powered axle, Danfoss H1B110 variable bent-axis motor (same H1 family as the H1P053 pump). 2% start adhesion-capped 37.9 kN (42.2 kN at 350 bar; 31.5 kN needs ~262 bar); 2% hold 2.73 mph; reducer 0.50 of the 200 % start allowance at slip \u00d7 SF 1.6. L2 kept as the rejected alternative; fallback TA7315H05MS 5.2:1 + MS05 ~280 cc. Calc calcs/L3/drive_L3.json; C7g-C7n, C13, PE D1/X1/B1.",
+  "sev": "High"
+ },
+ {
+  "id": "F27",
+  "area": "Drive envelope (rev L3)",
+  "finding": "Envelope check (model.py): H1B110 in line on the TA II input shaft does NOT fit - reducer hub Y\u2212267\u2026+3 plus coupling and the 316 mm motor puts the motor rear at Y\u2248491 vs sideframe Y330 / wheel inner face Y427, and the motor body (X 109\u2013349 from the axle) hits the horn cheek (X 110\u2013140). The \u00d8120 keyed seat in plain 4140 also fails fatigue (n 0.96 vs 1.5).",
+  "fix": "FIX APPLIED: (1) 1:1 synchronous-belt input drop (catalog Gates Poly Chain class sprockets/belt, guarded) moves the motor to X 300\u2013540 / Z 620\u2013900, through the open sideframe window, rear at Y421 (6 mm inside the wheel line); motor bracket bolted to the reducer so belt centres do not move with the suspension. (2) Axle 34CrNiMo6 Q&T, sled-runner keyseat, induction-hardened + ground seat zone: n 1.82 (hardening factor ASSUMED - PE/metallurgist). (3) Axle disc on Y+ (free side) with 2 spring calipers per disc (axle torque now 1:1). AWAIT Dodge CAD for input-shaft position and Gates belt rating.",
+  "sev": "High"
+ },
+ {
+  "id": "F28",
+  "area": "Industrial reducer in rail traction",
+  "finding": "Dodge TA II catalog ratings are for electric-motor industrial drives; Dodge asks for Application Engineering review for other prime movers and heavy shock. Rail traction (reversing, wheel-slip, track shock, axle-hung mass ~321 kg) is not a catalog application.",
+  "fix": "OPEN - flagged for the PE: RFQ to Dodge Application Engineering (rail-axle use, shock/overhung mass, straight-bore fit k6 + retention, rating at 16-35 rpm, reversing duty). Design checks use SF 1.6 (heavy shock) and the 200 % starting allowance; margins 0.41-0.62.",
+  "sev": "High"
+ },
+ {
+  "id": "F29",
+  "area": "Operating speed",
+  "finding": "Owner decision 28 Oct: governed maximum operating speed 6 mph.",
+  "fix": "ADOPTED as the operating basis (brakes, stopping distances, curve/passenger checks): H1B minimum-displacement stop set to 60 cc and sealed (hard hydraulic limit at full pump flow), PLUS+1 pump speed control, independent overspeed trip at 7 mph (ASSUMED) \u2192 emergency brake; per-motor speed sensors also provide anti-slip. Hardware capable of ~10 mph (22 cc) - margin only. OWNER-SELECTED LIMIT - PE to confirm.",
+  "sev": "High"
+ }
+]

@@ -1,0 +1,5059 @@
+{
+ "cases": {
+  "const_R125": {
+   "name": "const_R125",
+   "res": {
+    "Locomotive": {
+     "out": 1559.2546498178265,
+     "inn": 1534.7199719241314,
+     "low_out": 1405.9155519761707,
+     "low_inn": 1382.9655648873593,
+     "out_nm": "cab roof 3 mm skin on HSS3x2x1/8 purlins @600 (3 in deep, adopted R2)",
+     "inn_nm": "cab roof 3 mm skin on HSS3x2x1/8 purlins @600 (3 in deep, adopted R2)"
+    },
+    "Tender": {
+     "out": 1380.4290928571183,
+     "inn": 1376.9274864414203,
+     "low_out": 1338.0085262808377,
+     "low_inn": 1335.2236881252788,
+     "out_nm": "tender flat roof 10 ga (3.4 mm) on HSS2x2x1/8 bows @500 (sealed)",
+     "inn_nm": "tender flat roof 10 ga (3.4 mm) on HSS2x2x1/8 bows @500 (sealed)"
+    },
+    "Coach 1": {
+     "out": 1577.8762803179345,
+     "inn": 1567.437668887992,
+     "low_out": 1484.7031001807861,
+     "low_inn": 1466.972988810478,
+     "out_nm": "roof eave",
+     "inn_nm": "roof eave"
+    },
+    "Coach 2": {
+     "out": 1577.8979938826872,
+     "inn": 1568.6076845992886,
+     "low_out": 1484.8673028427138,
+     "low_inn": 1468.7322054718265,
+     "out_nm": "roof eave",
+     "inn_nm": "roof eave"
+    },
+    "Coach 3": {
+     "out": 1577.945619504398,
+     "inn": 1569.8991561833193,
+     "low_out": 1484.7588533896258,
+     "low_inn": 1471.2041424640558,
+     "out_nm": "roof eave",
+     "inn_nm": "roof eave"
+    },
+    "Coach 4 (acc)": {
+     "out": 1577.9445490016942,
+     "inn": 1568.874665026543,
+     "low_out": 1484.8622381024638,
+     "low_inn": 1469.414821461297,
+     "out_nm": "roof eave",
+     "inn_nm": "roof eave"
+    }
+   },
+   "cpl": [
+    {
+     "a_front": 10.386115512219394,
+     "a_rear": 7.701491296567455,
+     "body": 4.018207175349542
+    },
+    {
+     "a_front": 2.947057135014117,
+     "a_rear": 5.642525214193498,
+     "body": 4.193800399619355
+    },
+    {
+     "a_front": 5.657050886528562,
+     "a_rear": 5.626426431203342,
+     "body": 5.421952251082944
+    },
+    {
+     "a_front": 5.65901594136172,
+     "a_rear": 5.646018167817408,
+     "body": 5.421956017566732
+    },
+    {
+     "a_front": 5.6541452318659795,
+     "a_rear": 5.656662836607439,
+     "body": 5.421920315369948
+    }
+   ],
+   "lead": {
+    "swing": 57.318207184553536,
+    "arm_angle": 1.3258063835274352
+   },
+   "yaw": {
+    "Locomotive T1": 0.7334201285925189,
+    "Locomotive T2": 0.7334201186911514,
+    "Tender T1": 0.595893848228618,
+    "Tender T2": 0.5958937138081181,
+    "Coach 1 T1": 1.257413461616191,
+    "Coach 1 T2": 1.257424927025669,
+    "Coach 2 T1": 1.2574317917576159,
+    "Coach 2 T2": 1.2574345652581533,
+    "Coach 3 T1": 1.2574318580137922,
+    "Coach 3 T2": 1.2574162950982315,
+    "Coach 4 (acc) T1": 1.2574128991575675,
+    "Coach 4 (acc) T2": 1.2574334357448362
+   },
+   "cyl_gap": 13.262701555559289,
+   "cyl_gap_790": 50.892750527440654,
+   "interf": [
+    {
+     "a": "Locomotive:T1 decorative cylinder \u00d8380 (on front truck, LT18)",
+     "b": "Locomotive:LT wheel tread rim 50 deep lead",
+     "static": 12.8,
+     "min_gap": -3.4,
+     "at_ch_m": 358.0,
+     "loss": 16.2
+    },
+    {
+     "a": "Locomotive:T1 decorative cylinder \u00d8380 (on front truck, LT18)",
+     "b": "Locomotive:LT wheel web 25 lead",
+     "static": 60.3,
+     "min_gap": 44.1,
+     "at_ch_m": 358.0,
+     "loss": 16.2
+    },
+    {
+     "a": "Locomotive:B main rail HSS12x6x3/8 (LT18: Y\u00b1240, Z1150-1454.8)",
+     "b": "Locomotive:T1 flange T1 \u00d81450 driver (spoked look; plate-web section proxy)",
+     "static": 111.0,
+     "min_gap": 91.4,
+     "at_ch_m": 361.0,
+     "loss": 19.6
+    },
+    {
+     "a": "Locomotive:B main rail HSS12x6x3/8 (LT18: Y\u00b1240, Z1150-1454.8)",
+     "b": "Locomotive:T2 flange T2 \u00d81450 driver (spoked look; plate-web section proxy)",
+     "static": 111.0,
+     "min_gap": 91.4,
+     "at_ch_m": 104.0,
+     "loss": 19.6
+    },
+    {
+     "a": "Locomotive:T1 decorative cylinder \u00d8380 (on front truck, LT18)",
+     "b": "Locomotive:LT flange lead",
+     "static": 107.8,
+     "min_gap": 91.6,
+     "at_ch_m": 358.0,
+     "loss": 16.2
+    },
+    {
+     "a": "Locomotive:B main rail HSS12x6x3/8 (LT18: Y\u00b1240, Z1150-1454.8)",
+     "b": "Locomotive:T1 wheel tread rim 50 deep T1 \u00d81450 driver (spoked look; plate-web section proxy)",
+     "static": 111.0,
+     "min_gap": 91.8,
+     "at_ch_m": 361.0,
+     "loss": 19.2
+    },
+    {
+     "a": "Locomotive:B main rail HSS12x6x3/8 (LT18: Y\u00b1240, Z1150-1454.8)",
+     "b": "Locomotive:T2 wheel tread rim 50 deep T2 \u00d81450 driver (spoked look; plate-web section proxy)",
+     "static": 111.0,
+     "min_gap": 91.8,
+     "at_ch_m": 104.0,
+     "loss": 19.2
+    },
+    {
+     "a": "Locomotive:B loco rear drop drawbar box PL16",
+     "b": "Tender:B tender front drop drawbar box PL16",
+     "static": 350.0,
+     "min_gap": 333.0,
+     "at_ch_m": 109.0,
+     "loss": 17.0
+    }
+   ],
+   "inter_vehicle": [
+    {
+     "a": "Locomotive:B loco rear drop drawbar box PL16",
+     "b": "Tender:B tender front drop drawbar box PL16",
+     "static": 350.0,
+     "min_gap": 333.0,
+     "at_ch_m": 109.0,
+     "loss": 17.0
+    },
+    {
+     "a": "Locomotive:B loco rear pocket top plate PL20",
+     "b": "Tender:B tender front drop drawbar box PL16",
+     "static": 390.0,
+     "min_gap": 372.9,
+     "at_ch_m": 109.0,
+     "loss": 17.1
+    },
+    {
+     "a": "Locomotive:B loco rear pocket bottom plate PL20",
+     "b": "Tender:B tender front drop drawbar box PL16",
+     "static": 390.0,
+     "min_gap": 372.9,
+     "at_ch_m": 109.0,
+     "loss": 17.1
+    },
+    {
+     "a": "Locomotive:B loco rear drop drawbar box PL16",
+     "b": "Tender:B tender front pocket top plate PL20",
+     "static": 540.0,
+     "min_gap": 523.0,
+     "at_ch_m": 109.0,
+     "loss": 17.0
+    }
+   ],
+   "secs": 53.3,
+   "spec": [
+    [
+     "T",
+     100
+    ],
+    [
+     "C",
+     125,
+     120,
+     "L"
+    ],
+    [
+     "T",
+     60
+    ]
+   ]
+  },
+  "const_R100": {
+   "name": "const_R100",
+   "res": {
+    "Locomotive": {
+     "out": 1581.6034812944442,
+     "inn": 1541.699050708271,
+     "low_out": 1425.7885516949189,
+     "low_inn": 1388.7377447081665,
+     "out_nm": "cab roof 3 mm skin on HSS3x2x1/8 purlins @600 (3 in deep, adopted R2)",
+     "inn_nm": "cab roof 3 mm skin on HSS3x2x1/8 purlins @600 (3 in deep, adopted R2)"
+    },
+    "Tender": {
+     "out": 1382.8701211256707,
+     "inn": 1378.5812007489658,
+     "low_out": 1340.8784266443668,
+     "low_inn": 1337.1843793378468,
+     "out_nm": "tender flat roof 10 ga (3.4 mm) on HSS2x2x1/8 bows @500 (sealed)",
+     "inn_nm": "tender flat roof 10 ga (3.4 mm) on HSS2x2x1/8 bows @500 (sealed)"
+    },
+    "Coach 1": {
+     "out": 1586.408535411532,
+     "inn": 1576.441118325989,
+     "low_out": 1502.0800807994422,
+     "low_inn": 1484.7125921219415,
+     "out_nm": "roof eave",
+     "inn_nm": "roof eave"
+    },
+    "Coach 2": {
+     "out": 1586.5289220342825,
+     "inn": 1575.2291778238343,
+     "low_out": 1502.1309673066812,
+     "low_inn": 1482.7844903077912,
+     "out_nm": "roof eave",
+     "inn_nm": "roof eave"
+    },
+    "Coach 3": {
+     "out": 1586.5290591049138,
+     "inn": 1576.1117859350381,
+     "low_out": 1502.1227685179363,
+     "low_inn": 1484.3087367719809,
+     "out_nm": "roof eave",
+     "inn_nm": "roof eave"
+    },
+    "Coach 4 (acc)": {
+     "out": 1586.4784313619152,
+     "inn": 1572.6900069266887,
+     "low_out": 1502.1312242689248,
+     "low_inn": 1478.2892788277645,
+     "out_nm": "roof eave",
+     "inn_nm": "roof eave"
+    }
+   },
+   "cpl": [
+    {
+     "a_front": 12.993984087612189,
+     "a_rear": 9.641047691250732,
+     "body": 5.019974946655067
+    },
+    {
+     "a_front": 3.6768145378233514,
+     "a_rear": 7.0594649656051205,
+     "body": 5.2411118328216455
+    },
+    {
+     "a_front": 7.071112710321725,
+     "a_rear": 7.071449729059123,
+     "body": 6.776089782173856
+    },
+    {
+     "a_front": 7.07303826041826,
+     "a_rear": 7.073083716200689,
+     "body": 6.776040434108649
+    },
+    {
+     "a_front": 7.0661270063523975,
+     "a_rear": 7.066318375468147,
+     "body": 6.776089782323622
+    }
+   ],
+   "lead": {
+    "swing": 71.62555555040562,
+    "arm_angle": 1.677084745965645
+   },
+   "yaw": {
+    "Locomotive T1": 0.9167995696200332,
+    "Locomotive T2": 0.9167991483419524,
+    "Tender T1": 0.7448801386807213,
+    "Tender T2": 0.7448792528879302,
+    "Coach 1 T1": 1.5718495360802172,
+    "Coach 1 T2": 1.5718743926352572,
+    "Coach 2 T1": 1.5718728782999452,
+    "Coach 2 T2": 1.5718465942085467,
+    "Coach 3 T1": 1.5718561718137898,
+    "Coach 3 T2": 1.5718743716393366,
+    "Coach 4 (acc) T1": 1.5718743741746233,
+    "Coach 4 (acc) T2": 1.5718734150540892
+   },
+   "cyl_gap": 10.063469168302106,
+   "cyl_gap_790": 47.62000286900627,
+   "interf": [
+    {
+     "a": "Locomotive:T1 decorative cylinder \u00d8380 (on front truck, LT18)",
+     "b": "Locomotive:LT wheel tread rim 50 deep lead",
+     "static": 12.8,
+     "min_gap": -7.4,
+     "at_ch_m": 306.0,
+     "loss": 20.2
+    },
+    {
+     "a": "Locomotive:T1 decorative cylinder \u00d8380 (on front truck, LT18)",
+     "b": "Locomotive:LT wheel web 25 lead",
+     "static": 60.3,
+     "min_gap": 40.1,
+     "at_ch_m": 306.0,
+     "loss": 20.2
+    },
+    {
+     "a": "Locomotive:B main rail HSS12x6x3/8 (LT18: Y\u00b1240, Z1150-1454.8)",
+     "b": "Locomotive:T1 flange T1 \u00d81450 driver (spoked look; plate-web section proxy)",
+     "static": 111.0,
+     "min_gap": 86.5,
+     "at_ch_m": 308.0,
+     "loss": 24.5
+    },
+    {
+     "a": "Locomotive:B main rail HSS12x6x3/8 (LT18: Y\u00b1240, Z1150-1454.8)",
+     "b": "Locomotive:T2 flange T2 \u00d81450 driver (spoked look; plate-web section proxy)",
+     "static": 111.0,
+     "min_gap": 86.5,
+     "at_ch_m": 104.0,
+     "loss": 24.5
+    },
+    {
+     "a": "Locomotive:B main rail HSS12x6x3/8 (LT18: Y\u00b1240, Z1150-1454.8)",
+     "b": "Locomotive:T1 wheel tread rim 50 deep T1 \u00d81450 driver (spoked look; plate-web section proxy)",
+     "static": 111.0,
+     "min_gap": 86.9,
+     "at_ch_m": 308.0,
+     "loss": 24.1
+    },
+    {
+     "a": "Locomotive:B main rail HSS12x6x3/8 (LT18: Y\u00b1240, Z1150-1454.8)",
+     "b": "Locomotive:T2 wheel tread rim 50 deep T2 \u00d81450 driver (spoked look; plate-web section proxy)",
+     "static": 111.0,
+     "min_gap": 86.9,
+     "at_ch_m": 104.0,
+     "loss": 24.1
+    },
+    {
+     "a": "Locomotive:T1 decorative cylinder \u00d8380 (on front truck, LT18)",
+     "b": "Locomotive:LT flange lead",
+     "static": 107.8,
+     "min_gap": 87.6,
+     "at_ch_m": 306.0,
+     "loss": 20.2
+    },
+    {
+     "a": "Locomotive:B loco rear drop drawbar box PL16",
+     "b": "Tender:B tender front drop drawbar box PL16",
+     "static": 350.0,
+     "min_gap": 326.9,
+     "at_ch_m": 108.0,
+     "loss": 23.1
+    }
+   ],
+   "inter_vehicle": [
+    {
+     "a": "Locomotive:B loco rear drop drawbar box PL16",
+     "b": "Tender:B tender front drop drawbar box PL16",
+     "static": 350.0,
+     "min_gap": 326.9,
+     "at_ch_m": 108.0,
+     "loss": 23.1
+    },
+    {
+     "a": "Locomotive:B loco rear pocket top plate PL20",
+     "b": "Tender:B tender front drop drawbar box PL16",
+     "static": 390.0,
+     "min_gap": 366.8,
+     "at_ch_m": 68.0,
+     "loss": 23.2
+    },
+    {
+     "a": "Locomotive:B loco rear pocket bottom plate PL20",
+     "b": "Tender:B tender front drop drawbar box PL16",
+     "static": 390.0,
+     "min_gap": 366.8,
+     "at_ch_m": 68.0,
+     "loss": 23.2
+    },
+    {
+     "a": "Locomotive:B loco rear drop drawbar box PL16",
+     "b": "Tender:B tender front pocket top plate PL20",
+     "static": 540.0,
+     "min_gap": 516.9,
+     "at_ch_m": 108.0,
+     "loss": 23.1
+    }
+   ],
+   "secs": 43.6,
+   "spec": [
+    [
+     "T",
+     100
+    ],
+    [
+     "C",
+     100,
+     120,
+     "L"
+    ],
+    [
+     "T",
+     60
+    ]
+   ]
+  },
+  "const_R90": {
+   "name": "const_R90",
+   "res": {
+    "Locomotive": {
+     "out": 1594.021581411592,
+     "inn": 1551.3940135332575,
+     "low_out": 1436.8302909072354,
+     "low_inn": 1397.291159028037,
+     "out_nm": "cab roof 3 mm skin on HSS3x2x1/8 purlins @600 (3 in deep, adopted R2)",
+     "inn_nm": "cab roof 3 mm skin on HSS3x2x1/8 purlins @600 (3 in deep, adopted R2)"
+    },
+    "Tender": {
+     "out": 1384.1145861933728,
+     "inn": 1379.6597235823374,
+     "low_out": 1342.3553507403008,
+     "low_inn": 1338.4175062086056,
+     "out_nm": "tender flat roof 10 ga (3.4 mm) on HSS2x2x1/8 bows @500 (sealed)",
+     "inn_nm": "tender flat roof 10 ga (3.4 mm) on HSS2x2x1/8 bows @500 (sealed)"
+    },
+    "Coach 1": {
+     "out": 1591.2052987574252,
+     "inn": 1580.5231039464259,
+     "low_out": 1511.5611601390624,
+     "low_inn": 1493.1192887517368,
+     "out_nm": "roof eave",
+     "inn_nm": "roof eave"
+    },
+    "Coach 2": {
+     "out": 1591.2556342579455,
+     "inn": 1579.2178778545149,
+     "low_out": 1511.6477925706795,
+     "low_inn": 1490.987538403907,
+     "out_nm": "roof eave",
+     "inn_nm": "roof eave"
+    },
+    "Coach 3": {
+     "out": 1591.2555852139837,
+     "inn": 1579.8157750922383,
+     "low_out": 1511.6573222344323,
+     "low_inn": 1492.0426443107583,
+     "out_nm": "roof eave",
+     "inn_nm": "roof eave"
+    },
+    "Coach 4 (acc)": {
+     "out": 1591.2556152480572,
+     "inn": 1576.4478002080955,
+     "low_out": 1511.6415798076823,
+     "low_inn": 1486.1303561612192,
+     "out_nm": "roof eave",
+     "inn_nm": "roof eave"
+    }
+   },
+   "cpl": [
+    {
+     "a_front": 14.446026511357397,
+     "a_rear": 10.722621169265983,
+     "body": 5.575732740023343
+    },
+    {
+     "a_front": 4.090058310300643,
+     "a_rear": 7.836271954166485,
+     "body": 5.8226280987831975
+    },
+    {
+     "a_front": 7.856563830895444,
+     "a_rear": 7.853546552088234,
+     "body": 7.528008290001537
+    },
+    {
+     "a_front": 7.858402257885483,
+     "a_rear": 7.858583048777128,
+     "body": 7.527982328423191
+    },
+    {
+     "a_front": 7.850030320890143,
+     "a_rear": 7.854834476219632,
+     "body": 7.5280082896548395
+    }
+   ],
+   "lead": {
+    "swing": 79.56769706784611,
+    "arm_angle": 1.8636212933373695
+   },
+   "yaw": {
+    "Locomotive T1": 1.0186833467253682,
+    "Locomotive T2": 1.0186831112778398,
+    "Tender T1": 0.8276536380258948,
+    "Tender T2": 0.8276527257458441,
+    "Coach 1 T1": 1.746554058492191,
+    "Coach 1 T2": 1.746581576109882,
+    "Coach 2 T1": 1.7465839943013683,
+    "Coach 2 T2": 1.7465654730960944,
+    "Coach 3 T1": 1.7465730315123171,
+    "Coach 3 T2": 1.7465810112502669,
+    "Coach 4 (acc) T1": 1.7465839540031858,
+    "Coach 4 (acc) T2": 1.746584639910788
+   },
+   "cyl_gap": 8.308382734229468,
+   "cyl_gap_790": 45.82308438402666,
+   "interf": [
+    {
+     "a": "Locomotive:T1 decorative cylinder \u00d8380 (on front truck, LT18)",
+     "b": "Locomotive:LT wheel tread rim 50 deep lead",
+     "static": 12.8,
+     "min_gap": -9.7,
+     "at_ch_m": 285.0,
+     "loss": 22.5
+    },
+    {
+     "a": "Locomotive:T1 decorative cylinder \u00d8380 (on front truck, LT18)",
+     "b": "Locomotive:LT wheel web 25 lead",
+     "static": 60.3,
+     "min_gap": 37.8,
+     "at_ch_m": 285.0,
+     "loss": 22.5
+    },
+    {
+     "a": "Locomotive:B main rail HSS12x6x3/8 (LT18: Y\u00b1240, Z1150-1454.8)",
+     "b": "Locomotive:T1 flange T1 \u00d81450 driver (spoked look; plate-web section proxy)",
+     "static": 111.0,
+     "min_gap": 83.8,
+     "at_ch_m": 287.0,
+     "loss": 27.2
+    },
+    {
+     "a": "Locomotive:B main rail HSS12x6x3/8 (LT18: Y\u00b1240, Z1150-1454.8)",
+     "b": "Locomotive:T2 flange T2 \u00d81450 driver (spoked look; plate-web section proxy)",
+     "static": 111.0,
+     "min_gap": 83.8,
+     "at_ch_m": 104.0,
+     "loss": 27.2
+    },
+    {
+     "a": "Locomotive:B main rail HSS12x6x3/8 (LT18: Y\u00b1240, Z1150-1454.8)",
+     "b": "Locomotive:T1 wheel tread rim 50 deep T1 \u00d81450 driver (spoked look; plate-web section proxy)",
+     "static": 111.0,
+     "min_gap": 84.3,
+     "at_ch_m": 287.0,
+     "loss": 26.7
+    },
+    {
+     "a": "Locomotive:B main rail HSS12x6x3/8 (LT18: Y\u00b1240, Z1150-1454.8)",
+     "b": "Locomotive:T2 wheel tread rim 50 deep T2 \u00d81450 driver (spoked look; plate-web section proxy)",
+     "static": 111.0,
+     "min_gap": 84.3,
+     "at_ch_m": 104.0,
+     "loss": 26.7
+    },
+    {
+     "a": "Locomotive:T1 decorative cylinder \u00d8380 (on front truck, LT18)",
+     "b": "Locomotive:LT flange lead",
+     "static": 107.8,
+     "min_gap": 85.3,
+     "at_ch_m": 285.0,
+     "loss": 22.5
+    },
+    {
+     "a": "Locomotive:B loco rear drop drawbar box PL16",
+     "b": "Tender:B tender front drop drawbar box PL16",
+     "static": 350.0,
+     "min_gap": 323.1,
+     "at_ch_m": 108.0,
+     "loss": 26.9
+    }
+   ],
+   "inter_vehicle": [
+    {
+     "a": "Locomotive:B loco rear drop drawbar box PL16",
+     "b": "Tender:B tender front drop drawbar box PL16",
+     "static": 350.0,
+     "min_gap": 323.1,
+     "at_ch_m": 108.0,
+     "loss": 26.9
+    },
+    {
+     "a": "Locomotive:B loco rear pocket top plate PL20",
+     "b": "Tender:B tender front drop drawbar box PL16",
+     "static": 390.0,
+     "min_gap": 363.0,
+     "at_ch_m": 108.0,
+     "loss": 27.0
+    },
+    {
+     "a": "Locomotive:B loco rear pocket bottom plate PL20",
+     "b": "Tender:B tender front drop drawbar box PL16",
+     "static": 390.0,
+     "min_gap": 363.0,
+     "at_ch_m": 108.0,
+     "loss": 27.0
+    },
+    {
+     "a": "Locomotive:B loco rear drop drawbar box PL16",
+     "b": "Tender:B tender front pocket top plate PL20",
+     "static": 540.0,
+     "min_gap": 513.1,
+     "at_ch_m": 108.0,
+     "loss": 26.9
+    }
+   ],
+   "secs": 38.2,
+   "spec": [
+    [
+     "T",
+     100
+    ],
+    [
+     "C",
+     90,
+     120,
+     "L"
+    ],
+    [
+     "T",
+     60
+    ]
+   ]
+  },
+  "const_R80": {
+   "name": "const_R80",
+   "res": {
+    "Locomotive": {
+     "out": 1609.5133168736052,
+     "inn": 1563.4574882769712,
+     "low_out": 1450.632623589981,
+     "low_inn": 1407.9266667517322,
+     "out_nm": "cab roof 3 mm skin on HSS3x2x1/8 purlins @600 (3 in deep, adopted R2)",
+     "inn_nm": "cab roof 3 mm skin on HSS3x2x1/8 purlins @600 (3 in deep, adopted R2)"
+    },
+    "Tender": {
+     "out": 1385.6325953153957,
+     "inn": 1380.99961838583,
+     "low_out": 1344.1896420048042,
+     "low_inn": 1339.8378342156348,
+     "out_nm": "tender flat roof 10 ga (3.4 mm) on HSS2x2x1/8 bows @500 (sealed)",
+     "inn_nm": "tender flat roof 10 ga (3.4 mm) on HSS2x2x1/8 bows @500 (sealed)"
+    },
+    "Coach 1": {
+     "out": 1597.0920017487977,
+     "inn": 1581.229598801269,
+     "low_out": 1523.4815191151931,
+     "low_inn": 1496.155073756986,
+     "out_nm": "roof eave",
+     "inn_nm": "roof eave"
+    },
+    "Coach 2": {
+     "out": 1597.1107436502168,
+     "inn": 1584.1437011170328,
+     "low_out": 1523.4631771003953,
+     "low_inn": 1501.1538901313088,
+     "out_nm": "roof eave",
+     "inn_nm": "roof eave"
+    },
+    "Coach 3": {
+     "out": 1597.1223693038846,
+     "inn": 1584.4514766361838,
+     "low_out": 1523.5033436893507,
+     "low_inn": 1501.7137714608914,
+     "out_nm": "roof eave",
+     "inn_nm": "roof eave"
+    },
+    "Coach 4 (acc)": {
+     "out": 1597.1223695618344,
+     "inn": 1581.123578558066,
+     "low_out": 1523.4910819782767,
+     "low_inn": 1495.8841983334846,
+     "out_nm": "roof eave",
+     "inn_nm": "roof eave"
+    }
+   },
+   "cpl": [
+    {
+     "a_front": 16.264868043883226,
+     "a_rear": 12.079338526992801,
+     "body": 6.269524845307773
+    },
+    {
+     "a_front": 4.605210606422265,
+     "a_rear": 8.805530335726045,
+     "body": 6.549170331345571
+    },
+    {
+     "a_front": 8.83812786770481,
+     "a_rear": 8.82943929444216,
+     "body": 8.46746859270734
+    },
+    {
+     "a_front": 8.83985189342752,
+     "a_rear": 8.839796639666845,
+     "body": 8.467468561349722
+    },
+    {
+     "a_front": 8.829037684979221,
+     "a_rear": 8.83874366164965,
+     "body": 8.467468595061193
+    }
+   ],
+   "lead": {
+    "swing": 89.48812777230592,
+    "arm_angle": 2.096457317083492
+   },
+   "yaw": {
+    "Locomotive T1": 1.1460458225068408,
+    "Locomotive T2": 1.1460459818239659,
+    "Tender T1": 0.9311246815109666,
+    "Tender T2": 0.9311236853632103,
+    "Coach 1 T1": 1.9649770133824254,
+    "Coach 1 T2": 1.9649941182901198,
+    "Coach 2 T1": 1.9650004803211543,
+    "Coach 2 T2": 1.9650005589356836,
+    "Coach 3 T1": 1.9649987184895856,
+    "Coach 3 T2": 1.964997906211699,
+    "Coach 4 (acc) T1": 1.9650004292795018,
+    "Coach 4 (acc) T2": 1.9650003107588534
+   },
+   "cyl_gap": 6.126733922873484,
+   "cyl_gap_790": 43.5878793594255,
+   "interf": [
+    {
+     "a": "Locomotive:T1 decorative cylinder \u00d8380 (on front truck, LT18)",
+     "b": "Locomotive:LT wheel tread rim 50 deep lead",
+     "static": 12.8,
+     "min_gap": -12.6,
+     "at_ch_m": 104.0,
+     "loss": 25.4
+    },
+    {
+     "a": "Locomotive:T1 decorative cylinder \u00d8380 (on front truck, LT18)",
+     "b": "Locomotive:LT wheel web 25 lead",
+     "static": 60.3,
+     "min_gap": 34.9,
+     "at_ch_m": 104.0,
+     "loss": 25.4
+    },
+    {
+     "a": "Locomotive:B main rail HSS12x6x3/8 (LT18: Y\u00b1240, Z1150-1454.8)",
+     "b": "Locomotive:T1 flange T1 \u00d81450 driver (spoked look; plate-web section proxy)",
+     "static": 111.0,
+     "min_gap": 80.4,
+     "at_ch_m": 104.0,
+     "loss": 30.6
+    },
+    {
+     "a": "Locomotive:B main rail HSS12x6x3/8 (LT18: Y\u00b1240, Z1150-1454.8)",
+     "b": "Locomotive:T2 flange T2 \u00d81450 driver (spoked look; plate-web section proxy)",
+     "static": 111.0,
+     "min_gap": 80.4,
+     "at_ch_m": 266.0,
+     "loss": 30.6
+    },
+    {
+     "a": "Locomotive:B main rail HSS12x6x3/8 (LT18: Y\u00b1240, Z1150-1454.8)",
+     "b": "Locomotive:T1 wheel tread rim 50 deep T1 \u00d81450 driver (spoked look; plate-web section proxy)",
+     "static": 111.0,
+     "min_gap": 80.9,
+     "at_ch_m": 104.0,
+     "loss": 30.1
+    },
+    {
+     "a": "Locomotive:B main rail HSS12x6x3/8 (LT18: Y\u00b1240, Z1150-1454.8)",
+     "b": "Locomotive:T2 wheel tread rim 50 deep T2 \u00d81450 driver (spoked look; plate-web section proxy)",
+     "static": 111.0,
+     "min_gap": 80.9,
+     "at_ch_m": 266.0,
+     "loss": 30.1
+    },
+    {
+     "a": "Locomotive:T1 decorative cylinder \u00d8380 (on front truck, LT18)",
+     "b": "Locomotive:LT flange lead",
+     "static": 107.8,
+     "min_gap": 82.4,
+     "at_ch_m": 104.0,
+     "loss": 25.4
+    },
+    {
+     "a": "Locomotive:B loco rear drop drawbar box PL16",
+     "b": "Tender:B tender front drop drawbar box PL16",
+     "static": 350.0,
+     "min_gap": 317.9,
+     "at_ch_m": 108.0,
+     "loss": 32.1
+    }
+   ],
+   "inter_vehicle": [
+    {
+     "a": "Locomotive:B loco rear drop drawbar box PL16",
+     "b": "Tender:B tender front drop drawbar box PL16",
+     "static": 350.0,
+     "min_gap": 317.9,
+     "at_ch_m": 108.0,
+     "loss": 32.1
+    },
+    {
+     "a": "Locomotive:B loco rear pocket top plate PL20",
+     "b": "Tender:B tender front drop drawbar box PL16",
+     "static": 390.0,
+     "min_gap": 357.8,
+     "at_ch_m": 108.0,
+     "loss": 32.2
+    },
+    {
+     "a": "Locomotive:B loco rear pocket bottom plate PL20",
+     "b": "Tender:B tender front drop drawbar box PL16",
+     "static": 390.0,
+     "min_gap": 357.8,
+     "at_ch_m": 108.0,
+     "loss": 32.2
+    },
+    {
+     "a": "Locomotive:B loco rear drop drawbar box PL16",
+     "b": "Tender:B tender front pocket top plate PL20",
+     "static": 540.0,
+     "min_gap": 507.9,
+     "at_ch_m": 108.0,
+     "loss": 32.1
+    }
+   ],
+   "secs": 35.8,
+   "spec": [
+    [
+     "T",
+     100
+    ],
+    [
+     "C",
+     80,
+     120,
+     "L"
+    ],
+    [
+     "T",
+     60
+    ]
+   ]
+  },
+  "const_R70": {
+   "name": "const_R70",
+   "res": {
+    "Locomotive": {
+     "out": 1629.3888937850961,
+     "inn": 1578.89473686419,
+     "low_out": 1468.3780152505326,
+     "low_inn": 1421.5261446801044,
+     "out_nm": "cab roof 3 mm skin on HSS3x2x1/8 purlins @600 (3 in deep, adopted R2)",
+     "inn_nm": "cab roof 3 mm skin on HSS3x2x1/8 purlins @600 (3 in deep, adopted R2)"
+    },
+    "Tender": {
+     "out": 1387.5829108811233,
+     "inn": 1382.7012874061245,
+     "low_out": 1346.487649170271,
+     "low_inn": 1341.668618111918,
+     "out_nm": "tender flat roof 10 ga (3.4 mm) on HSS2x2x1/8 bows @500 (sealed)",
+     "inn_nm": "tender flat roof 10 ga (3.4 mm) on HSS2x2x1/8 bows @500 (sealed)"
+    },
+    "Coach 1": {
+     "out": 1604.5986010792083,
+     "inn": 1586.682841664766,
+     "low_out": 1538.6172734905672,
+     "low_inn": 1507.714898025127,
+     "out_nm": "roof eave",
+     "inn_nm": "roof eave"
+    },
+    "Coach 2": {
+     "out": 1604.5918366232927,
+     "inn": 1590.403348224603,
+     "low_out": 1538.6321638216605,
+     "low_inn": 1514.121244936778,
+     "out_nm": "roof eave",
+     "inn_nm": "roof eave"
+    },
+    "Coach 3": {
+     "out": 1604.5886767662428,
+     "inn": 1590.4283331547683,
+     "low_out": 1538.6076254729132,
+     "low_inn": 1514.155838515315,
+     "out_nm": "roof eave",
+     "inn_nm": "roof eave"
+    },
+    "Coach 4 (acc)": {
+     "out": 1604.6000153237917,
+     "inn": 1587.100709948738,
+     "low_out": 1538.6323861793026,
+     "low_inn": 1508.3606861780377,
+     "out_nm": "roof eave",
+     "inn_nm": "roof eave"
+    }
+   },
+   "cpl": [
+    {
+     "a_front": 18.61044915810161,
+     "a_rear": 13.832565580479061,
+     "body": 7.159874993422545
+    },
+    {
+     "a_front": 5.266030502060979,
+     "a_rear": 10.049551990564286,
+     "body": 7.482632338847547
+    },
+    {
+     "a_front": 10.099922454574783,
+     "a_rear": 10.082034718529737,
+     "body": 9.674541421689167
+    },
+    {
+     "a_front": 10.101230930574243,
+     "a_rear": 10.099202206259863,
+     "body": 9.674541422449288
+    },
+    {
+     "a_front": 10.08682215319273,
+     "a_rear": 10.101629709977942,
+     "body": 9.674541422197382
+    }
+   ],
+   "lead": {
+    "swing": 102.22975634261346,
+    "arm_angle": 2.3935638486503055
+   },
+   "yaw": {
+    "Locomotive T1": 1.3098122144768665,
+    "Locomotive T2": 1.3098131890273166,
+    "Tender T1": 1.0641666701866048,
+    "Tender T2": 1.064166670954473,
+    "Coach 1 T1": 2.2458697525005253,
+    "Coach 1 T2": 2.2458626109719426,
+    "Coach 2 T1": 2.2458668332910237,
+    "Coach 2 T2": 2.245868956340179,
+    "Coach 3 T1": 2.245869559050423,
+    "Coach 3 T2": 2.245862889312747,
+    "Coach 4 (acc) T1": 2.2458697442769915,
+    "Coach 4 (acc) T2": 2.245867419857351
+   },
+   "cyl_gap": 3.337169881538159,
+   "cyl_gap_790": 40.72720160590438,
+   "interf": [
+    {
+     "a": "Locomotive:T1 decorative cylinder \u00d8380 (on front truck, LT18)",
+     "b": "Locomotive:LT wheel tread rim 50 deep lead",
+     "static": 12.8,
+     "min_gap": -16.2,
+     "at_ch_m": 104.0,
+     "loss": 29.0
+    },
+    {
+     "a": "Locomotive:T1 decorative cylinder \u00d8380 (on front truck, LT18)",
+     "b": "Locomotive:LT wheel web 25 lead",
+     "static": 60.3,
+     "min_gap": 31.3,
+     "at_ch_m": 104.0,
+     "loss": 29.0
+    },
+    {
+     "a": "Locomotive:B main rail HSS12x6x3/8 (LT18: Y\u00b1240, Z1150-1454.8)",
+     "b": "Locomotive:T1 flange T1 \u00d81450 driver (spoked look; plate-web section proxy)",
+     "static": 111.0,
+     "min_gap": 76.0,
+     "at_ch_m": 104.0,
+     "loss": 35.0
+    },
+    {
+     "a": "Locomotive:B main rail HSS12x6x3/8 (LT18: Y\u00b1240, Z1150-1454.8)",
+     "b": "Locomotive:T2 flange T2 \u00d81450 driver (spoked look; plate-web section proxy)",
+     "static": 111.0,
+     "min_gap": 76.0,
+     "at_ch_m": 245.0,
+     "loss": 35.0
+    },
+    {
+     "a": "Locomotive:B main rail HSS12x6x3/8 (LT18: Y\u00b1240, Z1150-1454.8)",
+     "b": "Locomotive:T1 wheel tread rim 50 deep T1 \u00d81450 driver (spoked look; plate-web section proxy)",
+     "static": 111.0,
+     "min_gap": 76.6,
+     "at_ch_m": 104.0,
+     "loss": 34.4
+    },
+    {
+     "a": "Locomotive:B main rail HSS12x6x3/8 (LT18: Y\u00b1240, Z1150-1454.8)",
+     "b": "Locomotive:T2 wheel tread rim 50 deep T2 \u00d81450 driver (spoked look; plate-web section proxy)",
+     "static": 111.0,
+     "min_gap": 76.6,
+     "at_ch_m": 245.0,
+     "loss": 34.4
+    },
+    {
+     "a": "Locomotive:T1 decorative cylinder \u00d8380 (on front truck, LT18)",
+     "b": "Locomotive:LT flange lead",
+     "static": 107.8,
+     "min_gap": 78.8,
+     "at_ch_m": 104.0,
+     "loss": 29.0
+    },
+    {
+     "a": "Locomotive:B loco rear drop drawbar box PL16",
+     "b": "Tender:B tender front drop drawbar box PL16",
+     "static": 350.0,
+     "min_gap": 310.7,
+     "at_ch_m": 108.0,
+     "loss": 39.3
+    }
+   ],
+   "inter_vehicle": [
+    {
+     "a": "Locomotive:B loco rear drop drawbar box PL16",
+     "b": "Tender:B tender front drop drawbar box PL16",
+     "static": 350.0,
+     "min_gap": 310.7,
+     "at_ch_m": 108.0,
+     "loss": 39.3
+    },
+    {
+     "a": "Locomotive:B loco rear pocket top plate PL20",
+     "b": "Tender:B tender front drop drawbar box PL16",
+     "static": 390.0,
+     "min_gap": 350.5,
+     "at_ch_m": 108.0,
+     "loss": 39.5
+    },
+    {
+     "a": "Locomotive:B loco rear pocket bottom plate PL20",
+     "b": "Tender:B tender front drop drawbar box PL16",
+     "static": 390.0,
+     "min_gap": 350.5,
+     "at_ch_m": 108.0,
+     "loss": 39.5
+    },
+    {
+     "a": "Locomotive:B loco rear drop drawbar box PL16",
+     "b": "Tender:B tender front pocket top plate PL20",
+     "static": 540.0,
+     "min_gap": 500.7,
+     "at_ch_m": 108.0,
+     "loss": 39.3
+    }
+   ],
+   "secs": 33.6,
+   "spec": [
+    [
+     "T",
+     100
+    ],
+    [
+     "C",
+     70,
+     120,
+     "L"
+    ],
+    [
+     "T",
+     60
+    ]
+   ]
+  },
+  "const_R60": {
+   "name": "const_R60",
+   "res": {
+    "Locomotive": {
+     "out": 1655.398059233118,
+     "inn": 1599.3654605375127,
+     "low_out": 1491.8205681934926,
+     "low_inn": 1439.5442906635237,
+     "out_nm": "cab roof 3 mm skin on HSS3x2x1/8 purlins @600 (3 in deep, adopted R2)",
+     "inn_nm": "cab roof 3 mm skin on HSS3x2x1/8 purlins @600 (3 in deep, adopted R2)"
+    },
+    "Tender": {
+     "out": 1390.2032694119796,
+     "inn": 1384.5394332430578,
+     "low_out": 1349.6256951287066,
+     "low_inn": 1344.0860005041955,
+     "out_nm": "tender flat roof 10 ga (3.4 mm) on HSS2x2x1/8 bows @500 (sealed)",
+     "inn_nm": "tender roof bow HSS2x2x1/8 @500"
+    },
+    "Coach 1": {
+     "out": 1614.4439362446751,
+     "inn": 1593.9339141372338,
+     "low_out": 1558.6175649339054,
+     "low_inn": 1523.1002634990616,
+     "out_nm": "roof eave",
+     "inn_nm": "roof eave"
+    },
+    "Coach 2": {
+     "out": 1614.448805168721,
+     "inn": 1598.653220074236,
+     "low_out": 1558.604594333071,
+     "low_inn": 1531.2807624048849,
+     "out_nm": "roof eave",
+     "inn_nm": "roof eave"
+    },
+    "Coach 3": {
+     "out": 1614.4505118864201,
+     "inn": 1598.4921644799376,
+     "low_out": 1558.604290980057,
+     "low_inn": 1530.8157524503058,
+     "out_nm": "roof eave",
+     "inn_nm": "roof eave"
+    },
+    "Coach 4 (acc)": {
+     "out": 1614.437094742691,
+     "inn": 1595.0185012372644,
+     "low_out": 1558.6069285484937,
+     "low_inn": 1524.7738278173704,
+     "out_nm": "roof eave",
+     "inn_nm": "roof eave"
+    }
+   },
+   "cpl": [
+    {
+     "a_front": 21.752373242775963,
+     "a_rear": 16.188414520648458,
+     "body": 8.343654202411452
+    },
+    {
+     "a_front": 6.145534311177468,
+     "a_rear": 11.713829530989036,
+     "body": 8.725854994806468
+    },
+    {
+     "a_front": 11.781907142980648,
+     "a_rear": 11.749358996961234,
+     "body": 11.282360928085893
+    },
+    {
+     "a_front": 11.781257545580491,
+     "a_rear": 11.77554204955238,
+     "body": 11.28236093957005
+    },
+    {
+     "a_front": 11.761505746421172,
+     "a_rear": 11.783054144826046,
+     "body": 11.28236093968547
+    }
+   ],
+   "lead": {
+    "swing": 119.19188664866454,
+    "arm_angle": 2.7868810897880207
+   },
+   "yaw": {
+    "Locomotive T1": 1.5281961409819642,
+    "Locomotive T2": 1.5281988520638308,
+    "Tender T1": 1.241570838301402,
+    "Tender T2": 1.2415708400294834,
+    "Coach 1 T1": 2.620455336103153,
+    "Coach 1 T2": 2.6204514561092656,
+    "Coach 2 T1": 2.620458745123034,
+    "Coach 2 T2": 2.6204539256415096,
+    "Coach 3 T1": 2.6204521853770433,
+    "Coach 3 T2": 2.620459139954065,
+    "Coach 4 (acc) T1": 2.6204542757418587,
+    "Coach 4 (acc) T2": 2.6204585991456795
+   },
+   "cyl_gap": -0.3575426461296729,
+   "cyl_gap_790": 36.93346369812366,
+   "interf": [
+    {
+     "a": "Locomotive:T1 decorative cylinder \u00d8380 (on front truck, LT18)",
+     "b": "Locomotive:LT wheel tread rim 50 deep lead",
+     "static": 12.8,
+     "min_gap": -21.1,
+     "at_ch_m": 104.0,
+     "loss": 33.9
+    },
+    {
+     "a": "Locomotive:T1 decorative cylinder \u00d8380 (on front truck, LT18)",
+     "b": "Locomotive:LT wheel web 25 lead",
+     "static": 60.3,
+     "min_gap": 26.4,
+     "at_ch_m": 104.0,
+     "loss": 33.9
+    },
+    {
+     "a": "Locomotive:B main rail HSS12x6x3/8 (LT18: Y\u00b1240, Z1150-1454.8)",
+     "b": "Locomotive:T1 flange T1 \u00d81450 driver (spoked look; plate-web section proxy)",
+     "static": 111.0,
+     "min_gap": 70.2,
+     "at_ch_m": 104.0,
+     "loss": 40.8
+    },
+    {
+     "a": "Locomotive:B main rail HSS12x6x3/8 (LT18: Y\u00b1240, Z1150-1454.8)",
+     "b": "Locomotive:T2 flange T2 \u00d81450 driver (spoked look; plate-web section proxy)",
+     "static": 111.0,
+     "min_gap": 70.2,
+     "at_ch_m": 224.0,
+     "loss": 40.8
+    },
+    {
+     "a": "Locomotive:B main rail HSS12x6x3/8 (LT18: Y\u00b1240, Z1150-1454.8)",
+     "b": "Locomotive:T1 wheel tread rim 50 deep T1 \u00d81450 driver (spoked look; plate-web section proxy)",
+     "static": 111.0,
+     "min_gap": 70.8,
+     "at_ch_m": 104.0,
+     "loss": 40.2
+    },
+    {
+     "a": "Locomotive:B main rail HSS12x6x3/8 (LT18: Y\u00b1240, Z1150-1454.8)",
+     "b": "Locomotive:T2 wheel tread rim 50 deep T2 \u00d81450 driver (spoked look; plate-web section proxy)",
+     "static": 111.0,
+     "min_gap": 70.8,
+     "at_ch_m": 224.0,
+     "loss": 40.2
+    },
+    {
+     "a": "Locomotive:T1 decorative cylinder \u00d8380 (on front truck, LT18)",
+     "b": "Locomotive:LT flange lead",
+     "static": 107.8,
+     "min_gap": 73.9,
+     "at_ch_m": 104.0,
+     "loss": 33.9
+    },
+    {
+     "a": "Locomotive:B loco rear drop drawbar box PL16",
+     "b": "Tender:B tender front drop drawbar box PL16",
+     "static": 350.0,
+     "min_gap": 299.9,
+     "at_ch_m": 108.0,
+     "loss": 50.1
+    }
+   ],
+   "inter_vehicle": [
+    {
+     "a": "Locomotive:B loco rear drop drawbar box PL16",
+     "b": "Tender:B tender front drop drawbar box PL16",
+     "static": 350.0,
+     "min_gap": 299.9,
+     "at_ch_m": 108.0,
+     "loss": 50.1
+    },
+    {
+     "a": "Locomotive:B loco rear pocket top plate PL20",
+     "b": "Tender:B tender front drop drawbar box PL16",
+     "static": 390.0,
+     "min_gap": 339.7,
+     "at_ch_m": 108.0,
+     "loss": 50.3
+    },
+    {
+     "a": "Locomotive:B loco rear pocket bottom plate PL20",
+     "b": "Tender:B tender front drop drawbar box PL16",
+     "static": 390.0,
+     "min_gap": 339.7,
+     "at_ch_m": 108.0,
+     "loss": 50.3
+    },
+    {
+     "a": "Locomotive:B loco rear drop drawbar box PL16",
+     "b": "Tender:B tender front pocket top plate PL20",
+     "static": 540.0,
+     "min_gap": 489.9,
+     "at_ch_m": 108.0,
+     "loss": 50.1
+    }
+   ],
+   "secs": 29.4,
+   "spec": [
+    [
+     "T",
+     100
+    ],
+    [
+     "C",
+     60,
+     120,
+     "L"
+    ],
+    [
+     "T",
+     60
+    ]
+   ]
+  },
+  "const_R50": {
+   "name": "const_R50",
+   "res": {
+    "Locomotive": {
+     "out": 1691.6977880405004,
+     "inn": 1627.8437906159081,
+     "low_out": 1524.009056866034,
+     "low_inn": 1464.586916946614,
+     "out_nm": "cab roof 3 mm skin on HSS3x2x1/8 purlins @600 (3 in deep, adopted R2)",
+     "inn_nm": "cab roof 3 mm skin on HSS3x2x1/8 purlins @600 (3 in deep, adopted R2)"
+    },
+    "Tender": {
+     "out": 1393.8258893248844,
+     "inn": 1387.8835880866598,
+     "low_out": 1353.9023471482924,
+     "low_inn": 1347.5308302108083,
+     "out_nm": "tender flat roof 10 ga (3.4 mm) on HSS2x2x1/8 bows @500 (sealed)",
+     "inn_nm": "tender roof bow HSS2x2x1/8 @500"
+    },
+    "Coach 1": {
+     "out": 1628.0088944503718,
+     "inn": 1604.0944099269338,
+     "low_out": 1586.241703272802,
+     "low_inn": 1544.6239015984004,
+     "out_nm": "roof eave",
+     "inn_nm": "roof eave"
+    },
+    "Coach 2": {
+     "out": 1628.0082288346068,
+     "inn": 1606.880845213621,
+     "low_out": 1586.242493843116,
+     "low_inn": 1549.5169832085824,
+     "out_nm": "roof eave",
+     "inn_nm": "roof eave"
+    },
+    "Coach 3": {
+     "out": 1628.007968342042,
+     "inn": 1609.4474570424188,
+     "low_out": 1586.2299546393829,
+     "low_inn": 1554.0391869975226,
+     "out_nm": "roof eave",
+     "inn_nm": "roof eave"
+    },
+    "Coach 4 (acc)": {
+     "out": 1628.005679411809,
+     "inn": 1605.672452063513,
+     "low_out": 1586.242233701366,
+     "low_inn": 1547.3058398521443,
+     "out_nm": "roof eave",
+     "inn_nm": "roof eave"
+    }
+   },
+   "cpl": [
+    {
+     "a_front": 26.184768461118225,
+     "a_rear": 19.529108236023344,
+     "body": 9.993367398929045
+    },
+    {
+     "a_front": 7.376612746290371,
+     "a_rear": 14.07097345756096,
+     "body": 10.463326830153706
+    },
+    {
+     "a_front": 14.135205288273275,
+     "a_rear": 14.079413579333208,
+     "body": 13.529694784293378
+    },
+    {
+     "a_front": 14.130542332180532,
+     "a_rear": 14.118107924614739,
+     "body": 13.529694784296902
+    },
+    {
+     "a_front": 14.098727857174614,
+     "a_rear": 14.13450693695751,
+     "body": 13.529694784284622
+    }
+   ],
+   "lead": {
+    "swing": 142.87880363997917,
+    "arm_angle": 3.3340556488117974
+   },
+   "yaw": {
+    "Locomotive T1": 1.83399833899767,
+    "Locomotive T2": 1.8340050380309803,
+    "Tender T1": 1.4899680608510881,
+    "Tender T2": 1.4899707214770077,
+    "Coach 1 T1": 3.1450924965333105,
+    "Coach 1 T2": 3.145103296365864,
+    "Coach 2 T1": 3.1450866534630033,
+    "Coach 2 T2": 3.145103798443634,
+    "Coach 3 T1": 3.145096079888683,
+    "Coach 3 T2": 3.14510344859228,
+    "Coach 4 (acc) T1": 3.145103560467141,
+    "Coach 4 (acc) T2": 3.145095633998389
+   },
+   "cyl_gap": -5.4664217416915335,
+   "cyl_gap_790": 31.677785157743244,
+   "interf": [
+    {
+     "a": "Locomotive:T1 decorative cylinder \u00d8380 (on front truck, LT18)",
+     "b": "Locomotive:LT wheel tread rim 50 deep lead",
+     "static": 12.8,
+     "min_gap": -28.0,
+     "at_ch_m": 104.0,
+     "loss": 40.8
+    },
+    {
+     "a": "Locomotive:T1 decorative cylinder \u00d8380 (on front truck, LT18)",
+     "b": "Locomotive:LT wheel web 25 lead",
+     "static": 60.3,
+     "min_gap": 19.5,
+     "at_ch_m": 104.0,
+     "loss": 40.8
+    },
+    {
+     "a": "Locomotive:B main rail HSS12x6x3/8 (LT18: Y\u00b1240, Z1150-1454.8)",
+     "b": "Locomotive:T1 flange T1 \u00d81450 driver (spoked look; plate-web section proxy)",
+     "static": 111.0,
+     "min_gap": 62.0,
+     "at_ch_m": 104.0,
+     "loss": 49.0
+    },
+    {
+     "a": "Locomotive:B main rail HSS12x6x3/8 (LT18: Y\u00b1240, Z1150-1454.8)",
+     "b": "Locomotive:T2 flange T2 \u00d81450 driver (spoked look; plate-web section proxy)",
+     "static": 111.0,
+     "min_gap": 62.0,
+     "at_ch_m": 203.0,
+     "loss": 49.0
+    },
+    {
+     "a": "Locomotive:B main rail HSS12x6x3/8 (LT18: Y\u00b1240, Z1150-1454.8)",
+     "b": "Locomotive:T1 wheel tread rim 50 deep T1 \u00d81450 driver (spoked look; plate-web section proxy)",
+     "static": 111.0,
+     "min_gap": 62.8,
+     "at_ch_m": 104.0,
+     "loss": 48.2
+    },
+    {
+     "a": "Locomotive:B main rail HSS12x6x3/8 (LT18: Y\u00b1240, Z1150-1454.8)",
+     "b": "Locomotive:T2 wheel tread rim 50 deep T2 \u00d81450 driver (spoked look; plate-web section proxy)",
+     "static": 111.0,
+     "min_gap": 62.8,
+     "at_ch_m": 203.0,
+     "loss": 48.2
+    },
+    {
+     "a": "Locomotive:T1 decorative cylinder \u00d8380 (on front truck, LT18)",
+     "b": "Locomotive:LT flange lead",
+     "static": 107.8,
+     "min_gap": 67.0,
+     "at_ch_m": 104.0,
+     "loss": 40.8
+    },
+    {
+     "a": "Locomotive:B loco rear drop drawbar box PL16",
+     "b": "Tender:B tender front drop drawbar box PL16",
+     "static": 350.0,
+     "min_gap": 282.8,
+     "at_ch_m": 108.0,
+     "loss": 67.2
+    }
+   ],
+   "inter_vehicle": [
+    {
+     "a": "Locomotive:B loco rear drop drawbar box PL16",
+     "b": "Tender:B tender front drop drawbar box PL16",
+     "static": 350.0,
+     "min_gap": 282.8,
+     "at_ch_m": 108.0,
+     "loss": 67.2
+    },
+    {
+     "a": "Locomotive:B loco rear pocket top plate PL20",
+     "b": "Tender:B tender front drop drawbar box PL16",
+     "static": 390.0,
+     "min_gap": 322.5,
+     "at_ch_m": 108.0,
+     "loss": 67.5
+    },
+    {
+     "a": "Locomotive:B loco rear pocket bottom plate PL20",
+     "b": "Tender:B tender front drop drawbar box PL16",
+     "static": 390.0,
+     "min_gap": 322.5,
+     "at_ch_m": 108.0,
+     "loss": 67.5
+    },
+    {
+     "a": "Locomotive:B loco rear drop drawbar box PL16",
+     "b": "Tender:B tender front pocket top plate PL20",
+     "static": 540.0,
+     "min_gap": 472.8,
+     "at_ch_m": 108.0,
+     "loss": 67.2
+    }
+   ],
+   "secs": 28.5,
+   "spec": [
+    [
+     "T",
+     100
+    ],
+    [
+     "C",
+     50,
+     120,
+     "L"
+    ],
+    [
+     "T",
+     60
+    ]
+   ]
+  },
+  "const_R45": {
+   "name": "const_R45",
+   "res": {
+    "Locomotive": {
+     "out": 1715.4643679855544,
+     "inn": 1670.5636393428315,
+     "low_out": 1545.5588246241718,
+     "low_inn": 1503.4729994351976,
+     "out_nm": "cab roof 3 mm skin on HSS3x2x1/8 purlins @600 (3 in deep, adopted R2)",
+     "inn_nm": "cab roof 3 mm skin on HSS3x2x1/8 purlins @600 (3 in deep, adopted R2)"
+    },
+    "Tender": {
+     "out": 1396.1514327470318,
+     "inn": 1390.103950415462,
+     "low_out": 1356.7089547449148,
+     "low_inn": 1349.8084972340048,
+     "out_nm": "tender flat roof 10 ga (3.4 mm) on HSS2x2x1/8 bows @500 (sealed)",
+     "inn_nm": "tender roof bow HSS2x2x1/8 @500"
+    },
+    "Coach 1": {
+     "out": 1641.6721391088893,
+     "inn": 1612.7965757567558,
+     "low_out": 1604.4343761273205,
+     "low_inn": 1562.4058163704913,
+     "out_nm": "platform guard top rail 42 in",
+     "inn_nm": "roof eave"
+    },
+    "Coach 2": {
+     "out": 1641.6707583425634,
+     "inn": 1614.1214891334578,
+     "low_out": 1604.4329953609947,
+     "low_inn": 1564.5451406983864,
+     "out_nm": "platform guard top rail 42 in",
+     "inn_nm": "roof eave"
+    },
+    "Coach 3": {
+     "out": 1641.6751447303484,
+     "inn": 1616.9699579676565,
+     "low_out": 1604.4373817487797,
+     "low_inn": 1569.571415166386,
+     "out_nm": "platform guard top rail 42 in",
+     "inn_nm": "roof eave"
+    },
+    "Coach 4 (acc)": {
+     "out": 1641.675268347131,
+     "inn": 1604.3072906077248,
+     "low_out": 1604.4375053655622,
+     "low_inn": 1547.752179674103,
+     "out_nm": "platform guard top rail 42 in",
+     "inn_nm": "roof eave"
+    }
+   },
+   "cpl": [
+    {
+     "a_front": 29.165980149932327,
+     "a_rear": 21.789508620327105,
+     "body": 11.087483465390042
+    },
+    {
+     "a_front": 8.121818726284992,
+     "a_rear": 15.700184375717413,
+     "body": 11.619357440440387
+    },
+    {
+     "a_front": 15.702037130299995,
+     "a_rear": 15.70129546359175,
+     "body": 15.02523027533456
+    },
+    {
+     "a_front": 15.693164170536853,
+     "a_rear": 15.682614421393586,
+     "body": 15.02523028861455
+    },
+    {
+     "a_front": 15.651118838971529,
+     "a_rear": 15.640147078127988,
+     "body": 15.025230292132584
+    }
+   ],
+   "lead": {
+    "swing": 158.62571788971982,
+    "arm_angle": 3.6974375062368727
+   },
+   "yaw": {
+    "Locomotive T1": 2.037916116032742,
+    "Locomotive T2": 2.0379156315853897,
+    "Tender T1": 1.6555943468439283,
+    "Tender T2": 1.6555951625427634,
+    "Coach 1 T1": 3.4950203216018445,
+    "Coach 1 T2": 3.4950149709873872,
+    "Coach 2 T1": 3.495014330638402,
+    "Coach 2 T2": 3.4950125115413284,
+    "Coach 3 T1": 3.495016787711254,
+    "Coach 3 T2": 3.495020073152812,
+    "Coach 4 (acc) T1": 3.495019527818893,
+    "Coach 4 (acc) T2": 3.4950196278697687
+   },
+   "cyl_gap": -8.908815882547174,
+   "cyl_gap_790": 28.129407316318463,
+   "interf": [
+    {
+     "a": "Locomotive:T1 decorative cylinder \u00d8380 (on front truck, LT18)",
+     "b": "Locomotive:LT wheel tread rim 50 deep lead",
+     "static": 12.8,
+     "min_gap": -32.7,
+     "at_ch_m": 191.0,
+     "loss": 45.5
+    },
+    {
+     "a": "Locomotive:T1 decorative cylinder \u00d8380 (on front truck, LT18)",
+     "b": "Locomotive:LT wheel web 25 lead",
+     "static": 60.3,
+     "min_gap": 14.8,
+     "at_ch_m": 191.0,
+     "loss": 45.5
+    },
+    {
+     "a": "Locomotive:B main rail HSS12x6x3/8 (LT18: Y\u00b1240, Z1150-1454.8)",
+     "b": "Locomotive:T1 flange T1 \u00d81450 driver (spoked look; plate-web section proxy)",
+     "static": 111.0,
+     "min_gap": 56.5,
+     "at_ch_m": 193.0,
+     "loss": 54.5
+    },
+    {
+     "a": "Locomotive:B main rail HSS12x6x3/8 (LT18: Y\u00b1240, Z1150-1454.8)",
+     "b": "Locomotive:T2 flange T2 \u00d81450 driver (spoked look; plate-web section proxy)",
+     "static": 111.0,
+     "min_gap": 56.5,
+     "at_ch_m": 104.0,
+     "loss": 54.5
+    },
+    {
+     "a": "Locomotive:B main rail HSS12x6x3/8 (LT18: Y\u00b1240, Z1150-1454.8)",
+     "b": "Locomotive:T1 wheel tread rim 50 deep T1 \u00d81450 driver (spoked look; plate-web section proxy)",
+     "static": 111.0,
+     "min_gap": 57.4,
+     "at_ch_m": 193.0,
+     "loss": 53.6
+    },
+    {
+     "a": "Locomotive:B main rail HSS12x6x3/8 (LT18: Y\u00b1240, Z1150-1454.8)",
+     "b": "Locomotive:T2 wheel tread rim 50 deep T2 \u00d81450 driver (spoked look; plate-web section proxy)",
+     "static": 111.0,
+     "min_gap": 57.4,
+     "at_ch_m": 104.0,
+     "loss": 53.6
+    },
+    {
+     "a": "Locomotive:T1 decorative cylinder \u00d8380 (on front truck, LT18)",
+     "b": "Locomotive:LT flange lead",
+     "static": 107.8,
+     "min_gap": 62.3,
+     "at_ch_m": 191.0,
+     "loss": 45.5
+    },
+    {
+     "a": "Locomotive:B loco rear drop drawbar box PL16",
+     "b": "Tender:B tender front drop drawbar box PL16",
+     "static": 350.0,
+     "min_gap": 269.8,
+     "at_ch_m": 67.0,
+     "loss": 80.2
+    }
+   ],
+   "inter_vehicle": [
+    {
+     "a": "Locomotive:B loco rear drop drawbar box PL16",
+     "b": "Tender:B tender front drop drawbar box PL16",
+     "static": 350.0,
+     "min_gap": 269.8,
+     "at_ch_m": 67.0,
+     "loss": 80.2
+    },
+    {
+     "a": "Locomotive:B loco rear pocket top plate PL20",
+     "b": "Tender:B tender front drop drawbar box PL16",
+     "static": 390.0,
+     "min_gap": 309.5,
+     "at_ch_m": 108.0,
+     "loss": 80.5
+    },
+    {
+     "a": "Locomotive:B loco rear pocket bottom plate PL20",
+     "b": "Tender:B tender front drop drawbar box PL16",
+     "static": 390.0,
+     "min_gap": 309.5,
+     "at_ch_m": 108.0,
+     "loss": 80.5
+    },
+    {
+     "a": "Locomotive:B loco rear drop drawbar box PL16",
+     "b": "Tender:B tender front pocket top plate PL20",
+     "static": 540.0,
+     "min_gap": 459.8,
+     "at_ch_m": 67.0,
+     "loss": 80.2
+    }
+   ],
+   "secs": 24.9,
+   "spec": [
+    [
+     "T",
+     100
+    ],
+    [
+     "C",
+     45,
+     120,
+     "L"
+    ],
+    [
+     "T",
+     60
+    ]
+   ]
+  },
+  "const_R40": {
+   "name": "const_R40",
+   "res": {
+    "Locomotive": {
+     "out": 1745.2352437660836,
+     "inn": 1669.43629363746,
+     "low_out": 1571.9171910487244,
+     "low_inn": 1501.5693435064,
+     "out_nm": "cab roof 3 mm skin on HSS3x2x1/8 purlins @600 (3 in deep, adopted R2)",
+     "inn_nm": "cab roof 3 mm skin on HSS3x2x1/8 purlins @600 (3 in deep, adopted R2)"
+    },
+    "Tender": {
+     "out": 1399.0902433340104,
+     "inn": 1392.896864883666,
+     "low_out": 1360.1871563266488,
+     "low_inn": 1352.657690223872,
+     "out_nm": "tender flat roof 10 ga (3.4 mm) on HSS2x2x1/8 bows @500 (sealed)",
+     "inn_nm": "tender roof bow HSS2x2x1/8 @500"
+    },
+    "Coach 1": {
+     "out": 1664.1447907174195,
+     "inn": 1619.4615012818547,
+     "low_out": 1626.9070277358508,
+     "low_inn": 1576.973318214555,
+     "out_nm": "platform guard top rail 42 in",
+     "inn_nm": "roof eave"
+    },
+    "Coach 2": {
+     "out": 1664.1483879874588,
+     "inn": 1623.0230017394665,
+     "low_out": 1626.91062500589,
+     "low_inn": 1583.5302338092101,
+     "out_nm": "platform guard top rail 42 in",
+     "inn_nm": "roof eave"
+    },
+    "Coach 3": {
+     "out": 1664.1481923896945,
+     "inn": 1624.2469409895753,
+     "low_out": 1626.9104294081258,
+     "low_inn": 1585.5356095947698,
+     "out_nm": "platform guard top rail 42 in",
+     "inn_nm": "roof eave"
+    },
+    "Coach 4 (acc)": {
+     "out": 1664.1461920271508,
+     "inn": 1621.4441306822084,
+     "low_out": 1626.9084290455821,
+     "low_inn": 1580.8202368280051,
+     "out_nm": "platform guard top rail 42 in",
+     "inn_nm": "roof eave"
+    }
+   },
+   "cpl": [
+    {
+     "a_front": 32.927960246540195,
+     "a_rear": 24.66012111834273,
+     "body": 12.447742446724506
+    },
+    {
+     "a_front": 9.223926762538355,
+     "a_rear": 17.599049301324634,
+     "body": 13.06148685218501
+    },
+    {
+     "a_front": 17.659019726435492,
+     "a_rear": 17.566779295220076,
+     "body": 16.891265594234916
+    },
+    {
+     "a_front": 17.642476175573524,
+     "a_rear": 17.62411477737826,
+     "body": 16.89126559422045
+    },
+    {
+     "a_front": 17.583517798694142,
+     "a_rear": 17.65405146137684,
+     "body": 16.891265594242203
+    }
+   ],
+   "lead": {
+    "swing": 178.25608532552292,
+    "arm_angle": 4.150220303430954
+   },
+   "yaw": {
+    "Locomotive T1": 2.29288774825781,
+    "Locomotive T2": 2.2928733332245246,
+    "Tender T1": 1.8626584426604347,
+    "Tender T2": 1.8626599166910462,
+    "Coach 1 T1": 3.9326385953573495,
+    "Coach 1 T2": 3.932638216031819,
+    "Coach 2 T1": 3.9326386441200696,
+    "Coach 2 T2": 3.9326367221734126,
+    "Coach 3 T1": 3.932637868879233,
+    "Coach 3 T2": 3.9326344886413542,
+    "Coach 4 (acc) T1": 3.932636678153064,
+    "Coach 4 (acc) T2": 3.932637887556991
+   },
+   "cyl_gap": -12.98307655419984,
+   "cyl_gap_790": 23.921620014832513,
+   "interf": [
+    {
+     "a": "Locomotive:T1 decorative cylinder \u00d8380 (on front truck, LT18)",
+     "b": "Locomotive:LT wheel tread rim 50 deep lead",
+     "static": 12.8,
+     "min_gap": -38.5,
+     "at_ch_m": 180.0,
+     "loss": 51.3
+    },
+    {
+     "a": "Locomotive:T1 decorative cylinder \u00d8380 (on front truck, LT18)",
+     "b": "Locomotive:LT wheel web 25 lead",
+     "static": 60.3,
+     "min_gap": 9.0,
+     "at_ch_m": 180.0,
+     "loss": 51.3
+    },
+    {
+     "a": "Locomotive:B main rail HSS12x6x3/8 (LT18: Y\u00b1240, Z1150-1454.8)",
+     "b": "Locomotive:T1 flange T1 \u00d81450 driver (spoked look; plate-web section proxy)",
+     "static": 111.0,
+     "min_gap": 49.6,
+     "at_ch_m": 183.0,
+     "loss": 61.4
+    },
+    {
+     "a": "Locomotive:B main rail HSS12x6x3/8 (LT18: Y\u00b1240, Z1150-1454.8)",
+     "b": "Locomotive:T2 flange T2 \u00d81450 driver (spoked look; plate-web section proxy)",
+     "static": 111.0,
+     "min_gap": 49.6,
+     "at_ch_m": 104.0,
+     "loss": 61.4
+    },
+    {
+     "a": "Locomotive:B main rail HSS12x6x3/8 (LT18: Y\u00b1240, Z1150-1454.8)",
+     "b": "Locomotive:T1 wheel tread rim 50 deep T1 \u00d81450 driver (spoked look; plate-web section proxy)",
+     "static": 111.0,
+     "min_gap": 50.6,
+     "at_ch_m": 183.0,
+     "loss": 60.4
+    },
+    {
+     "a": "Locomotive:B main rail HSS12x6x3/8 (LT18: Y\u00b1240, Z1150-1454.8)",
+     "b": "Locomotive:T2 wheel tread rim 50 deep T2 \u00d81450 driver (spoked look; plate-web section proxy)",
+     "static": 111.0,
+     "min_gap": 50.6,
+     "at_ch_m": 104.0,
+     "loss": 60.4
+    },
+    {
+     "a": "Locomotive:T1 decorative cylinder \u00d8380 (on front truck, LT18)",
+     "b": "Locomotive:LT flange lead",
+     "static": 107.8,
+     "min_gap": 56.5,
+     "at_ch_m": 180.0,
+     "loss": 51.3
+    },
+    {
+     "a": "Locomotive:B loco rear drop drawbar box PL16",
+     "b": "Tender:B tender front drop drawbar box PL16",
+     "static": 350.0,
+     "min_gap": 251.3,
+     "at_ch_m": 67.0,
+     "loss": 98.7
+    }
+   ],
+   "inter_vehicle": [
+    {
+     "a": "Locomotive:B loco rear drop drawbar box PL16",
+     "b": "Tender:B tender front drop drawbar box PL16",
+     "static": 350.0,
+     "min_gap": 251.3,
+     "at_ch_m": 67.0,
+     "loss": 98.7
+    },
+    {
+     "a": "Locomotive:B loco rear pocket top plate PL20",
+     "b": "Tender:B tender front drop drawbar box PL16",
+     "static": 390.0,
+     "min_gap": 290.9,
+     "at_ch_m": 67.0,
+     "loss": 99.1
+    },
+    {
+     "a": "Locomotive:B loco rear pocket bottom plate PL20",
+     "b": "Tender:B tender front drop drawbar box PL16",
+     "static": 390.0,
+     "min_gap": 290.9,
+     "at_ch_m": 67.0,
+     "loss": 99.1
+    },
+    {
+     "a": "Locomotive:B loco rear drop drawbar box PL16",
+     "b": "Tender:B tender front pocket top plate PL20",
+     "static": 540.0,
+     "min_gap": 441.3,
+     "at_ch_m": 67.0,
+     "loss": 98.7
+    }
+   ],
+   "secs": 23.4,
+   "spec": [
+    [
+     "T",
+     100
+    ],
+    [
+     "C",
+     40,
+     120,
+     "L"
+    ],
+    [
+     "T",
+     60
+    ]
+   ]
+  },
+  "const_R35": {
+   "name": "const_R35",
+   "res": {
+    "Locomotive": {
+     "out": 1782.6947414516974,
+     "inn": 1728.593247865581,
+     "low_out": 1605.6116634587393,
+     "low_inn": 1555.1591156420016,
+     "out_nm": "cab roof 3 mm skin on HSS3x2x1/8 purlins @600 (3 in deep, adopted R2)",
+     "inn_nm": "cab roof 3 mm skin on HSS3x2x1/8 purlins @600 (3 in deep, adopted R2)"
+    },
+    "Tender": {
+     "out": 1402.7998289102513,
+     "inn": 1396.4352647588375,
+     "low_out": 1364.5578834815133,
+     "low_inn": 1356.3172713047509,
+     "out_nm": "tender flat roof 10 ga (3.4 mm) on HSS2x2x1/8 bows @500 (sealed)",
+     "inn_nm": "tender roof bow HSS2x2x1/8 @500"
+    },
+    "Coach 1": {
+     "out": 1692.630977001543,
+     "inn": 1641.4685071704719,
+     "low_out": 1655.3932140199743,
+     "low_inn": 1604.2307441889031,
+     "out_nm": "platform guard top rail 42 in",
+     "inn_nm": "platform guard top rail 42 in"
+    },
+    "Coach 2": {
+     "out": 1692.6361318748927,
+     "inn": 1645.0209917529585,
+     "low_out": 1655.398368893324,
+     "low_inn": 1607.7832287713898,
+     "out_nm": "platform guard top rail 42 in",
+     "inn_nm": "platform guard top rail 42 in"
+    },
+    "Coach 3": {
+     "out": 1692.6367232284738,
+     "inn": 1629.6688990719344,
+     "low_out": 1655.398960246905,
+     "low_inn": 1592.4311360903657,
+     "out_nm": "platform guard top rail 42 in",
+     "inn_nm": "platform guard top rail 42 in"
+    },
+    "Coach 4 (acc)": {
+     "out": 1692.6316021062778,
+     "inn": 1625.1655723201866,
+     "low_out": 1655.393839124709,
+     "low_inn": 1587.9278093386179,
+     "out_nm": "platform guard top rail 42 in",
+     "inn_nm": "platform guard top rail 42 in"
+    }
+   },
+   "cpl": [
+    {
+     "a_front": 37.834284972288195,
+     "a_rear": 28.439841850472792,
+     "body": 14.183051124392744
+    },
+    {
+     "a_front": 10.47022523389784,
+     "a_rear": 20.162699146528954,
+     "body": 14.910329613015145
+    },
+    {
+     "a_front": 20.171634911985986,
+     "a_rear": 20.171848469804583,
+     "body": 19.284128944447733
+    },
+    {
+     "a_front": 20.138574354006533,
+     "a_rear": 20.158871187680777,
+     "body": 19.284128963058244
+    },
+    {
+     "a_front": 20.050274088399686,
+     "a_rear": 20.113581692105512,
+     "body": 19.284128964162612
+    }
+   ],
+   "lead": {
+    "swing": 203.37783200030447,
+    "arm_angle": 4.770913654849421
+   },
+   "yaw": {
+    "Locomotive T1": 2.620791389219451,
+    "Locomotive T2": 2.620796899782245,
+    "Tender T1": 2.128946471478019,
+    "Tender T2": 2.128946708062457,
+    "Coach 1 T1": 4.495658408105023,
+    "Coach 1 T2": 4.495663680982561,
+    "Coach 2 T1": 4.495668668968411,
+    "Coach 2 T2": 4.495674292535633,
+    "Coach 3 T1": 4.4956726683619275,
+    "Coach 3 T2": 4.495670611330007,
+    "Coach 4 (acc) T1": 4.495668984115849,
+    "Coach 4 (acc) T2": 4.49567360424804
+   },
+   "cyl_gap": -18.26061656336367,
+   "cyl_gap_790": 18.45670978216208,
+   "interf": [
+    {
+     "a": "Locomotive:T1 decorative cylinder \u00d8380 (on front truck, LT18)",
+     "b": "Locomotive:LT wheel tread rim 50 deep lead",
+     "static": 12.8,
+     "min_gap": -46.0,
+     "at_ch_m": 104.0,
+     "loss": 58.8
+    },
+    {
+     "a": "Locomotive:T1 decorative cylinder \u00d8380 (on front truck, LT18)",
+     "b": "Locomotive:LT wheel web 25 lead",
+     "static": 60.3,
+     "min_gap": 1.5,
+     "at_ch_m": 104.0,
+     "loss": 58.8
+    },
+    {
+     "a": "Locomotive:B main rail HSS12x6x3/8 (LT18: Y\u00b1240, Z1150-1454.8)",
+     "b": "Locomotive:T1 flange T1 \u00d81450 driver (spoked look; plate-web section proxy)",
+     "static": 111.0,
+     "min_gap": 40.8,
+     "at_ch_m": 104.0,
+     "loss": 70.2
+    },
+    {
+     "a": "Locomotive:B main rail HSS12x6x3/8 (LT18: Y\u00b1240, Z1150-1454.8)",
+     "b": "Locomotive:T2 flange T2 \u00d81450 driver (spoked look; plate-web section proxy)",
+     "static": 111.0,
+     "min_gap": 40.8,
+     "at_ch_m": 172.0,
+     "loss": 70.2
+    },
+    {
+     "a": "Locomotive:B main rail HSS12x6x3/8 (LT18: Y\u00b1240, Z1150-1454.8)",
+     "b": "Locomotive:T1 wheel tread rim 50 deep T1 \u00d81450 driver (spoked look; plate-web section proxy)",
+     "static": 111.0,
+     "min_gap": 42.0,
+     "at_ch_m": 104.0,
+     "loss": 69.0
+    },
+    {
+     "a": "Locomotive:B main rail HSS12x6x3/8 (LT18: Y\u00b1240, Z1150-1454.8)",
+     "b": "Locomotive:T2 wheel tread rim 50 deep T2 \u00d81450 driver (spoked look; plate-web section proxy)",
+     "static": 111.0,
+     "min_gap": 42.0,
+     "at_ch_m": 172.0,
+     "loss": 69.0
+    },
+    {
+     "a": "Locomotive:T1 decorative cylinder \u00d8380 (on front truck, LT18)",
+     "b": "Locomotive:LT flange lead",
+     "static": 107.8,
+     "min_gap": 49.0,
+     "at_ch_m": 104.0,
+     "loss": 58.8
+    },
+    {
+     "a": "Locomotive:B loco rear drop drawbar box PL16",
+     "b": "Tender:B tender front drop drawbar box PL16",
+     "static": 350.0,
+     "min_gap": 224.4,
+     "at_ch_m": 67.0,
+     "loss": 125.6
+    }
+   ],
+   "inter_vehicle": [
+    {
+     "a": "Locomotive:B loco rear drop drawbar box PL16",
+     "b": "Tender:B tender front drop drawbar box PL16",
+     "static": 350.0,
+     "min_gap": 224.4,
+     "at_ch_m": 67.0,
+     "loss": 125.6
+    },
+    {
+     "a": "Locomotive:B loco rear pocket top plate PL20",
+     "b": "Tender:B tender front drop drawbar box PL16",
+     "static": 390.0,
+     "min_gap": 263.8,
+     "at_ch_m": 67.0,
+     "loss": 126.2
+    },
+    {
+     "a": "Locomotive:B loco rear pocket bottom plate PL20",
+     "b": "Tender:B tender front drop drawbar box PL16",
+     "static": 390.0,
+     "min_gap": 263.8,
+     "at_ch_m": 67.0,
+     "loss": 126.2
+    },
+    {
+     "a": "Locomotive:B loco rear drop drawbar box PL16",
+     "b": "Tender:B tender front pocket top plate PL20",
+     "static": 540.0,
+     "min_gap": 414.3,
+     "at_ch_m": 67.0,
+     "loss": 125.7
+    }
+   ],
+   "secs": 22.1,
+   "spec": [
+    [
+     "T",
+     100
+    ],
+    [
+     "C",
+     35,
+     120,
+     "L"
+    ],
+    [
+     "T",
+     60
+    ]
+   ]
+  },
+  "S_R100_T25.66": {
+   "name": "S_R100_T25.66",
+   "res": {
+    "Locomotive": {
+     "out": 1581.8060453090786,
+     "inn": 1552.7144038505724,
+     "low_out": 1425.895787762283,
+     "low_inn": 1398.868783947496,
+     "out_nm": "cab roof 3 mm skin on HSS3x2x1/8 purlins @600 (3 in deep, adopted R2)",
+     "inn_nm": "cab roof 3 mm skin on HSS3x2x1/8 purlins @600 (3 in deep, adopted R2)"
+    },
+    "Tender": {
+     "out": 1382.8694456630233,
+     "inn": 1379.5581678507608,
+     "low_out": 1340.8781116775353,
+     "low_inn": 1337.175194756344,
+     "out_nm": "tender flat roof 10 ga (3.4 mm) on HSS2x2x1/8 bows @500 (sealed)",
+     "inn_nm": "tender flat roof 10 ga (3.4 mm) on HSS2x2x1/8 bows @500 (sealed)"
+    },
+    "Coach 1": {
+     "out": 1586.4798188559398,
+     "inn": 1575.57020639717,
+     "low_out": 1502.1309216662612,
+     "low_inn": 1483.3764587106696,
+     "out_nm": "roof eave",
+     "inn_nm": "roof eave"
+    },
+    "Coach 2": {
+     "out": 1586.5290241334444,
+     "inn": 1576.7511766406396,
+     "low_out": 1502.1309041538236,
+     "low_inn": 1485.322751505978,
+     "out_nm": "roof eave",
+     "inn_nm": "roof eave"
+    },
+    "Coach 3": {
+     "out": 1586.4280412862147,
+     "inn": 1577.1489946906192,
+     "low_out": 1502.1074364758501,
+     "low_inn": 1485.8662031140489,
+     "out_nm": "roof eave",
+     "inn_nm": "roof eave"
+    },
+    "Coach 4 (acc)": {
+     "out": 1586.5291968394004,
+     "inn": 1575.517050767832,
+     "low_out": 1502.131073190482,
+     "low_inn": 1483.292729702107,
+     "out_nm": "roof eave",
+     "inn_nm": "roof eave"
+    }
+   },
+   "cpl": [
+    {
+     "a_front": 12.993983778443873,
+     "a_rear": 9.641047473880885,
+     "body": 5.019975483060481
+    },
+    {
+     "a_front": 3.683483869751701,
+     "a_rear": 7.072763717947455,
+     "body": 5.241137973168574
+    },
+    {
+     "a_front": 7.0711152289774635,
+     "a_rear": 7.064434902636277,
+     "body": 6.776089764036874
+    },
+    {
+     "a_front": 7.073040924397878,
+     "a_rear": 7.054344550144141,
+     "body": 6.77608976881429
+    },
+    {
+     "a_front": 7.066129810753904,
+     "a_rear": 7.0692845446068535,
+     "body": 6.776089768774334
+    }
+   ],
+   "lead": {
+    "swing": 71.62576320665258,
+    "arm_angle": 1.654290856115375
+   },
+   "yaw": {
+    "Locomotive T1": 0.9168024108038478,
+    "Locomotive T2": 0.9168025645792758,
+    "Tender T1": 0.7448827954212214,
+    "Tender T2": 0.7448828883488006,
+    "Coach 1 T1": 1.571874808405821,
+    "Coach 1 T2": 1.5718747799973702,
+    "Coach 2 T1": 1.5718659267368669,
+    "Coach 2 T2": 1.5718712945072664,
+    "Coach 3 T1": 1.5718747546959164,
+    "Coach 3 T2": 1.571874793407631,
+    "Coach 4 (acc) T1": 1.571874125250996,
+    "Coach 4 (acc) T2": 1.5718630940092728
+   },
+   "cyl_gap": 10.029872504736886,
+   "cyl_gap_790": 47.5856156460093,
+   "interf": [
+    {
+     "a": "Locomotive:T1 decorative cylinder \u00d8380 (on front truck, LT18)",
+     "b": "Locomotive:LT wheel tread rim 50 deep lead",
+     "static": 12.8,
+     "min_gap": -7.4,
+     "at_ch_m": 394.0,
+     "loss": 20.2
+    },
+    {
+     "a": "Locomotive:T1 decorative cylinder \u00d8380 (on front truck, LT18)",
+     "b": "Locomotive:LT wheel web 25 lead",
+     "static": 60.3,
+     "min_gap": 40.1,
+     "at_ch_m": 394.0,
+     "loss": 20.2
+    },
+    {
+     "a": "Locomotive:B main rail HSS12x6x3/8 (LT18: Y\u00b1240, Z1150-1454.8)",
+     "b": "Locomotive:T1 flange T1 \u00d81450 driver (spoked look; plate-web section proxy)",
+     "static": 111.0,
+     "min_gap": 86.5,
+     "at_ch_m": 256.0,
+     "loss": 24.5
+    },
+    {
+     "a": "Locomotive:B main rail HSS12x6x3/8 (LT18: Y\u00b1240, Z1150-1454.8)",
+     "b": "Locomotive:T2 flange T2 \u00d81450 driver (spoked look; plate-web section proxy)",
+     "static": 111.0,
+     "min_gap": 86.5,
+     "at_ch_m": 400.0,
+     "loss": 24.5
+    },
+    {
+     "a": "Locomotive:B main rail HSS12x6x3/8 (LT18: Y\u00b1240, Z1150-1454.8)",
+     "b": "Locomotive:T1 wheel tread rim 50 deep T1 \u00d81450 driver (spoked look; plate-web section proxy)",
+     "static": 111.0,
+     "min_gap": 86.9,
+     "at_ch_m": 256.0,
+     "loss": 24.1
+    },
+    {
+     "a": "Locomotive:B main rail HSS12x6x3/8 (LT18: Y\u00b1240, Z1150-1454.8)",
+     "b": "Locomotive:T2 wheel tread rim 50 deep T2 \u00d81450 driver (spoked look; plate-web section proxy)",
+     "static": 111.0,
+     "min_gap": 86.9,
+     "at_ch_m": 400.0,
+     "loss": 24.1
+    },
+    {
+     "a": "Locomotive:T1 decorative cylinder \u00d8380 (on front truck, LT18)",
+     "b": "Locomotive:LT flange lead",
+     "static": 107.8,
+     "min_gap": 87.6,
+     "at_ch_m": 394.0,
+     "loss": 20.2
+    },
+    {
+     "a": "Locomotive:B loco rear drop drawbar box PL16",
+     "b": "Tender:B tender front drop drawbar box PL16",
+     "static": 350.0,
+     "min_gap": 326.9,
+     "at_ch_m": 291.0,
+     "loss": 23.1
+    }
+   ],
+   "inter_vehicle": [
+    {
+     "a": "Locomotive:B loco rear drop drawbar box PL16",
+     "b": "Tender:B tender front drop drawbar box PL16",
+     "static": 350.0,
+     "min_gap": 326.9,
+     "at_ch_m": 291.0,
+     "loss": 23.1
+    },
+    {
+     "a": "Locomotive:B loco rear pocket top plate PL20",
+     "b": "Tender:B tender front drop drawbar box PL16",
+     "static": 390.0,
+     "min_gap": 366.8,
+     "at_ch_m": 291.0,
+     "loss": 23.2
+    },
+    {
+     "a": "Locomotive:B loco rear pocket bottom plate PL20",
+     "b": "Tender:B tender front drop drawbar box PL16",
+     "static": 390.0,
+     "min_gap": 366.8,
+     "at_ch_m": 291.0,
+     "loss": 23.2
+    },
+    {
+     "a": "Locomotive:B loco rear drop drawbar box PL16",
+     "b": "Tender:B tender front pocket top plate PL20",
+     "static": 540.0,
+     "min_gap": 516.9,
+     "at_ch_m": 291.0,
+     "loss": 23.1
+    }
+   ],
+   "secs": 58.9,
+   "spec": [
+    [
+     "T",
+     100
+    ],
+    [
+     "C",
+     100,
+     90,
+     "L"
+    ],
+    [
+     "T",
+     25.66
+    ],
+    [
+     "C",
+     100,
+     90,
+     "R"
+    ],
+    [
+     "T",
+     60
+    ]
+   ]
+  },
+  "S_R100_T0.0": {
+   "name": "S_R100_T0.0",
+   "res": {
+    "Locomotive": {
+     "out": 1581.8059753872521,
+     "inn": 1560.2118095120748,
+     "low_out": 1425.9802840097068,
+     "low_inn": 1405.8873267399629,
+     "out_nm": "cab roof 3 mm skin on HSS3x2x1/8 purlins @600 (3 in deep, adopted R2)",
+     "inn_nm": "cab roof 3 mm skin on HSS3x2x1/8 purlins @600 (3 in deep, adopted R2)"
+    },
+    "Tender": {
+     "out": 1382.8699685551658,
+     "inn": 1377.850309312635,
+     "low_out": 1340.8781116775353,
+     "low_inn": 1337.2791256753292,
+     "out_nm": "tender flat roof 10 ga (3.4 mm) on HSS2x2x1/8 bows @500 (sealed)",
+     "inn_nm": "tender roof bow HSS2x2x1/8 @500"
+    },
+    "Coach 1": {
+     "out": 1586.528904740701,
+     "inn": 1574.6894526107428,
+     "low_out": 1502.1304346847087,
+     "low_inn": 1481.8633618075535,
+     "out_nm": "roof eave",
+     "inn_nm": "roof eave"
+    },
+    "Coach 2": {
+     "out": 1586.5290558553722,
+     "inn": 1573.4786251754504,
+     "low_out": 1502.1305911269335,
+     "low_inn": 1479.6804302668238,
+     "out_nm": "roof eave",
+     "inn_nm": "roof eave"
+    },
+    "Coach 3": {
+     "out": 1586.5283125264611,
+     "inn": 1572.2533547422272,
+     "low_out": 1502.1305950031642,
+     "low_inn": 1477.550288560592,
+     "out_nm": "roof eave",
+     "inn_nm": "roof eave"
+    },
+    "Coach 4 (acc)": {
+     "out": 1586.528654776372,
+     "inn": 1570.270380358235,
+     "low_out": 1502.1310524029427,
+     "low_inn": 1474.262998969645,
+     "out_nm": "roof eave",
+     "inn_nm": "roof eave"
+    }
+   },
+   "cpl": [
+    {
+     "a_front": 14.526011593924233,
+     "a_rear": 12.819993813900455,
+     "body": 5.019975501203172
+    },
+    {
+     "a_front": 6.307255698974519,
+     "a_rear": 7.89026203773845,
+     "body": 5.241137938965481
+    },
+    {
+     "a_front": 10.759572963363242,
+     "a_rear": 10.750345158510477,
+     "body": 6.776089764036874
+    },
+    {
+     "a_front": 10.771983717059044,
+     "a_rear": 10.706811923510426,
+     "body": 6.7760897688135024
+    },
+    {
+     "a_front": 10.766148985280076,
+     "a_rear": 10.718335371425898,
+     "body": 6.776089768593609
+    }
+   ],
+   "lead": {
+    "swing": 71.62576454700066,
+    "arm_angle": 1.8286881754363065
+   },
+   "yaw": {
+    "Locomotive T1": 0.9168024492005837,
+    "Locomotive T2": 0.9168029341917193,
+    "Tender T1": 0.7448827954212214,
+    "Tender T2": 0.7448828538617915,
+    "Coach 1 T1": 1.571874808405821,
+    "Coach 1 T2": 1.5718747799973702,
+    "Coach 2 T1": 1.571863056112409,
+    "Coach 2 T2": 1.571874824392941,
+    "Coach 3 T1": 1.5718749105958179,
+    "Coach 3 T2": 1.571874793407631,
+    "Coach 4 (acc) T1": 1.5718669715601978,
+    "Coach 4 (acc) T2": 1.5718748375140184
+   },
+   "cyl_gap": 9.981755904625288,
+   "cyl_gap_790": 47.536366133299026,
+   "interf": [
+    {
+     "a": "Locomotive:T1 decorative cylinder \u00d8380 (on front truck, LT18)",
+     "b": "Locomotive:LT wheel tread rim 50 deep lead",
+     "static": 12.8,
+     "min_gap": -7.4,
+     "at_ch_m": 292.0,
+     "loss": 20.2
+    },
+    {
+     "a": "Locomotive:T1 decorative cylinder \u00d8380 (on front truck, LT18)",
+     "b": "Locomotive:LT wheel web 25 lead",
+     "static": 60.3,
+     "min_gap": 40.1,
+     "at_ch_m": 292.0,
+     "loss": 20.2
+    },
+    {
+     "a": "Locomotive:B main rail HSS12x6x3/8 (LT18: Y\u00b1240, Z1150-1454.8)",
+     "b": "Locomotive:T1 flange T1 \u00d81450 driver (spoked look; plate-web section proxy)",
+     "static": 111.0,
+     "min_gap": 86.5,
+     "at_ch_m": 256.0,
+     "loss": 24.5
+    },
+    {
+     "a": "Locomotive:B main rail HSS12x6x3/8 (LT18: Y\u00b1240, Z1150-1454.8)",
+     "b": "Locomotive:T2 flange T2 \u00d81450 driver (spoked look; plate-web section proxy)",
+     "static": 111.0,
+     "min_gap": 86.5,
+     "at_ch_m": 297.0,
+     "loss": 24.5
+    },
+    {
+     "a": "Locomotive:B main rail HSS12x6x3/8 (LT18: Y\u00b1240, Z1150-1454.8)",
+     "b": "Locomotive:T1 wheel tread rim 50 deep T1 \u00d81450 driver (spoked look; plate-web section proxy)",
+     "static": 111.0,
+     "min_gap": 86.9,
+     "at_ch_m": 256.0,
+     "loss": 24.1
+    },
+    {
+     "a": "Locomotive:B main rail HSS12x6x3/8 (LT18: Y\u00b1240, Z1150-1454.8)",
+     "b": "Locomotive:T2 wheel tread rim 50 deep T2 \u00d81450 driver (spoked look; plate-web section proxy)",
+     "static": 111.0,
+     "min_gap": 86.9,
+     "at_ch_m": 297.0,
+     "loss": 24.1
+    },
+    {
+     "a": "Locomotive:T1 decorative cylinder \u00d8380 (on front truck, LT18)",
+     "b": "Locomotive:LT flange lead",
+     "static": 107.8,
+     "min_gap": 87.6,
+     "at_ch_m": 292.0,
+     "loss": 20.2
+    },
+    {
+     "a": "Locomotive:B loco rear drop drawbar box PL16",
+     "b": "Tender:B tender front drop drawbar box PL16",
+     "static": 350.0,
+     "min_gap": 324.0,
+     "at_ch_m": 265.0,
+     "loss": 26.0
+    }
+   ],
+   "inter_vehicle": [
+    {
+     "a": "Locomotive:B loco rear drop drawbar box PL16",
+     "b": "Tender:B tender front drop drawbar box PL16",
+     "static": 350.0,
+     "min_gap": 324.0,
+     "at_ch_m": 265.0,
+     "loss": 26.0
+    },
+    {
+     "a": "Locomotive:B loco rear pocket top plate PL20",
+     "b": "Tender:B tender front drop drawbar box PL16",
+     "static": 390.0,
+     "min_gap": 363.9,
+     "at_ch_m": 225.0,
+     "loss": 26.1
+    },
+    {
+     "a": "Locomotive:B loco rear pocket bottom plate PL20",
+     "b": "Tender:B tender front drop drawbar box PL16",
+     "static": 390.0,
+     "min_gap": 363.9,
+     "at_ch_m": 225.0,
+     "loss": 26.1
+    },
+    {
+     "a": "Locomotive:B loco rear drop drawbar box PL16",
+     "b": "Tender:B tender front pocket top plate PL20",
+     "static": 540.0,
+     "min_gap": 514.0,
+     "at_ch_m": 265.0,
+     "loss": 26.0
+    }
+   ],
+   "secs": 57.6,
+   "spec": [
+    [
+     "T",
+     100
+    ],
+    [
+     "C",
+     100,
+     90,
+     "L"
+    ],
+    [
+     "T",
+     0.0
+    ],
+    [
+     "C",
+     100,
+     90,
+     "R"
+    ],
+    [
+     "T",
+     60
+    ]
+   ]
+  },
+  "S_R50_T0.0": {
+   "name": "S_R50_T0.0",
+   "res": {
+    "Locomotive": {
+     "out": 1691.7341799938374,
+     "inn": 1646.3124440000156,
+     "low_out": 1524.1895856536264,
+     "low_inn": 1481.7876094334918,
+     "out_nm": "cab roof 3 mm skin on HSS3x2x1/8 purlins @600 (3 in deep, adopted R2)",
+     "inn_nm": "cab roof 3 mm skin on HSS3x2x1/8 purlins @600 (3 in deep, adopted R2)"
+    },
+    "Tender": {
+     "out": 1393.8139507189294,
+     "inn": 1387.8831821939718,
+     "low_out": 1353.9018522699146,
+     "low_inn": 1347.5304020890612,
+     "out_nm": "tender flat roof 10 ga (3.4 mm) on HSS2x2x1/8 bows @500 (sealed)",
+     "inn_nm": "tender roof bow HSS2x2x1/8 @500"
+    },
+    "Coach 1": {
+     "out": 1628.0087894437509,
+     "inn": 1604.4875990154455,
+     "low_out": 1586.2425685872463,
+     "low_inn": 1545.2004892253601,
+     "out_nm": "roof eave",
+     "inn_nm": "roof eave"
+    },
+    "Coach 2": {
+     "out": 1628.0073590466409,
+     "inn": 1601.8792600968486,
+     "low_out": 1586.2425006150063,
+     "low_inn": 1540.7289124308186,
+     "out_nm": "roof eave",
+     "inn_nm": "roof eave"
+    },
+    "Coach 3": {
+     "out": 1628.0082021809797,
+     "inn": 1599.1720709851306,
+     "low_out": 1586.235516245422,
+     "low_inn": 1536.1638069674705,
+     "out_nm": "roof eave",
+     "inn_nm": "roof eave"
+    },
+    "Coach 4 (acc)": {
+     "out": 1628.0082771066202,
+     "inn": 1595.599142965145,
+     "low_out": 1586.2398460507836,
+     "low_inn": 1530.00204389299,
+     "out_nm": "roof eave",
+     "inn_nm": "roof eave"
+    }
+   },
+   "cpl": [
+    {
+     "a_front": 29.302532278634004,
+     "a_rear": 25.785517036731477,
+     "body": 9.993367456813491
+    },
+    {
+     "a_front": 12.697871142767967,
+     "a_rear": 15.706211192415338,
+     "body": 10.463318469331309
+    },
+    {
+     "a_front": 21.48110568548168,
+     "a_rear": 21.607238245137896,
+     "body": 13.52970095489026
+    },
+    {
+     "a_front": 21.52387894503404,
+     "a_rear": 21.61663736335436,
+     "body": 13.52970095993888
+    },
+    {
+     "a_front": 21.599971957744426,
+     "a_rear": 21.576935554418952,
+     "body": 13.529700958107968
+    }
+   ],
+   "lead": {
+    "swing": 142.88123267772832,
+    "arm_angle": 3.8221200325882116
+   },
+   "yaw": {
+    "Locomotive T1": 1.8340048853145146,
+    "Locomotive T2": 1.833998561208044,
+    "Tender T1": 1.4899702429206436,
+    "Tender T2": 1.4899705213039909,
+    "Coach 1 T1": 3.145097586789844,
+    "Coach 1 T2": 3.1450763231005396,
+    "Coach 2 T1": 3.145097540461138,
+    "Coach 2 T2": 3.14509771743161,
+    "Coach 3 T1": 3.145095897458308,
+    "Coach 3 T2": 3.1450977145599603,
+    "Coach 4 (acc) T1": 3.145097348503818,
+    "Coach 4 (acc) T2": 3.145097492617759
+   },
+   "cyl_gap": -5.6112025503227585,
+   "cyl_gap_790": 31.528666033625655,
+   "interf": [
+    {
+     "a": "Locomotive:T1 decorative cylinder \u00d8380 (on front truck, LT18)",
+     "b": "Locomotive:LT wheel tread rim 50 deep lead",
+     "static": 12.8,
+     "min_gap": -28.0,
+     "at_ch_m": 254.0,
+     "loss": 40.8
+    },
+    {
+     "a": "Locomotive:T1 decorative cylinder \u00d8380 (on front truck, LT18)",
+     "b": "Locomotive:LT wheel web 25 lead",
+     "static": 60.3,
+     "min_gap": 19.5,
+     "at_ch_m": 254.0,
+     "loss": 40.8
+    },
+    {
+     "a": "Locomotive:B main rail HSS12x6x3/8 (LT18: Y\u00b1240, Z1150-1454.8)",
+     "b": "Locomotive:T1 flange T1 \u00d81450 driver (spoked look; plate-web section proxy)",
+     "static": 111.0,
+     "min_gap": 62.0,
+     "at_ch_m": 177.0,
+     "loss": 49.0
+    },
+    {
+     "a": "Locomotive:B main rail HSS12x6x3/8 (LT18: Y\u00b1240, Z1150-1454.8)",
+     "b": "Locomotive:T2 flange T2 \u00d81450 driver (spoked look; plate-web section proxy)",
+     "static": 111.0,
+     "min_gap": 62.0,
+     "at_ch_m": 183.0,
+     "loss": 49.0
+    },
+    {
+     "a": "Locomotive:B main rail HSS12x6x3/8 (LT18: Y\u00b1240, Z1150-1454.8)",
+     "b": "Locomotive:T1 wheel tread rim 50 deep T1 \u00d81450 driver (spoked look; plate-web section proxy)",
+     "static": 111.0,
+     "min_gap": 62.8,
+     "at_ch_m": 177.0,
+     "loss": 48.2
+    },
+    {
+     "a": "Locomotive:B main rail HSS12x6x3/8 (LT18: Y\u00b1240, Z1150-1454.8)",
+     "b": "Locomotive:T2 wheel tread rim 50 deep T2 \u00d81450 driver (spoked look; plate-web section proxy)",
+     "static": 111.0,
+     "min_gap": 62.8,
+     "at_ch_m": 183.0,
+     "loss": 48.2
+    },
+    {
+     "a": "Locomotive:T1 decorative cylinder \u00d8380 (on front truck, LT18)",
+     "b": "Locomotive:LT flange lead",
+     "static": 107.8,
+     "min_gap": 67.0,
+     "at_ch_m": 254.0,
+     "loss": 40.8
+    },
+    {
+     "a": "Locomotive:B loco rear drop drawbar box PL16",
+     "b": "Tender:B tender front drop drawbar box PL16",
+     "static": 350.0,
+     "min_gap": 258.5,
+     "at_ch_m": 186.0,
+     "loss": 91.5
+    }
+   ],
+   "inter_vehicle": [
+    {
+     "a": "Locomotive:B loco rear drop drawbar box PL16",
+     "b": "Tender:B tender front drop drawbar box PL16",
+     "static": 350.0,
+     "min_gap": 258.5,
+     "at_ch_m": 186.0,
+     "loss": 91.5
+    },
+    {
+     "a": "Locomotive:B loco rear pocket top plate PL20",
+     "b": "Tender:B tender front drop drawbar box PL16",
+     "static": 390.0,
+     "min_gap": 298.4,
+     "at_ch_m": 186.0,
+     "loss": 91.6
+    },
+    {
+     "a": "Locomotive:B loco rear pocket bottom plate PL20",
+     "b": "Tender:B tender front drop drawbar box PL16",
+     "static": 390.0,
+     "min_gap": 298.4,
+     "at_ch_m": 186.0,
+     "loss": 91.6
+    },
+    {
+     "a": "Locomotive:B loco rear drop drawbar box PL16",
+     "b": "Tender:B tender front pocket top plate PL20",
+     "static": 540.0,
+     "min_gap": 448.5,
+     "at_ch_m": 186.0,
+     "loss": 91.5
+    }
+   ],
+   "secs": 34.1,
+   "spec": [
+    [
+     "T",
+     100
+    ],
+    [
+     "C",
+     50,
+     90,
+     "L"
+    ],
+    [
+     "T",
+     0.0
+    ],
+    [
+     "C",
+     50,
+     90,
+     "R"
+    ],
+    [
+     "T",
+     60
+    ]
+   ]
+  },
+  "S_R50_T5.0": {
+   "name": "S_R50_T5.0",
+   "res": {
+    "Locomotive": {
+     "out": 1691.7341799938374,
+     "inn": 1646.31244400004,
+     "low_out": 1524.189585653617,
+     "low_inn": 1481.7876094335159,
+     "out_nm": "cab roof 3 mm skin on HSS3x2x1/8 purlins @600 (3 in deep, adopted R2)",
+     "inn_nm": "cab roof 3 mm skin on HSS3x2x1/8 purlins @600 (3 in deep, adopted R2)"
+    },
+    "Tender": {
+     "out": 1393.8139507189294,
+     "inn": 1387.882754732294,
+     "low_out": 1353.9018522699146,
+     "low_inn": 1347.5304020890612,
+     "out_nm": "tender flat roof 10 ga (3.4 mm) on HSS2x2x1/8 bows @500 (sealed)",
+     "inn_nm": "tender roof bow HSS2x2x1/8 @500"
+    },
+    "Coach 1": {
+     "out": 1628.0051347089372,
+     "inn": 1604.4875990154694,
+     "low_out": 1586.2425685872527,
+     "low_inn": 1545.2004892253656,
+     "out_nm": "roof eave",
+     "inn_nm": "roof eave"
+    },
+    "Coach 2": {
+     "out": 1628.0083413028717,
+     "inn": 1601.8792600968584,
+     "low_out": 1586.2425006149767,
+     "low_inn": 1540.7289124308277,
+     "out_nm": "roof eave",
+     "inn_nm": "roof eave"
+    },
+    "Coach 3": {
+     "out": 1628.0040394914165,
+     "inn": 1601.8859051128368,
+     "low_out": 1586.2400232139566,
+     "low_inn": 1540.7370376205229,
+     "out_nm": "roof eave",
+     "inn_nm": "roof eave"
+    },
+    "Coach 4 (acc)": {
+     "out": 1628.0082771066195,
+     "inn": 1604.712086289407,
+     "low_out": 1586.2387235772119,
+     "low_inn": 1545.7481953874094,
+     "out_nm": "roof eave",
+     "inn_nm": "roof eave"
+    }
+   },
+   "cpl": [
+    {
+     "a_front": 26.18476402855975,
+     "a_rear": 19.52910510280688,
+     "body": 9.993367456813491
+    },
+    {
+     "a_front": 8.020376488502011,
+     "a_rear": 14.134596582498686,
+     "body": 10.46331857969259
+    },
+    {
+     "a_front": 16.761060249065945,
+     "a_rear": 16.829529854598885,
+     "body": 13.529700959770251
+    },
+    {
+     "a_front": 16.82574403970616,
+     "a_rear": 16.855365835389033,
+     "body": 13.529700959736953
+    },
+    {
+     "a_front": 16.855069555848893,
+     "a_rear": 16.851523016535527,
+     "body": 13.529700958107968
+    }
+   ],
+   "lead": {
+    "swing": 142.8812326777099,
+    "arm_angle": 3.354535323406724
+   },
+   "yaw": {
+    "Locomotive T1": 1.8340048853145146,
+    "Locomotive T2": 1.833998561208044,
+    "Tender T1": 1.4899702429210884,
+    "Tender T2": 1.4899701854784868,
+    "Coach 1 T1": 3.1450976930010137,
+    "Coach 1 T2": 3.1450948753690415,
+    "Coach 2 T1": 3.1450975404614945,
+    "Coach 2 T2": 3.14509771743161,
+    "Coach 3 T1": 3.14509703196243,
+    "Coach 3 T2": 3.1450977145600496,
+    "Coach 4 (acc) T1": 3.1450951372160834,
+    "Coach 4 (acc) T2": 3.1450972711831655
+   },
+   "cyl_gap": -5.6112025503227585,
+   "cyl_gap_790": 31.528666033625655,
+   "interf": [
+    {
+     "a": "Locomotive:T1 decorative cylinder \u00d8380 (on front truck, LT18)",
+     "b": "Locomotive:LT wheel tread rim 50 deep lead",
+     "static": 12.8,
+     "min_gap": -28.0,
+     "at_ch_m": 259.0,
+     "loss": 40.8
+    },
+    {
+     "a": "Locomotive:T1 decorative cylinder \u00d8380 (on front truck, LT18)",
+     "b": "Locomotive:LT wheel web 25 lead",
+     "static": 60.3,
+     "min_gap": 19.5,
+     "at_ch_m": 259.0,
+     "loss": 40.8
+    },
+    {
+     "a": "Locomotive:B main rail HSS12x6x3/8 (LT18: Y\u00b1240, Z1150-1454.8)",
+     "b": "Locomotive:T1 flange T1 \u00d81450 driver (spoked look; plate-web section proxy)",
+     "static": 111.0,
+     "min_gap": 62.0,
+     "at_ch_m": 177.0,
+     "loss": 49.0
+    },
+    {
+     "a": "Locomotive:B main rail HSS12x6x3/8 (LT18: Y\u00b1240, Z1150-1454.8)",
+     "b": "Locomotive:T2 flange T2 \u00d81450 driver (spoked look; plate-web section proxy)",
+     "static": 111.0,
+     "min_gap": 62.0,
+     "at_ch_m": 188.0,
+     "loss": 49.0
+    },
+    {
+     "a": "Locomotive:B main rail HSS12x6x3/8 (LT18: Y\u00b1240, Z1150-1454.8)",
+     "b": "Locomotive:T1 wheel tread rim 50 deep T1 \u00d81450 driver (spoked look; plate-web section proxy)",
+     "static": 111.0,
+     "min_gap": 62.8,
+     "at_ch_m": 177.0,
+     "loss": 48.2
+    },
+    {
+     "a": "Locomotive:B main rail HSS12x6x3/8 (LT18: Y\u00b1240, Z1150-1454.8)",
+     "b": "Locomotive:T2 wheel tread rim 50 deep T2 \u00d81450 driver (spoked look; plate-web section proxy)",
+     "static": 111.0,
+     "min_gap": 62.8,
+     "at_ch_m": 188.0,
+     "loss": 48.2
+    },
+    {
+     "a": "Locomotive:T1 decorative cylinder \u00d8380 (on front truck, LT18)",
+     "b": "Locomotive:LT flange lead",
+     "static": 107.8,
+     "min_gap": 67.0,
+     "at_ch_m": 259.0,
+     "loss": 40.8
+    },
+    {
+     "a": "Locomotive:B loco rear drop drawbar box PL16",
+     "b": "Tender:B tender front drop drawbar box PL16",
+     "static": 350.0,
+     "min_gap": 282.2,
+     "at_ch_m": 191.0,
+     "loss": 67.8
+    }
+   ],
+   "inter_vehicle": [
+    {
+     "a": "Locomotive:B loco rear drop drawbar box PL16",
+     "b": "Tender:B tender front drop drawbar box PL16",
+     "static": 350.0,
+     "min_gap": 282.2,
+     "at_ch_m": 191.0,
+     "loss": 67.8
+    },
+    {
+     "a": "Locomotive:B loco rear pocket top plate PL20",
+     "b": "Tender:B tender front drop drawbar box PL16",
+     "static": 390.0,
+     "min_gap": 321.9,
+     "at_ch_m": 191.0,
+     "loss": 68.1
+    },
+    {
+     "a": "Locomotive:B loco rear pocket bottom plate PL20",
+     "b": "Tender:B tender front drop drawbar box PL16",
+     "static": 390.0,
+     "min_gap": 321.9,
+     "at_ch_m": 191.0,
+     "loss": 68.1
+    },
+    {
+     "a": "Locomotive:B loco rear drop drawbar box PL16",
+     "b": "Tender:B tender front pocket top plate PL20",
+     "static": 540.0,
+     "min_gap": 472.2,
+     "at_ch_m": 191.0,
+     "loss": 67.8
+    }
+   ],
+   "secs": 34.8,
+   "spec": [
+    [
+     "T",
+     100
+    ],
+    [
+     "C",
+     50,
+     90,
+     "L"
+    ],
+    [
+     "T",
+     5.0
+    ],
+    [
+     "C",
+     50,
+     90,
+     "R"
+    ],
+    [
+     "T",
+     60
+    ]
+   ]
+  },
+  "S_R50_T10.0": {
+   "name": "S_R50_T10.0",
+   "res": {
+    "Locomotive": {
+     "out": 1691.7341799938374,
+     "inn": 1646.3124440000202,
+     "low_out": 1524.1895856535932,
+     "low_inn": 1481.7876094334965,
+     "out_nm": "cab roof 3 mm skin on HSS3x2x1/8 purlins @600 (3 in deep, adopted R2)",
+     "inn_nm": "cab roof 3 mm skin on HSS3x2x1/8 purlins @600 (3 in deep, adopted R2)"
+    },
+    "Tender": {
+     "out": 1393.8139507189294,
+     "inn": 1387.882754732294,
+     "low_out": 1353.9018522699146,
+     "low_inn": 1347.5304020890612,
+     "out_nm": "tender flat roof 10 ga (3.4 mm) on HSS2x2x1/8 bows @500 (sealed)",
+     "inn_nm": "tender roof bow HSS2x2x1/8 @500"
+    },
+    "Coach 1": {
+     "out": 1628.0051347089372,
+     "inn": 1604.4875990154471,
+     "low_out": 1586.242568587252,
+     "low_inn": 1545.2004892253633,
+     "out_nm": "roof eave",
+     "inn_nm": "roof eave"
+    },
+    "Coach 2": {
+     "out": 1628.0068174873236,
+     "inn": 1601.879260096853,
+     "low_out": 1586.2425006149733,
+     "low_inn": 1540.7289124308238,
+     "out_nm": "roof eave",
+     "inn_nm": "roof eave"
+    },
+    "Coach 3": {
+     "out": 1628.0060615581767,
+     "inn": 1601.8859051127886,
+     "low_out": 1586.236599736861,
+     "low_inn": 1540.7370376205051,
+     "out_nm": "roof eave",
+     "inn_nm": "roof eave"
+    },
+    "Coach 4 (acc)": {
+     "out": 1628.0086446119374,
+     "inn": 1604.7120862894092,
+     "low_out": 1586.2423255589497,
+     "low_inn": 1545.7481953874121,
+     "out_nm": "roof eave",
+     "inn_nm": "roof eave"
+    }
+   },
+   "cpl": [
+    {
+     "a_front": 26.18476402855975,
+     "a_rear": 19.52910510280688,
+     "body": 9.993367456813491
+    },
+    {
+     "a_front": 7.367231331188939,
+     "a_rear": 14.134596582498443,
+     "body": 10.463318579692169
+    },
+    {
+     "a_front": 14.135141326023234,
+     "a_rear": 14.127376741988122,
+     "body": 13.529700959770251
+    },
+    {
+     "a_front": 14.130561151885507,
+     "a_rear": 14.135088230585229,
+     "body": 13.52970095987632
+    },
+    {
+     "a_front": 14.122433396576085,
+     "a_rear": 14.117493580670116,
+     "body": 13.52970095992718
+    }
+   ],
+   "lead": {
+    "swing": 142.88123267773105,
+    "arm_angle": 3.354535323406724
+   },
+   "yaw": {
+    "Locomotive T1": 1.8340048853145146,
+    "Locomotive T2": 1.833998561208044,
+    "Tender T1": 1.4899702429204131,
+    "Tender T2": 1.4899701854784868,
+    "Coach 1 T1": 3.1450976930020427,
+    "Coach 1 T2": 3.1450948753690415,
+    "Coach 2 T1": 3.1450975404616606,
+    "Coach 2 T2": 3.14509771743161,
+    "Coach 3 T1": 3.1450942607050822,
+    "Coach 3 T2": 3.1450977145599603,
+    "Coach 4 (acc) T1": 3.1450951372160834,
+    "Coach 4 (acc) T2": 3.1450959646358183
+   },
+   "cyl_gap": -5.6112025503227585,
+   "cyl_gap_790": 31.528666033625655,
+   "interf": [
+    {
+     "a": "Locomotive:T1 decorative cylinder \u00d8380 (on front truck, LT18)",
+     "b": "Locomotive:LT wheel tread rim 50 deep lead",
+     "static": 12.8,
+     "min_gap": -28.0,
+     "at_ch_m": 264.0,
+     "loss": 40.8
+    },
+    {
+     "a": "Locomotive:T1 decorative cylinder \u00d8380 (on front truck, LT18)",
+     "b": "Locomotive:LT wheel web 25 lead",
+     "static": 60.3,
+     "min_gap": 19.5,
+     "at_ch_m": 264.0,
+     "loss": 40.8
+    },
+    {
+     "a": "Locomotive:B main rail HSS12x6x3/8 (LT18: Y\u00b1240, Z1150-1454.8)",
+     "b": "Locomotive:T1 flange T1 \u00d81450 driver (spoked look; plate-web section proxy)",
+     "static": 111.0,
+     "min_gap": 62.0,
+     "at_ch_m": 177.0,
+     "loss": 49.0
+    },
+    {
+     "a": "Locomotive:B main rail HSS12x6x3/8 (LT18: Y\u00b1240, Z1150-1454.8)",
+     "b": "Locomotive:T2 flange T2 \u00d81450 driver (spoked look; plate-web section proxy)",
+     "static": 111.0,
+     "min_gap": 62.0,
+     "at_ch_m": 193.0,
+     "loss": 49.0
+    },
+    {
+     "a": "Locomotive:B main rail HSS12x6x3/8 (LT18: Y\u00b1240, Z1150-1454.8)",
+     "b": "Locomotive:T1 wheel tread rim 50 deep T1 \u00d81450 driver (spoked look; plate-web section proxy)",
+     "static": 111.0,
+     "min_gap": 62.8,
+     "at_ch_m": 177.0,
+     "loss": 48.2
+    },
+    {
+     "a": "Locomotive:B main rail HSS12x6x3/8 (LT18: Y\u00b1240, Z1150-1454.8)",
+     "b": "Locomotive:T2 wheel tread rim 50 deep T2 \u00d81450 driver (spoked look; plate-web section proxy)",
+     "static": 111.0,
+     "min_gap": 62.8,
+     "at_ch_m": 193.0,
+     "loss": 48.2
+    },
+    {
+     "a": "Locomotive:T1 decorative cylinder \u00d8380 (on front truck, LT18)",
+     "b": "Locomotive:LT flange lead",
+     "static": 107.8,
+     "min_gap": 67.0,
+     "at_ch_m": 264.0,
+     "loss": 40.8
+    },
+    {
+     "a": "Locomotive:B loco rear drop drawbar box PL16",
+     "b": "Tender:B tender front drop drawbar box PL16",
+     "static": 350.0,
+     "min_gap": 282.2,
+     "at_ch_m": 196.0,
+     "loss": 67.8
+    }
+   ],
+   "inter_vehicle": [
+    {
+     "a": "Locomotive:B loco rear drop drawbar box PL16",
+     "b": "Tender:B tender front drop drawbar box PL16",
+     "static": 350.0,
+     "min_gap": 282.2,
+     "at_ch_m": 196.0,
+     "loss": 67.8
+    },
+    {
+     "a": "Locomotive:B loco rear pocket top plate PL20",
+     "b": "Tender:B tender front drop drawbar box PL16",
+     "static": 390.0,
+     "min_gap": 321.9,
+     "at_ch_m": 196.0,
+     "loss": 68.1
+    },
+    {
+     "a": "Locomotive:B loco rear pocket bottom plate PL20",
+     "b": "Tender:B tender front drop drawbar box PL16",
+     "static": 390.0,
+     "min_gap": 321.9,
+     "at_ch_m": 196.0,
+     "loss": 68.1
+    },
+    {
+     "a": "Locomotive:B loco rear drop drawbar box PL16",
+     "b": "Tender:B tender front pocket top plate PL20",
+     "static": 540.0,
+     "min_gap": 472.2,
+     "at_ch_m": 196.0,
+     "loss": 67.8
+    }
+   ],
+   "secs": 37.2,
+   "spec": [
+    [
+     "T",
+     100
+    ],
+    [
+     "C",
+     50,
+     90,
+     "L"
+    ],
+    [
+     "T",
+     10.0
+    ],
+    [
+     "C",
+     50,
+     90,
+     "R"
+    ],
+    [
+     "T",
+     60
+    ]
+   ]
+  },
+  "S_R50_T15.0": {
+   "name": "S_R50_T15.0",
+   "res": {
+    "Locomotive": {
+     "out": 1691.7341799938165,
+     "inn": 1646.3124440000042,
+     "low_out": 1524.1895856535727,
+     "low_inn": 1481.7876094334674,
+     "out_nm": "cab roof 3 mm skin on HSS3x2x1/8 purlins @600 (3 in deep, adopted R2)",
+     "inn_nm": "cab roof 3 mm skin on HSS3x2x1/8 purlins @600 (3 in deep, adopted R2)"
+    },
+    "Tender": {
+     "out": 1393.8139507189264,
+     "inn": 1387.8827547322933,
+     "low_out": 1353.9018522699146,
+     "low_inn": 1347.5304020890392,
+     "out_nm": "tender flat roof 10 ga (3.4 mm) on HSS2x2x1/8 bows @500 (sealed)",
+     "inn_nm": "tender roof bow HSS2x2x1/8 @500"
+    },
+    "Coach 1": {
+     "out": 1628.0051347089309,
+     "inn": 1604.4875990154546,
+     "low_out": 1586.2425685872538,
+     "low_inn": 1545.200489225356,
+     "out_nm": "roof eave",
+     "inn_nm": "roof eave"
+    },
+    "Coach 2": {
+     "out": 1628.0076020531444,
+     "inn": 1601.8792600968636,
+     "low_out": 1586.2425006149763,
+     "low_inn": 1540.7289124308097,
+     "out_nm": "roof eave",
+     "inn_nm": "roof eave"
+    },
+    "Coach 3": {
+     "out": 1628.0079150875313,
+     "inn": 1601.8859051127783,
+     "low_out": 1586.240656362092,
+     "low_inn": 1540.737037620498,
+     "out_nm": "roof eave",
+     "inn_nm": "roof eave"
+    },
+    "Coach 4 (acc)": {
+     "out": 1628.0082771066209,
+     "inn": 1604.71208628942,
+     "low_out": 1586.2393805959346,
+     "low_inn": 1545.748195387425,
+     "out_nm": "roof eave",
+     "inn_nm": "roof eave"
+    }
+   },
+   "cpl": [
+    {
+     "a_front": 26.18476402855975,
+     "a_rear": 19.529105102808845,
+     "body": 9.993367456813491
+    },
+    {
+     "a_front": 7.37083917184649,
+     "a_rear": 14.134596582498334,
+     "body": 10.463318579692523
+    },
+    {
+     "a_front": 14.135141326023101,
+     "a_rear": 14.12776741473381,
+     "body": 13.529700959770251
+    },
+    {
+     "a_front": 14.130561151885507,
+     "a_rear": 14.135354510142058,
+     "body": 13.529700959891992
+    },
+    {
+     "a_front": 14.12243339657595,
+     "a_rear": 14.120843647390048,
+     "body": 13.529700958687537
+    }
+   ],
+   "lead": {
+    "swing": 142.88123267772167,
+    "arm_angle": 3.354535323406724
+   },
+   "yaw": {
+    "Locomotive T1": 1.834004885314498,
+    "Locomotive T2": 1.833998561208044,
+    "Tender T1": 1.4899702429201833,
+    "Tender T2": 1.4899701854784886,
+    "Coach 1 T1": 3.145097693000861,
+    "Coach 1 T2": 3.1450948753690415,
+    "Coach 2 T1": 3.145097540461272,
+    "Coach 2 T2": 3.14509771743161,
+    "Coach 3 T1": 3.1450942607050254,
+    "Coach 3 T2": 3.145097714559406,
+    "Coach 4 (acc) T1": 3.1450968693142305,
+    "Coach 4 (acc) T2": 3.145095964636879
+   },
+   "cyl_gap": -5.6112025503227585,
+   "cyl_gap_790": 31.528666033625655,
+   "interf": [
+    {
+     "a": "Locomotive:T1 decorative cylinder \u00d8380 (on front truck, LT18)",
+     "b": "Locomotive:LT wheel tread rim 50 deep lead",
+     "static": 12.8,
+     "min_gap": -28.0,
+     "at_ch_m": 269.0,
+     "loss": 40.8
+    },
+    {
+     "a": "Locomotive:T1 decorative cylinder \u00d8380 (on front truck, LT18)",
+     "b": "Locomotive:LT wheel web 25 lead",
+     "static": 60.3,
+     "min_gap": 19.5,
+     "at_ch_m": 269.0,
+     "loss": 40.8
+    },
+    {
+     "a": "Locomotive:B main rail HSS12x6x3/8 (LT18: Y\u00b1240, Z1150-1454.8)",
+     "b": "Locomotive:T1 flange T1 \u00d81450 driver (spoked look; plate-web section proxy)",
+     "static": 111.0,
+     "min_gap": 62.0,
+     "at_ch_m": 177.0,
+     "loss": 49.0
+    },
+    {
+     "a": "Locomotive:B main rail HSS12x6x3/8 (LT18: Y\u00b1240, Z1150-1454.8)",
+     "b": "Locomotive:T2 flange T2 \u00d81450 driver (spoked look; plate-web section proxy)",
+     "static": 111.0,
+     "min_gap": 62.0,
+     "at_ch_m": 198.0,
+     "loss": 49.0
+    },
+    {
+     "a": "Locomotive:B main rail HSS12x6x3/8 (LT18: Y\u00b1240, Z1150-1454.8)",
+     "b": "Locomotive:T1 wheel tread rim 50 deep T1 \u00d81450 driver (spoked look; plate-web section proxy)",
+     "static": 111.0,
+     "min_gap": 62.8,
+     "at_ch_m": 177.0,
+     "loss": 48.2
+    },
+    {
+     "a": "Locomotive:B main rail HSS12x6x3/8 (LT18: Y\u00b1240, Z1150-1454.8)",
+     "b": "Locomotive:T2 wheel tread rim 50 deep T2 \u00d81450 driver (spoked look; plate-web section proxy)",
+     "static": 111.0,
+     "min_gap": 62.8,
+     "at_ch_m": 198.0,
+     "loss": 48.2
+    },
+    {
+     "a": "Locomotive:T1 decorative cylinder \u00d8380 (on front truck, LT18)",
+     "b": "Locomotive:LT flange lead",
+     "static": 107.8,
+     "min_gap": 67.0,
+     "at_ch_m": 269.0,
+     "loss": 40.8
+    },
+    {
+     "a": "Locomotive:B loco rear drop drawbar box PL16",
+     "b": "Tender:B tender front drop drawbar box PL16",
+     "static": 350.0,
+     "min_gap": 282.2,
+     "at_ch_m": 201.0,
+     "loss": 67.8
+    }
+   ],
+   "inter_vehicle": [
+    {
+     "a": "Locomotive:B loco rear drop drawbar box PL16",
+     "b": "Tender:B tender front drop drawbar box PL16",
+     "static": 350.0,
+     "min_gap": 282.2,
+     "at_ch_m": 201.0,
+     "loss": 67.8
+    },
+    {
+     "a": "Locomotive:B loco rear pocket top plate PL20",
+     "b": "Tender:B tender front drop drawbar box PL16",
+     "static": 390.0,
+     "min_gap": 321.9,
+     "at_ch_m": 201.0,
+     "loss": 68.1
+    },
+    {
+     "a": "Locomotive:B loco rear pocket bottom plate PL20",
+     "b": "Tender:B tender front drop drawbar box PL16",
+     "static": 390.0,
+     "min_gap": 321.9,
+     "at_ch_m": 201.0,
+     "loss": 68.1
+    },
+    {
+     "a": "Locomotive:B loco rear drop drawbar box PL16",
+     "b": "Tender:B tender front pocket top plate PL20",
+     "static": 540.0,
+     "min_gap": 472.2,
+     "at_ch_m": 201.0,
+     "loss": 67.8
+    }
+   ],
+   "secs": 39.2,
+   "spec": [
+    [
+     "T",
+     100
+    ],
+    [
+     "C",
+     50,
+     90,
+     "L"
+    ],
+    [
+     "T",
+     15.0
+    ],
+    [
+     "C",
+     50,
+     90,
+     "R"
+    ],
+    [
+     "T",
+     60
+    ]
+   ]
+  },
+  "S_R50_T20.0": {
+   "name": "S_R50_T20.0",
+   "res": {
+    "Locomotive": {
+     "out": 1691.7341799938165,
+     "inn": 1646.312444000032,
+     "low_out": 1524.1895856535773,
+     "low_inn": 1481.7876094334963,
+     "out_nm": "cab roof 3 mm skin on HSS3x2x1/8 purlins @600 (3 in deep, adopted R2)",
+     "inn_nm": "cab roof 3 mm skin on HSS3x2x1/8 purlins @600 (3 in deep, adopted R2)"
+    },
+    "Tender": {
+     "out": 1393.8139507189264,
+     "inn": 1387.8827547322933,
+     "low_out": 1353.9018522699146,
+     "low_inn": 1347.5304020890392,
+     "out_nm": "tender flat roof 10 ga (3.4 mm) on HSS2x2x1/8 bows @500 (sealed)",
+     "inn_nm": "tender roof bow HSS2x2x1/8 @500"
+    },
+    "Coach 1": {
+     "out": 1628.0051347089318,
+     "inn": 1604.4875990154296,
+     "low_out": 1586.2425685872463,
+     "low_inn": 1545.200489225349,
+     "out_nm": "roof eave",
+     "inn_nm": "roof eave"
+    },
+    "Coach 2": {
+     "out": 1628.0050858866907,
+     "inn": 1601.879260096862,
+     "low_out": 1586.2425006149792,
+     "low_inn": 1540.7289124308127,
+     "out_nm": "roof eave",
+     "inn_nm": "roof eave"
+    },
+    "Coach 3": {
+     "out": 1628.0081691275284,
+     "inn": 1601.8859051127977,
+     "low_out": 1586.2316008626005,
+     "low_inn": 1540.7370376205158,
+     "out_nm": "roof eave",
+     "inn_nm": "roof eave"
+    },
+    "Coach 4 (acc)": {
+     "out": 1628.0082771066213,
+     "inn": 1604.712086289418,
+     "low_out": 1586.2387235772062,
+     "low_inn": 1545.7481953874224,
+     "out_nm": "roof eave",
+     "inn_nm": "roof eave"
+    }
+   },
+   "cpl": [
+    {
+     "a_front": 26.18476402855975,
+     "a_rear": 19.529105102808845,
+     "body": 9.993367456813491
+    },
+    {
+     "a_front": 7.370839149786121,
+     "a_rear": 14.13459658249935,
+     "body": 10.463318579692523
+    },
+    {
+     "a_front": 14.135141326023101,
+     "a_rear": 14.124775114574566,
+     "body": 13.529700959770251
+    },
+    {
+     "a_front": 14.130561151885507,
+     "a_rear": 14.135145805004333,
+     "body": 13.529700959942868
+    },
+    {
+     "a_front": 14.12243339657595,
+     "a_rear": 14.122436854648747,
+     "body": 13.52970095884628
+    }
+   ],
+   "lead": {
+    "swing": 142.8812326777467,
+    "arm_angle": 3.3545353234067465
+   },
+   "yaw": {
+    "Locomotive T1": 1.834004885314498,
+    "Locomotive T2": 1.833998561208044,
+    "Tender T1": 1.4899702429208204,
+    "Tender T2": 1.4899701854784932,
+    "Coach 1 T1": 3.145097693002167,
+    "Coach 1 T2": 3.1450948753690415,
+    "Coach 2 T1": 3.145097540461027,
+    "Coach 2 T2": 3.14509771743161,
+    "Coach 3 T1": 3.1450942607050254,
+    "Coach 3 T2": 3.1450977145600687,
+    "Coach 4 (acc) T1": 3.145096941745426,
+    "Coach 4 (acc) T2": 3.1450976572163976
+   },
+   "cyl_gap": -5.611202550322645,
+   "cyl_gap_790": 31.52866603362577,
+   "interf": [
+    {
+     "a": "Locomotive:T1 decorative cylinder \u00d8380 (on front truck, LT18)",
+     "b": "Locomotive:LT wheel tread rim 50 deep lead",
+     "static": 12.8,
+     "min_gap": -28.0,
+     "at_ch_m": 274.0,
+     "loss": 40.8
+    },
+    {
+     "a": "Locomotive:T1 decorative cylinder \u00d8380 (on front truck, LT18)",
+     "b": "Locomotive:LT wheel web 25 lead",
+     "static": 60.3,
+     "min_gap": 19.5,
+     "at_ch_m": 274.0,
+     "loss": 40.8
+    },
+    {
+     "a": "Locomotive:B main rail HSS12x6x3/8 (LT18: Y\u00b1240, Z1150-1454.8)",
+     "b": "Locomotive:T1 flange T1 \u00d81450 driver (spoked look; plate-web section proxy)",
+     "static": 111.0,
+     "min_gap": 62.0,
+     "at_ch_m": 177.0,
+     "loss": 49.0
+    },
+    {
+     "a": "Locomotive:B main rail HSS12x6x3/8 (LT18: Y\u00b1240, Z1150-1454.8)",
+     "b": "Locomotive:T2 flange T2 \u00d81450 driver (spoked look; plate-web section proxy)",
+     "static": 111.0,
+     "min_gap": 62.0,
+     "at_ch_m": 203.0,
+     "loss": 49.0
+    },
+    {
+     "a": "Locomotive:B main rail HSS12x6x3/8 (LT18: Y\u00b1240, Z1150-1454.8)",
+     "b": "Locomotive:T1 wheel tread rim 50 deep T1 \u00d81450 driver (spoked look; plate-web section proxy)",
+     "static": 111.0,
+     "min_gap": 62.8,
+     "at_ch_m": 177.0,
+     "loss": 48.2
+    },
+    {
+     "a": "Locomotive:B main rail HSS12x6x3/8 (LT18: Y\u00b1240, Z1150-1454.8)",
+     "b": "Locomotive:T2 wheel tread rim 50 deep T2 \u00d81450 driver (spoked look; plate-web section proxy)",
+     "static": 111.0,
+     "min_gap": 62.8,
+     "at_ch_m": 203.0,
+     "loss": 48.2
+    },
+    {
+     "a": "Locomotive:T1 decorative cylinder \u00d8380 (on front truck, LT18)",
+     "b": "Locomotive:LT flange lead",
+     "static": 107.8,
+     "min_gap": 67.0,
+     "at_ch_m": 274.0,
+     "loss": 40.8
+    },
+    {
+     "a": "Locomotive:B loco rear drop drawbar box PL16",
+     "b": "Tender:B tender front drop drawbar box PL16",
+     "static": 350.0,
+     "min_gap": 282.2,
+     "at_ch_m": 206.0,
+     "loss": 67.8
+    }
+   ],
+   "inter_vehicle": [
+    {
+     "a": "Locomotive:B loco rear drop drawbar box PL16",
+     "b": "Tender:B tender front drop drawbar box PL16",
+     "static": 350.0,
+     "min_gap": 282.2,
+     "at_ch_m": 206.0,
+     "loss": 67.8
+    },
+    {
+     "a": "Locomotive:B loco rear pocket top plate PL20",
+     "b": "Tender:B tender front drop drawbar box PL16",
+     "static": 390.0,
+     "min_gap": 321.9,
+     "at_ch_m": 206.0,
+     "loss": 68.1
+    },
+    {
+     "a": "Locomotive:B loco rear pocket bottom plate PL20",
+     "b": "Tender:B tender front drop drawbar box PL16",
+     "static": 390.0,
+     "min_gap": 321.9,
+     "at_ch_m": 206.0,
+     "loss": 68.1
+    },
+    {
+     "a": "Locomotive:B loco rear drop drawbar box PL16",
+     "b": "Tender:B tender front pocket top plate PL20",
+     "static": 540.0,
+     "min_gap": 472.2,
+     "at_ch_m": 206.0,
+     "loss": 67.8
+    }
+   ],
+   "secs": 37.4,
+   "spec": [
+    [
+     "T",
+     100
+    ],
+    [
+     "C",
+     50,
+     90,
+     "L"
+    ],
+    [
+     "T",
+     20.0
+    ],
+    [
+     "C",
+     50,
+     90,
+     "R"
+    ],
+    [
+     "T",
+     60
+    ]
+   ]
+  },
+  "S_R50_T25.66": {
+   "name": "S_R50_T25.66",
+   "res": {
+    "Locomotive": {
+     "out": 1691.7346926933387,
+     "inn": 1631.057499991322,
+     "low_out": 1524.08216334663,
+     "low_inn": 1467.730355373722,
+     "out_nm": "cab roof 3 mm skin on HSS3x2x1/8 purlins @600 (3 in deep, adopted R2)",
+     "inn_nm": "cab roof 3 mm skin on HSS3x2x1/8 purlins @600 (3 in deep, adopted R2)"
+    },
+    "Tender": {
+     "out": 1393.824715083294,
+     "inn": 1387.8833264165614,
+     "low_out": 1353.9018522699146,
+     "low_inn": 1347.530676267135,
+     "out_nm": "tender flat roof 10 ga (3.4 mm) on HSS2x2x1/8 bows @500 (sealed)",
+     "inn_nm": "tender roof bow HSS2x2x1/8 @500"
+    },
+    "Coach 1": {
+     "out": 1628.0045060233679,
+     "inn": 1601.0809023715542,
+     "low_out": 1586.2301915636888,
+     "low_inn": 1539.3477713087668,
+     "out_nm": "roof eave",
+     "inn_nm": "roof eave"
+    },
+    "Coach 2": {
+     "out": 1628.001265704962,
+     "inn": 1604.0569088709321,
+     "low_out": 1586.2391468480291,
+     "low_inn": 1544.5690978901332,
+     "out_nm": "roof eave",
+     "inn_nm": "roof eave"
+    },
+    "Coach 3": {
+     "out": 1628.0081691275145,
+     "inn": 1608.818367919325,
+     "low_out": 1586.2386374764912,
+     "low_inn": 1552.9245009375452,
+     "out_nm": "roof eave",
+     "inn_nm": "roof eave"
+    },
+    "Coach 4 (acc)": {
+     "out": 1628.0082575931629,
+     "inn": 1609.390069333612,
+     "low_out": 1586.2420506540234,
+     "low_inn": 1553.946977360199,
+     "out_nm": "roof eave",
+     "inn_nm": "roof eave"
+    }
+   },
+   "cpl": [
+    {
+     "a_front": 26.212273322355504,
+     "a_rear": 19.529105102808845,
+     "body": 9.993367456813491
+    },
+    {
+     "a_front": 7.3766536013338,
+     "a_rear": 14.083506843865257,
+     "body": 10.463318579692523
+    },
+    {
+     "a_front": 14.135141326023101,
+     "a_rear": 14.119992600478925,
+     "body": 13.529700959770251
+    },
+    {
+     "a_front": 14.135041191985154,
+     "a_rear": 14.135051075915351,
+     "body": 13.52970095987281
+    },
+    {
+     "a_front": 14.13100209282579,
+     "a_rear": 14.133993359573468,
+     "body": 13.52970095994411
+    }
+   ],
+   "lead": {
+    "swing": 142.88008815328558,
+    "arm_angle": 3.3545353234067465
+   },
+   "yaw": {
+    "Locomotive T1": 1.834001634288981,
+    "Locomotive T2": 1.833998561208044,
+    "Tender T1": 1.489971808027208,
+    "Tender T2": 1.4899686339638742,
+    "Coach 1 T1": 3.145097693002167,
+    "Coach 1 T2": 3.1450948753690415,
+    "Coach 2 T1": 3.1450952159439933,
+    "Coach 2 T2": 3.14509771743161,
+    "Coach 3 T1": 3.145094945870137,
+    "Coach 3 T2": 3.1450956699802735,
+    "Coach 4 (acc) T1": 3.1450975507503807,
+    "Coach 4 (acc) T2": 3.145095050557311
+   },
+   "cyl_gap": -5.480298469381381,
+   "cyl_gap_790": 31.66349305966486,
+   "interf": [
+    {
+     "a": "Locomotive:T1 decorative cylinder \u00d8380 (on front truck, LT18)",
+     "b": "Locomotive:LT wheel tread rim 50 deep lead",
+     "static": 12.8,
+     "min_gap": -28.0,
+     "at_ch_m": 279.0,
+     "loss": 40.8
+    },
+    {
+     "a": "Locomotive:T1 decorative cylinder \u00d8380 (on front truck, LT18)",
+     "b": "Locomotive:LT wheel web 25 lead",
+     "static": 60.3,
+     "min_gap": 19.5,
+     "at_ch_m": 279.0,
+     "loss": 40.8
+    },
+    {
+     "a": "Locomotive:B main rail HSS12x6x3/8 (LT18: Y\u00b1240, Z1150-1454.8)",
+     "b": "Locomotive:T1 flange T1 \u00d81450 driver (spoked look; plate-web section proxy)",
+     "static": 111.0,
+     "min_gap": 62.0,
+     "at_ch_m": 177.0,
+     "loss": 49.0
+    },
+    {
+     "a": "Locomotive:B main rail HSS12x6x3/8 (LT18: Y\u00b1240, Z1150-1454.8)",
+     "b": "Locomotive:T2 flange T2 \u00d81450 driver (spoked look; plate-web section proxy)",
+     "static": 111.0,
+     "min_gap": 62.0,
+     "at_ch_m": 209.0,
+     "loss": 49.0
+    },
+    {
+     "a": "Locomotive:B main rail HSS12x6x3/8 (LT18: Y\u00b1240, Z1150-1454.8)",
+     "b": "Locomotive:T1 wheel tread rim 50 deep T1 \u00d81450 driver (spoked look; plate-web section proxy)",
+     "static": 111.0,
+     "min_gap": 62.8,
+     "at_ch_m": 177.0,
+     "loss": 48.2
+    },
+    {
+     "a": "Locomotive:B main rail HSS12x6x3/8 (LT18: Y\u00b1240, Z1150-1454.8)",
+     "b": "Locomotive:T2 wheel tread rim 50 deep T2 \u00d81450 driver (spoked look; plate-web section proxy)",
+     "static": 111.0,
+     "min_gap": 62.8,
+     "at_ch_m": 209.0,
+     "loss": 48.2
+    },
+    {
+     "a": "Locomotive:T1 decorative cylinder \u00d8380 (on front truck, LT18)",
+     "b": "Locomotive:LT flange lead",
+     "static": 107.8,
+     "min_gap": 67.0,
+     "at_ch_m": 279.0,
+     "loss": 40.8
+    },
+    {
+     "a": "Locomotive:B loco rear drop drawbar box PL16",
+     "b": "Tender:B tender front drop drawbar box PL16",
+     "static": 350.0,
+     "min_gap": 282.3,
+     "at_ch_m": 212.0,
+     "loss": 67.7
+    }
+   ],
+   "inter_vehicle": [
+    {
+     "a": "Locomotive:B loco rear drop drawbar box PL16",
+     "b": "Tender:B tender front drop drawbar box PL16",
+     "static": 350.0,
+     "min_gap": 282.3,
+     "at_ch_m": 212.0,
+     "loss": 67.7
+    },
+    {
+     "a": "Locomotive:B loco rear pocket top plate PL20",
+     "b": "Tender:B tender front drop drawbar box PL16",
+     "static": 390.0,
+     "min_gap": 322.0,
+     "at_ch_m": 212.0,
+     "loss": 68.0
+    },
+    {
+     "a": "Locomotive:B loco rear pocket bottom plate PL20",
+     "b": "Tender:B tender front drop drawbar box PL16",
+     "static": 390.0,
+     "min_gap": 322.0,
+     "at_ch_m": 212.0,
+     "loss": 68.0
+    },
+    {
+     "a": "Locomotive:B loco rear drop drawbar box PL16",
+     "b": "Tender:B tender front pocket top plate PL20",
+     "static": 540.0,
+     "min_gap": 472.3,
+     "at_ch_m": 212.0,
+     "loss": 67.7
+    }
+   ],
+   "secs": 39.0,
+   "spec": [
+    [
+     "T",
+     100
+    ],
+    [
+     "C",
+     50,
+     90,
+     "L"
+    ],
+    [
+     "T",
+     25.66
+    ],
+    [
+     "C",
+     50,
+     90,
+     "R"
+    ],
+    [
+     "T",
+     60
+    ]
+   ]
+  },
+  "S_R45_T15.93": {
+   "name": "S_R45_T15.93",
+   "res": {
+    "Locomotive": {
+     "out": 1715.637821929097,
+     "inn": 1674.792506265361,
+     "low_out": 1545.557783039703,
+     "low_inn": 1507.4318637451104,
+     "out_nm": "cab roof 3 mm skin on HSS3x2x1/8 purlins @600 (3 in deep, adopted R2)",
+     "inn_nm": "cab roof 3 mm skin on HSS3x2x1/8 purlins @600 (3 in deep, adopted R2)"
+    },
+    "Tender": {
+     "out": 1396.1896265380444,
+     "inn": 1390.1126872507045,
+     "low_out": 1356.7171124838292,
+     "low_inn": 1349.8079350714534,
+     "out_nm": "tender flat roof 10 ga (3.4 mm) on HSS2x2x1/8 bows @500 (sealed)",
+     "inn_nm": "tender roof bow HSS2x2x1/8 @500"
+    },
+    "Coach 1": {
+     "out": 1641.676352904464,
+     "inn": 1616.6440310388184,
+     "low_out": 1604.4385899228953,
+     "low_inn": 1569.196184670799,
+     "out_nm": "platform guard top rail 42 in",
+     "inn_nm": "roof eave"
+    },
+    "Coach 2": {
+     "out": 1641.6729963273983,
+     "inn": 1611.8893104845793,
+     "low_out": 1604.4352333458296,
+     "low_inn": 1560.5779076654933,
+     "out_nm": "platform guard top rail 42 in",
+     "inn_nm": "roof eave"
+    },
+    "Coach 3": {
+     "out": 1641.676578631903,
+     "inn": 1609.0326154223421,
+     "low_out": 1604.4388156503344,
+     "low_inn": 1555.8281595169003,
+     "out_nm": "platform guard top rail 42 in",
+     "inn_nm": "roof eave"
+    },
+    "Coach 4 (acc)": {
+     "out": 1641.6758141836444,
+     "inn": 1610.624469439681,
+     "low_out": 1604.4380512020757,
+     "low_inn": 1558.64147864186,
+     "out_nm": "platform guard top rail 42 in",
+     "inn_nm": "roof eave"
+    }
+   },
+   "cpl": [
+    {
+     "a_front": 29.165975113191557,
+     "a_rear": 21.789504958464683,
+     "body": 11.087486237558279
+    },
+    {
+     "a_front": 8.19796036402244,
+     "a_rear": 15.695297848217988,
+     "body": 11.619352253497631
+    },
+    {
+     "a_front": 15.702046948694404,
+     "a_rear": 15.702173308515698,
+     "body": 15.025234361760408
+    },
+    {
+     "a_front": 15.693174172447039,
+     "a_rear": 15.698940946598626,
+     "body": 15.025234365009188
+    },
+    {
+     "a_front": 15.680483780510608,
+     "a_rear": 15.700141198033915,
+     "body": 15.02523436500333
+    }
+   ],
+   "lead": {
+    "swing": 158.62752300180475,
+    "arm_angle": 3.711509782555944
+   },
+   "yaw": {
+    "Locomotive T1": 2.0379210118151185,
+    "Locomotive T2": 2.0379222947251674,
+    "Tender T1": 1.65560339974802,
+    "Tender T2": 1.655604664908469,
+    "Coach 1 T1": 3.4950222827560995,
+    "Coach 1 T2": 3.495022217093616,
+    "Coach 2 T1": 3.4950221534910333,
+    "Coach 2 T2": 3.495022493245359,
+    "Coach 3 T1": 3.4950197548388218,
+    "Coach 3 T2": 3.495021317186517,
+    "Coach 4 (acc) T1": 3.49502241582982,
+    "Coach 4 (acc) T2": 3.4950218532213366
+   },
+   "cyl_gap": -8.883611179643054,
+   "cyl_gap_790": 28.15541005278388,
+   "interf": [
+    {
+     "a": "Locomotive:T1 decorative cylinder \u00d8380 (on front truck, LT18)",
+     "b": "Locomotive:LT wheel tread rim 50 deep lead",
+     "static": 12.8,
+     "min_gap": -32.7,
+     "at_ch_m": 254.0,
+     "loss": 45.5
+    },
+    {
+     "a": "Locomotive:T1 decorative cylinder \u00d8380 (on front truck, LT18)",
+     "b": "Locomotive:LT wheel web 25 lead",
+     "static": 60.3,
+     "min_gap": 14.8,
+     "at_ch_m": 254.0,
+     "loss": 45.5
+    },
+    {
+     "a": "Locomotive:B main rail HSS12x6x3/8 (LT18: Y\u00b1240, Z1150-1454.8)",
+     "b": "Locomotive:T1 flange T1 \u00d81450 driver (spoked look; plate-web section proxy)",
+     "static": 111.0,
+     "min_gap": 56.5,
+     "at_ch_m": 169.0,
+     "loss": 54.5
+    },
+    {
+     "a": "Locomotive:B main rail HSS12x6x3/8 (LT18: Y\u00b1240, Z1150-1454.8)",
+     "b": "Locomotive:T2 flange T2 \u00d81450 driver (spoked look; plate-web section proxy)",
+     "static": 111.0,
+     "min_gap": 56.5,
+     "at_ch_m": 191.0,
+     "loss": 54.5
+    },
+    {
+     "a": "Locomotive:B main rail HSS12x6x3/8 (LT18: Y\u00b1240, Z1150-1454.8)",
+     "b": "Locomotive:T1 wheel tread rim 50 deep T1 \u00d81450 driver (spoked look; plate-web section proxy)",
+     "static": 111.0,
+     "min_gap": 57.4,
+     "at_ch_m": 169.0,
+     "loss": 53.6
+    },
+    {
+     "a": "Locomotive:B main rail HSS12x6x3/8 (LT18: Y\u00b1240, Z1150-1454.8)",
+     "b": "Locomotive:T2 wheel tread rim 50 deep T2 \u00d81450 driver (spoked look; plate-web section proxy)",
+     "static": 111.0,
+     "min_gap": 57.4,
+     "at_ch_m": 191.0,
+     "loss": 53.6
+    },
+    {
+     "a": "Locomotive:T1 decorative cylinder \u00d8380 (on front truck, LT18)",
+     "b": "Locomotive:LT flange lead",
+     "static": 107.8,
+     "min_gap": 62.3,
+     "at_ch_m": 254.0,
+     "loss": 45.5
+    },
+    {
+     "a": "Locomotive:B loco rear drop drawbar box PL16",
+     "b": "Tender:B tender front drop drawbar box PL16",
+     "static": 350.0,
+     "min_gap": 268.9,
+     "at_ch_m": 194.0,
+     "loss": 81.1
+    }
+   ],
+   "inter_vehicle": [
+    {
+     "a": "Locomotive:B loco rear drop drawbar box PL16",
+     "b": "Tender:B tender front drop drawbar box PL16",
+     "static": 350.0,
+     "min_gap": 268.9,
+     "at_ch_m": 194.0,
+     "loss": 81.1
+    },
+    {
+     "a": "Locomotive:B loco rear pocket top plate PL20",
+     "b": "Tender:B tender front drop drawbar box PL16",
+     "static": 390.0,
+     "min_gap": 308.6,
+     "at_ch_m": 194.0,
+     "loss": 81.4
+    },
+    {
+     "a": "Locomotive:B loco rear pocket bottom plate PL20",
+     "b": "Tender:B tender front drop drawbar box PL16",
+     "static": 390.0,
+     "min_gap": 308.6,
+     "at_ch_m": 194.0,
+     "loss": 81.4
+    },
+    {
+     "a": "Locomotive:B loco rear drop drawbar box PL16",
+     "b": "Tender:B tender front pocket top plate PL20",
+     "static": 540.0,
+     "min_gap": 458.9,
+     "at_ch_m": 194.0,
+     "loss": 81.1
+    }
+   ],
+   "secs": 34.0,
+   "spec": [
+    [
+     "T",
+     100
+    ],
+    [
+     "C",
+     45,
+     90,
+     "L"
+    ],
+    [
+     "T",
+     15.93
+    ],
+    [
+     "C",
+     45,
+     90,
+     "R"
+    ],
+    [
+     "T",
+     60
+    ]
+   ]
+  },
+  "B_R125_T15.93_R45": {
+   "name": "B_R125_T15.93_R45",
+   "res": {
+    "Locomotive": {
+     "out": 1715.550245326309,
+     "inn": 1649.6162711272905,
+     "low_out": 1545.5589143211644,
+     "low_inn": 1484.1777551456248,
+     "out_nm": "cab roof 3 mm skin on HSS3x2x1/8 purlins @600 (3 in deep, adopted R2)",
+     "inn_nm": "cab roof 3 mm skin on HSS3x2x1/8 purlins @600 (3 in deep, adopted R2)"
+    },
+    "Tender": {
+     "out": 1396.189652254735,
+     "inn": 1390.1124674787668,
+     "low_out": 1356.7174589563028,
+     "low_inn": 1349.8083168587887,
+     "out_nm": "tender flat roof 10 ga (3.4 mm) on HSS2x2x1/8 bows @500 (sealed)",
+     "inn_nm": "tender roof bow HSS2x2x1/8 @500"
+    },
+    "Coach 1": {
+     "out": 1641.6761567573017,
+     "inn": 1610.9128389543037,
+     "low_out": 1604.438393775733,
+     "low_inn": 1558.9882413528437,
+     "out_nm": "platform guard top rail 42 in",
+     "inn_nm": "roof eave"
+    },
+    "Coach 2": {
+     "out": 1641.676527401397,
+     "inn": 1614.1168706347485,
+     "low_out": 1604.4387644198282,
+     "low_inn": 1564.5435910946821,
+     "out_nm": "platform guard top rail 42 in",
+     "inn_nm": "roof eave"
+    },
+    "Coach 3": {
+     "out": 1641.6765744793456,
+     "inn": 1616.9661934850697,
+     "low_out": 1604.438811497777,
+     "low_inn": 1569.5711779696003,
+     "out_nm": "platform guard top rail 42 in",
+     "inn_nm": "roof eave"
+    },
+    "Coach 4 (acc)": {
+     "out": 1641.6761763966067,
+     "inn": 1613.515911544723,
+     "low_out": 1604.438413415038,
+     "low_inn": 1563.3888048321153,
+     "out_nm": "platform guard top rail 42 in",
+     "inn_nm": "roof eave"
+    }
+   },
+   "cpl": [
+    {
+     "a_front": 29.20105768285049,
+     "a_rear": 21.78951013292259,
+     "body": 11.087481481822193
+    },
+    {
+     "a_front": 8.194204166913845,
+     "a_rear": 15.70008799966475,
+     "body": 11.619360831567109
+    },
+    {
+     "a_front": 15.702030763193562,
+     "a_rear": 15.677863499035539,
+     "body": 15.02522824633868
+    },
+    {
+     "a_front": 15.697460922796436,
+     "a_rear": 15.665666450240108,
+     "body": 15.025228249612242
+    },
+    {
+     "a_front": 15.69800585696795,
+     "a_rear": 15.696345163849967,
+     "body": 15.025228250361804
+    }
+   ],
+   "lead": {
+    "swing": 158.62597454905764,
+    "arm_angle": 3.6781902987371167
+   },
+   "yaw": {
+    "Locomotive T1": 2.0379170733638152,
+    "Locomotive T2": 2.0379199873555165,
+    "Tender T1": 1.6555949889941328,
+    "Tender T2": 1.655595237566727,
+    "Coach 1 T1": 3.49502204604729,
+    "Coach 1 T2": 3.4950200748130995,
+    "Coach 2 T1": 3.4950193544872605,
+    "Coach 2 T2": 3.495018331209471,
+    "Coach 3 T1": 3.495021098181355,
+    "Coach 3 T2": 3.495018018356613,
+    "Coach 4 (acc) T1": 3.495022841862938,
+    "Coach 4 (acc) T2": 3.4950234539028733
+   },
+   "cyl_gap": -8.97819252275653,
+   "cyl_gap_790": 28.05783234269657,
+   "interf": [
+    {
+     "a": "Locomotive:T1 decorative cylinder \u00d8380 (on front truck, LT18)",
+     "b": "Locomotive:LT wheel tread rim 50 deep lead",
+     "static": 12.8,
+     "min_gap": -32.7,
+     "at_ch_m": 283.0,
+     "loss": 45.5
+    },
+    {
+     "a": "Locomotive:T1 decorative cylinder \u00d8380 (on front truck, LT18)",
+     "b": "Locomotive:LT wheel web 25 lead",
+     "static": 60.3,
+     "min_gap": 14.8,
+     "at_ch_m": 283.0,
+     "loss": 45.5
+    },
+    {
+     "a": "Locomotive:B main rail HSS12x6x3/8 (LT18: Y\u00b1240, Z1150-1454.8)",
+     "b": "Locomotive:T1 flange T1 \u00d81450 driver (spoked look; plate-web section proxy)",
+     "static": 111.0,
+     "min_gap": 56.5,
+     "at_ch_m": 283.0,
+     "loss": 54.5
+    },
+    {
+     "a": "Locomotive:B main rail HSS12x6x3/8 (LT18: Y\u00b1240, Z1150-1454.8)",
+     "b": "Locomotive:T2 flange T2 \u00d81450 driver (spoked look; plate-web section proxy)",
+     "static": 111.0,
+     "min_gap": 56.5,
+     "at_ch_m": 395.0,
+     "loss": 54.5
+    },
+    {
+     "a": "Locomotive:B main rail HSS12x6x3/8 (LT18: Y\u00b1240, Z1150-1454.8)",
+     "b": "Locomotive:T1 wheel tread rim 50 deep T1 \u00d81450 driver (spoked look; plate-web section proxy)",
+     "static": 111.0,
+     "min_gap": 57.4,
+     "at_ch_m": 283.0,
+     "loss": 53.6
+    },
+    {
+     "a": "Locomotive:B main rail HSS12x6x3/8 (LT18: Y\u00b1240, Z1150-1454.8)",
+     "b": "Locomotive:T2 wheel tread rim 50 deep T2 \u00d81450 driver (spoked look; plate-web section proxy)",
+     "static": 111.0,
+     "min_gap": 57.4,
+     "at_ch_m": 395.0,
+     "loss": 53.6
+    },
+    {
+     "a": "Locomotive:T1 decorative cylinder \u00d8380 (on front truck, LT18)",
+     "b": "Locomotive:LT flange lead",
+     "static": 107.8,
+     "min_gap": 62.3,
+     "at_ch_m": 283.0,
+     "loss": 45.5
+    },
+    {
+     "a": "Locomotive:B loco rear drop drawbar box PL16",
+     "b": "Tender:B tender front drop drawbar box PL16",
+     "static": 350.0,
+     "min_gap": 269.2,
+     "at_ch_m": 286.0,
+     "loss": 80.8
+    }
+   ],
+   "inter_vehicle": [
+    {
+     "a": "Locomotive:B loco rear drop drawbar box PL16",
+     "b": "Tender:B tender front drop drawbar box PL16",
+     "static": 350.0,
+     "min_gap": 269.2,
+     "at_ch_m": 286.0,
+     "loss": 80.8
+    },
+    {
+     "a": "Locomotive:B loco rear pocket top plate PL20",
+     "b": "Tender:B tender front drop drawbar box PL16",
+     "static": 390.0,
+     "min_gap": 308.8,
+     "at_ch_m": 286.0,
+     "loss": 81.2
+    },
+    {
+     "a": "Locomotive:B loco rear pocket bottom plate PL20",
+     "b": "Tender:B tender front drop drawbar box PL16",
+     "static": 390.0,
+     "min_gap": 308.8,
+     "at_ch_m": 286.0,
+     "loss": 81.2
+    },
+    {
+     "a": "Locomotive:B loco rear drop drawbar box PL16",
+     "b": "Tender:B tender front pocket top plate PL20",
+     "static": 540.0,
+     "min_gap": 459.2,
+     "at_ch_m": 286.0,
+     "loss": 80.8
+    }
+   ],
+   "secs": 52.8,
+   "spec": [
+    [
+     "T",
+     100
+    ],
+    [
+     "C",
+     125,
+     74.4,
+     "R"
+    ],
+    [
+     "T",
+     15.93
+    ],
+    [
+     "C",
+     45,
+     150,
+     "L"
+    ],
+    [
+     "T",
+     60
+    ]
+   ]
+  }
+ },
+ "alts": {
+  "A": {
+   "name": "Alt A",
+   "res": {
+    "Locomotive": {
+     "out": 1583.633475665219,
+     "inn": 1561.0656827887938,
+     "low_out": 1427.8356923731249,
+     "low_inn": 1406.6334736194417,
+     "out_nm": "cab roof 3 mm skin on HSS3x2x1/8 purlins @600 (3 in deep, adopted R2)",
+     "inn_nm": "cab roof 3 mm skin on HSS3x2x1/8 purlins @600 (3 in deep, adopted R2)"
+    },
+    "Tender": {
+     "out": 1384.543320522284,
+     "inn": 1379.4482858093966,
+     "low_out": 1342.2047239656536,
+     "low_inn": 1338.5592356639997,
+     "out_nm": "tender flat roof 10 ga (3.4 mm) on HSS2x2x1/8 bows @500 (sealed)",
+     "inn_nm": "tender roof bow HSS2x2x1/8 @500"
+    },
+    "Coach 1": {
+     "out": 1587.1222254300603,
+     "inn": 1576.887684151692,
+     "low_out": 1503.343511290071,
+     "low_inn": 1485.6558504394186,
+     "out_nm": "roof eave",
+     "inn_nm": "roof eave"
+    },
+    "Coach 2": {
+     "out": 1589.845198177071,
+     "inn": 1577.7332446200487,
+     "low_out": 1507.704415339031,
+     "low_inn": 1487.1110041192958,
+     "out_nm": "roof eave",
+     "inn_nm": "roof eave"
+    },
+    "Coach 3": {
+     "out": 1590.7325490007725,
+     "inn": 1576.6279148500869,
+     "low_out": 1507.375024066989,
+     "low_inn": 1485.088116148156,
+     "out_nm": "roof eave",
+     "inn_nm": "roof eave"
+    },
+    "Coach 4 (acc)": {
+     "out": 1591.6662006653128,
+     "inn": 1576.0691350684629,
+     "low_out": 1506.759319600407,
+     "low_inn": 1484.2018424276978,
+     "out_nm": "roof eave",
+     "inn_nm": "roof eave"
+    }
+   },
+   "cpl": [
+    {
+     "a_front": 13.281757689207842,
+     "a_rear": 10.015690942410107,
+     "body": 5.053467465406983
+    },
+    {
+     "a_front": 3.9110302736793274,
+     "a_rear": 7.272882852855999,
+     "body": 5.305820462659848
+    },
+    {
+     "a_front": 7.24641788622953,
+     "a_rear": 7.292561165037135,
+     "body": 6.804215416070365
+    },
+    {
+     "a_front": 7.218578247980859,
+     "a_rear": 7.301608920097097,
+     "body": 6.800895935959841
+    },
+    {
+     "a_front": 7.223847633955937,
+     "a_rear": 7.299636980385859,
+     "body": 6.79606103611419
+    }
+   ],
+   "lead": {
+    "swing": 73.11193667927013,
+    "arm_angle": 1.9903657062255513
+   },
+   "yaw": {
+    "Locomotive T1": 1.022511536842913,
+    "Locomotive T2": 1.0216330511546288,
+    "Tender T1": 0.9607026577106057,
+    "Tender T2": 0.8503702377192569,
+    "Coach 1 T1": 1.8020021404494313,
+    "Coach 1 T2": 1.8161755265080233,
+    "Coach 2 T1": 1.774331490162493,
+    "Coach 2 T2": 1.7766156658897585,
+    "Coach 3 T1": 1.7349660906677988,
+    "Coach 3 T2": 1.6350430823376416,
+    "Coach 4 (acc) T1": 1.6838145816630523,
+    "Coach 4 (acc) T2": 1.6796400777698512
+   },
+   "cyl_gap": 5.761013105602103,
+   "cyl_gap_790": 43.213006669302445,
+   "interf": [
+    {
+     "a": "Locomotive:T1 decorative cylinder \u00d8380 (on front truck, LT18)",
+     "b": "Locomotive:LT wheel tread rim 50 deep lead",
+     "static": 12.8,
+     "min_gap": -12.6,
+     "at_ch_m": 830.0,
+     "loss": 25.4
+    },
+    {
+     "a": "Locomotive:T1 decorative cylinder \u00d8380 (on front truck, LT18)",
+     "b": "Locomotive:LT wheel web 25 lead",
+     "static": 60.3,
+     "min_gap": 34.9,
+     "at_ch_m": 830.0,
+     "loss": 25.4
+    },
+    {
+     "a": "Locomotive:T1 decorative cylinder \u00d8380 (on front truck, LT18)",
+     "b": "Locomotive:LT flange lead",
+     "static": 107.8,
+     "min_gap": 82.4,
+     "at_ch_m": 830.0,
+     "loss": 25.4
+    },
+    {
+     "a": "Locomotive:B main rail HSS12x6x3/8 (LT18: Y\u00b1240, Z1150-1454.8)",
+     "b": "Locomotive:T1 flange T1 \u00d81450 driver (spoked look; plate-web section proxy)",
+     "static": 111.0,
+     "min_gap": 83.7,
+     "at_ch_m": 258.0,
+     "loss": 27.3
+    },
+    {
+     "a": "Locomotive:B main rail HSS12x6x3/8 (LT18: Y\u00b1240, Z1150-1454.8)",
+     "b": "Locomotive:T2 flange T2 \u00d81450 driver (spoked look; plate-web section proxy)",
+     "static": 111.0,
+     "min_gap": 83.7,
+     "at_ch_m": 1422.0,
+     "loss": 27.3
+    },
+    {
+     "a": "Locomotive:B main rail HSS12x6x3/8 (LT18: Y\u00b1240, Z1150-1454.8)",
+     "b": "Locomotive:T1 wheel tread rim 50 deep T1 \u00d81450 driver (spoked look; plate-web section proxy)",
+     "static": 111.0,
+     "min_gap": 84.2,
+     "at_ch_m": 258.0,
+     "loss": 26.8
+    },
+    {
+     "a": "Locomotive:B main rail HSS12x6x3/8 (LT18: Y\u00b1240, Z1150-1454.8)",
+     "b": "Locomotive:T2 wheel tread rim 50 deep T2 \u00d81450 driver (spoked look; plate-web section proxy)",
+     "static": 111.0,
+     "min_gap": 84.2,
+     "at_ch_m": 1422.0,
+     "loss": 26.8
+    },
+    {
+     "a": "Locomotive:B loco rear drop drawbar box PL16",
+     "b": "Tender:B tender front drop drawbar box PL16",
+     "static": 350.0,
+     "min_gap": 326.4,
+     "at_ch_m": 1426.0,
+     "loss": 23.6
+    }
+   ],
+   "inter_vehicle": [
+    {
+     "a": "Locomotive:B loco rear drop drawbar box PL16",
+     "b": "Tender:B tender front drop drawbar box PL16",
+     "static": 350.0,
+     "min_gap": 326.4,
+     "at_ch_m": 1426.0,
+     "loss": 23.6
+    },
+    {
+     "a": "Locomotive:B loco rear pocket top plate PL20",
+     "b": "Tender:B tender front drop drawbar box PL16",
+     "static": 390.0,
+     "min_gap": 366.3,
+     "at_ch_m": 1426.0,
+     "loss": 23.7
+    },
+    {
+     "a": "Locomotive:B loco rear pocket bottom plate PL20",
+     "b": "Tender:B tender front drop drawbar box PL16",
+     "static": 390.0,
+     "min_gap": 366.3,
+     "at_ch_m": 1426.0,
+     "loss": 23.7
+    },
+    {
+     "a": "Locomotive:B loco rear drop drawbar box PL16",
+     "b": "Tender:B tender front pocket top plate PL20",
+     "static": 540.0,
+     "min_gap": 516.4,
+     "at_ch_m": 1426.0,
+     "loss": 23.6
+    }
+   ],
+   "secs": 186.6,
+   "L_m": 1676.8783274189839
+  },
+  "B": {
+   "name": "Alt B",
+   "res": {
+    "Locomotive": {
+     "out": 1715.4416554483669,
+     "inn": 1625.9934336827264,
+     "low_out": 1547.2462257175482,
+     "low_inn": 1461.9737610347397,
+     "out_nm": "cab roof 3 mm skin on HSS3x2x1/8 purlins @600 (3 in deep, adopted R2)",
+     "inn_nm": "cab roof 3 mm skin on HSS3x2x1/8 purlins @600 (3 in deep, adopted R2)"
+    },
+    "Tender": {
+     "out": 1396.3614089274433,
+     "inn": 1390.723418574141,
+     "low_out": 1356.9494672375404,
+     "low_inn": 1350.3804623357396,
+     "out_nm": "tender flat roof 10 ga (3.4 mm) on HSS2x2x1/8 bows @500 (sealed)",
+     "inn_nm": "tender roof bow HSS2x2x1/8 @500"
+    },
+    "Coach 1": {
+     "out": 1643.5476766627698,
+     "inn": 1598.1617288310724,
+     "low_out": 1606.3099136812011,
+     "low_inn": 1536.9626299169624,
+     "out_nm": "platform guard top rail 42 in",
+     "inn_nm": "roof eave"
+    },
+    "Coach 2": {
+     "out": 1644.414500738323,
+     "inn": 1598.772372741237,
+     "low_out": 1607.1767377567544,
+     "low_inn": 1538.1198561789947,
+     "out_nm": "platform guard top rail 42 in",
+     "inn_nm": "roof eave"
+    },
+    "Coach 3": {
+     "out": 1642.795756599975,
+     "inn": 1602.5268400421182,
+     "low_out": 1605.5579936184063,
+     "low_inn": 1544.657110272678,
+     "out_nm": "platform guard top rail 42 in",
+     "inn_nm": "roof eave"
+    },
+    "Coach 4 (acc)": {
+     "out": 1642.0325240478721,
+     "inn": 1606.0772735287562,
+     "low_out": 1604.7947610663034,
+     "low_inn": 1550.8374731672866,
+     "out_nm": "platform guard top rail 42 in",
+     "inn_nm": "roof eave"
+    }
+   },
+   "cpl": [
+    {
+     "a_front": 29.43129808414915,
+     "a_rear": 21.328713454066595,
+     "body": 11.116706337169903
+    },
+    {
+     "a_front": 8.280405494467695,
+     "a_rear": 15.812246718840006,
+     "body": 11.651290334796727
+    },
+    {
+     "a_front": 15.82805611024524,
+     "a_rear": 15.831118413236233,
+     "body": 15.028427940137814
+    },
+    {
+     "a_front": 15.826656340573571,
+     "a_rear": 15.823955355803411,
+     "body": 15.0323333523033
+    },
+    {
+     "a_front": 15.7907003772482,
+     "a_rear": 15.790816367553584,
+     "body": 15.039621692622605
+    }
+   ],
+   "lead": {
+    "swing": 158.91594471218866,
+    "arm_angle": 3.8930006001017543
+   },
+   "yaw": {
+    "Locomotive T1": 2.0444857017652507,
+    "Locomotive T2": 2.0584724684737914,
+    "Tender T1": 1.7620984645291855,
+    "Tender T2": 1.7524717802532173,
+    "Coach 1 T1": 3.521292531661296,
+    "Coach 1 T2": 3.4982282329036436,
+    "Coach 2 T1": 3.4950081216345033,
+    "Coach 2 T2": 3.4950181069954898,
+    "Coach 3 T1": 3.50212346405294,
+    "Coach 3 T2": 3.5532375419807374,
+    "Coach 4 (acc) T1": 3.5094650906418186,
+    "Coach 4 (acc) T2": 3.6129608967184974
+   },
+   "cyl_gap": -8.751556901184784,
+   "cyl_gap_790": 28.291639998888087,
+   "interf": [
+    {
+     "a": "Locomotive:T1 decorative cylinder \u00d8380 (on front truck, LT18)",
+     "b": "Locomotive:LT wheel tread rim 50 deep lead",
+     "static": 12.8,
+     "min_gap": -32.7,
+     "at_ch_m": 1158.0,
+     "loss": 45.5
+    },
+    {
+     "a": "Locomotive:T1 decorative cylinder \u00d8380 (on front truck, LT18)",
+     "b": "Locomotive:LT wheel web 25 lead",
+     "static": 60.3,
+     "min_gap": 14.8,
+     "at_ch_m": 1158.0,
+     "loss": 45.5
+    },
+    {
+     "a": "Locomotive:B main rail HSS12x6x3/8 (LT18: Y\u00b1240, Z1150-1454.8)",
+     "b": "Locomotive:T2 flange T2 \u00d81450 driver (spoked look; plate-web section proxy)",
+     "static": 111.0,
+     "min_gap": 55.9,
+     "at_ch_m": 1158.0,
+     "loss": 55.1
+    },
+    {
+     "a": "Locomotive:B main rail HSS12x6x3/8 (LT18: Y\u00b1240, Z1150-1454.8)",
+     "b": "Locomotive:T1 flange T1 \u00d81450 driver (spoked look; plate-web section proxy)",
+     "static": 111.0,
+     "min_gap": 56.3,
+     "at_ch_m": 1158.0,
+     "loss": 54.7
+    },
+    {
+     "a": "Locomotive:B main rail HSS12x6x3/8 (LT18: Y\u00b1240, Z1150-1454.8)",
+     "b": "Locomotive:T2 wheel tread rim 50 deep T2 \u00d81450 driver (spoked look; plate-web section proxy)",
+     "static": 111.0,
+     "min_gap": 56.8,
+     "at_ch_m": 1158.0,
+     "loss": 54.2
+    },
+    {
+     "a": "Locomotive:B main rail HSS12x6x3/8 (LT18: Y\u00b1240, Z1150-1454.8)",
+     "b": "Locomotive:T1 wheel tread rim 50 deep T1 \u00d81450 driver (spoked look; plate-web section proxy)",
+     "static": 111.0,
+     "min_gap": 57.2,
+     "at_ch_m": 1158.0,
+     "loss": 53.8
+    },
+    {
+     "a": "Locomotive:T1 decorative cylinder \u00d8380 (on front truck, LT18)",
+     "b": "Locomotive:LT flange lead",
+     "static": 107.8,
+     "min_gap": 62.3,
+     "at_ch_m": 1158.0,
+     "loss": 45.5
+    },
+    {
+     "a": "Locomotive:B loco rear drop drawbar box PL16",
+     "b": "Tender:B tender front drop drawbar box PL16",
+     "static": 350.0,
+     "min_gap": 268.5,
+     "at_ch_m": 1162.0,
+     "loss": 81.5
+    }
+   ],
+   "inter_vehicle": [
+    {
+     "a": "Locomotive:B loco rear drop drawbar box PL16",
+     "b": "Tender:B tender front drop drawbar box PL16",
+     "static": 350.0,
+     "min_gap": 268.5,
+     "at_ch_m": 1162.0,
+     "loss": 81.5
+    },
+    {
+     "a": "Locomotive:B loco rear pocket top plate PL20",
+     "b": "Tender:B tender front drop drawbar box PL16",
+     "static": 390.0,
+     "min_gap": 308.1,
+     "at_ch_m": 1162.0,
+     "loss": 81.9
+    },
+    {
+     "a": "Locomotive:B loco rear pocket bottom plate PL20",
+     "b": "Tender:B tender front drop drawbar box PL16",
+     "static": 390.0,
+     "min_gap": 308.1,
+     "at_ch_m": 1162.0,
+     "loss": 81.9
+    },
+    {
+     "a": "Locomotive:B loco rear drop drawbar box PL16",
+     "b": "Tender:B tender front pocket top plate PL20",
+     "static": 540.0,
+     "min_gap": 458.5,
+     "at_ch_m": 1162.0,
+     "loss": 81.5
+    }
+   ],
+   "secs": 140.0,
+   "L_m": 1715.423892873346
+  },
+  "C": {
+   "name": "Alt C",
+   "res": {
+    "Locomotive": {
+     "out": 1695.2648756526617,
+     "inn": 1650.9445811642506,
+     "low_out": 1525.2303149199763,
+     "low_inn": 1486.0850918567824,
+     "out_nm": "cab roof 3 mm skin on HSS3x2x1/8 purlins @600 (3 in deep, adopted R2)",
+     "inn_nm": "cab roof 3 mm skin on HSS3x2x1/8 purlins @600 (3 in deep, adopted R2)"
+    },
+    "Tender": {
+     "out": 1394.3577206988332,
+     "inn": 1388.1427026406116,
+     "low_out": 1357.288243930481,
+     "low_inn": 1347.6837915293388,
+     "out_nm": "tender flat roof 10 ga (3.4 mm) on HSS2x2x1/8 bows @500 (sealed)",
+     "inn_nm": "tender roof bow HSS2x2x1/8 @500"
+    },
+    "Coach 1": {
+     "out": 1630.3181589892379,
+     "inn": 1605.5454122714455,
+     "low_out": 1586.5717069149325,
+     "low_inn": 1547.034591332663,
+     "out_nm": "roof eave",
+     "inn_nm": "roof eave"
+    },
+    "Coach 2": {
+     "out": 1630.817110729732,
+     "inn": 1604.6855462037865,
+     "low_out": 1587.6006742664497,
+     "low_inn": 1545.7430997818485,
+     "out_nm": "roof eave",
+     "inn_nm": "roof eave"
+    },
+    "Coach 3": {
+     "out": 1630.409583546564,
+     "inn": 1607.482343971243,
+     "low_out": 1588.3371119531384,
+     "low_inn": 1550.6311229044143,
+     "out_nm": "roof eave",
+     "inn_nm": "roof eave"
+    },
+    "Coach 4 (acc)": {
+     "out": 1629.6661525705629,
+     "inn": 1610.1613365528585,
+     "low_out": 1587.1583346563339,
+     "low_inn": 1555.1010073888194,
+     "out_nm": "roof eave",
+     "inn_nm": "roof eave"
+    }
+   },
+   "cpl": [
+    {
+     "a_front": 26.37945851166127,
+     "a_rear": 19.72471130305755,
+     "body": 10.015487070022704
+    },
+    {
+     "a_front": 7.4665539583252345,
+     "a_rear": 14.128745662738188,
+     "body": 10.474857512482135
+    },
+    {
+     "a_front": 14.259117639121907,
+     "a_rear": 14.182289856361134,
+     "body": 13.546562317392935
+    },
+    {
+     "a_front": 14.22534826699959,
+     "a_rear": 14.215163518530003,
+     "body": 13.550068198153294
+    },
+    {
+     "a_front": 14.207442205812395,
+     "a_rear": 14.225265497355986,
+     "body": 13.550309397685524
+    }
+   ],
+   "lead": {
+    "swing": 143.77125630697074,
+    "arm_angle": 3.4657255707185706
+   },
+   "yaw": {
+    "Locomotive T1": 1.9055372426741033,
+    "Locomotive T2": 1.8973132850786087,
+    "Tender T1": 1.504654172818104,
+    "Tender T2": 1.538944691116737,
+    "Coach 1 T1": 3.225661838313328,
+    "Coach 1 T2": 3.2400926002446555,
+    "Coach 2 T1": 3.1850662525375593,
+    "Coach 2 T2": 3.2832181029760026,
+    "Coach 3 T1": 3.3139093873621754,
+    "Coach 3 T2": 3.311975152081403,
+    "Coach 4 (acc) T1": 3.291947166760626,
+    "Coach 4 (acc) T2": 3.202985733894792
+   },
+   "cyl_gap": -7.247900103920983,
+   "cyl_gap_790": 29.84220669448726,
+   "interf": [
+    {
+     "a": "Locomotive:T1 decorative cylinder \u00d8380 (on front truck, LT18)",
+     "b": "Locomotive:LT wheel tread rim 50 deep lead",
+     "static": 12.8,
+     "min_gap": -30.2,
+     "at_ch_m": 546.0,
+     "loss": 43.0
+    },
+    {
+     "a": "Locomotive:T1 decorative cylinder \u00d8380 (on front truck, LT18)",
+     "b": "Locomotive:LT wheel web 25 lead",
+     "static": 60.3,
+     "min_gap": 17.3,
+     "at_ch_m": 546.0,
+     "loss": 43.0
+    },
+    {
+     "a": "Locomotive:B main rail HSS12x6x3/8 (LT18: Y\u00b1240, Z1150-1454.8)",
+     "b": "Locomotive:T1 flange T1 \u00d81450 driver (spoked look; plate-web section proxy)",
+     "static": 111.0,
+     "min_gap": 60.1,
+     "at_ch_m": 370.0,
+     "loss": 50.9
+    },
+    {
+     "a": "Locomotive:B main rail HSS12x6x3/8 (LT18: Y\u00b1240, Z1150-1454.8)",
+     "b": "Locomotive:T2 flange T2 \u00d81450 driver (spoked look; plate-web section proxy)",
+     "static": 111.0,
+     "min_gap": 60.3,
+     "at_ch_m": 210.0,
+     "loss": 50.7
+    },
+    {
+     "a": "Locomotive:B main rail HSS12x6x3/8 (LT18: Y\u00b1240, Z1150-1454.8)",
+     "b": "Locomotive:T1 wheel tread rim 50 deep T1 \u00d81450 driver (spoked look; plate-web section proxy)",
+     "static": 111.0,
+     "min_gap": 60.9,
+     "at_ch_m": 370.0,
+     "loss": 50.1
+    },
+    {
+     "a": "Locomotive:B main rail HSS12x6x3/8 (LT18: Y\u00b1240, Z1150-1454.8)",
+     "b": "Locomotive:T2 wheel tread rim 50 deep T2 \u00d81450 driver (spoked look; plate-web section proxy)",
+     "static": 111.0,
+     "min_gap": 61.1,
+     "at_ch_m": 210.0,
+     "loss": 49.9
+    },
+    {
+     "a": "Locomotive:T1 decorative cylinder \u00d8380 (on front truck, LT18)",
+     "b": "Locomotive:LT flange lead",
+     "static": 107.8,
+     "min_gap": 64.8,
+     "at_ch_m": 546.0,
+     "loss": 43.0
+    },
+    {
+     "a": "Locomotive:B loco rear drop drawbar box PL16",
+     "b": "Tender:B tender front drop drawbar box PL16",
+     "static": 350.0,
+     "min_gap": 281.8,
+     "at_ch_m": 214.0,
+     "loss": 68.2
+    }
+   ],
+   "inter_vehicle": [
+    {
+     "a": "Locomotive:B loco rear drop drawbar box PL16",
+     "b": "Tender:B tender front drop drawbar box PL16",
+     "static": 350.0,
+     "min_gap": 281.8,
+     "at_ch_m": 214.0,
+     "loss": 68.2
+    },
+    {
+     "a": "Locomotive:B loco rear pocket top plate PL20",
+     "b": "Tender:B tender front drop drawbar box PL16",
+     "static": 390.0,
+     "min_gap": 321.4,
+     "at_ch_m": 214.0,
+     "loss": 68.6
+    },
+    {
+     "a": "Locomotive:B loco rear pocket bottom plate PL20",
+     "b": "Tender:B tender front drop drawbar box PL16",
+     "static": 390.0,
+     "min_gap": 321.4,
+     "at_ch_m": 214.0,
+     "loss": 68.6
+    },
+    {
+     "a": "Locomotive:B loco rear drop drawbar box PL16",
+     "b": "Tender:B tender front pocket top plate PL20",
+     "static": 540.0,
+     "min_gap": 471.8,
+     "at_ch_m": 214.0,
+     "loss": 68.2
+    }
+   ],
+   "secs": 122.9,
+   "L_m": 1597.7611726505086
+  }
+ },
+ "pocket": {
+  "loco_rear": 32.39550234694448,
+  "tender": 19.21753989513832,
+  "coach": 32.39550234694448,
+  "tender_fix150": 32.39550234694448
+ },
+ "nadal": 1.3416398563478247
+}

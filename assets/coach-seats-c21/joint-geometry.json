@@ -1,0 +1,94 @@
+{
+  "brace_receiving_contacts": [
+    {
+      "brace": "BZ1",
+      "receiving_part": "FRONT-LEG1",
+      "minimum_distance_in": 0.00010576641645970065,
+      "interference_in3": 0.0
+    },
+    {
+      "brace": "BZ1",
+      "receiving_part": "REAR-LEG1",
+      "minimum_distance_in": 0.00010576641645970065,
+      "interference_in3": 0.0
+    },
+    {
+      "brace": "BZ2",
+      "receiving_part": "FRONT-LEG2",
+      "minimum_distance_in": 0.0001057664164641765,
+      "interference_in3": 0.0
+    },
+    {
+      "brace": "BZ2",
+      "receiving_part": "REAR-LEG2",
+      "minimum_distance_in": 0.0001057664164641765,
+      "interference_in3": 0.0
+    },
+    {
+      "brace": "BV1",
+      "receiving_part": "REAR-LEG1",
+      "minimum_distance_in": 0.00010576641646305754,
+      "interference_in3": 0.0
+    },
+    {
+      "brace": "BV1",
+      "receiving_part": "SEAT-REAR2",
+      "minimum_distance_in": 0.0001057664164675334,
+      "interference_in3": 0.0
+    },
+    {
+      "brace": "BV2",
+      "receiving_part": "REAR-LEG2",
+      "minimum_distance_in": 0.0001057664164675334,
+      "interference_in3": 0.0
+    },
+    {
+      "brace": "BV2",
+      "receiving_part": "SEAT-REAR2",
+      "minimum_distance_in": 0.0001057664164675334,
+      "interference_in3": 0.0
+    },
+    {
+      "brace": "BV1",
+      "receiving_part": "BV2 apex miter",
+      "minimum_distance_in": 8.951719505639057e-15,
+      "interference_in3": 0.0
+    }
+  ],
+  "socket_envelope_hits": [
+    {
+      "foot": 3,
+      "bolt": 2,
+      "side": "upper_6in",
+      "part": "BV1",
+      "in3": 0.2681725202328988
+    },
+    {
+      "foot": 3,
+      "bolt": 4,
+      "side": "upper_6in",
+      "part": "BV1",
+      "in3": 0.26817146672946046
+    },
+    {
+      "foot": 4,
+      "bolt": 1,
+      "side": "upper_6in",
+      "part": "BV2",
+      "in3": 0.26817252024359334
+    },
+    {
+      "foot": 4,
+      "bolt": 3,
+      "side": "upper_6in",
+      "part": "BV2",
+      "in3": 0.2681714667648884
+    }
+  ],
+  "socket_nominal_rib_clearance_in": 0.0625,
+  "notes": [
+    "Zero distance only verifies nominal contact; weld throat and fatigue not qualified.",
+    "1.25in OD cylinder is a preliminary socket envelope. Ratchet and technician reach not modeled."
+  ],
+  "cope_clearance_note": "Rebuilt receiving envelopes yield approximately0.00010577in (0.00269mm) CAD residual clearance at brace faces; this is not a specified production weld-root gap. Apex common-plane miter is nominal zero. Measure actual HSS and develop WPS/fit tolerances before fabrication."
+}

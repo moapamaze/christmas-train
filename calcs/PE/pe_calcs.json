@@ -1,0 +1,3891 @@
+{
+ "basis": {
+  "m_L4_delta_kg": 571,
+  "drive": "L4: 4 × Poclain MS05 468/234 2-speed HighFlow + T04 brake, frame-mounted, ANSI 120-2 15T:45T 3:1 chain in oil bath, Ø150 pressed hub (no key); L4.1: NO flow divider - electronic traction control (per-motor sensors + pony ground-speed reference, pump destroke, auto-sand)",
+  "masses_kg": {
+   "loco": 19934,
+   "tender": 8706.5,
+   "coach_reg": 13200,
+   "coach_acc": 11000,
+   "coach_reg_empty": 8040,
+   "coach_acc_empty": 7000,
+   "train": 81513
+  },
+  "W_kN": 799.4,
+  "driver_weight_kN": 171.7,
+  "lead_truck_kN": 23.8,
+  "mass_note": "L4.2: safety-chain parts 32.2 kg (2 × PL44.5 A572-50 lugs faced to 42.5 in the jaw zone + PL16 diaphragms, 1-1/8 in G-2130 shackles, Crosby S-1325A couplers; X11150; replaces the PL40 10.2 kg), Ø120 traction pins + GE120ES-class housings +2 × 22 kg (X4075/7275), sanders on both trucks (rear boxes 46 kg body-mounted X6400 + 8 kg nozzles X7275, front upgrade 6 kg), float bypass block 14 kg, T04 orifices / 2-channel vent switch / 96-tooth pony wheel 7 kg, brake-release piping 38.5 kg GROSS (Loco Bot E7, replaces the 5.0 kg net), MR feed JL-A→BP-1 11 kg (X8190), 20 L release reservoir 14 kg; L4.1: + T04 release circuit rev (6.0 L + 1.0 L accumulators, hand pump, shuttles; steering 7) 20 kg X5675, + low traction pins 2 × 55 kg (X4075/7275, ASSUMED), Loco Bot close-out 21.3 kg (saddle gussets 12.7, SD-1 caps 3.2, SD-2 clamps 5.4), + HL-1 headlamp 25 kg (upper bound) X175, TC/valve package 28 kg X5675, ballast clamp bars 21.1 kg X4075, hub 31.4 kg/axle (Ø350 flange), Loco Bot ledger 01:57 (barrel 2,076.2, saddles 195.7, bell 14.3, whistle 4.9, slats 21.9, L-107 -1.0); no flow divider. Loco = RT1-corrected base 16,657 (INCLUDES the L3 3 mm hood 898 kg) + L4 drive delta + Loco Bot shell ledger rev 2 (Steering 17): L-108 barrel 2,280.6 incl. saddles (S4N) - 898 hood, L-109 smokebox 227.9 IN FULL (the L3 smokebox front left with the ~1,000 kg L3 cab/front - no double count), L-110 fittings 51, L-107 P1-L net +28.2 + SS± HSS3x3x1/8 +9.1, cab L-111 C1 813.9 @X9283 replacing the ~1,000 kg L3 cab/front, fit-out 6, FT-1 15.6, BT-1 battery 68.2 in the Y- front pocket (base also INCLUDES the L3 PL6 deck 1,248) + front ballast plates trimmed 1,056 -> 150.8 (2 x 75.4); pilot slats 21.9 and JL plates 9.7 (ledger rev 2) + pony own ballast 1,250; jumpers 40 kg in train mass only",
+  "gauge_mm": 914.4,
+  "v_max_mph": 6.0,
+  "v_max_note": "GOVERNED 6 mph - OWNER-SELECTED limit (28 Oct 2026), PE to confirm; hard limits = H1P053 pump stroke stop 42 cc (sealed) + HARD tamper-sealed 2,600 rpm engine speed limit (L4.2; 5.96 mph loaded, 6.47 mph no-load at η_v 0.99 < 7 mph trip) + PLUS+1",
+  "v_overspeed_mph": 7.0,
+  "v_overspeed_note": "overspeed trip by a 2-channel speed relay INDEPENDENT of PLUS+1 → emergency brake + ≥ 3 s swash ramp to zero with the loop bypass open (FLOAT, L4.2)",
+  "v_hardware_capability_mph": 7.64,
+  "grade_design_pct": 2.0,
+  "R_min_m": 100.0,
+  "wind_norun_mph": 40,
+  "wind_parked_mph": 100,
+  "mu_dry": 0.25,
+  "mu_wet": 0.15,
+  "mu_sand": 0.25,
+  "start_resistance": 0.0208,
+  "rolling": 0.005
+ },
+ "truck": {
+  "P_box_kN": 17.5,
+  "k_req_Nmm": 701,
+  "unsprung_axle_kg": 802,
+  "axle_load_kN": 42.9,
+  "pivot_C0_req_kN": 280.5
+ },
+ "axle": {
+  "vm_seat_150": 66.3,
+  "fatigue_n_seat": 1.57,
+  "fatigue_n_shoulder": 1.54,
+  "press_fit_SF": 3.11,
+  "C_req_axlebox_kN": 192.4,
+  "L10_Mrev": 53.0
+ },
+ "drive": {
+  "need2": 32.61,
+  "adh_dry": 37.11,
+  "adh_wet": 22.27,
+  "mu_sand_req": 0.19,
+  "pump_T_lim": 128.5,
+  "F350": 37.67,
+  "p_need": 303,
+  "cooler_kW": 9.0,
+  "hold_2pct_mph": 2.69,
+  "hose_v": 3.41,
+  "v_gov": 6.0,
+  "v_trip": 7.0,
+  "v_hw": 7.64,
+  "reducer_max_util": 0.68,
+  "chain_util": 0.68
+ },
+ "brakes": {
+  "F_e": 67.5,
+  "a_lvl": 0.828,
+  "a_dn": 0.632,
+  "d_e": 9.7,
+  "d_e10": 12.4,
+  "d_e_hw10_info": 22.5,
+  "v_basis_mph": 6.0,
+  "v_trip_mph": 7.0,
+  "d_s": 13.4,
+  "a_s": 0.383,
+  "park_req": 24.0,
+  "clamp_loco": 19.8,
+  "buff": 4.1
+ },
+ "tender": {
+  "fuel_Lph": 14.6,
+  "air_m3s": 5.05
+ },
+ "generator": {
+  "oa_Ls": 454.0,
+  "oa_plan_Ls": 847.5,
+  "sens": 10.7,
+  "lat": 8.2,
+  "erv_save": 8.9,
+  "demand_with_erv": 31.1,
+  "demand_621": 27.7,
+  "eps_req": 0.344,
+  "erv_model": "RenewAire HE05IN"
+ },
+ "track": {
+  "Qmax": 25.89,
+  "throw_steps": 107,
+  "versine": 3.0,
+  "yaw": 0.92,
+  "env_loco_R100": 1581.6,
+  "route_alts": {
+   "A": {
+    "env_loco": 1583.6,
+    "env_coach_garland": 1651.7,
+    "cpl_coach": 7.3,
+    "cpl_lt": 13.28,
+    "lead_swing": 73.1
+   },
+   "B": {
+    "env_loco": 1715.4,
+    "env_coach_garland": 1704.4,
+    "cpl_coach": 15.83,
+    "cpl_lt": 29.43,
+    "lead_swing": 158.9
+   },
+   "C": {
+    "env_loco": 1695.3,
+    "env_coach_garland": 1690.8,
+    "cpl_coach": 14.26,
+    "cpl_lt": 26.38,
+    "lead_swing": 143.8
+   },
+   "D": {
+    "env_loco": 1657.3,
+    "env_coach_garland": 1678.3,
+    "cpl_coach": 11.96,
+    "cpl_lt": 22.08,
+    "lead_swing": 120.5
+   }
+  },
+  "min_R_fixed": 70,
+  "equal_torque_start_corrected_mass": [
+   [
+    "0% tangent",
+    15.87,
+    25.15,
+    0.631
+   ],
+   [
+    "0% R100",
+    19.68,
+    23.89,
+    0.824
+   ],
+   [
+    "0% R60",
+    23.5,
+    22.63,
+    1.038
+   ],
+   [
+    "0% R50",
+    26.04,
+    22.63,
+    1.15
+   ],
+   [
+    "0% R45",
+    28.07,
+    22.63,
+    1.24
+   ],
+   [
+    "2% tangent / compensated curves",
+    31.13,
+    25.15,
+    1.238
+   ],
+   [
+    "2% R50 uncompensated",
+    41.3,
+    22.63,
+    1.825
+   ]
+  ]
+ },
+ "torques": [
+  {
+   "size": "M10",
+   "cls": "8.8",
+   "As": 58.0,
+   "preload_kN": 25.2,
+   "T_dry_K020": 50,
+   "T_lub_K014": 35
+  },
+  {
+   "size": "M10",
+   "cls": "10.9",
+   "As": 58.0,
+   "preload_kN": 36.1,
+   "T_dry_K020": 72,
+   "T_lub_K014": 51
+  },
+  {
+   "size": "M12",
+   "cls": "8.8",
+   "As": 84.3,
+   "preload_kN": 36.7,
+   "T_dry_K020": 88,
+   "T_lub_K014": 62
+  },
+  {
+   "size": "M12",
+   "cls": "10.9",
+   "As": 84.3,
+   "preload_kN": 52.5,
+   "T_dry_K020": 126,
+   "T_lub_K014": 88
+  },
+  {
+   "size": "M16",
+   "cls": "8.8",
+   "As": 157.0,
+   "preload_kN": 68.3,
+   "T_dry_K020": 219,
+   "T_lub_K014": 153
+  },
+  {
+   "size": "M16",
+   "cls": "10.9",
+   "As": 157.0,
+   "preload_kN": 97.7,
+   "T_dry_K020": 313,
+   "T_lub_K014": 219
+  },
+  {
+   "size": "M20",
+   "cls": "8.8",
+   "As": 245.0,
+   "preload_kN": 110.2,
+   "T_dry_K020": 441,
+   "T_lub_K014": 309
+  },
+  {
+   "size": "M20",
+   "cls": "10.9",
+   "As": 245.0,
+   "preload_kN": 152.5,
+   "T_dry_K020": 610,
+   "T_lub_K014": 427
+  },
+  {
+   "size": "M24",
+   "cls": "8.8",
+   "As": 353.0,
+   "preload_kN": 158.8,
+   "T_dry_K020": 762,
+   "T_lub_K014": 534
+  },
+  {
+   "size": "M24",
+   "cls": "10.9",
+   "As": 353.0,
+   "preload_kN": 219.7,
+   "T_dry_K020": 1055,
+   "T_lub_K014": 738
+  }
+ ],
+ "subsystems": [
+  {
+   "no": 1,
+   "key": "loco_frame",
+   "title": "Locomotive frame and body",
+   "code": [
+    "AISC 360-22 (ASD) for members and connections; AWS D1.1/D1.1M:2020 welding",
+    "ASTM F2291-23 §6 (design loads, patron areas), F1193 (quality/manufacture), F770 (operations)",
+    "IBC 2021 §1607 for walking-surface, guard and grab loads (reference only - PE to confirm applicability)"
+   ],
+   "loads": [
+    "DL+equipment ×1.3 service vs 0.6Fy; ×2.0 overload (track irregularity / jacking) vs Fy",
+    "Drawbar 70 kN service, 200 kN ultimate (pin/box/rail) - ASSUMED basis, see §6",
+    "Ballast 3 g long. / 2 g vert. / 1 g lat. (ASSUMED, F2291 equipment restraint)",
+    "Jacking: 2 × loco weight on 4 pads",
+    "Cab roof 20 psf live + 300 lb point; treads 300 lb; grabs 200 lb"
+   ],
+   "calcs": [
+    {
+     "id": "C4",
+     "title": "Loco main rail HSS12x6x3/8, vertical ×2.0 (uniform equivalent)",
+     "inputs": "Sprung body 8439 kg (LT42 reactions) spread uniformly; overhang 3775 mm",
+     "formula": "see PF-CT_R2_calc_notes (calcs.py)",
+     "demand": 90.1,
+     "capacity": 345.0,
+     "unit": "MPa",
+     "util": 0.26,
+     "ok": true,
+     "note": "Ballast sits directly over the front bolster, adds no frame moment.",
+     "carried": true
+    },
+    {
+     "id": "C4b",
+     "title": "Loco main rail at rear sill, drawbar 70 kN service + vertical ×1.3",
+     "inputs": "Eccentric drawbar: rail centroid Z1302 − coupler Z550 = 752 mm; moment shared by both rails via end sill + knee gussets",
+     "formula": "see PF-CT_R2_calc_notes (calcs.py)",
+     "demand": 105.7,
+     "capacity": 207.0,
+     "unit": "MPa",
+     "util": 0.51,
+     "ok": true,
+     "note": "",
+     "carried": true
+    },
+    {
+     "id": "C4b",
+     "title": "Loco main rail at rear sill, drawbar 200 kN ultimate + vertical ×1.3",
+     "inputs": "Eccentric drawbar: rail centroid Z1302 − coupler Z550 = 752 mm; moment shared by both rails via end sill + knee gussets",
+     "formula": "see PF-CT_R2_calc_notes (calcs.py)",
+     "demand": 193.3,
+     "capacity": 345.0,
+     "unit": "MPa",
+     "util": 0.56,
+     "ok": true,
+     "note": "",
+     "carried": true
+    },
+    {
+     "id": "C8",
+     "title": "Loco body bolster box (PL12 flanges 350, PL10 webs, 305 deep), rear, ×2.0",
+     "inputs": "Rear body reaction 5873 kg (LT42) at centre plate, span 480 mm (rails Y±240, rev L1)",
+     "formula": "see PF-CT_R2_calc_notes (calcs.py)",
+     "demand": 9.7,
+     "capacity": 250.0,
+     "unit": "MPa",
+     "util": 0.04,
+     "ok": true,
+     "note": "",
+     "carried": true
+    },
+    {
+     "id": "C8f",
+     "title": "Loco front bolster with full 1.5 t ballast, ×2.0",
+     "inputs": "Ballast load lands on rails directly; conservative to put on bolster",
+     "formula": "see PF-CT_R2_calc_notes (calcs.py)",
+     "demand": 6.7,
+     "capacity": 250.0,
+     "unit": "MPa",
+     "util": 0.03,
+     "ok": true,
+     "note": "",
+     "carried": true
+    },
+    {
+     "id": "C9a",
+     "title": "Ballast pocket end wall PL20, 3 g longitudinal",
+     "inputs": "750 kg per side, resultant at mid-height of 255 mm stack; wall acts as cantilever 480 wide",
+     "formula": "see PF-CT_R2_calc_notes (calcs.py)",
+     "demand": 87.6,
+     "capacity": 150.0,
+     "unit": "MPa",
+     "util": 0.58,
+     "ok": true,
+     "note": "3 g longitudinal / 2 g vertical / 1 g lateral ASSUMED (engineer to set per ASTM F2291).",
+     "carried": true
+    },
+    {
+     "id": "C9b",
+     "title": "(Original idea) PL12 end wall, 3 g longitudinal",
+     "inputs": "Shows why the end walls are PL20",
+     "formula": "see PF-CT_R2_calc_notes (calcs.py)",
+     "demand": 243.3,
+     "capacity": 150.0,
+     "unit": "MPa",
+     "util": 1.62,
+     "ok": false,
+     "note": "",
+     "carried": true
+    },
+    {
+     "id": "C9c",
+     "title": "Ballast hold-down 4× M20 cl. 8.8 rods, 1 g up + preload",
+     "inputs": "Each rod tensile stress area 245 mm², proof 600 MPa; ASD limit",
+     "formula": "see PF-CT_R2_calc_notes (calcs.py)",
+     "demand": 1838.7,
+     "capacity": 70419.2,
+     "unit": "N",
+     "util": 0.03,
+     "ok": true,
+     "note": "",
+     "carried": true
+    },
+    {
+     "id": "C10a",
+     "title": "Cab step tread PL8 × 240, 500 span, 300 lb point",
+     "inputs": "IBC 1607 stair tread 300 lb concentrated (ASSUMED code basis)",
+     "formula": "see PF-CT_R2_calc_notes (calcs.py)",
+     "demand": 65.1,
+     "capacity": 150.0,
+     "unit": "MPa",
+     "util": 0.43,
+     "ok": true,
+     "note": "",
+     "carried": true
+    },
+    {
+     "id": "C10b",
+     "title": "Cab step tread deflection",
+     "inputs": "Limit L/240",
+     "formula": "see PF-CT_R2_calc_notes (calcs.py)",
+     "demand": 1.7,
+     "capacity": 2.1,
+     "unit": "mm",
+     "util": 0.81,
+     "ok": true,
+     "note": "",
+     "carried": true
+    },
+    {
+     "id": "C10c",
+     "title": "Grab iron Ø32 solid A36, 1,200 span, 200 lb any direction",
+     "inputs": "OSHA 1910.29 / IBC 1607.9 200 lb (ASSUMED code basis)",
+     "formula": "see PF-CT_R2_calc_notes (calcs.py)",
+     "demand": 83.0,
+     "capacity": 150.0,
+     "unit": "MPa",
+     "util": 0.55,
+     "ok": true,
+     "note": "",
+     "carried": true
+    },
+    {
+     "id": "C10e",
+     "title": "Cab roof purlin HSS2x2x1/8 @600, 20 psf live + dead",
+     "inputs": "Span 2,700 mm simply supported",
+     "formula": "see PF-CT_R2_calc_notes (calcs.py)",
+     "demand": 77.6,
+     "capacity": 207.0,
+     "unit": "MPa",
+     "util": 0.38,
+     "ok": true,
+     "note": "",
+     "carried": true
+    },
+    {
+     "id": "C10f",
+     "title": "Cab roof purlin HSS2x2x1/8 deflection",
+     "inputs": "Limit L/180",
+     "formula": "see PF-CT_R2_calc_notes (calcs.py)",
+     "demand": 11.6,
+     "capacity": 15.0,
+     "unit": "mm",
+     "util": 0.77,
+     "ok": true,
+     "note": "",
+     "carried": true
+    },
+    {
+     "id": "C10g",
+     "title": "Cab roof purlin HSS3x2x1/8 @600 deflection (adopted)",
+     "inputs": "Limit L/180",
+     "formula": "see PF-CT_R2_calc_notes (calcs.py)",
+     "demand": 4.4,
+     "capacity": 15.0,
+     "unit": "mm",
+     "util": 0.29,
+     "ok": true,
+     "note": "",
+     "carried": true
+    },
+    {
+     "id": "C10h",
+     "title": "Cab roof purlin HSS3x2x1/8 @600 bending (adopted)",
+     "inputs": "",
+     "formula": "see PF-CT_R2_calc_notes (calcs.py)",
+     "demand": 43.9,
+     "capacity": 207.0,
+     "unit": "MPa",
+     "util": 0.21,
+     "ok": true,
+     "note": "",
+     "carried": true
+    },
+    {
+     "id": "C16a",
+     "title": "Cab clear headroom (deck to purlin underside) vs 6 ft 3 in crew + shoes",
+     "inputs": "Roof top 3700 - 3 skin - 76.2 HSS3x2 purlin = 3621; cab floor PL6 top 1605; 6 mm floor mat",
+     "formula": "see PF-CT_R2_calc_notes (calcs.py)",
+     "demand": 1905,
+     "capacity": 2009.8,
+     "unit": "mm",
+     "util": 0.95,
+     "ok": true,
+     "note": "1,905 mm standing target ASSUMED (owner/crew to confirm)",
+     "carried": true
+    },
+    {
+     "id": "C16b",
+     "title": "Route overhead clearance adopted vs train height + 300 sway/bounce/track-lift + 300 decorations",
+     "inputs": "Adopted R2: nothing lower than 4,300 mm above top of rail within 2,000 mm of track CL (lights, wires, signs, branches, arches)",
+     "formula": "see PF-CT_R2_calc_notes (calcs.py)",
+     "demand": 4300.0,
+     "capacity": 4300,
+     "unit": "mm ARL",
+     "util": 1.0,
+     "ok": true,
+     "note": "",
+     "carried": true
+    },
+    {
+     "id": "L1-J",
+     "title": "Jacking pad - bolster web local yielding (AISC J10.2), 2 webs PL10, lb 150",
+     "inputs": "P = 2·19,934 kg·g/4 pads",
+     "formula": "Rn/Ω = 2·Fy·tw·(5k+lb)/1.5, k=12",
+     "demand": 97.743,
+     "capacity": 700.0,
+     "unit": "kN",
+     "util": 0.14,
+     "ok": true,
+     "note": ""
+    },
+    {
+     "id": "L1-H1",
+     "title": "L-107 blind-bolt holes Ø26 in main-rail OUTER webs (24 holes, 6 stations) - fatigue stress range at the hole vs AISC App. 3 Cat D threshold",
+     "inputs": "hole Z1360 (57.6 mm off the NA), Ix loss 0.93 %",
+     "formula": "Δσ = 2·0.3·σ_service(y_hole)",
+     "demand": 10.3,
+     "capacity": 48.0,
+     "unit": "MPa",
+     "util": 0.215,
+     "ok": true,
+     "note": "APPROVED with conditions (edge/weld-toe rules, see Loco Bot review). C4 util with holes 0.262"
+    },
+    {
+     "id": "L1-H2",
+     "title": "L-107 RB-1 bracket: Hollo-Bolt HB16 per-bolt shear + tension, worst L7-B3 (Loco Bot bracket_load_table.csv, 3 g long.)",
+     "inputs": "V 15.4 kN, T 8.9 kN per bolt (L7-B3 / L7-B2)",
+     "formula": "linear V/30 + T/21 ≤ 1 (Lindapter SWL, conservative)",
+     "demand": 0.51,
+     "capacity": 1.0,
+     "unit": "interaction",
+     "util": 0.51,
+     "ok": true,
+     "note": "Web bearing 15.4 vs 72.6 kN (util 0.21); 28 of 30 holes approved, 2 end-sill holes rejected"
+    },
+    {
+     "id": "L1-H3",
+     "title": "L-107 SD-1 bolster hold-down HB16 in PL12 bolster top (4 holes) - uplift",
+     "inputs": "5.99 kN per bolt",
+     "formula": "T/21 kN SWL",
+     "demand": 5.99,
+     "capacity": 21.0,
+     "unit": "kN",
+     "util": 0.285,
+     "ok": true,
+     "note": "APPROVED if the holes move to Y±90 (≥ 50 mm from the rail-web weld toe). Optional 2 holes in the rear end sill (drawgear zone): REJECTED"
+    }
+   ],
+   "mat": [
+    "Main rails HSS12x6x3/8 ASTM A500 Gr C (Fy 345); sills, crossmembers HSS A500C",
+    "Bolster boxes, gussets, plates ASTM A36; drop box PL16 ASTM A572 Gr 50",
+    "Cab/hood: 10 ga (3.4) A1011 CS skin on HSS2x2x1/8 posts; roof purlins HSS3x2x1/8 @600 (C10g/h)"
+   ],
+   "welds": [
+    "Crossmembers to rails: 6 mm fillet all round (E70, D1.1 prequalified)",
+    "Drop box to rails/sill: 10 mm fillet all round, 100% VT + MT (C5w)",
+    "Bolster box seams: 6 mm fillet both sides; centre-plate ring 8 mm fillet all round"
+   ],
+   "bolts": [
+    "Ballast hold-down 4× M20 cl. 8.8 rods, 441 N·m (dry K 0.20) - C9c",
+    "Cab-to-frame: M16 cl. 8.8, 219 N·m (dry K 0.20), Nord-Lock washers"
+   ],
+   "fixes": [
+    "F13: ballast end wall PL12 → PL20 (C9b NG → C9a 0.58)",
+    "F04/C16: cab roof 3,700, purlins HSS3x2x1/8 (deflection)"
+   ],
+   "text": []
+  },
+  {
+   "no": 2,
+   "key": "trucks",
+   "title": "Trucks and suspension (powered, leading, tender/coach)",
+   "code": [
+    "AISC 360-22 (ASD); AWS D1.1",
+    "EN 13749:2021 load cases used as a method reference for truck frames (ASSUMED - PE to confirm)",
+    "SMI Handbook of Spring Design / EN 13906-1 for coil springs"
+   ],
+   "loads": [
+    "Vertical: sprung load ×1.3 service, ×2.0 exceptional (EN 13749 style)",
+    "Lateral 0.35 × axle load at flange",
+    "MS05 motor bracket on the transom: chain pull at the 430 bar strength basis (HPRV 380 + spike) + motor reaction torque (§4)"
+   ],
+   "calcs": [
+    {
+     "id": "C3a",
+     "title": "Coach truck transom 2×HSS10x4x1/4 upright, ×2.0",
+     "inputs": "P=46.5 kN at centre plate, span 1449 mm between sideframes",
+     "formula": "see PF-CT_R2_calc_notes (calcs.py)",
+     "demand": 65.9,
+     "capacity": 345.0,
+     "unit": "MPa",
+     "util": 0.19,
+     "ok": true,
+     "note": "",
+     "carried": true
+    },
+    {
+     "id": "C3b",
+     "title": "Coach truck sideframe PL25×170 A36, ×1.3",
+     "inputs": "Simply supported on axlebox springs 1,200 mm apart, transom load at centre",
+     "formula": "see PF-CT_R2_calc_notes (calcs.py)",
+     "demand": 80.0,
+     "capacity": 150.0,
+     "unit": "MPa",
+     "util": 0.53,
+     "ok": true,
+     "note": "",
+     "carried": true
+    },
+    {
+     "id": "C3b",
+     "title": "Coach truck sideframe PL25×170 A36, ×2.0",
+     "inputs": "Simply supported on axlebox springs 1,200 mm apart, transom load at centre",
+     "formula": "see PF-CT_R2_calc_notes (calcs.py)",
+     "demand": 123.1,
+     "capacity": 250.0,
+     "unit": "MPa",
+     "util": 0.49,
+     "ok": true,
+     "note": "",
+     "carried": true
+    },
+    {
+     "id": "T1-a",
+     "title": "Powered-truck inside sideframe (PL30 chords as truss-girder) bending, ×2.0",
+     "inputs": "centre load 35.1 kN ×2.0, span 1,550 between springs; chords PL30×110 / PL30×80 at 520 c/c",
+     "formula": "σ = M·c/I, M = P L/4",
+     "demand": 19.572,
+     "capacity": 250,
+     "unit": "MPa",
+     "util": 0.078,
+     "ok": true,
+     "note": ""
+    },
+    {
+     "id": "T1-b",
+     "title": "Powered-truck horn cheek PL30×(220 wide) shear from lateral 0.35×axle load",
+     "inputs": "Y = 0.35·42.9 kN",
+     "formula": "τ = 1.5 Y / (2 cheeks·30·220)",
+     "demand": 1.707,
+     "capacity": 100.0,
+     "unit": "MPa",
+     "util": 0.017,
+     "ok": true,
+     "note": ""
+    },
+    {
+     "id": "T1-c",
+     "title": "Transom PL16 box 300×200 + MS05 motor bracket (L4): weld 2×400×10 both sides, chain pull at 430 bar strength basis (HPRV 380 + spike) ×1.5 + reaction torque",
+     "inputs": "F 54.7 kN, M 10.93 kN·m, T_react 3203 N·m",
+     "formula": "f = √(σ_b² + τ²) (weld, line method)",
+     "demand": 30.579,
+     "capacity": 145.0,
+     "unit": "MPa",
+     "util": 0.211,
+     "ok": true,
+     "note": "Transom horizontal bending 7.5 MPa (negligible). E70, 0.3×483 = 145 MPa"
+    },
+    {
+     "id": "T1-d",
+     "title": "Primary spring envelope: coil spring solid height + travel vs 170 mm LT18 window",
+     "inputs": "static 17.5 kN/box, rate 701 N/mm for 25 mm static; coil d26 D112 n5.1 (5160 hot-wound)",
+     "formula": "H_loaded ≥ (n+2)·d + 25 bump + 10 clash",
+     "demand": 219.6,
+     "capacity": 170,
+     "unit": "mm",
+     "util": 1.292,
+     "ok": false,
+     "note": "FAILS for a coil: FIX - specify rubber-metal (chevron) primary springs, 1 per box, rate ~580 N/mm vert., ≥ 26 kN max, fits 170 mm (AWAIT supplier, e.g. LT35 quotes)"
+    },
+    {
+     "id": "T1-e",
+     "title": "Primary spring spec load: max (×1.8 dynamic) vs supplier rating to be met",
+     "inputs": "17.5 kN × 1.8",
+     "formula": "F_max = 1.8 F_static",
+     "demand": 31.554,
+     "capacity": 31.554,
+     "unit": "kN",
+     "util": 1.0,
+     "ok": true,
+     "note": "Specification row (util 1.0 by definition) - supplier must certify"
+    },
+    {
+     "id": "T1-f",
+     "title": "Traction-pin spherical plain bearing GE120ES-class (L4.2: the pin carries LONGITUDINAL load only → RADIAL rating) - required static rating at the 3 g truck case",
+     "inputs": "F = 144.2 kN (3 g × A-101 truck 4,900 kg at the pin)",
+     "formula": "C0_req = 2.0 · F (s0 2)",
+     "demand": 288.4,
+     "capacity": 288.4,
+     "unit": "kN",
+     "util": 1.0,
+     "ok": true,
+     "note": "AWAIT SKF GE120ES radial C0 ≥ value (do not use until confirmed); L4.1 GE100ES vertical-load row superseded - the centre pad carries the vertical load"
+    }
+   ],
+   "mat": [
+    "Sideframes PL30 A572 Gr 50 (raised from A36 for toughness/fatigue), transom PL16 A572-50",
+    "Primary springs: rubber-metal chevron, NR compound, steel interleaves (supplier)",
+    "Coach/tender trucks: sideframe PL25 A36, transom 2×HSS10x4x1/4 A500C (C3)"
+   ],
+   "welds": [
+    "Horn cheeks to chords: CJP groove (D1.1 prequal. TC-U4b) + 6 fillet cap, UT 100% (cyclic)",
+    "Transom box: 8 mm fillet both sides; L4 motor bracket PL25: 2×400×10 fillet both sides + 2 PL16 gussets (T1-c), MT",
+    "Grind toe of all cheek and transom welds (fatigue detail cat. C → B')"
+   ],
+   "bolts": [
+    "Axlebox keeper bolts M20 cl.10.9, 610 N·m (dry K 0.20), Nord-Lock",
+    "Pivot cap M24 cl.10.9, 1,055 N·m (dry K 0.20)",
+    "MS05 slide plate 4× M20 cl.10.9 in 50 mm slots, 610 N·m (dry K 0.20), Nord-Lock, after setting sag with the 2× M20 jack screws"
+   ],
+   "fixes": [
+    "Primary coil springs do not fit the 170 mm window (T1-d) → rubber-metal chevron springs specified",
+    "Sideframe material A36 → A572-50 for cyclic margin"
+   ],
+   "text": []
+  },
+  {
+   "no": 3,
+   "key": "axles",
+   "title": "Axles and bearings",
+   "code": [
+    "EN 13103-1:2017 (powered axle) method used as screen; AAR M-101 for steel grade reference",
+    "ISO 281:2007 bearing life; ISO 76 static rating",
+    "Goodman fatigue screen (Shigley) for the Ø150 pressed sprocket seat - NO hardening credit, fretting Kf 2.0 (Stress Bot)",
+    "Lamé thick-cylinder press fit, μ 0.12"
+   ],
+   "loads": [
+    "Vertical 1.25 Q, lateral 0.35 × axle load at flange radius (EN 13103 simplified)",
+    "Torque at 430 bar strength basis (HPRV 380 + spike) through the 3:1 chain (no efficiency credit) - structural peak; heaviest axle (L3-as-is REAR-2 + L4) for the seat",
+    "Hub force at the sprocket seat: chain pull + 3 g on the sprocket/hub mass",
+    "Bearing life: 20,000 h at 7.5 mph, P = 1.3 × (Fr + 2.5 Fa) with the chain-pull reaction on the HEAVIEST axle (Stress Bot #13)"
+   ],
+   "calcs": [
+    {
+     "id": "C7",
+     "title": "Loco (front driver, full ballast) axle wheel seat Ø140 bending (fatigue screen)",
+     "inputs": "Q=23.4 kN/wheel, ×1.25 vertical, Y=0.35×axle load on flange at r=725; bearing arm 176 mm",
+     "formula": "see PF-CT_R2_calc_notes (calcs.py)",
+     "demand": 63.2,
+     "capacity": 120.0,
+     "unit": "MPa",
+     "util": 0.53,
+     "ok": true,
+     "note": "Allowable 120 MPa = EN 13103 wheel-seat permissible for A1N-class steel used as a screen; axle steel 4140 Q&T or EA1N; engineer to run full EN 13103/AAR check.",
+     "carried": true
+    },
+    {
+     "id": "C7",
+     "title": "Coach axle wheel seat Ø110 bending (fatigue screen)",
+     "inputs": "Q=16.2 kN/wheel, ×1.25 vertical, Y=0.35×axle load on flange at r=300; bearing arm 169 mm",
+     "formula": "see PF-CT_R2_calc_notes (calcs.py)",
+     "demand": 52.2,
+     "capacity": 120.0,
+     "unit": "MPa",
+     "util": 0.44,
+     "ok": true,
+     "note": "Allowable 120 MPa = EN 13103 wheel-seat permissible for A1N-class steel used as a screen; axle steel 4140 Q&T or EA1N; engineer to run full EN 13103/AAR check.",
+     "carried": true
+    },
+    {
+     "id": "X1-a",
+     "title": "L4 driven axle Ø150 pressed sprocket seat - EN 13103 screen (bending + hub moment + torsion at 430 bar strength basis (HPRV 380 + spike), nominal von Mises)",
+     "inputs": "heaviest axle 49.12 kN; M_EN 17.28 + hub 3.03 kN·m",
+     "formula": "σ = 32M/πd³, τ = 16T/πd³",
+     "demand": 66.3,
+     "capacity": 110,
+     "unit": "MPa",
+     "util": 0.603,
+     "ok": true,
+     "note": "110 MPa = EN 13103 permissible for press-fitted seats, EA4T class (ASSUMED for 34CrNiMo6 - PE to confirm)"
+    },
+    {
+     "id": "X1-c",
+     "title": "Ø150 pressed seat fatigue WITHOUT hardening credit, fretting Kf 2.0, heaviest axle (Stress Bot) - Goodman n required 1.5 vs available",
+     "inputs": "M_seat 20.32 kN·m, T 5.91 kN·m",
+     "formula": "1/n = σa/Se + σm/Su; Se = 0.5Su·ka·kb·0.814/Kf",
+     "demand": 1.5,
+     "capacity": 1.57,
+     "unit": "n req/avail",
+     "util": 0.955,
+     "ok": true,
+     "note": "Ø140 gives n 1.37 (NG) → Ø150 raised seat on a Ø130 body. No keyway"
+    },
+    {
+     "id": "X1-d",
+     "title": "Seat-to-body shoulder Ø150/Ø130, r13 fillet (Kf 1.36) - Goodman n required 1.5 vs available",
+     "inputs": "σa 128.1 MPa, Se 207 MPa",
+     "formula": "1/n = σa/Se + σm/Su",
+     "demand": 1.5,
+     "capacity": 1.54,
+     "unit": "n req/avail",
+     "util": 0.974,
+     "ok": true,
+     "note": ""
+    },
+    {
+     "id": "X1-e",
+     "title": "Press fit Ø150 × 110, 0.12 mm min interference, μ 0.12 - slip torque vs 430 bar strength basis (HPRV 380 + spike) axle torque",
+     "inputs": "p_min 64.0 MPa",
+     "formula": "T = μ·p·π·d²·L/2",
+     "demand": 9.609,
+     "capacity": 29.9,
+     "unit": "kN·m",
+     "util": 0.321,
+     "ok": true,
+     "note": "SF 3.11; shrink fit ≤ 200 °C; oil-injection removal"
+    },
+    {
+     "id": "X1-f",
+     "title": "Pressed hub 4140 Ø240 hoop stress at max interference 0.17 mm vs 0.6·Sy",
+     "inputs": "p_max 85.3 MPa",
+     "formula": "σθ = p(1+c²)/(1-c²)",
+     "demand": 194.7,
+     "capacity": 393.0,
+     "unit": "MPa",
+     "util": 0.495,
+     "ok": true,
+     "note": ""
+    },
+    {
+     "id": "X1-g",
+     "title": "45T split ring to the Ø350 hub flange (L4.1): 12 × M16 cl.8.8 FITTED DIN 609/7968, PCD 300 - shear per bolt at 430 bar strength basis (HPRV 380 + spike) × 1.5",
+     "inputs": "T_HPRV/(0.15 m·12) × 1.5",
+     "formula": "Fv = 0.6·fub·A(Ø17)/γM2",
+     "demand": 8.01,
+     "capacity": 87.2,
+     "unit": "kN",
+     "util": 0.092,
+     "ok": true,
+     "note": "Bearing util 0.021; friction capacity 22.1 kN·m at 0.75 proof preload (HPRV util 0.43); tighten 219 N·m dry (153 lubricated), Nord-Lock, re-torque at 10 h"
+    },
+    {
+     "id": "X1-h",
+     "title": "Ø350 hub flange: bolt-hole edge distance (Ø17 reamed at PCD 300) vs 1.25·d0",
+     "inputs": "e = 175 - 150 = 25 mm",
+     "formula": "e ≥ 1.25 d0",
+     "demand": 21.25,
+     "capacity": 25,
+     "unit": "mm",
+     "util": 0.85,
+     "ok": true,
+     "note": ""
+    },
+    {
+     "id": "X1-b",
+     "title": "Loco inside axlebox bearing - required dynamic rating C, HEAVIEST axle + chain-pull reaction",
+     "inputs": "P = 58.5 kN; L 53.0 Mrev",
+     "formula": "C_req = P · L^(3/10)",
+     "demand": 192.4,
+     "capacity": 192.4,
+     "unit": "kN",
+     "util": 1.0,
+     "ok": true,
+     "note": "Spec row: select bearing with C ≥ 190 kN (L4.1 basis; computed 192.4, earlier ≥ 169 superseded) - supplier confirmation HELD"
+    }
+   ],
+   "mat": [
+    "Driven axles (L4): 34CrNiMo6 (EN 10083-3) Q&T Rm ≥ 1,000 MPa or EA4T, UT per ASTM A388, MT after machining; Ø150 raised sprocket seat fine-turned/ground Ra 0.8, r13 relief + undercut at the hub edge, NO keyway, no hardening credit taken",
+    "Coach/tender/lead axles Ø110 4140 Q&T",
+    "Bearings: sealed, grease Li-complex EP2; temperature sensor on driven axleboxes (ASSUMED)",
+    "Pressed hub AISI 4140 Q&T Ø240×110 with integral Ø350×20 flange (L4.1, 31.4 kg); 45T 120-2 split rim ring with bolting web (Source Bot rev 3) on 12 × M16 8.8 fitted DIN 609/7968, 219 N·m"
+   ],
+   "welds": [],
+   "bolts": [
+    "Axle end caps M16 cl.10.9, 3 per end, 313 N·m (dry K 0.20) + tab washer"
+   ],
+   "fixes": [
+    "Outboard Ø80 axle stub + DT5 key (C7k old NG, F03) eliminated (L2/L3); axle half-length 724 → 560",
+    "L3 Ø120 keyed reducer seat REMOVED with the Dodge reducer (L4)",
+    "L4: Ø150 pressed seat passes WITHOUT hardening credit on the heaviest axle (Stress Bot) - Ø140 would fail (n 1.37)"
+   ],
+   "text": []
+  },
+  {
+   "no": 4,
+   "key": "drive",
+   "title": "Drive (rev L4.1 Poclain MS05 2-speed + ANSI 120-2 chain 3:1, governed 6 mph) and hydraulics",
+   "code": [
+    "Poclain MS05 catalog + Application Engineering review (radial load/offset, shaft code 5 DIN 5480 W55x3x17, shift on the move, rail traction duty)",
+    "ANSI/ASME B29.1 roller chain; maker (Tsubaki) allowable-load and lubrication practice; ISO 4413 hydraulic fluid power; SAE J517 / ISO 18752 hoses",
+    "ASTM F2291 §6.6 (power/drive, speed control), F1193"
+   ],
+   "loads": [
+    "Start at 350 bar (H1P053 L35 pressure limiter) in 1st (468 cc); HPRV 380 bar (L4.2); the ~430 bar spike = STRENGTH basis (no efficiency credit)",
+    "Motor start η_hm 0.90 base, 0.80 pessimistic (AWAIT Poclain starting efficiency); chain 0.97",
+    "Adhesion: μ 0.25 dry / 0.15 wet / 0.25 sanded. Equal-torque cap 4·μ·lightest axle (parallel loop) GOVERNS - L4.1: no flow divider (Jahns HTO-4-35-FI rejected, D1-c)",
+    "Curve resistance Röckl 400/(R-20) N/kN; start need W·(0.0208 + grade + curve)",
+    "GOVERNED 6 mph by the pump stroke stop; independent 7 mph trip; hardware max 7.6 mph",
+    "Engine V3307 45.6 kW net continuous (40.5 kW at 43 °C); pump allowance 35 kW (34.5 kW with the compressor clutched)"
+   ],
+   "calcs": [
+    {
+     "id": "D1-a",
+     "title": "Start 2% tangent - DRY, equal torque (L4.1 electronic traction control, no divider): need vs min(TE 350 bar, 4·μ·Q_min)",
+     "inputs": "need 32.61 kN; TE 37.7 kN; lightest axle F2 37.11 kN",
+     "formula": "F = min(TE, 4·0.25·Q_min)",
+     "demand": 32.61,
+     "capacity": 37.1,
+     "unit": "kN",
+     "util": 0.879,
+     "ok": true,
+     "note": "Margin 1.14 (rule ≥ 1.10 on 2% by front-ballast sizing, 2 × 75.4 kg plates)"
+    },
+    {
+     "id": "D1-as",
+     "title": "Start 2% tangent - WET, SANDED (μ 0.25), equal torque",
+     "inputs": "sand MANDATORY on wet grades / curves < R100 (auto-sand on slip)",
+     "formula": "F = min(TE, 4·0.25·Q_min)",
+     "demand": 32.61,
+     "capacity": 37.1,
+     "unit": "kN",
+     "util": 0.879,
+     "ok": true,
+     "note": "Unsanded wet margin 0.68 (NG on 2% - operating rule: sand)"
+    },
+    {
+     "id": "D1-a2",
+     "title": "Start 2% + R100 uncompensated - DRY, equal torque (L4.1 electronic traction control, no divider): need vs min(TE 350 bar, 4·μ·Q_min)",
+     "inputs": "need 36.61 kN; TE 37.7 kN; lightest axle F2 37.11 kN",
+     "formula": "F = min(TE, 4·0.25·Q_min)",
+     "demand": 36.61,
+     "capacity": 37.1,
+     "unit": "kN",
+     "util": 0.987,
+     "ok": true,
+     "note": "Margin 1.01 (rule ≥ 1.10 on 2% by front-ballast sizing, 2 × 75.4 kg plates)"
+    },
+    {
+     "id": "D1-a2s",
+     "title": "Start 2% + R100 uncompensated - WET, SANDED (μ 0.25), equal torque",
+     "inputs": "sand MANDATORY on wet grades / curves < R100 (auto-sand on slip)",
+     "formula": "F = min(TE, 4·0.25·Q_min)",
+     "demand": 36.61,
+     "capacity": 37.1,
+     "unit": "kN",
+     "util": 0.987,
+     "ok": true,
+     "note": "Unsanded wet margin 0.61 (NG on 2% - operating rule: sand)"
+    },
+    {
+     "id": "D1-a3",
+     "title": "Start 0% + R50 - DRY, equal torque (L4.1 electronic traction control, no divider): need vs min(TE 350 bar, 4·μ·Q_min)",
+     "inputs": "need 27.29 kN; TE 37.7 kN; lightest axle F2 37.11 kN",
+     "formula": "F = min(TE, 4·0.25·Q_min)",
+     "demand": 27.29,
+     "capacity": 37.1,
+     "unit": "kN",
+     "util": 0.736,
+     "ok": true,
+     "note": "Margin 1.36 (rule ≥ 1.10 on 2% by front-ballast sizing, 2 × 75.4 kg plates)"
+    },
+    {
+     "id": "D1-a3s",
+     "title": "Start 0% + R50 - WET, SANDED (μ 0.25), equal torque",
+     "inputs": "sand MANDATORY on wet grades / curves < R100 (auto-sand on slip)",
+     "formula": "F = min(TE, 4·0.25·Q_min)",
+     "demand": 27.29,
+     "capacity": 37.1,
+     "unit": "kN",
+     "util": 0.736,
+     "ok": true,
+     "note": "Unsanded wet margin 0.82 (NG on 2% - operating rule: sand)"
+    },
+    {
+     "id": "D1-b",
+     "title": "2% start - pessimistic η_hm 0.80 (pending Poclain starting efficiency)",
+     "inputs": "same",
+     "formula": "F = 4·p·V/(2π)·0.80·0.97·i/r",
+     "demand": 32.61,
+     "capacity": 33.5,
+     "unit": "kN",
+     "util": 0.973,
+     "ok": true,
+     "note": "341 bar needed at η 0.80 vs 350 limiter"
+    },
+    {
+     "id": "D1-c",
+     "title": "REJECTED OPTION (L4.1): Jahns HTO-4-35-FI gear flow divider - TE with motor Δp capped by the 320 bar section rating vs 2% need",
+     "inputs": "motor Δp ≤ 290.0 bar; 17.4 L/min/section at 2 mph vs min 12-16",
+     "formula": "F = 4·Δp·V/(2π)·η·i/r",
+     "demand": 32.61,
+     "capacity": 31.2,
+     "unit": "kN",
+     "util": 1.045,
+     "ok": false,
+     "note": "Also below its minimum flow at every start, +160 kg, +heat → NOT FITTED; electronic traction control adopted (D1-m)"
+    },
+    {
+     "id": "D1-c2",
+     "title": "Divider at a start: flow per section at 0.5 mph in 1st vs catalog minimum 12 L/min (accuracy not defined below)",
+     "inputs": "4 × 468 cc × n / ηv / 4",
+     "formula": "Q = V·n/ηv",
+     "demand": 12.0,
+     "capacity": 4.4,
+     "unit": "L/min (min req/avail)",
+     "util": 2.727,
+     "ok": false,
+     "note": "Rejected-option row: the divider is not proven to lock the axles at start"
+    },
+    {
+     "id": "D1-d",
+     "title": "Single-wheelset spin at the HARD 2,600 rpm engine limit and the 42 cc stop (L4.2 high-idle check): standstill start in 1st (MS05 fail-to-1st; 2nd only through the PNOZ s30 ≥ 1.5 mph contact) vs MS05 HighFlow 1st max",
+     "inputs": "one axle takes the full pump flow, no-load η_v 0.99",
+     "formula": "n = Q·ηv/Vg",
+     "demand": 229,
+     "capacity": 370,
+     "unit": "rpm",
+     "util": 0.619,
+     "ok": true,
+     "note": "Rolling in 2nd (other axles turning): 378 rpm vs 430 (util 0.879). HighFlow valving REQUIRED (Classic 275 NG); traction control destrokes"
+    },
+    {
+     "id": "D1-m",
+     "title": "Electronic traction control (L4.1, replaces the divider): slip threshold vs ground-speed reference (3rd pickup on the unbraked pony)",
+     "inputs": "MS05 sensor per motor + pony reference",
+     "formula": "spec",
+     "demand": 1.1,
+     "capacity": 1.1,
+     "unit": "ratio",
+     "util": 1.0,
+     "ok": true,
+     "note": "Spec row: axle > v_ref × 1.10 or + 0.5 mph or > 0.5 m/s² → auto-sand, destroke to v_ref × 1.05 in ≤ 0.3 s (AWAIT Danfoss), ramp back; hill-start hold; rollback alarm. PLUS+1 software HELD vendor ask"
+    },
+    {
+     "id": "D1-m2",
+     "title": "2% start with traction control - DRY/SANDED equal-torque margin vs front-ballast rule 1.10",
+     "inputs": "lightest axle 37.11 kN, 2 × 75.4 kg plates",
+     "formula": "4·0.25·Q_min / need",
+     "demand": 1.1,
+     "capacity": 1.14,
+     "unit": "margin (rule/avail)",
+     "util": 0.965,
+     "ok": true,
+     "note": "Wet unsanded 0.68 → sand mandatory (unchanged rule)"
+    },
+    {
+     "id": "D1-u",
+     "title": "H1P053 input shaft G1 (14T 12/24) max torque vs V3307 engine peak 265 N·m (L4.1)",
+     "inputs": "continuous 164.1 N·m (35 kW at 2,200 + charge)",
+     "formula": "T_peak / T_max",
+     "demand": 265.0,
+     "capacity": 592.0,
+     "unit": "N·m",
+     "util": 0.448,
+     "ok": true,
+     "note": "AIE 'SAE B 13T' drive mates only G4 → engine coupling hub must be 14T 12/24 (AIE confirmation HELD); alternate G5 15T (370 N·m)"
+    },
+    {
+     "id": "D1-u2",
+     "title": "REJECTED OPTION: shaft G4 (13T 16/32, mates the AIE drive as quoted) vs engine peak 265 N·m",
+     "inputs": "Danfoss rated 180 / max 222 N·m",
+     "formula": "T_peak / T_max",
+     "demand": 265.0,
+     "capacity": 222.0,
+     "unit": "N·m",
+     "util": 1.194,
+     "ok": false,
+     "note": "G4 fails (1.19) → not used"
+    },
+    {
+     "id": "D1-e",
+     "title": "Pump H1P053 UNLIMITED input torque at the 430 bar STRENGTH basis (HPRV 380 + spike, L4.2) vs G1 input shaft rating 534 N·m",
+     "inputs": "430 bar × 53.8 cc/(2π·0.93)",
+     "formula": "T = Δp·Vg/(2π·η_hm)",
+     "demand": 395.9,
+     "capacity": 534,
+     "unit": "N·m",
+     "util": 0.741,
+     "ok": true,
+     "note": "35 kW cap (128.5 N·m) = anti-stall SOFTWARE; 34.5 kW while the compressor clutch is engaged"
+    },
+    {
+     "id": "D1-f",
+     "title": "6 mph GOVERNOR (L4.2): loaded speed in 2nd at the 42 cc stroke stop and the hard tamper-sealed 2,600 rpm engine limit",
+     "inputs": "4 × 234 cc, 15:45, Ø1,450",
+     "formula": "v = Q·η/(Vg·i)",
+     "demand": 5.96,
+     "capacity": 6.0,
+     "unit": "mph",
+     "util": 0.993,
+     "ok": true,
+     "note": "No-load at η_v 0.99: 6.47 mph (< 7 mph independent trip). Stop sealed at 42 cc; engine limit sealed by AIE (data HELD)"
+    },
+    {
+     "id": "D1-d2",
+     "title": "INFORMATION (double failure, not a design case): standstill spin in 2nd at 2,600 rpm / 42 cc, no-load, only if PLUS+1 AND the PNOZ s30 ≥ 1.5 mph contact both fail",
+     "inputs": "one axle, η_v 0.99",
+     "formula": "n = Q·ηv/Vg",
+     "demand": 457,
+     "capacity": 430,
+     "unit": "rpm",
+     "util": 1.063,
+     "ok": false,
+     "note": "INFO ONLY (util 1.064) - any single failure leaves the MS05 in 1st (fail-to-1st valves)"
+    },
+    {
+     "id": "D1-n",
+     "title": "Overspeed protection: independent 2-channel speed relay (SIL 2 / PL d class) vs governed 6 mph + 1 mph",
+     "inputs": "2 dedicated sensors on different trucks",
+     "formula": "spec",
+     "demand": 7.0,
+     "capacity": 7.0,
+     "unit": "mph",
+     "util": 1.0,
+     "ok": true,
+     "note": "Hard-wired to the BP exhaust valve + pump neutral (CCO), NOT through PLUS+1 (Stress Bot); tested daily (F770)"
+    },
+    {
+     "id": "D1-o",
+     "title": "MS05 pressure: HPRV 380 bar (L4.2 pressure revision, PL 350 unchanged, 30 bar spacing) vs motor max 450 bar",
+     "inputs": "",
+     "formula": "",
+     "demand": 380.0,
+     "capacity": 450,
+     "unit": "bar",
+     "util": 0.844,
+     "ok": true,
+     "note": ""
+    },
+    {
+     "id": "D1-g",
+     "title": "Main loop hose -16 (25.4 bore) velocity at the stop flow",
+     "inputs": "Q 103.7 L/min",
+     "formula": "v = Q/A",
+     "demand": 3.411,
+     "capacity": 4.6,
+     "unit": "m/s",
+     "util": 0.742,
+     "ok": true,
+     "note": "L4.2: -16 loop hose, code 62 / 24° S25 ends, whip restraints ≥ 420 bar WORKING (maker 420), ISO 18752 / SAE J517 impulse rating (ISO 18752 / ISO 6605, 133 % of WP) covering the ~430 bar transient; strength cases checked at 430 bar; Danfoss overshoot = information only"
+    },
+    {
+     "id": "D1-h",
+     "title": "Branch hose -10 (15.9 bore) per motor",
+     "inputs": "Q 25.9 L/min",
+     "formula": "v = Q/A",
+     "demand": 2.176,
+     "capacity": 4.6,
+     "unit": "m/s",
+     "util": 0.473,
+     "ok": true,
+     "note": ""
+    },
+    {
+     "id": "D1-i",
+     "title": "Hydraulic oil cooler duty vs SPEC ≥ 14 kW at 43 °C OUTSIDE air (tender left wall, own louvre)",
+     "inputs": "35 kW, η_pump × η_motor × chain",
+     "formula": "Q = (1-η)·P",
+     "demand": 9.0,
+     "capacity": 14.0,
+     "unit": "kW",
+     "util": 0.643,
+     "ok": true,
+     "note": "AWAIT cooler supplier curve at 43 °C; electric fan from the genset charger"
+    },
+    {
+     "id": "D1-t",
+     "title": "Hot-day engine power: traction allowance + fan/aux with the compressor clutched vs V3307 net at 43 °C",
+     "inputs": "compressor off 37.3 kW",
+     "formula": "demand / P_43C",
+     "demand": 40.5,
+     "capacity": 40.5,
+     "unit": "kW",
+     "util": 1.0,
+     "ok": true,
+     "note": "compressor electric clutch engages only at low traction demand or MR < 7.0 bar; anti-stall map drops to 34.5 kW while clutched; hydraulic cooler fan electric 24 V from the genset charger (not on the engine/alternator)"
+    },
+    {
+     "id": "D1-j",
+     "title": "2% hold speed (power-limited, best displacement, dp ≤ 350; 2nd only ≤ 300 bar) vs 2 mph target (ASSUMED)",
+     "inputs": "35 kW × 0.855 × 0.92 × 0.95 × chain 0.97",
+     "formula": "v = P_rim/R",
+     "demand": 2.0,
+     "capacity": 2.69,
+     "unit": "mph",
+     "util": 0.743,
+     "ok": true,
+     "note": "Hot day 2.65 mph"
+    },
+    {
+     "id": "D1-qA",
+     "title": "Route Alt A: worst START anywhere on the loop incl. curve resistance (Röckl 400/(R-20) N/kN, train-length averaged) vs adhesion-limited TE (L4.1 equal-torque dry cap 4·0.25·Q_min)",
+     "inputs": "equivalent grade 2.0% (AREMA 0.8 lb/ton/° cross-check 2.199% → 33.06 kN)",
+     "formula": "F = W·(0.0208 + i + w_c) (× W_L4.1/W_RT1)",
+     "demand": 32.61,
+     "capacity": 37.11,
+     "unit": "kN",
+     "util": 0.879,
+     "ok": true,
+     "note": "Wet: sand μ_req 0.208 (≤ 0.25 sanded). Hold incl. curves 2.72 mph (AREMA 2.52) vs 2 mph - curve compensation in the redline keeps grade + curve ≤ 2.0%"
+    },
+    {
+     "id": "D1-qB",
+     "title": "Route Alt B: worst START anywhere on the loop incl. curve resistance (Röckl 400/(R-20) N/kN, train-length averaged) vs adhesion-limited TE (L4.1 equal-torque dry cap 4·0.25·Q_min)",
+     "inputs": "equivalent grade 2.0% (AREMA 0.8 lb/ton/° cross-check 2.199% → 33.06 kN)",
+     "formula": "F = W·(0.0208 + i + w_c) (× W_L4.1/W_RT1)",
+     "demand": 32.61,
+     "capacity": 37.11,
+     "unit": "kN",
+     "util": 0.879,
+     "ok": true,
+     "note": "Wet: sand μ_req 0.208 (≤ 0.25 sanded). Hold incl. curves 2.72 mph (AREMA 2.52) vs 2 mph - curve compensation in the redline keeps grade + curve ≤ 2.0%"
+    },
+    {
+     "id": "D1-qC",
+     "title": "Route Alt C: worst START anywhere on the loop incl. curve resistance (Röckl 400/(R-20) N/kN, train-length averaged) vs adhesion-limited TE (L4.1 equal-torque dry cap 4·0.25·Q_min)",
+     "inputs": "equivalent grade 2.0% (AREMA 0.8 lb/ton/° cross-check 2.185% → 32.96 kN)",
+     "formula": "F = W·(0.0208 + i + w_c) (× W_L4.1/W_RT1)",
+     "demand": 32.61,
+     "capacity": 37.11,
+     "unit": "kN",
+     "util": 0.879,
+     "ok": true,
+     "note": "Wet: sand μ_req 0.208 (≤ 0.25 sanded). Hold incl. curves 2.72 mph (AREMA 2.53) vs 2 mph - curve compensation in the redline keeps grade + curve ≤ 2.0%"
+    },
+    {
+     "id": "D1-qD",
+     "title": "Route Alt D: worst START anywhere on the loop incl. curve resistance (Röckl 400/(R-20) N/kN, train-length averaged) vs adhesion-limited TE (L4.1 equal-torque dry cap 4·0.25·Q_min)",
+     "inputs": "equivalent grade 2.0% (AREMA 0.8 lb/ton/° cross-check 2.199% → 33.06 kN)",
+     "formula": "F = W·(0.0208 + i + w_c) (× W_L4.1/W_RT1)",
+     "demand": 32.61,
+     "capacity": 37.11,
+     "unit": "kN",
+     "util": 0.879,
+     "ok": true,
+     "note": "Wet: sand μ_req 0.208 (≤ 0.25 sanded). Hold incl. curves 2.72 mph (AREMA 2.52) vs 2 mph - curve compensation in the redline keeps grade + curve ≤ 2.0%"
+    },
+    {
+     "id": "D1-r",
+     "title": "R50 (Alt C intent) start on 2% WITH curve compensation 1.33% (grade on curve 0.67%) vs adhesion-limited TE",
+     "inputs": "w_c(R50) Röckl 13.33‰, AREMA 13.97‰",
+     "formula": "F = W·(0.0208 + i + w_c) (× W_L4.1/W_RT1)",
+     "demand": 32.61,
+     "capacity": 37.11,
+     "unit": "kN",
+     "util": 0.879,
+     "ok": true,
+     "note": "UNCOMPENSATED R50 at 2.0% needs 43.3 kN > 37.1 kN adhesion (NG) - Alt C must compensate R50 curves by ≥ 1.33% (grade ≤ 0.67% on the curve)"
+    },
+    {
+     "id": "D1-s",
+     "title": "R100 start on 2% WITHOUT compensation (sensitivity, if the track crew does not compensate) vs adhesion-limited TE",
+     "inputs": "w_c(R100) Röckl 5.0‰ (AREMA 6.99‰ → 36.93 kN)",
+     "formula": "F = W·(0.0208 + i + w_c), L4.1 W (drive_L4 case 2% + R100 uncompensated)",
+     "demand": 36.61,
+     "capacity": 37.11,
+     "unit": "kN",
+     "util": 0.987,
+     "ok": true,
+     "note": "SENSITIVITY only (basis: curves compensated). Hold 2.27 mph. Recommend compensation 0.04%/° rule ≈ 0.5% on R100, 1.33% on R50, 1.6% on R45"
+    },
+    {
+     "id": "D2-a",
+     "title": "Chain Tsubaki RS120-2: pull at 430 bar strength basis (HPRV 380 + spike) vs maker allowable load",
+     "inputs": "T_axle 9,609 N·m on PD 546.2 mm",
+     "formula": "F = 2T/PD",
+     "demand": 35.2,
+     "capacity": 51.7,
+     "unit": "kN",
+     "util": 0.681,
+     "ok": true,
+     "note": "SF on ultimate 7.3 (HPRV), 7.9 (heaviest-axle slip)"
+    },
+    {
+     "id": "D2-b",
+     "title": "Chain: continuous 2% running pull vs allowable",
+     "inputs": "",
+     "formula": "",
+     "demand": 13.3,
+     "capacity": 51.7,
+     "unit": "kN",
+     "util": 0.257,
+     "ok": true,
+     "note": ""
+    },
+    {
+     "id": "D2-c",
+     "title": "Motor shaft code 5 (W55x3x17) radial load at 400 bar vs catalog dynamic radial (sprocket at offset ≤ 0)",
+     "inputs": "chart p.20",
+     "formula": "",
+     "demand": 35.2,
+     "capacity": 60.0,
+     "unit": "kN",
+     "util": 0.587,
+     "ok": true,
+     "note": "AWAIT Poclain AE for offset and shift-on-the-move"
+    },
+    {
+     "id": "D2-d",
+     "title": "Motor bearing life at continuous 2% running vs 20,000 h at 6 mph",
+     "inputs": "L ∝ F^-10/3 from 10 Mrev at 30 kN",
+     "formula": "",
+     "demand": 127.2,
+     "capacity": 152.0,
+     "unit": "Mrev",
+     "util": 0.837,
+     "ok": true,
+     "note": ""
+    },
+    {
+     "id": "D2-e",
+     "title": "Chain wear take-up: centre growth at 3% elongation vs slotted-mount slide",
+     "inputs": "C 417.6 → 451.4 mm",
+     "formula": "",
+     "demand": 33.8,
+     "capacity": 37.0,
+     "unit": "mm",
+     "util": 0.914,
+     "ok": true,
+     "note": "Replace the chain at 2% (3% absolute)"
+    },
+    {
+     "id": "D2-f",
+     "title": "L4.1 corrected chain slack (dL = 2·span/C·dC, Stress Bot r2): axle bump to tight chain at sag 17 mm, chain line horizontal, vs the ±22 mm hard bump stop - NO IDLER",
+     "inputs": "span 376.1 mm, dL/dC 1.801; 3 mm primary shim: 28.0 mm",
+     "formula": "z_tight from √((√(C²+z0²)+S/(dL/dC))² − C²) − z0",
+     "demand": 22.0,
+     "capacity": 30.8,
+     "unit": "mm",
+     "util": 0.714,
+     "ok": true,
+     "note": "Re-shim procedure: wheel-wear height at the centre plate/side bearers only; primary re-shim ≤ 3 mm then motor-slide reset at ride height (chain line horizontal ±3). L4 row used dL = dC (wrong)."
+    },
+    {
+     "id": "D2-g",
+     "title": "Oil-bath case radial clearance at 3% wear + ±25 travel vs 15 mm minimum",
+     "inputs": "case inner r 332.7 mm vs OD/2 284.5 + ride-out 8.2 + 25",
+     "formula": "",
+     "demand": 15.0,
+     "capacity": 15.0,
+     "unit": "mm",
+     "util": 1.0,
+     "ok": true,
+     "note": "X -336..C_new+158 from the axle, Z axle +/-336 (was -310..C+125, +/-305 - FAILED at 3 %: the 15T would have hit the end wall)"
+    },
+    {
+     "id": "D2-g2",
+     "title": "Oil-bath case MOTOR end clearance at 3% wear with the Martin 15T OD 202 (L4.1; case sized on ~206) vs 15 mm",
+     "inputs": "OD 202.0 (L4 206.1)",
+     "formula": "",
+     "demand": 15.0,
+     "capacity": 17.1,
+     "unit": "mm",
+     "util": 0.877,
+     "ok": true,
+     "note": "case unchanged; 15T to sideframe chord 85 mm (lateral)"
+    },
+    {
+     "id": "D4-ri",
+     "title": "L4.2 trip run-in (Stress Bot r3): worst loco-tender buff over CCO overspeed / 24 V loss (≥ 3 s swash ramp, MS05 fail-to-1st), FLOAT entry with the bypass failed closed, accidental T04 and a T04 line burst downstream of the choke (Ø1.2 port orifices, 2-channel vent switch) vs the R80 loco-LT allowance",
+     "inputs": "Stress Bot s4 lumped-mass model, k 20/100 kN/mm, 1.0 mm play; tender TB-3.13d 8,706.5 kg, CG [2422.7, 11.3, 1110.4], brake 5.845 kN (0.671 m/s²); hydraulic trip force at 400 bar kept (above the HPRV 380 setting; the ~430 bar spike is a ms-scale transient); L4 as-was 67.0 kN",
+     "formula": "max buff over all design cases",
+     "demand": 25.3,
+     "capacity": 33.2,
+     "unit": "kN",
+     "util": 0.762,
+     "ok": true,
+     "note": "Double failures (information only): 24 V loss + bypass failed closed 29.7 kN; T04 burst + both vent channels failed 34.3 kN. Direction change only at zero speed + ≥ 1 s ramp."
+    },
+    {
+     "id": "D4-wt",
+     "title": "L4.2 forward 2 % start, sand on BOTH trucks (every driven axle, direction of travel), Ø120 traction pin (h 0.65 m) + laminated elastomer centre pad / PTFE yaw slide (pad share 0.083, μ ≤ 0.08) - margin rule ≥ 1.10",
+     "inputs": "worn Ø1430 margin 1.112; degraded (trailing nozzles failed, carry-over μ 0.20) 1.101 new / 1.083 worn; rigid steel plate at μ 0.08 would give 1.079",
+     "formula": "4·μ·min(axle with transfer) / need",
+     "demand": 0.899,
+     "capacity": 0.909,
+     "unit": "need/cap",
+     "util": 0.989,
+     "ok": true,
+     "note": "margin 1.112 (worn, governing) vs 1.10"
+    },
+    {
+     "id": "D4-wr",
+     "title": "L4.2 reverse full-train start, sand on both trucks: OPERATING RULE grade ≤ 1.2 % (from the calc: 1.10 margin at 1.39 % new / 1.35 % worn; reverse pull cap of record 28.9 kN with 1.10: 1.21 % - GOVERNS)",
+     "inputs": "reverse 2 % margin 0.899 (< 1.10: the lightest axle F2 is already sanded) - covered by the rule; PLUS+1 reverse pull cap 28.9 kN (supersedes 29.4)",
+     "formula": "g_rule ≤ min(g(1.10, worn), g(1.10, 28.9 kN cap))",
+     "demand": 1.2,
+     "capacity": 1.21,
+     "unit": "%",
+     "util": 0.992,
+     "ok": true,
+     "note": "Track is LEVEL (Layout F, 0.0 %, Rail Bot §5b FINAL); 2 % checked as the conservative vehicle case"
+    },
+    {
+     "id": "D4-hf",
+     "title": "L4.1 hub shrink fit 0.15-0.20 (oil pressing deleted): slip torque, hub 30 K hot, 9.6 µm smoothing, removal groove deducted vs 1.5 × HPRV axle torque",
+     "inputs": "δ_eff 0.0887 mm, μ 0.12",
+     "formula": "T = π d² L μ p / 2",
+     "demand": 14.397,
+     "capacity": 16.7,
+     "unit": "kN·m",
+     "util": 0.862,
+     "ok": true,
+     "note": "SF at HPRV 1.74 (≥ 1.5); hoop 195 MPa < 393"
+    },
+    {
+     "id": "D4-sp",
+     "title": "L4.2 HIGH-IDLE CHECK: top speed at the HARD tamper-sealed 2,600 rpm engine limit with the 42 cc stop, no-load η_v 0.99 vs the 7 mph independent trip",
+     "inputs": "2nd 234 cc, 15:45, Ø1,450; loaded 5.96 mph",
+     "formula": "v = Q·η/(Vg·i)",
+     "demand": 6.47,
+     "capacity": 7.0,
+     "unit": "mph",
+     "util": 0.924,
+     "ok": true,
+     "note": "The L4.1 2,850 rpm high-idle case no longer exists (engine cannot exceed 2,600); AIE to set and seal (HELD)"
+    },
+    {
+     "id": "D4-ch",
+     "title": "L4.2 chain reversal with the zero-speed interlock + ≥ 1 s ramp (impact ~1.3) at the 430 bar STRENGTH basis vs ANSI 120-2 allowable",
+     "inputs": "Stress Bot r2 #3; pull at 430 bar 35.2 kN",
+     "formula": "F = 1.3·F_430",
+     "demand": 45.8,
+     "capacity": 51.7,
+     "unit": "kN",
+     "util": 0.886,
+     "ok": true,
+     "note": "breaking-strength certificate: see D4-mb"
+    },
+    {
+     "id": "D4-mb",
+     "title": "L4.2 chain minimum breaking load at the 430 bar STRENGTH basis: same factor as the old ≥ 302.5 kN at HPRV 400 → required MBL vs the SPECIFIED certified MBL (ANSI 120-2, mill certificate per lot)",
+     "inputs": "ANSI B29.1 duplex 302.5 kN at HPRV 400 (pull 32.7 kN) -> factor 9.24; pull at 430 bar 35.2 kN",
+     "formula": "MBL_req = factor · pull_430",
+     "demand": 325.2,
+     "capacity": 326,
+     "unit": "kN",
+     "util": 0.998,
+     "ok": true,
+     "note": "SPEC ≥ 326 kN certified. Standard Tsubaki RS120-2 (296 kN) does NOT meet it at 430 (util 1.099, see D4-mb2; it passes at HPRV 380: 287.4 kN, util 0.971) - higher-strength 120-2 = VENDOR BATCH, or PE acceptance of SF 8.41 on ultimate at the spike"
+    },
+    {
+     "id": "D4-mb2",
+     "title": "INFORMATION: standard Tsubaki RS120-2 published 296 kN vs the same-factor MBL at the 430 bar strength basis",
+     "inputs": "",
+     "formula": "",
+     "demand": 325.2,
+     "capacity": 296.0,
+     "unit": "kN",
+     "util": 1.099,
+     "ok": false,
+     "note": "NOT ACCEPTED as standard - see D4-mb (passes at HPRV 380, 287.4 kN)"
+    },
+    {
+     "id": "L41-sw",
+     "title": "Loco Bot (c): L-108 saddle web PL10 out-of-plane at 3 g longitudinal WITH the 100×70 rivnut windows - FIX: 8 × PL10 45×150 gussets per saddle at Y±535/±685",
+     "inputs": "as detailed 1101 MPa (NG, util 5.9)",
+     "formula": "σ = F·h / S",
+     "demand": 52,
+     "capacity": 187,
+     "unit": "MPa",
+     "util": 0.278,
+     "ok": true,
+     "note": "+12.7 kg (6 saddles) in the ledger"
+    },
+    {
+     "id": "L41-s1",
+     "title": "Loco Bot (e): SD-1 bolster cap re-cut inboard to Y±50, HB16 at Y±90 (edge 40 ≥ 1.5 d0), cap bending under 8.05 kN uplift (LRFD)",
+     "inputs": "PL10 × 200, lever 73.8",
+     "formula": "1.6 M / φ Fy Z",
+     "demand": 0.95,
+     "capacity": 1.125,
+     "unit": "kN·m",
+     "util": 0.845,
+     "ok": true,
+     "note": ""
+    },
+    {
+     "id": "L41-s2",
+     "title": "Loco Bot (d): SD-2 end-sill hold-down by 4 clamp plates PL16 80×120 under the sill flange (no sill holes) - clamp plate bending",
+     "inputs": "uplift 8.05 kN, 2 clamps/side",
+     "formula": "σ = M/S",
+     "demand": 17.7,
+     "capacity": 150,
+     "unit": "MPa",
+     "util": 0.118,
+     "ok": true,
+     "note": "M16 8.8 4.03 kN vs 62.8 kN"
+    },
+    {
+     "id": "L41-cb",
+     "title": "Loco Bot (f): ballast clamp bars FB100×12×560 for 1 plate (75.4 kg) per side pocket - 2 g uplift + 3 kN rattle preload; plate located by the pocket walls",
+     "inputs": "4 bars, 2 per plate",
+     "formula": "M = F/4·(L − b/2)",
+     "demand": 110,
+     "capacity": 187,
+     "unit": "MPa",
+     "util": 0.588,
+     "ok": true,
+     "note": "rod nuts 30 N·m + Nord-Lock (not 441)"
+    },
+    {
+     "id": "L41-w1",
+     "title": "Ø1430 driver condemning limit - governed speed (42 cc stop, sealed 2,600 rpm) vs 6 mph",
+     "inputs": "v ∝ D: 5.96 × 1430/1450",
+     "formula": "v ≤ 6.0",
+     "demand": 5.88,
+     "capacity": 6.0,
+     "unit": "mph",
+     "util": 0.98,
+     "ok": true,
+     "note": "trip set in axle rpm for Ø1450 → 6.90 mph at Ø1430 (safe side)"
+    },
+    {
+     "id": "L41-w2",
+     "title": "Steering 7 (b): 2 % start at Ø1430 - forward equal-torque cap with transfer (worn tread −341 kg) vs need",
+     "inputs": "margin 1.128",
+     "formula": "need / cap",
+     "demand": 0.887,
+     "capacity": 0.909,
+     "unit": "-",
+     "util": 0.975,
+     "ok": true,
+     "note": "margin ≥ 1.10 basis; TE at 350 bar 38.2 kN"
+    },
+    {
+     "id": "L41-w3",
+     "title": "Reverse full-train start at Ø1430 (L4.2, sand both trucks, centre pad) - rule grade vs worn-wheel 1.10 grade",
+     "inputs": "worn grade for 1.10: 1.35 %",
+     "formula": "g_rule ≤ g_cap",
+     "demand": 1.2,
+     "capacity": 1.35,
+     "unit": "%",
+     "util": 0.889,
+     "ok": true,
+     "note": "operating rule 1.2 % (governed by the 28.9 kN reverse pull cap; L4.1 1.55 superseded)"
+    },
+    {
+     "id": "L41-w4",
+     "title": "L4.2 FINAL flange-height limit (Loco Bot E7 / Rail Bot §5b): WITHDRAW at 28 mm train-wide, re-profile ≤ 27; joint rail-head vertical wear ≤ 2 mm (rail height condemn ≤ 86.9 mm at bolt positions) - worn flange vs ASCE 40 joint-bolt head top",
+     "inputs": "head top 32.5 mm below TOR new − 2 mm wear = 30.5; 30 mm limit WITHDRAWN; 6 mm joint limit WITHDRAWN (applies only > 1 m from rail ends)",
+     "formula": "h_f ≤ head top − joint wear",
+     "demand": 28.0,
+     "capacity": 30.5,
+     "unit": "mm",
+     "util": 0.918,
+     "ok": true,
+     "note": "clear 2.5 mm at both limits; bolt protrusion ≤ 10 mm measured at install (worst 9.1 with flat bars ≤ 12.0 + 3/4 in B18.10 oval-neck H ≤ 12.7); pony 22 mm to the flangeway; frog flangeway ≥ 36 mm"
+    },
+    {
+     "id": "L41-w5",
+     "title": "Steering 7 (b): lower outline at Ø1430 (all truck items −10 mm)",
+     "inputs": "min 255 → 245 ATOR",
+     "formula": "150 ≤ clear",
+     "demand": 150,
+     "capacity": 245,
+     "unit": "mm",
+     "util": 0.612,
+     "ok": true,
+     "note": ""
+    },
+    {
+     "id": "L41-t1",
+     "title": "L4.2 T04 apply delay (choke Ø2.4 + 1.0 L damping accumulator; Ø1.2 orifice in each T04 port) - required ≥ 1.0 s for the run-in result",
+     "inputs": "V 0.18 L at Δp 17.5 bar",
+     "formula": "t = V / Q_orifice",
+     "demand": 1.0,
+     "capacity": 1.01,
+     "unit": "s",
+     "util": 0.99,
+     "ok": true,
+     "note": "rise 4.21 s ≥ 2.0; release 6.20 s vs the separate T04 target 8 s; verify by timed commissioning test"
+    },
+    {
+     "id": "L41-t2",
+     "title": "Steering 7 (a): manual-release accumulator - required V0 for 2 releases (2 × 0.58 L, 22 → 15 bar, pre-charge 13.5, adiabatic) vs 6.0 L",
+     "inputs": "T04 volume 4 × 0.10 L ASSUMED",
+     "formula": "V0 = ΔV / [(p0/p1)^(1/n) − (p0/p2)^(1/n)]",
+     "demand": 5.45,
+     "capacity": 6.0,
+     "unit": "L",
+     "util": 0.908,
+     "ok": true,
+     "note": ""
+    },
+    {
+     "id": "L41-b1",
+     "title": "Steering 8/9: LOCO brake release time WORST CASE (8 × 1.0 L calipers, 0 → 5.1 bar g, supply drooped to 5.6 bar, isothermal, + 1.0 s signal/relay ASSUMED) at the specified min total conductance C 3.0",
+     "inputs": "Loco Bot 3.7 s at C 2.0 (1.8-7.3); this model 3.68 s fill at C 2.0",
+     "formula": "ISO 6358 fill",
+     "demand": 3.46,
+     "capacity": 4.0,
+     "unit": "s",
+     "util": 0.865,
+     "ok": true,
+     "note": "C required ≥ 2.50; design budget C 5.26 → 2.40 s; commissioning timed test"
+    },
+    {
+     "id": "L41-b2",
+     "title": "Steering 8/9: release-path total sonic conductance - spec minimum vs parts budget (regulator 10 + relay 8 + 3/4 in trunk 8 in series, 4 × 1/2 in branches C 2.0 in parallel)",
+     "inputs": "C_tot = (ΣC_i^-3)^(-1/3)",
+     "formula": "C_spec ≤ C_budget",
+     "demand": 3.0,
+     "capacity": 5.26,
+     "unit": "dm³/(s·bar)",
+     "util": 0.57,
+     "ok": true,
+     "note": "Loco Bot line lengths / fittings to confirm trunk and branch C"
+    },
+    {
+     "id": "L41-b3",
+     "title": "Steering 8/9: MR after one loco release from cut-in (7.5 − 0.98 bar) vs regulator set 6.0 + 0.4 bar regulating head",
+     "inputs": "48 L free air per release; recharge 17.8 s at 14 cfm",
+     "formula": "p_MR ≥ p_set + 0.4",
+     "demand": 6.4,
+     "capacity": 6.52,
+     "unit": "bar",
+     "util": 0.982,
+     "ok": true,
+     "note": ""
+    },
+    {
+     "id": "L41-b4",
+     "title": "Steering 8/9: train steady brake-air demand (14.0 L calipers; 84 L free air per release) vs IR 2340 compressor 14 cfm",
+     "inputs": "3.55 cfm steady",
+     "formula": "demand / FAD",
+     "demand": 3.55,
+     "capacity": 14.0,
+     "unit": "cfm",
+     "util": 0.254,
+     "ok": true,
+     "note": "duty 25 %%"
+    },
+    {
+     "id": "L41-b5",
+     "title": "TB-3.13d tender brake (8,706.5 kg; calipers unchanged, 5.845 kN, mixed Coremo D 2N sets, pad wear limit 5.5 mm) vs loco 0.690 - decel mismatch vs 0.03 m/s² run-in allowance",
+     "inputs": "tender 5.845/8.7001 = 0.672 / loco 0.690",
+     "formula": "abs(Δa)",
+     "demand": 0.018,
+     "capacity": 0.03,
+     "unit": "m/s²",
+     "util": 0.6,
+     "ok": true,
+     "note": "tender softer: buff run-in covered by D4-ri"
+    },
+    {
+     "id": "L41-e1",
+     "title": "ERV roof pod: static allocation 3,450 ARL + kinematic allowance (bounce/roll/lateral, ASSUMED 150 mm) vs K-401 overhead 4,300",
+     "inputs": "static 3,450",
+     "formula": "z_kin ≤ 4,300",
+     "demand": 3600,
+     "capacity": 4300,
+     "unit": "mm",
+     "util": 0.837,
+     "ok": true,
+     "note": "3,450 is a STATIC allocation; kinematic envelope checked against K-401"
+    },
+    {
+     "id": "L42-dn",
+     "title": "Descent 2 % (FLOAT mode: loop bypass + ≥ 3 s swash ramp) - FRICTION brakes sized for the full descent with the loaded train: descent force vs SERVICE friction force",
+     "inputs": "train 81513 kg; shares loco 0.245 / tender 0.104 / coaches 0.651",
+     "formula": "F = m·g·(i - r)",
+     "demand": 15.99,
+     "capacity": 39.35,
+     "unit": "kN",
+     "util": 0.406,
+     "ok": true,
+     "note": "Disc heat: continuous descent limit 2398 m (coaches govern, ΔT 250 K adiabatic) vs Layout F dead level; cooler in float 3.3 of 14 kW (util 0.24) - not overloaded"
+    },
+    {
+     "id": "L42-dc",
+     "title": "Float-mode cooler load vs cooler rating",
+     "inputs": "",
+     "formula": "",
+     "demand": 3.3,
+     "capacity": 14.0,
+     "unit": "kW",
+     "util": 0.236,
+     "ok": true,
+     "note": "bypass circulation only"
+    },
+    {
+     "id": "L42-t1",
+     "title": "T04 release time (normal, charge feed through the CDK 20 bar reducer, Ø2.4 choke + 1.0 L damping accumulator + Ø1.2 port orifices) vs the SEPARATE T04 release target",
+     "inputs": "delay 1.01 s + rise 4.21 s",
+     "formula": "orifice/accumulator model, Cd 0.62",
+     "demand": 6.2,
+     "capacity": 8.0,
+     "unit": "s",
+     "util": 0.775,
+     "ok": true,
+     "note": "MET. Air (friction) release ≤ 4 s is a separate target - L42-ar"
+    },
+    {
+     "id": "L42-t2",
+     "title": "T04 line burst DOWNSTREAM of the choke (hard lines / 4SH; Ø1.2 port orifice per motor): loco-tender run-in vs the R80 allowance",
+     "inputs": "rise to 90 % in 3.32 s",
+     "formula": "Stress Bot s4",
+     "demand": 25.3,
+     "capacity": 33.2,
+     "unit": "kN",
+     "util": 0.762,
+     "ok": true,
+     "note": "2-channel vent switch; accidental T04 (BP first) 23.8 kN"
+    },
+    {
+     "id": "L42-t3",
+     "title": "T04 charge-feed pressure at LOW IDLE (charge 21 bar min ASSUMED, CDK 20 bar) vs T04 full release 15 bar (ASSUMED)",
+     "inputs": "",
+     "formula": "",
+     "demand": 15.0,
+     "capacity": 20.0,
+     "unit": "bar",
+     "util": 0.75,
+     "ok": true,
+     "note": "margin 1.33; loop shuttle DELETED - no loop-pressure part in the T04 circuit"
+    },
+    {
+     "id": "L42-t4",
+     "title": "Tow / engine-off T04 release: 6.0 L bladder accumulator (pre-charge 13.5 bar) + hand pump - accumulator volume for 2 releases",
+     "inputs": "",
+     "formula": "Boyle",
+     "demand": 5.45,
+     "capacity": 6.0,
+     "unit": "L",
+     "util": 0.908,
+     "ok": true,
+     "note": "97 hand-pump strokes for a full recharge"
+    },
+    {
+     "id": "L42-p1",
+     "title": "Traction pin Ø120 4140 Q&T - service: 1.3 × TE at the 430 bar strength basis (0.6 Fy)",
+     "inputs": "lever 0.46 m ASSUMED",
+     "formula": "σ = M/Z",
+     "demand": 82,
+     "capacity": 393,
+     "unit": "MPa",
+     "util": 0.209,
+     "ok": true,
+     "note": "GE120ES-class spherical plain bearing; +22 kg per pin vs Ø100/GE100ES (ledger)"
+    },
+    {
+     "id": "L42-p2",
+     "title": "Traction pin Ø120 - 3 g truck (A-101 4,900 kg, exceptional, Fy)",
+     "inputs": "",
+     "formula": "σ = M/Z",
+     "demand": 391,
+     "capacity": 655,
+     "unit": "MPa",
+     "util": 0.597,
+     "ok": true,
+     "note": "pin in build/model.py (Z1110 → Z650 at X4075 / X7275)"
+    },
+    {
+     "id": "L42-cp",
+     "title": "Centre-plate friction in the start margin: laminated elastomer pad + PTFE yaw slide (pad share 0.083 ASSUMED, μ ≤ 0.08) - forward 2 % margin",
+     "inputs": "k_pin 32.9 / k_pad 3.0 MN/m",
+     "formula": "4·μ·min axle / need",
+     "demand": 0.899,
+     "capacity": 0.909,
+     "unit": "need/cap",
+     "util": 0.989,
+     "ok": true,
+     "note": "fwd margin 1.112 vs 1.10; pad stiffness and PTFE μ = VENDOR BATCH (ASSUMED)"
+    },
+    {
+     "id": "L42-k2",
+     "title": "K2-a OF RECORD (L4.2): max driver wheel at the PLUS+1 forward TE command limit 33.0 kN (1.01 × the 2 % need) incl. +42.8 kg final drive, Ø120 pins, P-106 pockets, gross brake piping/chains and the 59.8 kg NB-1 nose ballast at X450",
+     "inputs": "reverse pull cap 28.9 kN → wheel 25.74 kN",
+     "formula": "truck-pitch + body transfer",
+     "demand": 25.89,
+     "capacity": 26.0,
+     "unit": "kN",
+     "util": 0.996,
+     "ok": true,
+     "note": "loco 19934 kg; without NB-1 the start TE would load a wheel to 26.1 kN (Loco Bot drift) - FIXED by NB-1"
+    },
+    {
+     "id": "L42-sf",
+     "title": "Sanders on BOTH trucks (level switch, flow proof, hill-hold) - forward 2 % start margin, worn Ø1430",
+     "inputs": "",
+     "formula": "",
+     "demand": 0.899,
+     "capacity": 0.909,
+     "unit": "need/cap",
+     "util": 0.989,
+     "ok": true,
+     "note": "margin 1.112"
+    },
+    {
+     "id": "L42-pz",
+     "title": "Pony reference: ~96-tooth target wheel - pulse rate at 0.5 mph (worn) vs the 10 Hz minimum for the 100 ms filter",
+     "inputs": "2 Hall sensors in quadrature; agreement check vs axles; PNOZ s30 kept independent",
+     "formula": "f = v·z/(π·D)",
+     "demand": 10.0,
+     "capacity": 10.5,
+     "unit": "Hz",
+     "util": 0.952,
+     "ok": true,
+     "note": "92 teeth minimum"
+    },
+    {
+     "id": "L42-wd",
+     "title": "Wind on curves: R80 dry at 25 mph wind (interim rule: 25 mph limit on R ≤ 80, no full-pull starts with a lubricator out) - L/V margin",
+     "inputs": "40 mph dry 0.939 (covered by the rule); lubricated 40 mph 1.287",
+     "formula": "",
+     "demand": 1.0,
+     "capacity": 1.018,
+     "unit": "1/margin",
+     "util": 0.982,
+     "ok": true,
+     "note": "Layout F has no R70"
+    },
+    {
+     "id": "L42-lg",
+     "title": "Safety-chain lug PL44.5 A572-50 faced to 42.5 mm + 1-1/8 in G-2130 shackle - 1.5 × TE at the 430 bar strength basis vs shackle WLL 93.2 kN",
+     "inputs": "69.4 kN",
+     "formula": "",
+     "demand": 69.4,
+     "capacity": 93.2,
+     "unit": "kN",
+     "util": 0.745,
+     "ok": true,
+     "note": "lug util 0.17; each chain = 2 × G-2130 + 2 × S-1325A + 1-2 links 5/8 G100; coupler WLL ≥ chain WLL PASS (Loco Bot E8)"
+    },
+    {
+     "id": "L42-ar",
+     "title": "Brake AIR release time (QEV option B kept, MR ≥ 5.6 bar) vs the ≤ 4 s air release target",
+     "inputs": "C_spec_min 3.2 per branch; relay/regulator C ≥ 8-10; valve purchase spec C ≥ 0.31",
+     "formula": "ISO 6358 fill",
+     "demand": 2.36,
+     "capacity": 4.0,
+     "unit": "s",
+     "util": 0.59,
+     "ok": true,
+     "note": "Loco Bot E7/E8; coach release indication dual-channel per Electro E3.6h (PL d Cat 3)"
+    },
+    {
+     "id": "L42-mr",
+     "title": "MR after one release from the 6.0 bar governor minimum (coupled MR ~190 L) vs the 5.6 bar used in the release time",
+     "inputs": "release volume 10.26 L",
+     "formula": "Boyle",
+     "demand": 5.6,
+     "capacity": 5.68,
+     "unit": "bar (min)",
+     "util": 0.986,
+     "ok": true,
+     "note": "20 L local reservoir DELETED"
+    },
+    {
+     "id": "L42-qa",
+     "title": "QEV option A (QEVs deleted): spring-apply exhaust time through the relay, worst branch, cold -10 °C, 6.0 → 0.5 bar g (ASSUMED full-apply pressure)",
+     "inputs": "relay exhaust C 8 ASSUMED; to 0.3 bar g 2.38 s",
+     "formula": "ISO 6358 discharge",
+     "demand": 2.13,
+     "capacity": 2.0,
+     "unit": "s",
+     "util": 1.065,
+     "ok": false,
+     "note": "INFORMATION: option A FAILS (shortfall 0.13 s) although its 7 mph / 2 % stop passes (21.7 m vs 30) → option B KEPT"
+    },
+    {
+     "id": "L42-qb",
+     "title": "QEV option B (maker-certified ≥ 15 bar 1/2 in QEV, vendor batch): spring-apply time, worst branch, cold",
+     "inputs": "",
+     "formula": "ISO 6358 discharge",
+     "demand": 0.94,
+     "capacity": 2.0,
+     "unit": "s",
+     "util": 0.47,
+     "ok": true,
+     "note": "7 mph trip stop on 2 % down with the apply delay: 20.1 m vs 30 m; piping 43.7 kg gross"
+    },
+    {
+     "id": "L42-tv",
+     "title": "Tow valve across loop A-B: HYDAC KHB3K DN06 class (500 bar) at the 430 bar strength basis (DN25 310 bar NOT allowed on the loop)",
+     "inputs": "tow ≤ 2 mph in 1st: 67.1 L/min",
+     "formula": "p/rating",
+     "demand": 430.0,
+     "capacity": 500.0,
+     "unit": "bar",
+     "util": 0.86,
+     "ok": true,
+     "note": "util 0.86"
+    },
+    {
+     "id": "L42-tq",
+     "title": "Tow valve DN06 sizing: Δp at the 2 mph tow flow (4 MS05 in 1st, worn Ø1430) vs 30 bar limit",
+     "inputs": "bore 6 mm, K 1.5 ASSUMED",
+     "formula": "Δp = K·ρ·v²/2",
+     "demand": 10.2,
+     "capacity": 30.0,
+     "unit": "bar",
+     "util": 0.34,
+     "ok": true,
+     "note": "tow drag 1.27 kN, heat 1.14 kW; confirm with the HYDAC DN06 curve (vendor batch)"
+    },
+    {
+     "id": "L42-hs",
+     "title": "Loop hose Manuli DIAMONDSPIR H10018025 (ISO 18752-C, 560 bar WP) vs the 430 bar spike / strength basis",
+     "inputs": "HPRV 380 → 0.679",
+     "formula": "p/WP",
+     "demand": 430.0,
+     "capacity": 560.0,
+     "unit": "bar",
+     "util": 0.768,
+     "ok": true,
+     "note": "OD 41.2, 2.91 kg/m; impulse rating per ISO 18752-C"
+    },
+    {
+     "id": "L42-hb",
+     "title": "Loop hose minimum bend radius 350 mm vs the tender's tightest bend at R70 (394.3 mm, Tender Bot)",
+     "inputs": "",
+     "formula": "",
+     "demand": 350.0,
+     "capacity": 394.3,
+     "unit": "mm",
+     "util": 0.888,
+     "ok": true,
+     "note": "util 0.888"
+    },
+    {
+     "id": "L42-gb",
+     "title": "GRADE BASIS: track Layout F dead level (0.0 %, Rail Bot §5b FINAL); vehicles checked at 2 % as the conservative case - reverse full-train start limit (all files)",
+     "inputs": "",
+     "formula": "",
+     "demand": 1.2,
+     "capacity": 1.21,
+     "unit": "%",
+     "util": 0.992,
+     "ok": true,
+     "note": "governed by the 28.9 kN reverse pull cap with 1.10"
+    },
+    {
+     "id": "D2-h",
+     "title": "15T bore spline N55x3x17 on MS05 shaft code 5 (W55x3x17): flank pressure at the 430 bar STRENGTH basis × KA 1.5 - 15T made to order in 4140 Q&T 28-32 HRC (L4.2)",
+     "inputs": "T 3,203 × 1.5 N·m; L 60 engaged",
+     "formula": "p = 2T/(d·z·h·L·φ)",
+     "demand": 102.6,
+     "capacity": 150.0,
+     "unit": "MPa",
+     "util": 0.684,
+     "ok": true,
+     "note": "C1045 catalogue hub would be 1.03 (NG) - Martin D120B15 stock NOT accepted; REQUIRE ≥ 58 mm engaged, hub face to shoulder ≤ 2 mm, end plate. Hub torsion util 0.09"
+    }
+   ],
+   "mat": [
+    "Motor: Poclain MS05 468/234 2C HighFlow, T04 brake, shaft code 5, DIN 5480 W55x3x17 (male), speed sensor (model code AWAIT Poclain)",
+    "Chain: ANSI 120-2 (Tsubaki RS120-2 or equal), 54 links, oil bath ISO VG 220 EP",
+    "Sprockets: 15T Martin D120B15 (OD 202) hub broached DIN 5480 N55x3x17 (female), ≥ 58 mm engaged; 45T SPLIT rim ring with bolting web, 12× M16 8.8 fitted DIN 609/7968 (219 N·m) to the Ø350 flange of a 4140 pressed hub (31.4 kg) - replaceable in place, no pressing",
+    "Oil-bath case 3 mm steel on the motor bracket, floating seal plate at the axle",
+    "Hydraulic fluid ISO VG 46 HV; EXTERNAL charge filtration HYDAC DF 60 pressure filter with clogging indicator (grade ASSUMED β10 ≥ 200)",
+    "Pump: Danfoss H1P053 with CCO (control cut-off, wired to the Pilz s30 7 mph trip), G1 shaft (14T 12/24; engine coupling hub 14T 12/24 on the SAE B pad), L35 (PL 350 / HPRV 380), stroke stop 42 cc sealed + hard 2,600 rpm engine limit, PLUS+1 (anti-stall 35 kW, shift, traction control)",
+    "L4.1 NO flow divider. Traction control: 3rd speed pickup on the pony tone ring, loop A/B transducers, auto-sanders",
+    "L4.1 loco valves (steering 7): T04 release from the loco loop = [L4.2: loop shuttle DELETED - T04 fed from the H1 charge circuit] + 10 µm filter + 3-way reducing/relieving valve 20 bar + 3/2 solenoid NORMALLY VENTED (HydraForce SV08/SV10-30 class) + choke Ø2.4 + 1.0 L damping accumulator + brake-line shuttle; manual release = check + 6.0 L bladder accumulator + 12 cm³ hand pump + guarded 3/2 valve; loss of loop/charge APPLIES the T04; no 4th dry-break; tow = lockable 2-way ball valve ≥ 420 bar (L4.2) -16 across A/B (HYDAC KHB class) with limit switch"
+   ],
+   "welds": [
+    "Motor bracket PL25 A572-50 to transom: 2 × 400 × 10 fillet both sides + 2 PL16 gussets (T1-c), MT"
+   ],
+   "bolts": [
+    "MS05 mounting flange cl.10.9 per Poclain (AWAIT)",
+    "Slide plate 4× M20 cl.10.9, 610 N·m; jack screws M20",
+    "45T ring web to the Ø350 hub flange 12× M16 cl.8.8 fitted DIN 609/7968 at PCD 300, 219 N·m dry, Nord-Lock, re-torque at 10 h (7.45 kN/bolt at HPRV × 1.5)",
+    "Brake calipers M20 cl.10.9, 610 N·m (dry K 0.20)"
+   ],
+   "fixes": [
+    "L4: Dodge TA7315H15MS + H1B110 + Gates belt REMOVED (owner: no belt) → MS05 + RS120-2 chain 3:1, nothing outside the wheels",
+    "Equal-torque start limited by the lightest axle → L4.1: gear flow divider REJECTED (below min flow at starts, 320 bar section rating < need, +160 kg) → electronic traction control + front ballast for ≥ 1.10 dry; sand mandatory on wet grades",
+    "Pump shaft: AIE SAE B 13T drive would force G4 (fails 1.19 on engine peak) → keep G1 + 14T 12/24 coupling hub (D1-u)",
+    "Spline engagement 70 → 60 mm (full code-5 spline): 95 MPa, util 0.95 (D2-h)",
+    "HighFlow valving required for single-axle spin (D1-d)",
+    "Overspeed trip made independent of PLUS+1 (D1-n)",
+    "Cooler raised to ≥ 14 kW at 43 °C outside air (D1-i); compressor clutch gating + 34.5 kW anti-stall (D1-t)",
+    "Chain case enlarged to ≥ 15 mm radial at 3% + travel (D2-g)",
+    "Charge pump: Danfoss 10 % rule gives ~193 cc for LSHT motors (meaningless) → OPEN item; charge filter added"
+   ],
+   "text": []
+  },
+  {
+   "no": 5,
+   "key": "brakes",
+   "title": "Brakes - service, emergency, parking",
+   "code": [
+    "ASTM F2291-23 §6 (fail-safe brakes, controls) and F1193; ASTM F770 (operations)",
+    "Air components to SAE J1410/J1402 & FMVSS 121 component practice (reference); NFPA 70 for controls",
+    "49 CFR 232 used as practice reference only (not applicable)"
+   ],
+   "loads": [
+    "Brake force set at μ_use 0.12 of TARE (empty) axle load on every braked axle → no wheel slide on wet rail empty or loaded (μ wet 0.15)",
+    "Braked: 4 loco driven axles (axle disc, 2 calipers), 4 tender axles, 16 coach axles; lead truck unbraked",
+    "Emergency = spring-applied on BP exhaust (fail-safe); service = 70% of emergency; parking = same spring units",
+    "Cases on 2% DESCENDING, reaction/propagation 1.5 s, from the GOVERNED 6 mph (owner-selected, PE to confirm) and the 7 mph overspeed trip; loaded train. 10 mph shown for information only (hardware capability, not permitted)"
+   ],
+   "calcs": [
+    {
+     "id": "B1-a",
+     "title": "Emergency braking force vs wet adhesion of braked tare (no slide)",
+     "inputs": "F = 0.12·ΣW_tare (562 kN)",
+     "formula": "F/ (0.15·ΣW_tare)",
+     "demand": 67.472,
+     "capacity": 84.34,
+     "unit": "kN",
+     "util": 0.8,
+     "ok": true,
+     "note": ""
+    },
+    {
+     "id": "B1-b",
+     "title": "Emergency stop from governed 6 mph on 2% down, loaded - distance vs 20 m criterion (ASSUMED)",
+     "inputs": "a = F/m - g·0.02 = 0.632 m/s²",
+     "formula": "d = v·t + v²/2a",
+     "demand": 9.719,
+     "capacity": 20,
+     "unit": "m",
+     "util": 0.486,
+     "ok": true,
+     "note": ""
+    },
+    {
+     "id": "B1-c",
+     "title": "Emergency stop from the 7 mph overspeed trip on 2% down",
+     "inputs": "a 0.632 m/s²",
+     "formula": "d = v·t + v²/2a",
+     "demand": 12.446,
+     "capacity": 30,
+     "unit": "m",
+     "util": 0.415,
+     "ok": true,
+     "note": "30 m criterion ASSUMED. Information only: from 10 mph (hardware capability, not permitted) 22.5 m"
+    },
+    {
+     "id": "B1-d",
+     "title": "Service stop from governed 6 mph on 2% down (70% force) vs 30 m",
+     "inputs": "a = 0.383 m/s²",
+     "formula": "d = v·t + v²/2a",
+     "demand": 13.409,
+     "capacity": 30,
+     "unit": "m",
+     "util": 0.447,
+     "ok": true,
+     "note": ""
+    },
+    {
+     "id": "B1-e",
+     "title": "Parking: all spring brakes hold loaded train on 2%, FS 1.5",
+     "inputs": "required 1.5·0.02·W",
+     "formula": "F_avail = ΣF_spring",
+     "demand": 23.981,
+     "capacity": 67.472,
+     "unit": "kN",
+     "util": 0.355,
+     "ok": true,
+     "note": ""
+    },
+    {
+     "id": "B1-f",
+     "title": "Parking on loco spring brakes ALONE (train) - not permitted",
+     "inputs": "loco 4 discs",
+     "formula": "",
+     "demand": 23.981,
+     "capacity": 20.604,
+     "unit": "kN",
+     "util": 1.164,
+     "ok": false,
+     "note": "NG → procedure: train parks with BP exhausted (all cars spring-applied) + chocks; loco alone may hold only itself"
+    },
+    {
+     "id": "B1-g",
+     "title": "Loco AXLE disc (L3, Y+ side away from the reducer) - clamp needed PER CALIPER with 2 calipers per disc (Ø340, r_eff 135, μ_pad 0.35) vs spec 22 kN",
+     "inputs": "T_axle 3.73 kN·m (1:1 - no gear multiplication)",
+     "formula": "N = T/(2 calipers · 2 μ r)",
+     "demand": 19.759,
+     "capacity": 22.0,
+     "unit": "kN",
+     "util": 0.898,
+     "ok": true,
+     "note": "Reference: Coremo Ocmea D 3.5N spring-applied air-released, 24.2 kN clamp (supplier §5) - AWAIT brake supplier. Burnish pads at commissioning (initial torque 30-50 % low until bedded)"
+    },
+    {
+     "id": "B1-l",
+     "title": "Caliper release air: regulated supply vs Coremo D 3.5N max release pressure",
+     "inputs": "MR 8.5 bar → regulator",
+     "formula": "spec",
+     "demand": 6.0,
+     "capacity": 6.0,
+     "unit": "bar",
+     "util": 1.0,
+     "ok": true,
+     "note": "Dedicated regulated release-air supply off MR (6 bar max for Coremo; 5.1 bar min) - supplier F9"
+    },
+    {
+     "id": "B1-h",
+     "title": "Coach axle disc caliper clamp needed (Ø300 disc, r_eff 125) vs spec 10 kN",
+     "inputs": "T_axle 0.71 kN·m",
+     "formula": "N = T/(2 μ r)",
+     "demand": 8.11,
+     "capacity": 10.0,
+     "unit": "kN",
+     "util": 0.811,
+     "ok": true,
+     "note": "Spring-applied caliper ≥ 10 kN clamp (AWAIT supplier)"
+    },
+    {
+     "id": "B1-i",
+     "title": "Loco disc temperature rise, one emergency stop on 2%",
+     "inputs": "E 449 kJ, share 0.076",
+     "formula": "ΔT = E·share/(m_disc c)",
+     "demand": 4.178,
+     "capacity": 150,
+     "unit": "K",
+     "util": 0.028,
+     "ok": true,
+     "note": ""
+    },
+    {
+     "id": "B1-j",
+     "title": "Drag braking 100 m of 2% at governed 6 mph - loco disc ΔT",
+     "inputs": "(0.02-0.005)·W·100 m",
+     "formula": "ΔT = E·share/(m c)",
+     "demand": 11.168,
+     "capacity": 150,
+     "unit": "K",
+     "util": 0.074,
+     "ok": true,
+     "note": "Unit case; real route descents in B1-j2 (2% is the GOVERNING design grade - the track is NOT level)"
+    },
+    {
+     "id": "B1-j2",
+     "title": "Drag braking the longest continuous route descent (redline Alt A-D: 7.68 m fall over 505 m, avg 1.52%) at governed 6 mph - loco disc ΔT, NO cooling credit",
+     "inputs": "E = W·(Δz - 0.005·L)",
+     "formula": "ΔT = E·share/(m c)",
+     "demand": 38.382,
+     "capacity": 150,
+     "unit": "K",
+     "util": 0.256,
+     "ok": true,
+     "note": "Adiabatic upper bound (≈ 3.2 min at 6 mph, disc cooling ignored). Hydrostatic/engine braking credit would reduce it - AWAIT. Ops rule: ≤ 6 mph on descents"
+    },
+    {
+     "id": "B1-k",
+     "title": "Emergency in-train buff at loco-tender drawbar vs 70 kN service",
+     "inputs": "trailing mass × a - trailing brake force",
+     "formula": "",
+     "demand": 4.104,
+     "capacity": 70,
+     "unit": "kN",
+     "util": 0.059,
+     "ok": true,
+     "note": ""
+    },
+    {
+     "id": "B1-m",
+     "title": "MS05 T04 parking brakes (4 motors through 3:1) hold the LOCO ALONE on 2%, FS 1.5",
+     "inputs": "1.5·0.02·W_loco",
+     "formula": "F = ΣT04·3/r",
+     "demand": 5.865,
+     "capacity": 52.4,
+     "unit": "kN",
+     "util": 0.112,
+     "ok": true,
+     "note": "Loco alone only - a train parks on all spring brakes (B1-e/f)"
+    },
+    {
+     "id": "B1-n",
+     "title": "MS05 T04 dynamic (emergency) energy per motor, loco-only stop from 6 mph vs catalog limit",
+     "inputs": "max 10 dynamic applications (Poclain)",
+     "formula": "E = ½mv²/4",
+     "demand": 17.9,
+     "capacity": 85.9,
+     "unit": "kJ",
+     "util": 0.208,
+     "ok": true,
+     "note": "Release by charge pressure via a PLUS+1 solenoid + accumulator: applied only on park or < 0.5 mph (engine stall does NOT dump them)"
+    },
+    {
+     "id": "B1-o",
+     "title": "Loco brake ratio matched to the coaches (draft-gear run-in, K1-a3): loco emergency decel vs coach decel",
+     "inputs": "loco 0.690 / tender TB-3.13d 5.845 kN = 0.671 / coaches 0.69 m/s²",
+     "formula": "spec",
+     "demand": 0.69,
+     "capacity": 0.69,
+     "unit": "m/s²",
+     "util": 1.0,
+     "ok": true,
+     "note": "REQUIRED (Stress Bot R3): loco SERVICE and emergency brake rate ≤ 0.69 m/s² (= loaded coaches) - caliper clamp / relay valve set at commissioning; brake test records the loco-alone decel"
+    },
+    {
+     "id": "B1-p",
+     "title": "Fail-safe brake logic (BP 5.0 bar UIC / Knorr KE + WABCO IR-2 971 899 152 0 inverting relay + ASCO 8210G035 24 VDC de-energize-to-vent): loss of BP, MR or 24 V → spring apply",
+     "inputs": "4 failure paths on B-601",
+     "formula": "spec",
+     "demand": 1,
+     "capacity": 1,
+     "unit": "logic",
+     "util": 1.0,
+     "ok": true,
+     "note": "PE to verify PL of the s30 → ASCO / CCO path; AWAIT WABCO IR-2 curve vs Coremo release 5.1-6 bar"
+    }
+   ],
+   "mat": [
+    "Discs: loco Ø340×25 on the axle (Y+, free side), 2 calipers each, coach/tender Ø300×20, cast iron GG25/ductile, or 4140 (ASSUMED)",
+    "Pads sintered, μ 0.35-0.40 (ASSUMED; AWAIT supplier)",
+    "Loco caliper reference Coremo Ocmea D 3.5N (25.4 mm disc thickness check AWAIT); release air via 6 bar regulator off MR; MS05 T04 multidisc brakes = loco-only parking + motor emergency (B1-m/n)",
+    "Air: 3 × Midland Haldex 19820 main reservoirs (47 L, 150 psi) on the tender X3600-4440 (TB-3); BP 5.0 bar, MR cut-out 8.5 bar, safety valve 10 bar; Ingersoll Rand 2340 compressor with electric clutch (tender)",
+    "Towing: wind-off calipers + T04 release screws + H1P053 tow bypass, max 2 mph (tag-out)"
+   ],
+   "welds": [],
+   "bolts": [
+    "Caliper mounts M20 cl.10.9, 610 N·m (dry K 0.20), Loctite 243 + witness mark"
+   ],
+   "fixes": [
+    "Tare-based brake ratio 12% adopted (loaded-only sizing slid empty coaches on wet rail)",
+    "L3: loco brake back on an axle disc on the free side (Y+); axle torque is 1:1 so 2 spring calipers per disc (B1-g)",
+    "Parking rule: never rely on loco brakes alone for a train (B1-f)",
+    "r_eff 145 → 135 mm per real calipers: clamp 17.5 → 18.8 kN, 22 kN spec still holds (supplier F8)",
+    "Commissioning: pad burnish/bedding step before brake tests; regulated release-air supply (supplier F8/F9)",
+    "L4: MS05 T04 parking/emergency brakes (B1-m/n), independent overspeed relay to BP exhaust, tow release procedure, loco brake ratio matched to coaches (B1-o)"
+   ],
+   "text": []
+  },
+  {
+   "no": 6,
+   "key": "couplers",
+   "title": "Couplers, drawbars and end restraint",
+   "code": [
+    "AISC 360-22 (ASD) pins, plates, net section; AWS D1.1",
+    "ASTM F2291 §6 (secondary restraint of coupled vehicles); NACM chain WLL"
+   ],
+   "loads": [
+    "Service 70 kN (≥ 1.9 × max adhesion-limited start 36.96 kN)",
+    "Ultimate 200 kN (≈ 2.6 × train weight × 0.1 g impact - ASSUMED)",
+    "Curving R100 lateral components"
+   ],
+   "calcs": [
+    {
+     "id": "C5",
+     "title": "Loco rear drop box PL16 A572-50 root bending, 70 kN",
+     "inputs": "Lever 600 mm, box 552×400 mm",
+     "formula": "see PF-CT_R2_calc_notes (calcs.py)",
+     "demand": 8.9,
+     "capacity": 207.0,
+     "unit": "MPa",
+     "util": 0.04,
+     "ok": true,
+     "note": "",
+     "carried": true
+    },
+    {
+     "id": "C5",
+     "title": "Loco rear drop box PL16 A572-50 root bending, 200 kN",
+     "inputs": "Lever 600 mm, box 552×400 mm",
+     "formula": "see PF-CT_R2_calc_notes (calcs.py)",
+     "demand": 25.6,
+     "capacity": 345.0,
+     "unit": "MPa",
+     "util": 0.07,
+     "ok": true,
+     "note": "",
+     "carried": true
+    },
+    {
+     "id": "C5w",
+     "title": "Loco rear box root weld, 10 mm fillet all round, 200 kN",
+     "inputs": "E70 weld metal: 0.6×FEXX = 289 MPa nominal (ultimate case)",
+     "formula": "see PF-CT_R2_calc_notes (calcs.py)",
+     "demand": 67.5,
+     "capacity": 289.2,
+     "unit": "MPa",
+     "util": 0.23,
+     "ok": true,
+     "note": "",
+     "carried": true
+    },
+    {
+     "id": "C5",
+     "title": "Tender drop box PL16 A572-50 root bending, 70 kN",
+     "inputs": "Lever 286 mm, box 702×400 mm",
+     "formula": "see PF-CT_R2_calc_notes (calcs.py)",
+     "demand": 3.0,
+     "capacity": 207.0,
+     "unit": "MPa",
+     "util": 0.01,
+     "ok": true,
+     "note": "",
+     "carried": true
+    },
+    {
+     "id": "C5",
+     "title": "Tender drop box PL16 A572-50 root bending, 200 kN",
+     "inputs": "Lever 286 mm, box 702×400 mm",
+     "formula": "see PF-CT_R2_calc_notes (calcs.py)",
+     "demand": 8.7,
+     "capacity": 345.0,
+     "unit": "MPa",
+     "util": 0.03,
+     "ok": true,
+     "note": "",
+     "carried": true
+    },
+    {
+     "id": "C5w",
+     "title": "Tender box root weld, 10 mm fillet all round, 200 kN",
+     "inputs": "E70 weld metal: 0.6×FEXX = 289 MPa nominal (ultimate case)",
+     "formula": "see PF-CT_R2_calc_notes (calcs.py)",
+     "demand": 31.0,
+     "capacity": 289.2,
+     "unit": "MPa",
+     "util": 0.11,
+     "ok": true,
+     "note": "",
+     "carried": true
+    },
+    {
+     "id": "C6a",
+     "title": "Drawbar PL32×150 A572-50 net tension at Ø61 hole, 200 kN",
+     "inputs": "Net section (150−61)×32",
+     "formula": "see PF-CT_R2_calc_notes (calcs.py)",
+     "demand": 70.2,
+     "capacity": 345.0,
+     "unit": "MPa",
+     "util": 0.2,
+     "ok": true,
+     "note": "",
+     "carried": true
+    },
+    {
+     "id": "C6b",
+     "title": "Drawbar bearing on Ø60 pin, 200 kN",
+     "inputs": "Bearing limit 1.5 Fy (ultimate case)",
+     "formula": "see PF-CT_R2_calc_notes (calcs.py)",
+     "demand": 104.2,
+     "capacity": 517.5,
+     "unit": "MPa",
+     "util": 0.2,
+     "ok": true,
+     "note": "",
+     "carried": true
+    },
+    {
+     "id": "C6c",
+     "title": "Drawbar 1473 mm buckling (weak axis, pinned) at 70 kN buff",
+     "inputs": "Euler Pcr=373 kN; require ≥2.0× service",
+     "formula": "see PF-CT_R2_calc_notes (calcs.py)",
+     "demand": 140000.0,
+     "capacity": 372635.5,
+     "unit": "N",
+     "util": 0.38,
+     "ok": true,
+     "note": "Pins allow rotation in plan; vertical rotation restrained by pocket plates - pinned assumed (conservative).",
+     "carried": true
+    },
+    {
+     "id": "C6c",
+     "title": "Drawbar 800 mm buckling (weak axis, pinned) at 70 kN buff",
+     "inputs": "Euler Pcr=1263 kN; require ≥2.0× service",
+     "formula": "see PF-CT_R2_calc_notes (calcs.py)",
+     "demand": 140000.0,
+     "capacity": 1263309.4,
+     "unit": "N",
+     "util": 0.11,
+     "ok": true,
+     "note": "Pins allow rotation in plan; vertical rotation restrained by pocket plates - pinned assumed (conservative).",
+     "carried": true
+    },
+    {
+     "id": "C6d",
+     "title": "Pin Ø60 4140 Q&T bending, 200 kN, spacer bushings (4 mm gap)",
+     "inputs": "Double shear pin; M=F/2×(gap+t_plate/2+t_bar/4)",
+     "formula": "see PF-CT_R2_calc_notes (calcs.py)",
+     "demand": 103.7,
+     "capacity": 655.0,
+     "unit": "MPa",
+     "util": 0.16,
+     "ok": true,
+     "note": "",
+     "carried": true
+    },
+    {
+     "id": "C6e",
+     "title": "Pin Ø60 double shear, 200 kN",
+     "inputs": "",
+     "formula": "see PF-CT_R2_calc_notes (calcs.py)",
+     "demand": 35.4,
+     "capacity": 393.0,
+     "unit": "MPa",
+     "util": 0.09,
+     "ok": true,
+     "note": "",
+     "carried": true
+    },
+    {
+     "id": "C6f",
+     "title": "Pocket plates PL20 bearing on pin, 200 kN",
+     "inputs": "",
+     "formula": "see PF-CT_R2_calc_notes (calcs.py)",
+     "demand": 83.3,
+     "capacity": 517.5,
+     "unit": "MPa",
+     "util": 0.16,
+     "ok": true,
+     "note": "",
+     "carried": true
+    },
+    {
+     "id": "C6g",
+     "title": "Safety chains 2× Grade 100 1/2 in, WLL vs 70 kN service",
+     "inputs": "NACM WLL 15,000 lbf each (verify with chain supplier certificate)",
+     "formula": "see PF-CT_R2_calc_notes (calcs.py)",
+     "demand": 70000,
+     "capacity": 133400,
+     "unit": "N",
+     "util": 0.52,
+     "ok": true,
+     "note": "",
+     "carried": true
+    },
+    {
+     "id": "C6h",
+     "title": "Safety chains 2× Grade 100 1/2 in, MBS vs 200 kN",
+     "inputs": "Min. break = 4×WLL per NACM grade 100",
+     "formula": "see PF-CT_R2_calc_notes (calcs.py)",
+     "demand": 200000,
+     "capacity": 533600,
+     "unit": "N",
+     "util": 0.37,
+     "ok": true,
+     "note": "",
+     "carried": true
+    },
+    {
+     "id": "K1-a",
+     "title": "Coach drawbar angle on R100 WITH ≥10 m spirals (steady) - empty coach leading-wheel L/V = curving Y/Q (Heumann) + drawbar lateral at max adhesion TE 37.9 kN",
+     "inputs": "angle (5180+736.5)/R = 3.39° (old K1-a 1.82° was 1.86× low); Q empty 9.86 kN; Y/Q curving 0.861",
+     "formula": "L/V = Y/Q + F·sinθ·(1+o/s)/(2Q)",
+     "demand": 1.025,
+     "capacity": 1.342,
+     "unit": "L/V",
+     "util": 0.764,
+     "ok": true,
+     "note": "Nadal 70°, μ 0.3 (1.34) - quasi-static; gauge-face lubrication recommended"
+    },
+    {
+     "id": "K1-a2",
+     "title": "Same, Alt A as drawn (tangent-arc, NO spirals): transient drawbar angle from the 3-D sweep",
+     "inputs": "angle 7.30° (1.9-2.1× steady)",
+     "formula": "L/V = Y/Q + F·sinθ·(1+o/s)/(2Q)",
+     "demand": 1.214,
+     "capacity": 1.342,
+     "unit": "L/V",
+     "util": 0.905,
+     "ok": true,
+     "note": "Passes at the 37.9 kN adhesion limit; 70 kN service buff would give 1.51 (NG) - see K1-a3/K1-d: 10 m spirals recommended on every curve"
+    },
+    {
+     "id": "K1-a3",
+     "title": "In-train buff/draft that keeps the empty-coach wheel at Nadal on Alt A as drawn (R100, no spirals) vs max force with PRELOADED draft gear (k 20 kN/mm, 1.0 mm TOTAL play at the renew limit)",
+     "inputs": "allowable 51.7 kN (tender 38.5); 2 mm slack @ 50 kN/mm gives 67.4/65.6 kN",
+     "formula": "6-mass lumped model (calcs/track/drawgear.py)",
+     "demand": 35.3,
+     "capacity": 38.5,
+     "unit": "kN",
+     "util": 0.917,
+     "ok": true,
+     "note": "REQUIRED (Stress Bot R3): preloaded draft gear, renew at 1.0 mm TOTAL play (F770 inspection), k ≥ 20 kN/mm (≤ 100 on the R80 route, K1-h); loco brake rate ≤ 0.69 m/s² (B1-o)"
+    },
+    {
+     "id": "K1-b",
+     "title": "Pin retention: head + Ø10 cross-bolt + R-clip vs 1 g up-lift of drawbar (end restraint)",
+     "inputs": "drawbar 1473 PL32×150 = 55 kg",
+     "formula": "τ cross-bolt",
+     "demand": 20.602,
+     "capacity": 256.0,
+     "unit": "MPa",
+     "util": 0.08,
+     "ok": true,
+     "note": "3 g vertical"
+    },
+    {
+     "id": "K1-c",
+     "title": "Max service drawbar force (adhesion-limited start) vs 70 kN design",
+     "inputs": "μ 0.25 dry on drivers",
+     "formula": "",
+     "demand": 37.11,
+     "capacity": 70,
+     "unit": "kN",
+     "util": 0.53,
+     "ok": true,
+     "note": ""
+    },
+    {
+     "id": "K1-d",
+     "title": "Drawgear slack: start snatch / emergency run-in with 2 mm slack per joint (k 50 kN/mm, steel pins) vs 70 kN service",
+     "inputs": "6-mass model; loco 1.03 vs cars 0.69 m/s²; brake 0.3 s + 0.25 s/car",
+     "formula": "",
+     "demand": 67.4,
+     "capacity": 70,
+     "unit": "kN",
+     "util": 0.963,
+     "ok": true,
+     "note": "1 mm at 200 kN/mm already gives 79-88 kN; 10 mm @ 50 gives 158 kN (Stress Bot 206-235 with 48 kN HPRV TE). Matching the loco brake ratio only trims run-in 10-15 %: slack control governs"
+    },
+    {
+     "id": "K1-e",
+     "title": "DB-800 loco-tender (kept as drawn): exact-geometry swing at R60 - tender pocket (300 mouth)",
+     "inputs": "loco side 19.32° vs 32.4°",
+     "formula": "2-D pin geometry (drawbar_L4.py)",
+     "demand": 10.98,
+     "capacity": 19.2,
+     "unit": "deg",
+     "util": 0.572,
+     "ok": true,
+     "note": "PASS; transient on spirals: route L4 (K2-r)"
+    },
+    {
+     "id": "K1-f",
+     "title": "Drawbar pin Ø60 length under head vs grip 108 + washer + cross-bolt hole + end distance (L-104 drawn 250 corrected)",
+     "inputs": "grip 108 + 2 + 15 + 15",
+     "formula": "",
+     "demand": 140,
+     "capacity": 150,
+     "unit": "mm",
+     "util": 0.933,
+     "ok": true,
+     "note": "Specify 150 under head (170 o/a); 12 pins (10 + 2 spares)"
+    },
+    {
+     "id": "K1-h",
+     "title": "Draft-gear basis (Stress Bot R3): 1.0 mm TOTAL play at the renew limit, k swept 20-200 kN/mm, loco brake ≤ 0.69 m/s² - peak start-snatch / run-in force at k 100 vs route F (R80) coach buff allowance",
+     "inputs": "k 20: 35.3 kN; k 100: 41.3 kN; k 150: 50.1 kN (NG)",
+     "formula": "6-mass model (calcs/track/drawgear_S3.py)",
+     "demand": 41.3,
+     "capacity": 45.8,
+     "unit": "kN",
+     "util": 0.902,
+     "ok": true,
+     "note": "Specify k 20-100 kN/mm for R80 (route E R70 allowance 38.8 kN limits k to ≤ 25). Stiffer is NOT safer: k 150-200 gives 50-55 kN"
+    },
+    {
+     "id": "K1-g",
+     "title": "Safety chain 5/8 in G100 WLL vs 70 kN single-chain service; shackle Crosby G-2130 1 in WLL 83.4 kN",
+     "inputs": "2 per joint",
+     "formula": "",
+     "demand": 70,
+     "capacity": 83.4,
+     "unit": "kN",
+     "util": 0.839,
+     "ok": true,
+     "note": "Chain WLL 100.5 kN; shackle governs"
+    }
+   ],
+   "mat": [
+    "Drawbars PL32×150 A572-50; pins Ø60 4140 Q&T, H8/f7; bushes 4140",
+    "Safety chains 2 × 5/8 in Grade 100 per joint (WLL 100.5 kN each) with Crosby G-2130 1 in bolt shackles (WLL 8.5 t)",
+    "5 joints: DB-800 loco-tender, DB-1473 elsewhere; 12 pins Ø60 × 150 under head (10 + 2 spares)"
+   ],
+   "welds": [
+    "Pocket plates PL20 to box: 10 mm fillet all round, MT"
+   ],
+   "bolts": [
+    "Cross-bolt M10 cl.8.8 + nyloc, 50 N·m (dry K 0.20)"
+   ],
+   "fixes": [
+    "F11: safety chains added",
+    "Spacer bushings limit pin gap to 4 mm (C6d) - SUPERSEDED 28 Oct: 4 mm pin gap gives > 70 kN snatch/run-in (K1-d); basis now (Stress Bot R3) 1.0 mm TOTAL play renew limit, preloaded draft gear k ≥ 20 kN/mm (≤ 100 for R80, K1-h)",
+    "K1-a corrected 28 Oct 2026: drawbar angle (5180+736.5)/R (was (2437+736.5)/R, 1.86× low) + curve-entry transient from the 3-D sweep; L/V now includes the curving guidance force (Heumann) and uses Nadal 1.34 (μ 0.3), not 0.8"
+   ],
+   "text": []
+  },
+  {
+   "no": 7,
+   "key": "tender",
+   "title": "Tender T2 - structure, engine/pump/genset mounts, fuel, cooling",
+   "code": [
+    "AISC 360-22; AWS D1.1 / D1.3 (sheet)",
+    "NFPA 30A / 49 CFR 393.65-.67 (fuel tank practice, reference); NFPA 37 (stationary engines, reference)",
+    "EPA Tier 4 engine (AIE V3307) installation per AIE/Kubota manual (AWAIT)"
+   ],
+   "loads": [
+    "Equipment restraint 3 g long. / 2 g vert. / 1 g lat. (ASSUMED, same as ballast)",
+    "Ambient 43 °C (110 °F) cooling design"
+   ],
+   "calcs": [
+    {
+     "id": "E-AIE ",
+     "title": "AIE V3307 package + radiator + H1P053 mount bolts 2×M16 cl.8.8 per isolator: combined T+V (AISC J3.7)",
+     "inputs": "610 kg, CG 500 above mounts, mount spacing 900 long.; Fx 3 g = 17.9 kN",
+     "formula": "(ft/Ft)²+(fv/Fv)² ≤ 1; Ft 0.75Fu/2, Fv 0.45Fu/2 (threads incl.)",
+     "demand": 0.008,
+     "capacity": 1.0,
+     "unit": "interaction",
+     "util": 0.008,
+     "ok": true,
+     "note": "Isolator rated ≥ 3.5 kN uplift / 4.5 kN shear - AWAIT isolator supplier"
+    },
+    {
+     "id": "E-Gens",
+     "title": "Genset PTI-38 (TB-3 layout approved; X1060-2768) mount bolts 2×M16 cl.8.8 per isolator: combined T+V (AISC J3.7)",
+     "inputs": "699 kg, CG 550 above mounts, mount spacing 1300 long.; Fx 3 g = 20.6 kN",
+     "formula": "(ft/Ft)²+(fv/Fv)² ≤ 1; Ft 0.75Fu/2, Fv 0.45Fu/2 (threads incl.)",
+     "demand": 0.009,
+     "capacity": 1.0,
+     "unit": "interaction",
+     "util": 0.009,
+     "ok": true,
+     "note": "Isolator rated ≥ 2.6 kN uplift / 5.1 kN shear - AWAIT isolator supplier"
+    },
+    {
+     "id": "E-rail",
+     "title": "Tender main rail HSS10x4x1/4 between pivots (2,600), all equipment ×2.0",
+     "inputs": "w = 10.40 N/mm per rail",
+     "formula": "M = wL²/8 ×2.0",
+     "demand": 68.803,
+     "capacity": 345,
+     "unit": "MPa",
+     "util": 0.199,
+     "ok": true,
+     "note": ""
+    },
+    {
+     "id": "E-fuel",
+     "title": "Fuel tank 150 L strapped: 2 straps 50×6 A36 at 3 g",
+     "inputs": "tank 40 kg + 126 kg diesel",
+     "formula": "σ = 3mg/(2·A)",
+     "demand": 8.14,
+     "capacity": 150,
+     "unit": "MPa",
+     "util": 0.054,
+     "ok": true,
+     "note": ""
+    },
+    {
+     "id": "E-air",
+     "title": "Tender cooling air: engine (45.6) + genset engine (~42 kW) jacket heat at ΔT_air 15 K, louvre free area at 3 m/s vs provided 2×0.9 m²",
+     "inputs": "V̇ = Q/(ρ cp ΔT) = 5.05 m³/s",
+     "formula": "A = V̇ / 3 m/s",
+     "demand": 1.683,
+     "capacity": 1.8,
+     "unit": "m²",
+     "util": 0.935,
+     "ok": true,
+     "note": "Louvres 0.9 m² free area per side (intake one side, discharge other) - specified"
+    },
+    {
+     "id": "E-run",
+     "title": "Fuel endurance: 150 L vs 5 h evening (Tender Bot duty 14.6 L/h)",
+     "inputs": "full-power screen 19.1 L/h",
+     "formula": "t = V/q",
+     "demand": 73.0,
+     "capacity": 135.0,
+     "unit": "L",
+     "util": 0.541,
+     "ok": true,
+     "note": "90% usable"
+    },
+    {
+     "id": "E-cg",
+     "title": "Tender TB-3.13d (8,706.5 kg, CG [2422.7, 11.3, 1110.4], Tender Bot) - max wheel load vs the 26 kN rail basis",
+     "inputs": "front truck share 53.0 %",
+     "formula": "lever about the pivots X1200 / 3800; ΔQ = Q·y/980",
+     "demand": 11.442,
+     "capacity": 26.0,
+     "unit": "kN",
+     "util": 0.44,
+     "ok": true,
+     "note": "L4.2: TB-3.13d (+59.9 kg vs TB-3.11) supersedes TB-3.11 8,646.6 / TB-3.9 8,616.3 / TB-3.8 8,568.8"
+    },
+    {
+     "id": "E-xh",
+     "title": "Under-deck transformer cradle hangers (TB-3.4): 4 × L3x3x1/4, each 2 × M16 8.8 × ~140 through both HSS10x4 walls at mid-web Z963 with DOM 25.4 × 3.05 crush tubes (no welds on the rails; nearest bolt 81 mm from the X2449 crossmember weld ≥ 3d 48); whole 168.7 kg assembly at 3 g vertical + 1 g",
+     "inputs": "V = 168.7·9.81·4 / 8 bolts",
+     "formula": "bolt shear, threads in the plane",
+     "demand": 0.827,
+     "capacity": 30.144,
+     "unit": "kN",
+     "util": 0.027,
+     "ok": true,
+     "note": "Tender Bot: ~330 N/bolt on the 89.6 kg isolated mass at 3 g; torque M16 8.8 with crush tubes per the frame standard (153 N·m lubricated)"
+    }
+   ],
+   "mat": [
+    "Rails HSS10x4x1/4 A500C; bolsters fish-belly PL10/12 A36; deck 6 mm tread plate A786",
+    "Skin 10 ga A1011; posts HSS2x2x1/8; fuel tank 3 mm 5052 Al or 12 ga steel with baffles, vent, rollover check valve"
+   ],
+   "welds": [
+    "Engine/genset mount pedestals PL16 to rails: 8 mm fillet all round",
+    "Deck tread plate stitch 6 mm 50 @ 300 to bearers (sealed seam with sealant)"
+   ],
+   "bolts": [
+    "Isolator bolts M16 cl.8.8, 219 N·m (dry K 0.20), Nord-Lock",
+    "Fuel tank straps M12 cl.8.8, 88 N·m (dry K 0.20)"
+   ],
+   "fixes": [
+    "Pump H1P045 → H1P053 (§4) - same SAE B pad (AWAIT Danfoss/AIE fit)",
+    "Cooling louvres sized (E-air)",
+    "L4 (Tender Bot): hydraulic cooler ≥ 14 kW on the LEFT wall X3455-4145; rev TB-3 layout APPROVED 28 Oct: genset X1060-2768, R-wall NEMA 3R cabinet X2820-3780 (listed UL 1008 ATS with integral main; separate QOM22225NRB main, handle ≤ Z1639), 150 L custom tank X3900-4500 behind X3800 firewall, ODX-AGM34, 3 × Haldex MR X3600-4440; tender 8,706.5 kg (TB-3.13d, CG [2422.7, 11.3, 1110.4]; was TB-3.11 8,646.6, TB-3.8 8,568.8, TB-3.4 8,465.3) incl. the 168.7 kg under-deck shore transformer assembly (Acme T2535173S 15 kVA NEMA 3R on isolators, L3x3x1/4 cradle hung from the HSS rails by 2 × M16 8.8 through-bolts per hanger at mid-web Z963 with crush tubes - no welds on the rails, 3 mm shield 450 × 1,120 at Z300, inrush limiter on the cradle X2360-2665; nothing under the deck aft of X2900); tender CG + axle loads rerun on the real T2 CG (E-cg)",
+    "Genset PTI-38 (699 kg) in the approved TB-3 reservation (≤ 1,775 long). Rated 40 °C, NOT the 43 °C design day; NO UL 2200 listing shown - derate letter + listing OPEN"
+   ],
+   "text": []
+  },
+  {
+   "no": 8,
+   "key": "generator",
+   "title": "Generator sizing and selection recommendation",
+   "code": [
+    "NFPA 70 (NEC) 2023 Art. 445 (generators), 250.35 (separately derived), 522/525 (amusement attractions)",
+    "ISO 8528-1 rating definitions (COP/PRP)"
+   ],
+   "loads": [
+    "Plan basis (tender-lt45 / systems-p1): electrical demand 26.8 kW hot dry evening, 31.7 kW hot dry day, 39.7 kW hot humid (110 °F / 75 °F, Δw 0.006, +15 %, COP 2.5, incl. 4.288 kW aux)",
+    "Outside air per ASHRAE 62.1-2022 Table 6-1 'transportation waiting' analog (Rp 3.8 L/s·person, Ra 0.3 L/s·m², cabin 20.5 m², Ez 1.0 low-level supply): regular coach 33 occ. → 131.5 L/s (279 cfm), accessible 14 occ. → 59.3 L/s (126 cfm); train 454 L/s vs plan 847.5 L/s (7.5 L/s·person)",
+    "OA load at basis conditions 41.48 W thermal per L/s = 19.08 W electric per L/s (×1.15 / COP 2.5); 62.1 OA sensible 10.7 + latent 8.2 kW thermal",
+    "ERV: RenewAire HE05IN (120 V, 120-375 cfm, AHRI 1060 core L62-G5) one per coach; total effectiveness 0.55 cooling ASSUMED - AWAIT RenewAire selection printout; fans ≤ 343 W vs 250 W plan allowance (+0.27 kW train)",
+    "Superseded: rev. A §8 used COP 3.0 and ΔT 11.1 K with 60 % effectiveness - inconsistent with the 39.7 kW plan basis; corrected here to the plan basis"
+   ],
+   "calcs": [
+    {
+     "id": "G1-a",
+     "title": "Hot-humid demand WITHOUT fix (plan OA 847.5 L/s) vs 35 kW continuous",
+     "inputs": "plan 39.7 kW",
+     "formula": "",
+     "demand": 39.7,
+     "capacity": 35.0,
+     "unit": "kW",
+     "util": 1.134,
+     "ok": false,
+     "note": "NG - the 4.7 kW shortfall"
+    },
+    {
+     "id": "G1-e",
+     "title": "ERV total effectiveness REQUIRED to reach 34.4 kW (plan OA 847.5 L/s, incl. +0.27 kW fan delta) vs selected 0.55 ASSUMED",
+     "inputs": "OA electric share 16.17 kW",
+     "formula": "ε = (D0 + ΔPfan - 34.4)/P_OA",
+     "demand": 0.344,
+     "capacity": 0.55,
+     "unit": "-",
+     "util": 0.625,
+     "ok": true,
+     "note": "COP 3 sensitivity ε ≥ 0.393; at 62.1 OA ε ≥ 0 (OA cut alone reaches 32.19 kW)"
+    },
+    {
+     "id": "G1-b",
+     "title": "Hot-humid demand WITH HE05IN ERVs (ε 0.55), plan OA 847.5 L/s - governing",
+     "inputs": "ERV saves 8.89 kW electric; fans +0.27 kW",
+     "formula": "D = 39.7 - ε·Q·19.08 W/(L/s) + ΔPfan",
+     "demand": 31.08,
+     "capacity": 34.4,
+     "unit": "kW",
+     "util": 0.903,
+     "ok": true,
+     "note": ""
+    },
+    {
+     "id": "G1-f",
+     "title": "Hot-humid demand WITH ERVs at 62.1 OA (454 L/s) - design flow",
+     "inputs": "no-ERV 32.19 kW; ERV saves 4.76 kW",
+     "formula": "same",
+     "demand": 27.7,
+     "capacity": 34.4,
+     "unit": "kW",
+     "util": 0.805,
+     "ok": true,
+     "note": ""
+    },
+    {
+     "id": "G1-c",
+     "title": "Largest step load (staged starts: inverter heat pumps soft-start, 1 coach at a time) vs 35 kW",
+     "inputs": "running 31.08 + one inverter ramp 1.5 kW (ASSUMED)",
+     "formula": "",
+     "demand": 32.58,
+     "capacity": 38.5,
+     "unit": "kW",
+     "util": 0.846,
+     "ok": true,
+     "note": "Gen-set transient capability 110% (ISO 8528 PRP) - AWAIT genset data"
+    }
+   ],
+   "mat": [],
+   "welds": [],
+   "bolts": [],
+   "fixes": [
+    "4.7 kW shortfall closed by HE05IN ERV + staging (G1-b 31.1 kW at plan OA; 27.7 kW at 62.1 OA) - owner/PE decision on ERV vs 45 kW set",
+    "§8 rev. A COP 3.0 / ΔT 11.1 K inconsistency corrected to plan basis (COP 2.5, ΔT 19.4 K)"
+   ],
+   "text": [
+    "Recommendation: keep the 35 kW CONTINUOUS (ISO 8528 COP, not standby) single-phase 120/240 V 60 Hz Kubota-powered enclosed set that fits the rev TB-3 tender reservation (X1060–2768, i.e. 1,708 long, allow up to 1,775 × 800 × 1,000, ≤ 900 kg; layout basis PowerTech PTI-38 1,708 × 667 × 864, 699 kg), derated for 43 °C at the site, AND close the hot-humid gap with one RenewAire HE05IN ERV per coach + a demand/staging controller (shed 1 coach compressor stage if total > 33 kW).",
+    "ERV location: a low clerestory-style roof pod on each coach (unit 880 × 956 × 307 mm, 43 kg), top ≤ 3,450 mm above rail (coach roof peak 3,089; locomotive roof 3,700; K-401 overhead 4,300). The R2 coach has no ceiling plenum (finished ceiling ≈ roof) and the end-hood pocket (1,217 W × 544 D × 431 H mm above the door header) is too shallow for any 300-cfm unit found. OA louvre and EA louvre on opposite sides/ends of the pod (62.1 Table 5-1 separation - PE to confirm).",
+    "Alternates (data verified this turn, see calcs/erv/erv_selection.md): Mitsubishi Lossnay LGH-F300RVX2-E (208/230 V, 300 cfm, 331 mm tall, 34 kg - rejected: intake limited to 40 °C / 80 % RH, below the 43 °C design day); Fantech ATMO 300E-EC (120 V, 301 cfm, 546 mm tall - too tall for a low pod); Panasonic FV-10VEC2 (120 V, 100 cfm, 225 mm tall - 3 needed per regular coach). No 12/24 V ERV of this airflow was found.",
+    "Alternative if ERVs are rejected: 45 kW continuous set (needs bay re-check - the LT45.1 gaps 124/94/25 mm will not take a larger enclosure without re-layout).",
+    "Tender layout rev TB-3 (Tender Bot design_basis §11, APPROVED 28 Oct 2026): genset X1060–2768 Y417–1084; right-wall outward-facing NEMA 3R electrical cabinet X2820–3780 (panel QO142M225PRB, factory-enclosed listed 200 A NEMA 3R UL 1008 ATS with integral main, charger SENS S2); main breaker in a SEPARATE QOM22225NRB enclosure with its handle at Z ≤ 1,639 above top of rail (NEC 404.8 met without a step); custom 150 L 5052 Al fuel tank X3900–4500 behind a steel firewall at X3800; genset start battery ODX-AGM34 X2850–3200; 3 × Haldex 19820 main reservoirs X3600–4440. Tender ≈ 8,465.3 kg (Tender Bot TB-3.4, Steering 16): under-deck shore transformer ASSEMBLY 168.7 kg at CG [2502, 24, 608] between the frame rails - Acme T2535173S 15 kVA UL 506 NEMA 3R upright (Z420–851) on 4 elastomer isolators, L3x3x1/4 cradle (cross angles X2280–2356 / X2644–2720) hung from the HSS rails by 2 × M16 8.8 through-bolts per hanger at mid-web Z963 with DOM crush tubes (no welds on the rails, ≥ 3d from any weld), bolted 3 mm ballast/spray shield 450 × 1,120 at Z300, inrush limiter on the cradle box rails X2360–2665 (nothing under the deck aft of X2900); placed equipment 2,051.9 kg at CG ≈ [2221, +41, 1480]. Tender CG on the real T2 structure CG: [2433, +10, 1109] (E-cg). Transformer top vs X2500 crossmember: CLASH 15 mm (K2-xf).",
+    "Genset purchase is NOT released (spec approval first) - procurement spec above; AWAIT supplier quotes."
+   ]
+  },
+  {
+   "no": 9,
+   "key": "coaches",
+   "title": "Coaches R2 - frame, body, roof, floor, doors, stairs, seating, restraint, egress",
+   "code": [
+    "AISC 360-22; AWS D1.1/D1.3",
+    "ASTM F2291-23 §6 (patron containment, restraint analysis), F770 (operations, evacuation), F1193",
+    "IBC 2021 §1607 (100 psf assembly floor, 50 plf / 200 lb guards), §1011 stairs; NFPA 101 §7 egress (reference)",
+    "2010 ADA Standards §234/1002 amusement rides - accessible coach (PE/owner)"
+   ],
+   "loads": [
+    "Floor 100 psf (4.79 kPa) crowd + 300 lb point; dead 0.5 kPa",
+    "Seats: 3 g longitudinal on seat + occupants (ASSUMED; F2291 accel. envelope ≤ 0.2 g at the governed 6 mph)",
+    "Roof 20 psf maint. + 300 lb point; wind 100 mph parked on walls (ASCE 7-22 basic, ASSUMED)",
+    "Guards 50 plf / 200 lb at 42 in"
+   ],
+   "calcs": [
+    {
+     "id": "C1",
+     "title": "Coach main rail HSS12x4x1/4 bending, vertical ×1.3",
+     "inputs": "Sprung loaded coach 9476 kg uniform on 2 rails over 10160 mm, bolsters at 2337/7823 mm; M=12.5 kN·m/rail at ×1.0",
+     "formula": "see PF-CT_R2_calc_notes (calcs.py)",
+     "demand": 48.0,
+     "capacity": 207.0,
+     "unit": "MPa",
+     "util": 0.23,
+     "ok": true,
+     "note": "×1.3 service vs 0.6Fy; ×2.0 overload vs Fy. Side sills and floor ignored (conservative).",
+     "carried": true
+    },
+    {
+     "id": "C1",
+     "title": "Coach main rail HSS12x4x1/4 bending, vertical ×2.0",
+     "inputs": "Sprung loaded coach 9476 kg uniform on 2 rails over 10160 mm, bolsters at 2337/7823 mm; M=12.5 kN·m/rail at ×1.0",
+     "formula": "see PF-CT_R2_calc_notes (calcs.py)",
+     "demand": 73.8,
+     "capacity": 345.0,
+     "unit": "MPa",
+     "util": 0.21,
+     "ok": true,
+     "note": "×1.3 service vs 0.6Fy; ×2.0 overload vs Fy. Side sills and floor ignored (conservative).",
+     "carried": true
+    },
+    {
+     "id": "C1d",
+     "title": "Coach end-overhang deflection (×1.0)",
+     "inputs": "Cantilever 2337 mm; limit L/360",
+     "formula": "see PF-CT_R2_calc_notes (calcs.py)",
+     "demand": 1.7,
+     "capacity": 6.5,
+     "unit": "mm",
+     "util": 0.25,
+     "ok": true,
+     "note": "",
+     "carried": true
+    },
+    {
+     "id": "C1b",
+     "title": "Coach main rail, vertical ×1.3 + 70 kN buff (eccentric)",
+     "inputs": "Coupler 550 mm vs rail centroid 635 mm: e=85 mm",
+     "formula": "see PF-CT_R2_calc_notes (calcs.py)",
+     "demand": 64.2,
+     "capacity": 207.0,
+     "unit": "MPa",
+     "util": 0.31,
+     "ok": true,
+     "note": "",
+     "carried": true
+    },
+    {
+     "id": "C2",
+     "title": "Coach bolster HSS12x4x1/4 + 2×PL10×100 doublers, centre load ×1.3",
+     "inputs": "P=46.5 kN at centre plate, span 1728 mm (rail c/c), simply supported",
+     "formula": "see PF-CT_R2_calc_notes (calcs.py)",
+     "demand": 76.7,
+     "capacity": 207.0,
+     "unit": "MPa",
+     "util": 0.37,
+     "ok": true,
+     "note": "Doublers PL10×100 top+bottom over centre 600 mm; internal PL10 diaphragm each side of centre plate.",
+     "carried": true
+    },
+    {
+     "id": "C2",
+     "title": "Coach bolster HSS12x4x1/4 + 2×PL10×100 doublers, centre load ×2.0",
+     "inputs": "P=46.5 kN at centre plate, span 1728 mm (rail c/c), simply supported",
+     "formula": "see PF-CT_R2_calc_notes (calcs.py)",
+     "demand": 118.0,
+     "capacity": 345.0,
+     "unit": "MPa",
+     "util": 0.34,
+     "ok": true,
+     "note": "Doublers PL10×100 top+bottom over centre 600 mm; internal PL10 diaphragm each side of centre plate.",
+     "carried": true
+    },
+    {
+     "id": "C10d",
+     "title": "Coach platform guard post 1-1/2 in sch 40 A53B, 200 lb at 42 in",
+     "inputs": "Cantilever post from floor/side sill",
+     "formula": "see PF-CT_R2_calc_notes (calcs.py)",
+     "demand": 177.8,
+     "capacity": 144.6,
+     "unit": "MPa",
+     "util": 1.23,
+     "ok": false,
+     "note": "",
+     "carried": true
+    },
+    {
+     "id": "C10d",
+     "title": "Coach platform guard post 2 in sch 40 A53B, 200 lb at 42 in",
+     "inputs": "Cantilever post from floor/side sill",
+     "formula": "see PF-CT_R2_calc_notes (calcs.py)",
+     "demand": 103.3,
+     "capacity": 144.6,
+     "unit": "MPa",
+     "util": 0.71,
+     "ok": true,
+     "note": "",
+     "carried": true
+    },
+    {
+     "id": "C15a",
+     "title": "Stair tread formed channel 3/16 in (4.8) x 280 go x 40 flanges, 914 span, 300 lb point",
+     "inputs": "Simply supported between stringers; IBC 1607 300 lb concentrated on 4 in² (ASSUMED code basis)",
+     "formula": "see PF-CT_R2_calc_notes (calcs.py)",
+     "demand": 70.4,
+     "capacity": 150.0,
+     "unit": "MPa",
+     "util": 0.47,
+     "ok": true,
+     "note": "",
+     "carried": true
+    },
+    {
+     "id": "C15b",
+     "title": "Stair tread deflection, 300 lb point",
+     "inputs": "Limit L/240",
+     "formula": "see PF-CT_R2_calc_notes (calcs.py)",
+     "demand": 0.7,
+     "capacity": 3.8,
+     "unit": "mm",
+     "util": 0.19,
+     "ok": true,
+     "note": "",
+     "carried": true
+    },
+    {
+     "id": "C15c",
+     "title": "Stair stringer PL8x150 A36, 100 psf crowd + dead (per stringer)",
+     "inputs": "Horizontal span 1550 mm hinge-to-foot; plan area 1.28 m²; 100 psf = 4.79 kPa (IBC 1607 stairs, ASSUMED)",
+     "formula": "see PF-CT_R2_calc_notes (calcs.py)",
+     "demand": 23.6,
+     "capacity": 150.0,
+     "unit": "MPa",
+     "util": 0.16,
+     "ok": true,
+     "note": "",
+     "carried": true
+    },
+    {
+     "id": "C15d",
+     "title": "Stair stringer deflection (along slope)",
+     "inputs": "Limit L/360",
+     "formula": "see PF-CT_R2_calc_notes (calcs.py)",
+     "demand": 0.7,
+     "capacity": 5.2,
+     "unit": "mm",
+     "util": 0.13,
+     "ok": true,
+     "note": "",
+     "carried": true
+    },
+    {
+     "id": "C15e",
+     "title": "Chain stay 3/8 in Grade 70 (x2), foot unsupported, full crowd",
+     "inputs": "Moment of full load about the floor hinge / 548 mm chain lever arm; WLL 6,600 lbf for 3/8 G70 ASSUMED - verify on chain tag / supplier (AWAIT)",
+     "formula": "see PF-CT_R2_calc_notes (calcs.py)",
+     "demand": 5.2,
+     "capacity": 29.4,
+     "unit": "kN",
+     "util": 0.18,
+     "ok": true,
+     "note": "",
+     "carried": true
+    },
+    {
+     "id": "C15f",
+     "title": "Floor hinge pin Ø25 4140 Q&T (2 per stair), single shear",
+     "inputs": "Hinge reaction with chains loaded; brackets/bolts to side sill by PE",
+     "formula": "see PF-CT_R2_calc_notes (calcs.py)",
+     "demand": 9.4,
+     "capacity": 262.0,
+     "unit": "MPa",
+     "util": 0.04,
+     "ok": true,
+     "note": "",
+     "carried": true
+    },
+    {
+     "id": "C15g",
+     "title": "Stair handrail 1-1/2 in sch 40 A53B, 200 lb at mid-span (662 along slope)",
+     "inputs": "Posts at treads 1, 3, 5; IBC 1607.9 200 lb any direction (ASSUMED)",
+     "formula": "see PF-CT_R2_calc_notes (calcs.py)",
+     "demand": 27.6,
+     "capacity": 144.6,
+     "unit": "MPa",
+     "util": 0.19,
+     "ok": true,
+     "note": "",
+     "carried": true
+    },
+    {
+     "id": "C15h",
+     "title": "Stair handrail post 2 in sch 40 A53B, 200 lb at 895 above tread",
+     "inputs": "Fold-flat post locked upright by strut + Ø16 pin",
+     "formula": "see PF-CT_R2_calc_notes (calcs.py)",
+     "demand": 86.6,
+     "capacity": 144.6,
+     "unit": "MPa",
+     "util": 0.6,
+     "ok": true,
+     "note": "",
+     "carried": true
+    },
+    {
+     "id": "C15i",
+     "title": "Stair handrail post lock pin Ø16 4140, double shear",
+     "inputs": "Couple over 100 mm hinge-to-pin",
+     "formula": "see PF-CT_R2_calc_notes (calcs.py)",
+     "demand": 19.8,
+     "capacity": 262.0,
+     "unit": "MPa",
+     "util": 0.08,
+     "ok": true,
+     "note": "",
+     "carried": true
+    },
+    {
+     "id": "R1-a",
+     "title": "Floor crossmember HSS6x2x3/16 between rails (1,728) at 900 c/c, 100 psf + DL",
+     "inputs": "w 4.76 N/mm",
+     "formula": "σ = wL²/8S",
+     "demand": 29.138,
+     "capacity": 207.0,
+     "unit": "MPa",
+     "util": 0.141,
+     "ok": true,
+     "note": ""
+    },
+    {
+     "id": "R1-b",
+     "title": "Floor crossmember deflection, live only",
+     "inputs": "L/360",
+     "formula": "δ = 5wL⁴/384EI",
+     "demand": 0.538,
+     "capacity": 4.8,
+     "unit": "mm",
+     "util": 0.112,
+     "ok": true,
+     "note": ""
+    },
+    {
+     "id": "R1-c",
+     "title": "Outrigger HSS6x2x3/16 cantilever 533 to side sill, floor + wall/roof line 2.0 N/mm",
+     "inputs": "",
+     "formula": "M = w a²/2 + P a",
+     "demand": 26.82,
+     "capacity": 207.0,
+     "unit": "MPa",
+     "util": 0.13,
+     "ok": true,
+     "note": ""
+    },
+    {
+     "id": "R1-d",
+     "title": "Floor panel (1 in composite) required stiffness per mm width for L/360 at 100 psf, span 900",
+     "inputs": "spec value to supplier",
+     "formula": "EI ≥ 5qL⁴·360/(384 L)",
+     "demand": 16.368,
+     "capacity": 16.368,
+     "unit": "N·m²/mm·1e-3",
+     "util": 1.0,
+     "ok": true,
+     "note": "Spec row - panel supplier to certify EI and 300 lb point (AWAIT)"
+    },
+    {
+     "id": "R1-e",
+     "title": "Roof bow HSS2x2x1/8 @880 (at each window post), span 2,794, deflection L/180",
+     "inputs": "20 psf + 0.25 kPa dead",
+     "formula": "δ = 5wL⁴/384EI",
+     "demand": 19.518,
+     "capacity": 15.522,
+     "unit": "mm",
+     "util": 1.257,
+     "ok": false,
+     "note": "NG → FIX: HSS3x2x1/8 roof bows"
+    },
+    {
+     "id": "R1-f",
+     "title": "Roof bow HSS3x2x1/8 @880 (at each window post), span 2,794, deflection L/180",
+     "inputs": "20 psf + 0.25 kPa dead",
+     "formula": "δ = 5wL⁴/384EI",
+     "demand": 7.366,
+     "capacity": 15.522,
+     "unit": "mm",
+     "util": 0.475,
+     "ok": true,
+     "note": "ADOPTED"
+    },
+    {
+     "id": "R1-g",
+     "title": "Window post HSS2x2x1/8 @880, 100 mph parked wind (Cp 0.8) + 50 plf lean, span 1,100",
+     "inputs": "q 980 Pa",
+     "formula": "M = wL²/8 + P_lean·L/4",
+     "demand": 36.035,
+     "capacity": 207.0,
+     "unit": "MPa",
+     "util": 0.174,
+     "ok": true,
+     "note": ""
+    },
+    {
+     "id": "R1-h",
+     "title": "Bench anchor (4-seat bench, 2 rear anchors) M12 cl.8.8 tension at 3 g",
+     "inputs": "Fx 10.24 kN, CG 600, base 450",
+     "formula": "T = Fx·h/(b·2) - DL/4; Ft = 0.75Fu/2·As",
+     "demand": 5.972,
+     "capacity": 25.29,
+     "unit": "kN",
+     "util": 0.236,
+     "ok": true,
+     "note": "Through-bolt to crossmember or 100×100×6 backing plate - no inserts in composite floor"
+    },
+    {
+     "id": "R1-i",
+     "title": "Egress width: NFPA 101 0.2 in/person (level) for 32 pax vs 2 × 813 end doors",
+     "inputs": "",
+     "formula": "W_req = 0.2 in × n",
+     "demand": 162.56,
+     "capacity": 1626,
+     "unit": "mm",
+     "util": 0.1,
+     "ok": true,
+     "note": ""
+    },
+    {
+     "id": "R1-j",
+     "title": "Evacuation time to ground: stair deploy 60 s + 32 pax at 0.5 p/s per stair × 2 stairs vs 180 s (ASSUMED target)",
+     "inputs": "",
+     "formula": "t = t_deploy + n/(2·0.5)",
+     "demand": 92.0,
+     "capacity": 180,
+     "unit": "s",
+     "util": 0.511,
+     "ok": true,
+     "note": "Train crew procedure per ASTM F770; drill to verify"
+    }
+   ],
+   "mat": [
+    "Underframe: HSS12x4x1/4 rails, HSS6x2x3/16 crossmembers/outriggers/side sills A500C",
+    "Body: HSS2x2x1/8 posts, 16 ga skin, roof bows HSS3x2x1/8 @880 (fix), polycarbonate glazing 6 mm (FMVSS 205 AS-? AWAIT)",
+    "Floor: 1 in composite panel, fire/smoke per NFPA 130 Table A practice (reference)"
+   ],
+   "welds": [
+    "Crossmembers/outriggers to rails: 5 mm fillet all round",
+    "Window posts to side sill and eave: 3 mm fillet all round (D1.3 for 16 ga skin plug welds)"
+   ],
+   "bolts": [
+    "Bench anchors M12 cl.8.8, 88 N·m (dry K 0.20), nyloc, backing plate",
+    "Stair hinge pins Ø25 4140 + R-clip; handrail posts lock pin Ø16"
+   ],
+   "fixes": [
+    "Roof bows HSS2x2x1/8 @880 deflect 1.12×limit → HSS3x2x1/8 (R1-e/f)",
+    "Guard post 1-1/2 → 2 in sch 40 (C10d)",
+    "Seat anchors through-bolted (R1-h)"
+   ],
+   "text": [
+    "Occupant restraint (ASTM F2291 restraint analysis): accelerations at the governed 6 mph (owner-selected limit, PE to confirm) with 1.0 m/s² emergency are ≤ 0.11 g longitudinal, ≤ 0.04 g lateral on R100 (quasi-static lateral scales with v²: 0.06 × (6/7.5)²) → seated patrons need seat backs + handholds; no individual restraint; gates latched and interlocked to traction (no movement with a gate open).",
+    "Doors/gates: end doors 32 in (813) clear; platform side gates 42 in high, latched + proximity-switch interlock to the traction-enable loop (fail-safe).",
+    "Emergency-exit stairs both sides at every door (C15, C-304); stowed latches with proximity switches in the same interlock loop."
+   ]
+  },
+  {
+   "no": 10,
+   "key": "electrical",
+   "title": "Electrical (train supply) and coach HVAC",
+   "code": [
+    "NFPA 70 (NEC) 2023 Art. 400 (flexible cords), 445, 250, 522/525; NFPA 101 §7.9 emergency lighting (90 min)",
+    "UL 1995 / AHRI 210/240 HVAC equipment; ASHRAE 62.1 ventilation (reference)"
+   ],
+   "loads": [],
+   "calcs": [
+    {
+     "id": "H1-a",
+     "title": "Genset output current 35 kW / 240 V vs main breaker 175 A (125%)",
+     "inputs": "",
+     "formula": "I = P/V; OCPD ≥ 1.15·I (445.12)",
+     "demand": 145.833,
+     "capacity": 175,
+     "unit": "A",
+     "util": 0.833,
+     "ok": true,
+     "note": ""
+    },
+    {
+     "id": "H1-b",
+     "title": "First train-line jumper (all 4 coaches) type W 2/0 3C+G (ampacity 195 A, NEC 400.5 col. B, ASSUMED)",
+     "inputs": "34.4 kW target (≥ G1-b 31.1 kW) incl. ERV case",
+     "formula": "I = P/V",
+     "demand": 179.167,
+     "capacity": 195,
+     "unit": "A",
+     "util": 0.919,
+     "ok": true,
+     "note": "Continuous load ×1.25"
+    },
+    {
+     "id": "H1-c",
+     "title": "Coach branch #4 SOOW (70 A) for 10 kW coach peak",
+     "inputs": "",
+     "formula": "I = P/V ×1.25",
+     "demand": 52.083,
+     "capacity": 70,
+     "unit": "A",
+     "util": 0.744,
+     "ok": true,
+     "note": ""
+    },
+    {
+     "id": "H1-d",
+     "title": "Voltage drop 65 m train line 2/0 Cu at 143 A, 1-phase",
+     "inputs": "R 0.33 Ω/km (2/0 Cu)",
+     "formula": "ΔV = 2·I·R·L",
+     "demand": 2.556,
+     "capacity": 3.0,
+     "unit": "%",
+     "util": 0.852,
+     "ok": true,
+     "note": ""
+    }
+   ],
+   "mat": [],
+   "welds": [],
+   "bolts": [],
+   "fixes": [
+    "4.7 kW hot-humid shortfall closed (ERV + staging) - see §8"
+   ],
+   "text": [
+    "HVAC: one inverter heat-pump (mini-split class) per coach + one RenewAire HE05IN ERV per coach (enthalpy core, ε 0.55 ASSUMED - AWAIT printout) in a roof clerestory pod supplying the ASHRAE 62.1 outside-air rate (279 cfm regular / 126 cfm accessible) through low-level side supply; MERV 13 filters; condensate to track drain.",
+    "Staging/demand controller in the tender AC panel: limits total to 33 kW, sheds compressor stages coach-by-coach, keeps ventilation and emergency lights.",
+    "Grounding: genset neutral bonded at the genset (separately derived); equipment grounding conductor through every jumper; GFCI on 120 V receptacles; bonding jumpers across trucks.",
+    "Emergency lighting: battery-backed 90 min per coach; exit/orientation 10 W per coach (plan EL1)."
+   ]
+  },
+  {
+   "no": 11,
+   "key": "wind",
+   "title": "Wind - 40 mph no-run, overturning, tie-downs",
+   "code": [
+    "ASCE 7-22 Ch. 26-29 (parked, basic wind speed - site value AWAIT from ASCE hazard tool; 100 mph ASSUMED)",
+    "ASTM F2291 §6 environmental loads; operating limit per F770"
+   ],
+   "loads": [],
+   "calcs": [
+    {
+     "id": "C11",
+     "title": "Coach empty wind overturning FS at 67 mph gust",
+     "inputs": "Side area 23.2 m², Cd 1.2, centroid Z1750 mm, restoring m·g·gauge/2",
+     "formula": "see PF-CT_R2_calc_notes (calcs.py)",
+     "demand": 1.5,
+     "capacity": 1.4,
+     "unit": "FS req/avail",
+     "util": 1.09,
+     "ok": false,
+     "note": "Requirement FS ≥ 1.5 ASSUMED; engineer to set per ASTM F2291 environmental loads.",
+     "carried": true
+    },
+    {
+     "id": "C11",
+     "title": "Coach loaded wind overturning FS at 67 mph gust",
+     "inputs": "Side area 23.2 m², Cd 1.2, centroid Z1750 mm, restoring m·g·gauge/2",
+     "formula": "see PF-CT_R2_calc_notes (calcs.py)",
+     "demand": 1.5,
+     "capacity": 2.3,
+     "unit": "FS req/avail",
+     "util": 0.67,
+     "ok": true,
+     "note": "Requirement FS ≥ 1.5 ASSUMED; engineer to set per ASTM F2291 environmental loads.",
+     "carried": true
+    },
+    {
+     "id": "C11",
+     "title": "Locomotive wind overturning FS at 67 mph gust",
+     "inputs": "Side area 35.0 m², Cd 1.2, centroid Z1900 mm, restoring m·g·gauge/2",
+     "formula": "see PF-CT_R2_calc_notes (calcs.py)",
+     "demand": 1.5,
+     "capacity": 1.8,
+     "unit": "FS req/avail",
+     "util": 0.86,
+     "ok": true,
+     "note": "Requirement FS ≥ 1.5 ASSUMED; engineer to set per ASTM F2291 environmental loads.",
+     "carried": true
+    },
+    {
+     "id": "C11",
+     "title": "Tender wind overturning FS at 67 mph gust",
+     "inputs": "Side area 9.5 m², Cd 1.2, centroid Z1430 mm, restoring m·g·gauge/2",
+     "formula": "see PF-CT_R2_calc_notes (calcs.py)",
+     "demand": 1.5,
+     "capacity": 4.2,
+     "unit": "FS req/avail",
+     "util": 0.36,
+     "ok": true,
+     "note": "Requirement FS ≥ 1.5 ASSUMED; engineer to set per ASTM F2291 environmental loads.",
+     "carried": true
+    },
+    {
+     "id": "C11w",
+     "title": "Coach empty overturning FS at 40 mph gust (adopted no-run limit)",
+     "inputs": "Owner decision R2: no running above 40 mph gusts; parked train tied down (wind tie-downs)",
+     "formula": "see PF-CT_R2_calc_notes (calcs.py)",
+     "demand": 1.5,
+     "capacity": 3.9,
+     "unit": "FS req/avail",
+     "util": 0.39,
+     "ok": true,
+     "note": "",
+     "carried": true
+    },
+    {
+     "id": "C11w",
+     "title": "Coach loaded overturning FS at 40 mph gust (adopted no-run limit)",
+     "inputs": "Owner decision R2: no running above 40 mph gusts; parked train tied down (wind tie-downs)",
+     "formula": "see PF-CT_R2_calc_notes (calcs.py)",
+     "demand": 1.5,
+     "capacity": 6.3,
+     "unit": "FS req/avail",
+     "util": 0.24,
+     "ok": true,
+     "note": "",
+     "carried": true
+    },
+    {
+     "id": "C11w",
+     "title": "Locomotive overturning FS at 40 mph gust (adopted no-run limit)",
+     "inputs": "Owner decision R2: no running above 40 mph gusts; parked train tied down (wind tie-downs)",
+     "formula": "see PF-CT_R2_calc_notes (calcs.py)",
+     "demand": 1.5,
+     "capacity": 4.9,
+     "unit": "FS req/avail",
+     "util": 0.3,
+     "ok": true,
+     "note": "",
+     "carried": true
+    },
+    {
+     "id": "C11w",
+     "title": "Tender overturning FS at 40 mph gust (adopted no-run limit)",
+     "inputs": "Owner decision R2: no running above 40 mph gusts; parked train tied down (wind tie-downs)",
+     "formula": "see PF-CT_R2_calc_notes (calcs.py)",
+     "demand": 1.5,
+     "capacity": 11.7,
+     "unit": "FS req/avail",
+     "util": 0.13,
+     "ok": true,
+     "note": "",
+     "carried": true
+    },
+    {
+     "id": "W1-Coac",
+     "title": "Coach empty parked 100 mph: tie-down force per windward tie (2 ties) vs G70 3/8 chain WLL 29.4 kN",
+     "inputs": "F 34.1 kN at Z1750; 0.6D restoring",
+     "formula": "T = (M_o - 0.6 M_r)/(gauge·2)",
+     "demand": 20.803,
+     "capacity": 29.4,
+     "unit": "kN",
+     "util": 0.708,
+     "ok": true,
+     "note": ""
+    },
+    {
+     "id": "W1-Loco",
+     "title": "Locomotive parked 100 mph: tie-down force per windward tie (2 ties) vs G70 3/8 chain WLL 29.4 kN",
+     "inputs": "F 51.4 kN at Z1900; 0.6D restoring",
+     "formula": "T = (M_o - 0.6 M_r)/(gauge·2)",
+     "demand": 24.123,
+     "capacity": 29.4,
+     "unit": "kN",
+     "util": 0.821,
+     "ok": true,
+     "note": ""
+    },
+    {
+     "id": "W1-Tend",
+     "title": "Tender parked 100 mph: tie-down force per windward tie (2 ties) vs G70 3/8 chain WLL 29.4 kN",
+     "inputs": "F 14.0 kN at Z1430; 0.6D restoring",
+     "formula": "T = (M_o - 0.6 M_r)/(gauge·2)",
+     "demand": 0.0,
+     "capacity": 29.4,
+     "unit": "kN",
+     "util": 0.0,
+     "ok": true,
+     "note": ""
+    }
+   ],
+   "mat": [],
+   "welds": [],
+   "bolts": [],
+   "fixes": [],
+   "text": [
+    "No-run above 40 mph gust (anemometer at the station, ops rule per F770); all vehicles FS ≥ 3.8 at 40 mph (C11w).",
+    "Parked: 2 ties per vehicle each side (4 per vehicle) to helical anchors / deadman - anchor capacity ≥ 30 kN each AWAIT geotech."
+   ]
+  },
+  {
+   "no": 12,
+   "key": "track",
+   "title": "Track / rail interface - wheel profile, gauge, curve clearances",
+   "code": [
+    "ASTM F2291 §6 (clearance envelope); AREMA Ch. 4/5 practice (reference); ASCE 40 lb rail section properties"
+   ],
+   "loads": [],
+   "calcs": [
+    {
+     "id": "K2-a",
+     "title": "Max static driver wheel load (L4.1: Loco Bot ledger 01:57 - barrel 2,076.2 + saddles 195.7, smokebox 227.9 incl. SBX-7, fittings 40.3, deck +36.3, cab C1 813.9, BT-1 + 2 × 75.4 kg plates + clamp bars in the front pocket, slats 21.9, HL-1 headlamp 25, TC/valve package 28, hub 31.4/axle, no divider, sprung pony) vs revised rail basis 26 kN",
+     "inputs": "",
+     "formula": "",
+     "demand": 25.89,
+     "capacity": 26.0,
+     "unit": "kN",
+     "util": 0.996,
+     "ok": true,
+     "note": "Rail basis raised 24 → 26 kN (ASCE 40 base stress ≈ 101×26/22.85 = 115 MPa vs 172 allow.)"
+    },
+    {
+     "id": "FT-1a",
+     "title": "Loco front tow lug FT-1 (L-111): 8 × Lindapter HB16-2 in the front end sill, 70 kN at 20°/15°, worst bolt T 14.0 / V 3.7 kN",
+     "inputs": "axial 63.5 kN; shear/bolt 3.67 kN",
+     "formula": "T/21 + V/30 (HB16 SWL basis)",
+     "demand": 0.79,
+     "capacity": 1.0,
+     "unit": "-",
+     "util": 0.79,
+     "ok": true,
+     "note": "Loco Bot value verified; HB16-2 clamp range to confirm with Lindapter; holes drilled, ≥ 50 mm from weld toes"
+    },
+    {
+     "id": "FT-1b",
+     "title": "FT-1 end-sill wall yield line (HSS12x6x3/8, t 8.86, panel 278 × 328 clamped, patch 126 × 236) - Loco Bot Pu 220 kN / 1.67",
+     "inputs": "independent pyramid Pu 280.6 kN (0.9× = 252.5)",
+     "formula": "70 / (220/1.67)",
+     "demand": 0.53,
+     "capacity": 1.0,
+     "unit": "-",
+     "util": 0.53,
+     "ok": true,
+     "note": "governing lower bound kept; independent 0.46"
+    },
+    {
+     "id": "FT-1h",
+     "title": "FT-1 Crosby G-209 shackle (Loco Bot)",
+     "inputs": "",
+     "formula": "",
+     "demand": 0.84,
+     "capacity": 1.0,
+     "unit": "-",
+     "util": 0.84,
+     "ok": true,
+     "note": "governing FT-1 item"
+    },
+    {
+     "id": "K2-a2",
+     "title": "Loco Bot S17: equal-torque dry 2 % start margin after the front-ballast trim (1,056 -> 150.8 kg plates + BT-1 68.2 kg in the pocket) - rule >= 1.10",
+     "inputs": "lightest axle F2 37.11 kN",
+     "formula": "rule / margin",
+     "demand": 1.1,
+     "capacity": 1.14,
+     "unit": "-",
+     "util": 0.965,
+     "ok": true,
+     "note": "smokebox 227.9 kg counted in full (no double count: the L3 smokebox front left the base with the ~1,000 kg L3 cab/front)"
+    },
+    {
+     "id": "K2-hb",
+     "title": "Loco Bot S17: S4N saddle holes at bearer B4 (HSS5x3x3/16, front bolster) Y±250 - net section with the REQUIRED fix (M12 hex rivnuts on the bearer CL, pairs ±25 in Y)",
+     "inputs": "M 7.47 kN·m (LC4P 2 g)",
+     "formula": "f / (0.6·Fu·Afn/Afg), AISC F13.1",
+     "demand": 136.1,
+     "capacity": 194.08,
+     "unit": "MPa",
+     "util": 0.701,
+     "ok": true,
+     "note": "as proposed (2 rivnuts at X±25 in one section): 1.03 NG, and the hex-16 hole runs 5.6 mm into the 9.5 corner radius (rivnut cannot seat) - applies to every F-07 saddle rivnut S1-S6; B1/S1 0.15, B4 Y±480 0.41"
+    },
+    {
+     "id": "K2-hs",
+     "title": "Loco Bot S17: S1 smokebox saddle rivnut tension (227.9 kg, 1 g roll + 1 g up) and pilot slat holes (20 × M10 in the L3 PL12 face, 6 % row loss)",
+     "inputs": "",
+     "formula": "T / SWL 4 kN (ASSUMED)",
+     "demand": 0.991,
+     "capacity": 4.0,
+     "unit": "kN",
+     "util": 0.248,
+     "ok": true,
+     "note": "pilot slats OK with conditions: >= 30 mm from box edges/welds, clear of the coupler pocket Y±560 and the FT-1 load path, full 12 mm thread or through-bolted"
+    },
+    {
+     "id": "K2-ss",
+     "title": "Deck side stringers SS± C3x4.1 -> HSS3x3x1/8 (P-A1, ADOPTED S17), grillage with S17 loads",
+     "inputs": "",
+     "formula": "M/S vs 0.6 Fy",
+     "demand": 81.31,
+     "capacity": 207.0,
+     "unit": "MPa",
+     "util": 0.393,
+     "ok": true,
+     "note": "was 0.57 on C3x4.1; bearer max 0.67"
+    },
+    {
+     "id": "K2-r70",
+     "title": "L-109 R70 swept half-width (Loco Bot sweep, K-401 method): cab eave governs",
+     "inputs": "R100 1,581.6 reproduced",
+     "formula": "envelope vs 1,696",
+     "demand": 1629.4,
+     "capacity": 1696.0,
+     "unit": "mm",
+     "util": 0.961,
+     "ok": true,
+     "note": "66.6 mm margin CONFIRMED; front-end items 198 / 547 / 559"
+    },
+    {
+     "id": "K2-b",
+     "title": "ASCE 40 rail base stress at 26 kN (scaled from 22.85 kN screening) vs 172 MPa",
+     "inputs": "",
+     "formula": "σ ∝ Q",
+     "demand": 114.923,
+     "capacity": 172,
+     "unit": "MPa",
+     "util": 0.668,
+     "ok": true,
+     "note": ""
+    },
+    {
+     "id": "K2-c",
+     "title": "Rigid wheelbase 1,550 on R100 - versine vs flangeway play 12.4",
+     "inputs": "",
+     "formula": "f = wb²/8R",
+     "demand": 3.003,
+     "capacity": 12.4,
+     "unit": "mm",
+     "util": 0.242,
+     "ok": true,
+     "note": ""
+    },
+    {
+     "id": "K2-d",
+     "title": "Loco swept half-envelope on R100 - 3-D kinematic sweep of the R2 model (governing point: CAB ROOF eave, incl. 2° sway + 6.2 play) vs K-401 half 1,696",
+     "inputs": "old single-point cab-step check 1487 (understated - wrong governing point; K-401 L2 and the sweep agree within 4 mm at R45: 1,719 / 1,715)",
+     "formula": "route_check.py sweep",
+     "demand": 1581.603,
+     "capacity": 1696,
+     "unit": "mm",
+     "util": 0.933,
+     "ok": true,
+     "note": "R50 1,691.7 (+widening 1,701 NG → cab-roof eave trim ≥ 10 mm if R50 is adopted); R45 1,715 NG"
+    },
+    {
+     "id": "K2-d2",
+     "title": "Coach swept half-envelope on R100 incl. Trim Bot garland/lights 60 mm per side vs K-401 1,696",
+     "inputs": "coach 1586.5 + 60",
+     "formula": "sweep + 60",
+     "demand": 1646.529,
+     "capacity": 1696,
+     "unit": "mm",
+     "util": 0.971,
+     "ok": true,
+     "note": "R50 1,688 (+widening 917.5 → 1,693 OK; 920.7 → 1,697 NG: keep R50 widening at 917.5 or garland ≤ 50 mm)"
+    },
+    {
+     "id": "K2-e",
+     "title": "Driver top to running-board edge angle (underside Z1,530): vertical clearance - 25 bump vs 50 min",
+     "inputs": "",
+     "formula": "",
+     "demand": 50,
+     "capacity": 55,
+     "unit": "mm",
+     "util": 0.909,
+     "ok": true,
+     "note": ""
+    },
+    {
+     "id": "K2-f",
+     "title": "Driver tyre sweep under running board at R100 (truck yaw) - lateral movement at wheel end vs board overhang beyond tyre 703",
+     "inputs": "yaw 0.92°",
+     "formula": "Δy = 1,500·sin(yaw)",
+     "demand": 24.0,
+     "capacity": 703,
+     "unit": "mm",
+     "util": 0.034,
+     "ok": true,
+     "note": ""
+    },
+    {
+     "id": "K2-g",
+     "title": "L4 chain case (lowest part, inside the frame) vs rail top - case bottom Z389",
+     "inputs": "case bottom Z389, rail top Z0",
+     "formula": "vertical clearance - 25 bump - 50 wheel wear",
+     "demand": 75,
+     "capacity": 314,
+     "unit": "mm",
+     "util": 0.239,
+     "ok": true,
+     "note": ""
+    },
+    {
+     "id": "K2-h",
+     "title": "Decorative cylinders Ø380 on T1 at Y±790 (L4, moved from Y±750) vs lead-truck wheel rim - min gap after 6.2 play on Alt A as drawn (R100, no spirals) vs 10 mm",
+     "inputs": "at Y±750 it was 0.1 (NG)",
+     "formula": "sweep",
+     "demand": 10,
+     "capacity": 37.013,
+     "unit": "mm",
+     "util": 0.27,
+     "ok": true,
+     "note": "FIXED rev L4: cylinders at Y±790 (25 mm at R50)"
+    },
+    {
+     "id": "K2-i",
+     "title": "Loco-tender DB-800: tender-side pocket swing (300 mouth, limit 19.2°) - max angle on Alt A as drawn",
+     "inputs": "loco side 13.3° vs 32.4°",
+     "formula": "sweep",
+     "demand": 10.016,
+     "capacity": 19.218,
+     "unit": "deg",
+     "util": 0.521,
+     "ok": true,
+     "note": "R50 needs 19.5-19.7° → tender pocket mouth 150 (limit 32.4°) if R50 is adopted"
+    },
+    {
+     "id": "K2-c2",
+     "title": "Rigid 1,550 driver truck on R45 - versine incl. flange lead vs flangeway play at gauge -3 (9.4)",
+     "inputs": "2-axle truck cannot jam; versine criterion with flange lead",
+     "formula": "f = (wb+2·lead)²/8R",
+     "demand": 7.62,
+     "capacity": 9.4,
+     "unit": "mm",
+     "util": 0.811,
+     "ok": true,
+     "note": "Stress Bot's 13.2 mm (= wb²/4R) is a 3-axle criterion - not applicable to 2-axle trucks"
+    },
+    {
+     "id": "K2-j",
+     "title": "Max gauge accepted by the wheelsets: widened 920.7 + 6 build + 6 wear (932.8) - tread overlap on the rail head (worn flange 17, min B2B 857, tread 120, chamfer 5)",
+     "inputs": "overlap 56.2 vs ASCE 40 head 47.6",
+     "formula": "",
+     "demand": 932.8,
+     "capacity": 941.4,
+     "unit": "mm",
+     "util": 0.991,
+     "ok": true,
+     "note": "Absolute max 941.4; maintenance limit 932 proposed"
+    },
+    {
+     "id": "K2-k",
+     "title": "Restraining rail flangeway, min case (widened 917.5, check gauge 886 +2/-0) vs 25 mm (22 flange + 3)",
+     "inputs": "flangeway = G - C",
+     "formula": "",
+     "demand": 25.0,
+     "capacity": 26.6,
+     "unit": "mm",
+     "util": 0.94,
+     "ok": true,
+     "note": "No widening (914.4) → 23.4 NG: restraining rail only with widened gauge"
+    },
+    {
+     "id": "K2-b2",
+     "title": "ASCE 40 rail base stress, track_structure spec (ties 6×8×6 ft @ 22.5 in, 2×26 kN) vs 172 MPa",
+     "inputs": "track engineer calc reproduced",
+     "formula": "",
+     "demand": 153,
+     "capacity": 172,
+     "unit": "MPa",
+     "util": 0.89,
+     "ok": true,
+     "note": "Lateral basis 0.35×2×26 = 18.2 kN (engineer used 17.1). Their 'L/V 0.11 at R100' is centrifugal only - flange guidance gives Y/Q ≈ 0.8-0.9 on R≤100: design curves < R100 for 0.5×axle"
+    },
+    {
+     "id": "K2-l",
+     "title": "Lead (pony) truck, ACTUAL wheel load 2.9 kN (LT42: body reaction 0; PE 5.4 was wrong) - free swing arm, leading wheel Y/Q on R45 vs Nadal 1.34",
+     "inputs": "Q 2.89 kN (2.15 in twist); Heumann 1,050 wb",
+     "formula": "Y/Q chord mode",
+     "demand": 0.942,
+     "capacity": 1.342,
+     "unit": "L/V",
+     "util": 0.702,
+     "ok": true,
+     "note": "Passes ONLY with no lateral centering force: allowable arm/centering friction 0.4 kN at Q_min (μ 0.3, 1.2 margin). REQUIRED: load the pony (K2-m) + swing stops ±120 mm (Stress Bot R3; R80 working route swing 89.5 mm, E 102, A 72, D 119)"
+    },
+    {
+     "id": "K2-m",
+     "title": "Pony load 15 kN (upper end of 10-15) taken as a BODY SPRING (reacted at X1,525, outside the pivots) - max driver wheel vs 26 kN",
+     "inputs": "spring lifts 1.80×F off the front truck: F2 axle 11.67 kN, rear wheel 26.5",
+     "formula": "statics",
+     "demand": 26.5,
+     "capacity": 26.0,
+     "unit": "kN",
+     "util": 1.019,
+     "ok": false,
+     "note": "Body-spring loading over-loads the rear truck and strips the front drivers (equal-torque cap 25.2 → 13.9 kN). RECOMMENDED: sprung pony carrying its OWN 1.25 t ballast (12.3 kN, Q 5.96 kN/wheel, no effect on the drivers)"
+    },
+    {
+     "id": "K2-m2",
+     "title": "ADOPTED L4: sprung pony carrying its OWN 1.25 t ballast (no load transfer to the drivers) - max driver wheel vs 26 kN",
+     "inputs": "K2-m body-spring option REJECTED",
+     "formula": "statics",
+     "demand": 25.89,
+     "capacity": 26.0,
+     "unit": "kN",
+     "util": 0.996,
+     "ok": true,
+     "note": "Pony Q ≈ 5.96 kN/wheel → K2-l lead-wheel Y/Q improves; swing stops ±120 mm"
+    },
+    {
+     "id": "K2-n",
+     "title": "Barrel saddles S3 (X2450) / S5 (X5675), bearers and RB-1 brackets vs the L4 chain drive (Loco Bot) - min plan gap",
+     "inputs": "drive top Z1061 vs RB bracket bottom Z1175.0",
+     "formula": "CAD envelope",
+     "demand": 50,
+     "capacity": 389,
+     "unit": "mm",
+     "util": 0.129,
+     "ok": true,
+     "note": "CLEAR; keep-out zones on L-103"
+    },
+    {
+     "id": "K2-lo",
+     "title": "K-401 LOWER OUTLINE (Steering 14b): all non-wheel parts >= 150 mm ATOR between the rails / >= 100 mm outside; level track + vertical curves R >= 500 m (crest/sag loss included), new wheels, static",
+     "inputs": "governing: transom HSS10x4x1/4 (upright, pair) tender clear 196.0 mm (between); loco/tender/coach checked from the CAD model",
+     "formula": "limit / clearance",
+     "demand": 150.0,
+     "capacity": 196.0,
+     "unit": "mm",
+     "util": 0.765,
+     "ok": true,
+     "note": "PASS all vehicles. Not included: wheel wear + spring deflection (tender/coach transom margin 46 mm; PE to set wheel-wear limit) and coach stairs (deployed only at rest). Tender transformer shield bottom Z300 (TB-3.4, 150 margin); inrush box bottom Z380."
+    },
+    {
+     "id": "K2-fp",
+     "title": "Fouling point / clearance mark, #8 turnouts (Rail Bot, Steering 14c): track centres at the mark vs 2 x 1,696 dynamic half-width + 200",
+     "inputs": "mark at 3.6 m centres; #8 frog 7.153 deg, lead R 84.9 m → 33.99 m from the points (Rail Bot 34.0 m)",
+     "formula": "2·1,696 + 200",
+     "demand": 3592.0,
+     "capacity": 3600,
+     "unit": "mm",
+     "util": 0.998,
+     "ok": true,
+     "note": "Clearance marks 34.0 m from the points of each #8 - VERIFIED (33.99 m). Working layout F (R80, level), owner pending. If either track is on R80 at the mark, add ~37 mm per side (loco end throw 185 vs 148 at R100) - within the 200 mm allowance (74 < 200); level layout F, owner pending."
+    },
+    {
+     "id": "K2-xf",
+     "title": "Tender shore transformer (TB-3.13d) top vs the X2500 HSS10x4 frame crossmember underside Z836 - cradle DROPPED 50 mm (kept since TB-3.8)",
+     "inputs": "unit top Z851 → Z801 static; Z811 at the isolator stop",
+     "formula": "Z_top vs Z_underside",
+     "demand": 811,
+     "capacity": 836,
+     "unit": "mm",
+     "util": 0.97,
+     "ok": true,
+     "note": "CLOSED: 25 mm at the isolator stop, 100 mm to the K-401 outline"
+    },
+    {
+     "id": "K2-rF",
+     "title": "Route L4 Alt F R80 - WORKING ROUTE (owner pending) (final spiralled, L4 masses): max L/V (loco/tender/empty coach at full TE 37.7 kN) vs Nadal 1.34",
+     "inputs": "env loco 1609.6 / coach+garland 1657.1 vs 1,696; ΔQ/Q 0.29 vs 0.6",
+     "formula": "Heumann Y/Q + F·sinθ·fac/2Q",
+     "demand": 1.27,
+     "capacity": 1.342,
+     "unit": "L/V",
+     "util": 0.946,
+     "ok": true,
+     "note": "PASS"
+    },
+    {
+     "id": "K2-rE",
+     "title": "Route L4 Alt E R70 (final spiralled, L4 masses): max L/V (loco/tender/empty coach at full TE 37.7 kN) vs Nadal 1.34",
+     "inputs": "env loco 1635.5 / coach+garland 1670.7 vs 1,696; ΔQ/Q 0.33 vs 0.6",
+     "formula": "Heumann Y/Q + F·sinθ·fac/2Q",
+     "demand": 1.32,
+     "capacity": 1.342,
+     "unit": "L/V",
+     "util": 0.984,
+     "ok": true,
+     "note": "PASS"
+    },
+    {
+     "id": "K2-rA",
+     "title": "Route L4 Alt A R100 (final spiralled, L4 masses): max L/V (loco/tender/empty coach at full TE 37.7 kN) vs Nadal 1.34",
+     "inputs": "env loco 1581.7 / coach+garland 1646.5 vs 1,696; ΔQ/Q 0.23 vs 0.6",
+     "formula": "Heumann Y/Q + F·sinθ·fac/2Q",
+     "demand": 1.18,
+     "capacity": 1.342,
+     "unit": "L/V",
+     "util": 0.879,
+     "ok": true,
+     "note": "PASS"
+    },
+    {
+     "id": "K2-rD",
+     "title": "Route Alt D R60 with truck-pitch transfer at the traction pin, HIGH-RAIL GAUGE-FACE LUBRICATED (Nadal 1.84 at flange μ 0.15) - lubricators on ALL R ≤ 80",
+     "inputs": "dry L/V 1.381 vs 1.342 (NG dry); F 1.258, E 1.309",
+     "formula": "Heumann Y/Q + F·sinθ·fac/2Q",
+     "demand": 1.381,
+     "capacity": 1.84,
+     "unit": "L/V",
+     "util": 0.751,
+     "ok": true,
+     "note": "CLOSED (L4.1): top of rail kept dry for 2 % starts; lubricator maintenance in the operating manual"
+    }
+   ],
+   "mat": [],
+   "welds": [],
+   "bolts": [],
+   "fixes": [],
+   "text": [
+    "Wheel profile (all vehicles): 1:20 tread taper, flange height 25 mm, flange thickness 22 mm at gauge point (10 mm below tread), flange angle 70°, root radius 12, tread width 120.",
+    "Back-to-back 858 ±1.0 mm (G 914.4 - 2×22 - 2×6.2 play). WHEELSET flange-face gauge 902 nom / 891 min worn (857 + 2×17); wheel check dimension (B2B + one flange) 881 max new / 874 min worn. (The former 'check gauge 892 min' was the worn wheelset gauge, a WHEEL dimension - it is NOT a track check gauge: as one it leaves a 22 mm flangeway, NG.)",
+    "Track gauge 914.4 +6/-3 (tangent, R ≥ 75); widened 917.5 (36-1/8 in) on R50-75 and 920.7 (36-1/4 in) on R45-50 - accepted by all wheelsets (K2-j). Absolute max gauge 941.4 (full head under worn tread); MAINTENANCE LIMIT 932 (renew/regauge).",
+    "Restraining (guard) rail on curves < R60: TRACK CHECK GAUGE (high-rail gauge face to restraining face) 886 +2/-0, renew below 883 (must stay > 881 wheel check dimension); FLANGEWAY = G - 886 = 31.6 at 917.5 / 34.8 at 920.7 (min 26.6 / 29.8 ≥ 25). Restraining rail REQUIRES the widened gauge (at 914.4 the flangeway is 28.4, min 23.4 < 25 NG). The track engineer's 886 is correct; the PE '892' is the wheel dimension above.",
+    "Design grade 2% GOVERNING (route redline 28 Oct 2026; curves compensated so grade + curve resistance ≤ 2.0%). The track is NOT designed level; 'laser-levelled 0%' reports do not change the basis until the owner confirms.",
+    "Minimum radius: design basis 100 m (unchanged). R60/R50 study results and the changes each needs: calcs/track/route_check.md.",
+    "Rail ASCE 40 lb/yd new (track_structure spec), ties 6×8 in × 6 ft at 22.5 in (572), tie plates, 9/16 in cut spikes - consistent with the 26 kN wheel basis (K2-b2). Curves < R100: lateral design 0.5×axle, rail braces or 4 spikes/plate on the high rail, gauge-face lubrication. Ballast ≥ 10 in under ties (Stress Bot subgrade 26-34 psi at 6 in vs 20)."
+   ]
+  }
+ ],
+ "count": 257,
+ "ng": [
+  [
+   "C9b",
+   "(Original idea) PL12 end wall, 3 g longitudinal",
+   1.62
+  ],
+  [
+   "T1-d",
+   "Primary spring envelope: coil spring solid height + travel vs 170 mm LT18 window",
+   1.292
+  ],
+  [
+   "D1-c",
+   "REJECTED OPTION (L4.1): Jahns HTO-4-35-FI gear flow divider - TE with motor Δp capped by the 320 bar section rating vs 2% need",
+   1.045
+  ],
+  [
+   "D1-c2",
+   "Divider at a start: flow per section at 0.5 mph in 1st vs catalog minimum 12 L/min (accuracy not defined below)",
+   2.727
+  ],
+  [
+   "D1-u2",
+   "REJECTED OPTION: shaft G4 (13T 16/32, mates the AIE drive as quoted) vs engine peak 265 N·m",
+   1.194
+  ],
+  [
+   "D1-d2",
+   "INFORMATION (double failure, not a design case): standstill spin in 2nd at 2,600 rpm / 42 cc, no-load, only if PLUS+1 AND the PNOZ s30 ≥ 1.5 mph contact both fail",
+   1.063
+  ],
+  [
+   "D4-mb2",
+   "INFORMATION: standard Tsubaki RS120-2 published 296 kN vs the same-factor MBL at the 430 bar strength basis",
+   1.099
+  ],
+  [
+   "L42-qa",
+   "QEV option A (QEVs deleted): spring-apply exhaust time through the relay, worst branch, cold -10 °C, 6.0 → 0.5 bar g (ASSUMED full-apply pressure)",
+   1.065
+  ],
+  [
+   "B1-f",
+   "Parking on loco spring brakes ALONE (train) - not permitted",
+   1.164
+  ],
+  [
+   "G1-a",
+   "Hot-humid demand WITHOUT fix (plan OA 847.5 L/s) vs 35 kW continuous",
+   1.134
+  ],
+  [
+   "C10d",
+   "Coach platform guard post 1-1/2 in sch 40 A53B, 200 lb at 42 in",
+   1.23
+  ],
+  [
+   "R1-e",
+   "Roof bow HSS2x2x1/8 @880 (at each window post), span 2,794, deflection L/180",
+   1.257
+  ],
+  [
+   "C11",
+   "Coach empty wind overturning FS at 67 mph gust",
+   1.09
+  ],
+  [
+   "K2-m",
+   "Pony load 15 kN (upper end of 10-15) taken as a BODY SPRING (reacted at X1,525, outside the pivots) - max driver wheel vs 26 kN",
+   1.019
+  ]
+ ]
+}

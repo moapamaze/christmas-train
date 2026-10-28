@@ -1,0 +1,37 @@
+{
+  "summary": {
+    "count": 504,
+    "converged": 504,
+    "within_model": 504,
+    "capacity_flag_count": 300,
+    "min_wheel_N": 5225.056826267405,
+    "max_bumper_N": 4813.688904746812,
+    "max_rebound_N": 6749.670466051434,
+    "max_link_N": 22763.260490745975,
+    "max_primary_mapping_error_mm": 0.03238755147761374,
+    "max_rebound_mapping_error_mm": 0.0366107058465559,
+    "min_exact_rebound_gap_mm": -0.019140723904884416,
+    "min_slide_margin_mm": 3.7749194764462572,
+    "min_roll_capture_margin_mm": 13.629299840826357,
+    "max_bearing_angle_deg": 2.6369570338716843,
+    "max_link_angle_deg": 2.7692595783077687,
+    "historical_default_regression_max_coordinate_error": 0.0
+  },
+  "critical": {
+    "lowest_wheel": "rear-heavy/power_limited_pull_1/twist_left/left",
+    "compression": "high/all_coach_loss_0.7_demand/twist_right/left",
+    "rebound": "front-heavy/all_coach_loss_0.7_demand/twist_right/right",
+    "pivot": "front-heavy/all_coach_loss_0.7_demand/twist_right/left",
+    "roll_travel": "low/all_coach_loss_0.7_demand/twist_right/left",
+    "slide": "front-heavy/all_coach_loss_0.7_demand/twist_right/left"
+  },
+  "limits": [
+    "Signed lateral acceleration is v\u00b2/50 m for left/right and zero on straight. Six mass allowances and 168 LT25 duty/track combinations are preserved.",
+    "The quasi-static reduced model assumes rail contact, rigid structure, equal wheel force allocation, fixed LT23 spring preloads and unselected linear bumpers. It is not a dynamic or track-geometry analysis.",
+    "Capacity flags remain demand-only cases, never authorized performance. No friction-brake capacity or adhesion has been demonstrated.",
+    "Small-angle load coordinates map to finite rotations without silently correcting a contact position. Mapping residuals, including slight rebound penetration, are reported.",
+    "Leading truck follows the inherited plan-view path only; no leading-truck suspension or vertical track conformance is modeled.",
+    "Supplier package and pump are reservations; configured protrusions, hoses, guards, tolerances, elastic deflection and thermal clearances are not represented.",
+    "No final attachment, coupling, brake circuit, bumper product or fabrication release."
+  ]
+}

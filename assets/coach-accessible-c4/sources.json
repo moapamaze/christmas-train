@@ -1,0 +1,74 @@
+[
+  {
+    "id": "C4-S1",
+    "title": "Q\u2019STRAINT QRT-360 OEM product information",
+    "url": "https://www.qstraint.com/qrt-360/",
+    "use": "Rail application; candidate4-point system. Product qualification does not qualify the coach installation."
+  },
+  {
+    "id": "C4-S2",
+    "title": "Q\u2019STRAINT L-Track OEM product information",
+    "url": "https://www.qstraint.com/l-track/",
+    "use": "6061-T6;82-degree countersink;5/16 bolts at4-inch pitch; short lengths require supplier confirmation."
+  },
+  {
+    "id": "C4-S3",
+    "title": "Q\u2019STRAINT Q5-1150-QRT360 RevF manufacturer manual, archived mirror",
+    "url": "https://www.manualslib.com/manual/3964011/Q-Straint-Qrt-360.html",
+    "use": "Manufacturer-authored primary document hosted by an archive. Pages7,8,14\u201316: overall retractor reservation, layout ranges and1.42x0.50 routed pocket. Current OEM issue must be obtained before release."
+  },
+  {
+    "id": "C4-S4",
+    "title": "36 CFR1192.83(c), primary regulatory comparison",
+    "url": "https://www.ecfr.gov/current/title-36/chapter-XI/part-1192/subpart-D/section-1192.83",
+    "use": "Bridge loading, edge protection, attachment, gaps and handrails; actual vehicle classification remains open."
+  },
+  {
+    "id": "C4-S5",
+    "title": "Access Board ADA Chapter10",
+    "url": "https://www.access-board.gov/ada/chapter/ch10/",
+    "use": "Side entry requires actual maneuverability; amusement ride gap exception references1192.83(c)."
+  },
+  {
+    "id": "C4-S6",
+    "title": "Hydro6061 extrusion data sheet",
+    "url": "https://www.hydro.com/globalassets/01-products--services/extruded-profiles/americas/ena-resources/alloy-data-sheets/hydro_2019_data_sheet_6061.pdf",
+    "use": "Unwelded T6 extrusion minimum38ksi ultimate,35ksi yield; welding reducesT6 strength."
+  },
+  {
+    "id": "C4-S7",
+    "title": "Kaiser6061 sheet/plate technical data",
+    "url": "https://online.kaiseraluminum.com/depot/PublicProductInformation/Document/1015/Kaiser_Aluminum_6061_Sheet_Coil_and_Plate.pdf",
+    "use": "0.098lb/in3 nominal density and10Msi modulus; typical strengths are not used as certified minimums."
+  },
+  {
+    "id": "C4-S8",
+    "title": "Adaptive Engineering Mobilift CX manufacturer information",
+    "url": "https://adaptivelifts.com/pdf/CX-infopack.pdf",
+    "use": "Conditional station-owned lift alternative:600lb,60in lift,34x56platform,standard32wide bridge. Standard bridge does not meet this project36-inch route target; OEM custom interface and train restraint approval needed."
+  },
+  {
+    "id": "C4-S9",
+    "title": "Portaramp rail ramp manufacturer brochure",
+    "url": "https://www.portaramp.ca/wp-content/uploads/2022/07/Portable-Wheelchair-Ramps-for-the-Rail-Industry-Rail-Ramp-Brochure-CANADA.pdf",
+    "use": "Rail-specific procurement alternative; brochure lists300kg SWL and760/850mm widths, both narrower than36-inch project target. Request custom36clear candidate, not assume stock fit."
+  },
+  {
+    "id": "C4-S10",
+    "title": "JW Winco GN1024 manufacturer catalog and supplied STEP",
+    "url": "https://www.jwwinco.com/en-us/products/product-family/Stainless-Steel/GN-1024-Stainless-Steel-Spring-Cotter-Pins",
+    "use": "Actual3E/4E free spring geometry and shaft/crosshole selection; installed spring deflection, retention capacity and vibration qualification remain open."
+  },
+  {
+    "id": "C4-S11",
+    "title": "JW Winco GN912.3 reduced-head screw catalog",
+    "url": "https://www.jwwinco.com/en-us/products/3.2-Mounting-Positioning-Leveling-with-Retaining-Cables-Screws-Clamping-and-Supporting-Elements/Swing-bolts-Shoulder-screws-Thrust-bolts/GN-912.3-Stainless-Steel-Socket-Cap-Screws-with-Reduced-Head-Diameter-with-Internal-Hex",
+    "use": "Published M4x10 reduced-head screw dimensions:5.5mm head,4mm height,3mm socket. Modeled socket depth is a development assumption."
+  },
+  {
+    "id": "C4-S12",
+    "title": "Portland Bolt SAEJ429 manufacturer technical reference",
+    "url": "https://www.portlandbolt.com/technical/specifications/sae-j429/",
+    "use": "ConditionalGrade8proof comparisons; modeledcustomfasteners are not certifiedprocureditems and comparisons do notqualifyjoints."
+  }
+]

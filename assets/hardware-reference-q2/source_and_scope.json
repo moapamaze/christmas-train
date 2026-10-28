@@ -1,0 +1,60 @@
+{
+  "issue": "Q2 / actual hardware and complete-truck scope",
+  "date_utc": "2026-10-19",
+  "date_owner_local": "2026-10-18",
+  "engineering_phase_complete": false,
+  "new_fabrication_geometry_claimed": false,
+  "owner_direction": [
+    "Purchased components must resemble their actual physical parts.",
+    "Fabricated components must show the actual designed pieces too.",
+    "Develop the entire sprung truck as one coordinated assembly."
+  ],
+  "sources": [
+    {
+      "publisher": "Dexter",
+      "url": "https://www.dextergroup.com/user_area/content_media/raw/2019.09_LIT-123-00Online%281%29.pdf",
+      "revision": "2019.09",
+      "pages": [
+        12,
+        20
+      ],
+      "use": "Two limited manufacturer-figure excerpts, attributed for visual comparison; not full catalog rehosting and not controlled manufacturing geometry."
+    },
+    {
+      "publisher": "SKF",
+      "url": "https://evolution.skf.com/us/the-evolution-of-railway-axlebox-technology-3/",
+      "use": "Rotating wheelset and axlebox relationship."
+    },
+    {
+      "publisher": "CFD",
+      "url": "https://www.cfd.group/rolling-stock/railcar-bogie",
+      "use": "Actual complete passenger bogie architecture example; dimensions/ratings not transferred."
+    }
+  ],
+  "original_model_audit": {
+    "file": "assets/models3d/bogie-G1.json",
+    "status": "display_only_functional_assembly",
+    "actual_suspension_selection": false,
+    "actual_truck_fabrication_definition": false,
+    "do_not_promote_display_values": [
+      "596mmwheel",
+      "1165mmwheelbase",
+      "2inaxle",
+      "80indisplaysideframes",
+      "4x4x3inaxlebox"
+    ]
+  },
+  "geometry_contract": "Use the same supported physical part geometry across 3D, exploded view, sections and manufacturing drawings; explicitly identify omitted or unresolved geometry. Do not invent critical dimensions for visual completeness.",
+  "next_scope": "Integrated complete custom truck, then coordinated part details, not isolated wheel/brake sketches.",
+  "images": [
+    {
+      "path": "dexter-pq-oem-exploded-excerpt.png",
+      "sha256": "ccc7015911a1e521d58a928746fc870d395da6c0386257a36383a1b4af9a5f66"
+    },
+    {
+      "path": "dexter-drum-oem-excerpt.png",
+      "sha256": "05d0067f64745635fbdb4acf987c522d0a9e0e270b4d79a0133063a8a5513f19"
+    }
+  ],
+  "current_presentation": "Manufacturer exploded-parts and drum-only excerpts are retained as research files, removed from the main presentation by owner direction 19 October 2026. Show brake assemblies only in their train-installation context."
+}

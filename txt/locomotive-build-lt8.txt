@@ -1,0 +1,17 @@
+Cooling & removable handrails · LT8 · Pulsipher Farms
+Retained handrail details · earlier cooling layout
+The LT8 handrail details support the current design. Its multi-fan cooling layout is superseded by LT9 single-fan cooling →.Drawings3D assembliesEngineering & open itemsService hardware · LT7Drive wheels
+LOCOMOTIVE / LT8
+Cooling pack & removable handrails
+Side-facing cores · Fans & ducts · Split rail joints · Fan removal
+LAYOUT & DETAIL STUDYR0 · Not for fabrication20 October 2026 · UTC
+Prior cooling layout: the two-fan arrangement is superseded by LT9 single-fan cooling. Handrail connection details remain retained here.
+Detail drawingsExact CAD projections · Nominal dimensions in mm
+C01 Cooling arrangementC02 Airflow sectionC03 Fan & duct interfacesH01 Split handrail jointsX01 Fan removalLT8-C01 · Cooling arrangementFull-size ↗LT8-C02 · Airflow sectionFull-size ↗LT8-C03 · Fan & duct interfacesFull-size ↗LT8-H01 · Split handrail jointsFull-size ↗LT8-X01 · Fan removalFull-size ↗
+Frame top 1,775 mm provisional · Fan, core and louver capacity unselected. Open issues & checks →
+3D assembliesLoading…
+Cooling assemblyIntake exposedOne fan & outletWithin boiler shellSplit rail couplingRemovable rail spansFan withdrawn · 1,000 mmWhole locomotive body
+ Exploded view Compatibility 3D
+Loading CAD geometry…
+Select a component for its definition. Fan blades, guards and purchased equipment are labeled space reservations. Exploded views show separation; the withdrawal view checks a nominal envelope.Enable JavaScript to rotate the CAD models. Drawing sheets and STEP downloads remain available.
+FilesCooling & rail STEP ↗Parts CSV ↗Engineering & handoff ↗Vector drawings ↗Service hardware · LT7 ↗Engine mounts · LT6 ↗PF–LOCO–LT8 · R0 · 20 October 2026 UTC

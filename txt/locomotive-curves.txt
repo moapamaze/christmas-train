@@ -1,0 +1,17 @@
+Curve clearance · LT13
+This retained design record predates LT14. Open the current whole locomotive and curve views · Current mounts and hydraulic drawings.Clearance drawingsClash views in 3DChecks & assumptionsDrive arrangement
+LOCOMOTIVE / LT13
+The current locomotive uses the LT16 suspension and parallel sliding-axle candidate. The radial-placement study below is retained for comparison.
+Curve clearance
+50 m and 30 m radius · Both directions · Suspension positions
+INTERFERENCE FOUNDR0 · Development check20 October 2026 · UTC
+Neither curve case clears the current geometry under the tested steering proposal. Retain 50 m as the first redesign target. The 30 m case adds wheel-to-frame and drive-case clashes. A separate wheel-to-boiler clash occurs at +50 mm suspension travel even on straight track.
+Clearance drawingsSaved CAD · Nominal mm
+A01 Curve placementsS01 Guides & shellC01 Cylinder & frameLT13-A01 · Curve placementsFull size ↗LT13-S01 · Guides & shellFull size ↗LT13-C01 · Cylinder & frameFull size ↗
+Curve CAD / interference viewsLoading…
+Curve radius50 m / 164 ft30 m / 98.4 ftStraight baselineDirectionLeftRightSuspension relative to frameNominal−40 mm / droop+50 mm / bumpAssemblyFront driver guidesFront cylinder clearanceBoiler shell clearanceFrame / rear drive clearanceRunning gearFull body context
+ Compatibility 3D
+Loading curve CAD…
+Intersecting part IDs for this placement
+Proposed steering positions are imposed on the CAD to test space. They are not motion the current guides and pivots can deliver. Red marks colliding parts; hide groups or select and isolate parts to inspect them. Rods, brakes and hoses are unresolved.
+Results & coordinationDimensions, test scope & next changes ↗Wheel / drive / brake / coach handoff ↗Retained LT12 drive ↗Retained exterior target ↗LT13 R0 · Minimum operating radius not established · Not for fabrication

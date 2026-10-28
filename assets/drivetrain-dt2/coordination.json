@@ -1,0 +1,21 @@
+{
+  "issue": "PF-DT2-R0",
+  "received": "LT1 R0 from Site version43, source 836b6e3a873b1e9a171ae7d0b23a0117e6633a37",
+  "geometry_adopted_for_study": {
+    "gauge_mm": 914.4,
+    "drive_wheel_diameter_mm": 1000,
+    "truck_centres_global_x_mm": [
+      3300,
+      6000
+    ],
+    "truck_wheelbase_mm": 1200,
+    "parallel_motor_count": 2,
+    "ratio_each": 7.5
+  },
+  "supersedes_for_this_physical_study": "DT1 single-motor / 600 mm / 9:1 trial; historical studies preserved",
+  "interface_return": "Top plate X local0 Y0 Z top1170, undrilled 400x400x20. Frame and plate envelope X\u00b11000 Y\u00b1820 Z935..1170. Four spring centre reservations at X\u00b1600 Y\u00b1730. No agreed body pivot/bearing height.",
+  "critical_conflict": "LT1 main frame intersects DT2 side members by10mm and spring backing plates by50mm in Y at straight ahead; articulation clearance unresolved. Locomotive owner must reconcile before detailed joints.",
+  "not_changed": "LT1 locomotive files, passenger-car geometry and original engineering studies",
+  "construction_approved": false,
+  "other_chat_acknowledgment": false
+}

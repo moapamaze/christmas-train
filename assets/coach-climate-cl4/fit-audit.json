@@ -1,0 +1,280 @@
+{
+  "revision": "above-door-geometry-audit-2026-10-26",
+  "status": "READ-ONLY GEOMETRIC PACKAGING STUDY; NO SELECTED UNIT OR INSTALLATION ACCEPTANCE",
+  "scope": "One high-wall mini-split indoor head above one end door per coach. C1 regular shell with CE1 construction offsets; ADA separately identified.",
+  "sources": {
+    "dist/assets/coach-body-c1/build_c1.py": {
+      "sha256": "4dfab72ce0c3408a5c526623cc969e5e6305d267dfdeffa5dd5dab4e04de7147"
+    },
+    "dist/assets/coach-body-c1/parameters.json": {
+      "sha256": "1eb0912139d8a0890a9fe1ff50da431ec1a83627a7b3d00914f05c23889abedc"
+    },
+    "dist/assets/coach-body-c1/model.json.gz": {
+      "sha256": "4683b6da2e9ecb182dfb6111f8d6ab6553e5d9a43cd871ec9bb00ebb60ed8559"
+    },
+    "cad/coach-envelope-ce1/build.py": {
+      "sha256": "52368bea55e47b0c79cf2773396f058b60c927f07919c24e2e63928bca673aa3"
+    },
+    "cad/coach-envelope-ce1/analysis.json": {
+      "sha256": "1ebcd292feb4562f77fd702580da5df7695fc412a696745906fae36f34e80ffc"
+    },
+    "dist/assets/coach-accessible-c4/model-travel.json.gz": {
+      "sha256": "52244711ca31b3f43eb3d40eca0e61e799526340163c286969d13059689298fe"
+    },
+    "dist/assets/coach-accessible-c4/C4-build-source.zip": {
+      "sha256": "0a812c257a364b82446ae31b81f41e7877202dae6ab7f08b23c087f9c69b65c7"
+    },
+    "dist/assets/coach-accessible-c3/coach-context.json": {
+      "sha256": "74ae5b75765a3994af655d5d08827b9227fc8f434c6e5d52b724d8e9a83f588b"
+    },
+    "dist/coach-complete.js": {
+      "sha256": "709fcadc99d728b20ea928ed4922f0fb4871ae49b1a2af8b0d918d5cd7556229"
+    }
+  },
+  "regular": {
+    "floor_z_in": 32,
+    "end_door_clear_y_in": [
+      -16,
+      16
+    ],
+    "end_door_clear_height_aff_in": 80,
+    "door_leaf_top_z_in": 111.75,
+    "header_z_in": [
+      112,
+      114
+    ],
+    "header_height_aff_in": [
+      80,
+      82
+    ],
+    "hood_structural_outer_y_in": [
+      -27,
+      27
+    ],
+    "hood_structural_outer_width_in": 54,
+    "hood_outer_side_skin_width_in": 54.125,
+    "hood_side_HSS_y_in": [
+      [
+        -27,
+        -25
+      ],
+      [
+        25,
+        27
+      ]
+    ],
+    "hood_HSS_inner_width_in": 50,
+    "proposed_hood_side_construction": "2in cavity within side HSS envelope, 1in continuous inside steel, .040in aluminum liner.",
+    "proposed_finished_hood_y_in": [
+      -23.96,
+      23.96
+    ],
+    "proposed_finished_hood_width_in": 47.92,
+    "hood_roof_steel_z_in": [
+      132,
+      134
+    ],
+    "hood_roof_outer_skin_top_z_in": 134.0625,
+    "finished_hood_ceiling_z_in": 130.96,
+    "finished_hood_ceiling_aff_in": 98.96000000000001,
+    "height_above_clear_door_in": 18.960000000000008,
+    "height_above_header_top_in": 16.960000000000008,
+    "hood_structural_x_in": [
+      [
+        -3,
+        25
+      ],
+      [
+        281,
+        309
+      ]
+    ],
+    "end_mounting_planes_x_in": [
+      0.54,
+      305.46
+    ],
+    "inner_return_HSS_x_in": [
+      [
+        23,
+        25
+      ],
+      [
+        281,
+        283
+      ]
+    ],
+    "proposed_finished_return_planes_x_in": [
+      21.96,
+      284.04
+    ],
+    "proposed_pocket_depth_in": 21.42,
+    "depth_qualification": "CE1 does not explicitly model hood-side/return lining. These planes consistently reserve2in cavity plus1in continuous plus.040in liner from the C1 members. No invented extra furring is included.",
+    "unlined_end_plane_to_return_sheet_depth_in": 24.46,
+    "head_depth_cases": [
+      {
+        "head_depth_in": 11,
+        "remaining_to_return_in": 10.420000000000002
+      },
+      {
+        "head_depth_in": 12,
+        "remaining_to_return_in": 9.420000000000002
+      },
+      {
+        "head_depth_in": 13,
+        "remaining_to_return_in": 8.420000000000002
+      },
+      {
+        "head_depth_in": 14,
+        "remaining_to_return_in": 7.420000000000002
+      }
+    ],
+    "roof_return_lower_edge": {
+      "retained_sheet_center_z_in": 120.67667322834646,
+      "proposed_join_to_main_roof_center_aff_in": 85.57417322834647,
+      "proposed_join_at_hood_liner_side_aff_in": 83.92106577326817,
+      "qualification": "Lower-edge insulated return/junction is not detailed CAD. Main-roof finished curve is the geometric coordination reference. The return can partly enclose the upper head and restrict intake/service/discharge."
+    },
+    "generic_clearance_screen": {
+      "inputs_are_assumptions_not_vendor_requirements": true,
+      "top_clearance_in": 6,
+      "side_clearance_each_in": 5,
+      "max_head_width_in": 37.92,
+      "max_head_height_above_80in_door_in": 12.960000000000008,
+      "max_head_height_above_82in_header_in": 10.960000000000008,
+      "height_cases": [
+        {
+          "head_height_in": 14,
+          "unit_bottom_aff_with_existing_roof_in": 78.96000000000001,
+          "roof_raise_to_preserve_80in_door_in": 1.039999999999992,
+          "roof_raise_to_preserve_82in_header_top_in": 3.039999999999992,
+          "new_top_skin_z_for_80in_clearance_in": 135.1025
+        },
+        {
+          "head_height_in": 15,
+          "unit_bottom_aff_with_existing_roof_in": 77.96000000000001,
+          "roof_raise_to_preserve_80in_door_in": 2.039999999999992,
+          "roof_raise_to_preserve_82in_header_top_in": 4.039999999999992,
+          "new_top_skin_z_for_80in_clearance_in": 136.1025
+        },
+        {
+          "head_height_in": 16,
+          "unit_bottom_aff_with_existing_roof_in": 76.96000000000001,
+          "roof_raise_to_preserve_80in_door_in": 3.039999999999992,
+          "roof_raise_to_preserve_82in_header_top_in": 5.039999999999992,
+          "new_top_skin_z_for_80in_clearance_in": 137.1025
+        }
+      ],
+      "width_cases": [
+        {
+          "head_width_in": 45,
+          "required_finished_hood_width_in": 55,
+          "required_structural_outer_hood_width_in": 61.08,
+          "required_outside_skin_width_in": 61.205,
+          "increase_over_current_54in_structure_in": 7.079999999999998
+        },
+        {
+          "head_width_in": 50,
+          "required_finished_hood_width_in": 60,
+          "required_structural_outer_hood_width_in": 66.08,
+          "required_outside_skin_width_in": 66.205,
+          "increase_over_current_54in_structure_in": 12.079999999999998
+        },
+        {
+          "head_width_in": 55,
+          "required_finished_hood_width_in": 65,
+          "required_structural_outer_hood_width_in": 71.08,
+          "required_outside_skin_width_in": 71.205,
+          "increase_over_current_54in_structure_in": 17.08
+        },
+        {
+          "head_width_in": 60,
+          "required_finished_hood_width_in": 70,
+          "required_structural_outer_hood_width_in": 76.08,
+          "required_outside_skin_width_in": 76.205,
+          "increase_over_current_54in_structure_in": 22.08
+        },
+        {
+          "head_width_in": 65,
+          "required_finished_hood_width_in": 75,
+          "required_structural_outer_hood_width_in": 81.08,
+          "required_outside_skin_width_in": 81.205,
+          "increase_over_current_54in_structure_in": 27.08
+        }
+      ],
+      "formulas": {
+        "required_finished_width": "W+left_clearance+right_clearance",
+        "required_outer_structural_width": "finished_width+2*(2in HSS/cavity+1in continuous+.040in liner)",
+        "required_ceiling_aff": "minimum_unit_bottom_aff+unit_height+top_clearance",
+        "roof_height_increase": "max(0, required_ceiling_aff-98.96)",
+        "required_outer_top_skin_z": "floor32+required_ceiling_aff+2in roof frame+1in continuous+.040in liner+.0625in outer skin"
+      },
+      "qualification": "These are minimum geometric changes using the supplied typical clearances. Add actual OEM service/filter, piping, drain, mount, trim, tolerance and structural requirements."
+    }
+  },
+  "accessible": {
+    "physical_end_door_clear_y_in": [
+      -12,
+      24
+    ],
+    "door_center_y_in": 6,
+    "actual_C4_end_clear_height_aff_in": 78,
+    "actual_C4_end_header_z_in": [
+      110,
+      112
+    ],
+    "actual_C4_end_header_aff_in": [
+      78,
+      80
+    ],
+    "actual_end_frame_x_in": [
+      [
+        -4,
+        -2
+      ],
+      [
+        308,
+        310
+      ]
+    ],
+    "side_door_height_aff_in": 78,
+    "side_door_42in_structure_x_in": [
+      9,
+      51
+    ],
+    "current_roof": "C3-CONTEXT-5 is an inherited2in envelope only, X-3..309,Y-55..55,Z118.614173..120.614173. No actual raised end hood appears in current accessible coach assembly.",
+    "inferred_ceiling_aff_if_1p04in_continuous_liner_applied_to_envelope": 85.57417299999999,
+    "above_78in_door_space_if_that_unraised_roof_used_in": 7.574172999999988,
+    "unraised_roof_height_change_cases": [
+      {
+        "head_height_in": 14,
+        "top_clearance_in": 6,
+        "minimum_ceiling_aff_for_78in_clear_door_in": 98,
+        "increase_from_inferred_unraised_ceiling_in": 12.425827000000012
+      },
+      {
+        "head_height_in": 16,
+        "top_clearance_in": 6,
+        "minimum_ceiling_aff_for_78in_clear_door_in": 100,
+        "increase_from_inferred_unraised_ceiling_in": 14.425827000000012
+      }
+    ],
+    "hood_transfer_warning": "C1 regular raised hood and centered80in enddoor cannot be treated as existing ADA construction. Adapt the actual offset78in C4 portal and accessible roof separately.",
+    "offset_if_unit_centered_over_door": {
+      "head_center_y_in": 6,
+      "max_head_width_with_centered_47p92in_hood_and5in_side_clearances_in": 25.92,
+      "required_centered_outer_hood_width_formula": "W+2*5in side clearances+2*abs(6in offset)+6.08in construction",
+      "required_centered_outer_hood_width_for45in_head_in": 73.08,
+      "alternative": "A head centered atY0 can still sit above the offset doorway, or the hood could move toY6; either needs an actual ADA shell/support layout."
+    }
+  },
+  "mounting_and_service_constraints": [
+    "C1 has2in top crossmembers and two side posts per hood, and a regular door header atZ112..114; no qualified horizontal HVAC mounting rail is modeled at typical wall-bracket elevation.",
+    "Support mini-split through designed steel hardpoints. Neither.040in interior lining nor.0625in end-gable exterior sheet is an accepted mounting substrate.",
+    "Finished end planes.54/305.46 are CE1 regular wall planes. Hood end structure and wall transitions still need detailed support/liner coordination.",
+    "Front and rear regular end geometries are nominally symmetric for this head-volume screen; no selected door closer, casing, lighting or HVAC pipe/drain route has been reserved.",
+    "Nominal body depth11..14in fits within the21.42in reservation, but only7.42..10.42in remains to the return wall. Required front service, filter removal, intake and outlet clearances may be controlling.",
+    "Compact roof intake/exhaust units remain unselected; reserve their curbs, duct/grille and service envelopes separately. Superseded bulky CL3 cabinet is not counted as a current obstruction.",
+    "Any requirement for a head bottom higher than the80in door, such as82in above header or an OEM mounting-height requirement, increases the roof-height change one-for-one.",
+    "No supply-air throw, condensate drainage, structural load, vibration, clear-opening or vehicle clearance approval is established by this audit."
+  ]
+}

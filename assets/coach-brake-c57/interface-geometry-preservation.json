@@ -1,0 +1,14 @@
+{
+  "all_unchanged_parent_shapes_preserved": true,
+  "unchanged_serializations": 154,
+  "serialization_changes_geometry_equal": [
+    {
+      "id": "PARKER-10125-PORT97",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "id": "PARKER-10125-PORT116",
+      "symmetric_difference_mm3": 0.0
+    }
+  ]
+}

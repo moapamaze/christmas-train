@@ -1,0 +1,92 @@
+{
+  "revision": "C3-FND-R0",
+  "status": "PRELIMINARY CANDIDATE; NOT FOR FABRICATION",
+  "units": "inches",
+  "seat1_foot_x": 62.5,
+  "seat2_foot_x": 128.5,
+  "foot_y": [
+    -44,
+    -20
+  ],
+  "post_center_x": 61.25,
+  "seat2_translation_x": 66,
+  "post_section": [
+    2,
+    2,
+    0.1875
+  ],
+  "cap_size": [
+    5,
+    6,
+    0.75
+  ],
+  "cap_underside_z": 31.003937007874015,
+  "sole_size": [
+    5,
+    6,
+    1
+  ],
+  "sole_underside_z": 32.25,
+  "sole_top_z": 33.25,
+  "spacer": {
+    "OD": 1,
+    "ID": 0.5625,
+    "length": 0.49606299212598515
+  },
+  "bolt_offsets": [
+    [
+      -1.75,
+      -2
+    ],
+    [
+      -1.75,
+      2
+    ],
+    [
+      1.75,
+      -2
+    ],
+    [
+      1.75,
+      2
+    ]
+  ],
+  "hole": 0.5625,
+  "bolt": {
+    "diameter": 0.5,
+    "threads_per_inch": 13,
+    "length": 3.25,
+    "grade_candidate": "SAE J429 Grade8",
+    "locking_status": "Unselected",
+    "torque": null
+  },
+  "side_cheek_size": [
+    5,
+    0.375,
+    3
+  ],
+  "bottom_tie_size": [
+    5,
+    2.75,
+    0.375
+  ],
+  "rib_thickness": 0.5,
+  "rear_weld_land": 0.25,
+  "aft_strip_tolerance_margin": 0,
+  "end_reinforcement": {
+    "modeled": false,
+    "face_plate_thickness": 0.375,
+    "face_plate_width_y": 6,
+    "face_plate_height": "Full existing crossmember height",
+    "internal_diaphragms": {
+      "count_per_connection": 2,
+      "thickness": 0.25,
+      "Y_offset_from_rail_center": [
+        -2,
+        2
+      ]
+    },
+    "rail_cutback_each_end": 0.375,
+    "status": "Separate uncalculated proposal; does not provide current analytical end stiffness"
+  }
+}

@@ -1,0 +1,879 @@
+{
+ "schema_version": 2,
+ "revision": "C5.4",
+ "research_date": "2026-10-20",
+ "status": "One conditional brake installation under development. Neither purchased-part fit nor maximum braking force is accepted for fabrication.",
+ "selection": {
+  "rotor": "Webb 55030PK-65 \u2014 dimensional development candidate",
+  "caliper_left": "WABCO 40175072 / Hendrickson S-39094-L",
+  "caliper_right": "WABCO 40175073 / Hendrickson S-39094-R",
+  "pad_kit": "Hendrickson S-41159-1 / WABCO 232",
+  "chamber_reference": "WABCO 9253800250 / 9253800240, 20/24",
+  "architecture": "Air service and spring-applied parking; one station only.",
+  "matching_limit": "Historical Hendrickson documentation identifies an OEM package with S-33391 rotor, these calipers, S-41159-1 pads and 9253800250/0240 chambers. Webb 55030PK-65 is a cross-referenced replacement candidate, but its precise hub section and pad sweep remain unverified.",
+  "current_package_exclusion": "The current 22/24 plus WABCO 238 package is separate. Legacy 20/24 dimensions and forces are not assigned to it.",
+  "procurement_status": "No parts ordered. Exact legacy chamber stock and lead time remain unconfirmed."
+ },
+ "rotor": {
+  "manufacturer": "Webb Wheel Products",
+  "sku": "55030PK-65",
+  "type": "One-piece U-shaped ventilated rotor",
+  "drawing": {
+   "source": "https://cdn.prod.website-files.com/692683b9a358dca80ef39017/69609994c6c39d1d62295d61_SD-131%20Webb%20ADB%20ROTOR%20flyer%20R32.pdf",
+   "revision": "SD-131-R32, January 2024, page 2",
+   "scope": "Dimension table and generic U-shaped section. Not a fully dimensioned manufacturing drawing."
+  },
+  "dimensions_in_as_printed": {
+   "overall_diameter_A": 12.8,
+   "new_friction_thickness_B": 1.34,
+   "overall_depth_C": 5.85,
+   "pilot_diameter_D": 6.65,
+   "bolt_circle_E": 7.71
+  },
+  "dimensions_mm_converted": {
+   "overall_diameter_A": 325.12,
+   "new_friction_thickness_B": 34.036,
+   "overall_depth_C": 148.59,
+   "pilot_diameter_D": 168.91,
+   "bolt_circle_E": 195.834
+  },
+  "dimension_precision": "Conversions preserve the printed inch values; they are not new machining tolerances.",
+  "mounting": {
+   "hole_count": 8,
+   "thread": "M14 x 2",
+   "hardware_included": true,
+   "hardware_detail": "PK suffix includes hardware; exact bolt length, grade, engagement and tightening procedure were not established here.",
+   "pilot_fit_tolerance_mm": null,
+   "web_thickness_mm": null,
+   "mounting_face_to_friction_face_mm": null
+  },
+  "mass_lb_current_table": 40,
+  "mass_kg_converted": 18.1436948,
+  "features": [
+   "ABS feature in the published row",
+   "Corrosion protective coating indicated by -65 suffix"
+  ],
+  "manufacturer_cross_reference": [
+   "WABCO CT826",
+   "Meritor M44D75180",
+   "DuraBrake 75180"
+  ],
+  "exact_friction_annulus_inner_diameter_mm": null,
+  "wear_limit": {
+   "manufacturer_exact_sku_limit_mm": null,
+   "seller_minimum_thickness_in": 1.11,
+   "seller_minimum_thickness_mm_converted": 28.194,
+   "seller_source": "https://triplertruckparts.com/webb-55030pk-65-air-disc-brake-rotor-wabco-pan-17/",
+   "status": "Seller value only. Do not replace the marked rotor limit or manufacturer procedure with the caliper drawing limit of 28 mm."
+  },
+  "unresolved_section_dimensions": [
+   "Exact friction annulus inner diameter",
+   "Pilot tolerance and fit",
+   "Web and attachment flange thickness",
+   "Hub mating-face position within the overall depth",
+   "Actual bolt specification and thread engagement"
+  ],
+  "s33391_interchange": {
+   "assumed": false,
+   "cross_reference_support": "ACR A-LINE 2024 lists CT826, Webb55030PK65 and S33391 in one PAN17 row.",
+   "reason": "Cross-reference strengthens family identity but does not resolve conflicting mounting dimensions or supply toleranced geometry."
+  }
+ },
+ "caliper": {
+  "family": "WABCO PAN17",
+  "sku_left": "40175072",
+  "sku_right": "40175073",
+  "manufacturer_ga": "https://www.wabco-customercentre.com/catalog/docs/6401750720____053_dascheck_j4_page-1---notset_tif.pdf",
+  "drawing_identifier": "40 175 072, PAN17; drawing also identifies opposite-hand 40 175 073",
+  "overall_rotating_profile_radius_mm": 216,
+  "axial_ga_coordinates_mm": {
+   "basis": "Carrier flange plane in OEM side view is zero.",
+   "negative_side_envelope": -135.4,
+   "positive_side_envelope": 146.1,
+   "additional_wear_displacement_arrow": 21,
+   "disc_inner_face_to_carrier_face": 24,
+   "disc_inner_face_offset_tolerance": 1
+  },
+  "carrier_mount": {
+   "thread": "M14 x 1.5",
+   "count": 6,
+   "screw_property_class": "10.9",
+   "minimum_thread_engagement_mm": 18,
+   "tightening_torque_Nm": [
+    205,
+    225
+   ],
+   "hole_position_tolerance_diameter_mm": 0.2,
+   "basis": "Front view, rotor-axis origin; t tangential, r radial. Coordinates transcribed from dimension chains, for the depicted 330 mm disc.",
+   "hole_coordinates_t_r_mm": [
+    [
+     114,
+     64
+    ],
+    [
+     -114,
+     64
+    ],
+    [
+     -144,
+     64
+    ],
+    [
+     144,
+     64
+    ],
+    [
+     155,
+     36
+    ],
+    [
+     -155,
+     36
+    ]
+   ],
+   "fabrication_status": "OEM drawing and selected rotor/pad geometry must be reconciled before releasing the custom bracket."
+  },
+  "cylinder_interface": {
+   "stud_spacing_mm": 120.7,
+   "spacing_tolerance_mm": 0.25,
+   "mounting_hole_diameter_mm": 17,
+   "hole_diameter_tolerance_mm": 0.25,
+   "stud_thread": "M16 x 1.5",
+   "axis_inclination_deg_in_side_view": 9,
+   "installation_torque_Nm": [
+    180,
+    210
+   ]
+  },
+  "disc_basis_on_ga": {
+   "diameter_mm": 330,
+   "new_thickness_mm": 34,
+   "new_thickness_tolerance_mm": [
+    0,
+    -0.2
+   ],
+   "discard_thickness_mm": 28,
+   "rubbing_band_radial_width_approx_mm": 76
+  },
+  "selected_rotor_compatibility": "Conditional. Hendrickson pairs this caliper family with a nominal 325 mm rotor, but the inspected WABCO GA is drawn for 330 mm. Webb friction annulus and pad overhang have not been proven. Do not radially shift the carrier by 2.5 mm and call the combination verified.",
+  "mounting_torque_transfer_note_Nm": 10000,
+  "mounting_note_limit": "This is the OEM mounting-joint transfer note with specified bolts and engagement, not rated service braking torque, an allowable for the custom bracket, or a guaranteed chamber output.",
+  "permissible_rotor_caliper_angular_misalignment_deg": null,
+  "alignment_limit": "No operating angular-misalignment permission was found. The carrier must follow the rotor plane; the GA flange alignment tolerances are not permission for suspension-induced misalignment."
+ },
+ "chamber": {
+  "part_numbers": [
+   "9253800250",
+   "9253800240"
+  ],
+  "size": "20/24",
+  "OEM_package_evidence": "Hendrickson published historical PAN17/HT250UB table explicitly lists0250/0240. This is a separate legacy package, not dimensions transferred onto TSE22/24.",
+  "drawing_number": "925 380 023 0",
+  "drawing_doc": "053 EN V1/1",
+  "drawing_family_rows_explicit": true,
+  "drawing_url": "https://www.wabco-customercentre.com/catalog/docs/9253800230____053_dascheck_l4_page-1---notset_tif.pdf",
+  "geometry_mm": {
+   "mount_face_to_rear_body": 240.5,
+   "rear_release_bolt_extension_shown": 89.0,
+   "mount_face_to_release_bolt_tip_derived": 329.5,
+   "rear_body_diameter": 158.5,
+   "largest_circular_body_diameter": 184.0,
+   "service_front_diameter": 153.0,
+   "service_circular_outline_diameter_front_view": 178.0,
+   "projection_max_radius_front_view": 110.0,
+   "stud_thread": "2 x M16 x 1.5",
+   "stud_projection": 43.0,
+   "stud_pitch_GA": 120.7,
+   "stud_pitch_tolerance": 0.3,
+   "stud_pitch_catalog": 120.6,
+   "pushrod_projection": 15.0,
+   "pushrod_projection_tolerance": 0.5,
+   "pushrod_ball_radius": 8.0,
+   "central_face_diameter": 54.0,
+   "central_face_projection": 4.1,
+   "front_clamp_axial_station_from_mount_face": 65.0,
+   "rear_large_crimp_axial_station_from_mount_face": 168.0,
+   "port_axial_stations_from_mount_face": [
+    97.0,
+    116.0
+   ],
+   "front_view_port_offsets_from_centerline": [
+    -25.0,
+    25.0
+   ],
+   "port_face_height_from_axis_in_main_view": 89.0,
+   "stroke_minimum": 64.0,
+   "breather_holes": "6 x diameter6",
+   "uncontrolled_details": [
+    "Undimensioned housing fillets and taper transitions",
+    "Detailed port boss solid topology",
+    "Exact release-bolt insertion/removal and wrench envelope beyond the illustrated89mm rear projection",
+    "Complete OEM CAD surface model"
+   ]
+  },
+  "port_and_clocking": {
+   "thread_11": "3/8-18 NPTF",
+   "thread_12": "3/8-18 NPTF",
+   "0250_port_X_degrees": 300,
+   "0240_port_X_degrees": 60,
+   "both_clampband_Y_degrees": 270,
+   "angle_reference": "Drawing variant view looks at mounting face; X/Y run clockwise from upper mounting-stud ray.",
+   "handedness_conflict": "GA table labels0250 C-38724-R and0240 C-38724-L, whereas Hendrickson catalog assigns0250 S-38724-L and0240 S-38724-R. Specify WABCO part and drawing port angle; resolve LH/RH label disagreement with supplier.",
+   "orientation_conditions": "Main view says lowest breather hole open within +/-30degrees; side view marks admissible installed tilt50degrees one way/10degrees other. Treat as drawing-specific orientation constraints; confirm installed coordinate interpretation."
+  },
+  "pressure": {
+   "working_service_bar": 8.0,
+   "working_spring_bar": 8.0,
+   "temporary_max_service_bar": 10.0,
+   "temporary_max_spring_bar": 10.0,
+   "catalog_max_bar": 10.0,
+   "interpretation": "The GA explicitly qualifies10bar as temporary; do not treat catalog10bar alone as continuous working rating.",
+   "spring_release_bar_at_10mm": 5.1,
+   "spring_release_tolerance_bar": 0.3
+  },
+  "force": {
+   "certified_maximum_service_N": null,
+   "certified_maximum_spring_N": null,
+   "GA_graph_status": "GRAPHICS FOR INFORMATION ONLY, not guaranteed force limits or rail application approval",
+   "service_graph_pressures_bar": [
+    1.38,
+    2.76,
+    4.14,
+    5.52,
+    6.59
+   ],
+   "service_graph_highest_pressure_approx_10mm_N": 8100,
+   "service_graph_highest_pressure_approx_near_zero_stroke_N": 8800,
+   "spring_graph_approx_at_10mm_N": {
+    "central": 7300,
+    "lower": 6500,
+    "upper": 8000
+   },
+   "spring_graph_approx_at_64mm_N": {
+    "central": 3600,
+    "lower": 3300,
+    "upper": 4000
+   },
+   "return_spring_graph_approx_N": {
+    "zero_mm": 200,
+    "64mm": 460
+   },
+   "precision_warning": "Force values above are visual graph readings rounded to100N, not tabulated certified values. No extrapolation to8/10bar, no bound inferred from nominal20-square-inch label, and no uncontrolled substitution onto22/24TSE."
+  },
+  "fittings_and_attachment": {
+   "port_installation_torque_Nm": {
+    "nominal": 43,
+    "tolerance": 5
+   },
+   "release_bolt_max_torque_Nm": 25,
+   "stored_bolt_fixture_torque_Nm": {
+    "nominal": 22.5,
+    "tolerance": 2.5
+   },
+   "chamber_GA_stud_nut_torque_Nm": {
+    "minimum": 169.5,
+    "maximum": 203.4
+   },
+   "PAN17_caliper_GA_chamber_nut_torque_Nm": {
+    "minimum": 180,
+    "maximum": 210
+   },
+   "torque_resolution": "Published ranges overlap180..203.4Nm, but exact assembly instruction must settle which specification controls; do not invent a final torque release.",
+   "washer_policy": "ZF doc000132_ml requires no washers, reinforcing plates or other mechanical/liquid securing elements; supplied nuts or M16x1.5 class8 ISO8673 single-use, clean/dry threads, contact face unevenness<0.3mm."
+  },
+  "availability": {
+   "checked_date_local": "2026-10-19",
+   "result": "Current web listings found but exact legacy pair readily-available stock not established.",
+   "observations": [
+    {
+     "vendor": "Country Supply",
+     "part": "S-38724-L",
+     "price_USD": null,
+     "opened_page_status": "Out of stock",
+     "url": "https://www.country-supply.com/product/hendrickson-brake-chamber-type-20-24-left-s-38724-l/",
+     "warning": "Search snippet saidin stock, opened page saidout of stock; use opened page."
+    },
+    {
+     "vendor": "FleetPride",
+     "part": "9253800250",
+     "opened_search_status": "Pickup and ship not available for displayed Dallas75247 location; branch inquiry needed",
+     "url": "https://www.fleetpride.com/parts/wabco-diaphragm-9253800250"
+    },
+    {
+     "vendor": "FleetPride",
+     "part": "S-38724-R /9253800240",
+     "opened_search_status": "Pickup and ship not available for displayed Dallas75247 location; branch inquiry needed",
+     "url": "https://www.fleetpride.com/parts/hendrickson-spring-brake-chamber-s38724r"
+    }
+   ],
+   "not_interchangeability_proof": "Other9253800030/0040 and0210/0220 units show listings and third-party crossrefs but different clocking; not selected as exact equivalent."
+  }
+ },
+ "current_chamber": {
+  "left": "2224TLD2H-4627 / Hendrickson S-40979-L",
+  "right": "2224TLD2H-4628 / Hendrickson S-40979-R",
+  "size": "22/24",
+  "application": "PAN17 / B2AHT per current L949 Rev T",
+  "exact_suffix_GA_found": false,
+  "exact_force_curve_found": false,
+  "max_operating_pressure_bar": null,
+  "maximum_service_force_N": null,
+  "maximum_spring_force_N": null,
+  "no_substitution": [
+   "Generic Type22 data, HOT family dimensions, or 2024HTND2-3626 data do not establish the 4627/4628 suffix geometry or forces.",
+   "TSE public Disc Installation Guide caging pressures are instructions, not an exact suffix maximum service pressure."
+  ],
+  "current_package_conflict": "Brake-match agent found L1259 RevH October2026 specifies WABCO238 pads with22/24; L949 RevT pad lineS41159-1 isWABCO232. Exact current WABCO238 pad SKU unresolved."
+ },
+ "oem_package": {
+  "rotor": "Hendrickson S-33391",
+  "caliper_LH": "Hendrickson S-39094-L /WABCO40175072",
+  "caliper_RH": "Hendrickson S-39094-R /WABCO40175073",
+  "pad_kit": "Hendrickson S-41159-1",
+  "lining": "WABCO232",
+  "chamber_LH": "Hendrickson S-38724-L /WABCO9253800250",
+  "chamber_RH": "Hendrickson S-38724-R /WABCO9253800240",
+  "chamber_size": "20/24",
+  "rotor_bolts": "Hendrickson S-35210-6,8 per rotor",
+  "caliper_bolts": "Hendrickson S-33649-8,6 bolts and6 washers per caliper"
+ },
+ "s33391_dimensions_status": {
+  "OEM_confirmed_OD_mm": 325,
+  "OEM_family_confirmed_new_thickness_mm": 34,
+  "mounting_geometry_frozen": false,
+  "conflicting_pilot_mm": [
+   173,
+   220
+  ],
+  "conflicting_PCD_mm": [
+   196,
+   249.5
+  ],
+  "conflicting_threads": [
+   "M14\u00d72",
+   "M16\u00d72"
+  ],
+  "conflicting_overall_depth_mm": [
+   148.5,
+   150.1
+  ],
+  "action": "No dimension averaging or substitution; require controlled rotor drawing or measured purchased part."
+ },
+ "compatibility_proof_levels": [
+  {
+   "claim": "Legacy S33391+40175072/73+S41159-1+9253800250/0240 are an OEM PAN17 package",
+   "status": "OEM catalog application pairing established",
+   "sources": [
+    "HIST_PADS",
+    "HIST_CALIPERS",
+    "HIST_CHAMBERS",
+    "HIST_ROTOR",
+    "L809_AA"
+   ]
+  },
+  {
+   "claim": "Webb55030PK-65 is a CT826 replacement",
+   "status": "Manufacturer cross-reference established",
+   "sources": [
+    "WEBB",
+    "DURABRAKE"
+   ]
+  },
+  {
+   "claim": "CT826/Webb is the identical S33391 hub interface",
+   "status": "NOT established; conflicting dimensions prohibit assuming it"
+  },
+  {
+   "claim": "Webb325.12 rotor fully covers PAN17 pad sweep at C5.3 custom mount",
+   "status": "NOT established; need exact annulus and supplier confirmation"
+  },
+  {
+   "claim": "Current TSE22/24 works with selectedS41159-1/232 as the confirmed package",
+   "status": "NOT established; latest ordering guide namesWABCO238 instead",
+   "sources": [
+    "L949_T",
+    "L1259_H"
+   ]
+  },
+  {
+   "claim": "PAN17 package is railway qualified",
+   "status": "NOT established"
+  }
+ ],
+ "maximum_force": {
+  "confirmed": false,
+  "maximum_service_pushrod_force_N": null,
+  "maximum_spring_pushrod_force_N": null,
+  "maximum_rotor_torque_Nm": null,
+  "pressure": "Legacy chamber GA specifies 8 bar working pressure and 10 bar temporary maximum on both circuits.",
+  "curves": "Published force graphs are informational and stop at 6.59 bar. They do not establish a guaranteed force at 8 or 10 bar.",
+  "structural_reference_torque_Nm": 10000,
+  "reference_limit": "PAN17 family catalog torque and mounting-joint note are used as a higher-load comparison case, not a certified selected-package output or proof of support strength.",
+  "still_required": [
+   "Guaranteed service and parking force versus stroke with tolerances",
+   "Exact pad/caliper input-to-torque relationship and friction bounds",
+   "Maximum concurrent service/parking force and anti-compounding arrangement",
+   "Pressure limitation and fault-state loads"
+  ]
+ },
+ "wear_and_hoses": {
+  "caliper_chamber_wear_shift_mm_approx": 25.4,
+  "source": "Hendrickson L1272,pp4-5",
+  "requirements": "Check full suspension travel at fully worn caliper position. Hose attachments must allow full caliper movement.89mm cagingprojection is not enough by itself to prove service access."
+ },
+ "PAN17_transform": {
+  "caliper_GA_url": "https://www.wabco-customercentre.com/catalog/docs/6401750720____053_dascheck_j4_page-1---notset_tif.pdf",
+  "confirmed": "Caliper section identifies chamber-axis inclination9degrees and radial centreline191.5mm relative axle centre. Top faceview mounting-hole pitch120.7+/-0.25mm accepts chamber120.7+/-0.3nominal, but tolerance stack still check.",
+  "unresolved": "Axial chamber mating-face centre not independently closed fromGA;129.6mm dimension appears insection but endpoint attribution needs confirmation. Do not silently set exact OEMcenter by scaling picture. Parent geometry agent owns transform and approximate contour status."
+ },
+ "replacement_plan": {
+  "pads": "Pad replacement clearance and retention access are shown as a service study; a complete OEM withdrawal procedure is not yet proven.",
+  "chamber": "The actual 89 mm rear caging projection is represented separately from provisional tool access. Use exact part and port angle; LH/RH labels conflict between sources.",
+  "rotor": "Closed replacement rotor requires wheelset removal and shop removal of one wheel. It is not a quick on-car split-rotor exchange.",
+  "bearings": "Closed 120 mm bore bearing components must be prepositioned after wheel removal; split sleeves and 100 mm collars assemble radially. Fits and the actual shop sequence require validation."
+ },
+ "release_holds": [
+  "Controlled Webb rotor section, friction annulus, pilot tolerance and supplied bolt specification",
+  "Exact caliper-to-chamber mating datum, mounting attitude and full purchased-part envelopes",
+  "Guaranteed maximum service, parking and compounded loads at all allowed pressures",
+  "Exact legacy chamber availability or a fully documented current-package replacement",
+  "Custom hub, axle keyway, bearing fits and all connections: fatigue, preload, fretting and tolerance qualification",
+  "Full suspension, truck yaw, wear, hoses and servicing with the complete supplier geometry",
+  "Local connection and fatigue checks for the strengthened frame and brackets",
+  "Remaining brake stations and complete train air controls, pressure protection and anti-compounding",
+  "Thermal duty, adhesion, stopping performance and railway application acceptance"
+ ],
+ "sources": {
+  "HIST_PADS": "https://digital.hendrickson-intl.com/view/513311/361/",
+  "HIST_CALIPERS": "https://digital.hendrickson-intl.com/view/513311/362/",
+  "HIST_CHAMBERS": "https://digital.hendrickson-intl.com/view/513311/365/",
+  "HIST_ROTOR": "https://digital.hendrickson-intl.com/view/513311/378/",
+  "L949_T": "https://www.hendrickson-intl.com/getattachment/54c582a0-10e2-4fe2-9e8f-f4e33f9fccb4/L949.pdf",
+  "L809_AA": "https://www.hendrickson-intl.com/getattachment/36ffdb18-36c7-475f-8ea2-678622429db5/L809.pdf",
+  "L1259_H": "https://www.hendrickson-intl.com/getattachment/c1e7664c-224b-4f6f-bbed-918851ac5d31/L1259-Rev-H-PAN17-Ordering-Guide-WEB.pdf",
+  "WABCO_CATALOG": "https://www.wabco-customercentre.com/catalog/docs/pb19028.pdf",
+  "WABCO_072": "https://www.wabco-customercentre.com/catalog/en_US/40175072",
+  "WABCO_GA": "https://www.wabco-customercentre.com/catalog/docs/6401750720____053_dascheck_j4_page-1---notset_tif.pdf",
+  "WEBB": "https://www.webbwheel.com/webbipad/pdf_files/SD-131%20Webb%20ADB%20ROTOR%20flyer%20R32.pdf",
+  "DURABRAKE": "https://parts.durabrake.com/product/75180/",
+  "DAYTON_CONFLICT": "https://www.daytonparts.com/air-disc-rotor-web-pan17-hendrickson-s-33391-1896-hendrickson",
+  "MIDWEST_CONFLICT": "https://www2.midwestwheel.com/marketing/08Air-Disc-Brakes-Catalog-2026/",
+  "L1272": "https://www.hendrickson-intl.com/getattachment/155d9e36-24d4-49e4-84c7-7ac5002024c0/L1272.pdf",
+  "SELLER_WEBB": "https://triplertruckparts.com/webb-55030pk-65-air-disc-brake-rotor-wabco-pan-17/",
+  "SELLER_CALIPER": "https://brakes4trailers.com/products/40175072-genuine-wabco-disc-brake-caliper-pan-17",
+  "SELLER_PAD": "https://www.country-supply.com/product/s-41159-1/",
+  "L949T": "https://www.hendrickson-intl.com/getattachment/54c582a0-10e2-4fe2-9e8f-f4e33f9fccb4/L949.pdf",
+  "legacyOEM": "https://digital.hendrickson-intl.com/view/513311/365/",
+  "GA": "https://www.wabco-customercentre.com/catalog/docs/9253800230____053_dascheck_l4_page-1---notset_tif.pdf",
+  "WABCO0250": "https://www.wabco-customercentre.com/catalog/en_US/9253800250",
+  "WABCOinstall": "https://www.wabco-customercentre.com/catalog/docs/doc000132_ml.pdf",
+  "TSEinstall": "https://www.tsebrakes.com/medias/iw/TSE_Disc_Brake_Installation_Instructions_1_1_1.pdf",
+  "Gigant": "https://www.gigant.com/fileadmin/media/documents/pruefprotokolle/scheibenbremse/361_037_08_PAN17-1_3334W_1_1_en.pdf",
+  "ACR_2024": "https://acrairdisc.com/sites/default/files/A-LINE%20Catalogue%202024.pdf"
+ },
+ "source_details": [
+  {
+   "id": "HIST_PADS",
+   "url": "https://digital.hendrickson-intl.com/view/513311/361/",
+   "title": "Hendrickson Trailer Parts Catalog, online page361 / printed359",
+   "scope": "Historical OEM PAN17 pad kit S-41159-1; WABCO20/24 chamber association."
+  },
+  {
+   "id": "HIST_CALIPERS",
+   "url": "https://digital.hendrickson-intl.com/view/513311/362/",
+   "title": "Hendrickson Trailer Parts Catalog, online page362 / printed360",
+   "scope": "Historical OEM PAN17 LH S-39094-L =40175072 and RH S-39094-R =40175073; includes mounting hardware."
+  },
+  {
+   "id": "HIST_CHAMBERS",
+   "url": "https://digital.hendrickson-intl.com/view/513311/365/",
+   "title": "Hendrickson Trailer Parts Catalog, online page365 / printed363",
+   "scope": "Historical OEM PAN1720/24: LH S-38724-L =9253800250; RH S-38724-R =9253800240; HT250UB application."
+  },
+  {
+   "id": "HIST_ROTOR",
+   "url": "https://digital.hendrickson-intl.com/view/513311/378/",
+   "title": "Hendrickson Trailer Parts Catalog, online page378 / printed376",
+   "scope": "Historical OEM PAN17325mm cast rotor S-33391; rotor with fasteners; S-35210-6 =8 bolts per rotor; S-35210-5 =16 per axle."
+  },
+  {
+   "id": "L949_T",
+   "url": "https://www.hendrickson-intl.com/getattachment/54c582a0-10e2-4fe2-9e8f-f4e33f9fccb4/L949.pdf",
+   "title": "Hendrickson L949 Rev T",
+   "scope": "Pages11,12,15,28: pads S-41159-1 /WABCO232 associated20/24; calipers40175072/73; chamber table now TSE22/24 S-40979-L/R; rotor S-33391. Internal revision consistency unresolved."
+  },
+  {
+   "id": "L809_AA",
+   "url": "https://www.hendrickson-intl.com/getattachment/36ffdb18-36c7-475f-8ea2-678622429db5/L809.pdf",
+   "title": "Hendrickson L809 Rev AA, June2025, printed6",
+   "scope": "PAN17325\u00d734 and WABCO232:18/24 at15000\u201317500lb GAWR and14.1\u201315.6in tire SLR;20/24 at17500\u201320000lb and14.1\u201314.7in. Trailer certification, not railway approval or brake maximum-force curve."
+  },
+  {
+   "id": "L1259_H",
+   "url": "https://www.hendrickson-intl.com/getattachment/c1e7664c-224b-4f6f-bbed-918851ac5d31/L1259-Rev-H-PAN17-Ordering-Guide-WEB.pdf",
+   "title": "Hendrickson L1259 Rev H October2026, page2",
+   "scope": "New current PAN17 ordering specification:325mm cast rotor,WABCO238 lining,Hendrickson22/24 standard chamber. Does not identify exact PAN17 WABCO238 pad SKU."
+  },
+  {
+   "id": "WABCO_CATALOG",
+   "url": "https://www.wabco-customercentre.com/catalog/docs/pb19028.pdf",
+   "title": "WABCO PB19028, local PDF dated July2020; printed12-2 and12-3",
+   "scope": "PAN17 family table:10000Nm braking torque,330\u00d734 disc,240cm2 pad area,19mm pad thickness,23kg including pads,maximum actuator Type20. Next page40175072/73,12999806 pads,Jurid539-20,IMT application. No CT826 rotor part found."
+  },
+  {
+   "id": "WABCO_072",
+   "url": "https://www.wabco-customercentre.com/catalog/en_US/40175072",
+   "title": "WABCO40175072 official catalog",
+   "scope": "LH PAN17 without pads;6M14\u00d71.5 carrier mounting;330mm nominal disc basis;21mm stated stroke; replaces HendricksonS-36837-7."
+  },
+  {
+   "id": "WABCO_GA",
+   "url": "https://www.wabco-customercentre.com/catalog/docs/6401750720____053_dascheck_j4_page-1---notset_tif.pdf",
+   "title": "WABCO40175072/073 GA",
+   "scope": "Previously inspected C5.3 controlled GA.330\u00d734 disc basis; detailed mount and chamber flange; not exact Webb rotor section."
+  },
+  {
+   "id": "WEBB",
+   "url": "https://www.webbwheel.com/webbipad/pdf_files/SD-131%20Webb%20ADB%20ROTOR%20flyer%20R32.pdf",
+   "title": "Webb SD131 R32",
+   "scope": "C5.3 exact selected part dimensional source.55030PK-65 cross-reference CT826; does not prove S-33391 interface interchangeable."
+  },
+  {
+   "id": "DURABRAKE",
+   "url": "https://parts.durabrake.com/product/75180/",
+   "title": "DuraBrake75180 manufacturer product listing",
+   "scope": "Manufacturer says325\u00d7149mm,8holes,ABS,interchanges Webb55030PK-65/WABCOCT826. Family and exactWebb cross-reference corroboration, not detailed section."
+  },
+  {
+   "id": "DAYTON_CONFLICT",
+   "url": "https://www.daytonparts.com/air-disc-rotor-web-pan17-hendrickson-s-33391-1896-hendrickson",
+   "title": "Dayton Parts S-33391 listing",
+   "scope": "Third-party listing of Hendrickson part on supplier/manufacturer-brand site.325\u00d734,220pilot,249.5PCD,8M16\u00d72,150.1height,55lb. Contradicted by Midwest catalog; reject as machining authority."
+  },
+  {
+   "id": "MIDWEST_CONFLICT",
+   "url": "https://www2.midwestwheel.com/marketing/08Air-Disc-Brakes-Catalog-2026/",
+   "title": "Midwest Wheel2026 catalog, PAN17 page17",
+   "scope": "Distributor S-33391 row:325\u00d734,173pilot,196PCD,8M14\u00d72,148.5height. Contradicts Dayton; not OEM dimensional release."
+  },
+  {
+   "id": "L1272",
+   "url": "https://www.hendrickson-intl.com/getattachment/155d9e36-24d4-49e4-84c7-7ac5002024c0/L1272.pdf",
+   "title": "Hendrickson L1272 November2016 application guide",
+   "scope": "325mm rotor application; allow about1in inboard caliper/chamber wear migration and free hose movement across whole caliper stroke. Full suspension clearance at full wear required."
+  },
+  {
+   "id": "SELLER_WEBB",
+   "url": "https://triplertruckparts.com/webb-55030pk-65-air-disc-brake-rotor-wabco-pan-17/",
+   "title": "Triple R exact Webb55030PK-65 listing",
+   "scope": "Observed2026-10-19 America/Los_Angeles:4 in stock,[price removed]. Seller representation, not reserved inventory.",
+   "exact_quote": null
+  },
+  {
+   "id": "SELLER_CALIPER",
+   "url": "https://brakes4trailers.com/products/40175072-genuine-wabco-disc-brake-caliper-pan-17",
+   "title": "Brakes4Trailers exact40175072 listing",
+   "scope": "Observed2026-10-19 America/Los_Angeles:in stock,[price removed],carrier included. No quantity.",
+   "exact_quote": "In stock"
+  },
+  {
+   "id": "SELLER_PAD",
+   "url": "https://www.country-supply.com/product/s-41159-1/",
+   "title": "Country Supply S-41159-1 listing",
+   "scope": "Observed2026-10-19 America/Los_Angeles:in stock,[price removed]. No quantity.",
+   "exact_quote": "In stock"
+  },
+  {
+   "id": "L949T",
+   "url": "https://www.hendrickson-intl.com/getattachment/54c582a0-10e2-4fe2-9e8f-f4e33f9fccb4/L949.pdf",
+   "web_ref": "turn287search0",
+   "role": "current22/24TSE application"
+  },
+  {
+   "id": "legacyOEM",
+   "url": "https://digital.hendrickson-intl.com/view/513311/365/",
+   "web_ref": "turn327search8",
+   "role": "legacy20/24exactparts"
+  },
+  {
+   "id": "GA",
+   "url": "https://www.wabco-customercentre.com/catalog/docs/9253800230____053_dascheck_l4_page-1---notset_tif.pdf",
+   "web_ref": "turn312view0",
+   "role": "exactlegacyfamilydimensionsandinformationalforcegraphs"
+  },
+  {
+   "id": "WABCO0250",
+   "url": "https://www.wabco-customercentre.com/catalog/en_US/9253800250",
+   "web_ref": "turn304view0",
+   "role": "part-specificcatalog; GAqualifiestemporarypressure"
+  },
+  {
+   "id": "WABCOinstall",
+   "url": "https://www.wabco-customercentre.com/catalog/docs/doc000132_ml.pdf",
+   "web_ref": "turn312view1",
+   "role": "attachmentassemblypolicy"
+  },
+  {
+   "id": "L1272",
+   "url": "https://www.hendrickson-intl.com/getattachment/155d9e36-24d4-49e4-84c7-7ac5002024c0/L1272.pdf",
+   "web_ref": "turn292view4",
+   "role": "wearandhoseclearance"
+  },
+  {
+   "id": "TSEinstall",
+   "url": "https://www.tsebrakes.com/medias/iw/TSE_Disc_Brake_Installation_Instructions_1_1_1.pdf",
+   "web_ref": "turn299view0",
+   "role": "TSEfamilyonlynotWABCOinstructions"
+  },
+  {
+   "id": "Gigant",
+   "url": "https://www.gigant.com/fileadmin/media/documents/pruefprotokolle/scheibenbremse/361_037_08_PAN17-1_3334W_1_1_en.pdf",
+   "web_ref": "turn304view1",
+   "role": "rejectedexactforceproxy"
+  },
+  {
+   "id": "ACR_2024",
+   "url": "https://acrairdisc.com/sites/default/files/A-LINE%20Catalogue%202024.pdf",
+   "title": "ACR A-LINE 2024 catalog",
+   "scope": "Manufacturer cross-reference row lists Webb55030PK65, WABCOCT826, HendricksonS33391 and PAN17; not a controlled hub drawing."
+  }
+ ],
+ "availability": [
+  {
+   "part": "Webb 55030PK-65",
+   "seller": "Triple R Truck Parts, Pennsylvania, USA",
+   "displayed_status": "4 In Stock",
+   "quantity": 4,
+   "price_USD": null,
+   "source": "https://triplertruckparts.com/webb-55030pk-65-air-disc-brake-rotor-wabco-pan-17/",
+   "evidence_kind": "Exact product page retrieved; seller representation, not reserved inventory."
+  }
+ ],
+ "page_parts": [
+  {
+   "name": "Webb 55030PK-65 rotor",
+   "role": "Replaceable inboard rotor candidate",
+   "availability": "Exact seller listing showed four in stock; not reserved.",
+   "fit_status": "Published mounting dimensions retained. Exact section, pad sweep and hub mating face remain open.",
+   "source_url": "https://cdn.prod.website-files.com/692683b9a358dca80ef39017/69609994c6c39d1d62295d61_SD-131%20Webb%20ADB%20ROTOR%20flyer%20R32.pdf"
+  },
+  {
+   "name": "WABCO 40175072 / 40175073 calipers",
+   "role": "PAN17 air-disc caliper and carrier",
+   "availability": "Exact caliper listings found; no parts ordered.",
+   "fit_status": "OEM mounting pattern established. Complete purchased-part fit is conditional.",
+   "source_url": "https://www.wabco-customercentre.com/catalog/docs/6401750720____053_dascheck_j4_page-1---notset_tif.pdf"
+  },
+  {
+   "name": "Hendrickson S-41159-1 / WABCO 232 pads",
+   "role": "Pads in the documented legacy package",
+   "availability": "Exact pad kit listing found in stock.",
+   "fit_status": "Historical OEM pairing established; Webb annulus coverage remains open.",
+   "source_url": "https://digital.hendrickson-intl.com/view/513311/361/"
+  },
+  {
+   "name": "WABCO 9253800250 / 9253800240 chambers",
+   "role": "20/24 air service and spring parking reference",
+   "availability": "Exact legacy stock and lead time unconfirmed.",
+   "fit_status": "Controlled exterior, studs, ports and caging geometry found; mating position and maximum force remain open.",
+   "source_url": "https://www.wabco-customercentre.com/catalog/docs/9253800230____053_dascheck_l4_page-1---notset_tif.pdf"
+  },
+  {
+   "name": "Parker 271-6 hose and 10125-6-6B-VS ends",
+   "role": "Separate local service and spring air connections",
+   "availability": "Manufacturer catalog parts; stock and assembled lead time unverified.",
+   "fit_status": "Hose/end compatibility established. Routing, cut length, crimp specification and dynamic clearance remain open.",
+   "source_url": "https://www.parker.com/content/dam/Parker-com/Literature/Hose-Products-Division/Catalog-4400-PDF-Files/HPD_4400_Catalog.pdf"
+  },
+  {
+   "name": "Parker 2202P-6-6 elbow candidate",
+   "role": "Compact 3/8-inch pipe adapter",
+   "availability": "Manufacturer catalog part; stock unverified.",
+   "fit_status": "Dimensions documented; final port clocking, thread engagement and complete brake-hose assembly qualification remain open.",
+   "source_url": "https://www.parker.com/content/dam/Parker-com/Literature/Literature-Files/pneumatic/Literature/FRL/0700P/0700P_Tubing_Fittings.pdf"
+  }
+ ],
+ "hose": {
+  "scope": "Parker 271-6 hose and exact 25 Series end fittings for service and spring chamber connections. Research only; installation remains conditional.",
+  "retrieved_utc": "2026-10-20",
+  "recommendation": {
+   "hose": "271-6",
+   "straight_hose_end": "10125-6-6B-VS",
+   "optional_compact_90_degree_pipe_elbow": "2202P-6-6",
+   "availability_status": "Manufacturer catalog parts confirmed; live inventory and lead time not checked.",
+   "assembly_status": "Catalog hose/end compatibility confirmed; final installed end orientation, thread engagement, hose cut length, crimp specification and complete movement/service clearance remain open."
+  },
+  "hose": {
+   "manufacturer": "Parker",
+   "part_number": "271-6",
+   "source": "https://www.parker.com/content/dam/Parker-com/Literature/Hose-Products-Division/Catalog-4400-PDF-Files/HPD_4400_Catalog.pdf",
+   "pdf_page_one_based": 51,
+   "application": "Air brake hose",
+   "inner_tube_and_cover": "Synthetic rubber",
+   "reinforcement": "One or more fiber braid",
+   "id_in": 0.375,
+   "id_catalog_mm": 10,
+   "od_in": 0.75,
+   "od_catalog_mm": 19,
+   "minimum_bend_radius_in": 1.75,
+   "minimum_bend_radius_catalog_mm": 45,
+   "working_pressure_psi": 225,
+   "working_pressure_catalog_mpa": 1.6,
+   "temperature_f": [
+    -50,
+    212
+   ],
+   "temperature_c": [
+    -46,
+    100
+   ],
+   "compatible_fitting_series": "25",
+   "catalog_standards": [
+    "SAE J1402 A",
+    "DOT FMVSS 106 AIR BRAKE-A"
+   ],
+   "note": "Catalog inch and rounded metric values retained as published; do not treat rounded metric as precision tolerances."
+  },
+  "straight_hose_end": {
+   "part_number": "10125-6-6B-VS",
+   "source": "https://www.parker.com/content/dam/Parker-com/Literature/Hose-Products-Division/Catalog-4400-PDF-Files/HPD_4400_Catalog.pdf",
+   "pdf_page_one_based": 63,
+   "configuration": "Male NPTF pipe, rigid straight",
+   "thread": "3/8-18 NPTF",
+   "hose_id_in": 0.375,
+   "A_overall_in": 1.72,
+   "A_catalog_mm": 44,
+   "B_in": 1.0,
+   "B_catalog_mm": 25,
+   "H_hex_in": 0.6875,
+   "H_hex_converted_mm": 17.4625,
+   "source_compatibility_statement": "Use with hose: 271",
+   "dimension_datums": "A from male thread tip to rear crimp-shell end; B from male thread tip to hose cut-off/start-of-crimp region in catalog figure. Installed projection depends on actual male thread engagement.",
+   "not_confirmed": [
+    "Unsuffixed 10125-6-6 is not the exact catalog entry",
+    "Crimped shell outside diameter",
+    "Exact shell and hex lengths",
+    "Installed male thread engagement"
+   ]
+  },
+  "serviceable_swivel_alternative": {
+   "hose_end": {
+    "part_number": "17B25-8-6B",
+    "configuration": "Female air brake jounce line, swivel straight",
+    "thread": "3/4-20 UNEF",
+    "hose_id_in": 0.375,
+    "A_in": 1.59,
+    "A_catalog_mm": 40,
+    "B_in": 0.87,
+    "B_catalog_mm": 22,
+    "H_hex_in": 0.875
+   },
+   "pipe_adapter": {
+    "part_number": "017M-6-8B",
+    "end_1": "3/8-18 NPTF",
+    "end_2": "3/4-20 UNEF",
+    "L_in": 1.13,
+    "L_catalog_mm": 29,
+    "H_hex_in": 0.75
+   },
+   "source": "https://www.parker.com/content/dam/Parker-com/Literature/Hose-Products-Division/Catalog-4400-PDF-Files/HPD_4400_Catalog.pdf",
+   "pdf_page_one_based": 63,
+   "caution": "Do not sum overall lengths to obtain installed length: threaded engagement creates overlap. This union facilitates removing hose without turning hose body."
+  },
+  "compact_90_degree_alternative": {
+   "part_number": "2202P-6-6",
+   "configuration": "Extruded brass 90 degree street elbow",
+   "source": "https://www.parker.com/content/dam/Parker-com/Literature/Literature-Files/pneumatic/Literature/FRL/0700P/0700P_Tubing_Fittings.pdf",
+   "printed_page": "N42",
+   "pdf_page_one_based": 44,
+   "end_1_female_pipe_in": 0.375,
+   "end_2_male_pipe_in": 0.375,
+   "thread_family": "Dryseal, per section N39; 3/8 inch nominal pipe size corresponds to 18 threads per inch.",
+   "M_in": 0.98,
+   "M_converted_mm": 24.892,
+   "N_in": 0.54,
+   "N_converted_mm": 13.716,
+   "flow_bore_D_in": 0.41,
+   "flow_bore_D_converted_mm": 10.414,
+   "dimension_datums": "M from female-port axis to male thread tip, along male-port axis; N from male-port axis to female-port end face, along female-port axis.",
+   "family_specification": {
+    "source_page": "N39 / PDF41",
+    "pressure_range": "Up to 1000 psi",
+    "temperature_f": [
+     -65,
+     250
+    ],
+    "functional_requirements": [
+     "SAE J530",
+     "SAE J531"
+    ],
+    "thread_standard_description": "Dryseal"
+   },
+   "installation_notes": [
+    "Separate pipe adapter, not a 25 Series crimp elbow.",
+    "Fit male elbow end into chamber port, rigid hose fitting into female elbow end, subject to physical tool and rotational installation access.",
+    "Final clocking and actual engagement require verification; do not back off tapered pipe joint to align.",
+    "Section assembly turn instructions explicitly apply to pre-applied Vibra Seal; do not blindly apply to unsuffixed unsealed elbows.",
+    "Complete air-brake assembly qualification not established by the industrial adapter catalog alone."
+   ]
+  },
+  "bulkhead_candidate": {
+   "part_number": "207ACBH-6",
+   "source": "https://www.parker.com/content/dam/Parker-com/Literature/Literature-Files/pneumatic/Literature/FRL/0700P/0700P_Tubing_Fittings.pdf",
+   "printed_page": "N40",
+   "pdf_page_one_based": 42,
+   "configuration": "Anchor coupling",
+   "female_pipe_in": 0.375,
+   "straight_mount_thread": "1-14",
+   "max_bulkhead_P_in": 0.62,
+   "B_hex_in": 1.125,
+   "C_hex_in": 1.25,
+   "L_in": 1.31,
+   "mount_hole_in": 1.0,
+   "flow_D_in": 0.571,
+   "status": "Catalog dimensional candidate; inclusion not required and final selection is geometry decision."
+  },
+  "assembly_requirements": {
+   "source": "https://www.parker.com/content/dam/Parker-com/Literature/Hose-Products-Division/Catalog-4400-PDF-Files/HPD_4400_Catalog.pdf",
+   "pdf_page_one_based": 64,
+   "items": [
+    "Hose must be fully inserted and visible at sight hole.",
+    "Use Parker-approved crimp process and exact CrimpSource die/crimp specification.",
+    "Crimp diameter was not retrieved; no fabricated crimp dimension supplied.",
+    "Respect hose minimum bend radius throughout suspension motion, caliper wear migration and removal access.",
+    "Maintain independent service/spring circuits; color and routing are design decisions."
+   ]
+  },
+  "critical_unknowns": [
+   "Final chamber port placement and thread engagement are owned by chamber/geometry analysis.",
+   "Exact purchased hose assembly lengths and clamp/bulkhead placements.",
+   "Crimp dimensions and manufacturer-approved assembled pressure qualification.",
+   "90 degree elbow clocking, wrench space, and full rigid-end rotational installation clearance.",
+   "Dynamic routing validation with axle motion, full suspension and caliper wear migration."
+  ],
+  "sources": [
+   {
+    "url": "https://www.parker.com/content/dam/Parker-com/Literature/Hose-Products-Division/Catalog-4400-PDF-Files/HPD_4400_Catalog.pdf",
+    "publisher": "Parker Hannifin",
+    "local_pdf": "/workspace/scratch/29e03dcb9968/c54-research/parker4400.pdf",
+    "bytes": 57016705,
+    "pages_used_one_based": [
+     51,
+     63,
+     64
+    ]
+   },
+   {
+    "url": "https://www.parker.com/content/dam/Parker-com/Literature/Literature-Files/pneumatic/Literature/FRL/0700P/0700P_Tubing_Fittings.pdf",
+    "publisher": "Parker Hannifin",
+    "local_pdf": "/workspace/scratch/29e03dcb9968/c54-research/parker0700.pdf",
+    "bytes": 3156555,
+    "pages_used_one_based": [
+     41,
+     42,
+     44
+    ]
+   }
+  ]
+ }
+}

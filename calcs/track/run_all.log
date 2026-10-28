@@ -1,0 +1,26 @@
+const_R125 53.3 s
+const_R100 43.6 s
+const_R90 38.2 s
+const_R80 35.8 s
+const_R70 33.6 s
+const_R60 29.4 s
+const_R50 28.5 s
+const_R45 24.9 s
+const_R40 23.4 s
+const_R35 22.1 s
+S_R100_T25.66 58.9 s
+/workspace/train/calcs/track/route_check.py:73: RuntimeWarning: invalid value encountered in divide
+  j = (i + 1) % len(A["P"]); t = A["P"][j] - A["P"][i]; t /= np.linalg.norm(t, axis=1)[:, None]
+S_R100_T0.0 57.6 s
+S_R50_T0.0 34.1 s
+S_R50_T5.0 34.8 s
+S_R50_T10.0 37.2 s
+S_R50_T15.0 39.2 s
+S_R50_T20.0 37.4 s
+S_R50_T25.66 39.0 s
+S_R45_T15.93 34.0 s
+B_R125_T15.93_R45 52.8 s
+Alt A 186.6 s
+Alt B 140.0 s
+Alt C 122.9 s
+done

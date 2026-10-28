@@ -1,0 +1,75 @@
+C3 accessible folding seats · Pulsipher Farms
+Previous version · Earlier accessible seat and layout study
+This page is retained as history. Open the current assembly →
+C3 is the historical layout basis. Current parts and connections are in C3.1 locks/guards/foundation, C4 side boarding/securement and C5 sprung trucks. The complete folding-seat/foundation allocation is now 90 kg per place, superseding 65 kg below.
+C3 · R0 · 19 OCTOBER 2026
+A seat when needed.
+A clear wheelchair bay when folded.
+One forward-facing folding seat in each bay, alongside the accessible coach’s eleven fixed places. The hinge assembly and floor supports stay in a separate six-inch strip.
+Preliminary design for review. The drawings define a physical folding-seat candidate and a coordinated space layout. Local connections, complete guards and pin retention, wheelchair securement, accessible body framing and prototype acceptance remain unfinished.
+Proposed passenger count13 places11 fixed + 2 convertible bays · excludes crew
+Each clear wheelchair bay36 × 60 inSeat and support strip outside the clear rectangle
+Folding-seat cushion24 in wide18 in above floor · 90° upward travel
+Deployed physical candidate. Nominal metal, mounts and main hardware: 54.06 kg per folding assembly. Complete-seat trial allowance remains 65 kg.Stowed against the fixed back. Both positive pins must engage through the far cheeks; final retention and guards remain to detail.
+Passenger modes
+ | Wheelchairs aboard
+ | Fixed seats
+ | Folding seats used
+ | Wheelchair riders
+ | Total
+ | None
+ | 11
+ | 2
+ | 0
+ | 13
+ | One, in either bay
+ | 11
+ | 1
+ | 1
+ | 13
+ | Two
+ | 11
+ | 0
+ | 2
+ | 13
+Each bay is used by either a seated passenger or a wheelchair rider. Both folding assemblies remain aboard in every mode. Companion seats stay available across the 36-inch route. Wheelchairs, other equipment and crew must be included in the final mass and thermal reconciliation.
+Drawings
+C3-A01Accessible layout and passenger modesC3-A02Folding seat, motion and installationC3-M01Hinges, stops and locking pinsC3-P01Plate profiles and floor attachment
+Rotate the mechanism and coach
+Seat downHalfway · 45°Seat foldedCoach · 13 seatsCoach · wheelchair 1Coach · wheelchair 2Coach · two wheelchairs
+How the seat folds
+The 24-inch pan frame rotates upward around two ¾-inch hinge pins. Both end positions have metal stops.
+The deployed bearing lands carry downward seating load. A separate ⅝-inch positive locking pin at each side secures either end position.
+The fixed posts and steel floor bypass remain in the six-inch support strip. Load transfers into the underframe seat rails, around the floor panel.
+Proposed conversion is an empty, stationary-coach operation: one crew member controls the pan while another releases and verifies both pins. Move to the stop, fully engage both pins, fit the secondary retainers and check the locked pan before boarding.
+No spring assist or automatic return is included. Final handholds, guarded crew access, secondary pin retention and the rear hinge shroud need completion. Mid-travel views demonstrate nominal geometry; they are not an operating instruction for an approved seat.
+Layout and boarding
+The first clear bay is X66–126 and the second X132–192 inches, both at Y−52 to −16. Support strips occupy X60–66 and X126–132. The route stays at Y−12 to +24. Companion cushions move to X86–106 and X152–172; three rear rows start at X194, X226 and X258. All dimensions share the coach datum and the current floor Z32.
+The 42-inch side entry and 60-inch forward turning space are retained as reservations. The maneuvering study checks a specific 30 × 48-inch wheelchair proxy with forward/reverse motion and rear-axle turns while the other bay is occupied. Actual devices, casters, door hardware, securement and an occupied mock-up still need checking. See the path evidence and limits.
+Fabrication definition
+ | Family
+ | Preliminary material / geometry
+ | Detail still to close
+ | Pan frame
+ | 1½-inch square HSS, ⅛-inch nominal wall; ⅛-inch aluminum pan
+ | Pan fasteners, isolation, local patch load and retained upholstery
+ | Fixed posts
+ | 2-inch square HSS, 3/16-inch nominal wall
+ | Local clevis/post and base weld groups
+ | Moving sectors / clevis cheeks
+ | ½-inch sectors between two ⅜-inch cheeks at each side
+ | Net sections, edge tear-out, welds and fatigue
+ | Hinges / locks
+ | ¾-inch hinge pins with renewable bushings; two ⅝-inch positive locks
+ | Certified pin material, fits, full engagement and positive secondary retention
+ | Steel floor bypass
+ | 5 × 6-inch cap, ¾-inch thick; matching 1-inch sole; four ½-inch bolts per foot
+ | Contact/prying, locking/preload, complete tool access and flexible floor closeout
+ | Rail saddle
+ | Closed ⅜-inch wrap with ½-inch ribs, fitted around the existing seat rail
+ | Rail wall transfer, end joints and crossmember reinforcement
+The rear 1½ inches of the cushion have local corner relief for the posts; its main seating portion remains 24 inches wide. The back pad fits between the posts. Actual padding bulge, seams, coating and welds must remain outside the accepted motion and wheelchair envelopes.
+Editable design and part files
+Deployed assembly STEP · mm · gzipStowed assembly STEP · mm · gzipCanonical CAD sourceDimensions and motion parametersParts and locationsBill of materialsCoach layoutDecisions and unfinished work
+Flat blank DXF · inches: cap · sole · hinge cheek · moving sector · seat pan · back pan. Verify import units. STEP contains separate solids; Python retains the editable design logic.
+C2.1 regular-coach benches · C3 calculations, inspection scope and remaining interfacesPF-3O2-C3-R0 · Preliminary review issue · No fabrication or operating release

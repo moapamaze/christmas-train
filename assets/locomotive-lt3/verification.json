@@ -1,0 +1,79 @@
+{
+  "issue": "PF-LOCO-LT3-R0",
+  "date": "2026-10-19",
+  "engineering_acceptance": false,
+  "viewer_models": {
+    "support-model.json": 91,
+    "model.json": 593
+  },
+  "model_schema_validation": "Passed actual validateFrameJModel from shared viewer",
+  "cad_generation": "215 nominal new shapes passed OCCT isValid before export; STEP roundtrip recorded separately",
+  "dimension_and_spring_consistency_checks": "Passed",
+  "fit_screen": {
+    "cases": 225,
+    "selected_nominal_surfaces_clear": true,
+    "full_swept_solid_check": false,
+    "tolerance_wear_deflection_accepted": false,
+    "side_element_margin_accepted": false
+  },
+  "changed_JS_syntax": "Passed Node syntax check",
+  "local_links_missing": [],
+  "protected_DT_coach_program_source_unchanged": true,
+  "protected_hashes": {
+    "DRIVETRAIN_COORDINATION.md": "2e33f5c5edb991fc3460223da9b711c7e7ba563b84bba34928b6f7b0799bfcca",
+    "dist/assets/engineering-program-state.json": "ba59ab356c37562a06dd0f5d5bdf0fb130426753b39fe5473af5a39e94f4c44a",
+    "dist/assets/coach-accessible-c3/interface-handoff.json": "365a3b9b12ca342d3c761bed63653186dec51a1c561a3a06fe94a4dc5c2f9951"
+  },
+  "drawings_visual_review": [
+    "LT3-A01",
+    "LT3-J01",
+    "LT3-J02",
+    "LT3-B01"
+  ],
+  "interactive_browser": "Unavailable: managed preview bwrap proc-mount failure; not claimed.",
+  "release_holds": [
+    "Kingpin base fixation and primary bearing/pin retention incomplete",
+    "Local weld, fastener, fatigue, contact and fault-load qualification",
+    "Actual spring/damper and side-element selection",
+    "Complete mass/CG, support reactions and wheel unloading",
+    "Leading/trailing/tender support development",
+    "Full movement including drives and ladder; route clearances",
+    "Professional review and controlled proof/commissioning tests"
+  ],
+  "step_roundtrip": {
+    "LT3-truck-connection-R0.step": {
+      "solids": 91,
+      "valid": true,
+      "volume_mm3": 70712503.31047864
+    },
+    "LT3-cab-shell-access-R0.step": {
+      "solids": 32,
+      "valid": true,
+      "volume_mm3": 138110328.99085167
+    }
+  },
+  "CAD_visual_review": [
+    "Powered connection isometric",
+    "Raised frame/cab/shell isometric"
+  ],
+  "counts": {
+    "new_nominal_parts": 215,
+    "one_powered_connection": 91,
+    "integrated_viewer_parts": 593
+  },
+  "DT3_reconciliation": "Latest DT3 source preserved; wheelbase/stations adopted for integration only, nominal AABB and hose solids checked. New mass sensitivity replaces old primary purchase targets.",
+  "protected_DT3_source_unchanged": true,
+  "latest_protected_source": "bf2e949",
+  "compressed_delivery": {
+    "base_parts": 124,
+    "detail_filter_parts": 91,
+    "composed_parts": 593,
+    "DT3_source": "Existing shared compressed DT3 mesh",
+    "base_vertex_rounding_inches": 0.0001,
+    "full_precision_CAD_retained_in_source": true,
+    "composed_model_schema_and_placement_check": "Passed for all593 part IDs/centres; detail91 parts",
+    "DT3_compressed_asset_repair": "Incoming committed gzip was empty; rebuilt using unchanged cad/drivetrain-dt3/model.json and DT3 rounding convention. No geometry or design change.",
+    "shared_frame": "Existing LT2 model, raised125mm at display time",
+    "second_connection": "Copy of first at2700mm offset"
+  }
+}

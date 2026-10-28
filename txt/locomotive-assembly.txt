@@ -1,0 +1,22 @@
+Whole locomotive · Pulsipher FarmsSkip to content
+CURRENT POWER / MOVEMENT REVIEW · LT42
+Full power budget, revised brake routes and combined movement findings → Coach HVAC exposes a power shortfall. Brake ratings, configured controls, generator drive and hose twist remain open.
+PREVIOUS HOSE AUDIT · LT36
+See the unfinished hose ends and routing faults → Complete the pump, motor, brake and coach connections; correct the front branch gaps and overlapping flex leads. The audit identifies the work still needed.
+CURRENT SPRING DECISION · LT35
+D5 replacement, supplier requests and corrected contact checks → D5 requires excessive frame adaptation and is no longer the preferred installation. Shorter standard alternatives requested; quotation and accepted installation remain open.
+Current cab · C2
+Left-side controls, front / last-coach cameras, dimensioned exits and a mass-reconciled LT32 assembly.Open Cab C2 drawings and model → · Engineering →
+SPRING SOURCING · LT34 REVIEW
+D5-Outer main springs and G63-152 roll springs → Supplier prices and availability, revised installation drawings, and mass-updated suspension checks. Main quotation and clearance/structure holds remain open.Whole locomotiveRegular coachAccessible coach
+WHOLE ASSEMBLY · ROTATABLE CAD
+Locomotive + first coach
+LT41 adds the two missing coach brake stations, keyed axles and the selected compressor/drive catalog envelopes on the LT33 / Cab C2 baseline. Choose the power or coach views to inspect the installation; the LT41 page records pressure, fit and supplier holds. The new routing is a development study; air sizing, configured components, revised mass loads and remaining installation checks are open.
+Loading the complete assembly…
+Drawings & connection details
+LT33 standard bump stop, pedestal and parts → · LT33 load checks →
+LT32 coordinated assembly and connection sections → · Updated engineering report →
+LT31 rear connection and turning views → · Connection engineering →
+LT30 restraint and removal sections → · Engineer load/interface package →
+Earlier body profile ↗Movement drawings ↗Earlier 50 m force study ↗Separate engineering ↗
+LT32 combines installation and rear connection; LT30 truck restraint remains provisional. Core41 mm free,20.5 mm residual; 20 mm working-stroke requirement. Check both trucks and both failure directions, keeper retention and local replacement paths. Conditional normal margin3.96 mm. Bearing/housing impact and supplier ratings unresolved; fabrication unreleased. Engineer decision package →Development drawings · Not released for constructionEngineering

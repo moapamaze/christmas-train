@@ -1,0 +1,53 @@
+{
+  "issue": "PF-3L3-S3-SUPPORT-R0",
+  "decisions": [
+    {
+      "id": "SUP-01",
+      "subject": "Support topology before hardware",
+      "exact_evidence_or_decision": "Designer must choose and substantiate point/area center bearing, retained pivot and sidebearer law; gapped, preloaded and frictional systems cannot share unexamined mount heights/rates.",
+      "status": "open",
+      "accepted_return": null
+    },
+    {
+      "id": "SUP-02",
+      "subject": "Center-bearing and retained pivot",
+      "exact_evidence_or_decision": "Resolve compression support and any actual uplift/retention duty separately. A negative center diagnostic does not rate a pivot bolt or permit operation on it.",
+      "status": "open",
+      "accepted_return": null
+    },
+    {
+      "id": "SUP-03",
+      "subject": "Actual spring stations",
+      "exact_evidence_or_decision": "Obtain real upper/lower seat locations and guide/axlebox motion, including brake-reaction pitch. Two separated coils aggregate only with proven equal displacements; no actual8coil coordinates are closed.",
+      "status": "open",
+      "accepted_return": null
+    },
+    {
+      "id": "SUP-04",
+      "subject": "Whole-coach and guide coupling",
+      "exact_evidence_or_decision": "Body/other-truck roll/torsion, massCG, sidebearer preload/friction/contact/wear, yaw resistance and guide/brake reactions need the coordinated actual geometry/dynamics, not this imposed-body boundary.",
+      "status": "open",
+      "accepted_return": null
+    },
+    {
+      "id": "SUP-05",
+      "subject": "Physical fabrication release",
+      "exact_evidence_or_decision": "Actual contact plate areas/materials, spring/sidebearer curves, frame/crossmember/bolster/pivot joints, fits/bolts/welds/inspection require controlled interfaces and responsible engineering before dimensions are released.",
+      "status": "open",
+      "accepted_return": null
+    }
+  ],
+  "new_hardware_dimensions_accepted": false,
+  "hazards_advanced_not_closed": [
+    "HZ-01",
+    "HZ-04",
+    "HZ-05",
+    "HZ-12"
+  ],
+  "release_gates_still_open": [
+    "SG-LOAD",
+    "SG-TRUCK",
+    "SG-JOINT",
+    "SG-TEST"
+  ]
+}

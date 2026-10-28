@@ -1,0 +1,58 @@
+{
+  "issue": "PF-3M1-DB01-R0",
+  "defined_custom_part": "DB-01 nominal geometry and material alternative only",
+  "bearing_candidate": {
+    "manufacturer": "SKF",
+    "designation": "GE 60 ES-2RS",
+    "status": "Catalog interface candidate only; not selected or availability confirmed",
+    "bore_d_mm": 60,
+    "outer_D_mm": 90,
+    "inner_width_B_mm": 44,
+    "outer_width_C_mm": 36,
+    "catalog_tilt_deg": 6,
+    "tilt_condition": "Full catalog tilt requires shaft shoulder not exceeding SKF da max and sufficient surrounding joint clearance; installed movement not verified.",
+    "catalog_dynamic_C_kN": 245,
+    "catalog_static_C0_kN": 1220,
+    "catalog_mass_kg": 1.1,
+    "source": "https://www.skf.com/binaries/pub12/Images/0901d19680154a05-06116_1-EN_tcm_12-122020.pdf",
+    "source_locator": "Printed106 / PDF108; application methods printed38\u201377",
+    "meaning": "Spherical PLAIN bearing ratings, not rolling-bearing L10 ratings and not allowable coupling loads. Actual oscillation, pressure/velocity, lubrication, seals, fits and surrounding articulation clearance must be checked."
+  },
+  "unresolved_parts": [
+    {
+      "id": "DB-02",
+      "name": "Two spherical bearing units",
+      "evidence_needed": "Exact delivered designation, operating life, lubrication, fits, oscillation and installed tilt acceptance"
+    },
+    {
+      "id": "DB-03",
+      "name": "Pins and primary/secondary retention",
+      "evidence_needed": "Combined shear/bending/contact/fatigue, fits, materials, replacement limits, fail-safe retention"
+    },
+    {
+      "id": "DB-04",
+      "name": "Articulated frame clevises, draft gear and attachments",
+      "evidence_needed": "Tension/compression/fatigue, preload/damping/slack, curve/suspension articulation, body-frame local strength"
+    },
+    {
+      "id": "DB-05",
+      "name": "Bearing axial retention and service access",
+      "evidence_needed": "Shoulders/retainers, axial and misalignment loads, fastening and full-angle clearance"
+    },
+    {
+      "id": "DB-06",
+      "name": "Independent secondary restraint, guards, hose and cable supports",
+      "evidence_needed": "Separation load/energy and brake-response coordination; no generic trailer safety-chain substitution"
+    }
+  ],
+  "fabrication_sequence_for_review": [
+    "Accept force/duty/articulation basis and final length before freezing geometry.",
+    "Complete eye contact/fatigue, bearing retention, pin and clevis design; revise bar geometry if needed.",
+    "Obtain certified plate with accepted toughness and machining allowance; no order is authorized by this study.",
+    "Engineer/fabricator selects blank cutting and finish machining with thermal-edge cleanup requirements.",
+    "Define datum, finish, fit, NDT and inspection acceptance before releasing a traveler.",
+    "Perform first-article dimensional/material/NDT verification, guarded proof/fatigue/articulation tests under an approved program, then engineering acceptance."
+  ],
+  "crew_scope": "Farm crew can review access and service arrangements and build non-load-bearing cardboard/wood clearance mockups. Qualified engineering, certified safety-critical machining/fabrication and specialist inspection remain necessary.",
+  "readiness": "No production-ready part, NC release or completed coupling assembly is claimed."
+}

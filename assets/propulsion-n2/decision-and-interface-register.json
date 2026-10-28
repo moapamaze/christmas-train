@@ -1,0 +1,81 @@
+{
+  "issue": "PF-3N2-MOTOR-R0",
+  "scope": "Motor-count/circuit decision support, not a fabricated drivetrain or complete3N.2 physical installation",
+  "development_dispositions": [
+    {
+      "id": "N2-D01",
+      "subject": "Single H1B110 with mechanical distribution to powered axles",
+      "disposition": "Retain as lead comparison from the recovered workbook, not final selection. It avoids a parallel branch-flow split but requires a complete custom mechanically supported reduction/distribution and articulated axle drives."
+    },
+    {
+      "id": "N2-D02",
+      "subject": "Two H1B060 motors in parallel",
+      "disposition": "Retain alternative. Full60cc with9:1 is slower than original; controlled55cc or a changed ratio can rematch speed. All-flow branch faults, reverse/retarding and control fail states must be resolved; more motors do not add engine power."
+    },
+    {
+      "id": "N2-D03",
+      "subject": "Two H1B110 motors in parallel at9:1",
+      "disposition": "Not a like-for-like substitute: half equal-share speed. Rematching ratio or displacement changes torque/speed, not total power. Do not carry the old matching figures into this arrangement."
+    },
+    {
+      "id": "N2-D04",
+      "subject": "Series H1B motors",
+      "disposition": "Exclude from the current preferred development path absent specific Danfoss application acceptance. OEM warns of bearing-life consequences; not treated as an easy equal-speed solution."
+    },
+    {
+      "id": "N2-D05",
+      "subject": "Generic flow divider or combiner",
+      "disposition": "Not selected. Both-direction, return-side/cavitation, pressure/flow range, droop, flushing and heat must be accepted. Do not substitute a one-way divider for a reversing train."
+    }
+  ],
+  "physical_interfaces": [
+    {
+      "id": "DR-01",
+      "assembly": "Frame-mounted engine/pump module",
+      "fixed_to": "Custom locomotive main frame through an accepted vibration/torsional mounting system",
+      "moves_relative_to": "Suspended wheelsets and possibly bogies",
+      "connection_to_define": "Engine flywheel/pump coupling, housing pilots and support; no adapter/hole size accepted."
+    },
+    {
+      "id": "DR-02",
+      "assembly": "Frame/bogie-mounted single motor and supported reduction/distributor",
+      "fixed_to": "One defined sprung frame reference, not two independently moving references",
+      "moves_relative_to": "Each powered axle/gearcase",
+      "connection_to_define": "Supported gear shafts and sealed bearing seats; motor output coupling without unaccepted side load; each output drive allows the actual relative motion."
+    },
+    {
+      "id": "DR-03",
+      "assembly": "Axle-mounted final gearcase candidate",
+      "fixed_to": "Bearings on the rotating axle permit gearcase support; housing itself remains nonrotating",
+      "moves_relative_to": "Sprung frame in bounce/roll/lateral travel and bogie yaw where present",
+      "connection_to_define": "Articulated torque reaction into the correct frame. Do not turn the torque rod or driveshaft into an unintended rigid suspension guide."
+    },
+    {
+      "id": "DR-04",
+      "assembly": "Articulated mechanical axle-drive candidate",
+      "fixed_to": "Mating drive and driven flanges with supported axes",
+      "moves_relative_to": "Required axial plunge and multi-axis joint angles",
+      "connection_to_define": "Actual shafts, phasing, plunge, critical speed, retained fasteners, guards and inspection access. No road-driveshaft catalog angle automatically accepted for a rail installation."
+    },
+    {
+      "id": "DR-05",
+      "assembly": "Parallel axle-motor alternative",
+      "fixed_to": "Either accepted sprung mounts with articulated drive or an accepted axle-ride assembly; not both simultaneously",
+      "moves_relative_to": "Hoses and supports must follow the selected kinematic references",
+      "connection_to_define": "Motor order code, gearcase/shaft support, case drains, flexible hoses and guards across complete travel. Additional mass changes wheel loads/suspension."
+    }
+  ],
+  "load_path_rules": [
+    "Single motor300bar torque proxy472.69N m and combined wheel torque4041.50N m derive from3N.1, not accepted design load.",
+    "Two powered axles do not justify rating every downstream branch for exactly half the total torque. Actual distribution and traction faults can make one branch govern.",
+    "Final gearcase reaction is vector equilibrium of actual input/output shaft torques and bearing forces. Do not use one arbitrary scalar arm to define all mounts.",
+    "Final drivetrain supports must include reversal, pressure transients, adhesion recovery, torsional vibration and fatigue, not just steady torque."
+  ],
+  "release_gates": [
+    "N-G01 through N-G07 remain open in ../propulsion-n1/interfaces-and-release.json.",
+    "Exact locomotive chassis and powered axle geometry, mass/adhesion, reduction topology and suspension movement must precede mount dimensions.",
+    "If parallel motors advance: actual controls/default displacement, full-flow fault limit, independent speed sensing and reverse/retarding circuit life review.",
+    "Actual valve data, combined pressure and heat curves, flushing and charge balance before cooler/compressor auxiliaries are finalized."
+  ],
+  "next_useful_work": "3N.3: documented alternative transmission/electric comparisons and actual drive support/gear architecture. Continue3O/3P independent engineering if exact drive geometry remains held. Do not declare a locomotive fabricated assembly complete."
+}

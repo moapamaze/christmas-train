@@ -1,0 +1,99 @@
+{
+  "coordinate_system": "Retained F1: x=front inside wall, positive rearward; y=coach centerline; z=rail top. All coordinates here refer to the existing body study, not final suspension mounts.",
+  "reference_dimensions_mm": {
+    "body_pivot_station_x": [
+      1143.0,
+      6629.4
+    ],
+    "pivot_station_spacing": 5486.4,
+    "main_girder_center_y": [
+      -863.5999999999999,
+      863.5999999999999
+    ],
+    "main_girder_inner_y": [
+      -812.8,
+      812.8
+    ],
+    "body_bolster_underside_z": 482.69999999999993,
+    "steel_top_z": 787.4999999999999,
+    "floor_reference_z": 812.8,
+    "central_bolster_x_width": 101.6,
+    "central_bolster_y_span": 1625.6,
+    "central_bolster_z_depth": 304.79999999999995
+  },
+  "reference_sections": "Retained J1a HSS12x4x1/4 nominal. Grade, delivered section, local reinforcement and welds remain unaccepted.",
+  "new_suspension_interface_dimensions": {
+    "truck_wheelbase_mm": null,
+    "axlebox_centres_y_mm": null,
+    "spring_centres_x_y_mm": null,
+    "upper_seat_z_mm": null,
+    "lower_seat_z_mm": null,
+    "spring_installed_height_mm": null,
+    "spring_diameter_mm": null,
+    "spring_seat_plate_thickness_mm": null,
+    "damper_eye_centres_mm": null,
+    "center_bearing_stack_mm": null,
+    "pivot_pin_diameter_mm": null,
+    "sidebearer_y_mm": null,
+    "sidebearer_gap_or_preload": null,
+    "mount_bolt_holes_mm": null,
+    "mount_weld_sizes_mm": null
+  },
+  "height_checks": [
+    {
+      "wheel_diameter_study_mm": 500,
+      "axle_z_mm": 250.0,
+      "bolster_bottom_minus_axle_z_mm": 232.69999999999993
+    },
+    {
+      "wheel_diameter_study_mm": 600,
+      "axle_z_mm": 300.0,
+      "bolster_bottom_minus_axle_z_mm": 182.69999999999993
+    }
+  ],
+  "height_check_limitation": "232.7/182.7mm are datum differences only, not available spring height. Bolster is between axles; a collision exists only where moving volumes overlap. Bearing/seat/guide/frame/center-bearing stack and motion must be resolved in 3D.",
+  "mount_load_path": [
+    {
+      "id": "S01",
+      "part": "Coach body bolster and local reinforcement",
+      "connects": "Body main girders to upper center-bearing assembly",
+      "definition_needed": "Center-bearing footprint, full truck mass, vertical/longitudinal/lateral/roll loads, local HSS wall/diaphragm and fatigue checks. Do not drill a kingpin hole through an unreinforced tube wall."
+    },
+    {
+      "id": "S02",
+      "part": "Center bearing, retained pivot and sidebearers",
+      "connects": "Coach bolster to bogie crossmember; permits yaw and specified pitch/roll",
+      "definition_needed": "Vertical load sharing, bearing area/material, pivot shear/bending/retention, sidebearer gap or preload, articulation and wear. A plain bolt is not a complete body support."
+    },
+    {
+      "id": "S03",
+      "part": "Upper spring seats and guide structure",
+      "connects": "Bogie side frame to each spring top",
+      "definition_needed": "Spring working diameter/end geometry, local plate bending, spring lateral force, guide/brake loads and continuous load path into frame webs."
+    },
+    {
+      "id": "S04",
+      "part": "Lower spring saddles",
+      "connects": "Each spring bottom to nonrotating axlebox",
+      "definition_needed": "Bearing housing shape and retention, seat offsets, combined vertical/brake moment loads. No welding seats to a rotating axle."
+    },
+    {
+      "id": "S05",
+      "part": "Axlebox guides, wear liners and retention",
+      "connects": "Axlebox to bogie frame while permitting designed travel and wheelset articulation",
+      "definition_needed": "Lateral/longitudinal force path, permitted angular motion, clearances, replaceable wear surfaces and drop-out retention. Brake reaction must not add a conflicting constraint."
+    },
+    {
+      "id": "S06",
+      "part": "Dampers, bump stops and rebound stops",
+      "connects": "Bogie frame to axlebox or assigned sprung member",
+      "definition_needed": "Motion ratio, damper force/velocity curve, full travel, angular limits, stop energy and load. Damper must not act as a travel stop unless rated to do so."
+    },
+    {
+      "id": "S07",
+      "part": "Installed D1 brake carrier, cam/chamber supports and hoses",
+      "connects": "Nonrotating axlebox/carrier to brake torque path and frame air supply",
+      "definition_needed": "Actual OEM envelope and interfaces; full suspension travel, yaw and service-removal clearance. Retain drum/hub extraction as one unit."
+    }
+  ]
+}

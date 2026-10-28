@@ -1,0 +1,66 @@
+{
+  "issue": "PF-3L3-S2-TWIST-R0",
+  "date": "2026-10-19",
+  "coordinate_and_sign": "xfront=-a,rear=+a;yright=+bs,left=-bs;cornerorderFR,FL,RR,RL;s=sign(x*y).Elevationz=h+x*theta+y*phi+s*w. Positive extra downward slope moment requires more upward reaction at positive coordinate.",
+  "equations": {
+    "lower_seat": "u(y_s)=(hR+hL)/2+y_s*(hR-hL)/(2*bw)",
+    "spring": "F_i=k_i*(u_i-z_i), compression positive",
+    "normalized_unknowns": "q=[h,a*theta,bs*phi,w] metres; omitw for rigid frame",
+    "basis": "B_i=[1,x_i/a,y_i/bs,s_i]; omitlastcolumn forrigid",
+    "stiffness": "C=diag(0,0,Kroll/bs^2,Kwarp) inN/m",
+    "load": "f=[\u03a3W, (\u03a3W*x+M_pitch)/a, (\u03a3W*y+M_roll)/bs, 0]",
+    "solve": "(B^T*K*B+C)*q=B^T*K*u-f+C*qref",
+    "axle_vertical": "QR+QL=FR+FL+Wu",
+    "axle_moment": "bw*(QR-QL)=bs*(FR-FL)+Wu*yu+Mu",
+    "rigid_pure_warp": "u_i=s_i*d;deltaFi=s_i*k*d;deltaQi=(bs/bw)*deltaFi",
+    "compliant_pure_warp": "w=4*k*d/(4*k+Kw);deltaFi=s_i*k*Kw/(4*k+Kw)*d",
+    "dimensionless_warp": "eta=Kw/(4*k) for equalcornerrates, force multipliereta/(1+eta)",
+    "rail_warp_mapping": "For front/rear meanheight0 and symmetriccrosslevels:rear_crosslevel-front_crosslevel=4*bw*d/bs. d isNOTrailcrosslevel."
+  },
+  "numerical_conditioning": "Unknowns scaled to metres; normalized stiffness matrix checked positive definite and conditionnumber<=1e12 only as numerical diagnostic, NOT an engineering acceptance limit. Rigidwarp removesDOF rather than approximating infinity.",
+  "limitations": [
+    "One isolated two-axle truck, four symmetric station locations with individually specified linear rates. Not a whole coach or two-truck/body torsion solution.",
+    "Equal-radius rigid wheelsets, prescribed rail heights, horizontal small-displacement vertical-force approximation. Wheel/rail profile, contact-normal directions, axle bending and bearing/guide constraints are not solved.",
+    "Rates are aggregate corner values; physical paired coils can aggregate only with equal displacement. No spring free length/preload/diameter/solid height, damper, stop or mount geometry is selected.",
+    "Heave/pitch/roll datum displacements are mathematical compression coordinates, NOT installed mount/floor heights. Pitch/roll are elevation slopes, not an assumed global CAD rotation convention.",
+    "Optional roll restraint acts against an imposed reference. Actual sidebearer gap/contact/preload/friction, body motion/second truck and CG-height/gravity/lateral/wind roll effects are absent. This is not a stability or comfort assessment.",
+    "Warp is one bilinear vertical mode with generalized stiffness N/m, NOT conventional torsional Nm/rad stiffness or a fabrication frame section. Free warp is an analytical limit, not an engineered equalizer.",
+    "No friction, damping, dynamics, longitudinal/brake torque, guide seizure, fatigue, stop impact or joint strength. Actual combined load cases remain required.",
+    "Nonpositive spring force or wheel vertical reaction invalidates the assumed contact regime. Diagnostic linear values remain visible; no clamping or detached-contact equilibrium is supplied.",
+    "Positive model contact is not a safety criterion. No allowable unloading ratio, flange-climb/adhesion rating, operating speed or track tolerance is assigned."
+  ],
+  "project_evidence": [
+    {
+      "path": "assets/suspension-l3/inputs.json",
+      "sha256": "f791a69ee1027cfe86be0e7e41b2289bc433cc6a49ace4ec2e8549dc0348efff"
+    },
+    {
+      "path": "assets/suspension-l3/running_gear_inputs_S1.json",
+      "sha256": "449dca5a3edf5e4bfe276ff0ea4c2da7d07cfb96795f0dd26ffa741692cf2221"
+    },
+    {
+      "path": "assets/suspension-l3/body_interfaces.json",
+      "sha256": "974d466134db7c7981d9dfb121279f7ec4fc6ff036c63a58b8388aef80079771"
+    },
+    {
+      "path": "assets/suspension-l3/motion_interfaces_S1.json",
+      "sha256": "76fa21d501d6c86751f3f7a1ce5843bd32326336e302149ffb5788a706497a79"
+    },
+    {
+      "path": "assets/hazards-s4/hazard-control-verification-register.json",
+      "sha256": "d01f10ed2a999fb6d853195fded783c51badc86b9beb48fb8775d40d632470a6"
+    }
+  ],
+  "primary_context": [
+    {
+      "publisher": "US DOT/FRA/Volpe",
+      "title": "Wheel Unloading of Rail Vehicles Due to Track Twist",
+      "url": "https://rosap.ntl.bts.gov/view/dot/11952",
+      "published": "1986-02-01",
+      "accessed": "2026-10-19",
+      "use": "Primary abstract establishes vehicle-dependent twist/unloading mechanism; no historical numerical limits imported. Matrix/formulas here are independently derived analyst equations, not claimed to implement that report or a standard."
+    }
+  ],
+  "approved_for_fabrication": false,
+  "approved_for_operation": false
+}

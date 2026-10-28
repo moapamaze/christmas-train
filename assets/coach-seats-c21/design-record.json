@@ -1,0 +1,52 @@
+{
+  "issue": "PF-3O2-C21-R0",
+  "date": "2026-10-19",
+  "status": "preliminary development candidate",
+  "completed_scope": "Four coped braces, smaller ribbed floor mounts, coordinated 3D/STEP/DXF/four drawing sheets, frame stiffness sensitivity, local joint screens and updated mass budget.",
+  "selection": {
+    "braces": "Four HSS 1.25 square \u00d71/8 nominal wall, A500 Grade C candidate",
+    "cap_and_sole": "A36 cap3.5\u00d76\u00d70.625 and sole3.5\u00d76\u00d70.5 in, four \u00d89/16 holes at local X\u00b10.875,Y\u00b12",
+    "ribs": "Eight upper + eight lower per bench, 3/8 in thick; full 1.75 in depth through bolt line, bevel outboard tail",
+    "spacers": "16 per bench, OD1/ID9/16 \u00d715.775 mm nominal; match measured welded stack",
+    "foot_envelope_longitudinal_in": 19.5
+  },
+  "retained": {
+    "places_per_regular_coach": 32,
+    "benches": 16,
+    "width_in": 40,
+    "pitch_in": 32,
+    "aisle_in": 24,
+    "seat_above_floor_in": 18,
+    "floor_above_rail_in": 32,
+    "nominal_floor_isolation_in": 0.25,
+    "row_x_in": [
+      41,
+      73,
+      105,
+      137,
+      169,
+      201,
+      233,
+      265
+    ]
+  },
+  "rejected_options": [
+    "Claiming the first 1.5in-brace/large-sole iteration materially reduced weight",
+    "3/8in plates based only on ideal front/rear force couple",
+    "Triangular ribs becoming shallow at the bolt load introduction",
+    "Using rigid brace welds as the only stiffness comparison",
+    "Treating arbitrary support spring values or a 2\u00d7 prying sensitivity as measured joint behavior"
+  ],
+  "unfinished": [
+    "Calibrated coupled contact/preload/slip model and full local rail-wall/weld load path",
+    "Exact locking, grip/thread engagement, torque and service tools",
+    "Pan/back local bending and attachments; upholstery and edge treatment",
+    "Floor boot material, retention and loaded isolation",
+    "Weld details, fatigue, buckling and full-size occupied comfort/load tests",
+    "Complete coach/trucks and accessible convertible seating"
+  ],
+  "construction_approved": false,
+  "passenger_operation_approved": false,
+  "complete_coach": false,
+  "next": "C3: accessible convertible bay geometry and hinge/stop/latch development. Carry local foot, tooling, weld and enclosure work forward as open integration tasks; do not reuse this fixed foot as an approved folding-seat joint."
+}

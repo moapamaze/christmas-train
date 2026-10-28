@@ -1,0 +1,106 @@
+Single-fan engineering · LT9
+LT9 R0 · 19 OCTOBER 2026 · PACIFIC
+One shared cooling and ventilation fan
+User design basis: one fan serves engine-bay ventilation, engine radiator/charge-air cooling and hydraulic oil cooling. LT9 supersedes the two-fan LT8 cooling arrangement. Separate liquid circuits remain separate. No additional engine-bay extractor or second radiator fan is specified. This is a packaging and airflow study, not a thermal or fabrication release.
+Common airflow path
+Forward underbody inlet → engine and pump compartment → upstream cooler cassette → downstream cooler cassette → one puller fan → common discharge header → both side louver banks. Air dividers, a removable floor and core perimeter seals prevent an uncontrolled bypass. The former roof intake is closed by split covers, and its raised hood is removed.
+ | Component
+ | Nominal layout
+ | Still needed
+ | Inlet
+ | 1000×1200 gross underbody opening, X1800–2800, ahead of the engine.
+ | Screen, weather/debris protection, skid obstruction, effective area and pressure curve; removable attachment.
+ | Engine bay
+ | Air enters low at the front and travels toward the cooler pack. Front divider1640–1643; rear core divider4547–4550.
+ | Seal skid/support penetrations, removable joints and service openings; manage leaks/drainage; verify local hot spots and engine combustion-air supply.
+ | Core spaces
+ | Two170-deep,1050×1000-face spaces separated40mm. Engine radiator/CAC upstream and hydraulic cooler downstream provisionally.
+ | Supplier must confirm core order, heat duty and inlet-temperature capability. Engine radiator/CAC internal arrangement is not modeled or selected.
+ | One fan
+ | Ø900×180 assembly space, X5100–5280, centreY0/Z2430; flow toward+X.
+ | Installed fan curve, actual diameter/depth, motor/drive, power, guard, mounts, mass/CG and noise. CAD rotor is illustrative, not blade manufacturing geometry.
+ | Discharge
+ | Common395×1200×1000 header; two900×325×800 side arms to existing louvers.
+ | Turning losses/flow distribution, joints, supports, louver effective area and hot-air recirculation.
+ | Supports
+ | Retained4950/5450 crossmembers;1225-long rails X4550–5775, Y±350; candidate posts at4620/4845/5190.
+ | 400mm forward rail overhang, equipment reactions, wet weights, fan thrust, isolation, fatigue, bolts and structural review.
+ | Service
+ | Fan exits through the near half-shell opening after rail and discharge arm removal.
+ | Selected mounts, cables/hoses, temporary support/rigging, actual weight and work-platform access. Louver openings alone are too short for theØ900 reservation.
+Shared airflow sizing
+The same air passes every stage. Select one operating point that satisfies the bay temperature limit and every core at its actual inlet temperature. Add the pressure losses of the inlet protection, bay, core A, core B, collector, header and outlets at that same flow. Do not add independent fan CFM estimates or rely on a free-air fan rating.
+Each stage warms the air: T_out =T_in +Q /(ρ cp V̇). The example below uses assumed ambient45°C, density1.10kg/m³, cp1005J/(kg·K), flow4.0m³/s, and heat inputs10/35/15kW. These are sensitivity values only, not Kubota/Danfoss data, a selected design ambient or a claimed cooling capacity.
+ | Stage
+ | Assumed heat
+ | Air entering
+ | Air leaving
+ | Engine/pump bay
+ | 10 kW
+ | 45.00 °C
+ | 47.26 °C
+ | Upstream core cassette
+ | 35 kW
+ | 47.26 °C
+ | 55.18 °C
+ | Downstream core cassette
+ | 15 kW
+ | 55.18 °C
+ | 58.57 °C
+The downstream hydraulic cooler must therefore be rated at the heated inlet shown for its stage, not at outside ambient. Final order and core construction follow the matched supplier design. The engine-bay surface/exhaust heat and each fluid heat load must be accounted for without double-counting.
+ | Flow-area screen at assumed4m³/s
+ | Area
+ | Average speed
+ | Forward inlet, gross
+ | 1.200m²
+ | 3.33 m/s
+ | Each core face, gross
+ | 1.050m²
+ | 3.81 m/s
+ | Both outlet slot banks
+ | 0.4752m²
+ | 8.42 m/s
+Intake figures exclude skid, mesh and baffle blockage; core gross area excludes fins/tanks. Outlet slot area excludes blade/screen reductions. These velocities identify inputs for pressure-loss review, not acceptable-area limits. If the engine air cleaner draws from this bay, the inlet must also supply the OEM combustion-air demand; these velocity examples include fan flow only.
+Drive-input sensitivity: P =V̇ ×Δp /η. At assumed4m³/s and50% overall fan/drive efficiency:
+ | Assumed total system pressure
+ | Illustrative drive input
+ | 250 Pa
+ | 2.0 kW
+ | 500 Pa
+ | 4.0 kW
+ | 750 Pa
+ | 6.0 kW
+No fan duty or drivetrain load is selected by that table. Obtain the actual installed curve and drive efficiency, then add the verified continuous and transient demand to the locomotive power budget. One controller should respond to whichever circuit needs cooling, using supplier-defined setpoints; fan-speed/fault monitoring and temperature protection remain to detail.
+Cummins T-030 enclosure guidance, ventilation sections describes shared radiator/compartment airflow, accounting for heat emitted inside the enclosure, air restrictions and operation with service doors closed. It supports this general design method; it is not approval for our configured Kubota package.
+Geometry and access checks
+ | Check
+ | Result
+ | Limit
+ | Current CAD
+ | 1255 valid parts; one shared fan; 0 new/changed-part intersections above1mm³.
+ | Nominal rigid geometry. Mounting hardware, hoses, guard mesh and thermal movement remain unmodeled.
+ | Fan removal
+ | 0 hits for1600mm outward swept bounding box after listed removals.
+ | Near shell half, rail span, louver/carrier and discharge arm must be removed. No rated handling plan.
+ | Engine-cradle lift
+ | 0 new intersections with retained LT7 vertical lift envelope.
+ | All LT7 prerequisites and actual OEM/rigging holds remain.
+ | Air boundaries
+ | Floor/support and divider/skid clearances are explicitly modeled.
+ | Clearances must be closed by removable sealed details. Nominal geometry alone does not prove airflow distribution or airtightness.
+ | Retained handrails
+ | LT8 detachable spans retained.
+ | Previously identified support-to-shell/rib/band interfaces still need completion before major-panel removal is released.
+Assembly, commissioning and maintenance
+Obtain the configured engine/CAC and hydraulic heat data, actual core order/ratings, wet weights and allowable enclosure temperatures. Purchase matched cooler and fan assemblies with installed performance data.
+Release the cooling supports and supplier mounts. Trial-fit cores and the single fan; preserve cleaning and core separation access.
+Fit removable air dividers, floor, intake protection and core seals. Resolve support penetrations and drains; keep routine engine service points accessible.
+Install the common header and removable side arms on independent supports with flexible sealed joints. Verify all flow passes through the intended path when access panels are closed.
+Prove fan removal with actual equipment isolated and supported. The half-shell opening is required; confirm rail/skin support attachments, selected connectors, tools and handling space.
+Test stationary at the specified hot-weather duty with all service panels closed. Log coolant, charge-air, oil and bay temperatures; air temperatures before/after each core; fan speed/input power and system pressure. Check recirculation, screen fouling allowance and local hot spots.
+Purchase the fan rotor, motor, guard and heat exchangers. Fabricate only released supports, ducts and access pieces. No fan blades, core fins or protective guard are released for fabrication by these CAD shapes. Component SKUs, prices, bolt torques, weld acceptance and operating limits remain pending supplier and engineering review.
+Handoff and remaining work
+AIE’s configured-engine request was sent19 October2026 Pacific. No configured supplier reply or installation approval has been incorporated into this issue; structural approval is not recorded. Final fan power will be handed to the drivetrain/electrical design before engine capacity is finalized; no hydraulic circuit has been changed here.
+Frame top1775mm remains provisional. Passenger-car, wheel, brake and drivetrain work is preserved. Remaining access hardware includes the hatch hold-open stay, heavy-panel handling/retention, dome-support weather covers and final handrail anchors. These are open items, not completed connections.
+CAD and thermal sensitivity checks · Shared interface handoff · Viewer checks
+Drawing renders and software viewer interactions are checked for this issue. Live-browser verification remains unavailable following the managed-preview failure.LT9 R0 · 19 October2026 Pacific · NOT FOR FABRICATION

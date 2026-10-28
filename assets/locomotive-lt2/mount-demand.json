@@ -1,0 +1,14 @@
+{
+  "issue": "PF-LOCO-LT2-R0",
+  "CG_height_above_mount_plane_mm": 600,
+  "mount_x_spacing_mm": 2100,
+  "mount_y_spacing_mm": 1000,
+  "vertical_comparison_g": 2,
+  "longitudinal_comparison_g": 1,
+  "lateral_comparison_g": 0.5,
+  "max_compression_per_foot_kN": 5.831454374999999,
+  "uplift_case_per_bolt_kN": 1.99635375,
+  "direct_shear_per_bolt_kN": 1.0278907514788271,
+  "limits": "Comparison demands only: ideal rigid skid/equal fastener sharing. No prying, engine torque/transient, vibration, bolt preload, fatigue, sleeve-weld or local crossmember-wall verification. Uplift case uses net1g upward plus the same horizontal loads; not a prescribed service combination.",
+  "total_supported_skid_mass_trial_kg": 750
+}

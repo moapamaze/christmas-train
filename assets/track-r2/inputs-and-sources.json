@@ -1,0 +1,66 @@
+{
+  "issue": "PF-3R2-R0",
+  "date": "2026-10-19",
+  "scope": "Rail component data reconciliation, bounded support demands, route topology and technical procurement interfaces; not complete track design",
+  "rail_paper_reference": {
+    "publisher": "Kimes Steel & Rail",
+    "document_url": "https://www.kimessteel.com/shop/new-rail-30-lb-asce-piece-1009/document/35",
+    "document_title": "RAIL-ASCE-30LB, part2130360, section3040",
+    "drawing_date": "2021-05-14",
+    "retrieved": "2026-10-19",
+    "sha256": "7afcdbc5bd2e40da3b645d296d7a4ba1b65a2c4cc37f086a5c2e5906da5961a3",
+    "nominal_class_lb_per_yard": 30,
+    "height_in": 3.125,
+    "base_width_in": 3.125,
+    "head_width_in": 1.6875,
+    "area_in2": 3.0,
+    "I_in4": 4.1,
+    "section_modulus_head_in3": 2.55,
+    "section_modulus_base_in3": 2.7,
+    "status": "Published nominal section, not selected project rail, material strength or axle-load rating"
+  },
+  "cad_audit": {
+    "url": "https://www.kimessteel.com/shop/new-rail-30-lb-asce-piece-1009/document/36",
+    "linked_filename": "RAIL_30_ASCE.igs",
+    "sha256": "a253cd45f9cf6227be77e89716d5947f5e2772e69405e625e0157cd41ef4a4e0",
+    "IGES_header_date": "2010-10-04",
+    "IGES_unit_flag": 10,
+    "IGES_unit_name": "CM",
+    "confirmed_import_system_unit": "MM",
+    "imported_face_bbox_mm": [88.9, 88.9, 304.8],
+    "roots": 40,
+    "faces": 40,
+    "solids": 0,
+    "disposition": "QUARANTINED from accepted geometry. Do not scale to fit, use for section properties or identify it as another rail family without evidence. Raw vendor file is linked, not republished as train CAD."
+  },
+  "joint_data_conflicts": [
+    {"source": "Kimes current product description", "url": "https://www.kimessteel.com/shop/new-rail-30-lb-asce-piece-1009", "track_bolt_in": "5/8 x2-3/4", "status": "Narrative says use with its rail/bars; conflicts with table/drawing3in value."},
+    {"source": "Kimes product table /2021drawing", "url": "https://www.kimessteel.com/shop/new-rail-30-lb-asce-piece-1009/document/35", "track_bolt_in": "5/8 x3", "splice_bar_length_in": 16, "status": "Not a matched delivered joint confirmation."},
+    {"source": "Harmer2014catalog sheet, currently hosted", "url": "https://www.harmersteel.com/v2/wp-content/themes/kayjayone/catalog/13.pdf", "track_bolt_in": "5/8 x2-1/2", "splice_bar_length_in": 16.125, "status": "Different supplier assembly; cannot mix bolts/bars by section name."}
+  ],
+  "support_demand_inputs": {
+    "regular_upper_mass_allocation_kg": 13200,
+    "accessible_upper_mass_allocation_kg": 11000,
+    "coach_axles": 4,
+    "wheels_per_axle": 2,
+    "g_m_s2": 9.80665,
+    "point_load_factor_probes": [1, 1.5, 2],
+    "support_span_probes_m": [0.4, 0.5, 0.6],
+    "steel_E_assumed_Pa": 200000000000,
+    "model": "Single centered wheel point load on ideal simply supported rail bay; no support sharing credited. Published paper30ASCE section properties ONLY; quarantinedCAD not used.",
+    "accepted_support_span_m": null,
+    "accepted_dynamic_factor": null,
+    "actual_material_yield_or_fatigue_strength": null,
+    "locomotive_axle_count_and_wheel_load": null,
+    "actual_track_axle_rating": null
+  },
+  "sources": [
+    {"id":"R2-S01","authority":"Kimes Steel & Rail","url":"https://www.kimessteel.com/shop/new-rail-30-lb-asce-piece-1009","published":"undated current product page","checked":"2026-10-19","finding":"Public section3040listing links drawing and IGES; narrative/table joint-bolt conflict retained. No project stock, shipping, quote or lead time confirmed."},
+    {"id":"R2-S02","authority":"Kimes Steel & Rail","url":"https://www.kimessteel.com/shop/new-rail-30-lb-asce-piece-1009/document/35","published":"2021-05-14","checked":"2026-10-19","finding":"Nominal30ASCE dimensions/properties; PDF visually inspected and hashed. No project material/rail rating assigned."},
+    {"id":"R2-S03","authority":"Kimes Steel & Rail","url":"https://www.kimessteel.com/shop/new-rail-30-lb-asce-piece-1009/document/36","published":"IGES header2010-10-04; linked currently","checked":"2026-10-19","finding":"CMsource units; MMimport confirmed. Face-envelope88.9x88.9mm conflicts with79.375x79.375mm paper profile. Exact identity/revision unresolved."},
+    {"id":"R2-S04","authority":"Harmer Steel","url":"https://www.harmersteel.com/v2/wp-content/themes/kayjayone/catalog/13.pdf","published":"2014catalog sheet; currently hosted","checked":"2026-10-19","finding":"Section3040paper reference corroborates main section properties, but its joint-bar/bolt set differs. Historical catalog does not confirm stock or a compatible delivered kit."},
+    {"id":"R2-S05","authority":"A&K Railroad Materials","url":"https://akrailroad.com/rail/","published":"undated current public page","checked":"2026-10-19","finding":"New/relay rail capability lead only; actual profile, lot condition, documentation, quantity and availability remain unconfirmed."},
+    {"id":"R2-S06","authority":"A&K Railroad Materials","url":"https://akrailroad.com/ties/","published":"undated current public page","checked":"2026-10-19","finding":"Wood/steel tie capability lead. No standard-gauge tie size, treatment, section or fastening automatically selected for this36in evaluation."},
+    {"id":"R2-S07","authority":"A&K Railroad Materials","url":"https://akrailroad.com/other-track-material/","published":"undated current public page","checked":"2026-10-19","finding":"Track-material/fastening supplier lead; matching full assembly and design/application evidence required."}
+  ]
+}

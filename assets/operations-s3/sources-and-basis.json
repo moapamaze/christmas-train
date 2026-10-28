@@ -1,0 +1,78 @@
+{
+  "issue": "PF-3S3-OPS-R0",
+  "external_primary_sources": [
+    {
+      "id": "OPS-S01",
+      "publisher": "Dexter",
+      "title": "9\u201315K trailer running-gear service manual LIT-006-00",
+      "url": "https://www.dextergroup.com/user_area/content_media/raw/9-15k_complete_service_manual.pdf",
+      "retrieved_utc": "2026-10-19",
+      "locator": "PDF43, Air Brake Components / Spring Brake; PDF1 introduction and5service notice",
+      "verified": "Manufacturer identifies stored spring hazard and qualified service; manual is for trailer running gear.",
+      "application_limit": "Not a rail maintenance schedule, rail approval, exact delivered chamber manual or selected pressure/stroke specification. No trailer mileage, wheel-nut procedure,130psi caution value or generic stroke table is adopted."
+    },
+    {
+      "id": "OPS-S02",
+      "publisher": "US OSHA",
+      "title": "29CFR1910.147 control of hazardous energy",
+      "url": "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.147",
+      "retrieved_utc": "2026-10-19",
+      "locator": "(a)(1)(ii)(A), (b), (c)(4), (d)(5)-(6), (e)",
+      "verified": "Scope excludes construction/agriculture employment; control-circuit buttons are not energy isolators. Energy-specific isolation and stored-energy verification are addressed.",
+      "application_limit": "Method reference only. Employment classification, Nevada enforcement and applicable construction/agriculture/general-industry obligations require competent determination; no farm exemption or automatic applicability is asserted."
+    },
+    {
+      "id": "OPS-S03",
+      "publisher": "US OSHA",
+      "title": "29CFR1910.169 air receivers",
+      "url": "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.169",
+      "retrieved_utc": "2026-10-19",
+      "locator": "(a)(1)",
+      "verified": "Section explicitly is not intended for compressed-air machinery/equipment on transportation vehicles.",
+      "application_limit": "Do not import stationary-receiver rules or relief percentages as this train reservoir specification. Actual pressure-vessel/brake approval and governing jurisdiction remain open."
+    }
+  ],
+  "current_configuration_evidence": [
+    {
+      "path": "assets/readiness-s1/package-and-source-index.json",
+      "sha256": "79a11b869dceaceb227c57d71956932ae1128aea1793fc85123d15c44b99a3b5"
+    },
+    {
+      "path": "assets/readiness-s1/release-evidence-register.json",
+      "sha256": "8ee38c3f3a617f713058fbd118c8a6a72c636cb8be66285cc687a63ae65899f9"
+    },
+    {
+      "path": "assets/commissioning-s2/current-configuration-crosswalk.json",
+      "sha256": "b39d551b9e702a0a15f6f86ce0e619ddff768cbc29aaec12860b37536a68422f"
+    },
+    {
+      "path": "assets/commissioning-s2/change-impact-crosswalk.json",
+      "sha256": "3c9556313e9d2880a1fcdc04f581d7e6ff83f1fc887fada810d8585acd16b7fa"
+    },
+    {
+      "path": "assets/commissioning-s2/manufacture-install-commission-sequence.json",
+      "sha256": "95dc82ede4e277623d1ada507c4581a6c55c55e50a45272df0c4f0a80589afd8"
+    },
+    {
+      "path": "assets/brake-selection-l2/selection.json",
+      "sha256": "22332472e6f5da15fd1b0501a8f8ea8f5172c2242119a27a9b12f2a8e2f92a59"
+    },
+    {
+      "path": "assets/suspension-l3/motion_interfaces_S1.json",
+      "sha256": "76fa21d501d6c86751f3f7a1ce5843bd32326336e302149ffb5788a706497a79"
+    },
+    {
+      "path": "assets/track-r2/topology-and-operating-decision.json",
+      "sha256": "63cbd4908e3c278b127535290a7cb0e035f95136552fce16f6d68615bb0fdcda"
+    },
+    {
+      "path": "assets/track-r1/crew-specialist-holdpoints.json",
+      "sha256": "71c4d60127ff2c0a51547b6012995687b2fbe87cfde71692ab226dad090efb4c"
+    },
+    {
+      "path": "assets/systems-p1/decision-and-next.json",
+      "sha256": "07d3fa6719ac16d1f91609ec20af7ebbb2a53bd2efd19eb437fbaf9d0f917bc0"
+    }
+  ],
+  "claim_boundary": "Primary-source method/scope checks plus project-specific proposed functional procedures. No operating approval or binding jurisdiction determination."
+}

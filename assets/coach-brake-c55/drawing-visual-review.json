@@ -1,0 +1,57 @@
+{
+  "source_brep_sha256": "59d31e5bef10caaa2b9aa07ffbbe0ed00dba73ca57731dcdb542dff89fcfd339",
+  "visual_review": "All three PNG sheets inspected at 1600 \u00d7 1120. Installation linework, actual carrier/hub sections, chamber dimensions and the new source-based port detail are legible. Final legend uses explicit spaces. No text/table collisions. Port-detail crop intentionally shows only the local fitting and hose end.",
+  "sheets_reviewed": [
+    "C55-M01",
+    "C55-D01",
+    "C55-D02"
+  ],
+  "assets_total_bytes": 782559,
+  "header_evidence": [
+    {
+      "sheet": "C55-M01",
+      "canvas_px": [
+        1600,
+        1120
+      ],
+      "header_bbox_px": [
+        40,
+        24,
+        506,
+        37
+      ],
+      "top_45_rows_sha256": "3908ea2179f526179f6eacfa38a5e10b8eddf7facd7b3c2e3b1ac69e9865614d"
+    },
+    {
+      "sheet": "C55-D01",
+      "canvas_px": [
+        1600,
+        1120
+      ],
+      "header_bbox_px": [
+        40,
+        24,
+        506,
+        37
+      ],
+      "top_45_rows_sha256": "3908ea2179f526179f6eacfa38a5e10b8eddf7facd7b3c2e3b1ac69e9865614d"
+    },
+    {
+      "sheet": "C55-D02",
+      "canvas_px": [
+        1600,
+        1120
+      ],
+      "header_bbox_px": [
+        40,
+        24,
+        506,
+        37
+      ],
+      "top_45_rows_sha256": "3908ea2179f526179f6eacfa38a5e10b8eddf7facd7b3c2e3b1ac69e9865614d"
+    }
+  ],
+  "header_finding": "All three PNG headers are pixel-identical, with complete text at y24..37 and 24px white margin above. Apparent top cropping occurs in image-tool previews, not in the delivered PNG or SVG viewBox.",
+  "scope": "One installation only. The port detail shows 89mm radial ordinate and a separate nonphysical 8mm insertion scenario. No OEM cavity or thread profile inferred; installed views hide interface reservations. Supports, forces, service, port-circuit mapping and upstream air circuit remain unqualified.",
+  "complete": true
+}

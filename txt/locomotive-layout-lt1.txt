@@ -1,0 +1,43 @@
+Locomotive & tender · Pulsipher Farms
+
+Previous version · Earlier locomotive/tender appearance and layout
+This page is retained as history. Open the current assembly →
+Current cooling & rail access · LT8Truck connections & raised body · LT3← All assembliesFrame & mounts · LT2LayoutRotate 3DParts & build sequenceCoach interfaces
+Latest: LT3 support assemblies, raised cab and shell. Development height now4,000mm with frame top1,775mm. Earlier LT1 overall heights are superseded for this option; tender geometry remains preliminary.
+LOCOMOTIVE WORKSTREAM · LT1 / REVISION 0 · OCTOBER 19, 2026
+A steam-era silhouette.
+A diesel-powered railway.
+First locomotive and tender arrangement for Moapa Valley. Polar Express / Pere Marquette 1225 appearance, 36-inch gauge, four passenger cars. Passenger-car and detailed drivetrain designs remain in their own workstreams.
+New: LT2 physical frame and engine-skid drawings → LT2 coordinates with the newer DT2 trucks, raises the main-frame top to Z1,650 mm and proposes a Z3,800 mm cab roof envelope. The LT1 dimensions below remain the historical first arrangement; its 3,400 mm height does not apply to the raised-frame alternative.
+Arrangement study · not a fabrication release. This issue establishes proposed dimensions and system locations. Final structural parts, mounting holes, welds, wheel profiles and brake hardware are still being developed.
+49 ft 10 inLocomotive + tender proposal
+8 ft 6 in2,600 mm proposed width
+11 ft 2 in3,400 mm highest point
+4 powered axlesTwo swiveling drive trucks
+01 / Dimensioned arrangementDesign basis ↗
+The four large driving axles are split between two trucks. This preserves a recognizable steam-locomotive outline while shortening each rigid wheelbase. It is a proposed 2-(4+4)-4 arrangement, with a leading axle and trailing truck. It has not passed a complete curving or suspension analysis. DT2 now develops the two-motor / 1,000 mm wheel / 7.5:1 packaging basis. Its physical trucks required the frame-height revision shown in LT2; final drive hardware remains unresolved.
+LT1-A01 · Side arrangement. Tap the drawing to enlarge.
+LT1-A02 · Plan and service reservations.LT1-A03 · Support interfaces; functional diagram, not fabrication detail.
+The reference locomotive is longer in proportion. This 15.2 m proposal compresses it to suit a farm railway and preserves operator standing room. Exact visual proportions will be refined with the powerpack, suspension and route envelope.
+02 / Inspect the arrangementModel dimensions ↗
+IsometricSideTopFront Enclosure Equipment zones LabelsLift shell 
+Loading locomotive model…
+Drag to rotate · pinch or scroll to zoom. Shell lift is an inspection view, not a lifting procedure. Gold/green blocks are explicitly labeled installation reservations, not manufacturer CAD. Wheels show nominal diameter and visual spokes; final tread/flange profiles are unmodeled.
+What moves on a curve
+Each powered truck swivels beneath the main frame; its two axles remain parallel within that truck. Leading, trailing and tender trucks also require their own yaw and suspension movement. No rigid connecting rod spans the two powered trucks.
+What is inside
+A ventilated decorative boiler encloses the traction diesel, pump and cooling equipment. The latest shared-engine generation study comes first. The tender reserves a utility bay that could accommodate a separate generator only if that becomes necessary, plus a low service/fuel area. The shell carries no steam pressure. Fuel, exhaust and cooling routing remain open design tasks.
+03 / Parts & build sequenceComponent schedule ↗
+Initial assembly schedule. Purchased items are candidates; custom parts do not yet have released cutting or machining dimensions. Precision machining and finish work follow the existing plan to subcontract those trades.
+Exact prices are unquoted for this configuration. The first cost package needs matched running gear, hydraulic controls, reduction gearboxes and the hotel-power installation; an invented total would hide the unresolved design.
+Freeze the shared geometry and load cases. Reconcile coach weight, couplers, curve radius and tender mass; check wheel loads and support travel.
+Develop and review running gear and frame. Define wheel/axle material, fits, bearings, suspension, retention, weld details and inspection requirements. Buy qualified wheelsets/bearings and matched brake components where practical; fabricate frame and body from developed drawings.
+Bench-integrate power and brakes. Match the engine adapter, pump, motors, control fail states, cooling and air system. Verify reverse, overspeed protection and traction inhibition before vehicle installation.
+Fixture and assemble the chassis. Use released datums, support fixtures and weld sequence. Measure frame, truck pivots and wheel loads before body panels conceal access.
+Install services and removable enclosures. Route hoses and wiring through the full movement envelope; verify heat barriers, ventilation, cab escape and inspection access.
+Qualify unoccupied, then with controlled test loads. Agree numerical limits first. Test static loads, suspension/twist, low-speed curving, service/emergency/parking brakes, both portions of every separation, cooling, repeated duty and recovery. Record results and resolve findings before passenger release.
+Planned shop equipment: level assembly bed and survey instruments, rated lifting stands, qualified welding/inspection tools, specialist axle/bearing machining and NDT, hydraulic pressure/flow/temperature logging, brake pressure/timing sensors and individual wheel-load scales. Capacities and fixtures depend on the developed assemblies.
+04 / Shared coach interface sheetOpen handoff record ↗
+This is the coordination record for the separate passenger-car and drivetrain chats. No car geometry has been changed. Values marked unresolved are not zero, and this page does not automatically exchange changes between chats.
+First layout issued. Complete locomotive design remains in progress.
+Open calculations, assumptions and recovery conflicts → · Workstream status

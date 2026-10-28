@@ -1,0 +1,82 @@
+{
+  "status": "D5 rejected as active installation candidate; diagnostic only",
+  "sets": [
+    {
+      "name": "nominal",
+      "count": 504,
+      "converged": 504,
+      "min_wheel_N": 2168.892291917054,
+      "max_hard_stop_N": 0.0,
+      "hard_stop_cases": [],
+      "max_jounce_mm": 29.50043205675516,
+      "minimum_constraint_gap_mm": -1.1048939541069558e-12,
+      "maximum_residual_N": 0.005680446338374168,
+      "max_complementarity_Nmm": 5.104378877306178e-09,
+      "max_vertical_residual_N": 0.00568044523242861,
+      "max_coincident_primary_bumper_stop_N": 33513.2929412422,
+      "unresolved": [],
+      "old_center_stop_N": 0.0
+    },
+    {
+      "name": "soft-bumper",
+      "count": 504,
+      "converged": 504,
+      "min_wheel_N": 2150.3622682165505,
+      "max_hard_stop_N": 1439.4053497175253,
+      "hard_stop_cases": [
+        "high/all_coach_loss_0.7_demand/twist_left/straight",
+        "high/all_coach_loss_0.7_demand/twist_left/right"
+      ],
+      "max_jounce_mm": 29.62515448608063,
+      "minimum_constraint_gap_mm": -3.0659919048048323e-12,
+      "maximum_residual_N": 0.0042362067179055884,
+      "max_complementarity_Nmm": 1.8977126596519484e-08,
+      "max_vertical_residual_N": 0.004236206936184317,
+      "max_coincident_primary_bumper_stop_N": 33532.5074849463,
+      "unresolved": [],
+      "old_center_stop_N": 891.669015991969
+    },
+    {
+      "name": "soft-springs",
+      "count": 504,
+      "converged": 504,
+      "min_wheel_N": 2396.403373669789,
+      "max_hard_stop_N": 4303.736967219105,
+      "hard_stop_cases": [
+        "high/power_limited_pull_1/twist_right/straight",
+        "high/power_limited_pull_1/twist_right/left",
+        "high/power_limited_pull_1/twist_right/right",
+        "high/one_coach_emergency/twist_left/right",
+        "high/all_coach_loss_0.5_demand/twist_left/straight",
+        "high/all_coach_loss_0.5_demand/twist_left/right",
+        "high/all_coach_loss_0.7_demand/flat/straight",
+        "high/all_coach_loss_0.7_demand/flat/right",
+        "high/all_coach_loss_0.7_demand/twist_right/straight",
+        "high/all_coach_loss_0.7_demand/twist_right/left",
+        "high/all_coach_loss_0.7_demand/twist_left/straight",
+        "high/all_coach_loss_0.7_demand/twist_left/left",
+        "high/all_coach_loss_0.7_demand/twist_left/right"
+      ],
+      "max_jounce_mm": 29.909082318541397,
+      "minimum_constraint_gap_mm": -7.283063041541027e-13,
+      "maximum_residual_N": 0.005625943516277016,
+      "max_complementarity_Nmm": 4.1270238333896405e-09,
+      "max_vertical_residual_N": 0.005063481366960332,
+      "max_coincident_primary_bumper_stop_N": 33932.54432417291,
+      "unresolved": [],
+      "old_center_stop_N": 4082.871398117526
+    }
+  ],
+  "geometry": "Unchanged LT34 hardware; exact rolled rim edge replaces centre-plane steel constraint",
+  "limitations": [
+    "Elastic and body/truck equilibrium retain the inherited small-angle quasi-static model.",
+    "No new spring has been selected; rate and dimensions remain uncertified.",
+    "Full movement collision, attachment strength, impact and fatigue are unresolved."
+  ],
+  "fabrication_release": false,
+  "source_sha256": {
+    "contact_model.py": "cfd59c5e1f6aa2a68e1240cb459d6f4611201aff2054e8083c52e1f26f473945",
+    "analyze.py": "3479b92350cfcca3b014aa7a49d97dff4ec2003a64b537ca754c25d8abc031c9",
+    "mass.json": "0ef16656e752c823834eb2b097198a71f637c4566558f6b06fdf63cef43c32c8"
+  }
+}

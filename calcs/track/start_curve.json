@@ -1,0 +1,514 @@
+{
+ "basis": "Starting / holding with curve resistance on the real profiles (Alt A, B, C if present).\nCurve resistance basis: Rockl metre-gauge formula w_c = 400/(R-20) N/kN (applied to 914.4 mm gauge - between\nRockl's 750 mm (350/(R-10)) and 1,000 mm forms, so the metre-gauge form is the conservative choice); cross-check\nAREMA 0.8 lb/ton per degree of curve.  Start resistance 0.0208 (PE basis), rolling 0.005.  Rev RT1 28 Oct 2026.",
+ "points": [
+  {
+   "case": "R100 at 1.5% (Alt A/B cap)",
+   "R": 100,
+   "grade_pct": 1.5,
+   "rockl_permil": 5.0,
+   "arema_permil": 6.99,
+   "comp_pct": 0.5,
+   "need_kN": 31.53,
+   "need_arema_kN": 33.06,
+   "margin": 1.202,
+   "margin_arema": 1.146,
+   "hold_mph": 2.72
+  },
+  {
+   "case": "R125 at 1.62% (Alt B cap)",
+   "R": 125,
+   "grade_pct": 1.62,
+   "rockl_permil": 3.81,
+   "arema_permil": 5.59,
+   "comp_pct": 0.38,
+   "need_kN": 31.54,
+   "need_arema_kN": 32.91,
+   "margin": 1.202,
+   "margin_arema": 1.152,
+   "hold_mph": 2.72
+  },
+  {
+   "case": "R45 at 0.4% (Alt B hairpin cap)",
+   "R": 45,
+   "grade_pct": 0.4,
+   "rockl_permil": 16.0,
+   "arema_permil": 15.52,
+   "comp_pct": 1.6,
+   "need_kN": 31.53,
+   "need_arema_kN": 31.16,
+   "margin": 1.202,
+   "margin_arema": 1.216,
+   "hold_mph": 2.72
+  },
+  {
+   "case": "R50 at 2.0 - comp (Alt C basis)",
+   "R": 50,
+   "grade_pct": 0.667,
+   "rockl_permil": 13.33,
+   "arema_permil": 13.97,
+   "comp_pct": 1.33,
+   "need_kN": 31.53,
+   "need_arema_kN": 32.02,
+   "margin": 1.202,
+   "margin_arema": 1.184,
+   "hold_mph": 2.72
+  },
+  {
+   "case": "R50 uncompensated at 2.0%",
+   "R": 50,
+   "grade_pct": 2.0,
+   "rockl_permil": 13.33,
+   "arema_permil": 13.97,
+   "comp_pct": 1.33,
+   "need_kN": 41.83,
+   "need_arema_kN": 42.33,
+   "margin": 0.906,
+   "margin_arema": 0.895,
+   "hold_mph": 1.77
+  },
+  {
+   "case": "R100 uncompensated at 2.0%",
+   "R": 100,
+   "grade_pct": 2.0,
+   "rockl_permil": 5.0,
+   "arema_permil": 6.99,
+   "comp_pct": 0.5,
+   "need_kN": 35.39,
+   "need_arema_kN": 36.93,
+   "margin": 1.071,
+   "margin_arema": 1.026,
+   "hold_mph": 2.27
+  },
+  {
+   "case": "2.0% tangent",
+   "R": null,
+   "grade_pct": 2.0,
+   "rockl_permil": 0,
+   "arema_permil": 0,
+   "comp_pct": 0,
+   "need_kN": 31.53,
+   "need_arema_kN": 31.53,
+   "margin": 1.202,
+   "margin_arema": 1.202,
+   "hold_mph": 2.72
+  }
+ ],
+ "alts": {
+  "A": {
+   "rockl": {
+    "tag": "A",
+    "W_kN": 772.8,
+    "start_need_kN": 31.53,
+    "at_ch": 710.79,
+    "dir": 1,
+    "equiv_grade_pct": 2.0,
+    "margin_dry": 1.203,
+    "sand_mu_req": 0.208,
+    "run_res_kN": 19.32,
+    "hold_mph": 2.72,
+    "worst_vehicle_point": {
+     "i_eq": 0.02,
+     "ch": 1671.2,
+     "grade": 0.015,
+     "R": 100.0,
+     "dir": 1
+    },
+    "detail": [
+     [
+      705.1,
+      2.0,
+      null
+     ],
+     [
+      696.3,
+      2.0,
+      null
+     ],
+     [
+      687.2,
+      2.0,
+      null
+     ],
+     [
+      675.4,
+      1.5,
+      100.0
+     ],
+     [
+      663.5,
+      1.5,
+      100.0
+     ],
+     [
+      651.7,
+      1.5,
+      100.0
+     ]
+    ]
+   },
+   "arema": {
+    "tag": "A",
+    "W_kN": 772.8,
+    "start_need_kN": 33.06,
+    "at_ch": 0.0,
+    "dir": 1,
+    "equiv_grade_pct": 2.199,
+    "margin_dry": 1.147,
+    "sand_mu_req": 0.218,
+    "run_res_kN": 20.85,
+    "hold_mph": 2.52,
+    "worst_vehicle_point": {
+     "i_eq": 0.021985503936,
+     "ch": 1671.2,
+     "grade": 0.015,
+     "R": 100.0,
+     "dir": 1
+    },
+    "detail": [
+     [
+      1671.2,
+      1.5,
+      100.0
+     ],
+     [
+      1662.4,
+      1.5,
+      100.0
+     ],
+     [
+      1653.3,
+      1.5,
+      100.0
+     ],
+     [
+      1641.4,
+      1.5,
+      100.0
+     ],
+     [
+      1629.6,
+      1.5,
+      100.0
+     ],
+     [
+      1617.8,
+      1.5,
+      100.0
+     ]
+    ]
+   }
+  },
+  "B": {
+   "rockl": {
+    "tag": "B",
+    "W_kN": 772.8,
+    "start_need_kN": 31.53,
+    "at_ch": 590.14,
+    "dir": 1,
+    "equiv_grade_pct": 2.0,
+    "margin_dry": 1.203,
+    "sand_mu_req": 0.208,
+    "run_res_kN": 19.32,
+    "hold_mph": 2.72,
+    "worst_vehicle_point": {
+     "i_eq": 0.02,
+     "ch": 1709.7,
+     "grade": 0.015,
+     "R": 100.0,
+     "dir": 1
+    },
+    "detail": [
+     [
+      584.5,
+      2.0,
+      null
+     ],
+     [
+      575.7,
+      2.0,
+      null
+     ],
+     [
+      566.5,
+      2.0,
+      null
+     ],
+     [
+      554.7,
+      1.5,
+      100.0
+     ],
+     [
+      542.9,
+      1.5,
+      100.0
+     ],
+     [
+      531.0,
+      1.5,
+      100.0
+     ]
+    ]
+   },
+   "arema": {
+    "tag": "B",
+    "W_kN": 772.8,
+    "start_need_kN": 33.06,
+    "at_ch": 310.07,
+    "dir": 1,
+    "equiv_grade_pct": 2.199,
+    "margin_dry": 1.147,
+    "sand_mu_req": 0.218,
+    "run_res_kN": 20.85,
+    "hold_mph": 2.52,
+    "worst_vehicle_point": {
+     "i_eq": 0.021985503936,
+     "ch": 1709.7,
+     "grade": 0.015,
+     "R": 100.0,
+     "dir": 1
+    },
+    "detail": [
+     [
+      304.4,
+      1.5,
+      100.0
+     ],
+     [
+      295.6,
+      1.5,
+      100.0
+     ],
+     [
+      286.5,
+      1.5,
+      100.0
+     ],
+     [
+      274.6,
+      1.5,
+      100.0
+     ],
+     [
+      262.8,
+      1.5,
+      100.0
+     ],
+     [
+      251.0,
+      1.5,
+      100.0
+     ]
+    ]
+   }
+  },
+  "C": {
+   "rockl": {
+    "tag": "C",
+    "W_kN": 772.8,
+    "start_need_kN": 31.53,
+    "at_ch": 269.62,
+    "dir": 1,
+    "equiv_grade_pct": 2.0,
+    "margin_dry": 1.203,
+    "sand_mu_req": 0.208,
+    "run_res_kN": 19.32,
+    "hold_mph": 2.72,
+    "worst_vehicle_point": {
+     "i_eq": 0.020004285714285714,
+     "ch": 1592.1,
+     "grade": 0.01429,
+     "R": 90.0,
+     "dir": 1
+    },
+    "detail": [
+     [
+      263.9,
+      0.67,
+      50.0
+     ],
+     [
+      255.2,
+      0.67,
+      50.0
+     ],
+     [
+      246.0,
+      0.67,
+      50.0
+     ],
+     [
+      234.2,
+      0.67,
+      50.0
+     ],
+     [
+      222.4,
+      0.67,
+      50.0
+     ],
+     [
+      210.5,
+      0.67,
+      50.0
+     ]
+    ]
+   },
+   "arema": {
+    "tag": "C",
+    "W_kN": 772.8,
+    "start_need_kN": 32.96,
+    "at_ch": 833.82,
+    "dir": -1,
+    "equiv_grade_pct": 2.185,
+    "margin_dry": 1.151,
+    "sand_mu_req": 0.217,
+    "run_res_kN": 20.75,
+    "hold_mph": 2.53,
+    "worst_vehicle_point": {
+     "i_eq": 0.02205167104,
+     "ch": 1592.1,
+     "grade": 0.01429,
+     "R": 90.0,
+     "dir": 1
+    },
+    "detail": [
+     [
+      839.5,
+      1.53,
+      105.0
+     ],
+     [
+      848.3,
+      1.53,
+      105.0
+     ],
+     [
+      857.4,
+      1.53,
+      105.0
+     ],
+     [
+      869.3,
+      1.53,
+      105.0
+     ],
+     [
+      881.1,
+      1.53,
+      105.0
+     ],
+     [
+      892.9,
+      1.47,
+      105.0
+     ]
+    ]
+   }
+  },
+  "D": {
+   "rockl": {
+    "tag": "D",
+    "W_kN": 772.8,
+    "start_need_kN": 31.53,
+    "at_ch": 25.02,
+    "dir": 1,
+    "equiv_grade_pct": 2.0,
+    "margin_dry": 1.203,
+    "sand_mu_req": 0.208,
+    "run_res_kN": 19.32,
+    "hold_mph": 2.72,
+    "worst_vehicle_point": {
+     "i_eq": 0.02,
+     "ch": 1682.0,
+     "grade": 0.02,
+     "R": null,
+     "dir": 1
+    },
+    "detail": [
+     [
+      19.3,
+      2.0,
+      null
+     ],
+     [
+      10.6,
+      2.0,
+      null
+     ],
+     [
+      1.4,
+      2.0,
+      null
+     ],
+     [
+      1686.1,
+      2.0,
+      null
+     ],
+     [
+      1674.2,
+      2.0,
+      null
+     ],
+     [
+      1662.4,
+      2.0,
+      null
+     ]
+    ]
+   },
+   "arema": {
+    "tag": "D",
+    "W_kN": 772.8,
+    "start_need_kN": 33.06,
+    "at_ch": 1120.98,
+    "dir": -1,
+    "equiv_grade_pct": 2.199,
+    "margin_dry": 1.147,
+    "sand_mu_req": 0.218,
+    "run_res_kN": 20.85,
+    "hold_mph": 2.52,
+    "worst_vehicle_point": {
+     "i_eq": 0.021985503936,
+     "ch": 1100.3,
+     "grade": 0.015,
+     "R": 100.0,
+     "dir": 1
+    },
+    "detail": [
+     [
+      1126.7,
+      1.5,
+      100.0
+     ],
+     [
+      1135.4,
+      1.5,
+      100.0
+     ],
+     [
+      1144.6,
+      1.5,
+      100.0
+     ],
+     [
+      1156.4,
+      1.5,
+      100.0
+     ],
+     [
+      1168.2,
+      1.5,
+      100.0
+     ],
+     [
+      1180.1,
+      1.5,
+      100.0
+     ]
+    ]
+   }
+  }
+ }
+}

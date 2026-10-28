@@ -1,0 +1,111 @@
+{
+ "rail_web_holes": {
+  "count": 24,
+  "stations": [
+   "B1 X480",
+   "B2 X1525",
+   "B3 X2450",
+   "B5 X5675",
+   "B7 X8900",
+   "B8 X9900"
+  ],
+  "hole_mm": 26.0,
+  "bolt": "Lindapter HB16 (M16 8.8)",
+  "hole_Z": 1360.0,
+  "hole_from_neutral_axis_mm": 57.6,
+  "Ix_loss_pct": 0.93,
+  "C4_util_net": 0.262,
+  "stress_at_hole_service_MPa": 17.2,
+  "fatigue_range_MPa": 10.3,
+  "CatD_threshold_MPa": 48.0,
+  "fatigue_util": 0.21,
+  "worst_station": "B5 R (Y+)",
+  "V_per_bolt_kN": 13.75,
+  "T_per_bolt_kN": 5.67,
+  "HB16_SWL_V_kN": 30.0,
+  "HB16_SWL_T_kN": 21.0,
+  "HB16_interaction": 0.283,
+  "bearing_tearout_allow_kN": 72.6,
+  "bearing_util": 0.189,
+  "wall_yieldline_allow_kN": 138.2,
+  "wall_util": 0.041,
+  "verdict": "APPROVED with conditions",
+  "conditions": [
+   "Outer web only, at Z1360 (+/-5); never in the top/bottom walls or within the corner radius (hole edge >= 3t = 29 mm from the start of the corner radius; actual 63 mm)",
+   "Hole edge >= 50 mm (2 x hole) from any weld toe on the same wall; crossmember welds are on the INNER web so B2/B5 are OK; no hole within 150 mm (X) of a crossmember, bolster, knee-gusset or jacking-pad weld on either web",
+   "Bolt pitch >= 2.7d_hole (70 mm); 140 mm as drawn; hole centre >= 1.5d_hole (39 mm) from any free edge or cut-out; >= 300 mm from another hole group",
+   "No holes X >= 10,148 (drawgear zone) or within 300 mm of the front end sill (X300-452) welds: B1 at X480 needs the hole group at X >= 500 + 13 -> move the bracket 50 mm aft (X530) or confirm the sill weld toe position",
+   "Holes drilled (not punched or flame-cut), deburred, cold galvanising or zinc primer in the bore; HB16 at 190 N.m; PE to approve; record on S-503 weld/hole map",
+   "Fatigue Cat D (open hole / non-pretensioned) range 10.3 MPa vs 48 MPa threshold -> infinite life"
+  ]
+ },
+ "bolster_top_holes": {
+  "count": 4,
+  "stations": "B4 X4075, B6 X7275 at Y+/-110",
+  "plate": "PL12 bolster top flange",
+  "uplift_per_bolt_kN": 5.99,
+  "HB16_SWL_T_kN": 21.0,
+  "util": 0.285,
+  "net_section": "compression flange of the bolster box at the pivot (mid-span sagging): filled holes, no deduction per AISC B4.3; tension side unaffected",
+  "verdict": "APPROVED with conditions",
+  "conditions": [
+   "The bolster box spans between the rail INNER webs (Y+/-163.8); its PL12 top plate is fillet-welded to them. At Y+/-110 the hole edge is ~33 mm from the weld toe (< 50): MOVE the holes to Y+/-90 (edge 52 mm from the toe) and shorten the SD-1 cap to suit",
+   "The centre plate (\u00d8300 PL40) is on the bottom plate, so the top plate has no pivot weld; keep holes >= 50 mm from any internal diaphragm (assumed at Y0 and the webs at X3900/4250, X7100/7450: 162 mm - OK)",
+   "Clamp range 12-29 mm OK for PL12; drilled; PE to approve"
+  ]
+ },
+ "rear_end_sill_holes": {
+  "count": 2,
+  "zone": "X10748-10900, drawgear (70 kN service / 200 kN ultimate, C4b/C5/C8)",
+  "verdict": "REJECTED",
+  "reasons": [
+   "The end sill is in the drawgear load path (eccentric drawbar moment shared by both rails through the sill and knee gussets); C4b/C8 would need re-analysis and the PE drawgear certification reopened for a 2-bolt hold-down",
+   "Cyclic draft load: open holes are Cat D/E details next to knee-gusset weld toes; the draft gear with <=0.5 mm slack still cycles every start/stop",
+   "B9 uplift is small (3.0 kN): a weld-free alternative exists"
+  ],
+  "alternative": "Bear B9 on the rail tops with a saddle and hold it down with 2 x U-bolt/clamp straps round the main rails just forward of X10148 (outside the drawgear zone), or tie B9 to B8 with the stringers and let B8 (RB, X9900) take the uplift"
+ },
+ "saddles_S3_S5": {
+  "S3/B3": {
+   "bearer HSS5x3x3/16": {
+    "min_gap_mm": 476,
+    "nearest": "oil-bath chain case 3 mm + floating seal plate at the axle ("
+   },
+   "RB-1 brackets (both sides)": {
+    "min_gap_mm": 414,
+    "nearest": "oil-bath chain case 3 mm + floating seal plate at the axle ("
+   },
+   "barrel saddle": {
+    "min_gap_mm": 538,
+    "nearest": "oil-bath chain case 3 mm + floating seal plate at the axle ("
+   }
+  },
+  "S5/B5": {
+   "bearer HSS5x3x3/16": {
+    "min_gap_mm": 451,
+    "nearest": "oil-bath chain case 3 mm + floating seal plate at the axle ("
+   },
+   "RB-1 brackets (both sides)": {
+    "min_gap_mm": 389,
+    "nearest": "oil-bath chain case 3 mm + floating seal plate at the axle ("
+   },
+   "barrel saddle": {
+    "min_gap_mm": 538,
+    "nearest": "oil-bath chain case 3 mm + floating seal plate at the axle ("
+   }
+  },
+  "vertical": {
+   "L4_drive_top_Z": 1061,
+   "RB_bracket_bottom_Z": 1175.0,
+   "rail_bottom_Z": 1150,
+   "vertical_gap_mm": 114,
+   "note": "Truck yaw at R45 moves the case corners < 15 mm in X; the plan gaps are >= 415 mm, and the drive is entirely below the rails (vertical gap 114 mm to the RB plate). Driver wheel tops: nearest axle is 825-850 mm from S3/S5 (> R725)."
+  },
+  "verdict": "CLEAR - no clash; no change needed to S3 (X2450) or S5 (X5675). Keep-out for any later bracket: nothing below Z1150 within X2990-3843 / 4307-5160 / 6190-7043 / 7657-8510 (L4 case + motor plan per axle)."
+ },
+ "bell": {
+  "accepted": "8 in bell, CL X2800 on PL10 former F6, bell + yoke + saddle <= 270 mm (barrel top Z3380 to Z3650); 9 in only if bell + yoke <= 245 mm",
+  "mass_kg": 40,
+  "effect": "in drive_L4 mass basis (front truck +56 kg); no K-401 effect (top <= Z3650 < 3,700 roof line)"
+ }
+}

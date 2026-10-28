@@ -1,0 +1,11 @@
+# C5.6 source and geometry boundaries
+
+C56 imports the immutable C55 checkpoint and preserves 149 inherited hardware and reference/service-envelope shapes byte-for-byte after BREP export. The two unchanged nonphysical chamber-thread interface reservations have different serialization but exactly zero Boolean symmetric difference. Four air shapes are replaced: the two moving fitting exteriors and two free hose curves. Forty-four parts are added, giving 199 valid parts total.
+
+The added geometry contains a six-mm welded bracket and gussets on the existing HSS, two Parker 207ACBH-6 anchor couplings with locknuts, 017M-6-8B adapters and 17B25-8-6B swivel hose ends, two 116-mm nominal straight hose leads, and two STAUFF 319-SA87-H guide stacks with SP-3-M-W2 weld bases, DP-3-W3 cover plates and M6x40 bolts. The smooth elastomer guides have no initial tension and are not axial or torsional hose anchors. Source-controlled external dimensions are distinguished in every purchased part from provisional profile subdivisions, shell diameters and installed thread engagements. The 17B25 B22 datum locates the shell front; it is not the hose-cut datum.
+
+Reproduction sequence: `build_c56.py`, `check_support_contacts.py`, `check_motion_c56.py`, `check_service_c56.py`, drawing scripts, then `issue_c56.py`. Independent checks must read the frozen checkpoint and must be refreshed if its hash changes. Geometry source is mm; viewer exports are inches. Mesh/STEP are gzip-compressed in public assets. Do not copy canonical BREP or source PDFs into the public bundle.
+
+The nominal contact check proves that the modeled support and fitting stack are physically connected, not that engagement, clamping, weld strength or hose behavior is qualified. Candidate weld beads have their shared intersection assigned once to avoid double-counting volume. The primary crossbeam, brake carrier, bearings, keyed hub, reaction link and frame connection remain unchanged; their existing force/material/fatigue holds remain.
+
+The rear ports of the bulkhead anchors are open layout interfaces. No body-to-truck supply loop, valve/reservoir arrangement, cast service/parking port mapping or additional brake station has been invented. Supplier requests were already sent on 19 October 2026 Pacific; do not resend them from this workstream.

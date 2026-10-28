@@ -1,0 +1,66 @@
+{
+  "issue": "PF-3O2-C21-R0",
+  "scope": "Passenger coach seating only",
+  "shared_site_rule": "Read latest source before publication; preserve locomotive/tender and drivetrain work in their separate conversations. No locomotive geometry or selected drivetrain interface changed by C2.1.",
+  "coach_interface": {
+    "places_per_regular_coach": 32,
+    "benches": 16,
+    "width_in": 40,
+    "pitch_in": 32,
+    "aisle_in": 24,
+    "seat_above_floor_in": 18,
+    "floor_above_rail_in": 32,
+    "nominal_floor_isolation_in": 0.25,
+    "row_x_in": [
+      41,
+      73,
+      105,
+      137,
+      169,
+      201,
+      233,
+      265
+    ]
+  },
+  "floor_mounts": "C2.1 retains all64 regular-coach hardpoint locations and floor openings; changes upper sole outline, thickness, spacers, ribs and bench braces.",
+  "mass_budget": {
+    "issue": "PF-3O2-C21-R0",
+    "metal_and_hardpoints_kg": 59.17353759505508,
+    "predecessor_metal_kg": 61.470435898885285,
+    "reduction_kg_per_bench": 2.296898303830204,
+    "reduction_percent": 3.736590232755868,
+    "sixteen_bench_metal_kg": 946.7766015208813,
+    "three_regular_coach_metal_kg": 2840.329804562644,
+    "complete_bench_trial_budget_kg": 65,
+    "complete_regular_seating_trial_budget_kg": 1040,
+    "padding_model_volume_m3": 0.032456628635,
+    "nonmetal_and_small_parts_allowances": [
+      {
+        "item": "Foam volume \u00d7 assumed 40 kg/m\u00b3",
+        "kg": 1.2982651453999998
+      },
+      {
+        "item": "Upholstery covers and retention allowance",
+        "kg": 1.2
+      },
+      {
+        "item": "Small panel fasteners and dielectric isolation allowance",
+        "kg": 0.65
+      },
+      {
+        "item": "Finish allowance",
+        "kg": 0.8
+      },
+      {
+        "item": "Four flexible floor closeouts allowance",
+        "kg": 0.8
+      }
+    ],
+    "remaining_unassigned_margin_kg": 1.07819725954492,
+    "basis": "HSS catalog weight with net-volume adjustment for coped braces; CAD plates and nominal hardware. Allowances are designer budgets, not selected products or measured mass. Unmodeled welds/reinforcements consume the remaining margin.",
+    "whole_coach_tare": null,
+    "credit_to_braking_or_propulsion": false
+  },
+  "to_drivetrain_and_trucks": "Continue using1040kg regular seating allowance until selected finishes, reinforcement and measured prototype mass justify another value. Do not subtract C2.1 nominal metal saving from a complete vehicle study. FloorZ32 load state still unresolved.",
+  "next_coach_task": "C3: accessible convertible bay geometry and hinge/stop/latch development. Carry local foot, tooling, weld and enclosure work forward as open integration tasks; do not reuse this fixed foot as an approved folding-seat joint."
+}

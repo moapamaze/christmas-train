@@ -1,0 +1,27 @@
+{
+  "issue": "LT31",
+  "units": "mm",
+  "pin": [
+    11250,
+    0,
+    550
+  ],
+  "loco_rear_face": 11000,
+  "coach_front_pin_local": [
+    -1343.8,
+    0,
+    550
+  ],
+  "drawbar_centres": 800,
+  "rail_centres_y": [
+    -240,
+    240
+  ],
+  "rail_bottom": 1150,
+  "rail_centroid_z": 1302.4,
+  "eccentricity_mm": 752.4,
+  "mount_mass_only_kg": 264.62800996451307,
+  "mass_note": "New mount only. Full added joint/line hardware and coach reactions have not been integrated into LT30 mass or suspension cases.",
+  "legacy_200kN_probe_moment_kNm": 150.48,
+  "fabrication_release": false
+}

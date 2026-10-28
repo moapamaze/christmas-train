@@ -1,0 +1,17 @@
+{
+ "dynamic_half": 1696.0,
+ "allowance": 200.0,
+ "centres_required_mm": 3592.0,
+ "centres_mark_m": 3.6,
+ "frog_angle_deg": 7.153,
+ "lead_radius_m": 84.9,
+ "closure_end": [
+  10.57,
+  0.66
+ ],
+ "x_mark_from_points_m": 33.99,
+ "rail_bot_m": 34.0,
+ "r80_extra_end_throw_mm": 37.0,
+ "r80_note": "If either track is on R80 at the mark, add ~37 mm per side (loco end throw 185 vs 148 at R100) - within the 200 mm allowance (74 < 200); level layout F, owner pending.",
+ "basis": "Clearance mark where track centres = 2 x 1,696 dynamic half-width + 200 mm = 3,592 -> 3.6 m; #8 (frog 7.153 deg), closure curve R ~84.9 m tangent at the points then straight at the frog angle; straight main."
+}

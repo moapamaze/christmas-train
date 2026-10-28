@@ -1,0 +1,17 @@
+{
+  "parts": 25,
+  "removed": [
+    "N11-SHELL-1--1",
+    "N11-SHELL-1-1",
+    "N11-SHELL-2--1",
+    "N11-SHELL-2-1",
+    "N11-SHELL-3--1",
+    "N11-SHELL-3-1",
+    "L25-PUMP-PAD-1",
+    "L25-PUMP-PAD1"
+  ],
+  "added_support_steel_kg": 20.815845,
+  "duct_steel_kg": 68.4965076357855,
+  "source_shell_gauge_mm": 2.5,
+  "fabrication_release": false
+}

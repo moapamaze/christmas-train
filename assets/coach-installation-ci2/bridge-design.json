@@ -1,0 +1,74 @@
+{
+  "revision": "CI2-R0",
+  "original_stations_in": [
+    21,
+    69,
+    237,
+    285
+  ],
+  "bridge_centres_mm": [
+    433.4,
+    1852.6,
+    5919.799999999999,
+    7339.0
+  ],
+  "top_elevation_mm": 787.5,
+  "bridge_bottom_mm": 711.3,
+  "floor_elevation_mm": 812.8,
+  "section_outer_mm": [
+    254,
+    76.2
+  ],
+  "wall_mm": 10,
+  "endplate_mm": [
+    254,
+    101.6,
+    12
+  ],
+  "opening_height_gain_mm": 76.2,
+  "removed_ids": [
+    "T21_1",
+    "T69_1",
+    "T237_1",
+    "T285_1",
+    "S-20_0",
+    "S-20_1",
+    "S-20_2",
+    "S-20_3",
+    "S-20_9",
+    "S-20_10",
+    "S-20_11",
+    "S-20_12",
+    "S20_0",
+    "S20_1",
+    "S20_2",
+    "S20_3",
+    "S20_9",
+    "S20_10",
+    "S20_11",
+    "S20_12",
+    "C69_20-FACE-A",
+    "C69_20-FACE-B",
+    "C69_20-BOTTOM",
+    "C69_20-FACE-A-GROOVE1",
+    "C69_20-FACE-A-GROOVE2",
+    "C69_20-FACE-B-GROOVE1",
+    "C69_20-FACE-B-GROOVE2",
+    "C69_20-END-RAIL-WELDS"
+  ],
+  "old_nominal_section": {
+    "area_mm2": 1844.7543750000004,
+    "I_mm4": 4952630.626787989,
+    "Z_mm3": 64995.152582519535
+  },
+  "new_gross_box_section": {
+    "area_mm2": 6203.999999999998,
+    "I_mm4": 5903872.68,
+    "Z_mm3": 154957.28818897635
+  },
+  "gross_I_ratio": 1.1920680391682945,
+  "gross_Z_ratio": 2.384136078336589,
+  "old_removed_mass_kg": 166.36359632728835,
+  "new_mass_kg": 398.7575426491476,
+  "limits": "Gross nominal section comparison is not structural approval. Weld, endplate, local web, fatigue, load distribution and vehicle mass checks remain required."
+}

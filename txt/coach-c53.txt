@@ -1,0 +1,64 @@
+Inboard disc brake · C5.3 · Pulsipher Farms
+Previous version · Earlier disc-brake issue
+This page is retained as history. Open the current assembly →
+C5.4 current brake installation: One right-side air-disc brake with the documented WABCO 20/24 chamber exterior, revised carrier bearings, hub, reaction link and frame connection. Exact rotor mating geometry, maximum actuator output and complete installed motion/service qualification remain open. Legacy chamber availability is unconfirmed. View this brake in the truck · Drawings and parts · Engineering.
+C5.3 · DISC-BRAKE DEVELOPMENT · 19 OCTOBER 2026
+Inboard disc brake
+One right-side brake unit: a replaceable Webb rotor inside the wheel, with an axle-following caliper carrier and a short articulated torque link to the bogie frame. The commercial brake supplies the disc-clamping mechanism; the carrier, axle joint and reaction attachment are custom development parts.
+Inboard disc development — unrated; supplier-fit holdsOne right-side unit with actual custom hub, split sleeves, carrier, retained torque link and backed frame mount. Nominal custom part audit and finite-link mathematics are bounded checks, not a released brake.
+Actual parts and connections
+The rotor turns with the axle. Pads clamp its two flat friction faces. The caliper and its carrier are restrained from following the axle’s rotation, with braking reaction carried through the short spherical-jointed link to the frame. The carrier can clock slightly as that link follows suspension movement. The carrier follows the axle’s orientation; the caliper’s wear slide is not treated as an axle-tilt joint.
+Published vendor dimensionsCustom development partsProvisional vendor envelopes / interfacesRetained truck context
+C53-D01Actual CAD projections · development dimensionsC53-M01Actual CAD projections · development dimensions
+Inspect the coordinated CAD
+See this brake in the passenger truckOpen brake close-up
+This CAD shows one right-side brake unit and necessary truck context. Eight discs per coach is the proposed architecture only; opposite-handed chamber and hose fit remains unverified because the exact 22/24 chamber envelope is unavailable.
+Nominal assembly
+Loading development geometry…
+Select a part to inspect its evidence and fit status. A modeled envelope is not a verified OEM solid. Drawing dimensions and the component records identify what is published and what remains provisional.
+Purchased components and sourcing
+Availability is the supplier’s recorded listing, not a reservation or a guarantee of the full coach quantity. No substitute rotor or chamber suffix is assumed interchangeable.
+ | Part / role
+ | Availability evidence
+ | Fit and selection status
+ | Source
+ | Webb 55030PK-65 rotorReplaceable inboard air-disc rotor
+ | Triple R lists 4 in stock; second exact on-hand quantity unverified.Observed 2026-10-19
+ | Published diameter, depth and mounting pattern; detailed section and pad sweep remain open.
+ | Source / listing
+ | WABCO 40175072 / 40175073 calipersPAN17 air-disc caliper and carrier
+ | Brakes 4 Trailers lists genuine left and right parts in stock; quantities not shown.Observed 2026-10-19
+ | OEM mounting GA retrieved; 330 mm drawing versus 325 mm application must be reconciled.
+ | Source / listing
+ | TSE 2224TLD2H-4627 / 4628 chambersCurrent Hendrickson PAN17 air service and spring parking chambers
+ | OEM part identity confirmed; exact stock and lead time unknown.Observed 2026-10-19
+ | Exact suffix GA, stroke and forces unavailable in inspected public evidence.
+ | Source / listing
+ | NSK 6824DDTwo coaxial carrier-support stations per brake unit
+ | Manufacturer catalogue evidence only; stock and delivery not verified.Observed 2026-10-19
+ | 120 x 150 x 16 mm development envelope on custom split sleeve. High torque probes exceed catalogue static reference; unreleased installation.
+ | Source / listing
+ | Hendrickson S-41159-1 / WABCO 232 padsCatalog pad family for reconciliation
+ | Catalog identity only; stock and lead time unverified.
+ | The pad table retains a 20/24 reference while the current chamber table lists 22/24. Exact pad, caliper, rotor swept band and chamber configuration remain conditional.
+ | OEM parts catalog
+Rotor dimensional basis
+Webb 55030PK-65: 325.12 mm outside diameter, 34.036 mm friction thickness, 148.59 mm total U depth and 168.91 mm pilot. The published attachment is eight M14 × 2 holes on a 195.834 mm pitch circle.
+The rotor section, hat clearances, pad swept band and caliper mounting relation still require the exact coordinated vendor definition. The WABCO family drawing’s 330 mm reference does not, by itself, prove this 325.12 mm rotor pairing.
+Wear adjustment and suspension tracking
+Commercial pad wear adjustment remains within the brake. Two spaced carrier bearing stations align the nonrotating support with the axle, and the short torque link restrains rotation while accommodating the defined suspension motion.
+The final contract and check records govern bearing retention, one locating / one floating station, link articulation, wear travel, hoses and caging access. The exact 22/24 chamber’s controlled outline and force envelope remain open.
+Rotor replacement requires shop wheelset service
+The selected rotor is a closed one-piece part located inboard of the wheel. Replacement requires removing the wheelset and removing / reinstalling one rail wheel in a suitably equipped shop, followed by the required fit, runout and joint inspections. An on-car rotor swap or a split friction ring is not proposed.
+Routine pad service is a separate access requirement. The earlier axle-end location was rejected after a real body-girder collision at combined yaw and jounce; the current study places the disc inboard.
+Engineering and downloadable records
+Force paths, maximum-output holds, joint screens, bearing loads, heat duty and suspension checks are collected on the engineering page. Geometric fit alone does not establish braking performance or fabrication release.
+Open mechanics and calculations
+C53-D01 · SVG gzipC53-M01 · SVG gzipEditable assembly · STEP gzipReproducible geometry sourcePart schedule · gzip JSONGeometry contractDesign recordGeometry checks and limitsComponent and stock evidenceCarrier bearing catalog evidenceIndependent reviewSolved motion statesBounded motion checksConnection contact checks
+Decompress gzip STEP files before CAD import and gzip SVG files before vector editing. Source units and the final part metadata govern.Primary manufacturer sources
+Webb rotor dimensional catalog
+WABCO 40175072 / 73 mounting drawing
+Hendrickson current replacement-parts catalog
+Hendrickson PAN17 application and service clearances
+TSE chamber family information
+TSE disc-chamber installation instructionsC5.3 · Inboard disc-brake development · Vendor fit and complete assembly qualification remain open

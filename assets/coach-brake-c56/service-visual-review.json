@@ -1,0 +1,29 @@
+{
+  "revision": "C5.6",
+  "source_brep_sha256": "38bf2abfaa8d8112d32f445b4a3a8c4ecd99860a545b345fb8229737d64b16bd",
+  "review_method": "RenderedPNG visual inspection using view_image; actual CAD/BREP provenance checked separately",
+  "sheets": [
+    {
+      "file": "C56-S01.png",
+      "sha256": "3608d68279f61fca1bb9ec49c747a9b7e1f9377177e4645d6d3a85651095d269",
+      "review": "Complete legible sheet; no clipped text or text/leader collision. Actual CAD projections distinguish nonphysical arrows/reservations and source/fit holds."
+    },
+    {
+      "file": "C56-S02.png",
+      "sha256": "f10b38a5cfe338f1bff37dc92d454aec6c37b9f9980f1bbb8e5ca660d8437a70",
+      "review": "Complete legible sheet; no clipped text or text/leader collision. Actual CAD projections distinguish nonphysical arrows/reservations and source/fit holds."
+    }
+  ],
+  "service_model_checks": {
+    "chamber_removal_parts": 177,
+    "parking_release_parts": 199,
+    "whole_hose_removal_consistent": true,
+    "nominal_model_definition_identity_checked": true
+  },
+  "specific_findings": [
+    "S01 shows the four required pad-service stages without inventing pad solids.",
+    "S02 retains the failed straight socket path in orange and a30mm pull/60mm lateral trial path in blue.",
+    "S02 labels the89mm sourced release projection separately from the proposed\u00d860x50 tool volume.",
+    "All review/provenance inputs use the final38bf2abf C56 checkpoint."
+  ]
+}

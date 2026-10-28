@@ -1,0 +1,48 @@
+Train design workshop · Pulsipher FarmsSkip to content
+CURRENT TENDER DESIGN · LT45
+Existing AIE engine + separate Kubota 35 kW diesel generator → Updated cutaway, equipment layout, service space and power split. Fit, power margins and weight record →
+EARLIER SHARED-ENGINE POWER / MOVEMENT REVIEW · LT42
+Full power budget, revised brake routes and combined movement findings → Coach HVAC exposes a power shortfall. Brake ratings, configured controls, generator drive and hose twist remain open.
+LT43 · Insulated machinery tender → Kubota, pump, generator, diesel tank, hydraulic reservoir and cooler move into a separate tender. First layout and partial weight check; new connections and movement remain open.
+Coach climate, LED lighting and ventilation → LED allowance: 100 W per coach. Fresh-air fan remains provisional; develop an engine-driven brake compressor. Climate and power selections remain open.
+STANDARD SUSPENSION BUMPER · LT33
+A commercial bump stop in the existing spring
+Revised pedestal, 3D and dimensions → · Loading curves and checks →
+LT26 · INSTALLATION & CONTROLS
+Engine access, cooling and truck connections
+Installation drawings and model → · Proposed brake circuit → · Checks and remaining holds →
+COORDINATED LOCOMOTIVE + FIRST COACH · LT32
+Installation, rear connection and updated loads
+One coordinated 3D assembly and revised sections → · Updated engineering and interface package →
+PULSIPHER FARMS / CHRISTMAS RAILWAY
+Train design workshop
+Open the assembly you want to review. Drawings, rotatable models and part details are grouped below.
+Locomotive + tenderDiesel power · steam-era appearanceRegular + accessibleEnclosed passenger coachesDevelopment in progressEngineering kept in a separate areaWhole locomotive · 3D →Regular coach · 3D →Accessible coach · 3D →
+FINAL VISUAL REFERENCE
+Coach exterior finishes
+Burgundy, forest green, midnight blue and chestnut wood look—four finishes kept together for reference.View final exterior reference →
+LOCOMOTIVE
+Locomotive & tender ↗
+Frame, body connections, machinery, service panels and cooling.
+Open assembly →Powered axles
+PASSENGER COACHES
+Passenger coaches ↗
+Connected coaches, regular benches, accessible seating and boarding.
+Open assembly →
+DRIVETRAIN
+Powered axles ↗
+Motor mount, coupling, bearing stack and locomotive wheel assembly.
+Open assembly →
+WHEELS & AXLES
+Coach wheels & bearings ↗
+Bearing-end sections, centered spacer, seal labyrinth and assembly sequence.
+Open assembly →Bearing-end details
+BRAKES & SUSPENSION
+Coach brakes & trucks ↗
+Current inboard disc-brake installation, body-to-truck supply hoses and maintenance access.
+Open assembly →Truck suspension
+DRAWINGS & 3D
+Drawing & model library ↗
+Browse the retained drawing packages or choose a current rotatable model.
+Open assembly →Rotate 3D
+Earlier alternatives have moved to previous versions. Supporting details stay with their assembly.Calculations & open engineering items →Development drawings · Not released for constructionPrevious versions

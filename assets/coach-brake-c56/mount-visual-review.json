@@ -1,0 +1,44 @@
+{
+  "revision": "C56-MOUNT-VISUAL-REVIEW",
+  "method": "Direct visual inspection of rendered1600x1120 PNGs; generator clips each CAD panel before labels",
+  "status": "Reviewed; no text/geometry cross-panel overflow found in final revision",
+  "sheets": {
+    "C56-D01": {
+      "png_sha256": "0409c593689ba0308d8133c0250920ef937790b14b950807f2c3f46834663a26",
+      "width": 1600,
+      "height": 1120,
+      "checked": [
+        "Readable headings/dimensions",
+        "Panel clipping",
+        "Nonphysical weld/retention illustration labels",
+        "Unresolved fit/load requirements visible"
+      ]
+    },
+    "C56-D02": {
+      "png_sha256": "697c775f5ab15d8a9cc74da446144295b2fbea09b4c067a9661057a9b2964ae3",
+      "width": 1600,
+      "height": 1120,
+      "checked": [
+        "Readable headings/dimensions",
+        "Panel clipping",
+        "Nonphysical weld/retention illustration labels",
+        "Unresolved fit/load requirements visible"
+      ]
+    },
+    "C56-D03": {
+      "png_sha256": "d84a16afcb4f8ff6816d40e25926fa543207198883cef2e7ec2afd9be7d50435",
+      "width": 1600,
+      "height": 1120,
+      "checked": [
+        "Readable headings/dimensions",
+        "Panel clipping",
+        "Nonphysical weld/retention illustration labels",
+        "Unresolved fit/load requirements visible"
+      ]
+    }
+  },
+  "limitations": [
+    "Curve outlines sampled from BREP; no fabrication tolerance or fitted assembly acceptance",
+    "Exploded pin detail represents removal direction only; no hand/tool sweep pass"
+  ]
+}

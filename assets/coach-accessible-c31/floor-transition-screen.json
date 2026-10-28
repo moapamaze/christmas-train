@@ -1,0 +1,45 @@
+{
+  "status": "Separate localfloor comparison plus concurrent transfer sensitivity, not globalfloor acceptance",
+  "load_N": 2001.6997268672249,
+  "patch": "Entire450lbf applied toone1inwide plate strip; contact less than1inwidth, wheelchair tie-down andwholefloor loads outside scope",
+  "cover_thickness_in": 0.375,
+  "support_strip_center_pitch_in": 3,
+  "max_edge_cantilever_from_support_center_in": 0.75,
+  "results": [
+    {
+      "H_in": 12,
+      "B_in": 4,
+      "collar_end_fillet_with_floor_MPa": 6.87110649840675,
+      "parent_wall_equivalent_transfer_with_floor_MPa": 3.9182306445793245,
+      "cover_3_8_one_in_strip_center_MPa": 99.28450502162441,
+      "cover_3_8_one_in_strip_edge_cantilever_MPa": 99.28450502162441,
+      "support_strip_bottom_1_8_fillet_MPa": 19.960115073683536,
+      "support_strip_top_3_16_fillet_MPa": 13.306743382455686
+    },
+    {
+      "H_in": 4,
+      "B_in": 2,
+      "collar_end_fillet_with_floor_MPa": 48.04605799549837,
+      "parent_wall_equivalent_transfer_with_floor_MPa": 36.53085313752584,
+      "cover_3_8_one_in_strip_center_MPa": 99.28450502162441,
+      "cover_3_8_one_in_strip_edge_cantilever_MPa": 99.28450502162441,
+      "support_strip_bottom_1_8_fillet_MPa": 36.31197367392602,
+      "support_strip_top_3_16_fillet_MPa": 24.207982449284017
+    },
+    {
+      "H_in": 6,
+      "B_in": 2,
+      "collar_end_fillet_with_floor_MPa": 22.063242400108066,
+      "parent_wall_equivalent_transfer_with_floor_MPa": 16.77534227535374,
+      "cover_3_8_one_in_strip_center_MPa": 99.28450502162441,
+      "cover_3_8_one_in_strip_edge_cantilever_MPa": 99.28450502162441,
+      "support_strip_bottom_1_8_fillet_MPa": 36.31197367392602,
+      "support_strip_top_3_16_fillet_MPa": 24.207982449284017
+    }
+  ],
+  "limitations": [
+    "Floor material/reaction compatibility and agreed accessiblefloor loadcase remain",
+    "Endweld calculation assumes distributed rigidcollar transfer; localHSS wall deformation andchord stressinteraction not resolved",
+    "Floor450lbf isnot added tothe seat235kg inertia mass; floor metal is counted once incoachmass and conservatively allocated withinthe90kg completefoundation allowance"
+  ]
+}

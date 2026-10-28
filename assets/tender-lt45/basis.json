@@ -1,0 +1,222 @@
+{
+ "revision": "LT45.1",
+ "date": "2026-10-25",
+ "architecture": "Existing AIE Kubota engine and hydraulic pump for traction; independent Kubota-powered 35 kW diesel generator for coach power; mechanical brake-compressor provision on traction engine.",
+ "engine_model": "Kubota V3307-TIE4AB-KEA-1",
+ "quoted_assembly": null,
+ "quote_number": null,
+ "engine_reference": "AIE generic GA used by LT25; quoted Rev B configuration remains unconfirmed. Wider 809.244 mm handedness reservation retained.",
+ "engine_translation_local_mm": [
+  -2200,
+  -670,
+  -746.7
+ ],
+ "generator_target": {
+  "electric_kw": 35,
+  "voltage": "120/240 V single phase",
+  "frequency_hz": 60,
+  "duty": "Design target: 35 kW continuous at installation conditions. Exact package and rating to be confirmed.",
+  "selected_model": null
+ },
+ "previous_generator_reference": {
+  "status": "Superseded 30 kW-class EPS comparison; not a candidate meeting the 35 kW requirement",
+  "manufacturer": "Engine Power Source",
+  "model": "S10030J4BENC",
+  "engine": "Kubota V2403TI-E4G",
+  "standby_kw": 30.1,
+  "continuous_kw": 27.9,
+  "source_url": "https://www.enginepowersource.com/generators/mobile-diesel-generators/30-kw-diesel-generator-details/",
+  "checked": "2026-10-25",
+  "dimensions_in": [
+   63.93,
+   25.76,
+   28.77
+  ],
+  "mass_lb_including_oil_antifreeze": 1322,
+  "rating_conditions": "Power factor 1.0, 68 F, 500 ft. OEM derating: 3.5% per 1000 ft above 500 ft and 1% per 10 F above 68 F. Site duty and combination method require confirmation.",
+  "fuel_gph_at_25_50_100_percent": [
+   0.49,
+   0.97,
+   2.14
+  ]
+ },
+ "equipment": [
+  {
+   "id": "GENERATOR",
+   "name": "35 kW Kubota diesel generator \u2014 space reservation",
+   "center": [
+    1900,
+    750,
+    1680
+   ],
+   "size": [
+    1700,
+    800,
+    1000
+   ],
+   "color": "#ad8654",
+   "mass_kg": null,
+   "basis": "Required 35 kW continuous at installed conditions, 120/240 V single phase, 60 Hz. Exact unit, envelope, wet mass, fuel use and cooling remain unconfirmed. This is available space, not a supplier package."
+  },
+  {
+   "id": "FUEL",
+   "name": "Diesel tank \u2014 150 L working target retained",
+   "center": [
+    3500,
+    700,
+    1350
+   ],
+   "size": [
+    600,
+    700,
+    500
+   ],
+   "color": "#b58b45",
+   "mass_kg": 166,
+   "basis": "Existing 40 kg tank + 126 kg diesel allowance relocated once. Runtime for both engines, usable volume, baffling and ullage unresolved."
+  },
+  {
+   "id": "RESERVOIR",
+   "name": "Hydraulic reservoir \u2014 fill volume unresolved",
+   "center": [
+    3150,
+    -500,
+    1325
+   ],
+   "size": [
+    600,
+    600,
+    450
+   ],
+   "color": "#5d86a5",
+   "mass_kg": 128.09782101112495,
+   "basis": "Existing 50 kg tank + 78.098 kg residual tank-oil allocation. Inherited 100 L is whole-system budget, not reservoir fill; longer lines need reconciliation."
+  },
+  {
+   "id": "COOLER",
+   "name": "Hydraulic cooler \u2014 independent side airflow provision",
+   "center": [
+    3750,
+    -1100,
+    1600
+   ],
+   "size": [
+    1050,
+    170,
+    1000
+   ],
+   "color": "#5a8c91",
+   "mass_kg": 55,
+   "basis": "Retained 170 \u00d7 1050 \u00d7 1000 mm cooler reservation turned sideways; 55 kg allowance. No heat rejection, fan draw or pressure-drop rating selected."
+  },
+  {
+   "id": "COMPRESSOR",
+   "name": "Engine-driven brake compressor \u2014 space reservation",
+   "center": [
+    825,
+    725,
+    1400
+   ],
+   "size": [
+    400,
+    500,
+    500
+   ],
+   "color": "#a57556",
+   "mass_kg": null,
+   "basis": "New unselected mechanical compressor/drive. Space marker only; no approved Kubota drive, capacity, lubrication or cooling arrangement."
+  },
+  {
+   "id": "PANEL",
+   "name": "Coach electrical distribution \u2014 dry compartment",
+   "center": [
+    4250,
+    700,
+    1475
+   ],
+   "size": [
+    300,
+    600,
+    650
+   ],
+   "color": "#d5b873",
+   "mass_kg": null,
+   "basis": "Unselected panel and protected feeder; separated from tank bay by a partition reservation."
+  }
+ ],
+ "generator_reservation": {
+  "center": [
+   1900,
+   750,
+   1680
+  ],
+  "size": [
+   1700,
+   800,
+   1000
+  ],
+  "bottom_mm": 1180,
+  "mount_height_allowance_mm": 80,
+  "status": "Procurement envelope only; does not prove a 35 kW continuous package fits or establish service and airflow clearance."
+ },
+ "body_local_bounds_mm": {
+  "x": [
+   400,
+   4600
+  ],
+  "y": [
+   -1300,
+   1300
+  ],
+  "z": [
+   1080,
+   2360
+  ]
+ },
+ "clear_bay_mm": {
+  "x": [
+   456,
+   4544
+  ],
+  "y": [
+   -1244,
+   1244
+  ],
+  "z": [
+   1100,
+   2304
+  ]
+ },
+ "service_aisle_local_mm": {
+  "x": [
+   800,
+   2450
+  ],
+  "y": [
+   -250,
+   350
+  ],
+  "z": [
+   1100,
+   2250
+  ]
+ },
+ "partition_x_mm": 2800,
+ "partition_thickness_mm": 50,
+ "tender_front_pin_global_mm": 12050,
+ "bogie_centers_mm": [
+  1200,
+  3800
+ ],
+ "pin_centers_mm": [
+  0,
+  5000
+ ],
+ "pin_height_mm": 550,
+ "insulation_mm": 50,
+ "release": {
+  "purchase": false,
+  "fabrication": false,
+  "operation": false
+ }
+}

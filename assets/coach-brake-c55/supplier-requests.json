@@ -1,0 +1,32 @@
+{
+  "revision": "C5.5",
+  "status": "Drafts \u2014 not sent",
+  "outreach_authorized": false,
+  "purchase_authorized": false,
+  "requests": [
+    {
+      "to": [
+        "engineering@webbwheel.com"
+      ],
+      "subject": "Controlled interface drawing and compatibility confirmation: Webb 55030PK-65 with PAN17 40175072/73",
+      "body": "Hello Webb Engineering,\n\nWe are assessing one inboard brake on a custom passenger-coach railway wheelset. The design is not released for fabrication. We are considering rotor 55030PK-65 with WABCO PAN17 calipers 40175072/73 and Hendrickson S-41159-1 pads (WABCO 232). Please provide the following information before we release the custom hub or caliper mount:\n\n1. Supply the current revision-controlled 55030PK-65 sectional drawing and STEP model, identifying the actual machined pilot surface, bore tolerance, pilot engagement length, bolt PCD and positional tolerance.\n\n2. Resolve the published 6.65 inch pilot versus the 6.81 inch pilot in cross-referenced CT826 replacement products, and the 7.71 versus 7.72 inch PCD in Webb publications. State whether any product revisions or different hub interfaces explain these differences.\n\n3. Dimension both friction faces and the rotor centre plane from the hub mating face. Include mounting-flange thickness, internal hat/vent profile, chamfers, fillets, minimum clearances and cold/hot dimensional limits.\n\n4. Provide friction annulus inner and outer diameters, usable pad-sweep limits, new and discard thickness tolerances, runout/parallelism limits, allowable temperature and heat-energy limits.\n\n5. Identify supplied rotor fastener kit, bolt part numbers, grade, thread length, grip range, minimum full-thread engagement, tightening/lubrication procedure and replacement policy.\n\n6. Confirm whether this exact rotor is approved with WABCO 40175072/73 and Hendrickson S-41159-1 (WABCO 232) pads. If so, provide the 325 mm installation section and permitted pad overhang. The public WABCO GA references a 330 mm disc.\n\n7. State whether use on a custom passenger-coach railway wheelset is within the product application approval; identify required engineering validation. Request current lead time and support status without placing an order.\n\nPlease identify the applicable drawing revisions and any limitations on this application. This is a technical information request only, not an order.\n\nThank you.",
+      "source_urls": [
+        "https://www.webbwheel.com/contact-us"
+      ]
+    },
+    {
+      "to": [
+        "naspecs.zf@zf.com"
+      ],
+      "cc": [
+        "nacustomercare.zf@zf.com"
+      ],
+      "subject": "Exact PAN17 brake package and TRISTOP 9253800250/0240 or 0460/0450 engineering data",
+      "body": "We are developing an air-service, spring-parking brake installation for a passenger-coach rail truck. The current engineering reference is PAN 17 calipers 40175072/40175073, the historical Hendrickson WABCO 232/20-24 package, and WABCO chambers 9253800250/9253800240. This is a custom application and is not being represented as an approved road or rail installation.\n\nYour public catalog lists 9253800460 and 9253800450 as open-hole alternatives. Please confirm whether these exact parts are approved replacements in this exact caliper/pad package, identify every changed mating or brake component, and advise current production status, authorized supply route, exact stocked SKU and lead time. We have not ordered parts.\n\nPlease provide controlled drawings/CAD and guaranteed engineering data for the selected exact suffixes:\n\n1. Service pushrod force versus stroke at 8 bar working pressure and 10 bar temporary pressure, including maximum and minimum tolerances, return-spring effects, temperature variation, permitted temporary-pressure duration/duty, and the maximum physically transmitted output force. The public GA graphs stop at 6.59 bar and are marked informational.\n2. Parking-spring output versus the full usable stroke with maximum/minimum tolerances, release-pressure limits and residual output during partial release. Include allowable simultaneous service/spring loading, worst-case compounded output, and the required anti-compounding circuit and fault assumptions.\n3. For 40175072/40175073 with the exact approved pad compound and 325 mm rotor: allowable chamber input force/stroke, pushrod-to-clamp transfer relation including efficiency and tolerances, service/parking torque limits and relevant friction bounds. Please identify whether the newer 22/24 plus WABCO 238 package is required and give exact replacement SKUs if so.\n4. Exact pad outline and swept radii, new/worn pad stack, carrier tapped-hole depth and entry geometry. Exact chamber mounting-face centre relative to the caliper carrier/axle datum, hole/pilot tolerances, pushrod contact geometry, permitted flange gap, fasteners and final nut torque. Please reconcile the chamber GA 169.5\u2013203.4 Nm range with the caliper GA 180\u2013210 Nm range and confirm the applicable no-washer instruction.\n5. Controlled physical identification of port 11 (service) and port 12 (spring release) at the 97 mm and 116 mm axial stations; tap depth, boss envelope and permissible fitting insertion/torque; port 300-degree versus 60-degree handedness; and permissible installed attitude, bottom-breather opening and drainage requirements throughout suspension travel.\n6. Full caging-bolt storage/removal/release sweep, wrench and hand access, clamp hardware projection and permissible service procedures. The drawn 89 mm projection alone does not establish removal/tool clearance. Confirm relevant differences between the legacy and open-hole mechanisms.\n7. Exact chamber and supported caliper masses, centres of gravity/inertias, permitted vibration/shock environment, mounting-fatigue limits and any application limitations affecting this passenger-coach rail installation.\n\nPlease identify the document revision and exact part suffix covered by each answer. We can supply the installation section and suspension/wear envelope for application review once the controlled mating data is established.\n\nThank you.",
+      "source_urls": [
+        "https://www.wabco-customercentre.com/catalog/en_US/9253800250"
+      ]
+    }
+  ],
+  "release_dependency": "Controlled rotor interface, matched available package, force bounds and service geometry are required before custom mount release or additional brake locations."
+}

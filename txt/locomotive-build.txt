@@ -1,0 +1,14 @@
+Single-fan cooling · LT9 · Pulsipher FarmsLocomotive & powered trucksDrawings3D assembliesEngineering & open itemsHandrail details · LT8Drive wheels
+LOCOMOTIVE / LT9
+One fan · Engine bay & cooling pack
+Forward intake · Shared airflow · Core pack · Common fan · Side discharge
+LAYOUT DEVELOPMENTR0 · Not for fabrication19 October 2026 · Pacific
+Detail drawingsExact CAD projections · Nominal dimensions in mm
+A01 Single airflow pathC01 Shared fan & coresB01 Inlet & air boundariesX01 Fan removalLT9-A01 · Single airflow pathFull-size ↗LT9-C01 · Shared fan & coresFull-size ↗LT9-B01 · Inlet & air boundariesFull-size ↗LT9-X01 · Fan removalFull-size ↗
+One shared fan · Frame top 1,775 mm provisional · Thermal sizing and supplier interfaces pending. Open issues & checks →
+3D assembliesLoading…
+Engine bay & cooling packShared fan & coresOne fan moduleInlet & air boundariesPack within boiler shellFan withdrawn · 1,600 mmWhole locomotive body
+ Exploded view Compatibility 3D
+Loading CAD geometry…
+Select a part for its definition. One fan serves the engine compartment and both cooler spaces. Fan, guard and core shapes are supplier reservations. Exploded offsets show separation; removal views show tested nominal envelopes.Enable JavaScript to rotate the CAD models. Drawing sheets and STEP downloads remain available.
+FilesSingle-fan layout STEP ↗Parts CSV ↗Engineering & handoff ↗Vector drawings ↗Handrail connections · LT8 ↗Service hardware · LT7 ↗PF–LOCO–LT9 · R0 · 19 October 2026 Pacific

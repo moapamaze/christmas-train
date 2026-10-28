@@ -1,0 +1,11 @@
+{
+  "coreParts": 1255,
+  "centreParts": 27,
+  "integratedParts": 1255,
+  "centreTriangles": 2756,
+  "softwareInteractionHarness": "passed",
+  "legacyDecodeAndClone": "passed",
+  "emptyAssetRejected": true,
+  "elapsedMs": 146,
+  "browserQA": "unavailable: managed preview could not mount proc"
+}

@@ -1,0 +1,61 @@
+{
+  "issue": "PF-3P3-MINISPLIT-R0",
+  "interfaces": [
+    {
+      "id": "IN-01",
+      "subject": "Above-door indoor mounting",
+      "definition": "Attach OEM plate and positive vibration restraint to engineered end-wall framing; preserve intake/filter/front-cover service, throw down aisle, door swing, circulation and accessible controls. Exact hardware/manual and dynamic loads determine fasteners and reinforcement.",
+      "accepted_dimensions": null,
+      "status": "open"
+    },
+    {
+      "id": "OUT-01",
+      "subject": "Non-boarding-side outdoor mounting",
+      "definition": "Mount on coach structure with a defined load path, vibration isolators/positive retention and outward free airflow. Guard without blocking coil/fan/service. Add actual mass/CG and lateral moment to frame/truck ledger; verify both stations and curve swept envelope/roll.",
+      "accepted_dimensions": null,
+      "status": "open"
+    },
+    {
+      "id": "PIPE-01",
+      "subject": "Refrigerant and controls",
+      "definition": "Keep both units on same sprung coach; use approved refrigerant, line lengths/diameters, pressure rating, supported protected routing, movement relief, flare/braze/testing per exact OEM procedure and refrigerant-qualified installer. No guessed flexible hose or suspension-crossing copper.",
+      "accepted_dimensions": null,
+      "status": "open"
+    },
+    {
+      "id": "WATER-01",
+      "subject": "Condensate and defrost water",
+      "definition": "Provide accessible drains with maintained fall over accepted parked/running pitch/roll, cleanout and suitable approved pump only if needed. Keep water/ice off rails, brake equipment, stairs and boarding route; evaluate outdoor heat-pump defrost drainage.",
+      "accepted_dimensions": null,
+      "status": "open"
+    },
+    {
+      "id": "AIR-01",
+      "subject": "Fresh air and comfort",
+      "definition": "Ordinary recirculating mini-split heads do not satisfy the existing outside-air requirement by themselves. Retain a separate engineered ventilation path and coordinate its heat/moisture/fan loads. Verify end-to-end occupied temperature and airflow with doors opening.",
+      "accepted_dimensions": null,
+      "status": "open"
+    },
+    {
+      "id": "ELEC-01",
+      "subject": "Generation and distribution",
+      "definition": "Preliminary120/240V four-conductor feeder L1/L2/N/PE,120V loads balanced between legs and appropriate240V branches. Final protection, disconnects, cable/jumper flex/retention, bonding/neutral/shore transfer, selectivity and voltage-drop design by electrical specialist. No neutral-to-coach-body bond assumption.",
+      "accepted_dimensions": null,
+      "status": "open"
+    },
+    {
+      "id": "GEN-01",
+      "subject": "Hotel generator installation",
+      "definition": "Confirm duty/deratedkW,kVA,PF/harmonic compatibility, simultaneous restart/defrost and voltage/frequency response; sequence HVAC restart. Resolve fuel, cooling/ventilation, acoustics, fire separation, service and exhaust/CO separation from every occupied intake. Verify load bank and actual train loads before acceptance.",
+      "accepted_dimensions": null,
+      "status": "open"
+    }
+  ],
+  "required_specialists": [
+    "Vehicle structural engineer/fabricator",
+    "Qualified HVAC/refrigerant installer and equipment application support",
+    "Vehicle electrical/generator specialist"
+  ],
+  "farm_crew_scope": "Mock up above-door space and service access; measure approved clearances, prepare reviewed noncritical routing/guards and inspect/clean per released instructions. Structural mounts, energized wiring and refrigerant work follow specialist documents.",
+  "tests": "Controlled installation dimensional check; static/dynamic retention and vibration; pressure/leak/evacuation/charge records; drain and defrost tests; occupied ventilation/temp distribution; generator restart/step/imbalance and protective-device/bonding tests under accepted criteria. No tests performed."
+}

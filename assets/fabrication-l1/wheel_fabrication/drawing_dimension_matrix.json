@@ -1,0 +1,53 @@
+{
+  "revision": "PF-TRAIN-S3L-WHEEL-R0",
+  "rows": [
+    {
+      "part": "W-01",
+      "description": "Monobloc rail wheel; 8 per four-axle coach",
+      "datums": "Wheel bore axis A; machined back rim face B",
+      "dimensions": "New/worn tread diameter; flange height/thickness/angle and root; tread/profile coordinates; rim width; hub bore/length/OD; web contour and fillets; back-face and tread runout",
+      "current_values": "500 and 600 mm diameters are prior brake calculation probes only; every cutting dimension held",
+      "release_evidence": "Rail/turnout profile match + wheel contact, web/hub fatigue and thermal analysis; forging drawing/stock allowance; approved material/class."
+    },
+    {
+      "part": "A-01",
+      "description": "One-piece rotating axle; 4 per coach",
+      "datums": "Common journal axis A; axial locating shoulder B",
+      "dimensions": "Journal/wheel/disc seat diameters and lengths; bearing spacing; overall length; shoulder positions; radii/reliefs/chamfers; bore if any; end retention; all finishes/coaxiality",
+      "current_values": "No production dimensions assigned",
+      "release_evidence": "Bearing selection; full axle beam/FEA load model; rotating bending/fretting fatigue; brake torque and side loads; material and NDT acceptance."
+    },
+    {
+      "part": "H-01A",
+      "description": "Wheel-hub brake-disc interface; one alternative",
+      "datums": "Wheel rotation A; disc mounting face B; pilot C",
+      "dimensions": "Integral hub face/pilot/bolt circle; fastener size/count, thread or through-hole fit; disc offset; backface access; runout; bolt preload",
+      "current_values": "ORX capability verified; pattern and thickness held",
+      "release_evidence": "Selected disc/caliper envelope, max torque including spring and combined faults, hub fatigue, joint slip/bearing/bolt and thermal growth checks."
+    },
+    {
+      "part": "H-01B",
+      "description": "Axle-mounted disc seat/carrier; alternate to H-01A",
+      "datums": "Axle rotation A; axial seat location B",
+      "dimensions": "Seat diameter/length; hub bore, interference, shoulder/retention; rotor attachment; removal tooling",
+      "current_values": "Separate design alternative; not both selected",
+      "release_evidence": "Manufacturer-supported carrier interface, axle stress concentration/fretting, slip and axial retention at hot/cold limits."
+    },
+    {
+      "part": "WS-01",
+      "description": "Pressed wheelset assembly; 4 per coach",
+      "datums": "Common journal axis A; wheelset mid-plane B",
+      "dimensions": "Wheel back-to-back; wheel gauge at profile datum; matched rolling diameters; bearing and disc locations; radial/axial runout; final mass",
+      "current_values": "36 in track gauge is retained, not a wheelset machining dimension",
+      "release_evidence": "Track designer and vehicle engineer release matched profile/back-to-back tolerances; recorded assembly and acceptance measurement."
+    },
+    {
+      "part": "I-01",
+      "description": "Inspection gauges and wheelset handling fixtures",
+      "datums": "Match released WS-01 datums",
+      "dimensions": "Profile template coordinates; back-to-back gauge; runout support locations; axle protection; press tooling contact faces",
+      "current_values": "Fixture production starts only after part datums released",
+      "release_evidence": "Wheel shop tooling review; instrument calibration, safe support and handling capacity."
+    }
+  ]
+}

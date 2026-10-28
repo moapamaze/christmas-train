@@ -1,0 +1,132 @@
+{
+ "rev": "RT1 28 Oct 2026",
+ "wheel": {
+  "B2B": [
+   857.0,
+   858.0,
+   859.0
+  ],
+  "t_new": 22.0,
+  "t_worn": 17.0,
+  "tread": 120.0,
+  "chamfer": 5.0,
+  "head": 47.6
+ },
+ "wheelset_gauge": {
+  "nom": 902.0,
+  "min_worn": 891.0,
+  "max_new": 903.0
+ },
+ "check_dim": {
+  "max_new": 881.0,
+  "min_worn": 874.0
+ },
+ "G_abs_max": 941.4,
+ "G_maint_limit": 932.0,
+ "widening": [
+  {
+   "case": "tangent / R \u2265 75 (914.4)",
+   "G_nom": 914.4,
+   "G_built_max": 920.4,
+   "G_worst": 926.4,
+   "play_worst": 35.4,
+   "tread_overlap": 62.6,
+   "head": 47.6,
+   "full_head_bearing": true,
+   "margin_to_abs": 15.0,
+   "play_new_nom": 12.4
+  },
+  {
+   "case": "R50-75 (36-1/8 in = 917.5)",
+   "G_nom": 917.6,
+   "G_built_max": 923.6,
+   "G_worst": 929.6,
+   "play_worst": 38.6,
+   "tread_overlap": 59.4,
+   "head": 47.6,
+   "full_head_bearing": true,
+   "margin_to_abs": 11.8,
+   "play_new_nom": 15.6
+  },
+  {
+   "case": "R45-50 (36-1/4 in = 920.7)",
+   "G_nom": 920.8,
+   "G_built_max": 926.8,
+   "G_worst": 932.8,
+   "play_worst": 41.8,
+   "tread_overlap": 56.2,
+   "head": 47.6,
+   "full_head_bearing": true,
+   "margin_to_abs": 8.6,
+   "play_new_nom": 18.8
+  }
+ ],
+ "restraining": {
+  "C_lower_bound": 881.0,
+  "C_nom": 886.0,
+  "C_tol": "+2.0/-0",
+  "C_renew_below": 883.0,
+  "rows": [
+   {
+    "case": "R50-60 widened 917.5",
+    "G": 917.6,
+    "C_nom": 886.0,
+    "flangeway_nom": 31.6,
+    "flangeway_min": 26.6,
+    "flangeway_max": 40.6,
+    "flange_need": 25.0,
+    "ok_min": true,
+    "outer_flange_gap_at_contact": {
+     "largest_wheelset": 2.0,
+     "smallest_worn": 14.0
+    }
+   },
+   {
+    "case": "R45-50 widened 920.7",
+    "G": 920.8,
+    "C_nom": 886.0,
+    "flangeway_nom": 34.8,
+    "flangeway_min": 29.8,
+    "flangeway_max": 43.8,
+    "flange_need": 25.0,
+    "ok_min": true,
+    "outer_flange_gap_at_contact": {
+     "largest_wheelset": 2.0,
+     "smallest_worn": 14.0
+    }
+   },
+   {
+    "case": "no widening 914.4",
+    "G": 914.4,
+    "C_nom": 886.0,
+    "flangeway_nom": 28.4,
+    "flangeway_min": 23.4,
+    "flangeway_max": 37.4,
+    "flange_need": 25.0,
+    "ok_min": false,
+    "outer_flange_gap_at_contact": {
+     "largest_wheelset": 2.0,
+     "smallest_worn": 14.0
+    }
+   }
+  ],
+  "pe892": {
+   "as_written": "check gauge 892 min",
+   "flangeway_if_track_check_gauge": 22.4,
+   "reading": "892 = min worn wheelset (flange-face) gauge 857 + 2\u00d717.5 - a WHEEL dimension, not a track check gauge. As a track/restraining check gauge it would leave a 22.4 mm flangeway against a 22 mm flange (19.4 at gauge -3) - NG."
+  }
+ },
+ "track": {
+  "Q_basis": 26.0,
+  "Q_max_static": 24.46,
+  "base_stress_MPa": 153,
+  "base_allow": 172,
+  "ballast_psi": 24.4,
+  "plate_psi": 87,
+  "tie_bending_psi": 394,
+  "lateral_TE_kN": 17.122,
+  "lateral_basis_kN": 18.2,
+  "rollover_limit": 0.5,
+  "LV_actual_R100_claimed": 0.11
+ }
+}

@@ -1,0 +1,496 @@
+{
+ "schema_version": 1,
+ "revision": "C5.3",
+ "research_date": "2026-10-19",
+ "status": "Exact components identified for conditional CAD development. Not a factory-matched complete kit or rated railway brake.",
+ "selection": {
+  "rotor": "Webb 55030PK-65",
+  "caliper_left": "WABCO 40175072 / Hendrickson S-39094-L",
+  "caliper_right": "WABCO 40175073 / Hendrickson S-39094-R",
+  "current_chamber_left": "Hendrickson S-40979-L / TSE 2224TLD2H-4627",
+  "current_chamber_right": "Hendrickson S-40979-R / TSE 2224TLD2H-4628",
+  "architecture": "Air service and spring-applied parking retained in the proposed architecture.",
+  "matching_limit": "L949 Rev T identifies the calipers, current chambers and Hendrickson S-33391 rotor under PAN17. Webb identifies 55030PK-65 as an interchange for WABCO CT826. The exact Webb rotor/caliper swept-band and adapter interfaces remain conditional; no S-33391 hub interchange is assumed.",
+  "placement": "Inboard study. Axle-end placement was rejected separately by the geometry review. This record does not select a caliper mounting coordinate."
+ },
+ "rotor": {
+  "manufacturer": "Webb Wheel Products",
+  "sku": "55030PK-65",
+  "type": "One-piece U-shaped ventilated rotor",
+  "drawing": {
+   "source": "https://cdn.prod.website-files.com/692683b9a358dca80ef39017/69609994c6c39d1d62295d61_SD-131%20Webb%20ADB%20ROTOR%20flyer%20R32.pdf",
+   "revision": "SD-131-R32, January 2024, page 2",
+   "scope": "Dimension table and generic U-shaped section. Not a fully dimensioned manufacturing drawing."
+  },
+  "dimensions_in_as_printed": {
+   "overall_diameter_A": 12.8,
+   "new_friction_thickness_B": 1.34,
+   "overall_depth_C": 5.85,
+   "pilot_diameter_D": 6.65,
+   "bolt_circle_E": 7.71
+  },
+  "dimensions_mm_converted": {
+   "overall_diameter_A": 325.12,
+   "new_friction_thickness_B": 34.036,
+   "overall_depth_C": 148.59,
+   "pilot_diameter_D": 168.91,
+   "bolt_circle_E": 195.834
+  },
+  "dimension_precision": "Conversions preserve the printed inch values; they are not new machining tolerances.",
+  "mounting": {
+   "hole_count": 8,
+   "thread": "M14 x 2",
+   "hardware_included": true,
+   "hardware_detail": "PK suffix includes hardware; exact bolt length, grade, engagement and tightening procedure were not established here.",
+   "pilot_fit_tolerance_mm": null,
+   "web_thickness_mm": null,
+   "mounting_face_to_friction_face_mm": null
+  },
+  "mass_lb_current_table": 40,
+  "mass_kg_converted": 18.1436948,
+  "features": [
+   "ABS feature in the published row",
+   "Corrosion protective coating indicated by -65 suffix"
+  ],
+  "manufacturer_cross_reference": [
+   "WABCO CT826",
+   "Meritor M44D75180",
+   "DuraBrake 75180"
+  ],
+  "exact_friction_annulus_inner_diameter_mm": null,
+  "wear_limit": {
+   "manufacturer_exact_sku_limit_mm": null,
+   "seller_minimum_thickness_in": 1.11,
+   "seller_minimum_thickness_mm_converted": 28.194,
+   "seller_source": "https://triplertruckparts.com/webb-55030pk-65-air-disc-brake-rotor-wabco-pan-17/",
+   "status": "Seller value only. Do not replace the marked rotor limit or manufacturer procedure with the caliper drawing limit of 28 mm."
+  },
+  "unresolved_section_dimensions": [
+   "Exact friction annulus inner diameter",
+   "Pilot tolerance and fit",
+   "Web and attachment flange thickness",
+   "Hub mating-face position within the overall depth",
+   "Actual bolt specification and thread engagement"
+  ],
+  "s33391_interchange": {
+   "assumed": false,
+   "reason": "Webb R32 does not cross-reference S-33391. Other catalogs disagree on the pilot and mounting dimensions, so the custom adapter must use the selected Webb part, not a blended drawing."
+  }
+ },
+ "caliper": {
+  "family": "WABCO PAN17",
+  "sku_left": "40175072",
+  "sku_right": "40175073",
+  "manufacturer_ga": "https://www.wabco-customercentre.com/catalog/docs/6401750720____053_dascheck_j4_page-1---notset_tif.pdf",
+  "drawing_identifier": "40 175 072, PAN17; drawing also identifies opposite-hand 40 175 073",
+  "overall_rotating_profile_radius_mm": 216,
+  "axial_ga_coordinates_mm": {
+   "basis": "Carrier flange plane in OEM side view is zero.",
+   "negative_side_envelope": -135.4,
+   "positive_side_envelope": 146.1,
+   "additional_wear_displacement_arrow": 21,
+   "disc_inner_face_to_carrier_face": 24,
+   "disc_inner_face_offset_tolerance": 1
+  },
+  "carrier_mount": {
+   "thread": "M14 x 1.5",
+   "count": 6,
+   "screw_property_class": "10.9",
+   "minimum_thread_engagement_mm": 18,
+   "tightening_torque_Nm": [
+    205,
+    225
+   ],
+   "hole_position_tolerance_diameter_mm": 0.2,
+   "basis": "Front view, rotor-axis origin; t tangential, r radial. Coordinates transcribed from dimension chains, for the depicted 330 mm disc.",
+   "hole_coordinates_t_r_mm": [
+    [
+     114,
+     64
+    ],
+    [
+     -114,
+     64
+    ],
+    [
+     -144,
+     64
+    ],
+    [
+     144,
+     64
+    ],
+    [
+     155,
+     36
+    ],
+    [
+     -155,
+     36
+    ]
+   ],
+   "fabrication_status": "OEM drawing and selected rotor/pad geometry must be reconciled before releasing the custom bracket."
+  },
+  "cylinder_interface": {
+   "stud_spacing_mm": 120.7,
+   "spacing_tolerance_mm": 0.25,
+   "mounting_hole_diameter_mm": 17,
+   "hole_diameter_tolerance_mm": 0.25,
+   "stud_thread": "M16 x 1.5",
+   "axis_inclination_deg_in_side_view": 9,
+   "installation_torque_Nm": [
+    180,
+    210
+   ]
+  },
+  "disc_basis_on_ga": {
+   "diameter_mm": 330,
+   "new_thickness_mm": 34,
+   "new_thickness_tolerance_mm": [
+    0,
+    -0.2
+   ],
+   "discard_thickness_mm": 28,
+   "rubbing_band_radial_width_approx_mm": 76
+  },
+  "selected_rotor_compatibility": "Conditional. Hendrickson pairs this caliper family with a nominal 325 mm rotor, but the inspected WABCO GA is drawn for 330 mm. Webb friction annulus and pad overhang have not been proven. Do not radially shift the carrier by 2.5 mm and call the combination verified.",
+  "mounting_torque_transfer_note_Nm": 10000,
+  "mounting_note_limit": "This is the OEM mounting-joint transfer note with specified bolts and engagement, not rated service braking torque, an allowable for the custom bracket, or a guaranteed chamber output.",
+  "permissible_rotor_caliper_angular_misalignment_deg": null,
+  "alignment_limit": "No operating angular-misalignment permission was found. The carrier must follow the rotor plane; the GA flange alignment tolerances are not permission for suspension-induced misalignment."
+ },
+ "current_chamber": {
+  "type": "22/24 combined service and spring brake, TSE private label for Hendrickson",
+  "left": {
+   "hendrickson": "S-40979-L",
+   "tse": "2224TLD2H-4627"
+  },
+  "right": {
+   "hendrickson": "S-40979-R",
+   "tse": "2224TLD2H-4628"
+  },
+  "source": "https://www.hendrickson-intl.com/getattachment/54c582a0-10e2-4fe2-9e8f-f4e33f9fccb4/L949.pdf",
+  "source_revision": "L949 Rev T, printed page 15",
+  "mounting_application_in_catalog": "PAN17, B2AHT",
+  "exact_suffix_ga_found": false,
+  "exact_body_dimensions_mm": null,
+  "pushrod_stroke_mm": null,
+  "maximum_operating_pressure_bar": null,
+  "service_force_curve_N": null,
+  "spring_force_curve_N": null,
+  "released_stroke_clearance_mm": null,
+  "bounded_search_result": "Exact suffixes appear in the Hendrickson parts table. Inspected public TSE family sales sheet, quick guide and installation instructions did not supply a suffix-specific GA or force table.",
+  "pressure_caution": "The TSE installation instruction 90\u2013120 psi caging pressure is a service procedure value, not an established maximum operating rating. A spring-force warning is not an upper load bound.",
+  "legacy_exclusions": [
+   "The general Hendrickson application page says 18/24, but no exact 18/24 package was frozen.",
+   "Older official parts catalog page 365 identifies 20/24 WABCO 9253800250/0240. Those dimensions and force curves are not assigned to the current TSE 22/24."
+  ],
+  "availability": "Exact suffix stock quantity and lead time not established. OEM catalog identity does not prove on-hand availability."
+ },
+ "pad_and_revision_hold": {
+  "current_pan17_pad_kit": "S-41159-1",
+  "lining_name": "WABCO 232",
+  "conflict": "L949 Rev T pad table labels PAN17 chamber 20/24 while its chamber table labels current PAN17 22/24. No friction coefficient, torque curve or complete pad/chamber rating is assigned from this discrepancy."
+ },
+ "availability_as_of": "2026-10-19",
+ "availability": [
+  {
+   "part": "Webb 55030PK-65",
+   "seller": "Triple R Truck Parts, Pennsylvania, USA",
+   "displayed_status": "4 In Stock",
+   "quantity": 4,
+   "price_USD": null,
+   "source": "https://triplertruckparts.com/webb-55030pk-65-air-disc-brake-rotor-wabco-pan-17/",
+   "evidence_kind": "Exact product page retrieved; seller representation, not reserved inventory."
+  },
+  {
+   "part": "Webb 55030PK-65",
+   "seller": "FinditParts, USA",
+   "displayed_status": "In stock in indexed exact-part category entry",
+   "quantity": null,
+   "source": "https://www.finditparts.com/t/409/manufacturer/webb/categories/brake/drums-and-rotors/disc-brake-rotor/",
+   "evidence_kind": "Secondary indexed listing; fresh category rendering did not reproduce the item. Not a second verified on-hand count."
+  },
+  {
+   "part": "Webb 55030PK-65",
+   "seller": "FleetPride, Dallas default location, USA",
+   "displayed_status": "Pickup and shipping not available to displayed 75247 location",
+   "quantity": null,
+   "source": "https://www.fleetpride.com/parts/webb-brake-rotor-55030pk65",
+   "evidence_kind": "Exact product page; additional listing, not positive stock evidence."
+  },
+  {
+   "part": "WABCO 40175072",
+   "seller": "Brakes 4 Trailers, USA",
+   "displayed_status": "In stock; genuine WABCO with carrier",
+   "quantity": null,
+   "price_USD": null,
+   "source": "https://brakes4trailers.com/products/40175072-genuine-wabco-disc-brake-caliper-pan-17",
+   "evidence_kind": "Exact product listing; quantity not disclosed."
+  },
+  {
+   "part": "WABCO 40175073",
+   "seller": "Brakes 4 Trailers, USA",
+   "displayed_status": "In stock; genuine WABCO with carrier",
+   "quantity": null,
+   "price_USD": null,
+   "source": "https://brakes4trailers.com/products/40175073-genuine-wabco-disc-brake-caliper-pan-17",
+   "evidence_kind": "Exact product listing; quantity not disclosed."
+  }
+ ],
+ "replacement_plan": {
+  "rotor": "Replace the complete closed Webb rotor, not a fabricated split version. In the proposed inboard coach arrangement, remove the wheelset and use a wheel shop to remove one wheel before rotor removal. The axle/rotor carrier arrangement must preserve that removal path.",
+  "pad_and_caliper": "Provide access to the pad-retention hardware and caliper mounting fasteners with the rotor installed. Reserve OEM wear displacement and hose travel. Exact coach access and lifting arrangement remain CAD checks.",
+  "hardware": "Use selected-part replacement hardware and verified installation procedure. Hendrickson recommends new rotor bolts for its own rotor kits; that does not establish Webb bolt grade or torque.",
+  "operating_limit": "Manufacturer vehicle application data does not qualify this custom railway installation."
+ },
+ "wilwood_comparison": {
+  "research_date": "2026-10-19",
+  "scope": "One commercially listed Wilwood bolt-on rotor and matched CPB caliper family; comparison candidate only, not approved railway brake design.",
+  "status": "Documented matched parts and public US availability. Hold fabrication pending wear limit, dimensional discrepancy, rail load/thermal/parking validation and axle adapter design.",
+  "architecture": {
+   "service": "Hydraulic, single-piston floating caliper",
+   "parking": "Cable-operated mechanical lock in same caliper",
+   "change_required": "Does not retain an air service/spring-applied parking architecture inherently. Pneumatic-to-hydraulic conversion and fail-safe parking would require separately engineered interfaces if retained.",
+   "railway_qualification": "Not established by the inspected manufacturer sources."
+  },
+  "rotor": {
+   "sku": "160-5841",
+   "family": "Ultralite HP 32 Vane, plain face, iron, non-directional",
+   "diameter_in": 11.75,
+   "diameter_mm": 298.45,
+   "new_thickness_in": 0.81,
+   "new_thickness_mm": 20.574,
+   "bolt_count": 8,
+   "mount_pcd_in": 7.0,
+   "mount_pcd_mm": 177.8,
+   "mount_hole_diameter_in": 0.326,
+   "mount_hole_diameter_mm": 8.2804,
+   "lug_id_in": 6.38,
+   "lug_id_mm": 162.052,
+   "far_side_id_in": 8.34,
+   "far_side_id_mm": 211.836,
+   "weight_lb": 8.1,
+   "minimum_wear_thickness": null,
+   "minimum_wear_status": "Not established from inspected OEM rotor page, drawing and matched-kit instructions. Caliper minimum rotor width 0.75in is a compatibility value, not a confirmed rotor discard threshold.",
+   "connection": "Separate replaceable ring bolted to hat/bell. Coach axle/hat interface still to be engineered.",
+   "source": "https://www.wilwood.com/Rotors/RotorProd?itemno=160-5841",
+   "drawing": "https://www.wilwood.com/Images/Rotors/Rotor_Drawings-Large/Ultralite-32-Vane-Rotor-810-dw-lg.jpg"
+  },
+  "caliper": {
+   "selected_sku": "120-9808-BK",
+   "hand": "RH",
+   "opposite_hand_sku": "120-9809-BK",
+   "obsolete_base_part": "120-9808 without suffix is marked obsolete in OEM part search; current BK part has live product page and is in current flyer.",
+   "piston_diameter_in": 1.34,
+   "piston_diameter_mm_oem": 34.0,
+   "piston_area_in2_oem": 1.41,
+   "weight_lb": 6.1,
+   "mount_type": "Radial, fixed carrier, floating caliper",
+   "mount_centers_in": 5.98,
+   "mount_centers_mm_oem": 152.0,
+   "mount_hole_diameter_in": 0.39,
+   "mount_hole_diameter_mm_oem": 9.9,
+   "inlet": "M10 x 1.00 banjo",
+   "rotor_width_min_in": 0.75,
+   "rotor_width_max_in": 0.81,
+   "rotor_diameter_min_in": 11.0,
+   "rotor_diameter_max_in": 13.0,
+   "pad_shape": "D340",
+   "pad_total_area_in2_oem": 4.0,
+   "pad_total_volume_in3_oem": 1.5,
+   "compatible_bp10_axle_pad_set": "150-9184K",
+   "alternative_current_bp10_sku": "150-10-D0340K",
+   "pad_drawing_dimensions_mm_oem": {
+    "width": 87.1,
+    "height": 52.8,
+    "total_thickness": 14.7
+   },
+   "source": "https://www.wilwood.com/Calipers/CaliperProd?itemno=120-9808-BK",
+   "ga_source": "https://www.wilwood.com/PDF/Flyers/fl631.pdf",
+   "ga_revision": "02/10/2026 as printed",
+   "ga_basis": "Family drawing depicts left-hand rear-mounted caliper; right-hand candidate requires orientation verification.",
+   "ga_for_081_thickness_1175_diameter": {
+    "A_max_face_offset_in": 3.08,
+    "A_max_face_offset_mm_oem": 78.2,
+    "B_mount_offset_in": 1.13,
+    "B_mount_offset_mm_oem": 28.7,
+    "E_outside_radius_in": 7.45,
+    "E_outside_radius_mm_oem": 189.2,
+    "D1_formula_in": "disc diameter / 2 - 2.03",
+    "D1_derived_in": 3.845,
+    "D1_derived_mm": 97.663,
+    "body_span_in": 6.88,
+    "body_span_mm_oem": 174.8,
+    "mount_to_cable_bracket_top_in": 4.25,
+    "mount_to_cable_bracket_top_mm_oem": 107.8,
+    "overall_C_dimension": "Indicated but numeric value not provided. Caliper travel likewise not numerically specified."
+   },
+   "mount_height_conflict": {
+    "product_page_in": 2.08,
+    "ga_in": 2.03,
+    "ga_mm_oem": 51.5,
+    "resolution": "Unresolved; do not release mounting bracket from this mixed data."
+   }
+  },
+  "matched_assembly_evidence": {
+   "source": "https://www.wilwood.com/PDF/DataSheets/ds671.pdf",
+   "revision": "DS671M 02-02-22",
+   "evidence": "Parts list pairs 160-5841 rotor, 120-9808/09-BK calipers and 150-9184K BP-10 pads in an automotive kit. This proves component pairing, not suitability or direct fit to the coach.",
+   "oem_automotive_hat": "170-10868",
+   "oem_kit_rotor_bolt": "230-11935, 5/16-18 x 1.00 button-head Torx",
+   "oem_rotor_bolt_kit": "230-12177",
+   "adapter_note": "Automotive hat, mounting bracket and hardware interface must not be assumed compatible with coach axle."
+  },
+  "availability": [
+   {
+    "part": "120-9808-BK",
+    "seller": "BuyBrakes",
+    "price_usd": null,
+    "displayed_status": "In Stock",
+    "displayed_arrival": "Oct 22-28",
+    "url": "https://www.buybrakes.com/wilwood-120-9808-bk-caliper-cpb-r-h-black",
+    "retrieval_ref": "turn239view0"
+   },
+   {
+    "part": "120-9808-BK",
+    "seller": "JEGS",
+    "seller_part": "950-120-9808-BK",
+    "price_usd": null,
+    "displayed_status": "Ships Tomorrow",
+    "inventory_count": null,
+    "url": "https://www.jegs.com/i/wilwood-950-120-9808-bk-combination-brake-parking-brake-caliper-1-34-bore-size",
+    "retrieval_ref": "turn243view0"
+   },
+   {
+    "part": "160-5841",
+    "seller": "Sport Compact Warehouse",
+    "seller_part": "WIL160-5841",
+    "price_usd": null,
+    "displayed_status": "Current Stock: 65; regularly stocked",
+    "inventory_count": 65,
+    "url": "https://sportcompactwarehouse.com/wilwood-rotor-ul32-hp-vented-iron-11-75-x-810-8-on-7-00in-160-5841/",
+    "retrieval_ref": "turn239view1"
+   },
+   {
+    "part": "160-5841",
+    "seller": "JEGS",
+    "seller_part": "950-160-5841",
+    "price_usd": null,
+    "displayed_status": "Ships Today",
+    "inventory_count": null,
+    "url": "https://www.jegs.com/i/wilwood-950-160-5841-ultralite-hp-32-straight-vane-rotor",
+    "retrieval_ref": "turn241view2"
+   }
+  ],
+  "availability_caveat": "Seller representations observed 2026-10-19, not reserved inventory or guaranteed dispatch. Two seller sources per exact selected rotor/RH caliper; LH stock not separately checked.",
+  "release_holds": [
+   "Manufacturer confirmed rotor minimum wear thickness.",
+   "Resolve 2.08in product-page versus 2.03in GA mounting height and obtain full relevant handed envelope/travel.",
+   "Engineer rotor hat/axle connection, bracket, clearances and fasteners from loads.",
+   "Verify hydraulic service torque, duty-cycle heat, fluid and pressure limits.",
+   "Verify cable parking force/holding torque and required automatic fail-safe function.",
+   "Confirm rail application acceptance and service inspection scheme."
+  ],
+  "local_evidence": [
+   "wilwood-ds671-paired-kit.pdf",
+   "wilwood-fl631-cpb.pdf",
+   "wilwood-fl631-cpb-mount.png",
+   "wilwood-1605841-drawing.jpg",
+   "wilwood-cpb-caliper-drawing.jpg",
+   "wilwood-D340-pad-drawing.jpg",
+   "wilwood-1605841.html",
+   "wilwood-1209808BK.html"
+  ],
+  "short_source_quote": {
+   "source": "https://www.wilwood.com/PDF/Flyers/fl631.pdf",
+   "quote": "The integrated parking brake lock is cable-actuated with common cable ends"
+  }
+ },
+ "release_holds": [
+  "Exact TSE chamber envelope, stroke, release travel, pressure and force curves",
+  "Verified selected rotor friction annulus and PAN17 pad sweep",
+  "Selected Webb rotor mounting section, pilot tolerance and bolt specification",
+  "Axle-following carrier and short torque reaction with suspension alignment",
+  "Service torque, spring parking, anti-compounding, adhesion and thermal duty",
+  "Wheelset removal and wheel-shop rotor replacement procedure",
+  "Part-specific wear limits and inspection procedure"
+ ],
+ "sources": {
+  "webb_dimensions": "https://cdn.prod.website-files.com/692683b9a358dca80ef39017/69609994c6c39d1d62295d61_SD-131%20Webb%20ADB%20ROTOR%20flyer%20R32.pdf",
+  "webb_landing": "https://www.webbwheel.com/sales",
+  "caliper_ga": "https://www.wabco-customercentre.com/catalog/docs/6401750720____053_dascheck_j4_page-1---notset_tif.pdf",
+  "caliper_product": "https://www.wabco-customercentre.com/catalog/en_US/40175072",
+  "hendrickson_current": "https://www.hendrickson-intl.com/getattachment/54c582a0-10e2-4fe2-9e8f-f4e33f9fccb4/L949.pdf",
+  "hendrickson_application": "https://www.hendrickson-intl.com/getattachment/155d9e36-24d4-49e4-84c7-7ac5002024c0/L1272.pdf",
+  "hendrickson_legacy_catalog": "https://digital.hendrickson-intl.com/view/513311/365/",
+  "triple_r": "https://triplertruckparts.com/webb-55030pk-65-air-disc-brake-rotor-wabco-pan-17/",
+  "finditparts_rotor": "https://www.finditparts.com/t/409/manufacturer/webb/categories/brake/drums-and-rotors/disc-brake-rotor/",
+  "fleetpride_rotor": "https://www.fleetpride.com/parts/webb-brake-rotor-55030pk65",
+  "caliper_stock_left": "https://brakes4trailers.com/products/40175072-genuine-wabco-disc-brake-caliper-pan-17",
+  "caliper_stock_right": "https://brakes4trailers.com/products/40175073-genuine-wabco-disc-brake-caliper-pan-17",
+  "tse_family": "https://www.tsebrakes.com/medias/iw/TSE-SalesSheetsTSE-HOT-Web-2026.pdf",
+  "tse_quick_reference": "https://www.tsebrakes.com/medias/iw/Quick-Reference-Guide.pdf",
+  "tse_installation": "https://www.tsebrakes.com/medias/iw/TSE_Disc_Brake_Installation_Instructions_1_1_1.pdf"
+ },
+ "source_files": [
+  {
+   "path": "/workspace/scratch/29e03dcb9968/c53-research/sources/webb-rotor-dimensions.pdf",
+   "sha256": "0a8b496f7fefbec2f899669b707359f3a760038df0a27b0d3dc1ba1ca5bbf0ae",
+   "bytes": 1421117,
+   "publication": "Evidence retained outside public assets; use the manufacturer URL for attribution."
+  },
+  {
+   "path": "/workspace/scratch/29e03dcb9968/c53-research/sources/wabco-pan17-40175072.pdf",
+   "sha256": "7d89ef463210bb14febe7269be08cae20d381e9faf9dc6bed71cd017f71b131e",
+   "bytes": 282736,
+   "publication": "Evidence retained outside public assets; use the manufacturer URL for attribution."
+  },
+  {
+   "path": "/workspace/scratch/29e03dcb9968/c53-research/sources/hendrickson-L949.pdf",
+   "sha256": "8aa65ce66330dd273d78f65c7ff54fdc3fb20c69b4d7f58c0a0e940501af8754",
+   "bytes": 8016632,
+   "publication": "Evidence retained outside public assets; use the manufacturer URL for attribution."
+  },
+  {
+   "path": "/workspace/scratch/29e03dcb9968/c53-research/sources/hendrickson-L1272.pdf",
+   "sha256": "bf5f97938782695e213f529b6b924ecd08682a5b827ed52f14d9d4b4531c194c",
+   "bytes": 611104,
+   "publication": "Evidence retained outside public assets; use the manufacturer URL for attribution."
+  }
+ ],
+ "page_parts": [
+  {
+   "name": "Webb 55030PK-65 rotor",
+   "role": "Replaceable inboard air-disc rotor",
+   "availability": "Triple R lists 4 in stock; second exact on-hand quantity unverified.",
+   "availability_as_of": "2026-10-19",
+   "fit_status": "Published diameter, depth and mounting pattern; detailed section and pad sweep remain open.",
+   "source_url": "https://triplertruckparts.com/webb-55030pk-65-air-disc-brake-rotor-wabco-pan-17/"
+  },
+  {
+   "name": "WABCO 40175072 / 40175073 calipers",
+   "role": "PAN17 air-disc caliper and carrier",
+   "availability": "Brakes 4 Trailers lists genuine left and right parts in stock; quantities not shown.",
+   "availability_as_of": "2026-10-19",
+   "fit_status": "OEM mounting GA retrieved; 330 mm drawing versus 325 mm application must be reconciled.",
+   "source_url": "https://brakes4trailers.com/products/40175072-genuine-wabco-disc-brake-caliper-pan-17"
+  },
+  {
+   "name": "TSE 2224TLD2H-4627 / 4628 chambers",
+   "role": "Current Hendrickson PAN17 air service and spring parking chambers",
+   "availability": "OEM part identity confirmed; exact stock and lead time unknown.",
+   "availability_as_of": "2026-10-19",
+   "fit_status": "Exact suffix GA, stroke and forces unavailable in inspected public evidence.",
+   "source_url": "https://www.hendrickson-intl.com/getattachment/54c582a0-10e2-4fe2-9e8f-f4e33f9fccb4/L949.pdf"
+  },
+  {
+   "name": "Wilwood 160-5841 rotor and 120-9808-BK / 120-9809-BK CPB calipers",
+   "role": "Comparison alternative with hydraulic service and cable parking",
+   "availability": "Two US listings per rotor and right-hand caliper recorded in the comparison.",
+   "availability_as_of": "2026-10-19",
+   "fit_status": "Documented component pairing; changes the brake architecture and retains dimensional and wear-limit holds.",
+   "source_url": "https://www.wilwood.com/PDF/DataSheets/ds671.pdf"
+  }
+ ]
+}

@@ -1,0 +1,72 @@
+{
+  "issue": "PF-3M1-DB01-R0",
+  "date": "2026-10-19",
+  "status": "DIMENSIONED ALTERNATIVE STUDY ONLY; NOT FOR FABRICATION",
+  "part_id": "DB-01",
+  "description": "One-piece capsule-profile steel drawbar with two nominal spherical-bearing seats",
+  "geometry": {
+    "eye_center_distance_mm": 800,
+    "width_mm": 150,
+    "end_radius_mm": 75,
+    "thickness_mm": 36,
+    "nominal_bearing_seat_diameter_mm": 90,
+    "overall_length_mm": 950
+  },
+  "dimension_basis": {
+    "90_mm_bores": "Candidate GE60ES-2RS catalog OD; nominal seats only, not a finished bore instruction.",
+    "36_mm_thickness": "Candidate bearing outer-ring width C. Bearing retention and complete joint are not yet designed.",
+    "150_mm_width": "Analyst trial leaving30mm radial edge ligament and2160mm2 nominal net area at each90mm seat. Screened below; local eye contact/fatigue remains unresolved.",
+    "800_mm_centres": "Length probe for strength/packaging comparison; not derived from a selected car gap or curve and not an accepted coupling length.",
+    "end_radii": "Capsule half-width; no arbitrary sharp shoulder transition."
+  },
+  "load_probe_N": 200000,
+  "load_probe_status": "Independent analyst part-load probe, not accepted design/proof load or a certified coupling capacity. Quasi-static train-force sensitivities are not impact-load limits.",
+  "material_candidate": "ASTM A572 Grade50 mill plate; current SSAB product evidence, actual plate and toughness requirements unaccepted",
+  "material_min_yield_MPa": 344.73786465840004,
+  "material_min_tensile_MPa": 448.15922405592005,
+  "elastic_modulus_trial_MPa": 200000,
+  "density_trial_kg_m3": 7850,
+  "bearing_candidate": {
+    "manufacturer": "SKF",
+    "designation": "GE 60 ES-2RS",
+    "status": "Catalog interface candidate only; not selected or availability confirmed",
+    "bore_d_mm": 60,
+    "outer_D_mm": 90,
+    "inner_width_B_mm": 44,
+    "outer_width_C_mm": 36,
+    "catalog_tilt_deg": 6,
+    "tilt_condition": "Full catalog tilt requires shaft shoulder not exceeding SKF da max and sufficient surrounding joint clearance; installed movement not verified.",
+    "catalog_dynamic_C_kN": 245,
+    "catalog_static_C0_kN": 1220,
+    "catalog_mass_kg": 1.1,
+    "source": "https://www.skf.com/binaries/pub12/Images/0901d19680154a05-06116_1-EN_tcm_12-122020.pdf",
+    "source_locator": "Printed106 / PDF108; application methods printed38\u201377",
+    "meaning": "Spherical PLAIN bearing ratings, not rolling-bearing L10 ratings and not allowable coupling loads. Actual oscillation, pressure/velocity, lubrication, seals, fits and surrounding articulation clearance must be checked."
+  },
+  "critical_dimensions_not_assigned": {
+    "finished_bore_fit": null,
+    "bore_roundness_cylindricity": null,
+    "bore_position_parallelism": null,
+    "surface_finishes": null,
+    "edge_breaks_and_notch_acceptance": null,
+    "bearing_axial_retention": null,
+    "pin_material_diameter_fit_and_retention": null,
+    "clevis_dimensions_material_joints": null,
+    "frame_attachment_and_draft_gear": null,
+    "full_yaw_pitch_roll_envelope": null,
+    "fatigue_spectrum_and_allowables": null,
+    "final_coupling_length_and_gap": null,
+    "manufacturing_tolerances": null,
+    "inspection_NDT_acceptance": null
+  },
+  "drawing_complete_for_fabrication": false,
+  "engineering_release": false,
+  "fabrication_release": false,
+  "limits": [
+    "No bearing internals, pins, clevises, retention plates or frame attachment geometry is invented.",
+    "The shape is an actual defined custom-part alternative, not a generic block; every view uses these parameters.",
+    "Changing the bearing retention or joint design can require changing the part dimensions.",
+    "No inter-car passenger passage is established by this component.",
+    "Use current accepted materials, fatigue/local-contact design and professional review before any manufacturing release."
+  ]
+}

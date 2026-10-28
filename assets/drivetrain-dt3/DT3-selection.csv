@@ -1,0 +1,12 @@
+Tag,Candidate / geometry,Qty per truck,Selection status
+M1,H1B110 SAE152-4 / DS / L2BA family,1,Candidate; full order code not approved
+R1,"Custom module7, 24/60T spur reducer",1,Proposed gearset; rating required
+S1/S2,GWB687/688.25 design9.03 Lz355 La70,2,Catalog family chosen; supplier order/life confirmation
+F1/F2,"Custom module6,20/60T bevel final drive",2,Proposed gearset; vendor geometry and rating required
+B-input,NTN4T-30209,2,Dimensional candidate; life/preload not approved
+B-output,NTN4T-30212,2,Dimensional candidate; life/preload not approved
+B-pinion,NTN4T-30210,4,Dimensional candidate; life/preload not approved
+B-axle,120×180×38 tapered bearing trial,4,No exact SKU; conflicting width data
+T1/T2,"450mm torque rod,24mm pin,spherical ends",2,Custom proposal; ≥40kN reversible end-joint target
+H-A/H-B,DN25 motor loop port connection,2,Hose/fittings/order-code selection pending
+H-D,Upper case drain direct to reservoir,1,Size and return-pressure verification pending

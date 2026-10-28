@@ -1,0 +1,117 @@
+{
+  "issue": "LT5-R0",
+  "date": "2026-10-20",
+  "source_base": "f827157362b2d51014a0fb0903ededb316357d72",
+  "construction_approved": false,
+  "geometry": {
+    "parts": 819,
+    "new_parts": 305,
+    "valid_solids": 819,
+    "targeted_bbox_pairs": 16,
+    "overlaps": [],
+    "scope": "New frame/enginecradle/stationframe/utility/cooling/console fabricated pieces internally and against inherited frame/skid/cab. Excludes trucks, motion, trim, hardware and supplier reservations. Intentional penetrations are reported, not silently accepted."
+  },
+  "mass_kg": {
+    "modeled_total_with_engine_dry": 5005.834510591811,
+    "new_fabricated": 802.6587038897895,
+    "unknown_excluded": [
+      "LT5-ISO2850--500",
+      "LT5-ISO2850-500",
+      "LT5-ISO4050--500",
+      "LT5-ISO4050-500",
+      "LT5-PUMP",
+      "LT5-COOL5075",
+      "LT5-COOL5310",
+      "LT5-COOL-HOOD",
+      "LT5-FUEL",
+      "LT5-OIL",
+      "LT5-BATT",
+      "LT5-EXH",
+      "LT5-GL-1",
+      "LT5-GL1",
+      "LT5-SEAT-1CUSHION",
+      "LT5-SEAT-1BACK",
+      "LT5-SEAT1CUSHION",
+      "LT5-SEAT1BACK",
+      "LT5-SEAT-1SLIDE",
+      "LT5-SEAT1SLIDE",
+      "LT5-PV380",
+      "LT5-ESTOP",
+      "LT5-KEY",
+      "LT5-HORN",
+      "LT5-TRACTION",
+      "LT5-BRAKE"
+    ],
+    "not_vehicle_mass": true
+  },
+  "skid_trial": {
+    "mass_kg": 600,
+    "CG_height_above_feet_mm": 700,
+    "support_pitch_mm": [
+      2100,
+      1000
+    ],
+    "accelerations_g": {
+      "down": 2,
+      "longitudinal": 1,
+      "lateral": 0.5
+    },
+    "foot_reactions_N": [
+      931.63175,
+      2991.02825,
+      2892.96175,
+      4952.358249999999
+    ],
+    "formula": "R=Fz/4 \u00b1 Fx*h/(2L) \u00b1 Fy*h/(2B); rigid equal-stiffness four-foot screen only",
+    "max_uplift_per_foot_for_separate_1g_up_plus_moments_N": 3481.36075,
+    "joint_capacity_checked": false
+  },
+  "isolator_trial": {
+    "total_package_kg": 600,
+    "mounts": 4,
+    "static_deflection_mm": 5,
+    "load_each_N": 1470.9975,
+    "linear_rate_N_per_mm": 294.1995,
+    "natural_frequency_Hz": 7.048479926786101,
+    "status": "Unselected; candidate envelope90dia\u00d760 high. Mass/CG, motion ratios, torque and supplier nonlinear curves missing."
+  },
+  "cooling_sensitivity": {
+    "slot_area_m2": 0.47520000000000007,
+    "rho_kg_m3": 1.1,
+    "Cp_J_kgK": 1005,
+    "air_rise_K": 20,
+    "points": [
+      {
+        "heat_kW": 50,
+        "flow_m3_s": 2.261420171867933,
+        "slot_velocity_m_s": 4.758880833055414
+      },
+      {
+        "heat_kW": 75,
+        "flow_m3_s": 3.3921302578018997,
+        "slot_velocity_m_s": 7.138321249583122
+      },
+      {
+        "heat_kW": 100,
+        "flow_m3_s": 4.522840343735866,
+        "slot_velocity_m_s": 9.517761666110829
+      }
+    ],
+    "status": "Sensitivity; no claim these are OEM heat loads. Total airflow through two cores/ducts/fan must be solved from actual curves."
+  },
+  "engine_catalog": {
+    "gross_intermittent_kW": 55.4,
+    "rpm": 2600,
+    "dry_kg": 299,
+    "includes": "DOC+DPF",
+    "excludes": "fan",
+    "installed_continuous_kW": null
+  },
+  "frame_height": {
+    "frame_top_mm": 1775,
+    "cab_finish_mm": 1800,
+    "status": "provisional",
+    "hold": "DT5 spring space240 replaces305; return full operating suspension and combined moving envelope. No frame-height release."
+  },
+  "shared_geometry_preserved": "DT5 R1 and coach CA1 source merged unchanged. Duplicate raw DT5 model retained outside static directory; deployed gzip unchanged."
+}

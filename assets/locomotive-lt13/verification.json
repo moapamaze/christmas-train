@@ -1,0 +1,27 @@
+{
+  "issue": "LT13-R0",
+  "source_geometry": "e9bc6bf5b0d982d60bda11e9032acdf1edb9201c",
+  "curve_centre_coordinate_max_error_mm": 3.637978807091713e-12,
+  "placements": 15,
+  "solid_pair_samples": 306900,
+  "links_checked": 176,
+  "drawings_rendered_and_inspected": 3,
+  "viewer": {
+    "issue": "LT13-R0",
+    "screenedPlacements": 15,
+    "coreParts": 287,
+    "centreParts": 12,
+    "integratedParts": 287,
+    "centreTriangles": 1136,
+    "softwareInteractionHarness": "passed",
+    "legacyDecodeAndClone": "passed",
+    "emptyAssetRejected": true,
+    "elapsedMs": 90,
+    "browserQA": "Not run in browser; software interaction harness only"
+  },
+  "conservative_tar_MiB": 254.986328125,
+  "protected_workstreams_unchanged": true,
+  "browser_QA": "Not run: managed preview unavailable (proc mount permission failure). CAD drawings visually inspected; software interaction harness passed. No browser verification claimed.",
+  "minimum_radius_established": false,
+  "fabrication_release": false
+}

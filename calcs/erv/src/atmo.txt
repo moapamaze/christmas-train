@@ -1,0 +1,161 @@
+                                                        Specification Sheet                                                                        Literature item #: 475204
+                                                                                                                                                       Rev Date: 2026-05-05
+
+
+
+
+ATMO          300E-EC™                                                             Requirements and standards
+                                                                                     • UL 1812
+                                                                                     • CSA C22.2 no. 113
+Energy Recovery Ventilator (ERV)                                                     • CSA F326
+                                                                                     • Technical data was obtained from published results of test relating
+Product #: 466333                                                                      to CSA C439 Standards
+                                                                                     • HVI and ENERGY STAR® certified*
+                                                                                   Fans
+                                                                                   Two (2) electronically commutated motors. EC motors use intelligent
+                                                                                   technology to reduce energy usage that results in lower operating costs,
+                                                                                   less maintenance over the lifetime of the unit, and increased longevity of
+                                                                                   the motor.
+                                                                                   Energy Recovery Core
+                                             * This product earned the ENERGY
+                                               STAR® by meeting strict             Energy recovery certified core made from water vapor transport, durable
+                                               efficiency guidelines set by        polymer, membrane that is highly permeable to humidity. The ERV core
+                                               Natural Resources Canada and        is freeze tolerant, water washable, and is certified for mold and bacteria
+                                               the US EPA. It meets ENERGY
+                                               STAR® requirements only when
+                                                                                   resistance. Core dimensions are 12 in. x 12 in. (305 mm. x 305 mm.)
+                                               used in Canada.                     with a 15 in. (381 mm.) depth.
+                                                                                   Defrost
+ATMO                 300                  E         -        EC                    A preset defrost sequence is activated at an outdoor air temperature of
+                                                                                   14°F (-10°C) and lower. During the defrost sequence, the supply blower
+                                                                                   shuts down & the exhaust blower switches into high speed to maximize
+Product         Approximate Energy Electronically                                  the effectiveness of the defrost strategy. The unit then returns to normal
+ Name            CFM @ 0.4 Recovery Commutated                                     operation, and continues cycle.
+                  in. w.g.                                                         Serviceability
+Powered by EC motors, the ENERGY STAR® and HVI certified ATMO™                     Core, filters, fans and drain pan can be easily accessed through latched
+300E-EC fresh air appliance with energy recovery (ERV) uses a water                door. Core conveniently slides out on our new easy glide core guides. 22
+vapor transport, durable, polymer membrane that transfers heat and                 in. (559 mm.) of clearance is recommended for removal of core.
+moisture to the incoming air. This process helps to temper the incoming            Case
+air and to maintain comfortable humidity levels.                                   22 gauge galvanized steel cabinet with a pre-painted steel corrosion
+Features                                                                           resistant door.
+  • Fans with backward curved blade impellers                                      Insulation
+  • Electronically commutated (EC) motors                                          Cabinet is fully insulated with 3/4 in. (19 mm) high density expanded
+  • Electrostatic filters (washable)                                               polystyrene.
+  • ERV core transfers both heat and humidity
+                                                                                   Filters
+  • Removable screw terminal for easy connection with external access
+                                                                                   Two (2), UL900 certified, washable electrostatic panel type air filters 11
+  • Multiple speed operation
+                                                                                   7/8 in. (302 mm) x 15 in. (380 mm) x 1/8 in. (3 mm).
+Specifications
+                                                                                   Compatible Controls
+  • Duct size				 – 6 in. (152 mm.)
+                                                                                   Compatible with all Fantech controls.
+  • Voltage/Phase 			 – 120/1
+  • Power rated 				 – 235 W                                                       Installation
+  • Amp				 – 6.4 A                                                                This appliance can be wall mounted using the mounting bracket or hung
+  • Average airflow 			 – 301 CFM (142 L/s) @ 0.4 in. wg.                          from the ceiling with the hanging chain installation kit.
+     					 (100 Pa)                                                                Warranty
+  • Weight					 – 60 lbs (27 Kg)                                                   7 years on motor, 5 years on electrical components and core.
+
+
+
+
+                                                                                United States 10048 Industrial Blvd. • Lenexa, KS 66215 • 1.800.747.1762 • www.fantech.net
+                                                                                   Canada 50 Kanalflakt Way • Bouctouche, NB E4S 3M5 • 1.800.565.3548 • www.fantech.net
+                                                               Fantech, reserves the right to modify, at any time and without notice, any or all of its products’ features, designs,
+                                                                                               components and specifications to maintain their technological leadership position.
+Dimensions & Airflow
+
+
+
+
+                                                                                                                                  A                      B                               C                                D
+
+                                                                                                                         in           mm           in         mm                in             mm               in               mm
+                                                   D
+                                                                                                                    23 7/         606         29 1/       751            16 15/   430                       21 7/                546
+                                                                                                                           8                       2                      16                                         16
+                                                                                                                  All units feature three foot plug-in power cord with 3-prong plug.
+
+
+
+
+ B                            A               B                     C
+
+
+
+
+                                                                                                                                                               Airflow (L/s)
+
+                                                                                                                         0            24          47          71           94            118             142              165
+                                                                                                                   1.2                                                                           1    MIN Speed                 300
+                                                                                                                                                                                                 2    MEDIUM Speed
+                                                                                                                                                                                                 3    MAX Speed
+                                                                                                                   1.0                                                                                                          250
+
+
+                                                                                                                   0.8                                                                                                          200
+
+                                                                                                  Pst (in. wg.)
+
+
+
+
+                                                                                                                                                                                                                                       Pst (Pa)
+                                                                                                                   0.6                                                                                                          150
+
+
+                                                                                                                   0.4                        1                                      2                      3
+                                                                                                                                                                                                                                100
+
+
+                                                                                                                   0.2                                                                                                          50
+
+
+                                                                                                                   0.0                                                                                                       0
+                                                                                                                         0            50       100           150          200            250             300              350
+                                                                                                                                                               Airflow (CFM)
+
+
+Ventilation Performance
+ in. wg. (Pa)                      0.2 (50)        0.3 (75)         0.4 (100)        0.5 (125)                      0.6 (150)              0.7 (175)               0.8 (200)                 0.9 (225)                1.0 (250)
+
+                                  CFM (L/s)       CFM (L/s)         CFM (L/s)        CFM (L/s)                      CFM (L/s)              CFM (L/s)               CFM (L/s)                 CFM (L/s)                CFM (L/s)
+
+ Net supply airflow               320 (151)       311 (147)         301 (142)       288 (136)                       275 (130)              263 (124)               246 (116)                 231 (109)                212 (100)
+
+ Gross supply airflow             322 (152)       314 (148)         303 (143)       290 (137)                       278 (131)              265 (125)               248 (117)                 233 (110)                214 (101)
+
+ Gross exhaust airflow            326 (154)       316 (149)         305 (144)       292 (138)                       282 (133)              267 (126)               254 (120)                 237 (112)                222 (105)
+
+Energy performance
+                                                                        Consumed                                  Sensible recovery               Adjusted sensible recovery         Latent recovery/moisture
+                      Supply temperature           Net airflow                     Fan efficacy
+ Heating                                                                 power                                       efficiency                           efficiency                          transfer
+                         oF              oC   CFM             L/s          W         CFM/W                                    %                               %
+                        32               0    64              30          31           2.0                                    77                             80                                      0.69
+                        32               0    178             84          95           1.8                                    67                             69                                      0.52
+                        32               0    248             117         200          1.2                                    60                             63                                      0.45
+                        -13             -25   64              30          35           1.8                                    63                             64                                      0.55
+
+
+                                                                        Consumed                                                                   Adjusted Total recovery           Latent recovery/moisture
+                      Supply temperature           Net airflow           power     Fan efficacy            Total recovery efficiency
+                                                                                                                                                          efficiency                          transfer
+ Cooling
+                         oF              oC   CFM             L/s          W         CFM/W                                    %                              %
+
+                        95               35       66          31           32          2.0                                    68                             70                                      0.72
+
+                        95               35   178             84           95          1.8                                    58                             60                                      0.61
+
+
+Contacts                                                                                                     Distributed by:
+ Submitted by:			Date:			
+ Quantity:     Model:		Project #:			
+ Comments:						
+ Location:						
+ Architect:						
+ Engineer:			Contractor:		
+

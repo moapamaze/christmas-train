@@ -1,0 +1,85 @@
+{
+  "revision": "C5.7",
+  "source_hashes": {
+    "cad/coach-brake-c57/checkpoint.brep": "2193f96be4934a76afc42111220aed170f8184483bfeff3eb8752e06fe5799cb",
+    "cad/coach-brake-c57/parts.json": "f2da26b996c9a6ae085a5e2207e2ff7977c5fddc61073c8d0799d1abb8940299",
+    "cad/coach-brake-c57/geometry-contract.json": "282223c2c4466ed6f1e27842bc74c79046abe4d7ae5f7f96228fa1938e6bca04",
+    "cad/coach-brake-c57/research-service-access.json": "eeb0e19bf6bc1171f520b395dae09bf0b90158b3dd419cf1e5a4e76a36f971e8",
+    "cad/coach-brake-c57/draw_service_c57.py": "9f7b4f62d848796f09222e07700914a37e537b1080973eb1ddedbc7bc7e58ca5",
+    "cad/coach-brake-c57/service-access-review.json": "66bf09521dd3c900f067ba91534059e4b0b321a9fc78feed4b2c9f254fdb0c66",
+    "dist/assets/coach-brake-c57/model-nominal.json.gz": "8ae86a65a6436a430094df6f342338eddba21588f9c33813d169f53164ae59c1"
+  },
+  "source_brep_sha256": "2193f96be4934a76afc42111220aed170f8184483bfeff3eb8752e06fe5799cb",
+  "method": "Actual BREP edge projections, exact upper-stud custom-mount section, and OpenCascade silhouette extraction. Direction arrows and dashed reservations are explicitly nonphysical. No OEM pad or service cavity built.",
+  "sheets": [
+    "C57-S01",
+    "C57-S02"
+  ],
+  "models": [
+    {
+      "file": "model-chamber-removal.json.gz",
+      "chamber_translation_mm": 75,
+      "removed_ids": [
+        "WABCO-MOUNT-NUT-1",
+        "WABCO-MOUNT-NUT1",
+        "CAGING-89-EXTENSION",
+        "CAGING-TOOL-RESERVATION",
+        "PARKER-THREAD-INTERFACE-PORT97",
+        "PARKER-THREAD-INTERFACE-PORT116",
+        "PARKER-10125-PORT97",
+        "PARKER-17B25-PORT97",
+        "PARKER-2716-STRAIGHT-PORT97",
+        "AIR-GUIDE-M6-BOLT-PORT97-1",
+        "AIR-GUIDE-M6-BOLT-PORT97-2",
+        "STAUFF-319-UPPER-PORT97",
+        "STAUFF-DP3-PORT97",
+        "PARKER-2716-HOSE-PORT97",
+        "PARKER-10125-PORT116",
+        "PARKER-17B25-PORT116",
+        "PARKER-2716-STRAIGHT-PORT116",
+        "AIR-GUIDE-M6-BOLT-PORT116-1",
+        "AIR-GUIDE-M6-BOLT-PORT116-2",
+        "STAUFF-319-UPPER-PORT116",
+        "STAUFF-DP3-PORT116",
+        "PARKER-2716-HOSE-PORT116"
+      ]
+    },
+    {
+      "file": "model-parking-release.json.gz",
+      "source_extension_mm": 89,
+      "tool_reservation_qualified": false
+    }
+  ],
+  "assets": [
+    {
+      "file": "C57-S01.png",
+      "bytes": 177235,
+      "sha256": "ccafebcdc52908fc0d6b3bee4d0096b093af9140a6748d800946635369c93b58"
+    },
+    {
+      "file": "C57-S01.svg.gz",
+      "bytes": 13621,
+      "sha256": "b19a395922052a88b27dffaa9ffb42a1c88fd17c34c409b37a5ecbbc1783ff25"
+    },
+    {
+      "file": "C57-S02.png",
+      "bytes": 207456,
+      "sha256": "21e0e0c72645fd79ff0c354c075504db5ecd36f667eda5fddb8dcfbace23a453"
+    },
+    {
+      "file": "C57-S02.svg.gz",
+      "bytes": 45181,
+      "sha256": "49e74b1b5123cafb8af0eae25210843d31ad497d7393b1a56efba1930dae7ff1"
+    },
+    {
+      "file": "model-chamber-removal.json.gz",
+      "bytes": 579432,
+      "sha256": "f60a4b83f8b914d7cb051e3aa45afd648cf56f064bb23a517a20a87cd5c0f7a1"
+    },
+    {
+      "file": "model-parking-release.json.gz",
+      "bytes": 761099,
+      "sha256": "b73aab0f76b2c5098b5e7b511bf733e8e838e3a64b8cea904772651849b3f766"
+    }
+  ]
+}

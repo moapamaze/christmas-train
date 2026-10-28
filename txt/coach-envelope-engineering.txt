@@ -1,0 +1,113 @@
+Coach enclosure engineering · Pulsipher FarmsSkip to contentPFPULSIPHER FARMSTRAIN DESIGN WORKSHOPCoachesDrawings & 3DEngineeringCL4 · One mini-split per coach is the preferred investigation. Actual equipment review found no verified single-head fit above the existing door. Model, capacity and 35-kW generator remain unconfirmed. See the dimensioned fit check →
+CE1 · ENGINEERING RECORD · 26 OCTOBER 2026
+Enclosure geometry, mass and heat loss.
+A reproducible regular-coach screen tied to the proposed construction sections. Geometry comes from C1; the floor fit reservation also considers current CI2/CI3 parts. Retained structural CAD is not regenerated.Construction drawings →Thermal modelMassSourcesCalculation data JSONReproducible source
+Geometry method
+C1 roof outer radius 177.503663″ and centerZ−56.889490″; subtract 2″ hoop depth,1″ continuous insulation and .040″ lining. Headroom at transverseY is Zcenter+√(Rinside²−Y²)−32″. Finished side-wall planes are±(52.125−1−.040)″. No extra furring layer is hidden in these dimensions.
+Side, end and curved/raised roof areas are extracted from retained skin solid masses divided by 2680 kg/m³×1/16″. Window area is the 16 clear 30×32″ openings. Door heat-transfer area uses two 32×80″ apertures. Small sheet overlaps, trim and frame edges remain approximate; this is a surface takeoff proxy, not a certified envelope model.
+ | Surface
+ | Area m²
+ | side wall
+ | 20.007
+ | roof
+ | 24.412
+ | end wall
+ | 8.663
+ | door
+ | 3.303
+ | window
+ | 9.910
+ | floor
+ | 20.099
+ | floor panel takeoff
+ | 21.673
+Assembly heat-transfer screen
+Mineral-wool resistance is 0.74 m²K/W per inch. Parallel paths combine insulated bays and steel members; a separate 2% /5% direct-bridge sensitivity covers local penetrations. Steel conductivity 45 W/mK and inside/outside surface films are engineering assumptions. Hollow steel is conservatively treated as solid through-depth. Floor and roof inside films use 0.10 m²K/W for all cases, deliberately avoiding a downward-flow film credit in cooling. A 1D model cannot capture lateral heat spreading through steel, so these values remain screening inputs. The higher-loss scenario is not a proven upper bound.
+Study frame fractions: 20% walls/ends and 12% roof. Higher-loss fractions: 30% /20%, with higher window U. Door frame fraction 20%;1″ cavity insulation and no continuous layer. Floor study 60% insulated, sensitivity 50%;no thermal resistance credited to the honeycomb, rubber, exposed steel or tray. This keeps the unresolved floor conservative. These fractions are not all measured takeoffs.
+The additional 25% floor-insulated case represents substantial underside exclusion. Removing the full-width CI3 body-check intervals over both bogies leaves 23.49% clear; those intervals are study windows, not measured swept envelopes. The 25% case is a rounded sensitivity, not a cleared cassette layout.
+ | Assembly
+ | Study U
+ | Higher-loss U
+ | Units
+ | side wall
+ | 0.582
+ | 0.815
+ | W/m²K
+ | roof
+ | 0.640
+ | 0.891
+ | W/m²K
+ | end wall
+ | 0.660
+ | 0.882
+ | W/m²K
+ | door
+ | 2.128
+ | 2.128
+ | W/m²K
+ | floor
+ | 3.228
+ | 3.880
+ | W/m²K
+ | window
+ | 2.700
+ | 5.700
+ | W/m²K
+Study envelope UA=131.6 W/K; higher-loss sensitivity=187.2 W/K. Raw side-wall insulation R16.8 and roof R12.6 exclude steel, films, openings and fastening. They are not whole-assembly ratings.
+Choose a sensitivity
+EnvelopeCE1 studyCE1 higher-loss assumptions + windowsCE1 with only 25% floor insulatedEarlier U on updated geometryFresh-air study flow300 CFM400 CFM
+JavaScript is needed for the sensitivity selector. All results are available in the calculation JSON.
+Each case uses 37 thermal people at 75 W sensible/45 W latent,420 W internal equipment,0.03 m³/s average door infiltration,1.2 kg/m³ air density and 1.006 kJ/kgK specific heat. Cooling includes 15% allowance. Solar applies 500 W/m² to all clear glazing at SHGC0.5 plus 20K roof sol-air increment; this is a stress assumption, not orientation-specific exposure. Opaque-wall solar and thermal storage are omitted. Humidity stress adds 0.006 kg/kg across ventilation and infiltration. No recovery is credited.
+Uwindow 2.7 and SHGC0.5 remain unconfirmed; higher-loss U5.7 is shown separately. The earlier 6 mm polycarbonate alternative does not demonstrateU2.7. Actual glazing, framed opening size, safety performance and mass must be selected together. Comparison against earlierU uses the same updated areas to isolate construction effects; it will differ from archived CL2’s rectangular model.
+Winter results subtract occupied sensible gains and show steady-state demand only. Empty preheating, door cycling, moisture, solar storage and heat-pump defrost are not modeled. Thermal BTU/h cannot be used as generator electrical input. No four-coach total is asserted before ADA envelope coordination.
+Static floor projection, source hashes and limits (JSON) · Projection source
+Increment over the incomplete C1 model
+ | Material / allowance
+ | kg per regular coach
+ | wall roof end liners kg
+ | 144.5
+ | door liners kg
+ | 9.0
+ | wall insulation kg
+ | 110.6
+ | roof insulation kg
+ | 109.5
+ | end insulation kg
+ | 36.6
+ | door insulation kg
+ | 4.3
+ | floor insulation kg
+ | 39.2
+ | floor trays kg
+ | 32.8
+ | replacement floor panel delta kg
+ | 58.4
+ | rubber finish kg
+ | 90.4
+ | unmodeled fixings closeouts seals adhesive reserve kg
+ | 60.0
+ | subtotal increment kg
+ | 695.4
+ | quantity fit allowance kg
+ | 63.5
+ | screen increment with allowance kg
+ | 758.9
+Insulation quantities use the stated cavity fractions; liners use outer-sheet area as a gross procurement proxy. Floor panels and finish use the actual retained panel area including its outboard shape; floor insulation/trays use the finished rectangle. The 60 kg reserve covers supports, inserts, closures, adhesive and seals;10% is then applied to calculated material quantities. These are visible allowances, not measured hardware. Existing exterior skins, frame, glazing and door-frame masses remain in C1. Deck delta replaces its generic 100 kg/m³ placeholder; do not add the complete new deck twice.
+Unresolved construction gates
+Check honeycomb spans, concentrated loads, inserts, edge supports and finish/adhesive compatibility. A catalog panel is not an accepted floor design.
+Confirm liner clip stiffness, vibration retention, panel span, edges, fasteners, metal isolation and bracket boxing. Wool is not a spacer or fastening substrate.
+Integrate 38.75″ regular benches in structural CAD and review seat capacity; retain existing 24″ aisle and feet.
+Integrate the separate ADA enclosure, door returns, fold-down seats, wheelchair paths and pin/hand access.
+Resolve truck motion, brake routes and service removals before underside trays are placed. No obstruction is accepted in those envelopes.
+Complete whole-coach mass/CG, suspension and braking review with the added enclosure budget.
+Select glazing, test moisture/air sealing and qualify the assembled transport materials. Individual product fire ratings do not qualify the full vehicle.
+Verify ventilation duty, actual fan curves/noise, roof curb/support details, mini-split performance and installed generator output.
+Primary product references
+Product references establish candidate material properties only. They do not approve rail/mobile installation.
+ROCKWOOL Rockboard 40 technical data, April 2026:64 kg/m³; RSI 0.74 per inch;4.3 kPa at 10% compression. E84 indices 0/0 and noncombustibility classification are material data.
+ROCKWOOL attachment guide: mechanical retention principle. Building guidance does not provide the vehicle fastener schedule.
+ROCKWOOL curved insulation guidance: use staggered layers and retained joints; confirm the actual thin-board roof mock-up.
+Plascore standard base panels:AA3.6-80,0.020″ aluminum faces, aluminum honeycomb and epoxy;3/4″ panel 4.6 kg/m². Supplied open edges require closeouts. Coupon properties are not allowable floor spans.
+Altro Transflor Motus technical data:2.5 mm,4.17 kg/m²; transport fire-test results apply to the product and stated testing, not the entire assembled floor.
+Almexa 5052 aluminum data: density 2680 kg/m³ used for liner/tray mass.
+Source and result records are preserved with CE1. C1 /C2.1 /CI2 /CI3 remain the underlying structural work. CL3 cabinet documents are retained as superseded history.CE1 · Development construction proposalPrevious versions

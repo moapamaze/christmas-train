@@ -1,0 +1,50 @@
+{
+  "revision": "LT9-R0",
+  "date_local": "2026-10-19",
+  "timezone": "America/Los_Angeles",
+  "fan_count": 1,
+  "design_basis": "One shared puller fan for engine bay, engine radiator/CAC and hydraulic oil cooling. Supersedes LT8 two-fan cooling.",
+  "air_path": {
+    "order": [
+      "Forward underbody screened inlet",
+      "Engine/pump bay",
+      "Core A",
+      "Core B",
+      "ONE shared puller fan",
+      "Common header",
+      "Both side louver banks"
+    ],
+    "fan_module_reservation_mm": [
+      900,
+      180
+    ],
+    "intake_gross_m2": 1.2,
+    "existing_outlet_slot_m2": 0.4752,
+    "core_face_gross_m2": 1.05,
+    "no_core_bypass_permitted": true,
+    "roof_intake_removed": true,
+    "air_sealing_status": "Floor support cutouts, core edges, removable joints and service openings require sealed interfaces and leakage testing; nominal CAD does not establish airtightness."
+  },
+  "fan_drive_load": "Unselected; pressure/efficiency sensitivities are not committed drivetrain loads.",
+  "thermal_supplier_inputs": [
+    "Configured engine, CAC, hydraulic and surface/exhaust-to-bay heat duties",
+    "Core order, actual inlet-temperature capability and pressure curves",
+    "Single fan installed duty point, drive power, dimensions and supplier mounts",
+    "Frame/support reactions, wet mass, cantilever/vibration and structural approval",
+    "Inlet protection, sealed floor penetrations, drainage and screen pressure drop",
+    "Discharge turning losses, louver free area and external recirculation",
+    "Actual fan removal/handling, core cleaning and service access",
+    "Stationary hot-weather full-load verification with all service panels closed"
+  ],
+  "frame_top_mm": 1775,
+  "frame_top_provisional": true,
+  "supplier_approval": false,
+  "structural_approval": false,
+  "retained_access": "LT8 removable rails retained; anchor interfaces, panel handling and hatch stay still open.",
+  "preserved_owners": [
+    "Passenger cars",
+    "Brakes",
+    "Drive wheels",
+    "Drivetrain and suspension"
+  ]
+}

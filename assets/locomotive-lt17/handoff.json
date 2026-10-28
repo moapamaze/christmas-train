@@ -1,0 +1,42 @@
+{
+  "issue": "LT17",
+  "date": "2026-10-21",
+  "status": "Development candidate; not fabrication release",
+  "basis": "LT16 current source; front powered axle only, both axleboxes",
+  "changes": [
+    "Shouldered rocker pin with flat T-head",
+    "M16 castellated nut, shoulder washer and split-pin locking envelope",
+    "Thrust washer space",
+    "Saddle access and underside relief",
+    "Wider capture toe with pin-exit notch"
+  ],
+  "travel_basis": {
+    "mean_axle_mm": [
+      -25,
+      0,
+      15
+    ],
+    "roll_deg": [
+      -2,
+      0,
+      2
+    ],
+    "curve_target_m": 50
+  },
+  "verified": "27 changed-part poses, two continuous pin withdrawal sweeps; see checks.json",
+  "not_verified": [
+    "Actual loads and load equilibrium",
+    "Modified saddle/capture strength and fatigue",
+    "Pin fits, thread/root/head/cross-hole stresses",
+    "Nut/washer/cotter and tool removal paths",
+    "Complete pin removal and support fixture",
+    "Hydraulic spans against LT17 parts"
+  ],
+  "next": [
+    "Positive rebound-rod retention",
+    "Guide-bushing and rod-to-seat attachments",
+    "Actual axle mass/load budget",
+    "Modified frame and suspension structural review"
+  ],
+  "fabrication_release": false
+}

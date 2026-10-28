@@ -1,0 +1,23 @@
+{
+  "issue": "PF-3P3-MINISPLIT-R0",
+  "date": "2026-10-19",
+  "owner_direction": {
+    "hvac_type": "Mini-split heat pumps",
+    "indoor_location": "High on interior wall above end door",
+    "outdoor_location": "Coach exterior on non-boarding side",
+    "applies_to": "3regular and1accessible coach",
+    "door_end_and_unit_count": "Not specified; evaluate one head above chosen end versus heads at both end doors as actual capacity/air distribution requires",
+    "boarding_side": "Relative to designated boarding side, not yet fixed left/right; reversing and both stations must use compatible boarding interfaces"
+  },
+  "engineering_recommendation": {
+    "generator_output": "120/240V split-phase,60Hz",
+    "larger_heat_pump_supply": "208/230V-class units supplied from nominal240V system only within exact OEM allowable range",
+    "other_loads": "120V lighting, receptacles and suitable auxiliaries; retain independent emergency lighting reserve",
+    "preferred_power_location": "Evaluate one dedicated diesel hotel generator at locomotive/service enclosure, remote from passenger fresh-air intake",
+    "per_car_refrigeration": "Keep each matched system wholly on its own coach; no refrigerant lines across car couplings or suspension interfaces",
+    "equipment_selection": null,
+    "generator_kW_selected": null
+  },
+  "supersession": "Mini-split architecture is the new owner-directed HVAC development lead. Earlier rooftop/duct studies remain comparison/evidence only; no existing model has been replaced by fabricated mini-split blocks.",
+  "approved_for_fabrication": false
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "id": "BE-J01",
+    "url": "https://koyo.jtekt.co.jp/en/products/detail/?pno=30214JR",
+    "publisher": "JTEKT",
+    "checked": "2026-10-19",
+    "use": "Dimensions and ratings for exact30214JR; no material/fit/rail approval transferred."
+  },
+  {
+    "id": "BE-S01",
+    "url": "https://cdn.skfmediahub.skf.com/api/public/094da9ad401d0567/pdf_preview_medium/094da9ad401d0567_pdf_preview_medium.pdf",
+    "publisher": "SKF",
+    "checked": "2026-10-19",
+    "locator": "Printed15 / PDF8",
+    "use": "Comparison dimensions and ratings for30214J2/Q; current delivered revision still required."
+  },
+  {
+    "id": "BE-LIFE",
+    "url": "https://koyo.jtekt.co.jp/en/support/bearing-knowledge/5-2000.html",
+    "publisher": "JTEKT",
+    "checked": "2026-10-19",
+    "use": "Basic roller-bearing rating-life relation and90% reliability meaning."
+  },
+  {
+    "id": "BE-STATIC",
+    "url": "https://koyo.jtekt.co.jp/en/support/bearing-knowledge/5-5000.html",
+    "publisher": "JTEKT",
+    "checked": "2026-10-19",
+    "use": "Static and dynamic load checks are distinct; no static safety factor adopted."
+  },
+  {
+    "id": "BE-RAIL",
+    "url": "https://www.timken.com/products/timken-ap-and-ap-2-integrated-tapered-roller-bearing-assemblies/",
+    "publisher": "Timken",
+    "checked": "2026-10-19",
+    "use": "Rail-specific sealed/preset unit comparison route; no particular size or price selected."
+  }
+]

@@ -1,0 +1,102 @@
+Cab C3 · ladder mechanism and physical trials · Pulsipher FarmsSkip to contentIntegrated cab · C2LT32 + C2 assemblyC2 evidence
+CAB C3 / MECHANISM STUDY & PHYSICAL TRIALS
+A controlled way out of the cab.
+The ladder is the next unresolved part of the exit. C3 develops a two-position lock cartridge, calculates the effort and time of a manual drive candidate, and defines the cab and camera trials that still need to happen.
+350 N·mPeak nominal ladder gravity torque. The drive must control both directions.
+20.1 turns48:1 candidate drive. About 20–40 seconds of cranking alone at the stated speeds.
+16 trials · not runMechanism, occupied cab and camera records prepared for physical evidence.
+The exit is not yet qualified. The stowed ladder still blocks the doorway. This is an isolated mechanism study: frame attachment, remote release, drive installation and strength are unfinished. Actual camera performance and occupied usability remain untested. C2 remains the integrated LT32 baseline.Lock modelDrive & effortExit sequencePhysical trialsEvidence & downloads
+01 / POSITIVE LOCKING
+Index pins hold the endpoints.
+One cartridge is studied at each stringer. A moving disc has separate deployed and stowed holes; a sliding pin crosses two fixed cheeks. Separate stop blocks establish the travel endpoints. A slot exposes the pin head for direct position inspection. The inside-cab release and viewing route remain to be designed.
+What the geometry establishes
+Ø20 pins, Ø21 holes at a 100 mm radius, a 12 mm disc and two 8 mm cheeks. The pin withdraws 60 mm and clears the outer cheek by 16 mm. The two hole positions are 150.880917° apart.
+All 32 modeled solids are valid. Ten sampled angles show no moving/fixed solid overlap within the isolated cartridges. The endpoint pin holes align in the nominal geometry.
+What it does not establish
+The cartridges have no completed frame carriers, hinge bearings, hub attachment, spring, guarded release linkage or drive. Full cab interference, continuous sweep, wear and tolerances are not checked by the isolated study.
+The stated 150 kg static tread load produces about 13.81 kN at a 100 mm pin radius. Each pin is screened for the full torque; equal sharing and ground support are not credited. This is a demand, not a rating.
+02 / CONTROLLED MOVEMENT
+The manual drive has an exit-time cost.
+The retained ladder alone weighs 41.44 kg in CAD. Its stowed position is only 0.87° beyond the gravity reversal, with a calculated energy barrier of 0.04 J. That position cannot be credited as a reliable lock. With the proposed moving discs and hubs, the moving mass becomes 51.71 kg; the peak gravity torque remains about 350 N·m and deployment releases about 654 J.
+1 · Captive hand crank150 mm radius study. Inside operation, outside recovery and parked-handle clearance unresolved.
+2 · Bidirectional no-backFormsprag FL-55 candidate at the input. External support bearings and couplings required.
+3 · 24:1 gearboxPfaff S24 candidate. Hand operation only; application and accessory approval required.
+4 · Proposed 2:1 stage48:1 overall. Final stage, hinge drive, bearings and guards still need engineering.
+Forward motoring effort only. The manufacturer describes gearbox efficiency at or below 50%; the total-drive values above are explicit assumptions. They do not establish reverse efficiency, controlled descent, stopping distance or thermal capacity. No person is carried during ladder movement.
+Candidate screening
+The S24 lists 360 N·m output torque and 24:1 reduction. Direct drive would leave little nominal margin against 350 N·m, so the study adds an unapproved 2:1 stage. Its ideal input demand is about 175 N·m before losses and additional design loads.
+The FL-55 lists 68 N·m at its own shaft. It is considered at the reduced input, not as a 350 N·m hinge brake. Its manual requires external bearing support; overhauling energy may call for an additional friction brake. Supplier application review is still required.
+Decision before adoption
+Twenty to forty seconds here covers cranking alone. It excludes leaving the seat, preparing the handle, releasing and confirming pins, and descending. Acceptable exit time and force have not been established.
+Test the candidate on an instrumented rig, then a stationary occupied mock-up. If the complete exit sequence is not acceptable, change the access architecture or provide an independently unobstructed escape route. Do not infer an accepted emergency exit from this mechanism drawing.
+03 / SEAT TO GROUND
+Check the whole exit sequence.
+This is a sequence for design review and a future supervised trial, not an operating instruction for unfinished hardware. The 700 ×1,900 mm opening and left controls remain as modeled in C2.
+Leave the restrained seat. Check release, foot placement and the nominal 600 mm cushion-to-floor difference. Verify that the left console, seat at either limit and clothing do not obstruct movement to the rear aisle.
+Reach the deployment controls from inside. Establish the crank location, retained handle and both lock indications while the ladder occupies the opening. No need to lean outside or stand on a moving tread should be introduced.
+Transfer control from locks to drive. The candidate must take the load before pin withdrawal. A partial release or one stuck pin must be detectable without forcing the ladder.
+Lower under control through the full sweep. The C2 sample reaches about 3.15 m from the train centre at 60°. Check the complete sweep, other track, people, ballast and ground slope. Complete the deployment unoccupied.
+Confirm deployed support and locks. Observe both pins and assess the ground feet before transferring body weight. Stop, pin and frame load paths require prior rig acceptance.
+Transfer hands and descend facing the ladder. Check the fixed-to-moving handhold transition, tread grip, foot clearance, head clearance and the final ground step. Measure total time and record assistance or loss of balance.
+04 / PHYSICAL EVIDENCE STILL NEEDED
+Test records, ready for real results.
+All records are NOT RUN. Agree measurable acceptance limits with the responsible reviewer before testing. Start with supported, unoccupied mechanism checks; occupied trials follow structural and rig acceptance. Camera trials begin stationary with the complete intended consist.
+Download blank test records · CSV →Open C2 reach and camera coverage →
+L01 · Ladder · Rig / design review NOT RUN
+Verify carrier, hinge, hub, both stop and pin load paths; accepted load factors and guarded test procedure before movement.
+Record: Approved drawings; signed calculation; rig restraint and exclusion setup.
+Acceptance owner: Structural reviewer. Agree measurable limits and the test procedure before the test; no limit or result has been accepted here.L02 · Ladder · Unoccupied rig NOT RUN
+Measure crank force and turns through complete travel in both directions, including gravity reversal. Stop at intermediate positions.
+Record: Force versus angle; turns; time; drift; handle kickback; temperature.
+Acceptance owner: Mechanical reviewer. Agree measurable limits and the test procedure before the test; no limit or result has been accepted here.L03 · Ladder · Unoccupied rig NOT RUN
+Test each pin separately for full engagement; observe direct flags. Measure release force under prescribed residual load.
+Record: Pin stroke; engagement depth; force; deliberate partial engagement response.
+Acceptance owner: Mechanical reviewer. Agree measurable limits and the test procedure before the test; no limit or result has been accepted here.L04 · Ladder · Unoccupied restrained rig NOT RUN
+Exercise loss of power, one release cable failure, incomplete pin seating and drive fault using approved fault-injection procedure.
+Record: Controlled support retained; no unintended motion; fault recognition; recovery route.
+Acceptance owner: Mechanical reviewer. Agree measurable limits and the test procedure before the test; no limit or result has been accepted here.L05 · Ladder · Unoccupied supported load rig NOT RUN
+Apply approved static/dynamic loads at tread corners with uneven ground and one foot unsupported.
+Record: Deflection; strain; reaction; residual set; pin/stop operation after load.
+Acceptance owner: Structural reviewer. Agree measurable limits and the test procedure before the test; no limit or result has been accepted here.L06 · Ladder · Stationary occupied mock-up after rig acceptance NOT RUN
+Time from restrained seat through exit to ground; include crank setup, pins, both hands, gloves and dark conditions.
+Record: Separate preparation / cranking / lock / descent times; assistance; stumbles; exertion.
+Acceptance owner: Operator and safety reviewer. Agree measurable limits and the test procedure before the test; no limit or result has been accepted here.U01 · Cab · Stationary mock-up NOT RUN
+Fit representative intended operators at their paired seat, suspension and footrest settings.
+Record: Measured stature and seated dimensions; belt fit; knee / shin / crown clearances.
+Acceptance owner: Operator reviewer. Agree measurable limits and the test procedure before the test; no limit or result has been accepted here.U02 · Cab · Stationary mock-up NOT RUN
+Exercise each left brake lever through real travel and force while restrained; operate traction, horn, stop and camera selector.
+Record: Reach without torso lift; interference; hand force; accidental actuation; labels.
+Acceptance owner: Operator and controls reviewer. Agree measurable limits and the test procedure before the test; no limit or result has been accepted here.U03 · Cab · Stationary mock-up NOT RUN
+Check front and side windows, both camera images and warning annunciator in sunlight and night lighting.
+Record: Sight lines; head/eye movement; glare; legibility; monitor obstruction.
+Acceptance owner: Operator reviewer. Agree measurable limits and the test procedure before the test; no limit or result has been accepted here.U04 · Cab · Stationary mock-up NOT RUN
+Release restraint, move around seat and use both exits at all seat limits; include the 600 mm nominal cushion-to-floor difference.
+Record: Foot and hand transfers; clothing snag; head strike; clear opening; assistance.
+Acceptance owner: Operator reviewer. Agree measurable limits and the test procedure before the test; no limit or result has been accepted here.C01 · Cameras · Stationary complete-consist test NOT RUN
+Mark ground grid at front and last coach. Place measured targets at 0.5, 1, 2, 5, 10 and 20 m within the available test area.
+Record: Actual near cutoff; side blind regions; occlusions; target size and recognition.
+Acceptance owner: Camera / operator reviewer. Agree measurable limits and the test procedure before the test; no limit or result has been accepted here.C02 · Cameras · Stationary complete-consist test NOT RUN
+Repeat target observations in sun / backlight, dusk / darkness, wet lens and a documented contamination condition.
+Record: Recognition by target and distance; glare / IR reflection; cleaning effectiveness.
+Acceptance owner: Camera / operator reviewer. Agree measurable limits and the test procedure before the test; no limit or result has been accepted here.C03 · Cameras · Stationary bench / consist NOT RUN
+Measure end-to-end latency using a time-coded event visible to camera and reference recorder.
+Record: Latency distribution; frame cadence; event and displayed image timestamps.
+Acceptance owner: Controls reviewer. Agree measurable limits and the test procedure before the test; no limit or result has been accepted here.C04 · Cameras · Stationary bench / consist NOT RUN
+Inject each feed disconnect, camera power loss, monitor power loss, frozen feed and link recovery with actual hardware.
+Record: Time to distinct failure indication; freeze detection; no stale image marked live; recovery behavior.
+Acceptance owner: Controls reviewer. Agree measurable limits and the test procedure before the test; no limit or result has been accepted here.C05 · Cameras · Stationary complete-consist test NOT RUN
+Use longest intended consist and all planned disconnects; measure loaded supply and inspect moving joint cable routes.
+Record: Voltage at far camera; link quality; articulation clearance; strain relief; bend compliance.
+Acceptance owner: Electrical reviewer. Agree measurable limits and the test procedure before the test; no limit or result has been accepted here.C06 · Cameras · Controlled movement after stationary acceptance NOT RUN
+Verify image orientation and usable awareness in both directions at approved test speeds and turns.
+Record: Operator identification errors; missed targets; vibration; lag; visibility at curves.
+Acceptance owner: Operator / test lead. Agree measurable limits and the test procedure before the test; no limit or result has been accepted here.
+05 / SCOPE & EVIDENCE
+Keep the study separate from the integrated baseline.
+C2 remains the current integrated model. Its camera coverage, wiring, dimensioned exits, revised air routes and 504 LT32 load cases are retained. C3 adds 73.69 kg of represented lock steel across both sides and 18.02 kg of candidate gearbox/no-back device mass. Those are gross study amounts; omitted carriers, drive, guards and releases still add mass, and replaced C2 parts still need subtraction. No C3 train mass, CG or updated load-case approval is claimed.
+Isolated lock geometry · STEP.gz →C3 calculations · JSON →CAD check scope · JSON →Retained ladder mechanics · JSON.gz →
+Manufacturer references
+Pfaff S20 / S24 operating instructions · English pp. 6–8. S24 torque, ratio, mass, hand-operation restriction and application review.
+Formsprag Form-Lock brochure · FL-55 data p. 4. 68 N·m and 1.01 kg; bidirectional driving / backstopping.
+Form-Lock installation instructions · p. 2. External bearings, backlash and overhauling-energy considerations.
+References checked 22 October 2026. Published component data does not constitute acceptance of this combined installation. Patrick’s running-gear specifications remain pending.CAB C3 · 22 October 2026 · Mechanism study / physical trials unexecutedIntegrated C2 cab

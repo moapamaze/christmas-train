@@ -1,0 +1,335 @@
+{
+ "basis": {
+  "train_t": 77.944,
+  "W_kN": 764.6,
+  "need_2pct_start_kN": 31.2,
+  "need_level_start_kN": 15.0,
+  "running_kN": {
+   "0": 3.82,
+   "0.5": 7.65,
+   "1.0": 11.47,
+   "1.5": 15.29,
+   "2.0": 19.12
+  },
+  "adh_dry_kN": 35.8,
+  "adh_wet_kN": 21.5
+ },
+ "ratio_scan": {
+  "20:35": {
+   "ratio": 1.75,
+   "F350_eta095": 37.55,
+   "F350_eta080": 31.62,
+   "F380_eta080": 34.34,
+   "vmax_H1P053_mph": 8.17,
+   "motor_rpm_10mph": 103.0
+  },
+  "21:37": {
+   "ratio": 1.7619,
+   "F350_eta095": 37.81,
+   "F350_eta080": 31.84,
+   "F380_eta080": 34.57,
+   "vmax_H1P053_mph": 8.12,
+   "motor_rpm_10mph": 103.7
+  },
+  "21:38": {
+   "ratio": 1.8095,
+   "F350_eta095": 38.83,
+   "F350_eta080": 32.7,
+   "F380_eta080": 35.5,
+   "vmax_H1P053_mph": 7.91,
+   "motor_rpm_10mph": 106.5
+  },
+  "20:36": {
+   "ratio": 1.8,
+   "F350_eta095": 38.63,
+   "F350_eta080": 32.53,
+   "F380_eta080": 35.32,
+   "vmax_H1P053_mph": 7.95,
+   "motor_rpm_10mph": 106.0
+  },
+  "19:35": {
+   "ratio": 1.8421,
+   "F350_eta095": 39.53,
+   "F350_eta080": 33.29,
+   "F380_eta080": 36.14,
+   "vmax_H1P053_mph": 7.77,
+   "motor_rpm_10mph": 108.5
+  }
+ },
+ "start": {
+  "F350_eta092": 37.61,
+  "F350_eta078": 31.88,
+  "F350_eta095": 38.83,
+  "dry_available_kN": 35.8,
+  "dry_available_conservative_kN": 31.88,
+  "dry_margin_conservative_kN": 0.69,
+  "eta_base": 0.92,
+  "eta_marginal": 0.78,
+  "eta_note": "0.78 MARGINAL - pending Poclain starting torque (F6)",
+  "wet_available_kN": 21.5,
+  "wet_shortfall_kN": 9.7,
+  "sand_mu_needed": 0.218,
+  "p_at_adhesion_eta092_bar": 333.0,
+  "p_needed_eta078_bar": 342.0,
+  "level_wet_start_ok": true
+ },
+ "speed": {
+  "wheel_rpm_10mph": 58.9,
+  "motor_rpm_10mph": 106.5,
+  "MSE05_limit_rpm": "160 (1st) / 190 (2nd disp.) - 750 cc Classic, Poclain catalog (F1); HighFlow 220/240",
+  "MSE05_limit_2nd_rpm": 190,
+  "motor_speed_util_10mph": 0.56,
+  "wheel_rpm_7p5mph": 44.2,
+  "motor_rpm_7p5mph": 79.9,
+  "flow_7p5mph_375cc_Lmin": 126.2,
+  "flow_10mph_375cc_Lmin": 168.2,
+  "H1P053_Lmin": 132.9,
+  "H1P060_Lmin": 149.2,
+  "vmax_flow_H1P053_mph": 7.91,
+  "vmax_flow_H1P060_mph": 8.87
+ },
+ "power_speed_V3307": {
+  "engine_net_continuous_kW": 45.6,
+  "charge_kW": 3,
+  "aux_kW": 7,
+  "pump_allowance_kW": 35,
+  "eff": "pump 0.855, motor 0.855, 10 bar loss, gear 0.98",
+  "table": [
+   {
+    "grade_pct": 0,
+    "resistance_kN": 3.82,
+    "speed_mph": 7.5,
+    "motor_dp_bar": 69,
+    "displacement_cc": 375.0,
+    "rim_kW": 21.9,
+    "limit": "7.5 mph governor"
+   },
+   {
+    "grade_pct": 0.5,
+    "resistance_kN": 7.65,
+    "speed_mph": 6.84,
+    "motor_dp_bar": 138,
+    "displacement_cc": 375.0,
+    "rim_kW": 23.4,
+    "limit": "engine power"
+   },
+   {
+    "grade_pct": 1.0,
+    "resistance_kN": 11.47,
+    "speed_mph": 4.66,
+    "motor_dp_bar": 207,
+    "displacement_cc": 375.0,
+    "rim_kW": 23.9,
+    "limit": "engine power"
+   },
+   {
+    "grade_pct": 1.5,
+    "resistance_kN": 15.29,
+    "speed_mph": 3.54,
+    "motor_dp_bar": 276,
+    "displacement_cc": 375.0,
+    "rim_kW": 24.2,
+    "limit": "engine power"
+   },
+   {
+    "grade_pct": 2.0,
+    "resistance_kN": 19.12,
+    "speed_mph": 2.85,
+    "motor_dp_bar": 345,
+    "displacement_cc": 375.0,
+    "rim_kW": 24.4,
+    "limit": "engine power"
+   }
+  ],
+  "hold_2pct_mph": 2.85,
+  "full_start_force_speed_mph": 1.74,
+  "kW_net_for_7p5mph_on_2pct": 102.0
+ },
+ "gears": {
+  "module": 10.0,
+  "z_pinion": 21,
+  "z_gear": 38,
+  "ratio": 1.8095,
+  "pressure_angle_deg": 20,
+  "face_mm": 100.0,
+  "d_pinion": 210.0,
+  "d_gear": 380.0,
+  "centre_mm": 295.0,
+  "od_pinion": 230.0,
+  "od_gear": 400.0,
+  "material": "18CrNiMo7-6 / AISI 8620 carburized, ground, AGMA Q10 (ASSUMED)",
+  "pitch_v_10mph_ms": 1.17,
+  "Kv": 1.207,
+  "factors": {
+   "Ko": 1.25,
+   "Ks": 1.0,
+   "KH": 1.3,
+   "KB": 1.0,
+   "YJ_pinion": 0.34,
+   "YJ_gear": 0.39,
+   "ZI": 0.1035
+  },
+  "limiter_350bar": {
+   "Ko": 1.25,
+   "T_pinion_Nm": 4178,
+   "T_axle_Nm": 7409,
+   "Ft_kN": 39.8,
+   "sigma_b_pinion": 230,
+   "sigma_b_gear": 200,
+   "sigma_c": 1145,
+   "SF_bend": 1.96,
+   "SH_contact": 1.35
+  },
+  "hprv_400bar_transient": {
+   "Ko": 1.0,
+   "T_pinion_Nm": 4775,
+   "T_axle_Nm": 8467,
+   "Ft_kN": 45.5,
+   "sigma_b_pinion": 210,
+   "sigma_b_gear": 183,
+   "sigma_c": 1094,
+   "SF_bend": 2.14,
+   "SH_contact": 1.42
+  },
+  "dry_slip_35p8kN": {
+   "Ko": 1.25,
+   "T_pinion_Nm": 3659,
+   "T_axle_Nm": 6489,
+   "Ft_kN": 34.8,
+   "sigma_b_pinion": 201,
+   "sigma_b_gear": 175,
+   "sigma_c": 1071,
+   "SF_bend": 2.24,
+   "SH_contact": 1.45
+  },
+  "start_2pct_31p2kN": {
+   "Ko": 1.25,
+   "T_pinion_Nm": 3189,
+   "T_axle_Nm": 5654,
+   "Ft_kN": 30.4,
+   "sigma_b_pinion": 175,
+   "sigma_b_gear": 153,
+   "sigma_c": 1000,
+   "SF_bend": 2.57,
+   "SH_contact": 1.55
+  }
+ },
+ "axle": {
+  "d_mm": 130,
+  "T_relief_Nm": 8640,
+  "tau_MPa": 20.0,
+  "gear_seat": "\u00d8150 seat on a stepped axle ASSUMED; keyless locking assembly or shrink fit (supplier sizes); key alt. 36x20x160 on \u00d8150",
+  "key_alt_bearing_MPa": 72.0,
+  "allow_key_MPa": 150.0
+ },
+ "pinion_shaft": {
+  "d_mm": 70,
+  "tau_MPa": 70.9,
+  "note": "pinion integral with shaft, two bearings in the case; motor shaft drives it by spline, no gear load on the motor (Poclain shaft version)"
+ },
+ "bearings": {
+  "mesh_force_relief_kN": 48.4,
+  "mesh_force_start_kN": 32.3,
+  "pinion_brg_each_peak_kN": 26.6,
+  "axle_suspension_brg_each_peak_kN": 27.9,
+  "static_C0_min_pinion_kN": 53.2,
+  "static_C0_min_axle_kN": 55.8,
+  "selection": "pinion: 2 x SKF 22214 E (C0 228 kN; alt. 32214 J2/Q C0 208); case on axle: 2 x SKF 23030 CC/W33 (C0 750 kN; alt. 32030 X C0 655) - SKF catalog (supplier_data_L2 \u00a73); s0>=2 required",
+  "s0_pinion_22214E": 8.6,
+  "s0_axle_23030CC": 26.9,
+  "fatigue_note": "Running loads are small (35 kW pump allowance: ~2 kN rim per axle at 7.5 mph); bearings are governed by start/peak static loads and the 3 g vertical shock on the axle-hung mass"
+ },
+ "torque_reaction": {
+  "type": "axle-hung case on 2 suspension bearings + rubber-bushed vertical nose link to the transom underside (classic nose-suspended)",
+  "arm_m": 0.64,
+  "link_force_relief_kN": 13.5,
+  "link_force_start_kN": 8.8,
+  "link_static_weight_kN": 1.39,
+  "link": "M24 rod-end / rubber-bushed link 2 x \u00d860 bushes (AWAIT supplier); bracket PL20 welded to transom bottom PL16",
+  "transom_bracket_weld": "2 x 150 mm 8 fillet: throat 1,697 mm2 -> 17.4 MPa at 1.5 x relief + 3 g (allow 145)",
+  "path": "nose link -> transom (Z850-1050) -> inside sideframes Y+/-330-360 -> axleboxes; nothing outside the wheels"
+ },
+ "packaging": {
+  "case_Y": [
+   -255,
+   -95
+  ],
+  "gear_lobe_dia": 450,
+  "pinion_centre_x": 295.0,
+  "motor": "Poclain MSE05 shaft version \u00d8300 x 360 (incl. flange) ASSUMED from guide \u00d8300 x 312-370",
+  "motor_Y": [
+   -95,
+   265
+  ],
+  "motor_X": [
+   145.0,
+   445.0
+  ],
+  "motor_Z": [
+   575,
+   875
+  ],
+  "case_bottom_Z": 500,
+  "clear_to_axlebox_X_mm": 35.0,
+  "clear_to_transom_face_mm": 180.0,
+  "clear_to_sideframe_Y_mm": 65,
+  "inside_frame_window_Y": "+/-330 (inside sideframes); package spans Y-255..+265; main rails Y+/-240 are 300 mm higher (Z1150) - not a constraint at axle level",
+  "stagger": "case on -Y for axles X3300/6500, mirrored (+Y) for X4850/8050",
+  "brake": "axle disc space is taken by the gear case and motor; \u00d8340x25 disc + spring-applied air-released caliper (>= 22 kN clamp) on the pinion-shaft extension (PE calc B1-g)"
+ },
+ "supplier_foldin": {
+  "motor_speed": {
+   "limit_rpm_1st": 160,
+   "limit_rpm_2nd": 190,
+   "variant": "Classic",
+   "n_10mph": 106.5,
+   "util": 0.56,
+   "ref": "F1"
+  },
+  "pump": {
+   "model": "Danfoss H1P053",
+   "input_shaft": "G1 14T 12/24 DP, 534 N\u00b7m rated / 592 max (F2)",
+   "T_unlimited_400bar_Nm": 368.0,
+   "T_unlimited_350bar_Nm": 322.0,
+   "limiter": "NO hydromechanical limiter on H1P - 35 kW cap by anti-stall software: AC-1/AC-2 automotive control, or EDC + PLUS+1 anti-stall (destroke on engine droop / p\u00d7Vg limit) (F2)",
+   "pressure": "L35: pressure limiter 350 bar + HPRV 400 bar (F3); relief-case torques re-run at 350 (gear rating) and 400 (structural)",
+   "charge": "charge relief \u2264 30 bar (24-28 bar), Poclain boost window 15-30 bar (F4)",
+   "case_drain": "dedicated unrestricted motor case-drain line to tank, at/above shaft height; motor case \u2264 1 bar (F5)"
+  },
+  "motor_shaft": {
+   "spline": "DIN 5480 N55x3x17 (female in 42CrMo4)",
+   "keyed_limit_Nm": 800,
+   "T_motor_400bar_Nm": 4775,
+   "T_motor_350bar_Nm": 4178,
+   "ref": "F7 - keyed \u00d850 shaft NOT permitted"
+  },
+  "start_eta": {
+   "base": 0.92,
+   "marginal": 0.78,
+   "F_base_kN": 37.61,
+   "F_marginal_kN": 31.88,
+   "need_kN": 31.2,
+   "margin_marginal": 1.022,
+   "ref": "F6 - 0.78 marginal, pending Poclain start torque"
+  },
+  "brake": {
+   "r_eff_m": 0.135,
+   "caliper_ref": "Coremo Ocmea D 3.5N spring-applied air-released (24.2 kN clamp, 19.8 kg) - ref only, AWAIT supplier",
+   "release_air": "regulated release-air supply off MR: 6 bar max regulator for Coremo (5.1-6 bar) (F9)",
+   "commissioning": "pad burnish / bedding step before brake tests - initial torque may be 30-50 % below nominal (F8)",
+   "parking_option": "T04 integral brake parking/hold only, not service (F10)"
+  },
+  "bearings": {
+   "pinion": "SKF 22214 E (alt. 32214 J2/Q pair) 70x125x31, C 213 / C0 228 kN",
+   "axle": "SKF 23030 CC/W33 (alt. 32030 X pair) 150x225x56, C 531 / C0 750 kN",
+   "L10h": {
+    "b22214E": 82000000.0,
+    "b32214": 29000000.0,
+    "b23030CC": 670000000.0,
+    "b32030X": 200000000.0
+   },
+   "target_h": 7500,
+   "ref": "F11 / l10_L2.py - life governed by seats + static/shock, not L10"
+  }
+ }
+}

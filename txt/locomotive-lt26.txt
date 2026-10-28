@@ -1,0 +1,19 @@
+LT26 · Locomotive motion · Pulsipher FarmsSkip to content
+LT26 · INSTALLATION & CONTROLS
+Engine access, cooling and truck connections
+Installation drawings and model → · Proposed brake circuit → · Checks and remaining holds →Whole locomotiveLT26 movementLT26 calculationsLT25 installation details
+CURRENT MOTION STUDY · LT26
+The engine installation through a turn.
+Tony’s Kubota package stays on the common skid while the running gear steers and the suspension moves. LT26 maps the revised installation loads into the model on straight track and both directions of the 50 m target curve.
+504 posesSix mass estimates · pulling, braking and opposed rail twist
+274 mmSmallest sampled installation-to-running-gear box gap
+3.77 mmSmallest remaining pivot-slide travel; tolerance budget still open
+Turn the trucks and compare load cases
+Movement drawings
+The engine, pump, one-fan layout, body profile and wheel locations retain LT25 geometry. These sheets add the movement evidence and identify the next connection constraint.
+Installation fit
+The represented engine, pump, cooler and support boxes remain separated from moving running gear at every sampled pose. Actual supplier protrusions, hoses and brackets still need their own fit checks.
+Connection work next
+Resolve pivot-slide tolerance and bearing articulation, then use supplier brake and bumper data to finish the attachment loads. Small load-to-CAD contact residuals remain visible in the engineering record.
+Brake-failure poses are demand studies. A geometric fit does not prove the train can stop or pull under that load. The viewer labels cases that exceed assumed adhesion or the provisional brake target.
+Read the calculations and limitations →Retained engine installation detailsLT26 · October 21, 2026 · Development study · No fabrication or operating releaseEngineering

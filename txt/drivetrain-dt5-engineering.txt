@@ -1,0 +1,54 @@
+DT5 · Powered axle engineering
+DT5 R1 · Engineering kept separate
+Compact motor installation: checks and supplier review
+Development only—no fabrication release. Motor placement has been corrected in the sampled width study. Supplier approval, real brake geometry, bearing setting and structural verification are still required.
+What changed
+The motor face moves fromY1072 to945; its rear moves from1278 to1151. A157mm GEARexFA25 geared coupling replaces the270mm ROTEX candidate. The carrier uses350×350×20 plates, two12×175×310 webs, and eightØ30/18×39 standoffs. The backplate opening grows toØ232; its eightM16 positions move toX±145 andZ380/460/540/620. Nominal6mm welds, bolts and plates remain unrated.
+Width and motion screen
+Five primary-suspension poses, two axle positions atX±700 and27 yaw/pitch/roll combinations give270 sampled poses. Study limits are+50/−40mm travel, ±8° yaw and±2° body pitch/roll aboutZ1335. The actual simplified motor vertices reach1279.9mm from the body centre, leaving20.1mm to the1300mm half-width plane. This excludes tolerance, wear, deflection, roadbed/track and OEM-profile differences. It is not a continuous-motion or actual body collision proof.
+The all-rigid-part width screen reaches1279.9mm. Flexible hoses need their own physical sweep. Frame/body owner acceptance has not been received. The old over-width condition did not itself prove a solid collision because the motor sits below the main frame.
+Bearing section and assembly sequence
+Each cartridge contains twoSKF32018X bearings:90×140×32; coneB32 and cupC24. The cone spans606–638 and662–694. Cup seats are614–638 and662–686, with the central housing shoulder openingØ130 at638–662. Cones face outward at their large ribs. Interface proxies show positions; they do not reproduce actual roller/cage geometry.
+TheØ90 journal runs590–724. Install the inboard gland and100×130×12 seal before the removableØ108/90×16 thrust collar. The inner spacer isØ98/90×24 nominal; its final measured length, cup/cone stand, fits and temperatures determine the cold setting. The outer thrust collar isØ108 at694–700 with aØ100 seal track700–724. MB18 starts724; KM18 ends741.75. A2mm hub shoulder spacer locates the axle hub at744.
+Cup-contact noses haveØ136 cage clearance; housing shoulderØ130 and collarOD108 follow the catalog abutment limits. Seal positions are570–582 and706–718. Separate keeper plates and accessible long/shortM12 gland screws are shown. Keeper screw details, thread strength, fits, fillets, surface finish, bearing load distribution and life remain open. The inboard keeper is bench-installed before fitting the gland.
+The opposite complete cartridge has±8mm nominal float. Geometric demand3.112mm plus a60K thermal sensitivity0.936mm leaves3.952mm before tolerance, wear and deflection. Sliding fit, antirotation key, stop anchorage and axial force transfer still need approval. No axle bearing rating is obtained by doubling the catalog rating.
+Motor and coupling interface proposed for review
+ | Interface
+ | Nominal proposal
+ | Motor
+ | PoclainMS05-8-113-A05-2A50-0000;376cc; four motors total, one per axle;1:1 drive. Configured OEM CAD required.
+ | Coupling
+ | GEARexFA25 standard6500N·m catalog size;157 overall,76mm hubs,5mm hub gap,213 flangeOD,157 sleeveOD,130 hubOD. Maxbore100 pered21.
+ | Axle hub
+ | Y744–820; Ø80 bore,22×14×70 key; Ø98×8 retaining plate and candidateISO10642M12×30.22mm nominal thread engagement.
+ | Motor hub
+ | Y825–901; proposedØ100 counterbore825–844;57mm spline engagement844–901 on nominalDIN5480 55×3×17 shaft.
+ | Motor retention
+ | SolidØ80×3 washer840–843, twoØ11 holes at23.8mm pitch;2×M10×16,13mm engagement. Washer-to-hub shoulder gap1mm. Axle plate ends828; opposing heads start834:6mm nominal gap.
+ | Guard
+ | MainID260 gives23.5mm radial gap to213OD. NeckOD230 throughØ232 backplate opening leaves1mm radial assembly clearance; tolerance/weld review needed.
+The counterbore and recessed fasteners are a custom supplier-design request. A bore inside the catalog maximum does not establish a rated spline, wall thickness, axial retention or fatigue life. KTR must approve the combined arrangement and service sequence; theirFA25 service dimensionW126 andDW1=105 imply removing the motor rather than sliding the sleeve over its116mm nose.
+Unlike the previous elastomer coupling, this geared coupling is torsionally rigid. Reversing backlash, pressure ripple, shock and torsional behavior require review. KTR specifies minimum operational offset for lubrication; perfectly concentric nominal CAD is not an approved installation alignment. At64rpm the157mm sleeve surface speed is about0.53m/s, below the manual’s1m/s low-speed consultation threshold. Obtain KTR’s grease and offset instructions before selecting it for purchase.
+The4039N·m trial uses1.5×ideal450bar torque, a sensitivity factor only. Standard catalog6500N·m is not a custom-assembly approval. The70mm key gives average65.6MPa shear and206MPa bearing at that trial torque; material, fatigue and allowable stresses remain undefined. Guide-pad trial force22.4kN and trunnion reaction increment10.63kN do not establish structural capacity.
+Hose routes and brake interface
+Work lines useParker797TC-8 with1C977-16-8 ends and steelGE16SR3/4EDOMDCF adapters; case line387TC-8 with1C943-16-8 andGE16SR3/8EDOMDCF. Provisional motor port positions move inward with the motor. The loop study includes60mm straight tails at both ends and fixed centreline length through nine suspension states. Minimum bend radii are119.0/118.0/115.2mm versus100/100/90mm catalog minima. Physical routing, port orientation, twist, stiffness, fittings and fatigue are unverified; no hose cut length is released.
+Conservative sampled part-box clearance lower bounds are20.5/46.5/39.7mm. This screen excludes fittings, clamps, their support posts and reserved spring/brake spaces. Rail support and fasteners remain unfinished. It does not establish the project’s desired25mm clearance or150mm bend margin where these are not met.
+The brake is only aØ500×100 reservation atY250–350. No locomotive rotor/caliper has been accepted, so routing around an actual brake assembly cannot yet be completed. CoachC5.3’sWebb55030PK-65 arrangement is not an approved locomotive brake. Work plumbing is420bar while the motor catalog permits450bar: relief plus surge must stay within the approved assembly rating. Motor case backpressure limit is1bar. Pump, charge/anti-cavitation protection, cross-port relief, cooling, flow sharing and independent braking remain system work.
+Verification and shared interfaces
+171 nominal CAD solids are valid. 38 selected static pairs plus36 selected travel pairs show0 positive overlaps above0.1mm³. Minimum sampled travel gap is9.02mm. These are targeted checks, not an all-parts collision proof. The mobile camera framing regression is checked separately; live browser interaction could not be verified in this environment.
+Journal centresY±650, frame railsY±730,1400mm axle spacing, truck pivots3300/6000, axles2600/4000/5300/6700, truck top1170 and body-pad bottom1451.15 remain shared study interfaces. SpringØ140×240 is a reservation, not a selection. The2154.5kg model includes solid wheel blanks and partial frame references; moving partial proxy1701.2kg is not an accepted truck or locomotive mass.
+Carrier bolts/welds, trunnion pin retention, guide lateral capture, axial stops, guard latches, rebound catches, hose-rail attachment and full fatigue verification still need closure. Adjacent frame and brake geometry has not been changed.
+Supplier confirmation pending
+The current configuration is prepared for KTR and Poclain/OneHydraulics technical review. No supplier approval or order is represented by these drawings. Request factory hub design/rating, low-speed lubrication and operating alignment, motor shaft/port CAD, retention fasteners, installation/service sequence and quote/lead time. If the geared coupling is unsuitable, its compact placement must be reworked around an approved alternative.
+Manufacturer references
+Poclain MS05 catalog — pp17/19/26: mounting, shaft and ports; configured OEM drawing still required.
+Poclain installation manual — Male-shaft chassis mounting; two-M10 thrust washer retention and 1±0.5 mm adaptation gap require application review.
+KTR GEARex FA — FA25 standard catalog6500N·m; custom spline/counterbore assembly is not rated by this selection.
+KTR GEARex manual ed21 — FA25:L157,hubs76,gap5,DH213,DH1=157,DN130,maxbore100. Low-speed lubrication, minimum operational offset and service clearance require application review.
+SKF bearing catalog — 32018X:90×140×32, C208/C0 270kN each. 1.758kg each. Two ordinary bearings are not a factory-set matched pair.
+SKF spherical plain bearings — GE60ES-2RS:60×90, inner44/outer36; oscillating trunnion candidate.
+Timken bearing setting guidance — Measured endplay/preload depends on fits, temperatures and application; nut torque alone is not a setting.
+Parker hose catalog4400 — 797TC-8/1C977-16-8 work assemblies;387TC-8/1C943-16-8 case assembly. Confirm exact hose/end/crimp combination.
+Parker tube fittings4100 — I51: GE16SR3/4EDOMDCF steel CF420bar; GE16SR3/8EDOMDCF case adapter. Material suffix matters.
+Machine-readable checks: Motion and load screens · Targeted solid checks · Parts schedule · Shared interface record
+Previous versions ↗DT5 R1 · 20 October 2026 · Development issue · No fabrication release

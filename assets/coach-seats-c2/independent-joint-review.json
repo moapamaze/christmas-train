@@ -1,0 +1,133 @@
+{
+  "issue": "PF-3O2-C2-R0",
+  "review_date": "2026-10-19",
+  "review_scope": "Independent preliminary load-path and nominal interface review of build_c2.py and calculations.json; not engineering or fabrication approval.",
+  "recommendation": "Four-bolt steel-bypass topology with3/4in cap and sole is coherent as a dimensioned preliminary candidate. Strength is not passed: include local combined inertia, actual frame/joint stiffness, contact and prying. Avoid repeated thickening; investigate a lighter braced load path next.",
+  "retained": {
+    "seats": 32,
+    "feet_X_offsets_in": [
+      -8,
+      8
+    ],
+    "feet_Y_in": [
+      20,
+      44
+    ],
+    "finished_floor_Z_in": 32,
+    "sole_underside_Z_in": 32.25,
+    "nominal_floor_gap_mm": 6.35
+  },
+  "corrected_connection": {
+    "old_two_bolt_issue": "Both original bolts shared X; they lacked a finite longitudinal row lever. Sole edges float above floor and must not be assumed compression toes. Real steel spacers define the compression path.",
+    "new_bolt_offsets_in": [
+      [
+        -0.875,
+        -2
+      ],
+      [
+        -0.875,
+        2
+      ],
+      [
+        0.875,
+        -2
+      ],
+      [
+        0.875,
+        2
+      ]
+    ],
+    "hole_diameter_in": 0.5625,
+    "longitudinal_row_spacing_in": 1.75,
+    "transverse_row_spacing_in": 4,
+    "cap_xy_in": [
+      3.5,
+      6
+    ],
+    "sole_xy_in": [
+      4.5,
+      7.5
+    ],
+    "reviewed_cap_and_sole_t_in": 0.75,
+    "cap_top_Z_in": 31.753937007874,
+    "sole_top_Z_in": 33,
+    "spacer_length_mm": 12.6,
+    "floor_opening_in": [
+      3.875,
+      6.375
+    ]
+  },
+  "fit_review": {
+    "cap_to_opening_each_side_in": 0.1875,
+    "sole_overlap_opening_each_X_side_in": 0.3125,
+    "sole_overlap_opening_each_Y_side_in": 0.5625,
+    "nearest_cap_to_crossmember_in": 0.25,
+    "nearest_cheek_to_crossmember_in": 0.5,
+    "socket_trial_OD_in": 1.25,
+    "socket_to_quarter_in_cheek_nominal_clearance_in": 0.125,
+    "socket_status": "Real nut, washer, socket profile, axial approach and weld access remain to verify. Do not expand preliminary allowances into approved fit.",
+    "floor_closure": "Use a removable nonstructural flexible closure; do not fill clearance with a rigid load bridge or clamp sandwich core. Thermal movement, floor-loaded deflection, sealing and cleanability require qualification.",
+    "back_panel_sleeve": "Read geometry uses 1.5in length through actual 1.5in HSS front/back faces, rather than floating tabs; match production tube width and bore/flush requirements."
+  },
+  "backrest_comparison": {
+    "basis": "600lbf total atZ67, comparison only; no gravity credit",
+    "Fx_N": 2668.9329691563,
+    "moment_total_at_sole_underside_Nm": 2355.7336852258077,
+    "ideal_global_foot_couple_reaction_N_each": 2898.294396193169,
+    "rear_only_local_foot_moment_Nm": 1177.8668426129038,
+    "rear_only_local_foot_horizontal_N": 1334.46648457815,
+    "ideal_tension_each_bolt_in_tension_row_N": 13249.345811168772,
+    "gross_cap_strip_stress_MPa_at_5over8": 180.25203197395317,
+    "warning": "Neither full-footprint axial couple nor half-load fixed-rear-foot model is a validated stiffness distribution; they are alternative screens."
+  },
+  "additional_combined_inertia_local_case": {
+    "mass_kg": 355,
+    "Fx_g": 1,
+    "Fy_g": 0.5,
+    "height_above_sole_in": 30,
+    "assumption": "Half of both horizontal loads/moments taken by each rear foot; no gravity reduction of bolt tension. Analyst concurrent sensitivity, not mandated code case.",
+    "My_per_rear_foot_Nm": 1326.39844575,
+    "Mx_per_rear_foot_Nm": 663.199222875,
+    "bolt_corner_moment_component_X_N": 14920.1175,
+    "bolt_corner_moment_component_Y_N": 3263.775703125,
+    "ideal_max_corner_tension_N": 18183.893203125,
+    "gross_cap_strip_5over8_MPa": 247.384568700566,
+    "gross_cap_strip_3over4_MPa": 171.794839375393,
+    "finding": "This exceeds the backrest-case bolt demand. Revised3/4cap gives171.795MPa illustrative strip stress, compared with247.385MPa at5/8. Effective strip width, holes, contact and prying remain unproven; this comparison is not joint acceptance. Cap top31.753937in, spacer12.6mm, sole32.25..33in."
+  },
+  "open_strength_checks": [
+    "Cap/sole two-way bending, hole net section, bearing/contact, prying and realistic effective widths",
+    "Cap-to-cheek weld group must transmit moment plus shear; direct-force weld screen is insufficient",
+    "Cheek welds must terminate on measured HSS side flats; rounded corners and minimum effective lengths need actual profile/fit-up",
+    "Seat-rail local wall/corner yielding, torsion and end-joint load transfer into adjacent crossmembers",
+    "Leg-to-sole and seat-frame weld groups with both back-force signs, racking, cyclic loading and lateral combinations",
+    "Bolt grip/thread/shear-plane position, actual locking system, installation preload and torque",
+    "Complete pan/backplate attachment, upholstery retention, passenger impact/egress and prototype acceptance"
+  ],
+  "mass_review": "Final CAD/catalog metal and main hardware total61.470435899kg per bench including hardpoints; the65kg planning allowance leaves3.529564101kg for padding, trim, small fasteners and closures. This is calculated mass, not weighed tare. Investigate a lighter braced frame with realistic joint stiffness before further plate-thickness iteration.",
+  "primary_source": {
+    "url": "https://www.atlastube.com/wp-content/uploads/2018/04/A500-Square-Current.pdf",
+    "verified": "2026-10-19",
+    "pdf_page_one_based": 4,
+    "HSS1p5square_1over8": {
+      "design_wall_in": 0.116,
+      "lb_per_ft": 2.2,
+      "A_in2": 0.61,
+      "I_in4": 0.188,
+      "S_in3": 0.251
+    },
+    "HSS2square_1over8": {
+      "design_wall_in": 0.116,
+      "lb_per_ft": 3.05,
+      "A_in2": 0.84,
+      "I_in4": 0.486,
+      "S_in3": 0.486
+    }
+  },
+  "release_status": {
+    "drawing_topology_reviewed": true,
+    "joint_strength_passed": false,
+    "fabrication_approved": false
+  },
+  "next_development": "After publishing the honest dimensioned candidate, compare braced frame/global foot-couple topology and complete mass/CG coordination; final hardpoint load sharing must come from a justified stiffness/contact model and physical tests."
+}

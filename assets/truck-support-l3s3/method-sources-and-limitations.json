@@ -1,0 +1,74 @@
+{
+  "issue": "PF-3L3-S3-SUPPORT-R0",
+  "date": "2026-10-19",
+  "equations": {
+    "relative_roll": "r=phi_truck\u2212phi_body",
+    "right_compression": "deltaR=bR*r\u2212gR",
+    "left_compression": "deltaL=\u2212bL*r\u2212gL",
+    "side_forces": "FR=kR*max(deltaR,0); FL=kL*max(deltaL,0)",
+    "truck_downward_roll_moment": "Mside=bR*FR\u2212bL*FL",
+    "active_branch_linearization": "Kphi=\u03a3active(k*b\u00b2); equivalent_ref=phi_body+(activeRight*kR*bR*gR\u2212activeLeft*kL*bL*gL)/Kphi. If no contactsK0, avoid division.",
+    "center": "Rcenter=Wbody\u2212FR\u2212FL",
+    "external_body_reaction": "Required external moment about+x =\u2212Mside, balancing upward side-contact moment on the prescribed body."
+  },
+  "algorithm": "Enumerate4active sets; call preservedS2linear engine per branch; check gaps and constitutive moment consistency. Deduplicate identical physical boundary solutions; retain branch labels. No center/wheel negative reaction clamping.",
+  "limitations": [
+    "Isolated truck with externally prescribed body roll and prescribed vertical body reaction at an ideal center x=y0. Body heave follows maintained ideal center contact; whole body/other truck torsion and gravity roll are not solved.",
+    "The body support load enters vertical equilibrium ONCE. Sidebearers redistribute it: centerR=Wbody\u2212FR\u2212FL. Sprung truck-frame weight is separate and is not deducted from centerR again.",
+    "Frictionless, no-preload unilateral sidebearers at truck x0, with nonnegative gaps and linear compression rate. This is a comparison law, not the selected topology or actual product.",
+    "Zero gap here still has ZERO preload and is not a model of a real preloaded constant-contact bearing. No yaw/friction/damping/heat/setup/wear law or manufacturer equivalence is established.",
+    "Actual sidebearer/center contact stress, plate flexure, pivot shear/tension/retention, mount fatigue, yaw/pitch and wear clearances remain unmodeled.",
+    "When centerR is nonpositive (including numerical zero), maintained unilateral center contact is invalid. Raw negative/zero diagnostics remain; no lifted-center solution or pivot tension capacity is credited.",
+    "Sidebearer compression uses max(delta,0) as its DEFINED unilateral law. This is not clamping a negative wheel or center reaction. The latter invalidate their assumed contact regime.",
+    "The external body-roll moment needed to hold the imposed body angle is reported explicitly. It represents a required external reaction, not a designed or validated other-truck/body load path.",
+    "All3L.3-S2 spring-station, axle/contact, small-displacement, guide/friction/dynamic and no-safety-acceptance limitations remain. Actual paired-coil same-displacement assumptions must be established before aggregation."
+  ],
+  "source_manifest": [
+    {
+      "path": "assets/truck-twist-l3s2/equilibrium.py",
+      "sha256": "40967bbf8ca89877bd085bbfe2202f166e13c509abc4e82927b34a7a41ff5034"
+    },
+    {
+      "path": "assets/truck-twist-l3s2/method-assumptions-sources.json",
+      "sha256": "6ae2a127655bdb2589585cd5dc870ef4110c37c499d065e97b17e61123efd1b4"
+    },
+    {
+      "path": "assets/truck-twist-l3s2/synthetic-fixtures.json",
+      "sha256": "dd3013a3aa003ec4936e6441ca3b46b3b04f2a8d8d63a792a21b76e5881a0771"
+    },
+    {
+      "path": "assets/suspension-l3/body_interfaces.json",
+      "sha256": "974d466134db7c7981d9dfb121279f7ec4fc6ff036c63a58b8388aef80079771"
+    },
+    {
+      "path": "assets/hazards-s4/hazard-control-verification-register.json",
+      "sha256": "d01f10ed2a999fb6d853195fded783c51badc86b9beb48fb8775d40d632470a6"
+    }
+  ],
+  "primary_sources": [
+    {
+      "publisher": "Wabtec",
+      "title": "Constant Contact Side Bearings",
+      "url": "https://www.wabteccorp.com/freight-car/truck-systems/constant-contact-side-bearings",
+      "accessed": "2026-10-19",
+      "verified": "Current manufacturer family listing of actual constant-contact side bearings.",
+      "limit": "Family/context evidence only; no rail36incompatibility, product selection, rates, preload or application approval. Our gapped frictionless law is NOT its product model."
+    },
+    {
+      "publisher": "A.Stucki",
+      "title": "Side Bearings current category",
+      "url": "https://stucki.com/product-category/running-gear/side-bearings/",
+      "accessed": "2026-10-19",
+      "verified": "Current manufacturer product family listing and stated car-body/truck tilt/yaw function.",
+      "limit": "No item selected, stock checked, supplier contacted or dimensional/rating/preload data adopted."
+    }
+  ],
+  "unavailable_reference": {
+    "url": "https://stucki.com/wp-content/uploads/2024/04/1440-extended-travel-constant-contact.pdf",
+    "attempted": "2026-10-19",
+    "result": "Direct retrieval404; search-index excerpt not treated as current controlled product data.",
+    "adopted_dimensions_or_preloads": false
+  },
+  "approved_for_fabrication": false,
+  "approved_for_operation": false
+}

@@ -1,0 +1,23 @@
+{
+  "status": "Comparison only; no preload/contact/fatigue approval",
+  "weldgroup_equilibrium_198_cases_max_residual_N_or_Nm": 9.208633855450898e-12,
+  "lower_wing_rib": {
+    "bolt_row_positive_force_2x_sensitivity_N": 27401.43886371528,
+    "root_leg_in": 0.3125,
+    "root_weld_MPa": 135.18414806490247,
+    "root_gross_VM_MPa": 133.572730282309,
+    "root_size_in": [
+      0.5,
+      2
+    ],
+    "lever_in": 0.875
+  },
+  "bolt": {
+    "thread_stress_area_in2": 0.1419,
+    "external_tension_stress_1x_MPa": 149.65579698163867,
+    "external_tension_stress_2x_MPa": 299.31159396327735,
+    "proof_stress_J429_Grade8_MPa": 827.37084,
+    "proof_load_N": 75744.31444397135,
+    "note": "External load comparison only. Actual total bolt stress includes installation preload and joint stiffness; 2x is sensitivity, not established upper bound."
+  }
+}

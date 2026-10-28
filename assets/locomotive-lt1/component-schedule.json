@@ -1,0 +1,143 @@
+{
+  "issue": "PF-LOCO-LT1-R0",
+  "columns": [
+    "id",
+    "assembly",
+    "quantity",
+    "make_buy",
+    "definition",
+    "status"
+  ],
+  "rows": [
+    [
+      "LT-F01",
+      "Locomotive chassis",
+      1,
+      "Custom",
+      "Steel structural assembly; member/joint sizing deferred until axle loads and support stiffness solved",
+      "Material family proposal only; no cut list"
+    ],
+    [
+      "LT-R01",
+      "Powered truck assembly",
+      2,
+      "Specialist/custom integration",
+      "1,200 mm axle spacing; two 1,000 mm wheelsets each; center/pivot/side-support and springs to develop",
+      "No wheel/axle/bearing fit or motor mount released"
+    ],
+    [
+      "LT-R02",
+      "Leading truck",
+      1,
+      "Specialist/custom integration",
+      "One 600 mm wheelset; pivot station X1,200",
+      "Yaw/retention/support not yet detailed"
+    ],
+    [
+      "LT-R03",
+      "Trailing truck",
+      1,
+      "Specialist/custom integration",
+      "Two 600 mm wheelsets; axle stations X7,900 / 8,700",
+      "Load sharing and suspension unresolved"
+    ],
+    [
+      "LT-R04",
+      "Tender truck",
+      2,
+      "Specialist/custom integration",
+      "Two 600 mm wheelsets each; 1,000 mm wheelbase",
+      "Same gauge/profile interface as train; lower load does not permit assumed coach geometry"
+    ],
+    [
+      "LT-P01",
+      "Kubota V3307-CR-TI-E5 engine",
+      1,
+      "Purchase candidate",
+      "55.4kW gross intermittent at2,600rpm; published envelope with aftertreatment856\u00d7557\u00d7749mm, excludes cooling fan",
+      "OEM package, continuous duty and cooling acceptance required"
+    ],
+    [
+      "LT-P02",
+      "Danfoss H1P045 pump",
+      1,
+      "Purchase candidate",
+      "45cc/rev study; configuration/control/shaft/charge pump unselected",
+      "Matched engine adapter and torsional coupling required"
+    ],
+    [
+      "LT-P03",
+      "Danfoss H1B110 motor",
+      2,
+      "Purchase candidate",
+      "110cc/rev each study; parallel circuit",
+      "No generic series motor or fixed divider substitution"
+    ],
+    [
+      "LT-P04",
+      "Reduction / axle distribution",
+      2,
+      "Specialist designed or purchase",
+      "7.5:1 overall per truck proposal, four driven axles total",
+      "Bearings, torque reaction, plunge/angles and reversing loads to size"
+    ],
+    [
+      "LT-B01",
+      "Matched air brake system",
+      1,
+      "Purchase + engineered integration",
+      "Locomotive + tender + four coach service, emergency and parking coordination",
+      "Brake chambers alone are not complete systems"
+    ],
+    [
+      "LT-C01",
+      "Removable decorative shell",
+      1,
+      "Custom",
+      "1,700 mm cylindrical shell; matte black finish; nonpressure enclosure",
+      "Proposed 2mm 5052-H32 skin, ribs/fasteners/hot-zone lining to design; not structural load carrier"
+    ],
+    [
+      "LT-C02",
+      "Cab and operator station",
+      1,
+      "Custom",
+      "2,200mm length; 2,600mm external width; floor1,150 / roof3,300mm",
+      "Actual clear standing space, doors, seats, sightlines, escape and hot/noise barriers to resolve"
+    ],
+    [
+      "LT-T01",
+      "Tender chassis/body",
+      1,
+      "Custom",
+      "5,000\u00d72,600mm footprint; body top2,700mm",
+      "Frame and lifting/tie-down joints not detailed"
+    ],
+    [
+      "LT-T02",
+      "Fuel/service module",
+      1,
+      "Purchase + engineered integration",
+      "Tender low service zone; capacity unselected",
+      "Fuel may move to loco if cross-coupling line risk/installation requirements govern"
+    ],
+    [
+      "LT-T03",
+      "Hotel generation / utility module",
+      1,
+      "Purchase candidate not selected",
+      "Shared-engine generator integration first; tender bay reserved only for fallback separate genset or utilities",
+      "Sizing requires current mini-split loads; full module, fuel and exhaust count in tender mass"
+    ],
+    [
+      "LT-E01",
+      "Controls, cooling and electrical",
+      1,
+      "Integrated package",
+      "Traction inhibition, overspeed, emergency stop, compressor, oil/engine cooling, lighting and batteries",
+      "Exact ratings, wire sizes, hoses, ports and circuit drawings held"
+    ]
+  ],
+  "pricing": "No verified quotations recovered for this exact locomotive configuration. No invented unit prices or total. Supplier references are inquiry leads, not stock or application acceptance.",
+  "cost_next": "Price the exact running gear, gearboxes, matched hydraulic package and generator first; then take off structural steel and enclosure sheet from developed parts."
+}

@@ -1,0 +1,77 @@
+{
+  "issue": "PF-3O2-C3-R0",
+  "date": "2026-10-19",
+  "status": "Preliminary review issue; no fabrication/operation release",
+  "completed_scope": [
+    "One forward-facing folding place per wheelchair bay and four 13-passenger modes",
+    "Two 36x60in clear bay reservations, 36in route and revised fixed-seat positions",
+    "98-part first folding mechanism with 0/45/90deg CAD, STEP, DXF and four drawing sheets",
+    "Sampled exact-solid interference checks, independent wheelchair-proxy path verification and calculation review",
+    "Separate mechanism and asymmetric two-foot foundation screens, nominal mass/handling reconciliation and open interface register"
+  ],
+  "unfinished": [
+    "Complete captive pin hardware, secondary retention, engagement indication, guard attachment, rear-gap shroud and handhold; check probe/entrapment, wear and tolerance through travel.",
+    "Resolve stop contact, sector/tang and cheek net sections, pin/bushing fits, local post walls, weld groups, ribs, base contact/prying, fatigue and actual joint stiffness.",
+    "Develop rail-end-to-crossmember reinforcement and connections. Proposed end diaphragms are not included in current CAD, mass or accepted restraint.",
+    "Develop wheelchair securement and occupied restraint/evacuation strategy without invading the clear bays or route; validate actual device families and companion shoulder alignment.",
+    "Adapt the accessible body framing, 42-inch side doorway and offset 36-inch end doorway. Regular C1 framing is not the accessible body.",
+    "Finish fixed accessible seats, panel/pad fasteners, coating/isolation, floor closeouts and exact service tool access.",
+    "Reconcile complete accessible-coach mass/CG and vehicle braking/propulsion/HVAC with 13 passengers plus separately declared crew and mobility-device masses.",
+    "Agree applicable classification, loads, acceptance criteria and controlled prototype tests; obtain qualified review before construction/operation."
+  ],
+  "next": "C3.1: complete locking/guarding and local load path, including seat-rail end connections; retain accessible-body and actual-device validation in coordination.",
+  "complete_coach": false,
+  "construction_approved": false,
+  "passenger_modes": [
+    {
+      "id": "S0",
+      "bay1": "seat_deployed",
+      "bay2": "seat_deployed",
+      "fixed_seats": 11,
+      "folding_seats": 2,
+      "wheelchair_places": 0,
+      "passenger_total": 13
+    },
+    {
+      "id": "S1A",
+      "bay1": "wheelchair",
+      "bay2": "seat_deployed",
+      "fixed_seats": 11,
+      "folding_seats": 1,
+      "wheelchair_places": 1,
+      "passenger_total": 13
+    },
+    {
+      "id": "S1B",
+      "bay1": "seat_deployed",
+      "bay2": "wheelchair",
+      "fixed_seats": 11,
+      "folding_seats": 1,
+      "wheelchair_places": 1,
+      "passenger_total": 13
+    },
+    {
+      "id": "S2",
+      "bay1": "wheelchair",
+      "bay2": "wheelchair",
+      "fixed_seats": 11,
+      "folding_seats": 0,
+      "wheelchair_places": 2,
+      "passenger_total": 13
+    }
+  ],
+  "source_base_commit": "d35b91eeeb6dd181803258cd6caf99b348a6816a",
+  "workstream": "Passenger coaches only; preserve shared locomotive/tender and drivetrain source",
+  "validation_limits": [
+    "Sampled5deg exact solid intersection is not continuous swept-volume proof or tolerance analysis.",
+    "Running clearances are not evidence of finger safety.",
+    "Pins withdrawn in transit; only endpoints are lockable.",
+    "Welds, lock capture/anti-release, fatigue, ergonomics and tests remain incomplete.",
+    "Actual mobility devices can exceed30x48in and have different axle/caster locations; validate representativedevicefamilies andfull-size mockup.",
+    "Pivots assume differential-wheel ability aroundrearaxle; self-propelled/assisted operation, caster sweep, anti-tip hardware andfootrests arenot separately validated.",
+    "Door leaves/handles/threshold/lift/bridge andsecurementhardware are notyetmodeled.",
+    "Parked shoulder locations andcompanion alignment are illustrative, not anthropometric acceptance.",
+    "Search and analytic arc prove existence for this proxy only. Both approaches use one travel-direction reversal; steering steps are geometric paths, not operating instructions. Practical controls, effort and usability still need full-size trials.",
+    "No browser automation was available; source/model data and links were checked and generated drawings/renders were visually reviewed. No browser-runtime or physical test result claimed."
+  ]
+}

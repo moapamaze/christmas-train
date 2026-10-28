@@ -1,0 +1,1223 @@
+{
+  "revision": "SITE-ORG-R0",
+  "date": "2026-10-19",
+  "packages": [
+    {
+      "id": "coach-climate-cl4",
+      "title": "Above-door mini-split fit \u00b7 CL4",
+      "engineering": "coach-hvac-fit.html",
+      "fabricationPage": "coach-hvac-fit.html",
+      "note": "No selected system. Existing pocket fails reviewed installations; ADA requires separate hood design.",
+      "sheets": [
+        {
+          "id": "CL4-A01",
+          "title": "Actual indoor units versus finished hood",
+          "image": "assets/coach-climate-cl4/CL4-A01.svg",
+          "original": "assets/coach-climate-cl4/CL4-A01.svg",
+          "kind": "Dimensioned rejection screen; not construction release"
+        }
+      ]
+    },
+    {
+      "id": "coach-envelope-ce1",
+      "title": "Coach enclosure construction \u00b7 CE1",
+      "engineering": "coach-envelope-engineering.html",
+      "fabricationPage": "coach-envelope.html",
+      "note": "Proposed finished sections. Regular bench revision, ADA integration and engineering acceptance remain open; not for construction.",
+      "sheets": [
+        {
+          "id": "CE1-A01",
+          "title": "Finished coach section",
+          "image": "assets/coach-envelope-ce1/CE1-A01.svg",
+          "original": "assets/coach-envelope-ce1/CE1-A01.svg",
+          "kind": "Dimensioned construction proposal"
+        },
+        {
+          "id": "CE1-D01",
+          "title": "Wall and roof construction",
+          "image": "assets/coach-envelope-ce1/CE1-D01.svg",
+          "original": "assets/coach-envelope-ce1/CE1-D01.svg",
+          "kind": "Dimensioned construction proposal"
+        },
+        {
+          "id": "CE1-D02",
+          "title": "Floor cassette and hardpoints",
+          "image": "assets/coach-envelope-ce1/CE1-D02.svg",
+          "original": "assets/coach-envelope-ce1/CE1-D02.svg",
+          "kind": "Dimensioned construction proposal"
+        }
+      ]
+    },
+    {
+      "id": "locomotive-lt40",
+      "title": "Brake parts and coordinated installation / circuit review \u00b7 LT40",
+      "engineering": "locomotive-lt40.html",
+      "fabricationPage": "locomotive-lt40.html",
+      "note": "Catalog family and functional reference package. Pressure mismatch, OEM interfaces and complete installation remain open; not for construction.",
+      "sheets": [
+        {
+          "id": "LT40-A01",
+          "title": "Air equipment installation",
+          "kind": "Unreleased coordinated review drawing",
+          "image": "assets/locomotive-lt40/LT40-A01-installation.svg"
+        },
+        {
+          "id": "LT40-C01",
+          "title": "Full-train air topology",
+          "kind": "Unreleased coordinated review drawing",
+          "image": "assets/locomotive-lt40/LT40-C01-train-circuit.svg"
+        },
+        {
+          "id": "LT40-C02",
+          "title": "Coach module / pressure hold",
+          "kind": "Unreleased coordinated review drawing",
+          "image": "assets/locomotive-lt40/LT40-C02-coach-circuit.svg"
+        }
+      ]
+    },
+    {
+      "id": "locomotive-lt35",
+      "title": "Spring fit decision and sourcing \u00b7 LT35",
+      "engineering": "locomotive-lt35.html",
+      "fabricationPage": "locomotive-lt35.html",
+      "note": "D5 rejected; supplier replies and replacement selection pending. Audit diagram, not an installation release.",
+      "sheets": [
+        {
+          "id": "LT35-A01",
+          "title": "D5 fit audit and rejection",
+          "kind": "Dimensional audit; not installation drawing",
+          "image": "assets/locomotive-lt35/LT35-A01.svg"
+        }
+      ]
+    },
+    {
+      "id": "locomotive-lt34",
+      "title": "Commercial spring installation study \u00b7 LT34",
+      "engineering": "locomotive-lt34.html",
+      "fabricationPage": "locomotive-lt34.html",
+      "note": "Historical D5 study. LT35 rejects D5 as active installation candidate; do not build these details.",
+      "sheets": [
+        {
+          "id": "LT34-S01",
+          "title": "D5-Outer main spring section",
+          "kind": "Unreleased review drawing",
+          "image": "assets/locomotive-lt34/LT34-S01.svg"
+        },
+        {
+          "id": "LT34-S02",
+          "title": "Main seat heights and rebound bracket",
+          "kind": "Unreleased review drawing",
+          "image": "assets/locomotive-lt34/LT34-S02.svg"
+        },
+        {
+          "id": "LT34-S03",
+          "title": "G63-152 roll-support installation",
+          "kind": "Unreleased review drawing",
+          "image": "assets/locomotive-lt34/LT34-S03.svg"
+        }
+      ]
+    },
+    {
+      "id": "locomotive-lt33",
+      "title": "Standard suspension bumper \u00b7 LT33",
+      "engineering": "locomotive-lt33-engineering.html",
+      "fabricationPage": "locomotive-lt33.html",
+      "note": "Catalog component and pedestal review; no fabrication release.",
+      "sheets": [
+        {
+          "id": "LT33-S01",
+          "title": "Standard bumper and revised pedestal",
+          "kind": "Unreleased review drawing",
+          "image": "assets/locomotive-lt33/LT33-S01.svg"
+        }
+      ]
+    },
+    {
+      "id": "locomotive-cab-c2",
+      "title": "Cab C2 \u00b7 cameras and left controls",
+      "engineering": "locomotive-cab-c2-engineering.html",
+      "fabricationPage": "locomotive-cab-c2.html",
+      "note": "Dimensioned review candidates, not fabrication release.",
+      "sheets": [
+        {
+          "id": "CAB-C2-A01",
+          "title": "Left controls, seats and clear circulation",
+          "kind": "Review drawing",
+          "image": "assets/locomotive-cab-c2/CAB-C2-A01.svg"
+        },
+        {
+          "id": "CAB-C2-A02",
+          "title": "Monitor, instruments and seated reach",
+          "kind": "Review drawing",
+          "image": "assets/locomotive-cab-c2/CAB-C2-A02.svg"
+        },
+        {
+          "id": "CAB-C2-D01",
+          "title": "Enlarged exits and folding access ladder",
+          "kind": "Review drawing",
+          "image": "assets/locomotive-cab-c2/CAB-C2-D01.svg"
+        },
+        {
+          "id": "CAB-C2-V01",
+          "title": "Front and last-coach camera installation",
+          "kind": "Review drawing",
+          "image": "assets/locomotive-cab-c2/CAB-C2-V01.svg"
+        },
+        {
+          "id": "CAB-C2-R01",
+          "title": "Protected video wiring and revised air routes",
+          "kind": "Review drawing",
+          "image": "assets/locomotive-cab-c2/CAB-C2-R01.svg"
+        }
+      ]
+    },
+    {
+      "id": "locomotive-cab-c1",
+      "title": "Cab interior \u00b7 C1",
+      "engineering": "locomotive-cab-c1-engineering.html",
+      "fabricationPage": "locomotive-cab-c1.html",
+      "note": "Current-cab packaging review. Exit, visibility, final controls and restraint approval remain open. Dimensions unreleased.",
+      "sheets": [
+        {
+          "id": "CAB-C1-A01",
+          "title": "Seats, controls and exits in plan",
+          "kind": "Review drawing",
+          "image": "assets/locomotive-cab-c1/CAB-C1-A01.svg"
+        },
+        {
+          "id": "CAB-C1-A02",
+          "title": "Seat height, reach and legroom",
+          "kind": "Review drawing",
+          "image": "assets/locomotive-cab-c1/CAB-C1-A02.svg"
+        },
+        {
+          "id": "CAB-C1-C01",
+          "title": "Instrument panel and control interfaces",
+          "kind": "Review drawing",
+          "image": "assets/locomotive-cab-c1/CAB-C1-C01.svg"
+        },
+        {
+          "id": "CAB-C1-D01",
+          "title": "Exit constraint and seat attachment",
+          "kind": "Review drawing",
+          "image": "assets/locomotive-cab-c1/CAB-C1-D01.svg"
+        }
+      ]
+    },
+    {
+      "id": "locomotive-lt32",
+      "title": "Coordinated locomotive and first coach \u00b7 LT32",
+      "engineering": "locomotive-lt32-engineering.html",
+      "fabricationPage": "locomotive-lt32.html",
+      "note": "Combined installation, mass/load reconciliation, rear hose and maintenance checks. Conditional pivot margin3.96 mm; fabrication unreleased.",
+      "sheets": [
+        {
+          "id": "LT32-S01",
+          "title": "Rear attachment and load reference",
+          "kind": "Unreleased engineering review",
+          "image": "assets/locomotive-lt32/LT32-S01.svg"
+        },
+        {
+          "id": "LT32-S02",
+          "title": "Separated brake-line movement",
+          "kind": "Unreleased engineering review",
+          "image": "assets/locomotive-lt32/LT32-S02.svg"
+        },
+        {
+          "id": "LT32-S03",
+          "title": "Coupling pin and fitting access",
+          "kind": "Unreleased engineering review",
+          "image": "assets/locomotive-lt32/LT32-S03.svg"
+        }
+      ]
+    },
+    {
+      "id": "locomotive-lt31-installation",
+      "title": "Installation and maintenance \u00b7 LT31",
+      "engineering": "locomotive-lt31-installation-engineering.html",
+      "fabricationPage": "locomotive-lt31-installation.html",
+      "note": "Locomotive-side pump and duct candidates, service checks and supplier interface holds. Fabrication dimensions unreleased.",
+      "sheets": [
+        {
+          "id": "LT31-S01",
+          "title": "Cooler and duct removal",
+          "kind": "Unreleased engineering review",
+          "image": "assets/locomotive-lt31-installation/LT31-S01.svg"
+        },
+        {
+          "id": "LT31-S02",
+          "title": "Removable pump carrier joint",
+          "kind": "Unreleased engineering review",
+          "image": "assets/locomotive-lt31-installation/LT31-S02.svg"
+        }
+      ]
+    },
+    {
+      "id": "locomotive-lt31",
+      "title": "Locomotive to first coach \u00b7 LT31",
+      "engineering": "locomotive-lt31-engineering.html",
+      "fabricationPage": "locomotive-lt31.html",
+      "note": "Review geometry, not fabrication release. Frame load path, turning envelopes and brake interfaces; full engineering holds remain.",
+      "sheets": [
+        {
+          "id": "LT31-A01",
+          "title": "Rear frame attachment \u00b7 plan and side",
+          "kind": "Review drawing",
+          "image": "assets/locomotive-lt31/LT31-A01.svg"
+        },
+        {
+          "id": "LT31-M01",
+          "title": "Turning movement \u00b7 circular body placement",
+          "kind": "Review drawing",
+          "image": "assets/locomotive-lt31/LT31-M01.svg"
+        },
+        {
+          "id": "LT31-B01",
+          "title": "Brake-line interfaces \u00b7 BP and FP",
+          "kind": "Review drawing",
+          "image": "assets/locomotive-lt31/LT31-B01.svg"
+        }
+      ]
+    },
+    {
+      "id": "locomotive-lt30",
+      "title": "Physical emergency restraint \u00b7 LT30",
+      "engineering": "locomotive-lt30-engineering.html",
+      "fabricationPage": "locomotive-lt30.html",
+      "note": "Physical core/residual geometry, installation and engineer load-path decision. No qualified catch; fabrication dimensions unreleased.",
+      "sheets": [
+        {
+          "id": "LT30-S01",
+          "title": "Free and compressed cartridge",
+          "kind": "Unreleased engineering review",
+          "image": "assets/locomotive-lt30/LT30-S01.svg"
+        },
+        {
+          "id": "LT30-S02",
+          "title": "Retention and replacement",
+          "kind": "Unreleased engineering review",
+          "image": "assets/locomotive-lt30/LT30-S02.svg"
+        },
+        {
+          "id": "LT30-S03",
+          "title": "Engineer load-path decision",
+          "kind": "Unreleased engineering review",
+          "image": "assets/locomotive-lt30/LT30-S03.svg"
+        }
+      ]
+    },
+    {
+      "id": "locomotive-lt29",
+      "title": "Emergency restraint and connections \u00b7 LT29",
+      "engineering": "locomotive-lt29-engineering.html",
+      "fabricationPage": "locomotive-lt29.html",
+      "note": "Proposed restraint, material/fits and connection sections. No qualified catch; fabrication dimensions unreleased.",
+      "sheets": [
+        {
+          "id": "LT29-S01",
+          "title": "Axial restraint and pivot specification",
+          "kind": "Unreleased connection review",
+          "image": "assets/locomotive-lt29/LT29-S01.svg"
+        },
+        {
+          "id": "LT29-S02",
+          "title": "Cheek, crosshead and frame load path",
+          "kind": "Unreleased connection review",
+          "image": "assets/locomotive-lt29/LT29-S02.svg"
+        },
+        {
+          "id": "LT29-S03",
+          "title": "Hose, pump and duct connections",
+          "kind": "Unreleased connection review",
+          "image": "assets/locomotive-lt29/LT29-S03.svg"
+        }
+      ]
+    },
+    {
+      "id": "locomotive-lt28",
+      "title": "Coordinated locomotive \u00b7 LT28",
+      "engineering": "locomotive-lt28-engineering.html",
+      "fabricationPage": "locomotive-lt28.html",
+      "note": "Coordinated assembly with conditional tolerance and catch-load screens; all fabrication dimensions unreleased.",
+      "sheets": [
+        {
+          "id": "LT28-S01",
+          "title": "Pivot axial and transverse connection sections",
+          "kind": "Unreleased connection review",
+          "image": "assets/locomotive-lt28/LT28-S01.svg"
+        },
+        {
+          "id": "LT28-S02",
+          "title": "Link datums, travel stack and catch sensitivity",
+          "kind": "Unreleased connection review",
+          "image": "assets/locomotive-lt28/LT28-S02.svg"
+        }
+      ]
+    },
+    {
+      "id": "locomotive-lt27",
+      "title": "Pivot travel candidate \u00b7 LT27",
+      "engineering": "locomotive-lt27-engineering.html",
+      "fabricationPage": "locomotive-lt27.html",
+      "note": "Unreleased \u00b114 mm stop candidate; explicit provisional4 mm allowance and unconfirmed supplier rating gates.",
+      "sheets": [
+        {
+          "id": "LT27-S01",
+          "title": "Pivot travel allocation and axial section",
+          "kind": "Unreleased review geometry",
+          "image": "assets/locomotive-lt27/LT27-S01.svg"
+        }
+      ]
+    },
+    {
+      "id": "locomotive-lt26-installation",
+      "title": "Engine installation & controls \u00b7 LT26",
+      "engineering": "locomotive-lt26-systems-engineering.html",
+      "fabricationPage": "locomotive-lt26-installation.html",
+      "note": "Candidate ducts, access panels and pump support; routing and brake schematic for review. Fabrication unreleased.",
+      "sheets": [
+        {
+          "id": "LT26-I01",
+          "title": "Engine-bay layout and airflow",
+          "kind": "Provisional review drawing",
+          "image": "assets/locomotive-lt26-installation/LT26-I01.svg"
+        },
+        {
+          "id": "LT26-I02",
+          "title": "Pump and cooler removal paths",
+          "kind": "Provisional review drawing",
+          "image": "assets/locomotive-lt26-installation/LT26-I02.svg"
+        },
+        {
+          "id": "LT26-B01",
+          "title": "Proposed complete-train brake circuit",
+          "kind": "Provisional review drawing",
+          "image": "assets/locomotive-lt26-installation/LT26-B01.svg"
+        }
+      ]
+    },
+    {
+      "id": "locomotive-lt26",
+      "title": "50 m installation motion \u00b7 LT26",
+      "engineering": "locomotive-lt26-engineering.html",
+      "fabricationPage": "locomotive-lt26.html",
+      "note": "504 discrete load positions. Conservative installation boxes and retained pivot travel; supplier and structural release remain open.",
+      "sheets": [
+        {
+          "id": "LT26-C01",
+          "title": "Installation over moving running gear",
+          "kind": "Sampled envelope screen",
+          "image": "assets/locomotive-lt26/LT26-C01.svg"
+        },
+        {
+          "id": "LT26-S01",
+          "title": "Pivot slide travel budget",
+          "kind": "Connection travel review",
+          "image": "assets/locomotive-lt26/LT26-S01.svg"
+        }
+      ]
+    },
+    {
+      "id": "locomotive-lt25",
+      "title": "AIE engine installation \u00b7 LT25",
+      "engineering": "locomotive-lt25-engineering.html",
+      "fabricationPage": "locomotive-lt25.html",
+      "note": "Supplier package envelope and common-skid proposal. Final mount drilling, cooling, pump torque control and structural release remain open.",
+      "sheets": [
+        {
+          "id": "LT25-A01",
+          "title": "Packaged engine installation",
+          "kind": "Supplier-envelope review",
+          "image": "assets/locomotive-lt25/LT25-A01.svg"
+        },
+        {
+          "id": "LT25-M01",
+          "title": "Common skid and pump interface",
+          "kind": "Undrilled support candidates",
+          "image": "assets/locomotive-lt25/LT25-M01.svg"
+        },
+        {
+          "id": "LT25-A02",
+          "title": "Service reservations and shaft-datum clearance",
+          "kind": "Planning paths; supplier confirmation open",
+          "image": "assets/locomotive-lt25/LT25-A02.svg"
+        }
+      ]
+    },
+    {
+      "id": "locomotive-lt13",
+      "title": "Curve clearance \u00b7 LT13",
+      "engineering": "locomotive-lt13-engineering.html",
+      "fabricationPage": "locomotive-curves.html",
+      "note": "50/30 m curve-placement checks; interference found; no minimum radius release.",
+      "sheets": [
+        {
+          "id": "LT13-A01",
+          "title": "Curve placements",
+          "kind": "Curve study; not for fabrication",
+          "image": "assets/locomotive-lt13/LT13-A01.webp"
+        },
+        {
+          "id": "LT13-S01",
+          "title": "Guides & shell",
+          "kind": "Curve study; not for fabrication",
+          "image": "assets/locomotive-lt13/LT13-S01.webp"
+        },
+        {
+          "id": "LT13-C01",
+          "title": "Cylinder & frame",
+          "kind": "Curve study; not for fabrication",
+          "image": "assets/locomotive-lt13/LT13-C01.webp"
+        }
+      ]
+    },
+    {
+      "id": "locomotive-lt12",
+      "title": "Inboard axle drive \u00b7 LT12",
+      "engineering": "locomotive-lt12-engineering.html",
+      "fabricationPage": "locomotive-drive.html",
+      "note": "Three axle-following inboard chain reductions; development arrangement, not fabrication release.",
+      "sheets": [
+        {
+          "id": "LT12-A01",
+          "title": "Installed drive layout",
+          "kind": "Drive development; not for fabrication",
+          "image": "assets/locomotive-lt12/LT12-A01.webp"
+        },
+        {
+          "id": "LT12-D01",
+          "title": "Motor & reduction",
+          "kind": "Drive development; not for fabrication",
+          "image": "assets/locomotive-lt12/LT12-D01.webp"
+        },
+        {
+          "id": "LT12-S01",
+          "title": "Transverse connections",
+          "kind": "Drive development; not for fabrication",
+          "image": "assets/locomotive-lt12/LT12-S01.webp"
+        },
+        {
+          "id": "LT12-E01",
+          "title": "Exploded service view",
+          "kind": "Drive development; not for fabrication",
+          "image": "assets/locomotive-lt12/LT12-E01.webp"
+        }
+      ]
+    },
+    {
+      "id": "locomotive-lt11",
+      "title": "Northern Railroad profile \u00b7 LT11",
+      "engineering": "locomotive-lt11-engineering.html",
+      "fabricationPage": "locomotive-profile.html",
+      "note": "Current exterior concept: lower inside frame, three large spoked drivers and smaller leading/trailing wheels. New running-gear engineering required.",
+      "sheets": [
+        {
+          "id": "LT11-A01",
+          "title": "Revised side profile",
+          "kind": "Proportion concept; not for fabrication",
+          "image": "assets/locomotive-lt11/LT11-A01.webp"
+        },
+        {
+          "id": "LT11-C01",
+          "title": "Machinery cutaway",
+          "kind": "Proportion concept; not for fabrication",
+          "image": "assets/locomotive-lt11/LT11-C01.webp"
+        },
+        {
+          "id": "LT11-W01",
+          "title": "Spoked wheel proportions",
+          "kind": "Proportion concept; not for fabrication",
+          "image": "assets/locomotive-lt11/LT11-W01.webp"
+        },
+        {
+          "id": "LT11-P01",
+          "title": "Exterior & access direction",
+          "kind": "Proportion concept; not for fabrication",
+          "image": "assets/locomotive-lt11/LT11-P01.webp"
+        }
+      ]
+    },
+    {
+      "id": "locomotive-lt7",
+      "title": "Locomotive \u00b7 hatches, panels & service access",
+      "engineering": "locomotive-lt7-engineering.html",
+      "fabricationPage": "locomotive-build-lt7.html",
+      "note": "Hatch, hinges/closures, shell clips, dome feet and common-cradle removal study. Supplier service dimensions and structural release pending.",
+      "sheets": [
+        {
+          "id": "LT7-A01",
+          "title": "Hatch assembly",
+          "kind": "Nominal detail development / not for fabrication",
+          "image": "assets/locomotive-lt7/LT7-A01.webp",
+          "original": "assets/locomotive-lt7/LT7-drawings-SVG.zip"
+        },
+        {
+          "id": "LT7-H01",
+          "title": "Hinges & closures",
+          "kind": "Nominal detail development / not for fabrication",
+          "image": "assets/locomotive-lt7/LT7-H01.webp",
+          "original": "assets/locomotive-lt7/LT7-drawings-SVG.zip"
+        },
+        {
+          "id": "LT7-P01",
+          "title": "Panel fasteners",
+          "kind": "Nominal detail development / not for fabrication",
+          "image": "assets/locomotive-lt7/LT7-P01.webp",
+          "original": "assets/locomotive-lt7/LT7-drawings-SVG.zip"
+        },
+        {
+          "id": "LT7-D01",
+          "title": "Dome feet",
+          "kind": "Nominal detail development / not for fabrication",
+          "image": "assets/locomotive-lt7/LT7-D01.webp",
+          "original": "assets/locomotive-lt7/LT7-drawings-SVG.zip"
+        },
+        {
+          "id": "LT7-F01",
+          "title": "Hatch part geometry",
+          "kind": "Nominal detail development / not for fabrication",
+          "image": "assets/locomotive-lt7/LT7-F01.webp",
+          "original": "assets/locomotive-lt7/LT7-drawings-SVG.zip"
+        },
+        {
+          "id": "LT7-X01",
+          "title": "Powerpack removal",
+          "kind": "Nominal detail development / not for fabrication",
+          "image": "assets/locomotive-lt7/LT7-X01.webp",
+          "original": "assets/locomotive-lt7/LT7-drawings-SVG.zip"
+        }
+      ]
+    },
+    {
+      "id": "locomotive-lt6",
+      "title": "Locomotive \u00b7 engine & attachment details",
+      "engineering": "locomotive-lt6-engineering.html",
+      "fabricationPage": "locomotive-build-lt6.html",
+      "note": "Engine isolator/cradle, documented seat and joystick patterns, door retention, lamp and trim supports. Nominal CAD; OEM and structural release holds remain.",
+      "sheets": [
+        {
+          "id": "LT6-E01",
+          "title": "Engine isolator",
+          "kind": "Nominal detail development / not for fabrication",
+          "image": "assets/locomotive-lt6/LT6-E01.webp",
+          "original": "assets/locomotive-lt6/LT6-drawings-SVG.zip"
+        },
+        {
+          "id": "LT6-E02",
+          "title": "Adapter & ears",
+          "kind": "Nominal detail development / not for fabrication",
+          "image": "assets/locomotive-lt6/LT6-E02.webp",
+          "original": "assets/locomotive-lt6/LT6-drawings-SVG.zip"
+        },
+        {
+          "id": "LT6-C01",
+          "title": "Seat & joystick",
+          "kind": "Nominal detail development / not for fabrication",
+          "image": "assets/locomotive-lt6/LT6-C01.webp",
+          "original": "assets/locomotive-lt6/LT6-drawings-SVG.zip"
+        },
+        {
+          "id": "LT6-D01",
+          "title": "Door hinges & dogs",
+          "kind": "Nominal detail development / not for fabrication",
+          "image": "assets/locomotive-lt6/LT6-D01.webp",
+          "original": "assets/locomotive-lt6/LT6-drawings-SVG.zip"
+        },
+        {
+          "id": "LT6-H01",
+          "title": "Headlamp bracket",
+          "kind": "Nominal detail development / not for fabrication",
+          "image": "assets/locomotive-lt6/LT6-H01.webp",
+          "original": "assets/locomotive-lt6/LT6-drawings-SVG.zip"
+        },
+        {
+          "id": "LT6-T01",
+          "title": "Stack & dome supports",
+          "kind": "Nominal detail development / not for fabrication",
+          "image": "assets/locomotive-lt6/LT6-T01.webp",
+          "original": "assets/locomotive-lt6/LT6-drawings-SVG.zip"
+        }
+      ]
+    },
+    {
+      "id": "locomotive-lt5",
+      "title": "Locomotive \u00b7 frame & machinery installation",
+      "engineering": "locomotive-lt5-engineering.html",
+      "fabricationPage": "locomotive-build-lt5.html",
+      "note": "Frame, engine cradle, cooling cassette, cab foundations and trim. Nominal detail development; OEM and structural holds remain. Does not revise brakes or drive wheels.",
+      "sheets": [
+        {
+          "id": "LT5-A01",
+          "title": "Overall layout",
+          "kind": "Dimensioned development drawing",
+          "image": "assets/locomotive-lt5/LT5-A01.svg"
+        },
+        {
+          "id": "LT5-F01",
+          "title": "Main frame",
+          "kind": "Dimensioned development drawing",
+          "image": "assets/locomotive-lt5/LT5-F01.svg"
+        },
+        {
+          "id": "LT5-M01",
+          "title": "Skid clamps",
+          "kind": "Dimensioned development drawing",
+          "image": "assets/locomotive-lt5/LT5-M01.svg"
+        },
+        {
+          "id": "LT5-E01",
+          "title": "Engine cradle",
+          "kind": "Dimensioned development drawing",
+          "image": "assets/locomotive-lt5/LT5-E01.svg"
+        },
+        {
+          "id": "LT5-C01",
+          "title": "Driving station",
+          "kind": "Dimensioned development drawing",
+          "image": "assets/locomotive-lt5/LT5-C01.svg"
+        },
+        {
+          "id": "LT5-C02",
+          "title": "Seat foundations",
+          "kind": "Dimensioned development drawing",
+          "image": "assets/locomotive-lt5/LT5-C02.svg"
+        },
+        {
+          "id": "LT5-X01",
+          "title": "Cooling cassette",
+          "kind": "Dimensioned development drawing",
+          "image": "assets/locomotive-lt5/LT5-X01.svg"
+        },
+        {
+          "id": "LT5-T01",
+          "title": "Exterior trim",
+          "kind": "Dimensioned development drawing",
+          "image": "assets/locomotive-lt5/LT5-T01.svg"
+        }
+      ]
+    },
+    {
+      "id": "locomotive-handrails-lt8",
+      "title": "Locomotive \u00b7 removable handrail joints",
+      "engineering": "locomotive-lt8-engineering.html",
+      "fabricationPage": "locomotive-build-lt8.html",
+      "note": "Retained LT8 handrail-joint detail. Its cooling layout is superseded by LT9. Connection and fall-protection acceptance remain open.",
+      "sheets": [
+        {
+          "id": "LT8-H01",
+          "title": "Split handrail joints",
+          "kind": "Layout / nominal connection development; not for fabrication",
+          "image": "assets/locomotive-lt8/LT8-H01.webp",
+          "original": "assets/locomotive-lt8/LT8-drawings-SVG.zip"
+        }
+      ]
+    },
+    {
+      "id": "locomotive-lt4",
+      "title": "Locomotive \u00b7 truck connections",
+      "engineering": "locomotive-lt4-engineering.html",
+      "fabricationPage": "locomotive-supports.html",
+      "note": "Nominal detail development: pins, bearing seats, keepers, side supports and body attachments. DT4 motor carriers and masses unresolved; 1775 mm frame height provisional. Not for fabrication.",
+      "sheets": [
+        {
+          "id": "LT4-A01",
+          "title": "Pivot and retention exploded",
+          "kind": "Dimensioned CAD detail development",
+          "image": "assets/locomotive-lt4/LT4-A01.webp"
+        },
+        {
+          "id": "LT4-P01",
+          "title": "Machined pins",
+          "kind": "Dimensioned CAD detail development",
+          "image": "assets/locomotive-lt4/LT4-P01.svg"
+        },
+        {
+          "id": "LT4-B01",
+          "title": "Bearing seats and covers",
+          "kind": "Dimensioned CAD detail development",
+          "image": "assets/locomotive-lt4/LT4-B01.svg"
+        },
+        {
+          "id": "LT4-D01",
+          "title": "Mounting plate drilling",
+          "kind": "Dimensioned CAD detail development",
+          "image": "assets/locomotive-lt4/LT4-D01.svg"
+        },
+        {
+          "id": "LT4-S01",
+          "title": "Side support",
+          "kind": "Dimensioned CAD detail development",
+          "image": "assets/locomotive-lt4/LT4-S01.svg"
+        },
+        {
+          "id": "LT4-C01",
+          "title": "Catch retention",
+          "kind": "Dimensioned CAD detail development",
+          "image": "assets/locomotive-lt4/LT4-C01.svg"
+        },
+        {
+          "id": "LT4-F01",
+          "title": "Cab floor and ladder",
+          "kind": "Dimensioned CAD detail development",
+          "image": "assets/locomotive-lt4/LT4-F01.svg"
+        },
+        {
+          "id": "LT4-H01",
+          "title": "Removable shell mount",
+          "kind": "Dimensioned CAD detail development",
+          "image": "assets/locomotive-lt4/LT4-H01.svg"
+        }
+      ]
+    },
+    {
+      "id": "drivetrain-dt5",
+      "title": "Locomotive \u00b7 powered axle & motor mount",
+      "engineering": "drivetrain-dt5-engineering.html",
+      "fabricationPage": "drivetrain.html",
+      "note": "171-part development assembly with bearing cartridges, roll cradles, carrier, coupling and hydraulics. Supplier and structural holds remain; not for fabrication.",
+      "sheets": [
+        {
+          "id": "DT5-A01",
+          "title": "Powered axle assembly",
+          "kind": "Dimensioned development drawing",
+          "image": "assets/drivetrain-dt5/DT5-A01.svg"
+        },
+        {
+          "id": "DT5-M01",
+          "title": "Motor carrier and torque reaction",
+          "kind": "Dimensioned development drawing",
+          "image": "assets/drivetrain-dt5/DT5-M01.svg"
+        },
+        {
+          "id": "DT5-B01",
+          "title": "Bearings and pivoting axlebox",
+          "kind": "Dimensioned development drawing",
+          "image": "assets/drivetrain-dt5/DT5-B01.svg"
+        },
+        {
+          "id": "DT5-C01",
+          "title": "Coupling, hubs and guard",
+          "kind": "Dimensioned development drawing",
+          "image": "assets/drivetrain-dt5/DT5-C01.svg"
+        },
+        {
+          "id": "DT5-H01",
+          "title": "Hydraulic connections and travel",
+          "kind": "Dimensioned development drawing",
+          "image": "assets/drivetrain-dt5/DT5-H01.svg"
+        },
+        {
+          "id": "DT5-S01",
+          "title": "Connected axle, bearing and coupling section",
+          "kind": "Dimensioned development drawing",
+          "image": "assets/drivetrain-dt5/DT5-S01.svg"
+        },
+        {
+          "id": "DT5-F01",
+          "title": "Motor fit through curves",
+          "kind": "Dimensioned development drawing",
+          "image": "assets/drivetrain-dt5/DT5-F01.svg"
+        }
+      ]
+    },
+    {
+      "id": "coach-assembled",
+      "title": "Coach, connections & suspension stops \u00b7 CI3",
+      "fabricationPage": "drawings.html#models/coach-assembled",
+      "engineering": "coach-assembled-engineering.html",
+      "note": "Dimensioned stepped crossmember ends, welds, spring-seat ribs, earlier bump stops and keeper retention. Use Rotate 3D for the installed assembly and close-ups; calculations are in separate engineering.",
+      "sheets": [
+        {
+          "id": "CI3-A01",
+          "title": "Installed coach and revised bogies",
+          "kind": "Dimensioned development drawing",
+          "image": "assets/coach-installation-ci3/CI3-A01.webp",
+          "original": "assets/coach-installation-ci3/CI3-A01.svg",
+          "note": "Dimensioned stepped crossmember ends, welds, spring-seat ribs, earlier bump stops and keeper retention. Use Rotate 3D for the installed assembly and close-ups; calculations are in separate engineering."
+        },
+        {
+          "id": "CI3-J01",
+          "title": "Dimensioned crossmember end and welds",
+          "kind": "Dimensioned development drawing",
+          "image": "assets/coach-installation-ci3/CI3-J01.webp",
+          "original": "assets/coach-installation-ci3/CI3-J01.svg",
+          "note": "Dimensioned stepped crossmember ends, welds, spring-seat ribs, earlier bump stops and keeper retention. Use Rotate 3D for the installed assembly and close-ups; calculations are in separate engineering."
+        },
+        {
+          "id": "CI3-S01",
+          "title": "Reinforced bump stops and travel limits",
+          "kind": "Dimensioned development drawing",
+          "image": "assets/coach-installation-ci3/CI3-S01.webp",
+          "original": "assets/coach-installation-ci3/CI3-S01.svg",
+          "note": "Dimensioned stepped crossmember ends, welds, spring-seat ribs, earlier bump stops and keeper retention. Use Rotate 3D for the installed assembly and close-ups; calculations are in separate engineering."
+        },
+        {
+          "id": "CI3-R01",
+          "title": "Spring-seat ribs and capture washer",
+          "kind": "Dimensioned development drawing",
+          "image": "assets/coach-installation-ci3/CI3-R01.webp",
+          "original": "assets/coach-installation-ci3/CI3-R01.svg",
+          "note": "Dimensioned stepped crossmember ends, welds, spring-seat ribs, earlier bump stops and keeper retention. Use Rotate 3D for the installed assembly and close-ups; calculations are in separate engineering."
+        },
+        {
+          "id": "CI3-K01",
+          "title": "Keeper plate, bolts and locking",
+          "kind": "Dimensioned development drawing",
+          "image": "assets/coach-installation-ci3/CI3-K01.webp",
+          "original": "assets/coach-installation-ci3/CI3-K01.svg",
+          "note": "Dimensioned stepped crossmember ends, welds, spring-seat ribs, earlier bump stops and keeper retention. Use Rotate 3D for the installed assembly and close-ups; calculations are in separate engineering."
+        },
+        {
+          "id": "CI1-D02",
+          "title": "Bolted coach-to-bogie connection",
+          "kind": "Installed connection study",
+          "image": "assets/coach-installation-ci1/CI1-D02.svg"
+        },
+        {
+          "id": "CA1-J02",
+          "title": "Spherical joint section and pin capture",
+          "kind": "Assembly installation study",
+          "image": "assets/coach-assembly-ca1/CA1-J02.svg?v=CA1-R1"
+        },
+        {
+          "id": "CA1-D01",
+          "title": "Drawbar and frame-end joints",
+          "kind": "Assembly installation study",
+          "image": "assets/coach-assembly-ca1/CA1-D01.svg?v=CA1-R1"
+        }
+      ]
+    },
+    {
+      "id": "body-c1",
+      "title": "Coaches \u00b7 body structure",
+      "engineering": "engineering.html#coachbody-c1",
+      "note": "Physical body/roof members and J01 joint candidates developed from one CAD source. Preliminary, not a complete coach or construction release. Parts and cutting tables are on the C1 page.",
+      "sheets": [
+        {
+          "id": "C1-A01",
+          "title": "Regular coach \u00b7 body and underframe arrangement",
+          "kind": "Dimensioned CAD elevation and end view",
+          "image": "assets/coach-body-c1/C1-A01.png",
+          "original": "assets/coach-body-c1/C1-A01.svg.gz"
+        },
+        {
+          "id": "C1-A02",
+          "title": "Regular coach \u00b7 physical framing assembly",
+          "kind": "Cutaway from canonical CAD",
+          "image": "assets/coach-body-c1/C1-A02.svg"
+        },
+        {
+          "id": "C1-J01",
+          "title": "Body post to frame \u00b7 assembled joint proposal",
+          "kind": "Orthographic connection and matching part family",
+          "image": "assets/coach-body-c1/C1-J01.svg"
+        },
+        {
+          "id": "C1-P01",
+          "title": "JW web \u00b7 individual fabrication definition",
+          "kind": "Dimensioned blank and hole coordinates",
+          "image": "assets/coach-body-c1/C1-P01.svg"
+        }
+      ],
+      "fabricationPage": "coach-c1.html"
+    },
+    {
+      "id": "seats-c21",
+      "title": "Coaches \u00b7 regular benches & floor mounts",
+      "engineering": "engineering.html#coachbody-c21",
+      "fabricationPage": "coach-c21.html",
+      "note": "Four coped braces, compact ribbed feet and coordinated parts. Preliminary candidate; local attachment and test acceptance remain open.",
+      "sheets": [
+        {
+          "id": "C21-A01",
+          "title": "Bench assembly and installation",
+          "kind": "Coordinated CAD / preliminary part definition",
+          "image": "assets/coach-seats-c21/C21-A01.svg"
+        },
+        {
+          "id": "C21-J01",
+          "title": "Floor mount and true CAD section",
+          "kind": "Coordinated CAD / preliminary part definition",
+          "image": "assets/coach-seats-c21/C21-J01.svg"
+        },
+        {
+          "id": "C21-P01",
+          "title": "Plates, ribs and spacers",
+          "kind": "Coordinated CAD / preliminary part definition",
+          "image": "assets/coach-seats-c21/C21-P01.svg"
+        },
+        {
+          "id": "C21-P02",
+          "title": "Frame and coped braces",
+          "kind": "Coordinated CAD / preliminary part definition",
+          "image": "assets/coach-seats-c21/C21-P02.svg"
+        }
+      ]
+    },
+    {
+      "id": "coach-c4",
+      "title": "Coaches \u00b7 accessible doorway & boarding",
+      "engineering": "engineering.html#coach-c4",
+      "fabricationPage": "coach-c4.html",
+      "note": "Side loading follows the owner\u2019s direction. Negative-Y handing is provisional; boarding and unloading use the same physical side at both stations. The bridge is conditional on compatible station height and gap. Connection screens include failing concentrated-load probes; no bridge load rating is issued. This issue is not a determination of ADA compliance.",
+      "sheets": [
+        {
+          "id": "C4-A01",
+          "title": "Side doorway, end doors and mechanical hardware",
+          "kind": "Dimensioned preliminary physical assembly",
+          "image": "assets/coach-accessible-c4/C4-A01.png",
+          "original": "assets/coach-accessible-c4/C4-A01.svg.gz"
+        },
+        {
+          "id": "C4-A02",
+          "title": "Station bridge, dock connections and handrails",
+          "kind": "Dimensioned preliminary physical assembly",
+          "image": "assets/coach-accessible-c4/C4-A02.png",
+          "original": "assets/coach-accessible-c4/C4-A02.svg.gz"
+        },
+        {
+          "id": "C4-A03",
+          "title": "Wheelchair securement foundations and maneuvering",
+          "kind": "Dimensioned preliminary physical assembly",
+          "image": "assets/coach-accessible-c4/C4-A03.png",
+          "original": "assets/coach-accessible-c4/C4-A03.svg.gz"
+        },
+        {
+          "id": "C4-A04",
+          "title": "Threshold-edge hinges, guards and floor transition",
+          "kind": "Dimensioned preliminary physical assembly",
+          "image": "assets/coach-accessible-c4/C4-A04.png",
+          "original": "assets/coach-accessible-c4/C4-A04.svg.gz"
+        }
+      ]
+    },
+    {
+      "id": "coach-c31",
+      "title": "Coaches \u00b7 folding seats & floor connections",
+      "engineering": "engineering.html#coach-c31",
+      "fabricationPage": "coach-c31.html",
+      "note": "Preliminary physical design. Nominal CAD checks are recorded separately from load screens and prototype checks. Cotter retention capacity, flexible guarding, tolerances, fatigue and final joint acceptance remain open.",
+      "sheets": [
+        {
+          "id": "C31-M01",
+          "title": "Captive pins, secondary retainers and front handholds",
+          "kind": "Dimensioned preliminary physical assembly",
+          "image": "assets/coach-accessible-c31/C31-M01.svg",
+          "original": "assets/coach-accessible-c31/C31-M01.svg"
+        },
+        {
+          "id": "C31-G01",
+          "title": "Hinge covers, rear curtain and folding motion",
+          "kind": "Dimensioned preliminary physical assembly",
+          "image": "assets/coach-accessible-c31/C31-G01.svg",
+          "original": "assets/coach-accessible-c31/C31-G01.svg"
+        },
+        {
+          "id": "C31-F01",
+          "title": "Feet, welded saddles, rail-end collars and floor closeouts",
+          "kind": "Dimensioned preliminary physical assembly",
+          "image": "assets/coach-accessible-c31/C31-F01.svg",
+          "original": "assets/coach-accessible-c31/C31-F01.svg"
+        }
+      ]
+    },
+    {
+      "id": "coach-c5",
+      "title": "Coaches \u00b7 truck suspension",
+      "engineering": "engineering.html#coach-c5",
+      "fabricationPage": "coach-c5.html",
+      "note": "C5 truck geometry retained. Its outboard brake proposal is superseded as the development direction by C5.1; the old CAD is historical. Preliminary truck assembly with explicit supplier interfaces. Coupled body-support checks still fail parts of the broad sensitivity envelope; the operating envelope, actual mass/CG, spring and pad characteristics and brake installation are not released.",
+      "sheets": [
+        {
+          "id": "C5-A01",
+          "title": "Truck arrangement and principal dimensions",
+          "kind": "Dimensioned preliminary physical assembly",
+          "image": "assets/coach-truck-c5/C5-A01.png",
+          "original": "assets/coach-truck-c5/C5-A01.svg.gz"
+        },
+        {
+          "id": "C5-A02",
+          "title": "Axleboxes, bearings and retained suspension",
+          "kind": "Dimensioned preliminary physical assembly",
+          "image": "assets/coach-truck-c5/C5-A02.svg",
+          "original": "assets/coach-truck-c5/C5-A02.svg"
+        },
+        {
+          "id": "C5-M01",
+          "title": "Axle, bearings and outboard brake support",
+          "kind": "Dimensioned preliminary physical assembly",
+          "image": "assets/coach-truck-c5/C5-M01.svg",
+          "original": "assets/coach-truck-c5/C5-M01.svg"
+        },
+        {
+          "id": "C5-B01",
+          "title": "Body pivot, sidebearers and retention",
+          "kind": "Dimensioned preliminary physical assembly",
+          "image": "assets/coach-truck-c5/C5-B01.svg",
+          "original": "assets/coach-truck-c5/C5-B01.svg"
+        }
+      ]
+    },
+    {
+      "id": "coach-c57",
+      "title": "Coaches \u00b7 body-to-truck supply & service",
+      "engineering": "engineering.html#coach-c57",
+      "fabricationPage": "coach-c57.html",
+      "note": "One brake installation with body-to-truck supply hoses, physical connections and maintenance-access details. Manufacturer compatibility, circuit identification, final forces and full hose/service qualification remain open.",
+      "sheets": [
+        {
+          "id": "C57-M01",
+          "title": "Body-to-truck air connections installed",
+          "kind": "Development geometry; supplier-dependent dimensions remain marked",
+          "image": "assets/coach-brake-c57/C57-M01.png",
+          "original": "assets/coach-brake-c57/C57-M01.svg.gz"
+        },
+        {
+          "id": "C57-A01",
+          "title": "Supply hose fittings, supports and protection",
+          "kind": "Development geometry; supplier-dependent dimensions remain marked",
+          "image": "assets/coach-brake-c57/C57-A01.png",
+          "original": "assets/coach-brake-c57/C57-A01.svg.gz"
+        },
+        {
+          "id": "C57-S01",
+          "title": "Pad service and disconnection sequence",
+          "kind": "Development geometry; supplier-dependent dimensions remain marked",
+          "image": "assets/coach-brake-c57/C57-S01.png",
+          "original": "assets/coach-brake-c57/C57-S01.svg.gz"
+        },
+        {
+          "id": "C57-S02",
+          "title": "Continuous socket exit and chamber release access",
+          "kind": "Development geometry; supplier-dependent dimensions remain marked",
+          "image": "assets/coach-brake-c57/C57-S02.png",
+          "original": "assets/coach-brake-c57/C57-S02.svg.gz"
+        }
+      ]
+    },
+    {
+      "id": "coach-c56",
+      "title": "Coaches \u00b7 retained brake mounting details",
+      "engineering": "engineering.html#coach-c56",
+      "fabricationPage": "coach-c57.html#mounts",
+      "note": "Retained C56 carrier, hub, torque-link and frame-connection detail. C57 is the current supply and service installation; final loads remain open.",
+      "sheets": [
+        {
+          "id": "C56-D01",
+          "title": "Bearing carrier and keyed hub sections",
+          "kind": "Dimensioned development geometry; unresolved source dimensions are marked",
+          "image": "assets/coach-brake-c56/C56-D01.png",
+          "original": "assets/coach-brake-c56/C56-D01.svg.gz"
+        },
+        {
+          "id": "C56-D02",
+          "title": "Torque link, pins and retainers",
+          "kind": "Dimensioned development geometry; unresolved source dimensions are marked",
+          "image": "assets/coach-brake-c56/C56-D02.png",
+          "original": "assets/coach-brake-c56/C56-D02.svg.gz"
+        },
+        {
+          "id": "C56-D03",
+          "title": "Frame bracket and caliper mounting paths",
+          "kind": "Dimensioned development geometry; unresolved source dimensions are marked",
+          "image": "assets/coach-brake-c56/C56-D03.png",
+          "original": "assets/coach-brake-c56/C56-D03.svg.gz"
+        }
+      ]
+    },
+    {
+      "id": "coach-bearing-cw3",
+      "title": "Coaches \u00b7 bearing-end section & assembly",
+      "engineering": "coach-bearing-engineering.html",
+      "fabricationPage": "coach-bearing.html",
+      "note": "Revised spacer pilot, recessed cover, grease labyrinth and retained bearing. Proposed details; supplier/engineering release pending.",
+      "sheets": [
+        {
+          "id": "CW3-D01",
+          "title": "Bearing-end cutaway",
+          "kind": "Development detail; not machining release",
+          "image": "assets/coach-bearing-cw3/CW3-D01.svg"
+        },
+        {
+          "id": "CW3-D02",
+          "title": "Piloted spacer and bearing retention",
+          "kind": "Development detail; not machining release",
+          "image": "assets/coach-bearing-cw3/CW3-D02.svg"
+        },
+        {
+          "id": "CW3-D03",
+          "title": "Grease labyrinth and flinger",
+          "kind": "Development detail; not machining release",
+          "image": "assets/coach-bearing-cw3/CW3-D03.svg"
+        },
+        {
+          "id": "CW3-D04",
+          "title": "Assembly and servicing order",
+          "kind": "Development detail; not machining release",
+          "image": "assets/coach-bearing-cw3/CW3-D04.svg"
+        }
+      ]
+    }
+  ],
+  "fabrication": [
+    {
+      "package": "coach-c57",
+      "title": "Supply hoses and service access \u00b7 C5.7",
+      "engineering": "engineering.html#coach-c57",
+      "available": "One installed brake, body/truck connections and service drawings.",
+      "connection": "Source-grounded fitting envelopes; custom hose supports and protection. C56 brake mounting geometry retained.",
+      "hold": "Confirmed package/forces, port assignment, actual crimp/engagement, hose twist/life and complete tool/pad access."
+    },
+    {
+      "package": "coach-c56",
+      "title": "Retained brake mounting detail \u00b7 C5.6",
+      "engineering": "engineering.html#coach-c56",
+      "available": "Carrier, keyed hub, retained pins, torque link and frame-connection sections.",
+      "connection": "Retained physical mounting geometry supporting the C57 installation.",
+      "hold": "Confirmed maximum loads, fits, material and fatigue qualification. See C57 for current supply routing and maintenance checks."
+    },
+    {
+      "package": "coach-c31",
+      "title": "Folding seats: locks, guards and floor connections",
+      "engineering": "engineering.html#coach-c31",
+      "available": "Captive lock pins, separate spring cotters, front handholds, hinge covers and a folding rear curtain are drawn as individual parts. Reinforced rail ends and the complete proposed bolt stack connect the seats to the underframe.",
+      "connection": "Actual pin guides, cotters, covers, curtain clamps, foot stack, weld details and eight reinforced rail-end collars.",
+      "hold": "Retainer strength, tolerant fits, flexible guarding, joint contact/prying, fatigue, weld procedures and physical prototype acceptance remain open."
+    },
+    {
+      "package": "coach-c4",
+      "title": "Accessible coach: side doorway and boarding",
+      "engineering": "engineering.html#coach-c4",
+      "available": "The accessible entrance is a side doorway into the front turning area: a 42-inch structural opening with a 36-inch clear boarding passage between the low edge hardware and bridge curbs. A removable station bridge connects the platform to the coach; the two wheelchair bays remain inside the coach.",
+      "connection": "Physical side-door frame/leaf, hinges and latches, pinned bridge and handrails, dock parts, track backing and shoulder-post roots.",
+      "hold": "Bridge near-end connection strength, actual station geometry, door forces, restraint-system qualification, OEM fitting dimensions and actual-device maneuvering remain open."
+    },
+    {
+      "package": "coach-c5",
+      "title": "Sprung passenger-coach trucks",
+      "engineering": "engineering.html#coach-c5",
+      "available": "Physical wheel and axle blanks, bearing housings, guided axleboxes, coil seats, retention, frame welds and body-support connections replace the earlier truck display shapes. Regular and accessible coaches use separate spring free lengths.",
+      "connection": "Guided axleboxes, retained coils, bearing covers, frame/guide welds, spherical body bearing, kingpin, sidebearer tracks and custom brake-support interfaces.",
+      "hold": "Actual mass and CG, coupled support stability, pad/spring vendor characteristics, axle/wheel fits and fatigue, brake mating details and complete operating envelope remain open."
+    },
+    {
+      "package": "seats-c21",
+      "title": "C2.1 braced benches",
+      "engineering": "engineering.html#coachbody-c21",
+      "available": "Four drawings, physical 3D, STEP/DXF, part list and stiffness/mass comparisons.",
+      "connection": "Four-bolt steel bypass with compact ribbed plates; 1.25in square braces.",
+      "hold": "Local contact/weld/rail-wall and fatigue checks, positive locking, actual service tools, panel fastening, finishes and tests."
+    },
+    {
+      "title": "Regular coach body \u00b7 C1",
+      "package": "body-c1",
+      "engineering": "engineering.html#coachbody-c1",
+      "available": "Physical hollow wall/roof members, window apertures, sheet and door-leaf geometry; J01 plates, sleeves and drilling coordinates; STEP and editable source.",
+      "connection": "C1-J01 direct post/frame bracket is a proposed physical connection, with separate upper/lower force couples. Candidate A500 C tubes, A36 plates and aluminum enclosure sheets.",
+      "hold": "Not yet a complete coach. Joint local wall/contact/bolt/weld/fatigue, roof closure and skin retention, real benches/floor mounts, doors/windows, trucks/brakes, stairs/couplings and HVAC installation need further design/review."
+    }
+  ],
+  "engineering_reference": "engineering.html",
+  "homepage": "index.html",
+  "fabrication_release_changed": false
+}

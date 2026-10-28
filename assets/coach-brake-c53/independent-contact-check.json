@@ -1,0 +1,115 @@
+{
+  "status": "SELECTED GEOMETRIC CONTACTS ONLY \u2014 NOT JOINT STRENGTH",
+  "checkpoint_sha256": "aa185910be1ce9ae54cedfd60dd73eba8f4c48357680b655a933fb70f8bdf7c2",
+  "part_count": 141,
+  "pairs": [
+    {
+      "a": "TORQUE-FORK-1",
+      "b": "CARRIER-BARREL",
+      "distance_mm": 0.0,
+      "overlap_mm3": 0.0,
+      "coincident_face_area_mm2": 613.8979525189021
+    },
+    {
+      "a": "TORQUE-FORK1",
+      "b": "TORQUE-FORK-OUTBOARD-SADDLE",
+      "distance_mm": 0.0,
+      "overlap_mm3": 0.0,
+      "coincident_face_area_mm2": 1130.6646073730599
+    },
+    {
+      "a": "TORQUE-FORK-OUTBOARD-SADDLE",
+      "b": "CARRIER-BARREL",
+      "distance_mm": 0.0,
+      "overlap_mm3": 0.0,
+      "coincident_face_area_mm2": 491.11836201512165
+    },
+    {
+      "a": "CARRIER-MOUNT-WEB-1",
+      "b": "CARRIER-BARREL",
+      "distance_mm": 1.2710574864626038e-13,
+      "overlap_mm3": 0.0,
+      "coincident_face_area_mm2": 1732.3967789580056
+    },
+    {
+      "a": "CARRIER-MOUNT-WEB-1",
+      "b": "CALIPER-MOUNT-CRESCENT",
+      "distance_mm": 0.0,
+      "overlap_mm3": 0.0,
+      "coincident_face_area_mm2": 3559.8649669353927
+    },
+    {
+      "a": "FRAME-LINK-CHEEK-1",
+      "b": "FRAME-HSS",
+      "distance_mm": 0.0,
+      "overlap_mm3": 0.0,
+      "coincident_face_area_mm2": 508.0000000000001
+    },
+    {
+      "a": "FRAME-ENDPLATE-1",
+      "b": "FRAME-HSS",
+      "distance_mm": 0.0,
+      "overlap_mm3": 0.0,
+      "coincident_face_area_mm2": 3508.057499999997
+    },
+    {
+      "a": "CARRIER-MOUNT-WEB1",
+      "b": "CARRIER-BARREL",
+      "distance_mm": 1.2710574864626038e-13,
+      "overlap_mm3": 0.0,
+      "coincident_face_area_mm2": 1732.3967789580092
+    },
+    {
+      "a": "CARRIER-MOUNT-WEB1",
+      "b": "CALIPER-MOUNT-CRESCENT",
+      "distance_mm": 0.0,
+      "overlap_mm3": 0.0,
+      "coincident_face_area_mm2": 3559.8649669354204
+    },
+    {
+      "a": "FRAME-LINK-CHEEK1",
+      "b": "FRAME-HSS",
+      "distance_mm": 0.0,
+      "overlap_mm3": 0.0,
+      "coincident_face_area_mm2": 508.0000000000001
+    },
+    {
+      "a": "FRAME-ENDPLATE1",
+      "b": "FRAME-HSS",
+      "distance_mm": 0.0,
+      "overlap_mm3": 0.0,
+      "coincident_face_area_mm2": 3508.057499999997
+    },
+    {
+      "a": "HUB-INBOARD-AXIAL-RETAINER-L",
+      "b": "CUSTOM-ROTOR-HUB",
+      "distance_mm": 0.0,
+      "overlap_mm3": 0.0,
+      "coincident_face_area_mm2": 2042.0352248333693
+    },
+    {
+      "a": "HUB-AXIAL-RETAINER-L",
+      "b": "CUSTOM-ROTOR-HUB",
+      "distance_mm": 0.0,
+      "overlap_mm3": 0.0,
+      "coincident_face_area_mm2": 2042.0352248333693
+    },
+    {
+      "a": "HUB-INBOARD-AXIAL-RETAINER-R",
+      "b": "CUSTOM-ROTOR-HUB",
+      "distance_mm": 0.0,
+      "overlap_mm3": 0.0,
+      "coincident_face_area_mm2": 2042.0352248333656
+    },
+    {
+      "a": "HUB-AXIAL-RETAINER-R",
+      "b": "CUSTOM-ROTOR-HUB",
+      "distance_mm": 0.0,
+      "overlap_mm3": 0.0,
+      "coincident_face_area_mm2": 1802.663797193868
+    }
+  ],
+  "all_selected_pairs_have_face_contact": true,
+  "maximum_solid_overlap_mm3": 0.0,
+  "scope": "Actual coincident face area distinguishes a saddle or plate joint from a mere tangent line. It does not supply weld geometry, preload, fit, strength or fatigue capacity."
+}

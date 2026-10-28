@@ -1,0 +1,85 @@
+{
+  "revision": "C5.6",
+  "source_hashes": {
+    "cad/coach-brake-c56/checkpoint.brep": "38bf2abfaa8d8112d32f445b4a3a8c4ecd99860a545b345fb8229737d64b16bd",
+    "cad/coach-brake-c56/parts.json": "61cf7325cce922561c5d1a4d44df9b1665d59330a5630876e0c493e0e0526f76",
+    "cad/coach-brake-c56/geometry-contract.json": "7ce45f93a8c9010fc6706653ec2d4806145d8dab565805e285723a6b0524c794",
+    "cad/coach-brake-c56/research-service-access.json": "b37db6c0dafb3d68d068f91d6477daa469bb63ae449650ea7b7dfae1bec21ca2",
+    "cad/coach-brake-c56/draw_service_c56.py": "59973a4888eaf058251868a0356bc970a4eb6c6b61b7d8a66bcb2a88c200adf3",
+    "cad/coach-brake-c56/service-access-review.json": "4b5650eb7b35757318cacebd5ce417cb1a3b0eed8d7977284977a000688958a3",
+    "dist/assets/coach-brake-c56/model-nominal.json.gz": "70b63fa48c4a157fc5d2fba148334cc967873e374e2c6e1a2b40d1491eefc8ec"
+  },
+  "source_brep_sha256": "38bf2abfaa8d8112d32f445b4a3a8c4ecd99860a545b345fb8229737d64b16bd",
+  "method": "Actual BREP edge projections and OpenCascade silhouette extraction. Direction arrows and dashed reservations are explicitly nonphysical. No OEM pad or service cavity built.",
+  "sheets": [
+    "C56-S01",
+    "C56-S02"
+  ],
+  "models": [
+    {
+      "file": "model-chamber-removal.json.gz",
+      "chamber_translation_mm": 75,
+      "removed_ids": [
+        "WABCO-MOUNT-NUT-1",
+        "WABCO-MOUNT-NUT1",
+        "CAGING-89-EXTENSION",
+        "CAGING-TOOL-RESERVATION",
+        "PARKER-THREAD-INTERFACE-PORT97",
+        "PARKER-THREAD-INTERFACE-PORT116",
+        "PARKER-10125-PORT97",
+        "PARKER-17B25-PORT97",
+        "PARKER-2716-STRAIGHT-PORT97",
+        "AIR-GUIDE-M6-BOLT-PORT97-1",
+        "AIR-GUIDE-M6-BOLT-PORT97-2",
+        "STAUFF-319-UPPER-PORT97",
+        "STAUFF-DP3-PORT97",
+        "PARKER-2716-HOSE-PORT97",
+        "PARKER-10125-PORT116",
+        "PARKER-17B25-PORT116",
+        "PARKER-2716-STRAIGHT-PORT116",
+        "AIR-GUIDE-M6-BOLT-PORT116-1",
+        "AIR-GUIDE-M6-BOLT-PORT116-2",
+        "STAUFF-319-UPPER-PORT116",
+        "STAUFF-DP3-PORT116",
+        "PARKER-2716-HOSE-PORT116"
+      ]
+    },
+    {
+      "file": "model-parking-release.json.gz",
+      "source_extension_mm": 89,
+      "tool_reservation_qualified": false
+    }
+  ],
+  "assets": [
+    {
+      "file": "C56-S01.png",
+      "bytes": 176397,
+      "sha256": "3608d68279f61fca1bb9ec49c747a9b7e1f9377177e4645d6d3a85651095d269"
+    },
+    {
+      "file": "C56-S01.svg.gz",
+      "bytes": 13607,
+      "sha256": "db7101e464e678c0e77e55bd82f2c6cb313f0885d8a25b86e6600d190145c74c"
+    },
+    {
+      "file": "C56-S02.png",
+      "bytes": 194101,
+      "sha256": "f10b38a5cfe338f1bff37dc92d454aec6c37b9f9980f1bbb8e5ca660d8437a70"
+    },
+    {
+      "file": "C56-S02.svg.gz",
+      "bytes": 27598,
+      "sha256": "c322016a981e7b91666a378011ed3bf6312e660cbd8dec778aad7e577427fbb3"
+    },
+    {
+      "file": "model-chamber-removal.json.gz",
+      "bytes": 388923,
+      "sha256": "9972a7e396f0313a88d2e72821b153bc7727a4dc40944eff860425e2da84becb"
+    },
+    {
+      "file": "model-parking-release.json.gz",
+      "bytes": 572019,
+      "sha256": "1075392f4558a1784a0a2e64c65e509041bab1f13bcad674941690ee2dce573a"
+    }
+  ]
+}

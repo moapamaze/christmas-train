@@ -1,0 +1,23 @@
+{
+  "load_probe_N": 200000,
+  "gross_area_mm2": 5400,
+  "nominal_net_area_at_seat_mm2": 2160,
+  "nominal_gross_axial_stress_MPa": 37.03703703703704,
+  "nominal_net_axial_stress_MPa": 92.5925925925926,
+  "nominal_projected_bore_pressure_MPa": 61.72839506172839,
+  "weak_axis_second_moment_mm4": 583200.0,
+  "ideal_pin_pin_column_length_probe_mm": 800,
+  "radius_of_gyration_mm": 10.392304845413264,
+  "slenderness_probe": 76.9800358919501,
+  "ideal_elastic_Euler_load_N": 1798735.4020985356,
+  "axial_deflection_gross_prismatic_probe_mm": 0.14814814814814814,
+  "geometry_volume_mm3": 4498128.303458542,
+  "mass_geometry_estimate_kg": 35.31030718214955,
+  "interpretation": [
+    "Gross/net stresses and bore pressure are nominal section checks, not local contact/eye stresses.",
+    "Euler load is an ideal elastic column result. Inelastic behavior, eccentricity, bearing/joint flexibility and imperfections require design checks; it is not an allowable compression rating.",
+    "Fatigue, fretting, local bore/ligament stresses, out-of-plane bending, toughness and retention are not closed.",
+    "The200kN probe is not a proof-load instruction or an accepted coupling rating.",
+    "Basic spherical-plain bearing C/C0 figures are not whole-coupler load ratings."
+  ]
+}

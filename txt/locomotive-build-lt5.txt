@@ -1,0 +1,14 @@
+Locomotive structure & installation · LT5 · Pulsipher FarmsDrawings3D assembliesEngineering & partsTruck connectionsDrive wheels
+LOCOMOTIVE / LT5
+Structure & installation
+Frame · Machinery mounts · Driving station · Exterior trim
+DETAIL DEVELOPMENTR0 · Not for fabrication20 October 2026
+Detail drawingsExact CAD projections · Nominal dimensions in mm
+A01 Overall layoutF01 Main frameM01 Skid clampsE01 Engine cradleC01 Driving stationC02 Seat foundationsX01 Cooling cassetteT01 Exterior trimLT5-A01 · Overall layoutFull-size ↗LT5-F01 · Main frameFull-size ↗LT5-M01 · Skid clampsFull-size ↗LT5-E01 · Engine cradleFull-size ↗LT5-C01 · Driving stationFull-size ↗LT5-C02 · Seat foundationsFull-size ↗LT5-X01 · Cooling cassetteFull-size ↗LT5-T01 · Exterior trimFull-size ↗
+Frame top1,775 mm provisional · OEM interfaces and structural release pending. Open issues & checks →
+3D assembliesLoading…
+Whole locomotive bodyInternal installationMain frameSkid & clampsEngine cradleCooling & service bayDriving stationExterior trim
+ Exploded view Compatibility 3D
+Loading CAD geometry…
+Select a component for its definition. Purchased equipment appears as labeled installation boundaries. Trucks and brakes are reviewed on their own pages.Enable JavaScript to rotate the CAD models. Drawing sheets and STEP downloads remain available.
+FilesFabricated detail STEP ↗Parts CSV ↗ (gzip)Engineering & handoff ↗Previous versions ↗PF–LOCO–LT5 · R0 · 20 October 2026

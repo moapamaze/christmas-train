@@ -1,0 +1,31 @@
+Brake ports and hoses · C5.5 · Pulsipher Farms
+Previous version · Earlier brake-hose geometry; supplier evidence retained
+This page is retained as history. Open the current assembly →
+Current brake detail · C5.6: One brake installation with fixed hose connections, supported leads and maintenance-access details. Exact brake matching, threaded interfaces, final loads and complete service qualification remain open. Installed CAD and drawings · Engineering evidence.
+C5.5 · ONE BRAKE INSTALLATION · 20 OCTOBER 2026
+Brake ports and hose connections
+The first installation continues with revised chamber-port geometry, local fittings and hose paths. Its carrier, rotor hub and frame reaction remain part of the same development assembly.
+Corrected air interfaces and moving-hose study for one brake.
+The CAD now includes the 89 mm chamber-port datum, exact tangent hose paths and separate unresolved thread interfaces. It preserves 149 earlier parts. Checks cover 40 constant-length hose curves and 10 rigid assembly poses. Supplier fit, maximum force, fixed hose hardware, strength qualification and installed service remain open.
+Current drawings
+C55-M01Brake installed in the truck · actual CAD projectionsC55-D01Bearing, thrust and rotor-hub sections · actual CAD projectionsC55-D02Chamber, link and port connections · actual CAD projections
+Inspect the brake and connections
+Truck with this brakeBrake close-up
+Only one brake at axle 2, right side is developed here. No other brake stations have been copied. The full axle retains the C5.4 keyway; gray outboard extensions remain unfinished C5 reference geometry.
+Nominal assembly
+Loading revised geometry…
+Use the port and hose buttons to inspect individual parts. Interface reservations are hidden initially and can be shown with the group controls. A hidden reservation remains an unresolved interface.
+Parts and remaining interfaces
+The chamber exterior remains the WABCO 9253800250 dimensional reference. Alternative chamber records do not confirm interchangeability.
+Port 97 and Port 116 identify physical drawing stations. Circuit assignment and actual thread engagement remain open.
+The hose shapes and movement studies are development geometry. The engineering record states which lengths, bends and motion conditions were checked.
+Conflicting manufacturer rotor dimensions still prevent confirming the purchased package. Both manufacturer requests were sent on 19 October 2026 at 7:56 p.m. Pacific; replies are pending.
+Chamber supply lead
+Exact WABCO 9253800460 and 9253800450 seller listings have been found. Actual availability, compatibility and maximum forces still require confirmation. The installed CAD remains C5.5.
+Review the new sourcing evidence · View sent manufacturer requests
+Engineering and supplier questions
+Component evidence, remaining strength and geometry gaps, hose diagnostics and sent supplier requests are collected separately. This revision does not release fabrication or establish maximum braking performance.
+Open engineering evidenceView sent supplier requests
+CAD and drawing records
+C55-M01 · SVG gzipC55-D01 · SVG gzipC55-D02 · SVG gzipEditable assembly · STEP gzipPart scheduleGeometry contractDesign recordGeometry check scope
+Decompress gzip STEP files before CAD import and gzip SVG files before editing. Recorded dimensions and precision do not establish fabrication tolerances.C5.5 · One installation under development · Purchased-package matching remains open

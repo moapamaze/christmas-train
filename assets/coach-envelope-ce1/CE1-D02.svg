@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 820" role="img"><title>CE1-D02 / Floor cassette and hardpoint detail</title><desc>Keep the finished walking surface at Z32.000″ · insulation fits below the existing deck</desc><defs><marker id="arrow" markerWidth="7" markerHeight="7" refX="3.5" refY="3.5" orient="auto-start-reverse"><path d="M0 0L7 3.5L0 7" fill="#17364a"/></marker><pattern id="wool" width="12" height="12" patternUnits="userSpaceOnUse"><path d="M0 12L12 0" stroke="#c0a24f" stroke-width="1"/></pattern></defs><style>text{font-family:Arial,sans-serif;fill:#17364a}.title{font-size:29px;font-weight:700}.sub{font-size:16px}.note{font-size:17px}.small{font-size:14px}.dim{stroke:#17364a;stroke-width:1;marker-start:url(#arrow);marker-end:url(#arrow)}.thin{stroke:#688592;stroke-width:1;fill:none}</style><rect width="1200" height="820" fill="#faf8f1"/><text x="35" y="46" class="title">CE1-D02 / Floor cassette and hardpoint detail</text><text x="35" y="77" class="sub">Keep the finished walking surface at Z32.000″ · insulation fits below the existing deck</text>
+<text x="35" y="125" class="note">TOP → BOTTOM IN AN OPEN FRAME BAY</text>
+<rect x="35" y="148" width="465" height="43" fill="#b79a77" stroke="#17364a"/>
+<text x="47" y="175" class="small">2.5 mm rubber finish + 0.75 mm adhesive budget</text>
+<rect x="35" y="201" width="465" height="43" fill="#cbd2d4" stroke="#17364a"/>
+<text x="47" y="228" class="small">3/4″ aluminum honeycomb structural panel</text>
+<rect x="35" y="254" width="465" height="43" fill="#e7c673" stroke="#17364a"/>
+<text x="47" y="281" class="small">2″ mineral wool below deck, clear of frame</text>
+<rect x="35" y="307" width="465" height="43" fill="#c7e3dc" stroke="#17364a"/>
+<text x="47" y="334" class="small">.040″ removable protective aluminum tray</text>
+<text x="650" y="125" class="note">FIXED DATUMS</text>
+<text x="650" y="164" class="note">Finished floor: Z32.000″</text>
+<text x="650" y="195" class="note">Panel top: Z31.872″</text>
+<text x="650" y="226" class="note">Panel underside: Z31.122″</text>
+<text x="650" y="257" class="note">Frame top: Z31.004″ + 3 mm support pad</text>
+<text x="650" y="288" class="note">Wool underside: Z29.122″</text>
+<text x="650" y="319" class="note">Tray underside: Z29.082″</text>
+<text x="35" y="420" class="note">FRAME / FASTENERS / THRESHOLDS</text>
+<text x="35" y="457" class="small">Each panel edge needs support and a sealed closeout; supplier inserts carry point loads without crushing core.</text>
+<text x="35" y="486" class="small">Seat feet and accessible securement loads go into retained steel hardpoints, through isolated sealed sleeves.</text>
+<text x="35" y="515" class="small">No floor insulation is placed between the structural deck and its supports; retain the 3 mm support isolation.</text>
+<text x="35" y="544" class="small">Removable bay trays attach to frame-side brackets and closeouts, not to unsupported honeycomb skins.</text>
+<text x="35" y="573" class="small">Terminate cassettes clear of CI2/CI3 bridges, bolsters, brackets, moving trucks, brake hoses and service paths.</text>
+<text x="35" y="602" class="small">Keep entrance and bridge thresholds flush. The proposed adhesive allowance must match the selected system.</text>
+<text x="35" y="631" class="small">Open honeycomb edges, cutouts and penetrations require sealed closure; floor seams need a compatible seal.</text>
+<rect x="35" y="683" width="1125" height="75" fill="#f4e8cb" stroke="#17364a"/>
+<text x="53" y="711" class="note">Provisional insulation coverage: 60% of finished floor area.</text>
+<text x="53" y="739" class="small">This deliberately keeps exposed steel in the heat-loss model. Static fit is screened; moving/service clearance is not accepted.</text>
+<text x="35" y="798" class="small">CE1 · 26 OCT 2026 · DIMENSIONED COORDINATION PROPOSAL · NOT FOR CONSTRUCTION</text>
+</svg>

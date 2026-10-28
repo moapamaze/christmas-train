@@ -1,0 +1,50 @@
+{
+  "issue": "PF-DT3-R0",
+  "received_locomotive_issue": "PF-LOCO-LT2-R0",
+  "source_commit": "d35b91eeeb6dd181803258cd6caf99b348a6816a",
+  "proposal": {
+    "truck_wheelbase_mm": 1400,
+    "previous_mm": 1200,
+    "reason": "Space for pinion support/seal stack plus a catalog sliding cardan shaft, without deleting the plunge allowance.",
+    "pivots_global_x_unchanged": [
+      3300,
+      6000
+    ],
+    "axles_global_x": [
+      2600,
+      4000,
+      5300,
+      6700
+    ],
+    "spring_centres_local_x": [
+      -700,
+      700
+    ],
+    "frame_length_unchanged_mm": 2000,
+    "frame_support_top_unchanged_z": 1170
+  },
+  "LT2_acknowledged": "Raised mainframe pad bottom1326.15; prior LT1 sideframe overlap is historical. Existing LT2 clearance check excluded drive hardware and does not accept DT3.",
+  "requires_locomotive_return": [
+    "Truck yaw/curve limits with 1400 wheelbase and longer wheel envelope",
+    "Spring/axlebox relocation and frame-load changes",
+    "Pivot/sidebearer stack and drawbar force path",
+    "New complete mass/CG and brake placement",
+    "Hose slack at the truck pivot and control wiring"
+  ],
+  "acceptance_by_other_chat_recorded": false,
+  "construction_approved": false,
+  "latest_shared_source": "0f689682ddc40c6024e9d888625d22dcdf84170a",
+  "coach_C3_received": "Two folding seats retain130kg complete-seat trial allowance. No complete-coach or whole-train mass update accepted.",
+  "mass_return": {
+    "model_plus_allowances_kg_per_truck": 2263.4094546437873,
+    "LT2_budget_kg": 2200,
+    "difference_kg": 63.409454643787285,
+    "basis": "Mixed nominal solid-volume masses and a47kg motor allowance. Bearings and shafts are simplified, not weighed OEM assemblies. Brakes/suspension/fasteners/guards still incomplete."
+  },
+  "bounding_plane_screen": {
+    "Rmax_mm": 1322.388927033224,
+    "upper_z_mm": 1302.3014159968395,
+    "LT2_pad_separation_mm": 23.848584003160568,
+    "limits": "Same conservative \u00b12degree pitch/roll and40mm lift bound as LT2; no full swept collision or curve/route acceptance. Support stack remains unfinished."
+  }
+}

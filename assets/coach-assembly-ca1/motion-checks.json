@@ -1,0 +1,87 @@
+{
+  "issue": "CA1-R1",
+  "method": "735 discrete poses; conservative enclosing-cylinder to infinite-ear-plane bounds; end-face projection separates two reserved body boxes. No continuous sweep claim.",
+  "inputs": {
+    "relative_yaw_deg": [
+      -14,
+      14,
+      2
+    ],
+    "relative_pitch_deg": [
+      -6,
+      6,
+      2
+    ],
+    "relative_roll_deg": [
+      -6,
+      6,
+      2
+    ],
+    "bar": "half relative Euler angles; coachA level; pin-to-pin800mm",
+    "body_reservation": "width1828.8mm, bottom0/top3000mm; two end planes150mm behind pins",
+    "clevis_gap_mm": 72
+  },
+  "sample_count": 735,
+  "max_bearing_tilt_deg": 4.300536542651067,
+  "min_nominal_bounds_mm": {
+    "ear": 2.2337515110804347,
+    "spacer": 5.8598361925820015,
+    "race": 1.3720209062450834,
+    "body": 595.314989311795
+  },
+  "worst": {
+    "ear": {
+      "yaw": -14,
+      "pitch": -6,
+      "roll": 6,
+      "tilts": [
+        4.241670935281772,
+        4.300536542651067
+      ]
+    }
+  },
+  "secondary_anchor_chord_range_mm": [
+    747.3119660185638,
+    1135.055923077061
+  ],
+  "secondary_route": {
+    "pin_to_pin_flexible_length_mm": 1200,
+    "outside_envelope_mm": 90,
+    "min_envelope_above_local_rail_datum_mm": 166.6400246587466,
+    "max_length_error_mm": 6.959908205317333e-10,
+    "scope": "Parabolic free-slack envelope, not physical catenary/fittings or route-ground proof; no hardware collision proof."
+  },
+  "catalog6degree_bound": {
+    "tilt_deg": 6,
+    "ear_clearances_mm": [
+      {
+        "name": "bar end zone",
+        "lower_bound": 2.4193363932230643
+      },
+      {
+        "name": "retainer",
+        "lower_bound": 6.958817073738161
+      },
+      {
+        "name": "M6 head + lockwire envelope",
+        "lower_bound": 0.5989532171120358
+      }
+    ],
+    "spacer_to_retainer_radial_lower_bound_mm": 5.0712430549431815,
+    "illustrative_race_end_margin_mm": 0.3647297831460108
+  },
+  "baseline_R0_at6deg": {
+    "clevis_gap_mm": 60,
+    "fastener_envelope_r_mm": 58,
+    "z_mm": 28,
+    "ear_bound_mm": -3.9092639398355518,
+    "note": "Conservative old bolt/nut envelope; negative bound identifies possible contact, not an exact penetration result"
+  },
+  "limitations": [
+    "No tolerance, elastic deflection, bearing seals, grease fittings or OEM manufacturing-profile allowance.",
+    "Finite150mm end-zone bound; actual complete-bar/fork solid checks in solid-motion-checks.json.",
+    "Coach body spacing only for declared envelope; boarding equipment, track, bogie/suspension and passage not qualified.",
+    "Secondary chord is not chain cut length or slack-catch approval."
+  ],
+  "fabrication_released": false
+}

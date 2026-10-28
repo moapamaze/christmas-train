@@ -1,0 +1,66 @@
+{
+  "issue": "PF-3O2-C2-R0",
+  "date": "2026-10-19",
+  "completed_scope": "Preliminary regular-bench physical design issue: custom tube/plate/spacer geometry, actual assembly and floor interface, dimensioned drawing set and reproducible sources.",
+  "not_complete": [
+    "Complete regular coach",
+    "Approved bench or attachment",
+    "Upholstery retention and qualified materials",
+    "Positive locking and exact installed fasteners",
+    "Floor sealed edge closeouts",
+    "Accessible folding-seat mechanism"
+  ],
+  "retained": [
+    "32regularseats/16two-adultbenches,40inwidth,32inpitch,24inaisle,18inseattop",
+    "Foot centresXrow\u00b18,Y\u00b120/\u00b144",
+    "C1bodyandJ1aframe geometry; source predecessors preserved"
+  ],
+  "revised": [
+    "I1two-boltline replaced by four1/2inbolts perfoot atX\u00b1.875/Y\u00b12",
+    "Cap3.5x6x3/4 andsole4.5x7.5x3/4 A36 preliminary candidate; combined X/Y fixed-foot sensitivity made5/8cap grossstrip approximately 247 MPa before prying",
+    "SoleundersideZ32.25 clearsnominalfloorby.25in;spacer12.6mm resultsfromnewsteelstack,notoldpartreuse",
+    "Flooropenings3.875x6.375, matching all64mounts",
+    "Continuous2inrearlegs and1.5inseat/frontframe, all1/8nominalwall A500C",
+    "Actualpan/back plates and back through-tube sleeves replace seat boxes"
+  ],
+  "rejected": [
+    "Zero nominal panel isolation in inherited I1",
+    "Using fullfront/rearfoot couple as proof of local fixed-foot moment capacity",
+    "Old15kg bench allowance",
+    "Treating catalogue boltproof force as allowablejointcapacity",
+    "Calling a detailed but unreviewed assembly fabrication approved"
+  ],
+  "connection_design": {
+    "HP01": "Steel rail crown plus two HP03 side cheeks support cap; cap/cheek weld and rail-wall load transfer require local review.",
+    "HP02": "Bench legs weld to sole. Four spacers and four vertical bolts connect sole to cap, bypassing floor. Two longitudinal bolt rows now exist.",
+    "panel_mounts": "Seatpan four1/4inthrough-fastener candidates through BP03tabs; backpan four1/4in through candidates with BP04crush sleeves through horizontal rails. Exact small hardware/locking, dielectric isolation and torque remain to close.",
+    "floor_closeout": "Do not clamp floor beneath sole. Proposed removable flexible nonstructural skirt/boot; material, flame performance, fasteners and edge reinforcement not yet defined."
+  },
+  "proposed_workmanship": {
+    "tube_cuts": "Cutlength +/-1/32in, squarewithin0.5degree trialtargets; deburr. Weld fixture foot coplanarity target0.5mm before matched spacer fitting. Targets are designer proposals to validate with shop process.",
+    "plates": "Profile +/-1/32in; coordinated hole positions +/-1/64in from common datum; drill/finish \u00d89/16 +1/64/-0 proposed. Final bolt slip/fatigue design may tighten these values.",
+    "spacers": "Finish matched footsets to measured welded stack; length trialtarget +/-0.05mm, within-set difference<=0.05mm. Do not stack loose washers to adjust floor gap.",
+    "welds": "Initial trials:1/8in E70 fillet on bench tube/sole and tube/tube connections;3/16in E70 cap/cheek attachment. These are proposed process inputs, not accepted effective weld lengths or capacities. Rounded HSS faces require actual fit-up and qualified procedure; do not assume sharp-box perimeter contact.",
+    "inspection": "Record material heat/grade, cut dimensions, holes, assembled diagonals, weld process/visual results, spacer lengths, floor gaps under test, bolt grip/thread engagement and positive retention. Record actual findings; no test result claimed."
+  },
+  "responsibilities": {
+    "farm_or_Ralph": "Inventory, marked cutting, noncritical jigs, trial fit and assembly only to demonstrated capability and later released details. No assumed welding qualification.",
+    "subcontract": "Precision spacers/sleeves, coordinated drilling/reaming where required, critical weld procedure/fabrication/inspection, coatings and upholstery/finish work per owner outsourcing direction.",
+    "engineering": "Accept load cases and applicability, joint stiffness/prying/contact, wall/fatigue checks, wholevehicle mass/CG, comfort/egress and prototype test acceptance."
+  },
+  "release_gates": [
+    "Compare lighter braced seat frame and realistic joint stiffness before any further plate-thickness iteration; current metal leaves little complete-seat mass allowance",
+    "Seat-frame and foot joint stiffness/prying model including both signs and lateral load",
+    "Local cap/sole/cheek and HSS rail wall/corner/rail-end load transfer",
+    "Panel bolt groups, pan/back local plate bending, contact and foam/edge treatment",
+    "Weld group effective lengths, qualified process and fatigue",
+    "Positive fastener locking and exact grip/torque sequence",
+    "Thermal and loaded floor isolation, sealed nonstructural closeout",
+    "Full-size two-adult comfort and aisle/row egress trials",
+    "Complete mass/CG coordination and instrumented prototype proof/fatigue/retention acceptance"
+  ],
+  "engineering_approved": false,
+  "construction_approved": false,
+  "complete_phase3L": false,
+  "next": "C2.1: lighter braced bench/frame and realistic foot-stiffness comparison, incorporating the calculated CAD/catalog metal mass and a complete padding/finish allowance. Then C3 accessible convertible seating geometry and positive stowage, with bay space and common floor load paths reconciled. Continue cover/seal and small hardware in coordinated revisions."
+}

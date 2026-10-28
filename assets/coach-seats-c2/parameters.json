@@ -1,0 +1,132 @@
+{
+  "revision": "PF-3O2-C2-R0",
+  "units": "inches",
+  "date": "2026-10-19",
+  "prototype_origin": "bench row X0; right-side Y12..52; Z above rail",
+  "row_x": [
+    41,
+    73,
+    105,
+    137,
+    169,
+    201,
+    233,
+    265
+  ],
+  "feet_x": [
+    -8,
+    8
+  ],
+  "feet_y": [
+    20,
+    44
+  ],
+  "floor_z": 32,
+  "steel_top_z": 31.003937007874015,
+  "cap_size": [
+    3.5,
+    6,
+    0.75
+  ],
+  "sole_size": [
+    4.5,
+    7.5,
+    0.75
+  ],
+  "sole_under_z": 32.25,
+  "sole_top_z": 33,
+  "bolt_xy_offsets": [
+    [
+      -0.875,
+      -2
+    ],
+    [
+      -0.875,
+      2
+    ],
+    [
+      0.875,
+      -2
+    ],
+    [
+      0.875,
+      2
+    ]
+  ],
+  "hole_diameter": 0.5625,
+  "spacer_OD": 1,
+  "spacer_ID": 0.5625,
+  "spacer_length": 0.49606299212598426,
+  "panel_opening": [
+    3.875,
+    6.375
+  ],
+  "seat_top_z": 50,
+  "back_top_z": 70,
+  "seat_pan_bounds": {
+    "x": [
+      -10,
+      6.875
+    ],
+    "y": [
+      12,
+      52
+    ],
+    "z": [
+      48,
+      48.125
+    ]
+  },
+  "back_pan_bounds": {
+    "x": [
+      6.875,
+      7
+    ],
+    "y": [
+      12,
+      52
+    ],
+    "z": [
+      50.25,
+      70
+    ]
+  },
+  "seat_pad_bounds": {
+    "x": [
+      -10,
+      5.875
+    ],
+    "y": [
+      12,
+      52
+    ],
+    "z": [
+      48.125,
+      50
+    ]
+  },
+  "back_pad_bounds": {
+    "x": [
+      5.875,
+      6.875
+    ],
+    "y": [
+      12,
+      52
+    ],
+    "z": [
+      50.25,
+      70
+    ]
+  },
+  "pad_status": "Geometry proposal only: upholstery, foam, fire performance and retention unfinished",
+  "washer_display_t": 0.125,
+  "washer_actual_t_range": [
+    0.097,
+    0.177
+  ],
+  "bolt_length": 3.0,
+  "hss_corner_model": "Nominal 2t outer / t inner; supplied section is not asserted",
+  "cap_top_z": 31.753937007874015,
+  "section_description": "True CAD half-solid cut at X=-8 through front foot F1; look along X toward +X; cropped Y15..25, Z27..36."
+}

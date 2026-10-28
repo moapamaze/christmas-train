@@ -1,0 +1,92 @@
+{
+  "revision": "C54-D1",
+  "checkpoint_sha256": "b6b69ce320f0c9784d3920b1f536ae7e7a7254beca531cdab801303b2e7b4337",
+  "contract_sha256": "cf1bfefe8d9ea933119e7460722e8b27aa7437907318f6aaf9827d6d1097dbd7",
+  "scope": "Bounded development checks only. No complete purchased-part fit, strength acceptance or railway operating release.",
+  "part_count": 154,
+  "valid_shapes": 154,
+  "nominal_exact_pair_tests": 354,
+  "nominal_thread_approximation_pairs": 36,
+  "unresolved_custom_nominal_intersections": 0,
+  "independent_sampled_poses": 10,
+  "includes_captured_extension_mm": -60,
+  "independent_custom_frame_and_articulation_hits": 0,
+  "purchased_interface_envelope_conflicts": [
+    {
+      "a": "WABCO-SPRING-INTERMEDIATE",
+      "b": "PARKER-10125-SERVICE",
+      "volume_mm3": 983.0016114058201,
+      "classification": "purchased dimensional-envelope conflict; actual material not established"
+    },
+    {
+      "a": "WABCO-SPRING-INTERMEDIATE",
+      "b": "PARKER-10125-SPRING",
+      "volume_mm3": 983.0564036810977,
+      "classification": "purchased dimensional-envelope conflict; actual material not established"
+    },
+    {
+      "a": "PARKER-10125-SERVICE",
+      "b": "PARKER-2716-HOSE-SERVICE",
+      "volume_mm3": 27.707836099791226,
+      "classification": "purchased dimensional-envelope conflict; actual material not established"
+    },
+    {
+      "a": "PARKER-10125-SPRING",
+      "b": "PARKER-2716-HOSE-SPRING",
+      "volume_mm3": 27.742655551613428,
+      "classification": "purchased dimensional-envelope conflict; actual material not established"
+    }
+  ],
+  "hose_nominal_curvature": [
+    {
+      "circuit": "SERVICE",
+      "sampled_minimum_radius_mm": 97.16460730445243,
+      "required_radius_mm": 45,
+      "nominal_radius_screen": "PASS AT SAMPLED POINTS",
+      "sample_count": 2001,
+      "sampled_centreline_length_mm": 909.6195935997976,
+      "scope": "Independent cubic centreline calculation at nominal pose only; installed spline, moving length, twist and routing remain unqualified"
+    },
+    {
+      "circuit": "SPRING",
+      "sampled_minimum_radius_mm": 96.49854727964626,
+      "required_radius_mm": 45,
+      "nominal_radius_screen": "PASS AT SAMPLED POINTS",
+      "sample_count": 2001,
+      "sampled_centreline_length_mm": 936.5647635710018,
+      "scope": "Independent cubic centreline calculation at nominal pose only; installed spline, moving length, twist and routing remain unqualified"
+    }
+  ],
+  "frame_endplate_backing": [
+    {
+      "a": "FRAME-ENDPLATE-1",
+      "b": "C5:SF-L-WEB2",
+      "shared_face_area_mm2": 19348.800000000003,
+      "separation_mm": 0.0,
+      "scope": "Actual coincident metal faces; does not establish weld throat, access, continuity or strength"
+    },
+    {
+      "a": "FRAME-ENDPLATE1",
+      "b": "C5:SF-R-WEB1",
+      "shared_face_area_mm2": 19348.800000000003,
+      "separation_mm": 1.1368683772161603e-13,
+      "scope": "Actual coincident metal faces; does not establish weld throat, access, continuity or strength"
+    }
+  ],
+  "maximum_actuator_torque_Nm": null,
+  "fabrication_released": false,
+  "limits": [
+    "Controlled Webb rotor section, friction annulus, pilot tolerance and supplied bolt specification",
+    "Exact caliper-to-chamber mating datum, mounting attitude and full purchased-part envelopes",
+    "Guaranteed maximum service, parking and compounded loads at all allowed pressures",
+    "Exact legacy chamber availability or a fully documented current-package replacement",
+    "Custom hub, axle keyway, bearing fits and all connections: fatigue, preload, fretting and tolerance qualification",
+    "Full suspension, truck yaw, wear, hoses and servicing with the complete supplier geometry",
+    "Local connection and fatigue checks for the strengthened frame and brackets",
+    "Remaining brake stations and complete train air controls, pressure protection and anti-compounding",
+    "Thermal duty, adhesion, stopping performance and railway application acceptance",
+    "Four fitting/chamber/hose-end purchased-envelope intersections remain unclosed at the supplier interfaces.",
+    "Flexible hose deformation, full continuous travel, tool ergonomics and assembly fits remain unverified.",
+    "The original unused outboard axle extensions remain grey C5 reference geometry; final axle length and wheelset fatigue are not released."
+  ]
+}

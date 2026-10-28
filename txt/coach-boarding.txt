@@ -1,0 +1,35 @@
+Attached folding stairs · Pulsipher FarmsSkip to contentWhole regular coach · 3DFolding steps & drawingsSeparate engineering
+CB2 · ATTACHED BOARDING ARRANGEMENT
+Steps that stay with the coach
+Each regular-coach end now has a hinged stair flight. Fold the handrails down, lift the flight 120° into the end-platform recess, engage both travel pins and close the gate. The eight-bolt removal operation is replaced by retained hinges and separate boarding and travel locks.
+Open the whole coach in 3D, then choose Boarding steps & mounts, Handrails folded, Folding sequence, Travel · stairs folded or Exploded stair mounting. The lift actuator is a space reservation pending component selection. The assembly is a development candidate.
+ | Feature
+ | Current CAD dimensions · inches
+ | Flight
+ | Four 11 in treads; five nominal 6.374 in rises; 36 in between grips
+ | Main hinge
+ | Axis Y −42, Z 31.872; front X −43.75 / −6.25; rear mirrored about X153
+ | Flight retention
+ | Two Ø1.25 hinge pins; independent Ø0.75 lock pins at 4 in radius; separate stops
+ | Handrails
+ | 90° parallelogram fold; Ø0.5 pivot/locking pins; upright and folded catches
+ | Stored flight and rails
+ | Y −47.744 to −18.307; maximum Z123.155 above rail
+ | Lift geometry
+ | 8 in crank; 43.603 / 30.311 in eye lengths; 13.292 in travel
+Deployed and stored
+Hinge, locks and frame mounting
+Handrails, gate and lift arrangement
+Proposed operating sequence
+Park and secure the coach. Keep passengers outside the stair and gate sweep.
+With the flight supported by the lift, open the gate and withdraw both retained travel pins.
+Lower to the boarding stops. Insert both boarding pins and their transverse retainers.
+Raise both handrails, insert their upright lock pins and retainers, and check the station-to-first-step height.
+For travel, clear the stairs, fold and lock both handrails, support the flight, withdraw the boarding pins, and lift to the travel stops.
+Insert both travel pins and retainers; close the gate, engage its slide bolt and secondary keeper. A departure interlock remains to be selected.
+No bolts are removed in this proposed routine. Pin access, pinch guarding and lifting controls still require a physical mock-up. The stairs occupy the end-platform recess when stored; they are not an inter-car walkway.
+Match your station
+Enter measured coach floor height and boarding surface height above the same rail-top datum. No station elevation has been assumed as a confirmed value. Repeat for empty and fully loaded conditions.Measured floor height (in) Station surface height (in) 
+Enter both measurements to calculate the first rise.
+Changing the station height changes the first rise of this rigid flight. If it differs from the other rises, revise the stair pattern or station arrangement before use.
+Strength, clearance results and outstanding component decisions →CB2 · Development design · Not released for constructionWhole coach

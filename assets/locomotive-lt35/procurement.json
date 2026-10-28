@@ -1,0 +1,43 @@
+{
+ "updated": "2026-10-22 America/Los_Angeles / 2026-10-23 UTC",
+ "ordered": false,
+ "main_decision": "D5 rejected as active installation candidate; quotation retained for comparison; shorter standard alternative requested",
+ "requests": [
+  {
+   "supplier": "COMET",
+   "part": "100402 / D5 Outer",
+   "quantity": 8,
+   "status": "RFQ sent; response and certified data pending",
+   "contact": "sales@cometind.com",
+   "source": "https://www.cometind.com/catalog/freight-car-parts/truck-components/truck-spring-d5-outer-100402/"
+  },
+  {
+   "supplier": "Strato",
+   "part": "D5-O",
+   "quantity": 8,
+   "status": "RFQ sent; response and certified data pending",
+   "contact": "customerservice@stratoinc.com",
+   "source": "https://www.stratoinc.com/content/d5-o"
+  },
+  {
+   "supplier": "Special Springs North America",
+   "part": "G63-152",
+   "quantity": 4,
+   "status": "US quote and application/guide-clearance inquiry sent; response pending",
+   "contact": "info@specialspringsna.com",
+   "source": "https://products.specialspringsna.com/Category/Index/273?webdesc=G+Series"
+  }
+ ],
+ "roll_public_comparison": {
+  "supplier": "Berger Tools",
+  "part": "G63-152",
+  "quantity": 4,
+  "unit_price_GBP_ex_VAT": null,
+  "total_GBP_ex_VAT": 148.76,
+  "listed_quantity": 5,
+  "listed_dispatch_date": "2026-10-27",
+  "landed_cost_confirmed": false,
+  "source": "https://www.berger-tools.co.uk/Die_Springs/G_Yellow_Die_Spring_Iso10243_Extra_Heavy_Load/PartPage/G63-152/"
+ },
+ "package_total": null
+}

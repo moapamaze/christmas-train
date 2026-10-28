@@ -1,0 +1,21 @@
+Locomotive drivetrain integration · Pulsipher FarmsSkip to contentWhole locomotive · 3DSuspension drawingsSeparate engineering
+LT16 · FRONT POWERED AXLE PROTOTYPE
+Supporting the locomotive while the axle moves
+The front powered axle now has a proposed weight-carrying spring arrangement, lateral centering springs, bump stops and mechanical rebound retention. The whole-locomotive model keeps the motor, reduction drive, wheels, axleboxes and frame together. This is a developed installation candidate; its purchased parts and load ratings are not finalized.
+Open the whole locomotive in 3D. Choose One powered axle for the complete front assembly or Spring seats & centering for the close-up. Change axle travel and roll to see the coils compress, the saddles rock and the rubber centering blocks shear. The other two powered axles retain their earlier guides; this suspension has not been repeated there.
+How the connections work
+Weight: each frame header loads a vertical coil spring. Its lower seat transfers weight through a sliding pad and rocker saddle into the axlebox, bearing and axle.
+Sideways movement: the rocker slides under the pad while the guided lower spring seat stays aligned with the frame. The coil is not forced sideways.
+Track twist: a retained pin lets the saddle rock relative to the axlebox while keeping its sliding surface level in this kinematic model.
+Centering: four bonded rubber shear springs, two at each axlebox, resist lateral displacement. They are spring candidates with a stated stiffness target, not selected supplier parts. Sliding friction means return to an exact centre cannot yet be promised.
+Travel restraint: guided rods have upper rebound collars. Lower strikers contact bump rubbers before reaching steel limit sleeves. Independent hooks capture the saddle if a rubber bond fails.
+Dimensioned suspension cutaways
+Tap to inspect the full-size drawing. Dimensions are nominal layout values; fits, spring manufacturing details, locks and weld acceptance remain open.
+The usable travel study has changed
+The viewer now samples −25 / 0 / +15 mm mean axle travel with −2 / 0 / +2° roll. At the individual spring seats this produces approximately −37.0 to +26.8 mm movement. Bump rubber contact starts at +20 mm locally, the steel stop is at +30 mm, and the rebound collar is at −40 mm.
+The earlier −40 / +50 mm mean-travel screen used an empty spring envelope. It does not describe the travel available once these seats, spring and stops are installed. Required track-twist travel still needs route and wheel-load validation.
+Frame connection changes
+The main rails recover their original 152.4 ×304.8 ×9.525 mm gross section by moving inward to Y±300 mm. Their outer faces stay at ±376.2 mm, preserving the revised wheel-clearance envelope. Crossmembers shorten to447.6 mm. The front axle gains50 mm guide plates,20 mm headers and internal rail diaphragms.
+The original gross rail section properties are restored, but guide-rod openings weaken the lower walls locally. Whole-frame strength and torsion are still awaiting review; this is not a structural release.
+Separate engineering: trial loads, spring stresses, centering friction, guide sizing and 50 m curve limits →
+Motor and hydraulic connection drawings · Previous guide arrangementLT16 · Prototype development · Not for fabricationWhole locomotive

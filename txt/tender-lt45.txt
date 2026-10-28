@@ -1,0 +1,37 @@
+LT45.1 · Two-engine tender · Pulsipher FarmsSkip to content
+LT45.1 · TWO-ENGINE MACHINERY TENDER · 25 OCTOBER 2026
+Keep the engine. Give the coaches their own generator.
+Use Tony’s existing AIE-packaged Kubota for hydraulic traction, with a separate Kubota-powered 35 kW diesel generator in the same insulated, coal-style tender. The planned mechanical brake compressor stays with the traction engine.3D & cutawayLayout drawingPower splitEngineering record →
+Existing AIE engineKubota V3307-TIE4AB-KEA-1, radiator and hydraulic-pump arrangement retained.
+35 kW continuousIndependent diesel generator for coach heating, cooling, lights and auxiliaries.
+Same exterior4.2 m × 2.6 m body; 50 mm insulation reservation and removable coal-effect cover.
+The two engines inside the tender
+ExteriorCutawayEquipmentService spaceConnections
+3DSideTopFit−+
+Loading tender…Viewer options
+Reload view
+Brown generator block: available space for the required 35 kW package; actual dimensions remain unconfirmed. The detailed trucks remain coach references pending tender load and brake selection.
+Retain the body; revise the machinery bay
+The existing engine and pump occupy the left side. The separate generator sits on the right, ahead of the fuel and hydraulic tanks. A 600 mm-wide access strip stays between the machinery. Allow 80 mm beneath the generator for its mounting arrangement, with a 1700 × 800 × 1000 mm procurement envelope above it.
+Open full-size layout →
+The reserved generator space is 1700 × 800 × 1000 mm above an 80 mm mounting allowance. This leaves 124 mm to the inner roof, 94 mm at the side lining and 25 mm to the tank partition. These are boundary gaps, not accepted service clearances. Fit of an actual 35 kW package remains to be confirmed.
+Generator selection: require 35 kW continuous electrical output at the train’s installed operating conditions, 120/240 V single phase, 60 Hz. Exact model, mounting drawing, cooling and wet weight remain open. The earlier 30 kW-class EPS generator is superseded; its size and weight are not assigned to the larger unit.
+Two engines, separate duties
+ | Source
+ | Duty
+ | Design consequence
+ | Existing AIE Kubota
+ | Hydraulic traction, charge circuit and proposed mechanical brake compressor.
+ | Coach AC generation is removed from this engine’s shaft budget. Compressor drive and simultaneous auxiliary demand still need confirmation.
+ | Separate Kubota diesel genset
+ | 120/240 V, single-phase, 60 Hz coach supply; 35 kW target.
+ | Own engine, governor and alternator. Stage HVAC starts and manage total demand within the installed continuous rating.
+ | Shared fuel provision
+ | Retained 150 L working target; two engine fuel circuits.
+ | Usable capacity, separate feed/return details and combined runtime remain to be sized.
+35 kW adds 5 kW of capacity. The inherited four-coach study is about 26.8 kW on a hot dry evening, 31.7 kW on a hot dry day and 39.7 kW in the hot humid case. That leaves about 8.2 kW and 3.3 kW spare in the first two cases, with a 4.7 kW shortfall in the hot-humid case, before starts and added tender loads. These are thermal estimates, not selected appliance inputs. Keep essential ventilation and controls supplied; establish HVAC staging and operating limits from the actual equipment before promising full cooling in every condition.
+The larger generator’s weight is unconfirmed. The prior 1.56-tonne equipment subtotal applied to the smaller reference unit and is not a current tender weight.
+What this fixes in the design
+The separate generator removes the need to drive a large coach alternator from the existing traction engine. The stock Hydra-Tech skid is no longer the packaging direction. LT44’s front and rear service zones and proposed frame load path remain supporting work.
+Next, obtain the configured generator drawing and installed continuous rating, match the AIE quote to its final drawing, and detail the two cooling paths, engine-driven compressor, equipment mounts and complete tender weight.
+Dimensions, power margins & weight record →Retained connection schedule →Design development · Not released for constructionEarlier frame & interface study

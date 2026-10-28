@@ -1,0 +1,51 @@
+LT31 first-coach connection · Pulsipher FarmsSkip to contentWhole locomotive + coachLT31 connectionConnection engineeringLT30 truck restraint
+LT31 · SEPARATE ENGINEERING RECORD
+Rear connection: basis, evidence and release holds.
+This revision adds a locomotive-to-first-coach installation candidate to LT30. It does not change the accepted status of LT30’s emergency truck restraint, brakes, drivetrain or suspension. All dimensions below are model inputs, not released fabrication dimensions.
+Controlling source geometry
+LT30 main rails run X300…11000, centers Y±240, bottom Z1150 and top Z1454.8 mm. Their centroid is Z1302.4. The rear steps occupy X10370…10870 and |Y|1170…1430. The new locomotive pin is at (11250, 0, 550). CA1 supplies the 800 mm drawbar, GE60 interface proxies, 60 mm pin, clevis plates, bearing retention and positive pin cap. The first regular coach uses the current lightweight CI3/C57/CW3/CB2 composition, with its front pin at local (−1343.8, 0, 550), and its stairs stored.
+In the straight pose the first coach front-end datum is X12200: 1200 mm behind the locomotive rear face. The rear-mount STEP contains only the new mounting solids. Current joint and coach geometry remain in their original packages.
+Frame attachment and eccentric load
+The lower 100 × 180 × 10 nominal box crosshead spans 632.4 mm. Two 100 × 120 × 10 drop tubes connect to 1050 × 152.4 × 20 underside saddles. Two 100 × 100 × 10 diagonal braces spread the longitudinal reaction forward. Outer 20 mm rail-web doublers are explicit candidate geometry. Joint preparation, weld sizes, internal diaphragms, materials, end fitting, inspection and fatigue details are unresolved.
+The coupling is 752.4 mm below the main-rail centroid. The inherited 200 kN CA1 comparison force would create 150.48 kN·m of eccentric pitch moment before lateral and vertical loads. This is a sensitivity, not a rated load or accepted design case. The full four-coach traction/braking mismatch, slack impact, compressive buckling and one-sided secondary-catch cases must size this mount and both frames. No strength “pass” is claimed.
+Bounded geometry checks
+ | Check
+ | Result
+ | Meaning
+ | Fixed drawbar length / hose path
+ | 189 poses
+ | 800 mm pin distance; each BP/FP path holds 1,800 mm total centerline length. This does not select two hose lengths or prove hose mechanics.
+ | Connection / coach to rear steps
+ | 258.0 mm smallest box separation
+ | 63 posed mesh states, existing step solids and stored coach stairs; no tolerance or deflection allowance.
+ | Coach to locomotive
+ | 584.8 mm smallest box separation
+ | 63 conservative enclosing-box states, not a continuous swept-volume study.
+ | Maximum joint-normal tilt
+ | 5.69°
+ | Compare with inherited 6° CA1 catalog reference. Actual joint collision and supplier acceptance are still required.
+ | Hose path geometry
+ | Minimum sampled bend radius 124.2 mm; low point 516.8 mm above local datum
+ | Unselected 24 mm OD envelope. No approved bend-radius, clocking, sag, connector, strain or ground-clearance specification.
+Turning method and limits
+Use the current locomotive powered axle half-wheelbase 775 mm and half-pivot spacing 1600 mm. Its ideal body-center radius is √(R²−775²−1600²). The coach uses 600 mm and 2743.2 mm. Rearward locomotive pin offset is 5575 mm; forward coach pin offset is 5230 mm. Solve the coach body angle on the same circular centerline so the pin chord equals √(800²−ΔZ²). The drawbar follows the actual pin-to-pin vector. This replaces the equal half-yaw approximation used for the earlier symmetric coach pair.
+Nominal body / drawbar angles: 50 m → 13.25° / 12.86°; 45 m → 14.72° / 14.27°; 30 m → 21.96° / 21.30°. Both signs are shown. Relative height ±50 mm, pitch ±2° and roll ±2° are analyst-selected local probes, not confirmed suspension or route limits. Vertical probes rotate the coach about its front pin. Running-gear alignment, wheel/rail forces, track twist, S-curves, transitions, turnouts and actual vertical track geometry are not solved. No minimum operating radius is established.
+The 30 m yaw exceeds the earlier CA1 ±14° clearance grid. A small bearing-normal tilt does not establish complete joint clearance at that yaw. Full solid checks of bar, clevis, retainers and pin cap through the new envelope remain a release hold.
+Brake-line interface and failure behavior
+Retain LT26’s two-pipe automatic pneumatic proposal: BP communicates brake demand by pressure reduction; FP supplies charging air to the coach brake equipment. Wabtec documents end-mounted angle cocks for isolating and joining brake pipes. This supports the interface concept, not selection of a full-size railway component for this train.
+Extend the existing rear BP/FP trunks from X10600 at Z1740 beyond the rear floor edge before descending; the new route does not silently pass through the cab floor.
+Separate labeled isolating cocks and distinct keyed connector candidates. Provide strain relief, supported slack, caps and a stowage point; exact hardware, line bore, pressure rating and handle reach are open.
+BP separation must vent the automatic control path and trigger local application from stored energy in the approved coach circuit. A self-sealing coupling must not silently defeat that function. This is a design requirement, not a demonstrated response.
+FP failure must not defeat stored-energy braking. Check valves, reservoirs, loss-of-pressure logic, low-pressure warning and parking application require system-supplier acceptance.
+The first-coach tails stop at a declared interface to its future body brake module. Local C57 truck hoses and brake units do not by themselves complete the upstream circuit or prove all-wheel braking.
+Complete leak, continuity, disconnected-line, power-loss and delayed-coach-brake tests across all four coaches before operating release. Closing a cock at the wrong place must be detected by a documented whole-train brake test.
+Independent retention and maintenance
+The locomotive still needs an independently anchored secondary connection with a quantified catch load and movement envelope. Existing coach secondary lugs remain visible; no chain or attachment rating is invented here. Brake hoses never serve as a mechanical restraint. Pin-cap access, supported uncoupling, worn-joint replacement and drop-frame inspection require a physical service review.
+What remains before this can be called complete
+Running-gear engineer approves full-train design loads and the low coupling load path, including compression, fatigue and secondary catch.
+Finish solid articulation checks, tolerances, wear/deflection allowance, actual suspension travel and rear-step support geometry.
+Brake supplier approves the two-pipe architecture, exact ports, hose/coupler/cock assemblies, reservoirs and separation behavior.
+Reconcile new mass/CG into LT30’s axle-load and suspension cases; expand to the four-coach consist and route envelope.
+Evidence and source references
+Reproducible pose checks and exclusions · Mount basis and provisional mass · Candidate rear mount STEP · Inherited CA1 load sensitivities · Inherited CA1 motion limits · LT26 pneumatic proposal
+Wabtec: angle-cock function · Knorr-Bremse: coupling forces, relative movement and service connections. Accessed 22 October 2026. Neither supplier has approved this installation.LT31 · 22 October 2026 · Review candidate · Fabrication unreleasedEngineering

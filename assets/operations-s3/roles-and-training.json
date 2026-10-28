@@ -1,0 +1,58 @@
+{
+  "issue": "PF-3S3-OPS-R0",
+  "roles": [
+    {
+      "id": "RL-01",
+      "role": "Responsible owner/operating manager",
+      "development_responsibility": "Own controlled configuration/manual, appoint qualified people, maintain authority/insurance records and prohibit dispatch on unresolved critical defects.",
+      "named_person": null,
+      "qualified_training_record": null
+    },
+    {
+      "id": "RL-02",
+      "role": "Designated driver",
+      "development_responsibility": "Control train only under accepted operating mode, acknowledge dispatch/stop communication, verify vehicle readiness and stop/no-dispatch on disagreement. Brake controls and limits must be trained on the actual accepted train.",
+      "named_person": null,
+      "qualified_training_record": null
+    },
+    {
+      "id": "RL-03",
+      "role": "Conductor / boarding lead",
+      "development_responsibility": "Coordinate passenger count and accessible assistance, clear doors/platforms/stairs, maintain passenger protection and give the single defined boarding-clear confirmation. Not automatically the driver.",
+      "named_person": null,
+      "qualified_training_record": null
+    },
+    {
+      "id": "RL-04",
+      "role": "Route / station dispatch function",
+      "development_responsibility": "Protect route occupancy, crossings, station and work limits; confirm route availability and record movements. Future second-train operation requires a separate accepted separation design.",
+      "named_person": null,
+      "qualified_training_record": null
+    },
+    {
+      "id": "RL-05",
+      "role": "Qualified maintenance and energy-control lead",
+      "development_responsibility": "Control defect isolation, lifting/restraint/energy-specific service, configuration and restoration. Specialist wheel/axle, spring-brake, structural/NDT and electrical tasks retain their qualified personnel.",
+      "named_person": null,
+      "qualified_training_record": null
+    },
+    {
+      "id": "RL-06",
+      "role": "Incident / rescue lead and trained responders",
+      "development_responsibility": "Coordinate protected site/evacuation/rescue decisions, emergency services access, communications and accounting. Exact rescue method/equipment and assistance training must be accepted before passenger use.",
+      "named_person": null,
+      "qualified_training_record": null
+    }
+  ],
+  "staffing_count": null,
+  "role_combination": "Only if an accepted staffing/visibility/workload assessment demonstrates all functions remain covered; no default one-person operation.",
+  "training_topics": [
+    "Actual controls and limitations, route/sight lines and communication",
+    "Every-vehicle service/release/readiness checks and spring parking limitations",
+    "Boarding/door/stair/lift interlocks and accessible assistance/evacuation",
+    "Defect reporting, stop authority and prohibited resets/bypasses",
+    "Energy-specific maintenance, lifting/support and OEM spring-brake service for qualified personnel",
+    "Incident command, protected evacuation, emergency access and return-to-service discipline"
+  ],
+  "training_acceptance": null
+}

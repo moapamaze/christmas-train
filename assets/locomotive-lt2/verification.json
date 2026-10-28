@@ -1,0 +1,21 @@
+{
+  "issue": "PF-LOCO-LT2-R0",
+  "date": "2026-10-19",
+  "engineering_acceptance": false,
+  "valid_individual_CAD_solids": 54,
+  "STEP_roundtrip_solid_count": 54,
+  "beam_benchmark": {
+    "case": "Simply supported L4000 mm, central10kN, E200GPa,I215in^4",
+    "closed_form_deflection_mm": 0.7449642201639786,
+    "FE_deflection_mm": 0.7449642201639785,
+    "passed": true
+  },
+  "force_and_moment_equilibrium": "Seven support sensitivity cases passed; force residual <0.02N and moment residual <100Nmm",
+  "actual_shared_viewer_schema": "Passed",
+  "local_links_checked": 27,
+  "javascript_syntax": "Passed",
+  "DT_and_shared_source_preservation": "No local changes to protected DT/shared files from integration base f506e1291c44f21dff9d3c371fbaa8b8a6886b20",
+  "browser_QA": "Not completed: managed preview process-filesystem mount unavailable; no alternate preview server used",
+  "visual_drawing_check": "All four rendered drawings inspected; dimension labels readable and no clipping observed. Nominal CAD assembly and raised DT2 integration isometric inspected.",
+  "limitations": "Checks establish reproducible numerical and CAD/data behavior only. They do not verify loads, suitability, local/fatigue strength, welding or suspension hardware."
+}

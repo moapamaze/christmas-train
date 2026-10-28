@@ -1,0 +1,104 @@
+
+LT44 · Tender engineering · Pulsipher Farms
+Skip to content
+PF
+PULSIPHER FARMS
+TRAIN DESIGN WORKSHOP
+Locomotive
+Coaches
+Drawings & 3D
+Engineering
+Current power layout: LT45.1.
+ Existing AIE engine plus separate Kubota-powered 35 kW continuous generator target. 
+Open current tender →
+LT44 · ENGINEERING RECORD · 25 OCTOBER 2026
+Tender basis, calculations and unresolved interfaces.
+← Return to drawings and 3D
+Development calculations only. No fabricated section, selected power package, actual hose route, brake capacity or operating limit is accepted here. LT43.1 remains the exterior target; LT42 and earlier locomotive motion results do not validate this new six-vehicle arrangement.
+Retained geometry and new proposals
+Retained LT43 coordinates: tender pins x = 0 / 5000 mm, z = 550 mm; body x = 400–4600, y = ±1300; deck z = 1100; flat roof top z = 2360; nominal skin 6 mm plus 50 mm lining. The decorative coal cover sits above the roof and does not provide equipment clearance. Truck references are at x = 1200 / 3800.
+New proposals: transfer regions centered at x = 650 / 4350 spanning the rail centers y = ±700 and z = 550–950; six fixed interface zones at x = 450 / 4550, y = −550 / 0 / +550, z = 1250. These are placement studies, not fittings, steel sizes or verified clearance volumes. The retained exterior frame also remains unapproved.
+Catalog fit calculation
+Use the manufacturer's inch values × 25.4: 3098.8 × 1371.6 × 1879.6 mm. The rounded metric values on the source differ slightly. The clear bay is 4088 × 2488 × 1204 mm, calculated by subtracting skin and lining from the retained shell. Centering the package leaves 494.6 mm nominal space at each end and 558.2 mm each side before equipment, mounts or service zones.
+Height shortfall = 1879.6 − 1204 = 
+675.6 mm
+. The roof top would need to be at least 1100 + 1879.6 + 50 + 6 = 
+3035.6 mm
+, even with no overhead service clearance. Plan fit alone does not establish installation suitability.
+Published dry mass 2333 kg + 605 L diesel × assumed 0.84 kg/L + 359 L oil × assumed 0.86 kg/L = 
+3149.94 kg
+. This is a screening subtotal, not complete operating mass. Generator/compressor additions, any other fluids, lines, tender tare and fittings are excluded; confirm actual fills and CG. Use the manufacturer's declared rounded metric dry mass consistently.
+The stock unit's pressure-compensated hydraulic arrangement does not establish compatibility with our closed-loop traction system. Confirm pump/charge/flush architecture and simultaneous accessory loads; catalog horsepower alone is insufficient. The website and older PDF also differ in port details, so no connection size is selected from them.
+Frame load transfer
+At each end, M = F × e with e = (950 − 550)/1000 = 0.400 m. Each 1 kN of longitudinal force therefore creates 0.400 kN·m of local offset moment that must be transferred into the main rails. This is demand per unit force, not frame strength or a complete load case.
+Required later: tractive and compressive drawbar envelopes, emergency braking with unavailable vehicle brakes, buff/draft reversals, coupling side and vertical forces, secondary retention, fatigue, local buckling, torsion, weld/bolt details, bogie load paths, installed equipment shock loads and service/lifting loads. Do not assume equal wheel loads or transfer historical spring approval to the tender.
+Attachment-point sensitivity
+For each interface, hold the neighboring body fixed and rotate the tender point about its coupling pin with Rz(yaw) Ry(pitch) Rx(roll), then translate it axially. The opposite bulkhead is assumed 450 mm behind its pin, with the retained 800 mm pin-to-pin coupling gap. The tender zone is also 450 mm behind its pin, producing a 1700 mm nominal direct span.
+Inputs: yaw −10/0/+10°, pitch −3/0/+3°, roll −3/0/+3°, axial −50/0/+50 mm: 81 samples per zone, 486 attachment samples total. These are independent sensitivities; they do not assert that a train can or will occupy every pose. Coordinates and individual limiting poses are in the calculation JSON.
+Zone
+Nominal span, mm
+Direct distance range, mm
+Max point displacement, mm
+F-HYD
+1700
+1509.5–1880.5
+217.6
+F-AIR
+1700
+1603.9–1786.5
+148.5
+F-CTRL
+1700
+1509.5–1880.5
+217.6
+R-AIR
+1700
+1509.5–1880.5
+217.6
+R-PWR
+1700
+1603.9–1786.5
+148.5
+R-DATA
+1700
+1509.5–1880.5
+217.6
+No hose clearance pass is claimed.
+ Direct endpoint distance is shorter than an installed curved hose and cannot set cut length. The screen omits S-curves, solved vehicle articulation, fitting tangent lengths, minimum bend radius, twist, sag, pressure/thermal length change, restraint forces and collisions. The next model needs separate controlled flex planes or qualified live articulation for the selected components.
+Manufacturer routing guidance requires avoiding twist and maintaining the selected hose's bend radius, with supports that do not introduce damage. Use supplier-rated dynamic fittings where required; an assembly swivel is not automatically a live swivel. 
+Parker hose safety guide ↗
+Interface completion register
+Zone
+Needed before detail release
+F-HYD
+Confirm closed-loop-compatible pump and ports, bidirectional pressure rating, charge/flush circuit, case backpressure and dynamic hose data.
+F-AIR
+Pneumatic specialist to resolve circuits, breakaway, stored air, stop response and final hardware.
+F-CTRL
+Pinout, isolation, fault behavior, protected power and monitored stop system remain open.
+R-AIR
+Do not omit tender brakes or assume locomotive reservoirs cover the added vehicle.
+R-PWR
+Voltage, phase, conductor sizes, overcurrent protection, bonding and rated moving connector pending electrical design.
+R-DATA
+Keep camera failure indication and independent emergency functions; separation and EMC details pending.
+For each span record: both actual port coordinates and axis directions, pressure/temperature/flow, material, bore, dynamic bend radius, straight end allowance, fittings, selected length, support positions, interference envelope and inspection/removal access. Supplier checks also cover hydraulic long-line pressure losses, charge/flush needs and case-drain backpressure. Electrical and brake systems require their own fault analysis.
+Evidence and reproducibility
+LT44 basis, six interface records and assumptions
+Calculated fit, mass subtotal and attachment results
+Hydra-Tech current product page
+; 
+manufacturer PDF
+. Retrieved 25 October 2026; configured quotation still needed.
+Source: 
+cad/tender-lt44/calculate.py
+, 
+draw.py
+, 
+publish.py
+ and 
+validate.mjs
+. Baseline: retained LT43 / LT43.1 source.
+Checks cover arithmetic identities, model mesh validity, view separation and endpoint sensitivities. These are not physical validation, engineering certification, supplier approval or permission to fabricate.
+Design development · Not released for construction
+LT43 enclosure & earlier layout

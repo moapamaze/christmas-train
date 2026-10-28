@@ -1,0 +1,153 @@
+{
+  "issue": "PF-3P3-MINISPLIT-R0",
+  "thermal_basis": "Preserved P1 workingU1.5W/m2K,420W/cabin heat,33/14thermal occupants,7.5L/s/person assumed outdoor air and0.03m3/s door average; no adopted weather/ventilation standard or measured envelope. Hot evening is110F stress test, not Christmas weather prediction.",
+  "thermal_rows": [
+    {
+      "coach": "regular",
+      "thermal_people": 33,
+      "hot_evening_110F_no_solar_kW": 15.673749158559996,
+      "hot_evening_BTU_per_h": 53481.05204912128,
+      "occupied_heat_30F_kW": 7.147148273919999,
+      "occupied_heat_20F_kW": 9.789818872319998,
+      "heat_loss_before_gains_30F_kW": 10.042148273919999
+    },
+    {
+      "coach": "accessible",
+      "thermal_people": 14,
+      "hot_evening_110F_no_solar_kW": 9.152428806826665,
+      "hot_evening_BTU_per_h": 31229.38337484178,
+      "occupied_heat_30F_kW": 4.890802351786667,
+      "occupied_heat_20F_kW": 6.56469770752,
+      "heat_loss_before_gains_30F_kW": 6.360802351786667
+    }
+  ],
+  "conditional_power_cases": [
+    {
+      "case": "hot_evening_dry_kW",
+      "assumed_COP": 2.5,
+      "thermal_kW": 56.17367628250665,
+      "auxiliary_allocation_kW": 4.32,
+      "HVAC_and_allocated_aux_kW": 26.78947051300266,
+      "assumed_PF": 0.9,
+      "equivalent_240V_A": 124.02532644908639,
+      "generator_rating_kW": null
+    },
+    {
+      "case": "hot_evening_dry_kW",
+      "assumed_COP": 3.0,
+      "thermal_kW": 56.17367628250665,
+      "auxiliary_allocation_kW": 4.32,
+      "HVAC_and_allocated_aux_kW": 23.04455876083555,
+      "assumed_PF": 0.9,
+      "equivalent_240V_A": 106.68777204090532,
+      "generator_rating_kW": null
+    },
+    {
+      "case": "hot_day_dry_kW",
+      "assumed_COP": 2.5,
+      "thermal_kW": 68.36727254042665,
+      "auxiliary_allocation_kW": 4.32,
+      "HVAC_and_allocated_aux_kW": 31.666909016170663,
+      "assumed_PF": 0.9,
+      "equivalent_240V_A": 146.60606026004936,
+      "generator_rating_kW": null
+    },
+    {
+      "case": "hot_day_dry_kW",
+      "assumed_COP": 3.0,
+      "thermal_kW": 68.36727254042665,
+      "auxiliary_allocation_kW": 4.32,
+      "HVAC_and_allocated_aux_kW": 27.109090846808886,
+      "assumed_PF": 0.9,
+      "equivalent_240V_A": 125.5050502167078,
+      "generator_rating_kW": null
+    },
+    {
+      "case": "hot_day_humid_kW",
+      "assumed_COP": 2.5,
+      "thermal_kW": 88.40253344042665,
+      "auxiliary_allocation_kW": 4.32,
+      "HVAC_and_allocated_aux_kW": 39.68101337617066,
+      "assumed_PF": 0.9,
+      "equivalent_240V_A": 183.70839526004934,
+      "generator_rating_kW": null
+    },
+    {
+      "case": "hot_day_humid_kW",
+      "assumed_COP": 3.0,
+      "thermal_kW": 88.40253344042665,
+      "auxiliary_allocation_kW": 4.32,
+      "HVAC_and_allocated_aux_kW": 33.78751114680888,
+      "assumed_PF": 0.9,
+      "equivalent_240V_A": 156.42366271670778,
+      "generator_rating_kW": null
+    },
+    {
+      "case": "winter_occupied_net_heat_kW",
+      "assumed_COP": 2.0,
+      "thermal_kW": 26.332247173546666,
+      "auxiliary_allocation_kW": 4.32,
+      "HVAC_and_allocated_aux_kW": 17.48612358677333,
+      "generator_rating_kW": null
+    },
+    {
+      "case": "winter_occupied_net_heat_kW",
+      "assumed_COP": 2.5,
+      "thermal_kW": 26.332247173546666,
+      "auxiliary_allocation_kW": 4.32,
+      "HVAC_and_allocated_aux_kW": 14.852898869418667,
+      "generator_rating_kW": null
+    },
+    {
+      "case": "winter_occupied_net_heat_kW",
+      "assumed_COP": 3.0,
+      "thermal_kW": 26.332247173546666,
+      "auxiliary_allocation_kW": 4.32,
+      "HVAC_and_allocated_aux_kW": 13.097415724515555,
+      "generator_rating_kW": null
+    },
+    {
+      "case": "winter_loss_before_internal_gains_kW",
+      "assumed_COP": 2.0,
+      "thermal_kW": 36.48724717354666,
+      "auxiliary_allocation_kW": 4.32,
+      "HVAC_and_allocated_aux_kW": 22.563623586773332,
+      "generator_rating_kW": null
+    },
+    {
+      "case": "winter_loss_before_internal_gains_kW",
+      "assumed_COP": 2.5,
+      "thermal_kW": 36.48724717354666,
+      "auxiliary_allocation_kW": 4.32,
+      "HVAC_and_allocated_aux_kW": 18.914898869418664,
+      "generator_rating_kW": null
+    },
+    {
+      "case": "winter_loss_before_internal_gains_kW",
+      "assumed_COP": 3.0,
+      "thermal_kW": 36.48724717354666,
+      "auxiliary_allocation_kW": 4.32,
+      "HVAC_and_allocated_aux_kW": 16.482415724515555,
+      "generator_rating_kW": null
+    }
+  ],
+  "capacity_warning": "One12kBTU/h head is3.52kW nominal; one18k is5.28kW; one24k is7.03kW. Occupied train loads and outside air require actual delivered capacity review; a residential floor-area sizing chart is insufficient.",
+  "electrical_warning": "COP/PF are sensitivities, not selected inverter performance. Aux4.32kW is inherited connected allowance; reconcile exact ventilation/charger loads without double count. Excludes air-brake compressor, locomotive systems, lifts, receptacles, emergency recharge, transients, nonlinear waveform/leg imbalance, altitude/ambient derating and reserve. Generator kW cannot be selected from these rows alone.",
+  "header": {
+    "inherited_clear_interior_height_in": 86.61417322834647,
+    "example_head_height_in": 12,
+    "absolute_max_head_bottom_in_with_zero_top_gap": 74.61417322834647,
+    "formula": "door clear top + separation/service allowance + head height + OEM ceiling/intake clearance <= local roof soffit. Door swing, controls and emergency operation must also clear.",
+    "actual_door_clear_height_in": null,
+    "OEM_top_gap_in": null,
+    "fit_demonstrated": false,
+    "resolution": "Coordinate a raised end-roof/header pocket or revise exact head placement after real dimensional review; do not lower clear doorway to force the unit to fit."
+  },
+  "current_budget_voltage_comparison": {
+    "example_real_power_W": 2400,
+    "assumed_PF": 1,
+    "current_at_120V_A": 20,
+    "current_at_240V_A": 10,
+    "meaning": "Same real power andPF:240V halves current. It does not halve energy use or generator kW."
+  }
+}

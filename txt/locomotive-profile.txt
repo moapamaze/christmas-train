@@ -1,0 +1,17 @@
+Northern Railroad profile · LT11
+This retained design record predates LT16. Open the current whole locomotive and curve views · Current suspension drawings.
+LT13 CURVE CHECK · 50/30 m curve placements reveal guide, body and frame clashes. Open the drawings and highlighted CAD. Neither radius is approved.
+LT12 DRIVE UPDATE · Open the inboard motor/reduction arrangement and exploded drive CAD. The appearance and unresolved rod mechanism shown below remain the exterior reference.Profile drawingsExterior / cutaway 3DEngineering & design changesPrevious LT10 assembly
+LOCOMOTIVE / LT11
+Northern Railroad profile
+Lower stance · Three large spoked drivers per side · Small leading and trailing wheels
+PROPORTION CONCEPTR0 · Not for fabrication19 October 2026 · Pacific
+Exterior & mechanical layoutCAD projections · Proposed dimensions in mm
+A01 Revised side profileC01 Machinery cutawayW01 Spoked wheel proportionsP01 Exterior & access directionLT11-A01 · Revised side profileFull-size ↗LT11-C01 · Machinery cutawayFull-size ↗LT11-W01 · Spoked wheel proportionsFull-size ↗LT11-P01 · Exterior & access directionFull-size ↗
+36-inch working gauge. Trial wheels: 1,450 mm drivers, 650 mm leading, 700 mm trailing. These are proportion proposals, not Western Train factory dimensions.
+Exterior beside the mechanical cutawayLoading…
+Exterior targetMachinery cutawayRunning gear & drive spacesWheel comparisonAll concept components
+ Exploded Compatibility 3D
+Loading profile CAD…
+Select a component for its design status. Amber volumes mark unresolved drive/pivot spaces. Rods show appearance at one fixed position; the operating mechanism is not designed.
+Reference & retained workWestern Train · Northern Railroad ↗Frame, traction & curve implications ↗Previous four-axle mechanical study ↗Retained DT5 drive detail ↗Retained one-fan development ↗LT11 R0 · Exterior and equipment-space concept · No fabrication release

@@ -1,0 +1,36 @@
+{
+  "issue": "LT12-R0",
+  "parts": 117,
+  "all_parts_valid": true,
+  "limited_vertical_samples_mm": [
+    -40,
+    0,
+    50
+  ],
+  "fixed_parts": [
+    "N11-RAIL-340",
+    "N11-RAIL340",
+    "N11-CROSS600",
+    "N11-CROSS2400",
+    "N11-CROSS4300",
+    "N11-CROSS5900",
+    "N11-CROSS7400",
+    "N11-CROSS9250",
+    "LT5-ENGINE",
+    "LT5-PUMP"
+  ],
+  "pair_samples": 2790,
+  "frame_equipment_intersections": [],
+  "internal_pair_intersections": [],
+  "scope": "Drive carriers versus saved main rails/crossmembers/engine/pump at three vertical positions; selected internal interface pairs. Not continuous sweep, roll/yaw/lateral-motion/track, hoses, brakes, wheel dynamics, or structural approval.",
+  "frame_top_mm": 1350,
+  "nominal_rail_inside_y_mm": 263.8,
+  "drive_motor_rear_y_mm": -230,
+  "input_housing_outer_y_mm": 253,
+  "nominal_input_housing_to_rail_side_mm": 10.8,
+  "ground_chaincase_min_nominal_mm": 443.22498057949997,
+  "guide_spring_acceptance": false,
+  "rod_mechanism_acceptance": false,
+  "supplier_approved": false,
+  "fabrication_release": false
+}

@@ -1,0 +1,189 @@
+                                                                                                                                                                                           SPECIFICATIONS & DIMENSIONS
+
+
+
+
+                                      HE 05IN                                                               ENERGY RECOVERY VENTILATOR
+                                                                                                            EC MOTORIZED IMPELLER
+
+       INDOOR UNIT                                                                                          SPECIFICATIONS
+
+                                                                                                            Ventilation Type:                                             Accessories:
+                                                                                                            Static plate, heat, and humidity transfer                     Filters: MERV 13, 2" (shipped loose)
+                                                                                                                                                                          Backdraft damper: 10", 12"
+                                                                                                            Airflow Range: 120–375 CFM
+                                                                                                                                                                          Automatic balancing damper: 4", 5", 6"
+                                                                                                            AHRI 1060 Certified Core:                                     Motorized Dampers: 8"
+                                                                                                            One L62-G5                                                    Louvered wall vent 8": taupe vinyl, galvanized,
+                                                                                                            Standard Features:                                                paintable galvanneal
+                                                                                                            Non-fused disconnect                                          Louver with 8" round duct connection:
+                                                                                                            24VAC transformer/relay package                                   12" W x 8" H
+                                                                                                            Cross-core differential pressure ports                        Hooded wall vent 8": galvanized, paintable galvanneal
+                                                                                                            Independent blower control                                    Potentiometer speed control: remote installed
+                                                                                                            OA/SA and RA/EA swappable airflows                            Digital time clock: wall mount (TC7D-W),
+                                                                                                                                                                              in exterior enclosure (TC7D-E)
+                                                                                                            Filters:                                                      Carbon dioxide sensor/control:
+                                                                                                            Total Qty. 2, MERV 10: 10" x 20" x 2"                             wall mount (CO2-W), duct mount (CO2-D)
+                                                                                                            Unit Weight:                                                  IAQ sensor: wall mount (IAQ-W), duct mount (IAQ-D)
+                                                                                                            94 lbs.                                                       Motion occupancy sensor/control:
+                                                                                                            Max. Shipping Dimensions & Weight (in carton):                    ceiling mount (MC-C), wall mount (MC-W)
+                                                                                                            41" L x 41" W x 13" H                                         Smoke detector: duct mount (SD-D)
+                                                                                                            108 lbs.                                                      BACnet fan control: wall mount (BACNETFC-W)
+                                                                                                                                                                          Indoor electric duct heater: RH series (1–11.5 kW),
+                                                                                                            Motor(s):                                                         EK series (1–175 kW);
+                                                                                                            Qty. 2, 220W ea., Direct drive EC motorized                   Hanging bracket kit
+                                      Energy recovery core is AHRI Certified®                                   impeller packages (120V/1Ph/60Hz)                         Hanging spring vibration isolation kit
+
+
+
+
+     EC MOTORIZED IMPELLER OPERATING RANGE AND FAN PERFORMANCE
+
+                                                           HE05IN Performance Curves - 1P/120V                                                                   HE05IN MOTOR 1P/120V
+                                      3.00
+                                                                                                                                                                       External Static
+                                                                                                                                                                                                            Unit Power
+                                                                                                                                       Airflow                            Pressure
+                                                                                                                                                                                                           Consumption
+                                                                                                                                       (CFM)                           (Inches Water
+                                      2.50                                                                                                                                                                   (Watts)
+                                                                                                                                                                          Column)
+                                                                                                                                          95                                 2.33                                  225
+                                      2.00
+External Static Pressure (in. w.g.)
+
+
+
+
+                                                                                                                                         120                                 2.30                                  245
+                                                                                                                                         150                                 2.25                                  268
+                                      1.50
+                                                                                                                                         200                                 2.09                                  303
+                                                                                                                                         225                                 1.96                                  317
+                                      1.00
+                                                                                                                                         250                                 1.79                                  329
+                                                                                                                                         275                                 1.58                                  337
+                                      0.50                                                                                               300                                 1.32                                  342
+                                                                                                                                         325                                 1.01                                  343
+                                      0.00                                                                                               350                                 0.63                                  339
+                                             95      145          195          245         295        345    395
+                                                                   Airflow (cfm)                                                         375                                 0.19                                  330
+                                                                                                                                         384                                 0.00                                  325
+                                          Standard              Recommended Operating Range                             Note: Airflow performance includes effect of clean, standard filter supplied with unit.
+
+
+      ELECTRICAL DATA
+
+                                                                                                                                                                                             Max.
+                                                                                                                                         FLA per                 Min. Cir.               Overcurrent
+                                             Watts                  Volts                        Hz                Phase
+                                                                                                                                          motor                   Amps                    Protection
+                                                                                                                                                                                            Device
+                                             220                     120                         60                Single                   2.7                     6.1                       15
+
+
+
+
+                                                                                                                                                        Subject to change without notice: RENEWAIRE.COM | 1.800.627.4499          6
+                                                                   HE05IN ENERGY RECOVERY VENTILATOR EC MOTORIZED IMPELLER
+
+                                                                                                                                                                               12.1±0.1 Overall                                                                                                                               ABBREVIATIONS
+                                                                                                                                                                                                                                                                                                                              EA: Exhaust Air to Outside
+                                                                                                                                                                               Actual value dependent                                                                                                                         OA: Outside Air Intake
+                                                                                                                                                                               on door gasket compression                                                                                                                     RA: Room Air to be Exhausted
+                                                                                                                                                                                                                                                                                                                              SA: Supply Air to Inside
+                                                                                                                                                                                              Bolt-On Doors
+                                                                                                                                                                                                                                                                                                                              INSTALLATION ORIENTATION
+                                                                                                                                                                                                                                                                                                                              Unit may be installed in any
+                                                                                                                               8 3/4"                                                                                                                                                                                         orientation.
+                                                                                                                                                                                                                                                                                                                              NOTE
+                                                                                                                                                                                                                                                                                                                              1. UNLESS OTHERWISE SPECIFIED,
+                                                                                                                                                                                                                                                                                                                              DIMENSIONS ARE ROUNDED TO THE
+                                                                                                                                      13"                                                                                                                                                                                     NEAREST EIGHTH OF AN INCH.
+                                                                                                                                                                                                                                                                                                                              2. SPECIFICATIONS MAY BE SUBJECT
+                                                                                                                                                                                                                                                                                                                              TO CHANGE WITHOUT NOTICE.
+
+
+
+
+                                                                                                                                                                                                  Service Area
+
+
+
+
+                                                                        39 7/8" Overall
+                                                                                                                                                                                                34 1/2" Minimum
+                                                                                                   7" Alternate
+                                                                                                 7/8" Knockout
+                                                                                                       Power In
+                                                                                                                                                                                               10" Minimum
+                                                                                                                               4 1/2"
+                                                                                                                                                                                               Service Area
+                                                                                                                                 6"
+                                                                                                                                                             TOP VIEW                                                                                                                                                                        2" Alternate
+                                                                                                                                                                                                                                                                                                                                           7/8" Knockout
+                                                                                                        Alternate                                                      11.9±0.1 Case                                                                                             Disconnect Switch                                               Power In
+                                                                                                              7/8"                                                  Excluding Hardware
+                                                                                                                                                                                                                                              High Speed Fan                       Pressure                                   7/8"           Back of Unit
+                                                                                                        Knockout                                                        7/8"
+                                                                                                         Power In                                                                                                                              Potentiometers                      Ports (4) Typ.                         Knockout
+                                                                                                                                                                     Knockout
+                                                                                                                                                                                                                                                                                                                           Power In
+                                                                                                                                                                     Low Voltage
+
+                                                                                                                                                                                                                                               RA                                     OA
+
+
+
+
+                                                                                                                                                    6" (2)
+
+
+
+
+                                                                                               Accessory (4)
+                                                                                                                                      28 1/2" (2)
+                                                                                                                    37 5/8" Overall
+                                                                                                                                                                               34 5/8" Case
+                                                                                                                                                                                                                                                SA                                   EA
+
+
+
+
+                                                                                          38 3/8" Overall w/ Feet
+                                                                                                                                                                                                                   37 3/8" Hanging Bracket
+                                                                                                                                                                                                                                                                                               40 3/8" Hanging Bracket
+                                                                                                                                                                                                                                                                                               Accessory, Orientation B
+
+
+
+
+                                                                                                                                                                                                                   Accessory, Orientation A
+                                                                                                          8" (4)                                                                                                                                               34 5/8" Case
+                                                                                                    Duct Collar                                                   5 7/8" (4)                                                                               36" Hanging Bracket
+                                                                                                                                                                                                                                                                Accessory
+                                                                                                                                                                                                                                                            Orientation A or B
+                                                                                                                                                                    HEIN except 6x 8x, LEIN
+
+                                                                                                                                                         LEFT VIEW                                                                                              FRONT VIEW                                                            RIGHT VIEW
+                                                                                                                                                                                                INV
+                                                                       AIRFLOW ORIENTATION                                                                                                                                                                                                                                   UNIT MOUNTING & APPLICATION
+                                                                                                                                                                             RA                                   OA
+                                                                        Model:
+                                                                       Available       HE05INV
+                                                                                 as shown:                                                                                                                                                                                                                                   Can be mounted in any orientation. RA/EA airstream can
+                                                                                                                                                                                                             EA
+                                                                       Drawing Type: Unit DimensionSA                                                                                                                                                                                                                        be switched with OA/SA airstream.
+                                                                       Version: JAN25
+
+
+
+
+Subject to change without notice: RENEWAIRE.COM | 1.800.627.4499
+                                                                                                                                                                                                                                                                                                                                                                                      SPECIFICATIONS & DIMENSIONS
+
+
+
+
+7
+

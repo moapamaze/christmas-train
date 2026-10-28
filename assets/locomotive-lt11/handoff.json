@@ -1,0 +1,84 @@
+{
+  "issue": "LT11-R0",
+  "scope": "Proportion and equipment-space concept only; not fabrication engineering",
+  "source_baseline": "9d1932128acb6ddefdeea9f4c927235497acb71b",
+  "parts": 195,
+  "valid_solids": true,
+  "wheel_count": 14,
+  "driver_count": 6,
+  "axles": 7,
+  "gauge_basis_mm": 914.4,
+  "frame_top_mm": 1350,
+  "frame_rail_centres_y_mm": [
+    -340,
+    340
+  ],
+  "wheel_inner_envelope_to_frame_mm": 41,
+  "driver_diameter_mm": 1450,
+  "leading_diameter_mm": 650,
+  "trailing_diameter_mm": 700,
+  "wheel_diameters_basis": "Designer-selected proportion trials at project gauge; not factory dimensions or calibrated photo measurements",
+  "driver_axles_x_mm": [
+    3500,
+    5050,
+    6600
+  ],
+  "leading_axles_x_mm": [
+    1000,
+    2050
+  ],
+  "trailing_axles_x_mm": [
+    8000,
+    8950
+  ],
+  "driver_wheelbase_mm": 3100,
+  "cab_floor_mm": 1500,
+  "cab_roof_mm": 3503,
+  "engine_pump_downshift_mm": 250,
+  "frame_drop_from_LT10_mm": 425,
+  "equipment_vs_nominal_wheel_hits": [],
+  "drivetrain_sensitivity": {
+    "previous_axles": 4,
+    "previous_diameter_mm": 1000,
+    "proposed_driving_axles": 3,
+    "proposed_diameter_mm": 1450,
+    "tractive_force_ratio_same_axle_torque": 0.5172413793103449,
+    "required_axle_torque_ratio_same_total_force": 1.9333333333333333,
+    "scope": "Ratios only; no motor/pressure/rating selection or whole-train performance acceptance"
+  },
+  "curve_sensitivity": [
+    {
+      "radius_m": 20,
+      "rigid_driver_chord_sagitta_mm": 60.15295946330568
+    },
+    {
+      "radius_m": 30,
+      "rigid_driver_chord_sagitta_mm": 40.06842464422533
+    },
+    {
+      "radius_m": 40,
+      "rigid_driver_chord_sagitta_mm": 30.04253192155204
+    }
+  ],
+  "curve_scope": "Sagitta of a 3.1m straight chord only; NOT required flange clearance, minimum permitted curve radius or steering proof. Wheelset/rail geometry and lateral-motion mechanism unavailable.",
+  "shared_fan_count": 1,
+  "operating_rods_designed": false,
+  "motor_to_axle_torque_path_designed": false,
+  "frame_strength_approved": false,
+  "tender_revised": false,
+  "fabrication_release": false,
+  "reference": "Western Train Northern Railroad locomotive200; user screenshot",
+  "manufacturer_source": "https://www.westerntrain.com/locomotives",
+  "canonical_drivetrain_modified": false,
+  "canonical_brakes_modified": false,
+  "passenger_cars_modified": false,
+  "other_chat_acknowledged": false,
+  "design_conflict": "The exact4-6-4 target replaces the previous four-powered-axle/two-truck layout for concept development; do not reuse prior fit or performance acceptance.",
+  "next_owner_interfaces": [
+    "New drive architecture and torque/adhesion calculation",
+    "Wheelset/running profile and rail data",
+    "Curve steering/lateral motion and rod architecture",
+    "Frame/suspension supports and brakes",
+    "Configured engine/cooling data and rechecked service paths"
+  ]
+}

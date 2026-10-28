@@ -1,0 +1,87 @@
+{
+  "revision": "C53-D1",
+  "page_status": {
+    "title": "Inboard disc development \u2014 unrated; supplier-fit holds",
+    "summary": "One right-side unit with actual custom hub, split sleeves, carrier, retained torque link and backed frame mount. Nominal custom part audit and finite-link mathematics are bounded checks, not a released brake."
+  },
+  "completed_scope": [
+    "Source-traced Webb replacementrotor andPAN17 dimensionalbasis; obsolete axle-end location rejected usingactualbodycollision witness.",
+    "Installable120mm closedbearing/hub route over110mm nominalwheelseat, with split100-to120reducers andmodeledretention.",
+    "Custom keyedrotorhub, physical axialendplates, actualsleeveclampbolts, bearingcovers/spacers, torque-linkpins/bentretainers, permanentbarrelsaddles andnewstockHSSsupport.",
+    "CompactoneunitCAD,actualC5contextsubset,drawings,nominalexactpairaudit andindependentfinitekinematics."
+  ],
+  "unfinished": [
+    "ExactWebb hubmatingface/internalcup andfrictionannulus required; provisional customface mustbe revised tocontrolledsupplierdata.",
+    "PAN17GA330mm versusWebb325.12mm requires pad swept-band/pairing verification.",
+    "CurrentHendrickson22/24TSE chamber force/stroke/completeoutline/caging/hose data required.",
+    "Actual maximum caliper output unknown; publishedbearing/static screens andhigher-torque failures do not establish a rated brake.",
+    "Single right-side unit only; oppositeclocked handedassembly andwhole8-disc installation remain open.",
+    "Finite link closure is not full movingOEMclearance proof. Physical ordinary journal constraints andconservative developmentovertravel are separately described byindependentreview.",
+    "All custom welds,keys,pins,flanges,axialretainers,clamp preload/fretting,thermal isolation andfatigue remain qualification gates.",
+    "Wheelset-out/boxnutwheel removal and reassembly procedure require a wheelshop plan; no in-situ closedrotor removal."
+  ],
+  "checks": {
+    "nominal_custom_unresolved_pairs": 0,
+    "intentional_thread_envelopes": 40,
+    "all_solids_valid": true,
+    "independent_records": [
+      "independent-review.json",
+      "independent-motion-states.json",
+      "independent-motion-check.json",
+      "independent-contact-check.json"
+    ],
+    "strength": "mechanics-calculations.json; output/thermal/capacity unresolved; failed highprobes retained"
+  },
+  "mass": {
+    "represented_custom_steel_kg": 56.3485805120095,
+    "scope": "Includes full transverse support and two endplates once; not a complete brake mass or percoach multiplication basis.",
+    "two_NSK6824DD_catalogue_kg": 1.074,
+    "Webb_catalogue_kg": 18.1436948,
+    "partial_custom_plus_two_bearings_plus_rotor_kg": 75.5662753120095,
+    "excluded": "Caliper,chamber,mostOEMinternals,hoses,welds,coatings,twoGE20bearingmass; complete mass unavailable"
+  },
+  "drawings": [
+    {
+      "file": "C53-M01.svg.gz",
+      "preview": "C53-M01.png",
+      "title": "Assembly and reaction path"
+    },
+    {
+      "file": "C53-D01.svg.gz",
+      "preview": "C53-D01.png",
+      "title": "Rotor, carrier and retention details"
+    }
+  ],
+  "downloads": {
+    "model": "model-nominal.json.gz",
+    "step": "C53-inboard-unit-D1.step.gz",
+    "source": "C53-development-source.zip"
+  },
+  "sourcepaths": [
+    "cad/coach-brake-c53/build_c53.py",
+    "cad/coach-brake-c53/geometry-contract.json",
+    "cad/coach-truck-c5/checkpoint.brep"
+  ],
+  "service": {
+    "rotor": "Wheelset out; remove selected axlebox, journal nut/retainers, then shop-remove one wheel. Slide closed rotor/hub/bearings past 110 nominal wheel seat using120 bore and split reducers. Actual press fit/removal and assembly procedure HOLD. No in-situ rotor replacement claim.",
+    "pads_caliper": "Access, chamber caging and withdrawal path require separate checks."
+  },
+  "rejected_axle_end_witness": {
+    "rotor_plane_y": 750,
+    "local_rotor_ring_point": [
+      600,
+      750,
+      460
+    ],
+    "truck_yaw_deg": 7,
+    "jounce_mm": 35,
+    "world_point": [
+      504.12568343093255,
+      817.53121977408,
+      460
+    ],
+    "inside_actual_retained_HSS_main_girder": true,
+    "body_source": "CTX-MAIN-863.6 translatedZ-35; actualC5BREP isInside test true",
+    "implication": "Axle-end option rejected to preserve body/suspension; nominal static axial gaps were insufficient."
+  }
+}

@@ -1,0 +1,305 @@
+{
+ "rev": "TB-3.4",
+ "date": "2026-10-28",
+ "total_kg": 8465.3,
+ "structure_kg": 6035.3,
+ "placed_equipment_kg": 2051.9,
+ "unplaced_kg": 378.1,
+ "cg_mm": [
+  2432.8,
+  10.0,
+  1108.6
+ ],
+ "cg_z_range_mm": [
+  1091,
+  1131
+ ],
+ "structure_cg_mm": [
+  2500.4,
+  -0.0,
+  958.0
+ ],
+ "equipment_cg_mm": [
+  2221.4,
+  41.2,
+  1479.5
+ ],
+ "centroids_mm": {
+  "wheel": [
+   2500.0,
+   -0.0,
+   300.0
+  ],
+  "axle": [
+   2500.0,
+   0.0,
+   300.0
+  ],
+  "truck": [
+   2500.0,
+   0.0,
+   345.2
+  ],
+  "frame": [
+   2500.0,
+   0.0,
+   924.3
+  ],
+  "dropbox": [
+   2500.0,
+   0.0,
+   550.0
+  ],
+  "deck": [
+   2503.3,
+   0.0,
+   1075.3
+  ],
+  "skin": [
+   2500.0,
+   0.0,
+   1972.4
+  ],
+  "posts": [
+   2500.0,
+   0.0,
+   1972.9
+  ],
+  "cover": [
+   2500.0,
+   0.0,
+   2537.1
+  ],
+  "body": [
+   2500.0,
+   0.0,
+   1972.9
+  ]
+ },
+ "W_kN": 83.02,
+ "truck_kN": {
+  "front": 43.66,
+  "rear": 39.36
+ },
+ "front_share": 0.5259,
+ "axle_wheel_kN": {
+  "front_truck": {
+   "axle": 21.83,
+   "right": 11.14,
+   "left": 10.69
+  },
+  "rear_truck": {
+   "axle": 19.68,
+   "right": 10.04,
+   "left": 9.64
+  }
+ },
+ "max_wheel_kN": 11.14,
+ "min_wheel_kN": 9.64,
+ "uniform_wheel_kN": 10.38,
+ "rail_basis_kN": 26.0,
+ "contact_span_mm_ASSUMED": 980,
+ "note": "Replaces the ASSUMED tender CG height 0.95 m and the uniform W/8 wheel load in the route checks. Truck pitch and spring-load sharing inside a truck are neglected (equal axles per truck).",
+ "rows": [
+  {
+   "item": "Wheels 8 x Ø600",
+   "kg": 1152.2,
+   "cg": [
+    2500,
+    0,
+    300
+   ],
+   "basis": "T2 ledger / model centroid"
+  },
+  {
+   "item": "Axles 4 x Ø110",
+   "kg": 417.8,
+   "cg": [
+    2500,
+    0,
+    300
+   ],
+   "basis": "T2 ledger / model centroid"
+  },
+  {
+   "item": "Truck frames, axleboxes, centre plates",
+   "kg": 773.4,
+   "cg": [
+    2500,
+    0,
+    345
+   ],
+   "basis": "T2 ledger / model centroid"
+  },
+  {
+   "item": "Springs, discs, calipers, spring-brake chambers",
+   "kg": 300,
+   "cg": [
+    2500,
+    0,
+    450
+   ],
+   "basis": "ASSUMED at the truck centres, Z450"
+  },
+  {
+   "item": "Main rails, crossmembers, bolsters",
+   "kg": 704.8,
+   "cg": [
+    2500,
+    0,
+    924
+   ],
+   "basis": "model centroid"
+  },
+  {
+   "item": "PF-DB drop boxes and pockets",
+   "kg": 338.7,
+   "cg": [
+    2500,
+    0,
+    550
+   ],
+   "basis": "model centroid"
+  },
+  {
+   "item": "Deck plate + cross-bearers",
+   "kg": 694.1,
+   "cg": [
+    2503,
+    0,
+    1075
+   ],
+   "basis": "model centroid"
+  },
+  {
+   "item": "Deck pattern, clips, welds",
+   "kg": 35.8,
+   "cg": [
+    2503,
+    0,
+    1075
+   ],
+   "basis": "ASSUMED at deck centroid"
+  },
+  {
+   "item": "Skin 10 ga sides, ends, roof",
+   "kg": 753.0,
+   "cg": [
+    2500,
+    0,
+    1972
+   ],
+   "basis": "model centroid"
+  },
+  {
+   "item": "Posts + roof bows",
+   "kg": 284.0,
+   "cg": [
+    2500,
+    0,
+    1973
+   ],
+   "basis": "model centroid"
+  },
+  {
+   "item": "Door frames, bolts, clips",
+   "kg": 40,
+   "cg": [
+    2500,
+    0,
+    1973
+   ],
+   "basis": "ASSUMED at body centroid"
+  },
+  {
+   "item": "Lining 50 mm + liner",
+   "kg": 275.0,
+   "cg": [
+    2500,
+    0,
+    1972
+   ],
+   "basis": "ASSUMED at skin centroid"
+  },
+  {
+   "item": "Coal-effect cover",
+   "kg": 126.5,
+   "cg": [
+    2500,
+    0,
+    2537
+   ],
+   "basis": "model centroid"
+  },
+  {
+   "item": "Cover supports, coating, trim",
+   "kg": 40,
+   "cg": [
+    2500,
+    0,
+    2537
+   ],
+   "basis": "ASSUMED at cover centroid"
+  },
+  {
+   "item": "Doors, hinges, latches, paint",
+   "kg": 100,
+   "cg": [
+    2500,
+    0,
+    1973
+   ],
+   "basis": "ASSUMED at body centroid"
+  },
+  {
+   "item": "Placed equipment TB-3.2 (Tender Bot, incl. 100 kg transformer placeholder)",
+   "kg": 1981.5,
+   "cg": [
+    2211,
+    40,
+    1513
+   ],
+   "basis": "Tender Bot TB-3.2"
+  },
+  {
+   "item": "less transformer placeholder",
+   "kg": -100.0,
+   "cg": [
+    2500,
+    0,
+    670
+   ],
+   "basis": "TB-3.2"
+  },
+  {
+   "item": "Under-deck transformer assembly TB-3.4 (Acme T2535173S, isolators, bolted cradle + box rails, 3 mm shield 450 x 1,120, inrush limiter on the cradle)",
+   "kg": 168.7,
+   "cg": [
+    2502,
+    24,
+    608
+   ],
+   "basis": "Tender Bot TB-3.4 (Steering 16)"
+  },
+  {
+   "item": "1/0 start cable 2 x 1.5 m",
+   "kg": 1.7,
+   "cg": [
+    2900,
+    725,
+    1240
+   ],
+   "basis": "Tender Bot TB-3.3 (location ASSUMED)"
+  },
+  {
+   "item": "Unplaced: mounts, exhaust, ducts, hoses, cabling, fluids not in the placed list, misc. (balance to 8,465.3)",
+   "kg": 378.1,
+   "cg": [
+    2500,
+    0,
+    1500
+   ],
+   "basis": "ASSUMED at bay centroid, Z1500"
+  }
+ ]
+}

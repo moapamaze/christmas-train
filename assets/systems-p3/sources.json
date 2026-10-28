@@ -1,0 +1,52 @@
+{
+  "issue": "PF-3P3-MINISPLIT-R0",
+  "primary_sources": [
+    {
+      "id": "OEM-VOLTAGE",
+      "publisher": "Pioneer",
+      "date_accessed": "2026-10-19",
+      "url": "https://help.pioneerminisplit.com/en-US/difference-115v-230v-systems-1352126",
+      "verified": "115V wall-mounted options at9k/12kBTU/h;230V needed for manufacturer multi-zone/light-commercial offerings.",
+      "limit": "Family evidence only; exact train HVAC equipment unselected."
+    },
+    {
+      "id": "OEM-POWER",
+      "publisher": "Pioneer",
+      "date_accessed": "2026-10-19",
+      "url": "https://help.pioneerminisplit.com/en-US/system-receive-power-1409889",
+      "verified": "Manufacturer describes outdoor-fed wall splits with matched indoor interconnect;115V uses line/neutral/ground;230V two lines/ground.",
+      "limit": "Use exact delivered manual. Main train feeder still needs neutral for120V loads and protective grounding; wire/protection/bonding not selected."
+    },
+    {
+      "id": "OEM-HEAD",
+      "publisher": "Mitsubishi Electric Sales Canada",
+      "document": "SB_MSZ-GS18NA-U1_MUZ-GS18NAHZ-U1_202409",
+      "date_accessed": "2026-10-19",
+      "url": "https://www.mitsubishitechinfo.ca/sites/default/files/SB_MSZ-GS18NA-U1_MUZ-GS18NAHZ-U1_202409.pdf",
+      "verified": "Page2 visually checked:18k-class matched pair208/230V1phase60Hz; indoor36-5/16W x9-13/16D x12H inches,28lb; outdoor33-1/16W x13D x34-5/8H inches,118lb.",
+      "limit": "Packaging example only; Canada source is not US configuration/procurement/application approval. No mobile/rail suitability, installation clearances or train capacity inferred."
+    },
+    {
+      "id": "OEM-GEN",
+      "publisher": "Cummins",
+      "date_accessed": "2026-10-19",
+      "url": "https://www.cummins.com/en-na/generators/products/cummins-standard-diesel-generators",
+      "verified": "Commercial-mobile catalog lists20HDKDB-01,60Hz,120/240V,single phase,167/83A.",
+      "limit": "Voltage-format example only, not selected generator or demonstrated train capacity. Page explicitly excludes20HDKDB from general full-load120F statement. Need exact ratings/ambient and installation review."
+    }
+  ],
+  "retained_sources": [
+    {
+      "path": "assets/systems-p1/calculations.json",
+      "sha256": "d25c92e5dc251750f96867663f369c4dd032a5a0bc758b430ebcf7d400d9de83"
+    },
+    {
+      "path": "assets/systems-p1/inputs-and-heat-placement.json",
+      "sha256": "3db4cc88c90883d3a6987a8823fad2d674d587d54aa5fbf22a7507a0fcba6c90"
+    },
+    {
+      "path": "assets/systems-p2/calculations.json",
+      "sha256": "dd9314d8fad081ec83294657119b24433416af6f038bd01bbad7bcc34c35ac7a"
+    }
+  ]
+}

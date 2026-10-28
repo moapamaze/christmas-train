@@ -1,0 +1,128 @@
+{
+  "issue": "PF-3N3-ALT-R0",
+  "date_utc": "2026-10-19",
+  "basis_input_sha256": "d08d9c31f3827a94358b164da69a0a9737537d9953b6156635d9645af10416dd",
+  "comparison_power_cases": [
+    {
+      "mode": "hydrostatic inherited constant efficiencies",
+      "speed_mph": 5,
+      "wheel_power_kW": 11.60530273804,
+      "assumed_efficiency": 0.6944737499999999,
+      "main_drive_shaft_kW": 16.710930741500313,
+      "engine_with_normalized_aux_kW": 26.710930741500313,
+      "meaning": "Normalization, not actual package selection, efficiency or fuel performance."
+    },
+    {
+      "mode": "hydrostatic inherited constant efficiencies",
+      "speed_mph": 7.5,
+      "wheel_power_kW": 17.40795410706,
+      "assumed_efficiency": 0.6944737499999999,
+      "main_drive_shaft_kW": 25.066396112250466,
+      "engine_with_normalized_aux_kW": 35.066396112250466,
+      "meaning": "Normalization, not actual package selection, efficiency or fuel performance."
+    },
+    {
+      "mode": "locked mechanical assumed0.85",
+      "speed_mph": 5,
+      "wheel_power_kW": 11.60530273804,
+      "assumed_efficiency": 0.85,
+      "main_drive_shaft_kW": 13.653297338870589,
+      "engine_with_normalized_aux_kW": 23.653297338870587,
+      "meaning": "Normalization, not actual package selection, efficiency or fuel performance."
+    },
+    {
+      "mode": "locked mechanical assumed0.85",
+      "speed_mph": 7.5,
+      "wheel_power_kW": 17.40795410706,
+      "assumed_efficiency": 0.85,
+      "main_drive_shaft_kW": 20.479946008305884,
+      "engine_with_normalized_aux_kW": 30.479946008305884,
+      "meaning": "Normalization, not actual package selection, efficiency or fuel performance."
+    },
+    {
+      "mode": "locked mechanical assumed0.90",
+      "speed_mph": 5,
+      "wheel_power_kW": 11.60530273804,
+      "assumed_efficiency": 0.9,
+      "main_drive_shaft_kW": 12.894780820044446,
+      "engine_with_normalized_aux_kW": 22.894780820044446,
+      "meaning": "Normalization, not actual package selection, efficiency or fuel performance."
+    },
+    {
+      "mode": "locked mechanical assumed0.90",
+      "speed_mph": 7.5,
+      "wheel_power_kW": 17.40795410706,
+      "assumed_efficiency": 0.9,
+      "main_drive_shaft_kW": 19.342171230066665,
+      "engine_with_normalized_aux_kW": 29.342171230066665,
+      "meaning": "Normalization, not actual package selection, efficiency or fuel performance."
+    },
+    {
+      "mode": "locked mechanical assumed0.95",
+      "speed_mph": 5,
+      "wheel_power_kW": 11.60530273804,
+      "assumed_efficiency": 0.95,
+      "main_drive_shaft_kW": 12.216108145305265,
+      "engine_with_normalized_aux_kW": 22.216108145305263,
+      "meaning": "Normalization, not actual package selection, efficiency or fuel performance."
+    },
+    {
+      "mode": "locked mechanical assumed0.95",
+      "speed_mph": 7.5,
+      "wheel_power_kW": 17.40795410706,
+      "assumed_efficiency": 0.95,
+      "main_drive_shaft_kW": 18.324162217957895,
+      "engine_with_normalized_aux_kW": 28.324162217957895,
+      "meaning": "Normalization, not actual package selection, efficiency or fuel performance."
+    },
+    {
+      "mode": "diesel-electric assumed chain",
+      "speed_mph": 5,
+      "wheel_power_kW": 11.60530273804,
+      "assumed_efficiency": 0.74774196,
+      "main_drive_shaft_kW": 15.520464757708663,
+      "engine_with_normalized_aux_kW": 25.520464757708663,
+      "meaning": "Normalization, not actual package selection, efficiency or fuel performance."
+    },
+    {
+      "mode": "diesel-electric assumed chain",
+      "speed_mph": 7.5,
+      "wheel_power_kW": 17.40795410706,
+      "assumed_efficiency": 0.74774196,
+      "main_drive_shaft_kW": 23.280697136562992,
+      "engine_with_normalized_aux_kW": 33.28069713656299,
+      "meaning": "Normalization, not actual package selection, efficiency or fuel performance."
+    }
+  ],
+  "electric_chain_assumed_efficiency": 0.74774196,
+  "electric_gearing_comparison": {
+    "ratio_matched_to_catalog_base_speed_trial": 60.905369387776354,
+    "catalog_rated_torque_wheel_force_proxy_N": 15159.346440617532,
+    "catalog_peak_torque_wheel_force_proxy_N": 33365.99152960348,
+    "required_steady_motor_torque_at_7p5_Nm": 26.92043995389921,
+    "required_breakaway_plus_0p1_motor_torque_Nm": 77.22486954010868,
+    "motor_rpm_at_0p25mph": 216.66666666666666,
+    "not_verified": "Catalog rated torque is not accepted standstill/low-speed torque or a complete system capability. Peak duration and inverter current/thermal duty unknown. Peak torque cannot be combined with rated speed. The engine/generator chain limits system power below the motor nameplate.",
+    "gross_engine_budget_limited_wheel_kW": 33.947484984,
+    "gross_engine_budget_limited_force_at_7p5_N": 10125.114824624196
+  },
+  "mechanical_gearing_comparison": {
+    "engine_main_shaft_allocation_kW": 45.4,
+    "engine_speed_point_rpm": 2600,
+    "mean_main_shaft_torque_proxy_Nm": 166.74540960858573,
+    "total_ratio_for_7p5mph_at2600rpm": 24.36214775511054,
+    "force_proxy_with_gear_eff_0p95_N": 12863.874970174182,
+    "required_total_ratio_for_0p1_launch_proxy": 28.207128557864532,
+    "note": "Rigid speed/torque comparison only. A fixed coupled ratio cannot launch from zero without a clutch/converter or other launch device; no clutch slipping or converter map modeled."
+  },
+  "kinetic_energy": {
+    "speed_mph": 7.5,
+    "translational_energy_kJ": 365.903268192,
+    "energy_kWh": 0.10163979672,
+    "rotating_inertia_included": false,
+    "regeneration_credit": 0,
+    "note": "Stored kinetic energy, not a braking resistor/battery rating. Independent air brakes retained. Dump/battery capacity, peak electrical power and repeat duty unresolved."
+  },
+  "selected_final_drive": null,
+  "fabrication_release": false
+}

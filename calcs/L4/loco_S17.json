@@ -1,0 +1,256 @@
+{
+ "checks": [
+  {
+   "id": "K2-a",
+   "desc": "Max static driver wheel load, S17 ledger, front plates trimmed to 150.8 kg",
+   "demand": 25.89,
+   "capacity": 26.0,
+   "unit": "kN",
+   "util": 1.0,
+   "result": "OK",
+   "note": "untrimmed 1,056 kg would be 28.11 kN"
+  },
+  {
+   "id": "K2-a/st",
+   "desc": "Equal-torque dry 2 %% start margin after the trim (rule >= 1.10)",
+   "demand": 1.1,
+   "capacity": 1.14,
+   "unit": "-",
+   "util": 0.96,
+   "result": "OK",
+   "note": "inverse util: rule / margin"
+  },
+  {
+   "id": "H-B4Y250-LB",
+   "desc": "B4 (front bolster) S4N holes at Y\u00b1250 as proposed (2 x M12 hex-16 rivnuts at X\u00b125 in one section), AISC F13.1 net tension wall",
+   "demand": 136.1,
+   "capacity": 131.97,
+   "unit": "MPa",
+   "util": 1.03,
+   "result": "NG",
+   "note": "LC4P DL + equipment + PROV shell/cab 2 g vertical"
+  },
+  {
+   "id": "H-B4Y250-CL",
+   "desc": "B4 (front bolster) S4N holes at Y\u00b1250 FIX: rivnuts on the bearer CL (pairs at \u00b125 in Y), 1 hole per section",
+   "demand": 136.1,
+   "capacity": 194.08,
+   "unit": "MPa",
+   "util": 0.7,
+   "result": "OK",
+   "note": "LC4P DL + equipment + PROV shell/cab 2 g vertical"
+  },
+  {
+   "id": "H-B4Y480-LB",
+   "desc": "B4 S4N holes at Y\u00b1480 as proposed (2 x M12 hex-16 rivnuts at X\u00b125 in one section), AISC F13.1 net tension wall",
+   "demand": 78.79,
+   "capacity": 131.97,
+   "unit": "MPa",
+   "util": 0.6,
+   "result": "OK",
+   "note": "LC4P DL + equipment + PROV shell/cab 2 g vertical"
+  },
+  {
+   "id": "H-B4Y480-CL",
+   "desc": "B4 S4N holes at Y\u00b1480 FIX: rivnuts on the bearer CL (pairs at \u00b125 in Y), 1 hole per section",
+   "demand": 78.79,
+   "capacity": 194.08,
+   "unit": "MPa",
+   "util": 0.41,
+   "result": "OK",
+   "note": "LC4P DL + equipment + PROV shell/cab 2 g vertical"
+  },
+  {
+   "id": "H-B1Y300-LB",
+   "desc": "B1 S1 holes at Y\u00b1300 as proposed (2 x M12 hex-16 rivnuts at X\u00b125 in one section), AISC F13.1 net tension wall",
+   "demand": 29.61,
+   "capacity": 131.97,
+   "unit": "MPa",
+   "util": 0.22,
+   "result": "OK",
+   "note": "LC1 DL + 100 psf full deck"
+  },
+  {
+   "id": "H-B1Y300-CL",
+   "desc": "B1 S1 holes at Y\u00b1300 FIX: rivnuts on the bearer CL (pairs at \u00b125 in Y), 1 hole per section",
+   "demand": 29.61,
+   "capacity": 194.08,
+   "unit": "MPa",
+   "util": 0.15,
+   "result": "OK",
+   "note": "LC1 DL + 100 psf full deck"
+  },
+  {
+   "id": "H-B1Y600-LB",
+   "desc": "B1 S1 holes at Y\u00b1600 as proposed (2 x M12 hex-16 rivnuts at X\u00b125 in one section), AISC F13.1 net tension wall",
+   "demand": 13.85,
+   "capacity": 131.97,
+   "unit": "MPa",
+   "util": 0.1,
+   "result": "OK",
+   "note": "LC1 DL + 100 psf full deck"
+  },
+  {
+   "id": "H-B1Y600-CL",
+   "desc": "B1 S1 holes at Y\u00b1600 FIX: rivnuts on the bearer CL (pairs at \u00b125 in Y), 1 hole per section",
+   "demand": 13.85,
+   "capacity": 194.08,
+   "unit": "MPa",
+   "util": 0.07,
+   "result": "OK",
+   "note": "LC1 DL + 100 psf full deck"
+  },
+  {
+   "id": "H-edge",
+   "desc": "M12 hex rivnut hole at X\u00b125 vs flat width of the HSS5x3 top wall (corner radius 9.5)",
+   "demand": 34.24,
+   "capacity": 28.6,
+   "unit": "mm",
+   "util": 1.2,
+   "result": "NG",
+   "note": "hole runs 5.6 mm into the corner radius: rivnut cannot seat - applies to every F-07 saddle rivnut (S1-S6, 40 off)"
+  },
+  {
+   "id": "H-edgeCL",
+   "desc": "FIX: rivnut on the bearer CL, hole edge from CL",
+   "demand": 9.24,
+   "capacity": 28.6,
+   "unit": "mm",
+   "util": 0.32,
+   "result": "OK",
+   "note": "fully on the flat"
+  },
+  {
+   "id": "H-S1-T",
+   "desc": "S1 smokebox saddle rivnut tension, 1 g roll + 1 g up (worst bolt)",
+   "demand": 990.82,
+   "capacity": 4000.0,
+   "unit": "N",
+   "util": 0.25,
+   "result": "OK",
+   "note": "rivnut SWL 4 kN ASSUMED (Loco Bot) - confirm supplier"
+  },
+  {
+   "id": "H-PS",
+   "desc": "Pilot slats: section loss of the PL12 pilot face along one hole row (10 x \u00d811 over 1,800)",
+   "demand": 0.06,
+   "capacity": 0.15,
+   "unit": "-",
+   "util": 0.41,
+   "result": "OK",
+   "note": "limit 15 % ASSUMED for a non-structural fascia row; conditions: holes >= 30 mm (2.5d+) from box edges and the end-plate welds, >= 40 mm (4d) clear of the coupler pocket opening Y\u00b1560, tapped full 12 mm (1.2d engagement) or through-bolted with nuts, no holes in the drawbar/FT-1 load path (FT-1 is at Z1355 above the pilot top Z1250)"
+  },
+  {
+   "id": "SS-HSS",
+   "desc": "Deck side stringers SS\u00b1 HSS3x3x1/8 (P-A1) max bending, grillage S17",
+   "demand": 81.31,
+   "capacity": 207.0,
+   "unit": "MPa",
+   "util": 0.39,
+   "result": "OK",
+   "note": "C3x4.1 was 85.2/150 = 0.57; +9.1 kg in the ledger"
+  },
+  {
+   "id": "L7-M-S17",
+   "desc": "Bearer HSS5x3x3/16 max bending with S17 loads (gross)",
+   "demand": 139.01,
+   "capacity": 207.0,
+   "unit": "MPa",
+   "util": 0.67,
+   "result": "OK",
+   "note": "Loco Bot rev L 152.1 (0.73) used shell 2,345.1 + 150 smokebox at Y\u00b1665"
+  },
+  {
+   "id": "L-109",
+   "desc": "R70 swept half-width, cab eave governs",
+   "demand": 1629.4,
+   "capacity": 1696.0,
+   "unit": "mm",
+   "util": 0.96,
+   "result": "OK",
+   "note": "margin 66.6"
+  }
+ ],
+ "a": {
+  "loco_kg": 19934,
+  "items_sum_kg": 2161.9,
+  "front_truck_extra_kg": 2431,
+  "rear_truck_extra_kg": -270,
+  "front_ballast_plates_kg": 150.8,
+  "plates": 2,
+  "battery_in_pocket_kg": 68.2,
+  "pocket_total_kg": 219.0,
+  "ballast_needed_for_margin_110_kg": 0,
+  "start_margin_dry_equal_2pct": 1.14,
+  "K2a_kN": 25.89,
+  "K2a_if_ballast_not_trimmed_kN": 28.11,
+  "K2a_LocoBot_estimate_kN": 25.8,
+  "LocoBot_front_truck_delta_kg": -37.4,
+  "axles_L3asis_kN": {
+   "F1": 49.12,
+   "F2": 41.28,
+   "R1": 45.37,
+   "R2": 45.78
+  },
+  "axles_RT1corr_kN": {
+   "F1": 44.95,
+   "F2": 37.11,
+   "R1": 44.59,
+   "R2": 45.0
+  },
+  "train_kg": 81513,
+  "W_kN": 799.4,
+  "need_2pct_kN": 32.61,
+  "smokebox_answer": "NO double count. The 16,657 kg base has no separate smokebox item: SB-1 body/shell 1,900 = L3 3 mm hood 898 + ~1,002 cab/front, and that ~1,000 kg is already removed in full with the L3 cab (CAB-L3-REMOVE). The L3 smokebox front left the ledger with it, and there is no 150 kg placeholder inside the PE figure. So the 227.9 kg counts IN FULL (Loco Bot netted only +77.9 over a placeholder: 150 kg x 2.13 front share = +320 kg more on the front truck than Loco Bot carried). Residual: the removed ~1,000 kg was located at the cab CG X9350; if part of it really sat at the smokebox, the front truck is slightly lighter than computed (conservative for K2-a, unconservative for adhesion by < 1 %). Weigh-in governs.",
+  "stack_note": "L-110 stack 9.0 kg kept (no separate L3 trim stack in the ledger); conservative for the front truck.",
+  "note": "Loco Bot's 25.02 kN (25.29 in ledger_out.json after the 01:32 update) added its +399 kg front-truck delta to the PE 24.04 kN and counted only +77.9 kg of smokebox. Recomputed directly on the S17 ledger (smokebox in full, battery in the front pocket): the governing wheel is F1 (front, L3-as-is basis) and the rear truck changes -270 kg. With all S17 items (incl. pilot slats 54.9 and JL plates 9.7 added in ledger rev 2 at 01:32) the front truck gains 2431 kg vs base (was 1,342), so the pocket plates come down 1,056 -> 150.8 kg (2 x 75.4 plates + BT-1 68.2 kg in the Y- pocket) and the equal-torque dry 2% start margin stays 1.14 (rule >= 1.10)."
+ },
+ "b": {
+  "B4 Y\u00b1250": {
+   "M_kNm": 7.47,
+   "case": "LC4P DL + equipment + PROV shell/cab 2 g vertical",
+   "f_gross_MPa": 136.1,
+   "allow_LocoBot_pattern_MPa": 132.0,
+   "allow_CL_row_MPa": 194.1
+  },
+  "B4 Y\u00b1480": {
+   "M_kNm": 4.33,
+   "case": "LC4P DL + equipment + PROV shell/cab 2 g vertical",
+   "f_gross_MPa": 78.8,
+   "allow_LocoBot_pattern_MPa": 132.0,
+   "allow_CL_row_MPa": 194.1
+  },
+  "B1 Y\u00b1300": {
+   "M_kNm": 1.63,
+   "case": "LC1 DL + 100 psf full deck",
+   "f_gross_MPa": 29.6,
+   "allow_LocoBot_pattern_MPa": 132.0,
+   "allow_CL_row_MPa": 194.1
+  },
+  "B1 Y\u00b1600": {
+   "M_kNm": 0.76,
+   "case": "LC1 DL + 100 psf full deck",
+   "f_gross_MPa": 13.8,
+   "allow_LocoBot_pattern_MPa": 132.0,
+   "allow_CL_row_MPa": 194.1
+  }
+ },
+ "c": {
+  "line41": "Brakes: every driven axle (F1, F2, R1, R2) and every tender/coach axle is braked; the pony (lead) axle is UNBRAKED. Pony wheels \u00d8650 new, worn-wheel limit \u00d8630 (condemning). Loco brake rate <= 0.69 m/s\u00b2 (Steering 13): brake force from the braked axles only, decelerating the whole loco mass incl. the pony.",
+  "old": "brakes on every axle (incl. the pony)",
+  "for_PE": "sign-off item"
+ },
+ "d": {
+  "cab_eave_R70": 1629.4,
+  "limit": 1696.0,
+  "margin": 66.6,
+  "R100": 1581.6,
+  "answer": "CONFIRMED: Loco Bot's R70 sweep reproduces our R100 governing figure exactly (cab eave 1,581.6), and at R70 the cab eave (\u00b11,350, Z top of the 3 mm roof on HSS3x2x1/8 purlins) governs at 1,629.4 vs the K-401 half-width 1,696 = 66.6 mm margin. Front-end items all clear (deck-end corner 198, smokebox 547, pilot 559). End throw 207.6 mm at R70. R70 is not on the owner's working routes (F is R80, the minimum adopted radius is R80) - R70 is a margin check only."
+ },
+ "owed": {
+  "FT1": "FT-1: 0.79 (pin/lug) / 0.53 (bolts) / G-209 0.84 - unchanged (holes PROVISIONAL, L-111)",
+  "deck_hood_base": "The 16,657 kg base INCLUDES the L3 PL6 deck 1,248, outriggers 78, steel edge angles 154.5, the 3 mm hood 898 and ~1,000 cab/front (incl. the L3 smokebox front)",
+  "cab_basis": "cab C1 813.9 @X9283 replaces the ~1,000 kg L3 cab/front @X9350: net -186.1 kg",
+  "L104_pin": "L-104 pin: 150 mm under the head"
+ }
+}

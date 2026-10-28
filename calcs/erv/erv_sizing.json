@@ -1,0 +1,77 @@
+{
+ "per_coach": {
+  "regular": {
+   "n": 3,
+   "Pz": 33,
+   "Vbz_Ls": 131.5,
+   "Voz_cool_Ls": 131.5,
+   "Voz_cool_cfm": 279.0,
+   "Voz_heat_ceiling_Ls": 164.4,
+   "basis_Ls": 247.5
+  },
+  "accessible": {
+   "n": 1,
+   "Pz": 14,
+   "Vbz_Ls": 59.3,
+   "Voz_cool_Ls": 59.3,
+   "Voz_cool_cfm": 126.0,
+   "Voz_heat_ceiling_Ls": 74.2,
+   "basis_Ls": 105.0
+  }
+ },
+ "inputs": {
+  "Rp": 3.8,
+  "Ra": 0.3,
+  "Az_m2": 20.5,
+  "dT": 19.44,
+  "dw": 0.006,
+  "allow": 1.15,
+  "COP": 2.5
+ },
+ "W_th_per_Ls": 41.48,
+ "W_el_per_Ls": 19.08,
+ "basis_848": {
+  "OA_Ls": 847.5,
+  "OA_thermal_kW": 35.15,
+  "OA_electric_kW": 16.17,
+  "demand_no_erv_kW": 39.7,
+  "eps_required": 0.328,
+  "eps_sel": 0.55,
+  "erv_saving_kW": 8.89,
+  "fan_delta_kW": 0.27,
+  "demand_with_erv_kW": 31.08,
+  "eps_required_incl_fan": 0.344
+ },
+ "ashrae621": {
+  "OA_Ls": 454.0,
+  "OA_thermal_kW": 18.83,
+  "OA_electric_kW": 8.66,
+  "demand_no_erv_kW": 32.19,
+  "eps_required": 0.0,
+  "eps_sel": 0.55,
+  "erv_saving_kW": 4.76,
+  "fan_delta_kW": 0.27,
+  "demand_with_erv_kW": 27.7,
+  "eps_required_incl_fan": 0
+ },
+ "basis_848_COP3": {
+  "eps_required": 0.393
+ },
+ "selected": {
+  "model": "RenewAire HE05IN",
+  "qty": "1 per coach (4)",
+  "flow_regular_cfm": 279,
+  "flow_accessible_cfm": 126,
+  "range_cfm": "120-375",
+  "volts": "120 V 1-ph 60 Hz",
+  "power_W": "<=343 (submittal curve, full ESP); 2 x 220 W EC",
+  "dims_mm": "880 x 956 x 307 H (34-5/8 x 37-5/8 x 12.1 in)",
+  "mass_kg": 43,
+  "eps_total": "ASSUMED 0.55 cooling - AWAIT RenewAire selection printout (AHRI 1060 core L62-G5)",
+  "location": "roof clerestory pod, top <= 3,450 ARL (coach peak 3,089; loco roof 3,700; K-401 overhead 4,300)",
+  "links": [
+   "https://renewaire.com/product/he05in/",
+   "https://renewaire.com/wp-content/uploads/2025/05/Submittal-HE05IN-Feb2025.pdf"
+  ]
+ }
+}

@@ -1,0 +1,40 @@
+Hoses & connections · Pulsipher FarmsSkip to contentPFPULSIPHER FARMSTRAIN DESIGN WORKSHOPLocomotiveDrawingsEngineeringHoses in the assembly viewerCurrent full assemblySpring sourcing status
+LT36 · CONNECTION AUDIT
+Finish the hose connections next
+The loose ends are real unfinished work. The current model contains route reservations without the final pump, motor, brake and coach connections. This view identifies those boundaries and the routing faults that need correction.
+32 highlighted open ends, 3 disconnected front branches and 12 overlapping lead pairs. The front case-drain, brake and wiring branches miss their body trunks by 10, 90 and 170 mm respectively. Adjacent flex leads share 20 mm of centreline at twelve locations. These are recorded faults in the retained geometry; they have not been repaired by adding markers.
+Trace the unfinished connections
+Choose a system and a truck or cab area to see the routes clearly. Select a marker for its intended destination, or expand the connection list below the model. The left/right positions are reference views, not a full movement clearance test.
+Loading the connection view…
+Where the lines need to go
+ | System
+ | Intended connection
+ | Still needed
+ | Hydraulic drive · A/B
+ | Pump → body lines → truck distribution → configured motor A/B ports
+ | Confirm the circuit and selected equipment ports; add pump leads, branches, motor tails, fittings and supports.
+ | Motor case drains
+ | Motor case ports → drain collection → reservoir
+ | Reservoir return arrangement, manufacturer backpressure limits and actual drain-port locations.
+ | Locomotive brakes
+ | Brake-control equipment → truck distribution → brake actuators
+ | Selected control equipment, distribution, actuator connections and supported moving loops.
+ | Train brake pipe (BP) and feed pipe (FP)
+ | Brake-pipe control / compressed-air supply → cab routes → rear jumpers → coach pipes and brake module
+ | Upstream supply/control equipment and the coach continuation. The cab-to-rear-jumper portion joins geometrically. Coach wheel-brake hoses cannot serve as direct BP/FP connections.
+ | Truck and cab wiring
+ | Electrical enclosure → truck devices and cab controls
+ | Circuits, glands and connectors. Two cab loom ends stop 20 and 50 mm below the enclosure.
+ | Camera connection
+ | Cab/video route → rear jumper → coach camera route
+ | The modeled junctions join geometrically; selected connectors, cable ratings and installation qualification remain open.
+Next work, in order
+Define the connections: give each line a source, destination and circuit; locate the selected equipment and its ports.
+Correct the known route faults: join the three front branches to their own trunks, remove unused tails, and stagger the adjacent flex connections. Shortening ferrules alone will not remove the hose overlaps.
+Complete the installation: add the missing pump, motor, brake and coach runs, with real fittings, clamps, protection and service access.
+Check the movement: rerun turning and suspension travel, including hose-to-hose and fitting clearance, bend radius and available slack.
+Next milestone: one coordinated routing drawing and matching 3D assembly. Every line should terminate at a labeled component or a clearly stated system boundary. Unresolved equipment interfaces must remain visible until they are actually designed.
+What changed in this review
+The site now has a filtered connection view and an endpoint register. Cab C2 metadata has been corrected: the BP/FP ends at X8300 are open upstream interfaces, not connections to a modeled supply. Physical route geometry, equipment and mass are unchanged. Earlier clearance studies did not establish clearance between these truck hose leads.
+This is a bounded audit of the LT33 / Cab C2 / LT32 assembly, not a complete circuit inventory or installation release. The existing spring decision remains in LT35: D5 requires too much adaptation, shorter standard alternatives are being sought, and the priced spring package is still pending.
+Endpoint and fault register · Model and data checksLT36 · 22 October 2026 local · Development review · Installation unfinished

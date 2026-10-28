@@ -1,0 +1,34 @@
+{
+  "status": "Reference bodies and geometric reservations only; not fabrication CAD",
+  "format": "STEP assembly, millimetres",
+  "file": "C51-space-study-R0.step.gz",
+  "reference_part_ids": [
+    "SF-L-WEB1",
+    "SF-L-WEB2",
+    "SF-R-WEB1",
+    "SF-R-WEB2",
+    "CB-TOP",
+    "CB-BOTTOM",
+    "CB-WEB-1",
+    "CB-WEB1",
+    "A1L-WHEEL-BLANK",
+    "A1L-BOX",
+    "A1R-WHEEL-BLANK",
+    "A1R-BOX",
+    "A2L-WHEEL-BLANK",
+    "A2L-BOX",
+    "A2R-WHEEL-BLANK",
+    "A2R-BOX",
+    "CTX-CROSS-609.6",
+    "CTX-CROSS609.6"
+  ],
+  "probe_count": 10,
+  "source_checkpoint_sha256": "0b3d2fe0cbdfa9c536bf62f5ede37c22f82c415a6df810aedcdbdd97aabd1480",
+  "raw_sha256": "d3784a6636efa13512b67e1de198b889a92480ea379ab9129c55f48785d6da37",
+  "gzip_sha256": "b1385a14c44c632a5153d33d4e621e4967fd9c0f0876e420e992898f991eab90",
+  "notes": [
+    "Blue cylinders are allocated space, not rotors/calipers or an OEM fit. Green solids are provisional shoe/beam corridors, not designed components.",
+    "Only selected existing reference parts are present. The clearance calculations use the complete retained C5 checkpoint as documented separately.",
+    "Old axles and outboard brake hardware are deliberately not present; no replacement axle is designed in this issue."
+  ]
+}

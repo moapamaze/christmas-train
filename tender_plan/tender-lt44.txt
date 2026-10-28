@@ -1,0 +1,90 @@
+
+LT44 · Tender frame and connections · Pulsipher Farms
+Skip to content
+PF
+PULSIPHER FARMS
+TRAIN DESIGN WORKSHOP
+Locomotive
+Coaches
+Drawings & 3D
+Engineering
+Current power layout: LT45.1.
+ Existing AIE engine plus separate Kubota-powered 35 kW continuous generator target. 
+Open current tender →
+LT44 · TENDER FRAME & CONNECTIONS · 25 OCTOBER 2026
+Connect the machinery tender to the train.
+The coal-style exterior is retained. This stage defines the frame load path, separates the front and rear service connections, and checks a real power-unit envelope against the insulated body.
+3D views
+Frame drawing
+Connection schedule
+Power-unit fit
+Calculations & open items →
+Six interfaces
+Hydraulics toward the locomotive; coach power toward the rear; air and controls at both ends.
+400 mm offset
+The coupling force acts below the main rails. Deep end-frame load transfer needs development.
+676 mm short
+The stock Hydra-Tech package is taller than the current clear bay. Combined package selection remains open.
+Exterior, frame and connection zones
+Exterior
+Frame
+Connections
+Package fit
+3D
+Side
+Top
+Fit
+−
++
+Loading tender…
+Viewer options
+Reload view
+Orange outlines show proposed load-transfer regions. Colored connection blocks are fixed interface zones awaiting hardware selection. They are not completed hoses. The detailed trucks remain unscaled coach references, with tender suitability unconfirmed.
+Carry the pulling and braking loads through the frame
+The proposed load path runs from each coupling eye through its drawgear cassette into a deep crosshead, then into both main rails. The two bogie positions stay at 1200 and 3800 mm from the front tender pin for this study. Equipment mounts will follow the selected package drawing.
+The 400 mm height difference needs a real structural connection. The orange regions reserve that connection; they do not specify a steel size, weld, bolt pattern or load rating. Body panels and the machinery skid receive no credit for carrying drawbar force.
+Open full-size frame drawing →
+Give every connection a destination
+Use separate supported flex stages at the locomotive–tender and tender–coach gaps, with fixed manifolds on each body. Within the tender, fixed runs should be clamped and accessible; each moving span must be developed against selected hose and connector data.
+Zone
+Service
+Destination
+F-HYD
+Traction A/B plus separate case return
+Locomotive fixed manifold, then separate body-to-bogie flex stages
+F-AIR
+Brake supply and automatic brake command
+Locomotive brake interface and retained train brake architecture
+F-CTRL
+Low-voltage commands, safety circuits and cab supply
+Left-hand engineer controls; safety functions independent of camera/network availability
+R-AIR
+Brake air onward to four coaches
+First coach fixed manifold; tender has its own brake equipment
+R-PWR
+Protected coach AC feeder and bonding
+First coach distribution, then the remaining coaches
+R-DATA
+Control and last-coach camera link
+Coach controls and rear camera; protected route through tender to cab
+Keep fuel storage, feed and return within the tender. Keep pump suction short within the machinery package. A/B traction lines and the motor case return cross the front connection; no mechanical driveshaft crosses it. The tender needs its own brake installation, with capacity included in the complete train assessment.
+The fixed zone coordinates are proposals at z = 1250 mm, above the 550 mm coupling center. Their final positions depend on moving clearances, access and fitting geometry. They have not passed a hose-routing or collision check.
+Movement screening
+A first attachment-point screen uses ±10° yaw, ±3° pitch and roll, and ±50 mm axial movement as declared trial inputs. Across the side zones, direct endpoint distance ranges from about 
+1510 to 1880 mm
+, compared with 1700 mm straight. This identifies movement the flex arrangement must accommodate; it does not select a hose length or approve these motions.
+See the assumptions, all six results and remaining routing work →
+The standard package does not fit the current roof
+The published Hydra-Tech HT150DQV enclosure measures 122 × 54 × 74 inches. In the existing tender, the clear height above the deck is 1204 mm (47.4 inches), so this stock unit projects 676 mm above the inner roof lining. It is a hydraulic skid comparison, not a confirmed all-three power package.
+Design direction:
+ retain the present exterior as the target while requesting a custom lower package or a rearranged skid. If the stock enclosure is selected, revise the tender height and recheck vehicle clearance, cooling and center of gravity. Do not freeze frame mounts or roof height yet.
+The standard unit also carries much larger tank capacities than our earlier layout. Its published dry mass plus assumed full fuel and reservoir oil is about 3.15 tonnes, before tender structure or additional generator/compressor equipment. Use the selected package's actual installed mass and CG before sizing suspension and brakes. 
+Manufacturer dimensions and data ↗
+Open full-size side drawing →
+Next design gate
+Get the selected combined package's configured drawing, wet mass/CG, simultaneous traction–electric–air rating, cooling requirements and mounting loads. Then complete the frame members and connections, real hose paths, six-vehicle mass/braking balance and curve checks. The current study provides the interfaces for that work.
+Engineering record →
+Retained exterior & insulation →
+Earlier power budget →
+Design development · Not released for construction
+LT43 enclosure & earlier layout

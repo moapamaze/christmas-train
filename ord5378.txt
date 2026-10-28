@@ -1,0 +1,923 @@
+                                           BILL NO.        5-5-26-2
+
+                                            SUMMARY - An ordinance to amend Title 22 by
+                                                     deleting Chapter 22.16 in its entirety;
+                                                     adopting a new Chapter 22.16 entitled
+                                                     Amusement Ride and People Mover
+                                                     Code of Clark County; and providing
+                                                     for other matters properly relating
+                                                     thereto.
+             ORDINANCE NO. 5378
+             AN ORDINANCE TO AMEND TITLE 22, CHAPTER 22.16 OF THE
+             CLARK COUNTY CODE BY DELETING CHAPTER 22.16 IN ITS
+             ENTIRETY AND ADOPTING A NEW CHAPTER 22.16 ENTITLED
+             AMUSEMENT RIDE AND PEOPLE MOVER CODE WHICH ADOPTS
+             NATIONAL STANDARDS FOR THE DESIGN, MANUFACTURING,
+             OPERATIONS, TESTING, MAINTENANCE, INSPECTIONS, QUALITY
+             ASSURANCE, CLASSIFICATION OF INJURIES, ADOPTING OTHER
+             STANDARDS AND IMPOSING PENALTIES; AND PROVIDING FOR
+             OTHER MATTERS PROPERLY RELATING THERETO.
+
+THE BOARD OF COUNTY COMMISSIONERS OF THE COUNTY OF CLARK, STATE OF
+NEVADA DOES HEREBY ORDAIN AS FOLLOWS.
+
+      SECTION 1. Title 22, Chapter 22.16 of the Clark County Code is deleted in its entirety.
+      All permits. Certificates of Operation, approvals, enforcement actions, and compliance
+      obligations lawfully issued or in effect under former Chapter 22.16 shall remain valid and
+      enforceable under this Chapter until modified, revoked, or replaced in accordance with
+      law.
+
+      SECTION 2. Title 22. Chapter 22.16 is adopted to read as follows:
+
+                 AMUSEMENT RIDE AND PEOPLE MOVER CODE
+
+Sections:
+       22.16.010 Purpose
+       22.16.020 Scope
+       22.16.030 Definitions
+       22.16.040 Referenced Codes
+       22.16.050 General
+       22.16.060 Other Laws
+       22.16.070 Application of References
+       22.16.080 Referenced Codes and Standards
+       22.16.090 Conflicts
+       22.16.100 Provisions in Referenced Codes and Standards
+       22.16.110 Amusement Ride and People Mover Built to Other Standards
+       22.16.120 Submittal of Application for ARPM Permits
+       22.16.130 Engineering Requirements
+       22.16.140 Permit Review
+        22.16.150 Construction
+        22.16.160 Quality Assurance Program Requirements
+        22.16.170 Installation Inspections
+        22.16.180 Qualified Individual Responsibilities
+        22.16.190 Commissioning Inspection
+        22.16.200 Certificate of Operation
+        22.16.210 Operation Requirements
+        22.16.220 Evacuation Requirements
+        22.16.230 Operation and Maintenance Manuals, Checklists, and Inspection
+                  Requirements
+        22.16.240 Yearly Inspections
+        22.16.250 Modification
+        22.16.260 New ARPM Permit Requirements
+        22.16.270 Notification
+        22.16.275 Notification Exception
+        22.16.280 Prohibited Use Notice and Resolution
+        22.16.290 Revocation of Certification
+        22.16.300 Appeals
+        22.16.310 Penalties.
+
+      22.16.010 Purpose. Clark County Building Administrative Code, Section 22.02.165,
+Grading, Construction, or Installation Permits Required, permits are required for Amusement Ride
+and People Mover (ARPM) Permits.
+
+        This chapter establishes minimum standards for the design, construction, alteration,
+maintenance, operation, plan review, inspections, and the issuance of Amusement Ride and People
+Mover Permits and Certificates of Operation. It is intended to protect the public's safety, health and
+general welfare by setting certain standards for structural strength, stability, and safety relative to life
+and property hazards related to the installation, construction, maintenance, alteration, repair, removal,
+and use of amusement or transportation systems.
+
+         22.16.020 Scope. Unless otherwise exempted, the provisions and adopted standards of this
+chapter shall apply to all amusement rides, people movers, and attractions erected or installed for a
+period of 30 days or longer.
+         This chapter may be referenced as the Amusement Ride and People Mover Code of Clark
+County.
+         The provisions of this chapter shall not be held to deprive any federal or state agency, or any
+applicable governing body having jurisdiction, of any power or authority which it had on the effective
+date of this code or of any remedy for the enforcement of its orders, nor shall it deprive any individual,
+entity, or corporation of its legal rights as provided by law. ARPM that are regulated by applicable
+governing bodies having jurisdiction are exempted from this code.
+         This code shall be considered as a technical code whose administrative provisions are generally
+contained in the Building Administrative Code of Clark County, Chapter 22.02, where not specified
+differently herein.
+         Nothing in this Chapter shall be construed to conflict with or be less stringent than
+ applicable requirements of NRS 455B or regulations adopted thereunder.
+
+        22.16.030 Definitions. For the purposes of this chapter, the words and terms defined in this
+section have the meanings ascribed to them herein or the Building Administrative Code or other adopted
+technical codes. When terms 2ire not defined, they shall have their ordinarily accepted meanings within
+the context in which they are used. Webster's Third New International Dictionary of the English
+Language, Unabridged, copyright 1986, shall be considered as providing ordinarily accepted meanings.
+
+       ATTRACTION is an interactive device that contains elements such as a moving stage,
+       hydraulics, pneumatics, fire spectacles or other devices designed to entertain.
+
+       AMUSEMENT RIDE OR DEVICE is a device or combination of devices or elements
+       that interact, carry, convey, or direct a person(s) over or through a fixed or restricted course
+       or within a defined area.
+
+       AUTOMATED PEOPLE MOVER A guided transit mode designed, tested, and
+       commissioned in complitmce with ASCE 21 under full automated train control operation,
+       featuring vehicles that operate with exclusive right-of-way on guideways, as defined herein.
+
+       AUTOMATIC TRAIN CONTROL: An integrated control system fiilly designed,
+       verified and demonstrated, and commissioned in accordance with ASCE 21 for
+       automatically controlled train movement, enforcing train safety, and directing train(s)
+       operation(s). Includes subsystems for automatic train operation, automatic train protection,
+       and automatic train supervision and supervisory control and data acquisition.
+
+       GUIDEWAY: That portion of the transit, passenger rail line, aerial or surface ropeway,
+       railway, trainway, tramway, tunnelway, track, or other system’s riding surface (including
+       supporting structure) included within the right-of-way fences, outside lines of curbs or
+       shoulders, underground tunnelways and stations, cut or fill slopes, ditches, troughs,
+       channels, and waterways, and including all appertaining stations, structures, buildings, or
+       pathways that support, physically guide, or restrict the movement of people mover transit
+       vehicles or trains specially designed or designated to travel exclusively on it for the
+       movement of passengers.
+
+       INJURY: Sustained bodily harm resulting in treatment such as trauma, cuts, bruises, bums,
+       and sprains.
+
+       OPERATIONS AND MAINTENANCE MANUAL(S) means one or more manuals in
+       English approved by the Building Official or their designee which specify operational
+       instruction, testing performance, and maintenance requirements the Owner/Operator will follow
+       to ensure proper maintenance and safe operation in order to meet the standards of this chapter.
+
+       OWNER/OPERATOR means the owner, operator, lessee, or the person having custody or
+       control of the ATS.
+
+       PEOPLE MOVER (PM): A guided transit mode and designed, tested, and commissioned
+       exclusively for the movement of passengers, featuring surface or aerial trams, funicul2irs, trains,
+       apparatus, or vehicles that operate along, around, or over fixed, designated, and restricted
+       guideways, as defined herein, with exclusive right-of-way, and other systems as designated by
+       the Building Official.
+       QUALIFIED INDIVIDUAL means a designated representative(s) of the owner/operator of an
+       ARPM who is a technically qualified person accountable to the owner and approved by
+       Building Official or their designee for the operation and maintenance of an ARPM
+       SERIOUS INJURY is a personal injury that results in death, dismemberment, signifieant
+       disfigurement, permanent loss of the use of a body organ, member, function, or system, a
+       compound fracture, or other significant injury that requires immediate admission and
+       overnight hospitalization and observation by a licensed physician.
+
+       TECHNICAL GUIDELINES are administrative guidelines promulgated by the Building
+       Official to carry out the purpose and provisions of this Chapter. Technical Guidelines shall
+       not conflict with this Chapter or any codes or standards adopted by ordinance, and shall
+       not establish new substantive requirements not authorized by this Chapter or by ordinance
+       of the Board of County Commissioners.
+
+       UNSCHEDULED CESSATION is a rare, unusual, unprompted, unanticipated, or irregular
+       stopping of an ARPM operation at a non-designated stopping point, which requires emergency
+       response, enactment of emergency protocols, or potentially hazardous in nature, or both,
+       due to its cause, method or result.
+
+        22.16.040 Referenced Codes. The other codes referenced elsewhere in this code shall be
+considered to be part of the requirements of this code to the prescribed extent of each such
+reference. Referenced codes and standards shall be the editions adopted by the Board by ordinance
+and in effect on the date of adoption of this Chapter.
+
+       22.16.050 General. Where there is a conflict between a general requirement and a specific
+requirement, the specific requirement shall be applicable. Where, in any specific case, different
+sections of this code specify different materials, methods of construction or other requirements,
+the most restrictive shall govern.
+
+        22.16.060 Other Laws. The provisions of this code shall not be deemed to nullify any
+provisions of local, state or federal law.
+
+       22.16.070 Application of References. References to chapter or section numbers, or to
+provisions not specifically identified by number, shall be construed to refer to such chapter, section
+or provision of this code.
+
+        22.16.080 Referenced Codes and Standards. The codes and standards referenced in this
+code shall be considered to be part of the requirements of this code to the prescribed extent of each
+such reference and as further regulated in 22.16.100 and 22.16.110. Referenced codes and standards
+shall be the editions adopted by the Board by ordinance and in effect on the date of adoption of this
+Chapter.
+
+       22.16.090 Conflicts. Where conflicts occur between provisions of this code and referenced
+codes and standards, the provisions of this code shall apply
+
+        22.16.100 Provisions in Referenced Codes and Standards. Where the extent of the reference
+to a referenced code or standard includes subject matter, that is within the scope of this code, the
+provisions of this code, as applicable, shall take precedence over the provisions in the referenced code
+or standard. Referenced codes and standards shall be the editions adopted by the Board by ordinance
+and in effect on the date of adoption of this Chapter.
+
+       22.16.110 Amusement Ride and People Mover Built to Other Standards. When the ARPM
+was built to other standards, the owner/operator or their designated representative shall provide such
+information as the Building Official or their designee, shall determine to be appropriate. Such
+information shall conform to the intent of this chapter and shall include engineering analysis and
+calculations, testing programs, and inspections of the ARPM, as appropriate. When the owner/operator
+has one or more published standards under which the ARPM was designed and built, then the
+owner/operator shall submit the official hardbound standard(s) along with the proposed design,
+calculations, testing and inspection documentation and plans for review under the provisions of the
+Clark County Building Administrative Code section 22.02.075, Alternate Materials and Methods of
+Construction, Modifications, and Tests. A Nevada Registered Design Professional shall review, and
+ seal all required documentation. The Nevada Registered Design Professional shall provide a
+justification in accordance with the Amusement Ride or Device Analysis or People Mover Safety
+Program Plan and Hazard Resolution Process that the other standards meet the requirements of this
+Code. The Building Official or their designee, shall review the submittal and determine acceptability.
+Methods for complying with the requirements of this chapter are found in the technical guidelines.
+
+        22.16.120 Submittal of Application for ARPM Permits. The owner/operator shall apply
+for an ARPM permit. The final determination of the device classification shall be made by the
+Building Official or their designee.
+   a. During the initial permit application submittal review, the required permit type will be
+       determined to be one or more of the following:
+       1. ARPM renewable permit
+       2. Fire Operational renewable permit
+       3. Business License
+       4. Building permit as required in Clark County Building Administrative Code
+   b. Devices classified for use as amusement ride, devices, or people mover must obtain all
+       appropriate permits and inspections required for installation, inspection, and testing.
+       1. ARPM permit exclusions are listed under Section 22.02.215 of the Building Administrative
+           Code.
+       2. For attractions, where patrons do not have available emergency egress, an ARPM permit
+           will be required.
+   c. Buildings that house an amusement ride, device, or attraction must be classified with a use
+       as an Amusement Building per the currently adopted International Building Code.
+
+         22.16.130 Engineering Requirements. A Nevada Design Professional shall provide or
+ensure the necessary expertise to review the subsystem designs (i.e. civil, controls, mechanictil,
+electrical, power, structural, etc.).
+   a. When the APRM is not designed by an appropriate Nevada Design Professional, a Nevada
+       Design professional shall review all documents and state that the design is in conformance
+       with this chapter and other applicable standards. A report prepared by and stamped with the
+        seal of the appropriated Nevada Design Professional describing the review process shall be
+        included with the submittal.
+   b. Other proof of adequacy of design such as testing, prototyping, product listing or any other
+        appropriate documentation may be required or accepted by the Building Official or their
+        designee in addition to or in lieu of engineering design or calculations.
+
+      22.16.140 Permit Review. The submittal package shall be presented to Clark County
+Building Department for review and approval. The permit shall not be issued until all the required
+information is submitted, reviewed, and approved by Building Official or their designee. Sealed
+Amusement Ride and People Mover Documents:
+   a. Statement of Design, the appropriate Nevada Design Professional, acting as the Principal
+      Design Professional shall provide a sealed letter stating that the amusement ride and people
+      mover, has been designed and is in compliance to the applicable ASTM, ANSI, NFPA,
+      AISC, ASCE, UL, or other nationally recognized standards.
+   b. Site Plan
+   c. Operation and Maintenance manual
+   d. Other documents required by the applicable codes and standards.
+
+      22.16.150 Construction.
+   a. Shall demonstrate compli2mce with codes and manufacturer's specifications and obtain all
+      permits and inspections prior to public operation.
+   b. Must be built of materials and comply with material specifications appropriate to the
+      building where the ARPM is located.
+   c. All unlisted or uncertified components shall be labeled using appropriate standards by a
+      nationally recognized testing laboratory (NRTL), safety consulting. Recognized
+      Standardization Organization (RSO) or certification agency.
+
+       22.16.160 Quality Assurance Program Requirements. In addition to the utilized standard(s),
+the owner/operator shall comply with the following:
+    a. The manufacturer’s quality assurance program shall include verification and documentation
+       that manufacturing for the ARPM conforms to the design criteria.
+    b. Prior to shipping of the ARPM, the manufacturer shall generate a document certifying that the
+       fabrication or manufacturer of the ARPM is in conformance with the utilized standard or
+       manufacturer quality assurance program acceptable to the Building Official or their designee.
+    c. The owner/operator shall obtain and provide the certification documents for manufacturers
+       involve in the ARPM to the Clark County approved agency. All certifications shall be included
+       in the Final Report to be provided to Clark County Building Department for review and
+       acceptance.
+
+        22.16.170 Installation Inspections.
+ All ARPM’s shall be inspected in accordance with the requirements of the technical codes, the
+ approved Operations and Maintenance Manual(s), and any requirement of the permit. The
+ inspections shall be conducted by the Building Official or by an approved inspection agency,
+ as directed by the Building Official.
+
+       22.16.180 Qualified Individual Responsibilities. All permits shall have a designated
+Qualified Individual (QI). The owner/operator shall designate a primary Qualified Individual by
+providing a letter to Clark County Building Department on company letterhead providing the full
+name and contact information of the individual. The Qualified Individual shall be the designated
+technical representative of the owner/operator with respect to a specified ARPM. This individual
+shall be responsible for having full operational knowledge of the ARPM and responsibility for
+maintenance at all times that it is in operational use. The Qualified Individual shall be an on-site
+employee of the owner/operator. The person shall demonstrate knowledge of the ARPM and be
+approved by the Building Official or their designee. This individual is responsible for providing
+all reports to Clark County Building Department as described herein and coordinating inspections
+with the approved inspection agency and Clark County Building Department staff. Upon
+separation of a Qualified Individual on staff, the owner/operator shall immediately designate a new
+QI as noted above. The ARPM shall not be operated without an approved Qualified Individual.
+
+      22.16.190 Commissioning Inspection. A testing program consisting of normal operation
+and worst-case scenarios shall be developed by Clark County Building Department to verify the
+ARPM operates as designed.
+   a. When a scenario has been designed by others, the design profession^ shall review the
+      testing program.
+   b. Operational staff must demonstrate that the normal operation and worst-case scenarios
+      procedures are effectively performed per the Clark County approved operational manuals
+      and emergency evacuation plan.
+   c. Commissioning testing is performed with Clark County Building Department staff.
+      Commission testing shall include simulated passenger loading and operational scenarios.
+   d. Commissioning testing is the last inspection prior to full operational approval and issuance
+      of Certificate of Operation.
+
+        22.16.200 Certificate of Operation. Upon completion of all work and approval of all required
+installation inspections, a Certificate of Operation shall be issued per Clark County Building
+Administrative Code section 22.02.215, Amusement Ride and People Mover Certificate of Operation.
+A valid Certificate of Operation is required for the operation of an ARPM after the approval of the
+Building Final inspection. Certificate of Operation is valid for 1 year. The ARPM operator must apply
+for Certificate of Operation renewal on a yearly basis. An annual inspection report by a Clark County
+approved inspection agency must be submitted with the renewal application. Methods for complying
+with the requirements of this chapter are found in the technical guidelines.
+
+       22.16.210 Operation Requirements. In addition to the requirements of the applied
+standard(s) or equivalent, the owner/operator shall comply with the following:
+   a. The Evacuation Plan shall be posted in a readily accessible central location to operators.
+   b. A copy of the Certificate of Operation and the Clark County approved documents shall he
+       maintained at all times with the ARPM or at a location approved by the Building Official or
+      their designee. These documents shall be made available for review by the Building Official,
+      their designee, authorized agent, inspection agency, or other concerned county agencies
+       upon request.
+   c. The owner/operator shall retain quality assurance documentation, such as structural
+       drawings, welding procedures, material certification test reports, inspection records,
+       operation records, and maintenance records, for the life of the ARPM while under their
+       control.
+   d. Upon sale or other transfer of the ARPM the owner/operator shall transfer the quality
+       assurance documents and the approved documents to the new owner/operator.
+   e. The owner/operator shall document and retain training records for a three-year period.
+   f. Training exercises and drills shal 1 he conducted at least twice per year, during the annual
+       inspection and at least one additional time during the year by the operator. Exercises shall
+       include the staff. The drills shall be documented and be conducted at various locations for
+       different emergency scenarios. Building Official or their designee may require additional
+      treiining exercises and drills as deemed necessary.
+   g. Supplemental notification hulletins delivered by the manufacturer of an ARPM to the
+       owner/operator that were not provided at the time of sale or initial installation shall he
+      provided to Clark County Building Department, on request or with the annual renewal
+       application.
+   h. Devices may involve hazardous materials, operations and equipment. Where such
+       substances or operations are involved, the requirements of International Building Code
+       section 307 and other appropriate sections of the International Building Code and the Fire
+       Code shall apply. Additional permits may be required.
+
+      22.16.220 Evacuation Requirements: In the event of a fire alarm or signal;
+   a. Shall stop all confixsing sounds, movements, and show elements and reset to its original
+      loading/unloading position or alternate position if original position is unsafe.
+   b. Operators shall direct patrons to the exit per the evacuation plan.
+   c. Exits must be illuminated and visible. Additional exit signs and directional markings may
+      be required.
+   d. Lighting shall be restored to a level equivalent to the building requirements prior to the
+      ARPM being run.
+
+      22.16.230 Operation and Maintenance Manuals, Checklists, and Inspection
+Requirements. In addition to the utilized standard(s), the owner/operator shall comply with the
+following:
+   a. The owner/operator shall use the manufacturer provided applicable operational instruction,
+      testing performance, and maintenance requirements in the Clark County approved
+       operations and maintenance manual(s) to create and utilize operation and maintenance
+       checklists. The completed checklists shall be on file for review.
+   b. Maintenance manuals shall include installation procedures and verification methods to
+       confirm that critical components, hardware and fasteners are properly installed and retained.
+   c. Checklists shall include procedures or methods to periodically verify components, hardware
+       and fasteners remain effectively retained.
+   d. The approved inspection agency shall use the manufacturer provided applicable operational
+       instruction, testing performance, and maintenance requirements in the Clark County
+       approved operations and maintenance manual(s) to perform their special inspections during
+      the initial installation and annual renewal inspections. The approved inspection agency shall
+      review the completed checklists to verify conformance with the approved operations and
+      maintenance manual(s).
+   e. Changes provided to the owner/operator deemed essential by the manufacturer due to
+       information not available to the manufacturer at the time of delivery, shall be provided in
+      writing to Clark County Building Department.
+
+       22.16.240 Yearly Inspections. Inspections after issuance of the initial Certificate of
+Operation shall be in accordance with Clark County Building Administrative Code Section
+22.02.490, Inspections of Amusement Ride and People Mover.
+   a. For people movers, the following shall be required:
+        i.    Verification of configuration compliance shall be verified in accordance with the
+              utilized standard and shall be reported in the annual report.
+
+       22.16.250 Modification.
+          a. Modifications for any change in either the physical, functional, structural or
+              operation^ characteristics of the ARPM which will alter its performance from that
+              specified in the manufacturer's design criteria, including ride control, software,
+              speed, direction, or dynamic characteristics require a revision to the permit.
+          b. A modification may require changes to the operation and/or maintenance manual(s)
+              and re-inspection of the ride. Prior to any modification being made, the following
+              requirements shall be noted, observed, and followed:
+                  1. QI shall notify Building Official or their designee, by means of an revision.
+                  2. Modifications shall not be made to the ARPM until revisions for the
+                      modifications have been approved by Building Official or their designee.
+                         i.  Building Official or their designee will evaluate the modification
+                             revision.
+                        ii.  The existing approved ARPM configuration may continue to operate
+                              while the revision is being reviewed.
+                       iii.   When the revision is deemed to change the scope of the permit or is
+                              a change to the structural or dynamic characteristics, a new ARPM
+                              permit shall be required. The operation shall cease, unless otherwise
+                              approved by Building Officied.
+                  3. Inspections may be required to verify compliance to the approved revision
+                      design document(s), codes, and standards.
+                  4. Hourly review, inspection, and regulatory fees shall be assessed.
+                  5. New Certificate of Operation may be required to be reissued noting the
+                      modification.
+        22.16.260 New ARPM Permit Requirements. When a new permit is determined to be
+required the current Certificate of Operation for the existing ARPM will be revoked, and then a
+new application and permit shall be required within the requirements of this code.
+        a. Change of ownership shall require a new ARPM permit, to include plan review,
+inspections, commissioning, and certificate of operation for the new owner/operator.
+
+       22.16.270 Notification. The owner/operator is required to report to the Clark County
+Building Department when the following occurs:
+  a. Fatalities. The owner/operator shall close down the ARPM immediately and report any
+      fatality occurring while riding/participating with the ARPM as soon as possible but no later
+      than four (4) hours after the incident by email (dsengineer@clarkcountynv.gov) to the
+      Building Official or their designee, unless impracticable due to emergency response or
+      medical care. The ARPM shall remain closed until authorization is obtained from the
+      Building Official or their designee to resume operation.
+  b. Amusement Ride, Device, and People Mover injuries during Loading, Operation, or
+      Unloading. Injuries which occurred while riding/participating with the ARPM shall be
+      reported to the Building Official or their designee. The owner/operator shall report the
+      injuries as soon as possible but no later than four (4) hours by email
+      (dsengineer@clarkcountynv.gov) to the Building Officid or their designee, unless
+      impracticable due to emergency response or medical care.
+          1. Component(s) involved with a serious injury shall be placed out of service.
+  c. Unscheduled Cessation or Controls System, Structural, Mechanical, Electrical
+      Equipment failure or damage. The owner/operator shall report unscheduled cessation or
+      damage as soon as possible but no later than forty eight (48) hours by email
+      (dsengineer@clarkcountynv.gov) to the Building Official or their designee as an incident
+      report. This reporting requirement excludes normal maintenance activities.
+  d. Security Breach. The owner/operator shall report security breaches, that disrupts the
+      operation, as soon as possible but no later than four (4) business days by email
+      (dsengineer@clarkcountynv.gov) to the Building Official or their designee.
+  e. After notification of a Loading, Operation, or Unloading Serious Injuries. Serious
+      injuries involving component, design, operation, or procedure, the owner/operator shall
+      have the manufacturer or inspection agency evaluate the incident and ARPM. The
+      evaluation shall be scheduled within two workdays. The owner/operator shall obtain a report
+      of the investigation, provide the findings and required recommendations to address, and
+      mitigate, and prevent the incident from reoccurring. The owner/operator shall provide the
+      findings to Clark County Building Department, as a revision to the permit.
+  f. CCBD Action upon notification. Upon notification of a fatality, serious injury, injury,
+      security breach, unscheduled cessation, or a damage report, the Building Official or their
+      designee shall evaluate and determine whether the ARPM shall be sealed out-of-service by
+       a Prohibited Use Notice.
+           1. Prohibited Use Notice. The owner/operator is responsible to fully inspect, make
+              any corrective repairs, test components, and verify safe operation as specified in this
+              chapter and the Operation and Maintenance Manual(s). The owner/operator has the
+              burden to ensure that the ARPM has been repaired, adjusted, modified, tested, and
+              is ready to return to service prior to requesting a Clark County inspection.
+
+        22.16.275 Notification Exception. Facility-Related Injuries. Injuries which occurred
+unrelated to the ARPM while within the facility are not required to be reported to the Building
+Official or their designee.
+
+      22.16.280 Prohibited Use Notice and Resolution.
+   a. Prohibited Use Notice. Where the Building Official or their designee determines an ARPM
+      is not in compliance with the requirements and provisions of this chapter, the applicable
+      technical codes, the Building Administrative Code, the approved Operations and
+      Maintenance Manual(s) or an accident has occurred which has resulted in a fatality, injury,
+      damage, or unscheduled cessation, the Building Official or their designee may declare that
+      the continued operation of the ARPM is prohibited. Upon receipt of a Prohibited Use Notice,
+      the owner/operator and Qualified Individual shall immediately cease operation of the
+      ARPM.
+   b. Out-of-Service Seal. Upon issuance of a Prohibited Use Notice, the Building Official or
+      their designee shall cause to be affixed to the control panel, or other location a Sealed-Out-
+      of-Service placard(s) stating that the ARPM shall not be used. Upon written approval of the
+      Building Official or their designee, testing or inspection may occur under this notice. In the
+      event that the owner/operator does not adequately secure the ARPM, then the Building
+      Official or their designee may at their discretion cause one or more Sealed-Out-of-Service
+      placard(s) to be placed across the entrance(s) to such ARPM. Such notice and seals shall not
+      be removed except by order of the Building Official or their designee after the ARPM has
+      been repaired, re-inspected and approved as operational.
+   c. Method of Resolution. Once the owner/operator has effected a repair of all deficiencies
+      identified in the Prohibited Use Notice, the owner/operator shall notify Building Official or
+      their designee and request an inspection. When the deficiencies are found to be corrected
+      and required tests are completed successfully, then the Scalcd-Oul-of-Scrvice placard(s)
+      shall be removed immediately by the Building Official or their designee as noted above.
+
+      22.16.290 Revocation of Certification. Section 22.02.555 (E) Revocation of the Building
+Administrative Code shall dictate the process of certificate revocation.
+
+      22.16.300 Appeals. Section 22.02.560 Appeal Procedures of the Building Administrative
+Code shall dictate the appeal procedure.
+
+       22.16.310 Penalties. An owner/operator of an ARPM who allows such system to be
+operated:
+       (A)     without a valid Certificate of Operation;
+       (B)     in violation of an Out-of-Service Seed or Prohibited Use Notice;
+       (C)     in violation of the safety requirements of this chapter, condition of the permit, ride
+               certificate, or combination thereof;
+shall be deemed guilty of a misdemeanor, and eaeh sueh owner/operator shall be deemed guilty of
+a separate offense for each and every day or portion thereof during which any violation(s) of any
+of the provisions of this Chapter, adopted codes and standards or Certificate of Operation conditions
+is committed, continued, or permitted. Upon conviction of any such violation, the owner/operator
+may be punished by a fine of not more than [price removed] per each day or instance of violation, or by
+imprisonment for not more than six (6) months, and/or by both such fine and imprisonment.
+
+Violations of Technical Guidelines, standing alone, do not necessarily constitute a criminal offense,
+but may constitute grounds for administrative enforcement action, including permit conditions,
+suspension, or revocation, as authorized by this Chapter and the Building Administrative Code.
+
+       SECTION 3. If any section of this ordinance or portion thereof is for any reason held invalid
+or unconstitutional by any court of competent jurisdiction, such holding shall not invalidate the
+remaining parts of this ordinance.
+
+       SECTION 4. All ordinances, parts of ordinances, chapters, sections, subsections, clauses,
+phrases, or sentences contained in the Code of Clark County in conflict herewith are hereby
+repealed.
+
+        SECTION 5. This ordinance shall take effect and be in force from and after its passage and
+the publication thereof by title only, together with the names of the County Commissioners voting
+for or against its passage, in a newspaper published in and having a general circulation in Clark
+County, Nevada, at least once a week for a period of two (2) weeks.
+
+
+                                       PROPOSED on the 5 day of May, 2026
+
+                                            PROPOSED BY
+                                                   Commissioner Michael Naft
+
+
+                                             PASSED on the 19 day of May, 2026
+
+                                                        AYES:
+                                                                Michael Naft
+
+                                                                William McCurdy II
+
+                                                                April Becker
+
+                                                                James B. Gibson
+
+                                                                Justin Jones
+
+                                                                Marilyn K. Kirkpatrick
+                                                                Tick Segerblom
+
+                                                       NAYS: None
+                             ABSTAINING:
+                                                              None
+
+                             ABSENT:
+                                                               None
+
+
+
+
+                                                 BOARD OF COUNTY COMMISSIONERS
+                                                 CLARK COUNTY, NEVADA
+
+
+                                                 By: — Michael__ .Jun 1,2026 13:09:45 PDT)
+                                                     MICHAELNAFT, Chair
+
+
+ ATTEST:
+
+
+
+ LYNN GOYA, County Clerk
+
+ This ordinance shall be in force and effect from and after the 3rd day of June, 2026.
+
+
+
+
+Appendix A
+
+REFERENCED STANDARDS
+User note:
+
+About this appendix: The ride code contains numerous references to standards promulgated by other organizations that
+
+are used to provide requirementsfor materials and methods ofconstruction. This appendix contains a comprehensive list ofall standards that are
+referenced in this code. These standards, in essence, are part ofthis code to the extent ofthe reference to the standard.
+
+This appendix lists the standards that are referenced in various sections of this document. The standards are listed herein by the promulgating
+agency of the standard, the standard identification, the title, latestpublished edition, and the section or sections ofthis document that reference the
+standard The application ofthe referenced standards shall be as specified tn 22.16.050.
+
+
+ASTM                                                                                                                           ASTM International
+
+
+                                                                                                         100 Barr Harbor Drive, P.O. Box C700
+
+                                                                                                           West Conshohocken, PA 19428-2959
+
+
+
+
+F747: Standard Terminology Relating to Amusement Rides and Devices
+
+F770: Standard Practice for Ownership, Operation, Maintenance, and Inspection of Amusement Rides and Devices
+
+F1193: Standard Practice for Quality, Manufacture, and Construction of Amusement Rides and Devices
+
+F2007: Standard Practice for Design, Manufacture, and Operation of Concession Go-Karts and Facilities
+
+F2137: Standard Practice for Measuring the Dynamic Characteristics of Amusement Rides and Devices
+
+F2291: Standard Practice for Design of Amusement Rides and Devices
+
+F2374: Standard Practice for Design, Manufacture, Operation, and Maintenance of Inflatable Amusement Devices
+
+F2375: Standard Practice for Design, Manufacture, Installation and Testing of Climbing Nets and Netting/Mesh used in
+Amusement Rides, Devices, Play Areas and Attractions
+
+F2460; Standard Practice for Special Requirements for Bumper Boats
+
+F2959: Standard Practice for Aerial Adventure Courses
+
+F2974: Standard Practice for Auditing Amusement Rides and Devices
+
+F3054: Standard Practice for Permanent Amusement Railway Ride Devices
+
+F3214: Standard Practice for Characterization of Fire Properties of Materials Specified for Vehicles Associated with
+Amusement Rides and Devices
+
+F3598: Standard Practice for Risk Assessment for Amusement Rides and Devices
+
+F3785: Standard Practice for Bungee Jumping
+
+
+ANSI                                                                                         ANSI-American National Standards Institute, Inc.
+
+
+                                                                                                                                25 West 43'’‘‘ Street
+                                                                                                  New York,\Y 10036
+
+
+
+
+B77.1, American National Standard for Passenger Ropeways-Aerial Tramways, Aerial Lifts, Surface Lifts, Tows and
+Conveyors-Safety Requirements
+
+B77.2, American National Standard for Funiculars-Safety Requirements
+
+
+
+
+ACCT                                                               ACCT - Association of Challenge Course Technology
+
+
+                                                                                                       P.O. Box 19797
+
+                                                                                                   Boulder, CO. 80308
+
+
+
+
+ANSVACCT Challenge Courses and Canopy! Zip Line Tours Standards
+
+
+
+
+ANSI/ASCE/T&DI                                                              ASCE-American Society of Civil Engineers
+
+
+                                                                                             1801 Alexander Bell Drive
+
+                                                                                                     Reston VA, 20191
+
+
+
+
+Standards Institute/American Society of Civil Engineers/Transportation and Development Institute, ANSI/ASCE/T&DI 21,
+Automated People Mover Standards
+
+
+
+
+ANSI/UL                                                                ANSI-American National Standards Institute, Inc.
+
+
+                                                                                                    25 West 43*^ Street
+
+                                                                                                 NewYork, NY 10036
+American National Standards Institute/Underwriters Laboratory, ANSI/UL 4600, Standard for the Evaluation of
+Autonomous Products
+
+
+
+
+IBC                                                                                        International Code Council
+
+
+                                                                                      200 Massachusetts Avenue, NW
+
+                                                                                             Washington, D.C. 20001
+
+
+
+
+International Building Code
+
+
+
+
+NFPA                                                                        NFPA-National Fire Protection Association
+
+
+                                                                                                 1 Batteiymarch Park
+
+                                                                                            Quincy, MA 021169-7471
+
+
+
+
+NFPA 130, Standard for Fixed Guideway Transit and Passenger Rail Systems
+
+NFPA 502, Standard for Road Tunnels, bridges, and Other Limited Access Highways
+
+
+
+
+NVBOE                                                                                     Nevada Board of Engineers
+
+
+                                                                                        1755 E Plumb Lane, Suite 258
+
+                                                                                                    Reno, NV 89502
+
+
+
+
+NRS Chapter 625 - Professional Engineers and Land Surveyors
+
+THE BLUE BOOK - Section Definitions and Section Stamping and Signing of Plan
+          BCC 5/19/2026 Approved item #64
+         Final Audit Report                                                                                 2026-06-02
+
+                 Created:                 2026-05-20 (Pacific Daylight Time)
+
+                 By:                      Asano Taylor (TaylorA@ClarkCountyNV.gov)
+
+                 Status:                  Signed
+
+                Transaction ID:           CBJCHBCAABAAU0fZR67iwolEWyjNjaHul7iuRBCiWpxj
+
+
+
+
+         "BCC 5/19/2026 Approved item #64" History
+         Q Document created by Asano Taylor (TaylorA@ClarkCountyNV.gov)
+                    2026-05-20 - 8:19:33 AM PDT- IP address: 198.200.132.41
+
+
+                     Document emailed to michael.naft@clarkcountynv.gov for signature
+                    2026-05-20 - 2:58:41 PM PDT
+
+
+         Q Email viewed by michael.naft@clarkcountynv.gov
+                    2026-05-20 - 2:58:50 PM PDT- IP address: 194.135.27.15
+
+
+         Q Agreement viewed bymichael.naft@clarkcountynv.gov
+                    2026-05-20 - 2:58:50 PM PDT- IP address: 194.135.27.15
+
+
+         Q Agreement viewed bykaity.long@clarkcountynv.gov
+                    2026-05-20-2:59:10 PM PDT- IP address: 161.123.177.103
+
+
+         Q Agreement viewed by Asano Taylor (TaylorA@ClarkCountyNV.gov)
+                    2026-05-20 - 2:59:13 PM PDT- IP address: 212.46.142.199
+
+
+                    Signer michael.naft@clarkcountynv.gov entered name at signing as Michael Naft
+                    2026-06-01 - 1:09:43 PM PDT- IP address: 198.200.132.41
+
+
+                     Document e-signed by Michael Naft (michael.naft@clarkcountynv.gov)
+                    signature Date: 2026-06-01 - 1:09:45 PM PDT -Time Source: server-IP address: 198.200.132.41 - Signature Appearance Selected: DRAW
+
+
+                     Document emailed to Lynn Goya (Lynn.Goya@ClarkCountyNV.gov) for signature
+                    2026-06-01 - 1:09:47 PM PDT
+
+
+         Q Email viewed by Lynn Goya (Lynn.Goya@ClarkCountyNV.gov)
+                    2026-06-01 - 1:09:52 PM PDT- IP address: 89.47.63.252
+
+
+         Q Agreement viewed by Lynn Goya (Lynn.Goya@ClarkCountyNV.gov)
+                    2026-06-02 - 9:51:30 AM PDT- IP address: 198.200.132.41
+
+
+
+
+                           Powered by
+                         Adobe
+logethtjr: : • blitter   Acrobat Sign
+         i^Q Document e-signed by Lynn Goya (Lynn.Goya@ClarkCountyNV.gov)
+                    Signature Date: 2026-06-02 - 9:51:37 AM PDT-Time Source: server-iP address: 198.200.132.41 - Signature Appearance Seiected: iMAGE
+
+
+         O Agreement completed.
+                    2026-06-02-9:51:37 AM PDT
+
+
+
+
+                         Powered by
+                         Adobe
+logethtjr: : • blitter   Acrobat Sign
+                                                                   Las Vegas Review-Journal
+ LAS VEGAS                                                         1111 W. Bonanza Road
+ REVIEWJOURNAL                                                     Las Vegas. NV 89106
+
+
+
+AFFIDAVIT OF PUBLICATION
+
+
+       STATE OF NEVADA)
+       COUNTY OF CLARK) SS;
+
+
+          CC CLERK                                                 Account #                  104095
+          ATTN: COMMISSION CLERK                                   Order ID                   354731
+          RM 6037
+          500 S GRAND CENTRAL PKWY
+          LAS VEGAS NV 89155
+
+
+
+
+Leslie McCormick, being 1st duty sworn, deposes and says: That she is the Legal Clerk
+for the Las Vegas Review-Journal, daily newspaper regularly issued, published and
+circulated in the Clark County, Las Vegas, Nevada and that the advertisement, a true
+copy attached for, was continuously published in said Las Vegas Review-Journal, in 2
+edition(s) of said newspaper issued from 05/26/2026 to 06/02/2026, on the following
+day(s):
+
+
+05/26/2026, 06/02/2026
+
+
+
+
+           LEGAL ADVERTISEMENT REPRESENTATIVE
+
+       Subscribed and sworn to before me on this June 2, 2026
+
+
+
+Noti
+
+                                                        LIND^i ESPINOZA
+                                                  Notary Public, State of Nevada
+                                                  My Appointment No. 24-9178-01
+                                                      Expires: July 14,2028
+
+
+
+
+                                                                                                   Page 1 of 2
+    ORDINANCE NO. 5378
+AN ORDINANCE TO AMEND
+TITLE 22, CHAPTER 22.16 OF THE
+CLARK COUNTY CODE BY
+DELETING CHAPTER 22.16 IN ITS
+ENTIRETY AND ADOPTING A
+NEW CHAPTER 22.16 ENTITLED
+AMUSEMENT RIDE ANO PEOPLE
+MOVER        CODE       WHICH
+ADOPTS NATIONAL STANDARDS
+FOR         THE        DESIGN,
+MANUFACTURING,
+OPERATIONS,
+TESTING,        MAINTENANCE,
+INSPECTIONS.          QUALITY
+ASSURANCE, CLASSIFICATION
+OF INJURIES, ADOPTING OTHER
+STANDARDS AND IMPOSING
+PENALTIES; AND PROVIDING
+FOROTHER MATTERS PROPERLY
+RELATING THERETO.
+NOTICE IS HEREBY GIVEN that
+typewritten copies of the above
+numbered        and      entitled
+Ordinance are available for
+inspection by all interested
+parties at the Office of the
+County Clerk of Clark County.
+Nevada, at her Commission
+Division Office on the first floor
+of     the     Clark      County
+Government Center, 500 South
+Grand Central Parkway, Las
+Vegas, Nevada, and that said
+Ordinance was proposed by
+Commissioner Michael Naft on
+the Sth day of May 2026 and
+passed on the 19th day of May
+2026, by the following vote of
+the     Board      of     County
+Commissioners:
+Aye;
+         Michael Naft
+      William McCurdy II
+          April Becker
+       James B. Gibson
+          Justin Jones
+     Marilyn K. Kirkpatrick
+        TickSegerblom
+Nay: None
+Abstaining: None
+Absent; None
+ This Ordinance shall be in full
+force and effect on the 3rd day
+         of June 2026.
+   (SEAL) LYNN MARIE GOYA.
+        COUNTY CLERK
+   and Ex-Officio Clerk of the
+        Board of County
+        Commissioners
+Dated this 19th day of May 2026
+    PUB; May 26, June 2, 2026
+       LV Review-Journal
+

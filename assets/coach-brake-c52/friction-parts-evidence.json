@@ -1,0 +1,113 @@
+{
+  "issue": "C5.2-R0",
+  "retrieved": "2026-10-19",
+  "selection_status": "No stock tread shoe selected for the current wheel",
+  "current_geometry": {
+    "wheel_diameter_mm": 600,
+    "rim_positive_y_mm": [
+      430,
+      530
+    ],
+    "flange_stock_positive_y_mm": [
+      430,
+      450
+    ],
+    "nominal_usable_width_mm": 80,
+    "C51_probe_width_mm": 70,
+    "note": "Unfinished wheel/flange profile; usable nominal band is not an approved running profile or lateral-clearance allowance."
+  },
+  "sources": [
+    {
+      "id": "IPS-CATALOG",
+      "url": "https://www.railwayparts.com/dat/files/22.pdf",
+      "publisher": "Innovative Parts & Solutions",
+      "pages_printed": [
+        89,
+        90
+      ],
+      "role": "Manufacturer dimensional catalog"
+    },
+    {
+      "id": "IPS-LIST",
+      "url": "https://www.railwayparts.com/products/45/Brake%2BComponents",
+      "publisher": "Innovative Parts & Solutions",
+      "role": "Current sales listing; stock quantity and lead time not shown"
+    },
+    {
+      "id": "NYAB-NARROW",
+      "url": "https://www.nyab.com/en/products/nyab-products/rail-services/anchor-brake-shoes/locomotive-brake-shoes/",
+      "publisher": "New York Air Brake / Anchor",
+      "role": "Manufacturer shoe width listing; no 600mm wheel compatibility established"
+    }
+  ],
+  "candidates": [
+    {
+      "part": "7090-0080 / V237",
+      "description": "24-inch tie-inserter shoe",
+      "catalog_dimensions_mm": {
+        "length": 203.2,
+        "width": 90.424,
+        "thickness": 44.45,
+        "face_radius": 304.8
+      },
+      "mass_kg": 1.769,
+      "source": "IPS-CATALOG",
+      "availability": "Listed for sale; stock and lead time unverified",
+      "fit": "Width exceeds nominal current tread by10.424mm; 609.6mm target wheel differs from600mm; attachment dimensions absent. Not selected."
+    },
+    {
+      "part": "V472",
+      "description": "24-inch tamper shoe",
+      "catalog_dimensions_mm": {
+        "length": 304.8,
+        "width": 84.074,
+        "pad_thickness": 38.1
+      },
+      "mass_kg": 1.814,
+      "source": "IPS-CATALOG",
+      "availability": "Listed for sale; stock and lead time unverified",
+      "fit": "Width exceeds nominal current tread by4.074mm before lateral clearance; 609.6mm wheel specified. Not selected."
+    },
+    {
+      "part": "V271",
+      "description": "24-inch tamper shoe without tabs",
+      "catalog_dimensions_mm": {
+        "length": 304.8,
+        "width": 84.074,
+        "pad_thickness": 31.75
+      },
+      "mass_kg": 1.701,
+      "source": "IPS-CATALOG",
+      "availability": "Listed for sale; stock and lead time unverified",
+      "fit": "Same width and wheel-size mismatch; mounting not documented. Not selected."
+    },
+    {
+      "part": "WA-24-BS",
+      "description": "24\u201328-inch cart shoe",
+      "catalog_dimensions_mm": null,
+      "matching_pin": "WA-24-BS-01,1in diameter x4.75in long",
+      "source": "IPS-CATALOG",
+      "availability": "Catalog/quote item; stock and lead time unverified",
+      "fit": "Width, friction qualification and actual mounting GA missing. Not selected."
+    },
+    {
+      "part": "NYAB / Anchor H32, H33, H38",
+      "description": "Narrower locomotive-shoe leads",
+      "catalog_dimensions_mm": {
+        "length": 355.6,
+        "width": 76.2
+      },
+      "source": "NYAB-NARROW",
+      "availability": "Manufacturer catalog; exact stock and lead time unverified",
+      "fit": "Width alone fits within the nominal 80 mm band, with only 3.8 mm total margin before lateral movement. Contact radius and 600 mm/24-inch wheel application unverified. Not selected."
+    }
+  ],
+  "decision": "Proceed with accessible replaceable head interface and purchased-actuator-based fabricated rigging; leave friction block/head mating geometry open. Do not trim a stock lining, assume bedding corrects curvature, or silently revise the wheel. Retain inboard disc as fallback if a compatible stock shoe cannot be secured.",
+  "required_to_close": [
+    "Verified shoe drawing with curvature,width,mounting and new/worn dimensions",
+    "Wheel material/profile and heat-duty compatibility",
+    "Supplier-documented friction range and limits",
+    "Actual stock/lead-time confirmation before procurement",
+    "Complete shoe flange clearance including axle lateral travel,tilt and wear"
+  ]
+}

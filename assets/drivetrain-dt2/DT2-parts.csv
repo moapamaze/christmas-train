@@ -1,0 +1,17 @@
+Part,Description,Qty per truck,Material proposal,Model mass kg,Status
+DT2-F01,"Side member HSS 200 × 100 × 8, cut 2000",1,"Structural HSS, 250 MPa minimum yield proposal",71.341,Preliminary; joints/fits/profile pending
+DT2-F02,"Side member HSS 200 × 100 × 8, cut 2000",1,"Structural HSS, 250 MPa minimum yield proposal",71.341,Preliminary; joints/fits/profile pending
+DT2-F03,"End crossmember HSS 100 × 100 × 8, cut 1360",1,"Structural HSS, 250 MPa minimum yield proposal",31.43,Preliminary; joints/fits/profile pending
+DT2-F04,"End crossmember HSS 100 × 100 × 8, cut 1360",1,"Structural HSS, 250 MPa minimum yield proposal",31.43,Preliminary; joints/fits/profile pending
+DT2-F05,"Centre crossmember HSS 200 × 200 × 10, cut 1360",1,"Structural HSS, 250 MPa minimum yield proposal",81.138,Preliminary; joints/fits/profile pending
+DT2-P01,"Top bearing interface plate 400 × 400 × 20, undrilled",1,"Structural plate, 250 MPa minimum yield proposal",25.12,Preliminary; joints/fits/profile pending
+DT2-P02,Spring pocket backing plate 200 × 180 × 15,1,"Structural plate, 250 MPa minimum yield proposal",4.239,Preliminary; joints/fits/profile pending
+DT2-P03,Spring pocket backing plate 200 × 180 × 15,1,"Structural plate, 250 MPa minimum yield proposal",4.239,Preliminary; joints/fits/profile pending
+DT2-P04,Spring pocket backing plate 200 × 180 × 15,1,"Structural plate, 250 MPa minimum yield proposal",4.239,Preliminary; joints/fits/profile pending
+DT2-P05,Spring pocket backing plate 200 × 180 × 15,1,"Structural plate, 250 MPa minimum yield proposal",4.239,Preliminary; joints/fits/profile pending
+DT2-A01,"Axle blank: Ø120 centre, Ø100 ends; fits/fillets pending",1,Axle steel grade / heat treatment unselected,136.378,Preliminary; joints/fits/profile pending
+DT2-W01,Disc wheel blank Ø1000; rail profile and fit pending,1,Wheel steel grade / manufacture route unselected,296.431,Preliminary; joints/fits/profile pending
+DT2-W02,Disc wheel blank Ø1000; rail profile and fit pending,1,Wheel steel grade / manufacture route unselected,296.431,Preliminary; joints/fits/profile pending
+DT2-A02,"Axle blank: Ø120 centre, Ø100 ends; fits/fillets pending",1,Axle steel grade / heat treatment unselected,136.378,Preliminary; joints/fits/profile pending
+DT2-W03,Disc wheel blank Ø1000; rail profile and fit pending,1,Wheel steel grade / manufacture route unselected,296.431,Preliminary; joints/fits/profile pending
+DT2-W04,Disc wheel blank Ø1000; rail profile and fit pending,1,Wheel steel grade / manufacture route unselected,296.431,Preliminary; joints/fits/profile pending

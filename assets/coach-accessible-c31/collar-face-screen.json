@@ -1,0 +1,142 @@
+{
+  "status": "Conditional four-edge-support plate comparison, not verified HSS attachment",
+  "face_thickness_in": 0.375,
+  "method": "Classical Navier; normal rail weld-line loading spread over 3/16in strip. No parent-face contact credit. Four face edges translationally restrained; actual flexibility remains unverified. All rail-end load states applied to each face height conservatively.",
+  "results": [
+    {
+      "H_in": 4,
+      "terms": 41,
+      "max_VM_MPa": 120.07035937980899,
+      "governing_Fx_My_Mz": [
+        1715.142224,
+        813.0734206,
+        111.212698
+      ],
+      "grid": [
+        161,
+        161
+      ],
+      "convex_hull_vertices": 20
+    },
+    {
+      "H_in": 4,
+      "terms": 81,
+      "max_VM_MPa": 119.9821968826836,
+      "governing_Fx_My_Mz": [
+        1715.142224,
+        813.0734206,
+        111.212698
+      ],
+      "grid": [
+        161,
+        161
+      ],
+      "convex_hull_vertices": 20
+    },
+    {
+      "H_in": 4,
+      "terms": 161,
+      "max_VM_MPa": 119.97625371710056,
+      "governing_Fx_My_Mz": [
+        1715.142224,
+        813.0734206,
+        111.212698
+      ],
+      "grid": [
+        161,
+        161
+      ],
+      "convex_hull_vertices": 20
+    },
+    {
+      "H_in": 6,
+      "terms": 41,
+      "max_VM_MPa": 138.2220382800551,
+      "governing_Fx_My_Mz": [
+        1715.142224,
+        813.0734206,
+        -111.212698
+      ],
+      "grid": [
+        161,
+        241
+      ],
+      "convex_hull_vertices": 20
+    },
+    {
+      "H_in": 6,
+      "terms": 81,
+      "max_VM_MPa": 138.50407062410923,
+      "governing_Fx_My_Mz": [
+        1715.142224,
+        813.0734206,
+        111.212698
+      ],
+      "grid": [
+        161,
+        241
+      ],
+      "convex_hull_vertices": 20
+    },
+    {
+      "H_in": 6,
+      "terms": 161,
+      "max_VM_MPa": 138.39860891625904,
+      "governing_Fx_My_Mz": [
+        1715.142224,
+        813.0734206,
+        111.212698
+      ],
+      "grid": [
+        161,
+        241
+      ],
+      "convex_hull_vertices": 20
+    },
+    {
+      "H_in": 12,
+      "terms": 41,
+      "max_VM_MPa": 136.2210612902611,
+      "governing_Fx_My_Mz": [
+        1715.142224,
+        813.0734206,
+        111.212698
+      ],
+      "grid": [
+        161,
+        481
+      ],
+      "convex_hull_vertices": 20
+    },
+    {
+      "H_in": 12,
+      "terms": 81,
+      "max_VM_MPa": 139.17727158628713,
+      "governing_Fx_My_Mz": [
+        1715.142224,
+        813.0734206,
+        111.212698
+      ],
+      "grid": [
+        161,
+        481
+      ],
+      "convex_hull_vertices": 20
+    },
+    {
+      "H_in": 12,
+      "terms": 161,
+      "max_VM_MPa": 139.528765160226,
+      "governing_Fx_My_Mz": [
+        1715.142224,
+        813.0734206,
+        -111.212698
+      ],
+      "grid": [
+        161,
+        481
+      ],
+      "convex_hull_vertices": 20
+    }
+  ]
+}

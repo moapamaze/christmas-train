@@ -1,0 +1,15 @@
+{
+  "issue": "C53 bearing candidate",
+  "status": "Catalogue development candidate; not a rated assembly or verified inventory",
+  "page_parts": [
+    {
+      "part": "NSK 6824DD",
+      "name": "Sealed thin-section carrier bearing",
+      "role": "Two coaxial carrier-support stations per brake unit",
+      "availability": "Manufacturer catalogue evidence only; stock and delivery not verified.",
+      "availability_as_of": "2026-10-19",
+      "fit_status": "120 x 150 x 16 mm development envelope on custom split sleeve. High torque probes exceed catalogue static reference; unreleased installation.",
+      "source_url": "https://www.nsk.com/engineering/products/bearings/ball-bearings/deep-groove-ball-bearings/single-row-deep-groove-ball-bearings/6824dd-apn.html"
+    }
+  ]
+}

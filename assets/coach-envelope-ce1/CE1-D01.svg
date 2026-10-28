@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 820" role="img"><title>CE1-D01 / Wall, roof and opening construction</title><desc>Layer thicknesses are the proposed construction basis; enlarged keys are not to scale</desc><defs><marker id="arrow" markerWidth="7" markerHeight="7" refX="3.5" refY="3.5" orient="auto-start-reverse"><path d="M0 0L7 3.5L0 7" fill="#17364a"/></marker><pattern id="wool" width="12" height="12" patternUnits="userSpaceOnUse"><path d="M0 12L12 0" stroke="#c0a24f" stroke-width="1"/></pattern></defs><style>text{font-family:Arial,sans-serif;fill:#17364a}.title{font-size:29px;font-weight:700}.sub{font-size:16px}.note{font-size:17px}.small{font-size:14px}.dim{stroke:#17364a;stroke-width:1;marker-start:url(#arrow);marker-end:url(#arrow)}.thin{stroke:#688592;stroke-width:1;fill:none}</style><rect width="1200" height="820" fill="#faf8f1"/><text x="35" y="46" class="title">CE1-D01 / Wall, roof and opening construction</text><text x="35" y="77" class="sub">Layer thicknesses are the proposed construction basis; enlarged keys are not to scale</text>
+<text x="35" y="125" class="note">SIDE WALL · OUTSIDE → INSIDE</text>
+<rect x="35" y="148" width="465" height="43" fill="#cbd2d4" stroke="#17364a"/>
+<text x="47" y="175" class="small">1/16″ retained aluminum exterior skin</text>
+<rect x="35" y="201" width="465" height="43" fill="#e7c673" stroke="#17364a"/>
+<text x="47" y="228" class="small">3″ mineral wool between HSS wall members</text>
+<rect x="35" y="254" width="465" height="43" fill="#f4dd9c" stroke="#17364a"/>
+<text x="47" y="281" class="small">1″ continuous mineral wool inside steel</text>
+<rect x="35" y="307" width="465" height="43" fill="#c7e3dc" stroke="#17364a"/>
+<text x="47" y="334" class="small">.040″ removable 5052-H32 aluminum lining</text>
+<text x="660" y="125" class="note">MAIN ROOF · OUTSIDE → INSIDE</text>
+<rect x="660" y="148" width="465" height="43" fill="#cbd2d4" stroke="#17364a"/>
+<text x="672" y="175" class="small">1/16″ retained curved aluminum roof</text>
+<rect x="660" y="201" width="465" height="43" fill="#e7c673" stroke="#17364a"/>
+<text x="672" y="228" class="small">2″ mineral wool between roof hoops</text>
+<rect x="660" y="254" width="465" height="43" fill="#f4dd9c" stroke="#17364a"/>
+<text x="672" y="281" class="small">1″ continuous mineral wool below hoops</text>
+<rect x="660" y="307" width="465" height="43" fill="#c7e3dc" stroke="#17364a"/>
+<text x="672" y="334" class="small">.040″ curved removable aluminum lining</text>
+<text x="35" y="405" class="note">END WALL / DOOR EXCEPTIONS</text>
+<text x="35" y="441" class="small">End frame is 2″ deep: use 2″ cavity + 1″ continuous + .040″ lining.</text>
+<text x="35" y="468" class="small">Finished end planes X0.54″ and X305.46″; clear length 304.92″.</text>
+<text x="35" y="495" class="small">Moving 1.5″ door leaf: 1″ cavity board + .040″ inside skin; no extra 1″ overlay.</text>
+<text x="35" y="522" class="small">Door-edge structure and seals retain clear openings; leaf/hardware detail still open.</text>
+<text x="35" y="584" class="note">SEALED OPENINGS / REMOVABLE PANELS</text>
+<text x="35" y="620" class="small">Return the lining to a gasketed, independently supported window frame; do not cover the glazing opening.</text>
+<text x="35" y="646" class="small">Seal interior liner joints and penetrations as the air-control layer; use removable gasketed joint covers.</text>
+<text x="35" y="672" class="small">Mechanically retain wool. Liner clips land on steel with rigid isolated spacers inside the 1″ layer.</text>
+<text x="35" y="698" class="small">Do not clamp or hang seats, HVAC, grilles or handrails from soft insulation or thin lining.</text>
+<text x="35" y="724" class="small">Weather-seal exterior laps and curbs; provide a drained sill path outward and removable inspection access.</text>
+<text x="35" y="750" class="small">No added polyethylene layer specified. Check seasonal condensation before closing both metal skins.</text>
+<text x="35" y="798" class="small">CE1 · 26 OCT 2026 · DIMENSIONED COORDINATION PROPOSAL · NOT FOR CONSTRUCTION</text>
+</svg>

@@ -1,0 +1,32 @@
+{
+  "issue": "C5.7-R0",
+  "checked_at_utc": "2026-10-20T04:38:27.927857+00:00",
+  "local_timezone": "America/Los_Angeles",
+  "scope": "Read both existing Webb/ZF request threads at the earlier recorded time, then rechecked inbound mail after19October2026 for Webb/ZF domains or exact package identifiers before issue.",
+  "results": [
+    {
+      "supplier": "Webb",
+      "request_sent_local": "2026-10-19T19:56:11-07:00",
+      "inbound_reply_found": false
+    },
+    {
+      "supplier": "ZF/WABCO",
+      "request_sent_local": "2026-10-19T19:56:23-07:00",
+      "inbound_reply_found": false
+    }
+  ],
+  "specification_changes": [],
+  "maximum_force_confirmed": false,
+  "port_assignments_confirmed": false,
+  "rotor_compatibility_confirmed": false,
+  "structural_sizing_finalized": false,
+  "outreach_sent_this_issue": false,
+  "public_receipt": "../coach-brake-sourcing/request-dispatch-2026-10-19.json",
+  "remaining_inputs": [
+    "Controlled rotor mounting/mating drawing and exact package approval",
+    "Physical port97/116-to-service/spring identification and fitting engagement",
+    "Maximum service, parking and compounded chamber force over stroke",
+    "Manufacturer caliper transfer relation, maximum input and service-access geometry"
+  ],
+  "threads_checked_at_utc": "2026-10-20T04:11:19.757227+00:00"
+}

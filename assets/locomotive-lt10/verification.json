@@ -1,0 +1,125 @@
+{
+  "issue": "LT10-R0",
+  "date_local": "2026-10-19",
+  "source_baseline": "da33c259f8e55ef218b1528fe299138b9829c4e7",
+  "lower_parts": 1250,
+  "body_parts": 1255,
+  "all_lower_shapes_valid": true,
+  "nominal_drive_vs_body": {
+    "exact_hits_above_1mm3": [],
+    "bbox_candidates": 0
+  },
+  "truck_attachment_overlaps": [
+    {
+      "part": "LT10-T1-A1-HG-1_-1",
+      "truck_member": "LT10-T1-RAIL-1",
+      "volume_mm3": 19680.0
+    },
+    {
+      "part": "LT10-T1-A1-HS-1_-1",
+      "truck_member": "LT10-T1-RAIL-1",
+      "volume_mm3": 89280.0
+    },
+    {
+      "part": "LT10-T1-A1-HG-1_1",
+      "truck_member": "LT10-T1-RAIL-1",
+      "volume_mm3": 19680.0
+    },
+    {
+      "part": "LT10-T1-A1-HS-1_1",
+      "truck_member": "LT10-T1-RAIL-1",
+      "volume_mm3": 89280.0
+    },
+    {
+      "part": "LT10-T1-A1-HG1_-1",
+      "truck_member": "LT10-T1-RAIL1",
+      "volume_mm3": 19680.0
+    },
+    {
+      "part": "LT10-T1-A1-HS1_-1",
+      "truck_member": "LT10-T1-RAIL1",
+      "volume_mm3": 89280.0
+    },
+    {
+      "part": "LT10-T1-A1-HG1_1",
+      "truck_member": "LT10-T1-RAIL1",
+      "volume_mm3": 19680.0
+    },
+    {
+      "part": "LT10-T1-A1-HS1_1",
+      "truck_member": "LT10-T1-RAIL1",
+      "volume_mm3": 89280.0
+    },
+    {
+      "part": "LT10-T1-A2-HG-1_-1",
+      "truck_member": "LT10-T1-RAIL1",
+      "volume_mm3": 19680.0
+    },
+    {
+      "part": "LT10-T1-A2-HS-1_-1",
+      "truck_member": "LT10-T1-RAIL1",
+      "volume_mm3": 89280.0
+    },
+    {
+      "part": "LT10-T1-A2-HG-1_1",
+      "truck_member": "LT10-T1-RAIL1",
+      "volume_mm3": 19680.0
+    },
+    {
+      "part": "LT10-T1-A2-HS-1_1",
+      "truck_member": "LT10-T1-RAIL1",
+      "volume_mm3": 89280.0
+    },
+    {
+      "part": "LT10-T1-A2-HG1_-1",
+      "truck_member": "LT10-T1-RAIL-1",
+      "volume_mm3": 19680.0
+    },
+    {
+      "part": "LT10-T1-A2-HS1_-1",
+      "truck_member": "LT10-T1-RAIL-1",
+      "volume_mm3": 89280.0
+    },
+    {
+      "part": "LT10-T1-A2-HG1_1",
+      "truck_member": "LT10-T1-RAIL-1",
+      "volume_mm3": 19680.0
+    },
+    {
+      "part": "LT10-T1-A2-HS1_1",
+      "truck_member": "LT10-T1-RAIL-1",
+      "volume_mm3": 89280.0
+    }
+  ],
+  "motion_screen": {
+    "poses_per_axle": 135,
+    "axles": 4,
+    "total_axle_poses": 540,
+    "primary_travel_mm": [
+      -40,
+      50
+    ],
+    "yaw_deg": [
+      -8,
+      8
+    ],
+    "body_relative_pitch_roll_deg": [
+      -2,
+      2
+    ],
+    "max_rigid_halfwidth_mm": 1279.9216940222925,
+    "bbox_candidates_count": 0,
+    "bbox_candidates": [],
+    "method": "Rigid group bounding envelopes of exact transformed CAD; broad-phase overlap is review, not confirmed collision. Sampled only, excludes flexible hoses, brakes, tolerances and deflection."
+  },
+  "frame_top_mm": 1775,
+  "frame_height_final": false,
+  "open_interfaces": [
+    "DT5 horn guides and guide saddles overlap retained truck rail: attachments need revision, not weld-through solids.",
+    "DT5 spring centre Y\u00b1650 differs from old pocket Y\u00b1730. Old pockets omitted; no complete upper spring seat or selected damper is installed.",
+    "Flexible axle-to-truck hose routes retained in DT5; locomotive-to-truck hoses and yaw loops not designed.",
+    "Locomotive brake geometry is missing; coach brake assemblies are not copied.",
+    "Configured motor/coupling approval, actual masses, spring/damper ratings, structural fatigue and track envelope remain held."
+  ],
+  "fabrication_release": false
+}

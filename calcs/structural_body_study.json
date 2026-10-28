@@ -1,0 +1,396 @@
+{
+ "res": {
+  "C": {
+   "name": "C  R2 conventional: HSS12x6 frame + 3 mm cosmetic body",
+   "bend": 90.15837874687122,
+   "bend_allow": 207.0,
+   "draw_s": 116.8,
+   "draw_u": 225.0,
+   "draw_allow_u": 345,
+   "torsion": 69.14941719878978,
+   "buckling": "n/a (cosmetic 3 mm skin; oil-canning only)",
+   "fat_range": 27.047513624061366,
+   "fat_cat": "E (crossmember/gusset fillet attachments >100 mm on HSS wall), CAFT 31 MPa"
+  },
+  "C2": {
+   "name": "C2 R2 HSS frame (unchanged) + 4.8 mm cosmetic shell bolted on flat CNC rings",
+   "bend": 90.15837874687122,
+   "bend_allow": 207.0,
+   "draw_s": 116.8,
+   "draw_u": 225.0,
+   "draw_allow_u": 345,
+   "torsion": 69.14941719878978,
+   "buckling": "n/a (cosmetic 4.8 mm, bolted, R/t 171: no oil-canning)",
+   "fat_range": 27.047513624061366,
+   "fat_cat": "E (crossmember/gusset fillet attachments >100 mm on HSS wall), CAFT 31 MPa"
+  },
+  "D": {
+   "name": "D  Heavy plate frame (2 x PL20x500 A572-50) + 4.8 mm cosmetic shell bolted on flat CNC rings",
+   "bend": 66.77890466709906,
+   "bend_allow": 207.0,
+   "draw_s": 82.60628803361439,
+   "draw_u": 155.40628803361437,
+   "draw_allow_u": 345,
+   "torsion": 51.21789458823529,
+   "buckling": "web h/t = 25 (compact, no stiffeners needed)",
+   "fat_range": 20.033671400129716,
+   "fat_cat": "C (stretcher end fillets, short attachments) - CAFT 69 MPa; few details"
+  },
+  "A": {
+   "name": "A  Full stressed skin: 5 mm shell + 4 mm skirts + structural cab, 13 rings, 8 stringers",
+   "bend": 7.067118319795901,
+   "bend_allow": 207.0,
+   "draw_s": 7.510051182854671,
+   "draw_u": 21.457289093870486,
+   "draw_allow_u": 345,
+   "torsion": 4.293602477261606,
+   "buckling": "shell local sigma_cr 221 MPa (kd 0.30) vs bending 7; skirt shear tau_cr 83 vs 19 MPa (FS 4.4); cab door openings + hatches NOT checkable by hand -> FEA",
+   "fat_range": 1.7854065929359832,
+   "fat_cat": "E/E' (stitch-welded rings/stringers, hatch doublers, Kt~3 at cut-outs) - CAFT 18-31 MPa local; needs FEA hot-spot",
+   "zNA": 2142.295010336678,
+   "ecc": 1592.295010336678
+  },
+  "B": {
+   "name": "B  Hybrid: light centre sill (box 250x305 PL10/PL12) + 10 mm structural rolled shell + structural cab",
+   "bend": 3.9459328987893874,
+   "bend_allow": 207.0,
+   "draw_s": 59.92429817277847,
+   "draw_u": 171.21228049365277,
+   "draw_allow_u": 345,
+   "torsion": 2.146801238630803,
+   "buckling": "10 mm shell R/t 82: no stiffeners; sill alone carries drawbar aft of cab front (no shell there)",
+   "fat_range": 1.1837798696368163,
+   "fat_cat": "C/D at shell-to-sill saddles and ring welds; load sharing needs FEA",
+   "zNA": 2357.927983267103
+  }
+ },
+ "mass": {
+  "C": {
+   "frame": 3815,
+   "body": 1900,
+   "ballast": 1500,
+   "struct": 5715,
+   "total_steel": 7215,
+   "loco": 16810
+  },
+  "C2": {
+   "frame": 3815,
+   "body": 2922,
+   "ballast": 478,
+   "struct": 6737,
+   "total_steel": 7215,
+   "loco": 16810
+  },
+  "D": {
+   "frame": 4312,
+   "body": 2922,
+   "ballast": 0,
+   "struct": 7234,
+   "total_steel": 7234,
+   "loco": 16829
+  },
+  "A": {
+   "frame": 3178,
+   "body": 3362,
+   "ballast": 675,
+   "struct": 6540,
+   "total_steel": 7215,
+   "loco": 16810
+  },
+  "B": {
+   "frame": 3429,
+   "body": 4313,
+   "ballast": 0,
+   "struct": 7742,
+   "total_steel": 7742,
+   "loco": 17337
+  }
+ },
+ "adh": {
+  "trailing": 60960,
+  "min_loco_dry2": 11889,
+  "min_loco_wet_level": 9163,
+  "train_R2": 77770.0,
+  "TE_2pct": 31.13,
+  "TE_level": 14.95,
+  "motor_350": 31.75,
+  "motor_400": 36.3
+ },
+ "fab": {
+  "C": {
+   "cut": 42,
+   "form": 25,
+   "fit": 112,
+   "weld": 57,
+   "distortion": 54,
+   "finish": 36,
+   "inspect": 32,
+   "machine": 16,
+   "total": 374
+  },
+  "C2": {
+   "cut": 40,
+   "form": 18,
+   "fit": 108,
+   "weld": 34,
+   "distortion": 25,
+   "finish": 21,
+   "inspect": 29,
+   "machine": 16,
+   "total": 291
+  },
+  "D": {
+   "cut": 47,
+   "form": 18,
+   "fit": 110,
+   "weld": 36,
+   "distortion": 21,
+   "finish": 21,
+   "inspect": 28,
+   "machine": 20,
+   "total": 301
+  },
+  "B": {
+   "cut": 56,
+   "form": 40,
+   "fit": 118,
+   "weld": 53,
+   "distortion": 34,
+   "finish": 27,
+   "inspect": 59,
+   "machine": 24,
+   "total": 411
+  },
+  "A": {
+   "cut": 76,
+   "form": 56,
+   "fit": 159,
+   "weld": 136,
+   "distortion": 109,
+   "finish": 58,
+   "inspect": 95,
+   "machine": 28,
+   "total": 717
+  }
+ },
+ "eng": {
+  "C": {
+   "design": [
+    30,
+    50
+   ],
+   "fea": [
+    0,
+    8
+   ],
+   "pe": [
+    30,
+    50
+   ],
+   "qa": [
+    30,
+    45
+   ],
+   "test": [
+    0,
+    0
+   ],
+   "lo": 90,
+   "hi": 153,
+   "mid": 122
+  },
+  "C2": {
+   "design": [
+    38,
+    60
+   ],
+   "fea": [
+    0,
+    8
+   ],
+   "pe": [
+    32,
+    54
+   ],
+   "qa": [
+    30,
+    45
+   ],
+   "test": [
+    0,
+    0
+   ],
+   "lo": 100,
+   "hi": 167,
+   "mid": 134
+  },
+  "D": {
+   "design": [
+    50,
+    80
+   ],
+   "fea": [
+    8,
+    16
+   ],
+   "pe": [
+    30,
+    50
+   ],
+   "qa": [
+    25,
+    40
+   ],
+   "test": [
+    0,
+    0
+   ],
+   "lo": 113,
+   "hi": 186,
+   "mid": 150
+  },
+  "A": {
+   "design": [
+    200,
+    300
+   ],
+   "fea": [
+    150,
+    220
+   ],
+   "pe": [
+    100,
+    160
+   ],
+   "qa": [
+    80,
+    120
+   ],
+   "test": [
+    30,
+    50
+   ],
+   "lo": 560,
+   "hi": 850,
+   "mid": 705
+  },
+  "B": {
+   "design": [
+    120,
+    180
+   ],
+   "fea": [
+    70,
+    110
+   ],
+   "pe": [
+    60,
+    100
+   ],
+   "qa": [
+    50,
+    80
+   ],
+   "test": [
+    10,
+    20
+   ],
+   "lo": 310,
+   "hi": 490,
+   "mid": 400
+  }
+ },
+ "form": [
+  {
+   "t": 3.0,
+   "desc": "10 ga / 3 mm sheet",
+   "R_over_t": 273,
+   "strain_pct": 0.18,
+   "shell_kg": 898,
+   "flat_spot_mm": 6
+  },
+  {
+   "t": 4.8,
+   "desc": "3/16 in",
+   "R_over_t": 171,
+   "strain_pct": 0.29,
+   "shell_kg": 1437,
+   "flat_spot_mm": 10
+  },
+  {
+   "t": 6.0,
+   "desc": "1/4 in",
+   "R_over_t": 137,
+   "strain_pct": 0.36,
+   "shell_kg": 1796,
+   "flat_spot_mm": 12
+  },
+  {
+   "t": 10.0,
+   "desc": "3/8 in",
+   "R_over_t": 82,
+   "strain_pct": 0.61,
+   "shell_kg": 2993,
+   "flat_spot_mm": 15
+  },
+  {
+   "t": 12.0,
+   "desc": "1/2 in",
+   "R_over_t": 68,
+   "strain_pct": 0.73,
+   "shell_kg": 3592,
+   "flat_spot_mm": 18
+  },
+  {
+   "t": 20.0,
+   "desc": "3/4 in",
+   "R_over_t": 41,
+   "strain_pct": 1.2,
+   "shell_kg": 5986,
+   "flat_spot_mm": 30
+  },
+  {
+   "t": 25.0,
+   "desc": "1 in",
+   "R_over_t": 33,
+   "strain_pct": 1.5,
+   "shell_kg": 7482,
+   "flat_spot_mm": 38
+  }
+ ],
+ "U": {
+  "cut": 0.4,
+  "cut_heavy": 0.6,
+  "saw": 0.4,
+  "roll_thin": 3,
+  "roll_med": 5,
+  "roll_heavy_coord": 4,
+  "prebend": 1.0,
+  "brake": 0.3,
+  "fit_light": 0.5,
+  "fit_heavy": 0.9,
+  "fit_skin": 2.0,
+  "weld_kg_h": 1.4,
+  "weld_min": 0.12,
+  "stitch": 0.35,
+  "cjp_thin": 0.8,
+  "cjp_12": 1.4,
+  "vt": 0.05,
+  "mt_ut": 0.5
+ },
+ "loads": {
+  "M_ovh_kNm": 55.64908722258255,
+  "M_v_kNm": 111.2981744451651,
+  "T_jack_kNm": 90.698355,
+  "V_v_kN": 82.78659000000002,
+  "A_shell": 38.126368443965724
+ },
+ "extra": {
+  "sig_cr_cyl": 221.34146341463412,
+  "tau_cr": 83.19101457726732,
+  "tau_sk": 18.815134090909094,
+  "zNA_A": 2142.295010336678,
+  "zNA_B": 2357.927983267103,
+  "sB_comp": 15.96311068969653
+ }
+}

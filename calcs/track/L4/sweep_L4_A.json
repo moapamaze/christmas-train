@@ -1,0 +1,237 @@
+{
+ "name": "Alt A (spiralled, L4)",
+ "res": {
+  "Locomotive": {
+   "out": 1581.7070988703701,
+   "inn": 1507.394994671072,
+   "low_out": 1425.9662405830875,
+   "low_inn": 1357.547634032415,
+   "out_nm": "cab roof 3 mm skin on HSS3x2x1/8 purlins @600 (3 in deep, adopted R2)",
+   "inn_nm": "cab roof 3 mm skin on HSS3x2x1/8 purlins @600 (3 in deep, adopted R2)"
+  },
+  "Tender": {
+   "out": 1382.8700161855572,
+   "inn": 1377.850420402987,
+   "low_out": 1340.878752633337,
+   "low_inn": 1337.2796307938765,
+   "out_nm": "tender flat roof 10 ga (3.4 mm) on HSS2x2x1/8 bows @500 (sealed)",
+   "inn_nm": "tender roof bow HSS2x2x1/8 @500"
+  },
+  "Coach 1": {
+   "out": 1586.5291204777247,
+   "inn": 1560.2724663541844,
+   "low_out": 1502.1311479134245,
+   "low_inn": 1455.6013407172309,
+   "out_nm": "roof eave",
+   "inn_nm": "roof eave"
+  },
+  "Coach 2": {
+   "out": 1586.5292496173815,
+   "inn": 1553.9286558624854,
+   "low_out": 1502.1311189437629,
+   "low_inn": 1452.4210644593552,
+   "out_nm": "roof eave",
+   "inn_nm": "roof eave"
+  },
+  "Coach 3": {
+   "out": 1586.5292629518137,
+   "inn": 1552.7847323593821,
+   "low_out": 1502.1311567292073,
+   "low_inn": 1452.4201049884593,
+   "out_nm": "roof eave",
+   "inn_nm": "roof eave"
+  },
+  "Coach 4 (acc)": {
+   "out": 1586.5292094672593,
+   "inn": 1551.3887927662684,
+   "low_out": 1502.1295546263113,
+   "low_inn": 1452.421168887621,
+   "out_nm": "roof eave",
+   "inn_nm": "roof eave"
+  }
+ },
+ "cpl": [
+  {
+   "a_front": 11.875724558107212,
+   "a_rear": 7.554551967897107,
+   "body": 5.019974743207
+  },
+  {
+   "a_front": 2.310531382124802,
+   "a_rear": 6.470565590663957,
+   "body": 5.241137561444264
+  },
+  {
+   "a_front": 5.432871697595291,
+   "a_rear": 5.448134605474369,
+   "body": 6.776089694672047
+  },
+  {
+   "a_front": 5.44402322403699,
+   "a_rear": 5.439233724781057,
+   "body": 6.776089696787014
+  },
+  {
+   "a_front": 5.451609697314711,
+   "a_rear": 5.4267590703697515,
+   "body": 6.776089697009438
+  }
+ ],
+ "lead": {
+  "swing": 71.62571914463224,
+  "arm_angle": 1.469485979392224
+ },
+ "yaw": {
+  "Locomotive T1": 0.9168000270070344,
+  "Locomotive T2": 0.9167997239966743,
+  "Tender T1": 0.7448801758854872,
+  "Tender T2": 0.7448801755773623,
+  "Coach 1 T1": 1.571874347502114,
+  "Coach 1 T2": 1.5718722033948214,
+  "Coach 2 T1": 1.5718744090742278,
+  "Coach 2 T2": 1.571873427140133,
+  "Coach 3 T1": 1.571874190218426,
+  "Coach 3 T2": 1.5718736024735875,
+  "Coach 4 (acc) T1": 1.5718744890401968,
+  "Coach 4 (acc) T2": 1.5718736038536765
+ },
+ "cyl_gap": 10.090498704791713,
+ "cyl_gap_790": 47.64766814882171,
+ "interf": [
+  {
+   "a": "Locomotive:B pony ballast 0.625 t per side (steel plates on the sprung pony frame, own secondary springs, no lateral centering > 0.5 kN)",
+   "b": "Locomotive:LT leading-truck swing arm 1,075 (LT18)",
+   "static": 20.0,
+   "min_gap": -51.6,
+   "at_ch_m": 1648.0,
+   "loss": 71.6
+  },
+  {
+   "a": "Locomotive:LT wheel tread rim 50 deep lead",
+   "b": "Locomotive:B pony ballast 0.625 t per side (steel plates on the sprung pony frame, own secondary springs, no lateral centering > 0.5 kN)",
+   "static": 127.2,
+   "min_gap": 23.7,
+   "at_ch_m": 1648.0,
+   "loss": 103.5
+  },
+  {
+   "a": "Locomotive:LT flange lead",
+   "b": "Locomotive:B pony ballast 0.625 t per side (steel plates on the sprung pony frame, own secondary springs, no lateral centering > 0.5 kN)",
+   "static": 127.2,
+   "min_gap": 23.7,
+   "at_ch_m": 1648.0,
+   "loss": 103.5
+  },
+  {
+   "a": "Locomotive:B main rail HSS12x6x3/8 (LT18: Y\u00b1240, Z1150-1454.8)",
+   "b": "Locomotive:T1 flange T1 \u00d81450 driver (spoked look; plate-web section proxy)",
+   "static": 111.0,
+   "min_gap": 86.5,
+   "at_ch_m": 1650.0,
+   "loss": 24.5
+  },
+  {
+   "a": "Locomotive:B main rail HSS12x6x3/8 (LT18: Y\u00b1240, Z1150-1454.8)",
+   "b": "Locomotive:T2 flange T2 \u00d81450 driver (spoked look; plate-web section proxy)",
+   "static": 111.0,
+   "min_gap": 86.5,
+   "at_ch_m": 786.0,
+   "loss": 24.5
+  },
+  {
+   "a": "Locomotive:B main rail HSS12x6x3/8 (LT18: Y\u00b1240, Z1150-1454.8)",
+   "b": "Locomotive:T1 wheel tread rim 50 deep T1 \u00d81450 driver (spoked look; plate-web section proxy)",
+   "static": 111.0,
+   "min_gap": 86.9,
+   "at_ch_m": 1650.0,
+   "loss": 24.1
+  },
+  {
+   "a": "Locomotive:B main rail HSS12x6x3/8 (LT18: Y\u00b1240, Z1150-1454.8)",
+   "b": "Locomotive:T2 wheel tread rim 50 deep T2 \u00d81450 driver (spoked look; plate-web section proxy)",
+   "static": 111.0,
+   "min_gap": 86.9,
+   "at_ch_m": 786.0,
+   "loss": 24.1
+  },
+  {
+   "a": "Locomotive:T1 wheel tread rim 50 deep T1 \u00d81450 driver (spoked look; plate-web section proxy)",
+   "b": "Locomotive:LT decorative cylinder \u00d8380 at Y\u00b1790 (moved from \u00b1750: lead-wheel clash K2-h, route check RT1)",
+   "static": 135.7,
+   "min_gap": 123.9,
+   "at_ch_m": 782.0,
+   "loss": 11.8
+  }
+ ],
+ "inter_vehicle": [
+  {
+   "a": "Locomotive:B loco rear drop drawbar box PL16",
+   "b": "Tender:B tender front drop drawbar box PL16",
+   "static": 350.0,
+   "min_gap": 327.9,
+   "at_ch_m": 1258.0,
+   "loss": 22.1
+  },
+  {
+   "a": "Locomotive:B loco rear pocket top plate PL20",
+   "b": "Tender:B tender front drop drawbar box PL16",
+   "static": 390.0,
+   "min_gap": 367.8,
+   "at_ch_m": 1258.0,
+   "loss": 22.2
+  },
+  {
+   "a": "Locomotive:B loco rear pocket bottom plate PL20",
+   "b": "Tender:B tender front drop drawbar box PL16",
+   "static": 390.0,
+   "min_gap": 367.8,
+   "at_ch_m": 1258.0,
+   "loss": 22.2
+  },
+  {
+   "a": "Locomotive:B loco rear drop drawbar box PL16",
+   "b": "Tender:B tender front pocket top plate PL20",
+   "static": 540.0,
+   "min_gap": 517.9,
+   "at_ch_m": 1258.0,
+   "loss": 22.1
+  }
+ ],
+ "secs": 249.9,
+ "L_m": 1725.4439037884117,
+ "el_end_err_mm": 8.6586889615859,
+ "closure_mm": 51.727932681236815,
+ "Rmin_m": 100.0,
+ "curves": [
+  [
+   "C1",
+   105.0,
+   12.0
+  ],
+  [
+   "C2",
+   100.0,
+   12.0
+  ],
+  [
+   "C3",
+   100.0,
+   3.41
+  ],
+  [
+   "C4",
+   115.0,
+   12.0
+  ],
+  [
+   "C5",
+   100.0,
+   12.0
+  ],
+  [
+   "C6",
+   100.0,
+   3.7
+  ]
+ ]
+}

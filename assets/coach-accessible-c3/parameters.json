@@ -1,0 +1,140 @@
+{
+  "revision": "PF-3O2-C3-R0",
+  "units": "inches",
+  "status": "PRELIMINARY \u2014 NOT FOR FABRICATION",
+  "floor_z": 32,
+  "hinge_axis": [
+    64,
+    -32,
+    48.5
+  ],
+  "rotation_axis": "global +Y; physical stow angle -90deg",
+  "seat_pan_bounds": {
+    "x": [
+      62.5,
+      82
+    ],
+    "y": [
+      -44,
+      -20
+    ],
+    "z": [
+      48.5,
+      48.625
+    ]
+  },
+  "cushion_bounds": {
+    "x": [
+      62.5,
+      82
+    ],
+    "y": [
+      -44,
+      -20
+    ],
+    "z": [
+      48.625,
+      50
+    ]
+  },
+  "back_face_x": 62.25,
+  "back_bottom_z": 50.25,
+  "mechanism_centers_y": [
+    -45,
+    -19
+  ],
+  "hinge_pin_dia": 0.75,
+  "hinge_bushing_OD": 1,
+  "hinge_bushing_ID": 0.753,
+  "moving_sector_t": 0.5,
+  "sector_R": 1.75,
+  "clevis_t": 0.375,
+  "running_gap_each_side": 0.0625,
+  "latch_pin_dia": 0.625,
+  "latch_hole_dia": 0.65625,
+  "latch_radius": 1.15,
+  "fixed_latch_xz": [
+    63.186827201635474,
+    49.313172798364526
+  ],
+  "deployed_stop_xz": [
+    [
+      65,
+      65.5
+    ],
+    [
+      48,
+      48.5
+    ]
+  ],
+  "stowed_stop_xz": [
+    [
+      64,
+      64.5
+    ],
+    [
+      47.125,
+      47.625
+    ]
+  ],
+  "support_strip": {
+    "x": [
+      60,
+      66
+    ],
+    "y": [
+      -52,
+      -16
+    ]
+  },
+  "feet": [
+    [
+      62.5,
+      -44
+    ],
+    [
+      62.5,
+      -20
+    ]
+  ],
+  "cap_size": [
+    5,
+    6,
+    0.75
+  ],
+  "sole_size": [
+    5,
+    6,
+    1
+  ],
+  "bolt_offsets": [
+    [
+      -1.75,
+      -2
+    ],
+    [
+      -1.75,
+      2
+    ],
+    [
+      1.75,
+      -2
+    ],
+    [
+      1.75,
+      2
+    ]
+  ],
+  "steel_top_z": 31.003937007874,
+  "sole_under_z": 32.25,
+  "sole_top_z": 33.25,
+  "mount_status": "Proposed two-foot cantilever foundation; separate from regular-bench C2.1",
+  "back_top_z": 70,
+  "states_deg": [
+    0,
+    45,
+    90
+  ],
+  "cap_top_z": 31.753937007874,
+  "spacer_length": 0.49606299212599936
+}

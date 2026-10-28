@@ -1,0 +1,76 @@
+{
+  "checks": [
+    {
+      "mode": "pair",
+      "parts": 4129,
+      "vertices": 2210668,
+      "pin_distance_mm": 800,
+      "full_model_valid": true,
+      "tilt_A_deg": 0,
+      "tilt_B_deg": 0,
+      "body_gap_nominal_mm": 1100
+    },
+    {
+      "mode": "joint",
+      "parts": 73,
+      "vertices": 22348,
+      "pin_distance_mm": 800,
+      "full_model_valid": true,
+      "tilt_A_deg": 0,
+      "tilt_B_deg": 0,
+      "body_gap_nominal_mm": 1100
+    },
+    {
+      "mode": "curve",
+      "parts": 4129,
+      "vertices": 2210668,
+      "pin_distance_mm": 800,
+      "full_model_valid": true,
+      "tilt_A_deg": 0,
+      "tilt_B_deg": 0,
+      "body_gap_nominal_mm": 1100
+    },
+    {
+      "mode": "combined",
+      "parts": 4129,
+      "vertices": 2210668,
+      "pin_distance_mm": 800,
+      "full_model_valid": true,
+      "tilt_A_deg": 4.241670935281772,
+      "tilt_B_deg": 4.300536542651067,
+      "body_gap_nominal_mm": 1100
+    },
+    {
+      "mode": "crest",
+      "parts": 4129,
+      "vertices": 2210668,
+      "pin_distance_mm": 800,
+      "full_model_valid": true,
+      "tilt_A_deg": 4.241670935281772,
+      "tilt_B_deg": 4.296349638145456,
+      "body_gap_nominal_mm": 1100
+    },
+    {
+      "mode": "dip",
+      "parts": 4129,
+      "vertices": 2210668,
+      "pin_distance_mm": 800,
+      "full_model_valid": true,
+      "tilt_A_deg": 4.241670935281772,
+      "tilt_B_deg": 4.300536542651067,
+      "body_gap_nominal_mm": 1100
+    },
+    {
+      "mode": "cutaway",
+      "parts": 21,
+      "vertices": 7063,
+      "pin_distance_mm": 800,
+      "full_model_valid": true,
+      "tilt_A_deg": 0,
+      "tilt_B_deg": 0,
+      "body_gap_nominal_mm": 1100
+    }
+  ],
+  "browser_test": false,
+  "scope": "Schema, instance count, no duplicate original bolsters and exact pin-to-pin link closure. Not full collision, structural or route qualification."
+}

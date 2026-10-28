@@ -1,0 +1,109 @@
+{
+  "inherited_thermal_assumptions": {
+    "regular_people": 33,
+    "accessible_people": 14,
+    "opaque_U_sensitivities_W_m2K": [
+      0.7,
+      1.5,
+      2.5
+    ],
+    "working_U_W_m2K": 1.5,
+    "U_status": "0.7 retained predecessor; 1.5 planning target; 2.5 degraded-envelope sensitivity. None is demonstrated whole-body U.",
+    "glass_U_W_m2K": 2.7,
+    "glass_SHGC": 0.5,
+    "summer_outdoor_F": 110,
+    "summer_indoor_F": 75,
+    "winter_outdoor_F": 30,
+    "winter_indoor_F": 68,
+    "winter_cold_sensitivity_F": 20,
+    "outside_air_L_s_person": 7.5,
+    "average_door_leakage_m3_s": 0.03,
+    "person_sensible_W": 75,
+    "person_latent_W": 45,
+    "inside_equipment_W": 200,
+    "air_density_kg_m3": 1.2,
+    "cp_kJ_kgK": 1.006,
+    "latent_kJ_kg": 2501,
+    "humid_delta_ratio_kg_kg": 0.006,
+    "solar_glass_W_m2": 500,
+    "roof_sol_air_delta_K": 20,
+    "cooling_allowance_fraction": 0.15,
+    "cooling_COP_sensitivities": [
+      2.0,
+      2.5,
+      3.0
+    ],
+    "working_COP": 2.5,
+    "weather_and_ventilation_status": "Retained engineering sensitivities, not official climate design data or adopted ventilation rate; solar separated from evening duty.",
+    "supply_air_delta_K": 12,
+    "external_supply_duct_count": 2,
+    "external_supply_duct_width_in": 18,
+    "external_supply_duct_height_in": 15,
+    "duct_velocity_objective_m_s": 4,
+    "duct_status": "Geometric gross duct allocation; insulation/liners/grilles and pressure loss reduce usable area. Not an airflow acceptance.",
+    "occupancy_status": "Regular: 32 passengers plus one thermal person allowance. Accessible: 13 passengers plus one thermal person allowance. Whole consist: 113 thermal occupants. These allowances are not a staffing prescription.",
+    "internal_heat_status": "The 200 W internal-equipment thermal allocation is separate from the 1080 W electrical auxiliary schedule. Reconcile actual fan, lighting and control heat entering the cabin and underfloor charger/conversion losses before selection."
+  },
+  "heat_cases": [
+    {
+      "W": 200,
+      "meaning": "predecessor internal-equipment heat; not reconciled"
+    },
+    {
+      "W": 420,
+      "meaning": "conditional direct-light120+fresh-air-fan250+hotel-control50 into occupied cabin. Chargers/DC heat elsewhere; assumes all fan work counted here, not in selected HVAC capacity twice."
+    },
+    {
+      "W": 1080,
+      "meaning": "conditional all allocated AC auxiliary energy eventually becomes cabin heat. Not actual connected/running rating. Do not add downstream DC/charger power a second time."
+    }
+  ],
+  "device_locations": [
+    {
+      "id": "AC-A01",
+      "name": "Normal interior/platform lighting",
+      "inherited_input_allocation_W": 120,
+      "actual_running_W": null,
+      "cabin_heat_fraction": null,
+      "status": "allocation only; exact component and physical heat placement unselected"
+    },
+    {
+      "id": "AC-A02",
+      "name": "Separate fresh-air fan allowance",
+      "inherited_input_allocation_W": 250,
+      "actual_running_W": null,
+      "cabin_heat_fraction": null,
+      "status": "allocation only; exact component and physical heat placement unselected"
+    },
+    {
+      "id": "AC-A03",
+      "name": "Brake battery charger input allocation",
+      "inherited_input_allocation_W": 600,
+      "actual_running_W": null,
+      "cabin_heat_fraction": null,
+      "status": "allocation only; exact component and physical heat placement unselected"
+    },
+    {
+      "id": "AC-A04",
+      "name": "Emergency-light charger input allocation",
+      "inherited_input_allocation_W": 60,
+      "actual_running_W": null,
+      "cabin_heat_fraction": null,
+      "status": "allocation only; exact component and physical heat placement unselected"
+    },
+    {
+      "id": "AC-A05",
+      "name": "Hotel controls/indication",
+      "inherited_input_allocation_W": 50,
+      "actual_running_W": null,
+      "cabin_heat_fraction": null,
+      "status": "allocation only; exact component and physical heat placement unselected"
+    }
+  ],
+  "charger_balance": "P_AC = P_DC / eta_charger + other input losses; P_DC = P_operating_load + P_battery_charge. Cabin heat counts each conversion/load at its actual location and energy once; battery storage is not instantaneous cabin heat.",
+  "actual_charger_efficiency": null,
+  "actual_recharge_time_h": null,
+  "actual_climate_design": null,
+  "ventilation_requirement_adopted": null,
+  "empty_precooling_or_warmup_occupancy": null
+}

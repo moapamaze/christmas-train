@@ -1,0 +1,58 @@
+{
+  "status": "Conditional elastic demand; compatible stiffness, WPS, parent-wall local and fatigue checks remain",
+  "summary": {
+    "post_base_group_MPa": 73.35159937196823,
+    "front_rib_root_MPa": 109.17773269858341,
+    "side_gusset_root_MPa": 70.92727147596891,
+    "front_rib_root_gross_VM_MPa": 78.35245459491306,
+    "side_gusset_root_gross_VM_MPa": 122.69008832768272,
+    "cap_cheek_PJP_MPa": 102.52348372537301,
+    "saddle_rail_fillet_MPa": 83.4957277990636
+  },
+  "collars": [
+    {
+      "H_in": 12,
+      "B_in": 4,
+      "wall_in": 0.25,
+      "end_fillet_leg_in": 0.1875,
+      "end_fillet_traction_MPa": 6.145712481894103,
+      "parent_wall_equivalent_traction_MPa": 3.504576589653325,
+      "two_face_corner_grooves_3_16_throat_MPa": 20.02930232018732
+    },
+    {
+      "H_in": 4,
+      "B_in": 2,
+      "wall_in": 0.125,
+      "end_fillet_leg_in": 0.125,
+      "end_fillet_traction_MPa": 43.64687074083327,
+      "parent_wall_equivalent_traction_MPa": 33.186019654210654,
+      "two_face_corner_grooves_3_16_throat_MPa": 34.7416908654928
+    },
+    {
+      "H_in": 6,
+      "B_in": 2,
+      "wall_in": 0.1875,
+      "end_fillet_leg_in": 0.1875,
+      "end_fillet_traction_MPa": 20.08139724169285,
+      "parent_wall_equivalent_traction_MPa": 15.268486199249304,
+      "two_face_corner_grooves_3_16_throat_MPa": 27.324024647407924
+    }
+  ],
+  "weld_comparison_MPa": 144.789897,
+  "end_load_envelope_F_N": [
+    1715.1422239583335,
+    1176.7736772268686,
+    8109.4356033428085
+  ],
+  "end_load_envelope_M_Nm": [
+    713.2847723886721,
+    813.0734206316093,
+    118.18545642059468
+  ],
+  "methods": [
+    "Mixed-throat rigid weldgroup; exact force/moment transport to weld centroid",
+    "Rib-root loads recovered from base weldgroup; compatibility is assumed, not contact FE",
+    "Collar welds use all64 signs of simultaneous component maxima (outside actual load-state envelope)",
+    "Parent-wall values are equivalent distributed transfer traction, not wall plastification or punching resistance"
+  ]
+}

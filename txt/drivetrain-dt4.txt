@@ -1,0 +1,24 @@
+DT4 R2 · Motor and axle drawings
+Previous version · Earlier motor and carrier issue
+This page is retained as history. Open the current assembly →
+DT4 R2 · Updated assembly CAD · 19 October 2026
+Motor and axle assembly
+Separate motor flange, pilot, shaft, housing and rear cover. Coupling and carrier remain marked design spaces.
+Rotate / explode assemblyDimensioned drawingsEngineering and supplier plan
+Assembly CAD · R2
+Teal: catalog motor references. Gold / purple: unfinished coupling, axlebox and carrier spaces. Exploded positions are display offsets, not suspension or operating motion.
+Current drawings
+Motor assembly · assembled and exploded
+New R2 assembly views from the revised CAD.Enlarge drawing
+Motor flange, shaft and port dimensions
+Catalog dimensions; mounting pattern and fits require OEM confirmation.Enlarge drawing
+Complete truck layout
+Two solid axles, staggered motors and inherited truck references.Enlarge drawing
+Axial packaging dimensions
+Motor, coupling and wheelset datum chain.Enlarge drawing
+Hydraulic system arrangement
+Functional circuit only; connections and protection unfinished.Enlarge drawing
+Catalog-reference assembly only. The carrier support, torque restraint, coupling, fasteners and hydraulic fittings are still unfinished. No manufacturing release.
+Optional editable files: Current STEP assembly · CAD source. Drawings and 3D remain available here.
+Historical DT3 gear driveDT4 R2 · Catalog-reference assembly · Engineering kept separate
+DrawingClose ✕

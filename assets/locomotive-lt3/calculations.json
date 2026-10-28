@@ -1,0 +1,130 @@
+{
+  "issue": "PF-LOCO-LT3-R0",
+  "date": "2026-10-19",
+  "engineering_acceptance": false,
+  "centre_load_trials": {
+    "vertical_N": 70000.0,
+    "horizontal_resultant_N": 25000.0,
+    "basis": "Designer screening envelope, not adopted standard. Includes demand margin over LT2 2g body reactions; braking/draft/fault combinations remain to finalize."
+  },
+  "pitch_pin": {
+    "diameter_mm": 70.0,
+    "support_span_mm": 260.0,
+    "model": "Conservative central point load on simply supported pin",
+    "max_bending_MPa": 135.11929862495606,
+    "average_double_shear_MPa": 9.094568176679735
+  },
+  "yaw_pin": {
+    "diameter_mm": 100,
+    "lever_arm_mm": 145,
+    "nominal_bending_MPa": 36.92394679731972,
+    "note": "Distributed radial sleeve reaction/contact, root fillet and base fixation not resolved."
+  },
+  "thrust_washer_pressure_MPa": 1.937538437640465,
+  "radial_sleeve_average_pressure_MPa": 4.166666666666667,
+  "side_support": {
+    "gap_mm": 6.0,
+    "lever_arm_mm": 550.0,
+    "roll_contact_deg": 0.6250572656635744,
+    "target_stiffness_N_mm": 600,
+    "compression_at_2deg_mm": 13.194723186375533,
+    "force_at_2deg_N": 7916.83391182532,
+    "roll_moment_per_truck_Nm": 4354.258651503927,
+    "spring_reserved_height_mm": 80,
+    "limits": "Gap side supports, not secondary heave suspension. Rubber curve/creep, pad guidance, roll stability and friction must be accepted by supplier and dynamic analysis."
+  },
+  "retention": {
+    "one_catch_trial_N": 43149.259999999995,
+    "M24_tensile_area_trial_mm2": 353,
+    "nominal_one_catch_tension_MPa": 122.23586402266288,
+    "basis": "One catch taking2g truck deadweight only; not crash, derailment impact or locomotive lifting qualification."
+  },
+  "primary_suspension_return": [
+    {
+      "truck": 1,
+      "body_reaction_N": 26509.594490205927,
+      "wheel_axle_blank_mass_kg": 1458.481247836408,
+      "supported_trial_mass_kg": 3444.745082276926,
+      "force_per_spring_N": 8445.352340277754,
+      "target_rate_each_N_mm": 168.90704680555507,
+      "static_compression_mm": 50,
+      "installed_spring_space_mm": 305,
+      "free_length_trial_mm": 355,
+      "working_bump_mm": 35,
+      "working_rebound_mm": 30,
+      "jounce_stop_start_mm": 40,
+      "mechanical_bump_stop_mm": 50,
+      "mechanical_rebound_stop_mm": 40,
+      "target_damper_stroke_min_mm": 100,
+      "damper_count_per_truck": 4,
+      "motion_ratio_trial": 1.0,
+      "damper_target_each_Ns_m": 6030.348864521409,
+      "trial_zeta": 0.25,
+      "uncoupled_bounce_Hz": 2.228925061062094
+    },
+    {
+      "truck": 2,
+      "body_reaction_N": 28154.86892132007,
+      "wheel_axle_blank_mass_kg": 1458.481247836408,
+      "supported_trial_mass_kg": 3612.5163834974383,
+      "force_per_spring_N": 8856.670948056288,
+      "target_rate_each_N_mm": 177.13341896112576,
+      "static_compression_mm": 50,
+      "installed_spring_space_mm": 305,
+      "free_length_trial_mm": 355,
+      "working_bump_mm": 35,
+      "working_rebound_mm": 30,
+      "jounce_stop_start_mm": 40,
+      "mechanical_bump_stop_mm": 50,
+      "mechanical_rebound_stop_mm": 40,
+      "target_damper_stroke_min_mm": 100,
+      "damper_count_per_truck": 4,
+      "motion_ratio_trial": 1.0,
+      "damper_target_each_Ns_m": 6324.048238974297,
+      "trial_zeta": 0.25,
+      "uncoupled_bounce_Hz": 2.228925061062094
+    }
+  ],
+  "frame_height": {
+    "main_frame_top_mm": 1775.0,
+    "body_pad_underside_mm": 1451.15,
+    "truck_plate_top_mm": 1170,
+    "support_stack_mm": 281.1500000000001,
+    "gimbal_centre_mm": 1335.0,
+    "finished_cab_floor_mm": 1800,
+    "cab_roof_external_mm": 4000,
+    "cab_roof_inner_target_mm": 3900,
+    "clear_standing_height_mm": 2100,
+    "status": "Selected LT3 development baseline; production freeze blocked by detailed joints, stability and full movement verification."
+  },
+  "mass": {
+    "new_connection_geometry_kg": 1075.132621813012,
+    "new_cab_shell_access_geometry_kg": 1084.1660825754611,
+    "note": "Not additive to previous complete allowances: replace overlapping cab/body allowance and allocate new connection mass between body and truck. Purchased bearing mass not included in nominal envelope volume. Gross12t target is not revalidated."
+  },
+  "limitations": [
+    "No fatigue, contact, buckling, bolt preload, weld/WPS or housing retention acceptance.",
+    "Gimbal and catch concepts include incomplete load-path details explicitly listed per part; positive retention is not yet certified.",
+    "No claim that all parts fit through every combined movement. Specific checks are separate from the unresolved CAD collision report.",
+    "Primary spring and damper target values assume1:1 vertical motion and four units per truck. DT must return installed layout, motion ratios and force curves."
+  ],
+  "primary_suspension_return_status": "Historical DT2 basis; DT3 supersedes mass/wheelbase. See dt3-reconciliation.json",
+  "latest_DT3_sensitivity": [
+    {
+      "truck": 1,
+      "supported_mass_trial_kg": 3784.630306590507,
+      "target_rate_each_N_mm": 185.57272398062898,
+      "damper_equivalent_each_Ns_m": 6625.349779698632,
+      "body_reaction_N": 26509.594490205927,
+      "basis": "Mass-floor sensitivity only: DT3 known truck+LT3 connection mass, DT3 wheel/axle unsprung mass. Other axle-mounted masses not split; missing parts and revised body reactions can move this result. NOT a spring selection."
+    },
+    {
+      "truck": 2,
+      "supported_mass_trial_kg": 3952.4016078110203,
+      "target_rate_each_N_mm": 193.7990961361997,
+      "damper_equivalent_each_Ns_m": 6919.049154151521,
+      "body_reaction_N": 28154.86892132007,
+      "basis": "Mass-floor sensitivity only: DT3 known truck+LT3 connection mass, DT3 wheel/axle unsprung mass. Other axle-mounted masses not split; missing parts and revised body reactions can move this result. NOT a spring selection."
+    }
+  ]
+}

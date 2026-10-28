@@ -1,0 +1,18 @@
+{
+ "B1 Y\u00b1300": {
+  "M_Nmm": 1625783,
+  "case": "LC1 DL + 100 psf full deck"
+ },
+ "B1 Y\u00b1600": {
+  "M_Nmm": 760313,
+  "case": "LC1 DL + 100 psf full deck"
+ },
+ "B4 Y\u00b1250": {
+  "M_Nmm": 7471806,
+  "case": "LC4P DL + equipment + PROV shell/cab 2 g vertical"
+ },
+ "B4 Y\u00b1480": {
+  "M_Nmm": 4325441,
+  "case": "LC4P DL + equipment + PROV shell/cab 2 g vertical"
+ }
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "hand": 0,
+    "dz_mm": 0,
+    "roll_deg": 0,
+    "intersections": []
+  },
+  {
+    "hand": 1,
+    "dz_mm": -25,
+    "roll_deg": -2,
+    "intersections": []
+  },
+  {
+    "hand": 1,
+    "dz_mm": 15,
+    "roll_deg": 2,
+    "intersections": []
+  },
+  {
+    "hand": -1,
+    "dz_mm": 15,
+    "roll_deg": -2,
+    "intersections": []
+  },
+  {
+    "hand": -1,
+    "dz_mm": -25,
+    "roll_deg": 2,
+    "intersections": []
+  }
+]

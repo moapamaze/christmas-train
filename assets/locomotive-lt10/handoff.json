@@ -1,0 +1,36 @@
+{
+  "issue": "LT10-R0",
+  "date_local": "2026-10-19",
+  "body": "LT9-R0",
+  "drivetrain": "DT5-R1",
+  "pivot_supports": "LT4-R0",
+  "pivots_x_mm": [
+    3300,
+    6000
+  ],
+  "axles_x_mm": [
+    2600,
+    4000,
+    5300,
+    6700
+  ],
+  "motor_side_by_axle": [
+    "+Y",
+    "-Y",
+    "+Y",
+    "-Y"
+  ],
+  "frame_top_mm": 1775,
+  "frame_height_final": false,
+  "nominal_body_hits": 0,
+  "sampled_body_bbox_candidates": 0,
+  "guide_rail_intrusion_mm": 20,
+  "upper_spring_seat": "Unresolved; move interface from Y\u00b1730 to Y\u00b1650",
+  "springs_dampers": "Not selected",
+  "brake_interface": "Actual locomotive package required; coach design untouched",
+  "hydraulic_interface": "Axle-to-truck DT5 loops retained separately; main routing not developed",
+  "other_chat_acknowledged": false,
+  "supplier_approved": false,
+  "structurally_approved": false,
+  "fabrication_released": false
+}

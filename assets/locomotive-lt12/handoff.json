@@ -1,0 +1,81 @@
+{
+  "issue": "LT12-R0",
+  "date": "2026-10-20",
+  "source_baseline": "f052a08208d1e881d9a0cf3367c8788d2b5eb8f2",
+  "scope": "Inboard reduction candidate only; no fabrication release",
+  "basis": {
+    "gauge_mm": 914.4,
+    "drivers": 3,
+    "diameter_mm": 1450,
+    "axles_x_mm": [
+      3500,
+      5050,
+      6600
+    ],
+    "frame_top_mm": 1350,
+    "motor_family": "Poclain MS05 Classic 376 cc / 2A50 shaft",
+    "motor_comparison_delta_bar": 300,
+    "line_drop_allowance_bar": 10,
+    "pump": "Danfoss H1P045",
+    "pump_cc": 45,
+    "pump_rpm": 2600,
+    "pump_volumetric_efficiency": 0.95,
+    "pump_total_efficiency": 0.855,
+    "motor_volumetric_efficiency": 0.95,
+    "motor_torque_efficiency": 0.9,
+    "chain_efficiency": 0.97,
+    "main_pump_input_budget_trial_kW": 40,
+    "auxiliary_allowance_trial_kW": 10,
+    "engine_gross_intermittent_kW": 55.4,
+    "engine_installed_continuous_kW": null,
+    "actual_powered_axle_mass_kg": null,
+    "actual_minimum_route_radius_m": null
+  },
+  "reduction": {
+    "chain": "Tsubaki RS20B-2 / duplex",
+    "pitch_mm": 31.75,
+    "teeth": [
+      21,
+      49
+    ],
+    "ratio": 2.3333333333333335,
+    "links_trial": 84,
+    "length_mm": 2667.0,
+    "centres_mm": 764.7869998121928,
+    "motor_offset_x_mm": 749.9327670409762,
+    "motor_offset_z_mm": 150,
+    "pitch_diameters_mm": [
+      213.02681993891665,
+      495.55003884109834
+    ],
+    "chain_width_from_L1_plus_L2_mm": 79.75599999999999,
+    "chain_width_reservation_mm": 84,
+    "small_sprocket_wrap_deg": 158.71188451264922,
+    "sizing_status": "Commercial chain candidate only; sprocket tooth form, hubs, fatigue, shock, reversal, oiling and exact chain length/take-up require supplier selection."
+  },
+  "rim_pull_comparison_N": 15132.250027042728,
+  "drive_torque_each_axle_Nm": 3656.9604232019924,
+  "frame_top_mm": 1350,
+  "primary_travel_samples_mm": [
+    -40,
+    0,
+    50
+  ],
+  "parts": 117,
+  "pending": [
+    "Actual minimum curve and wheel/rail profile",
+    "Powered axle loads and launch resistance",
+    "Lateral/yaw/roll mechanism and working rods",
+    "Brake package and full hose motion",
+    "Carrier/guide/axlebox structural design",
+    "Configured engine/pump continuous power and cooling",
+    "Vendor-approved chain/hubs/input spline and bearing life",
+    "Supported service-removal route"
+  ],
+  "rods_connected": false,
+  "brakes_selected": false,
+  "other_chat_acknowledged": false,
+  "canonical_DT5_modified": false,
+  "passenger_cars_modified": false,
+  "fabrication_release": false
+}

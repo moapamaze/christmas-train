@@ -1,0 +1,20 @@
+LT23 drive and powered-truck review · Pulsipher FarmsSkip to contentWhole locomotive · 3DLT23 truck & dutyLT23 calculationsLT22 record
+Historical LT23 record. LT24 revises the main-drive power allowance and supplier status. Read the latest supplier and load review →
+LT23 · DRIVE, BRAKES & CONTACT LOADS · OCTOBER 21, 2026
+More starting pull.
+A defined braking proposal.
+The proposed duty combines two 560 cc hydraulic motors with 4:1 reduction and a provisional 3.5 mph speed. The suspension now includes calculated bumper and rebound-contact forces, with revised rod locks and front cylinder supports.
+560 cc × 24:1 reduction; 350 bar comparison
+3.5 mph97.2 L/min; 40 kW main-pump trial cap
+20 mm reboundEarlier capture keeps coils compressed in sampled cases
+294 contact-equilibrium solutions. 74 scenarios engage a modeled restraint or bumper. Contact forces are now included in wheel-load and attachment demands.
+This is a conditional engineering proposal. Motor maps, installed engine power, brake capacities and bumper curves remain unverified. The modeled braking demands are not all achievable under the trial torque and adhesion assumptions. No operating speed or attachment dimensions are released.
+Inspect the complete truck
+Drive and duty comparison
+The lower-speed proposal covers the assumed starting-force range at the trial starting efficiency. The 49:16 alternative fits the 5 mph pump-flow budget but falls short of the adverse-start estimate. Both remain subject to measured resistance, adhesion and supplier confirmation.
+Braking and failure response
+Distributed friction brakes on the locomotive and every coach are the proposed primary stopping system. Hydrostatic retardation receives no independent safety-brake credit. The engineering table separates normal braking, one-coach loss, all-coach loss demands and adhesion-limited stopping estimates.
+Revised attachments
+The rebound washer, castle nut and cotter move down 5 mm, with a shorter rod. This reduces nominal droop from 25 to 20 mm. The front decorative cylinder assembly and its supports move down 25 mm for the larger loaded pitch positions; shells now show nominal hollow walls and crossbeam access cutouts.
+Geometry: 35 sampled positions; 0 rigid, 0 wheel-disk and 0 spring-envelope intersections. The model retains eight large drivers and no trailing wheels. Guard and motor geometry remain reservations; final chain, brake and hose installations require separate clearance checks.
+Open the full load-and-travel table and structural review →LT23 · Review candidate · No fabrication or operating release

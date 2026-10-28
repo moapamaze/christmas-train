@@ -1,0 +1,91 @@
+Engineering reference · Pulsipher FarmsSkip to content
+CURRENT TENDER DESIGN · LT45
+Existing AIE engine + separate Kubota 35 kW diesel generator → Updated cutaway, equipment layout, service space and power split. Fit, power margins and weight record →
+EARLIER SHARED-ENGINE POWER / MOVEMENT REVIEW · LT42
+Full power budget, revised brake routes and combined movement findings → Coach HVAC exposes a power shortfall. Brake ratings, configured controls, generator drive and hose twist remain open.
+LT43 · Insulated machinery tender → Kubota, pump, generator, diesel tank, hydraulic reservoir and cooler move into a separate tender. First layout and partial weight check; new connections and movement remain open.
+Coach climate, LED lighting and ventilation → LED allowance: 100 W per coach. Fresh-air fan remains provisional; develop an engine-driven brake compressor. Climate and power selections remain open.
+NEXT WORK · HOSES & CONNECTIONS
+See the unfinished hose ends and routing faults → Complete the pump, motor, brake and coach connections; correct the front branch gaps and overlapping flex leads. The audit identifies the work still needed.
+CURRENT SPRING DECISION · LT35
+D5 replacement, supplier requests and corrected contact checks → D5 requires excessive frame adaptation and is no longer the preferred installation. Shorter standard alternatives requested; quotation and accepted installation remain open.
+Cab C3 · ladder mechanism study
+Indexed lock geometry, manual-drive effort and exit time, plus unexecuted cab and camera test records. C2 remains the integrated LT32 baseline.Open the mechanism and physical-trial review →
+SPRING SOURCING · LT34 REVIEW
+D5-Outer main springs and G63-152 roll springs → Supplier prices and availability, revised installation drawings, and mass-updated suspension checks. Main quotation and clearance/structure holds remain open.
+Current cab · C2
+Left-side controls, front / last-coach cameras, dimensioned exits and a mass-reconciled LT32 assembly.Open Cab C2 drawings and model → · Engineering →
+LT31 · Locomotive to first coach
+Rear frame attachment, turning movement, step clearance and brake-line connections. Open the connection model → · Engineering evidence →
+STANDARD SUSPENSION BUMPER · LT33
+A commercial bump stop in the existing spring
+Revised pedestal, 3D and dimensions → · Loading curves and checks →
+LT26 · INSTALLATION & CONTROLS
+Engine access, cooling and truck connections
+Installation drawings and model → · Proposed brake circuit → · Checks and remaining holds →
+COORDINATED LOCOMOTIVE + FIRST COACH · LT32
+Installation, rear connection and updated loads
+One coordinated 3D assembly and revised sections → · Updated engineering and interface package →
+LT20 · Articulated locomotive connections
+Pivot, rebound and guide drawings → · Loads and structural review →
+LT19 · Rear support and eight-driver layout
+Layout, 3D and preliminary axle loads → · Separate structural and movement study →
+CALCULATIONS / EVIDENCE / OPEN ITEMS
+Engineering reference
+Open the record for the assembly you are reviewing. Detailed calculations and supplier evidence stay separate from the drawing pages.
+LT18 · Eight-driver articulation
+Two turning trucks, tighter-curve evidence and new frame/suspension requirements →
+LT17 · Rocker-pin retention
+Retainers, removal sweep, dimensional stacks and outstanding strength checks →
+LT16 · Suspension loads and frame review
+Spring and centering loads, guide attachments, restored gross frame section and unresolved wheel/rail forces →
+Northern profile & new running gear ↗
+LT11 proposed wheel sizes, lower inside frame, traction implications and unresolved drive architecture.Open design basis →
+Locomotive cooling & access ↗
+Historical LT9 airflow study. LT25 is the current supplier-package integration.
+Open details →
+Locomotive frame & machinery ↗
+Machinery installation, mount loads and unresolved interfaces.
+Open details →
+Locomotive service details ↗
+Engine attachments and access-hardware checks.
+Open details →
+Truck-to-frame connections ↗
+Pivot retention, support loads and movement checks.
+Open details →
+Powered axle & motor ↗
+DT5 coupling, bearings, clearance and supplier questions.
+Open details →
+Coach disc brakes ↗
+Current C5.7 body-to-truck hose, fit and service checks.
+Open details →
+Coach bearing ends & axle review ↗
+CW3 spacer, labyrinth, retention and assembly checks; final qualification remains open.
+Open details →
+Connected coaches ↗
+Drawbar connections and assembly movement checks.
+Open details →
+Accessible boarding ↗
+Bridge, doorway and securement evidence.
+Open details →
+Accessible folding seats ↗
+Locks, guards and floor-connection checks.
+Open details →
+Coach suspension ↗
+Truck/body support and suspension development.
+Open details →
+Regular benches & body ↗
+Seat and floor connection review.
+Open details →
+Track & stations ↗
+Survey, track and station interfaces still requiring selection.
+Open details →
+HVAC & electrical ↗
+Retained mini-split and electrical interface studies.
+Open details →
+Project record ↗
+Recovery records and unresolved work across the project.
+Open details →
+Reports can contain historical assumptions. Use the current assembly record and its stated limits.Earlier calculations & alternatives →
+CB2 · Attached regular-coach stairs
+Folding flights and handrails, retained hinge pins, boarding/travel locks and revised local frame recesses. Current checks and unresolved engineering →. Historical CB1 removable-stair instructions are superseded.Development drawings · Not released for constructionPrevious versions

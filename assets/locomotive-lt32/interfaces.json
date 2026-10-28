@@ -1,0 +1,60 @@
+{
+  "issue": "LT32",
+  "columns": [
+    "id",
+    "interface",
+    "current",
+    "required"
+  ],
+  "interfaces": [
+    [
+      "RG-01",
+      "Running gear / drivetrain",
+      "Retained supply boundary and LT30 restraint geometry. No supplier acceptance assumed.",
+      "Patrick / running-gear engineer: package masses, pivots, loads, track and failure motion, mounting and maintenance interfaces."
+    ],
+    [
+      "CATCH-01",
+      "Emergency truck restraint",
+      "3.955 mm normal margin retained from archived motion bound and LT30 tolerance stack.",
+      "Accepted load path through bearing/housing or independent frame restraint; certified absorber and material/fit/weld tolerances."
+    ],
+    [
+      "COUP-01",
+      "Rear drawgear and rail connection",
+      "Unified geometry, mass and resultant loads at X10475 / Z1302.4.",
+      "Actual train loads, multi-axis reactions, local rail walls, pin bending, bearing, welds, fatigue and independent secondary connection."
+    ],
+    [
+      "HOSE-01",
+      "Rear BP / FP routing",
+      "Separate 1050 mm horizontal and1200 mm vertical corridors per circuit. Supported transfer, guards and access reservations.",
+      "Qualified live swivels, terminal housings, media/pressure/flow/leak/fatigue data, minimum bend radii, separation response and detailed yaw follower."
+    ],
+    [
+      "HOSE-02",
+      "Body-to-bogie flexible lines",
+      "Rechecked geometric corridors at new mass/poses; compound bends remain unresolved.",
+      "Final running-gear ports and segmented single-plane routing or specifically supported alternative."
+    ],
+    [
+      "BRAKE-01",
+      "Brakes and circuit",
+      "Demand calculations retained; no rating replaced without confirmed data.",
+      "Torque/pressure/thermal ratings, attachment reactions, automatic brake response, feed/brake separation and coach connections."
+    ],
+    [
+      "BUMP-01",
+      "Suspension bumpers",
+      "Updated normal demand now5.892 kN; exceeds previous archived5.765 kN.",
+      "Confirmed force-travel curve, usable stroke, temperature/rate behavior and mount reactions."
+    ],
+    [
+      "INSTALL-01",
+      "Pump / cooling",
+      "Revised LT31 carrier and removable duct retained; service paths rechecked.",
+      "Actual pump feet, coupling/ports, permissible housing loads, seals, clamps, core cooling performance and attachment details."
+    ]
+  ],
+  "fabrication_release": false
+}

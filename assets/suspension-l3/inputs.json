@@ -1,0 +1,63 @@
+{
+  "issue": "3L.3-S0",
+  "date": "2026-10-19",
+  "scope": "Suspension load specification and body-interface dimensional audit; not complete truck fabrication drawings",
+  "units": "mm, N, kg, Hz unless noted",
+  "gravity_m_s2": 9.80665,
+  "mass_provenance": {
+    "path": "assets/brake-selection-l2/calculations/predecessor_mass_basis.json",
+    "sha256": "068c8eb8d16cc4cca3b1157c3a0b6091d8d68339726304490842d1cfe6234b06",
+    "status": "Inherited allocations, not weighed or rated"
+  },
+  "frame_provenance": {
+    "path": "assets/models3d/frame-J1a.json",
+    "sha256": "fcedeefee75f209e0ea144a671a32cd34f148e412bdbdd6af04abe0307494495",
+    "status": "GLOBAL COORDINATION STUDY \u2014 NOT SELECTED; NOT FOR FABRICATION OR CONSTRUCTION"
+  },
+  "architecture": "Develop guided primary coil suspension, with springs between axlebox saddles and bogie frame; body supported through a separately retained center-bearing/pivot and controlled sidebearers. Equalization and secondary suspension remain alternatives pending twist/ride analysis.",
+  "spring_count_per_truck_trial": 8,
+  "spring_count_basis": "Two coils per axlebox, four axleboxes per truck, for this calculation only; not a final hardware selection.",
+  "unsprung_mass_per_truck_sensitivity_kg": [
+    300,
+    600,
+    900,
+    1200
+  ],
+  "unsprung_mass_definition": "Wheelsets, axleboxes and all brake/carrier mass that moves with the axleboxes. Include effective participating spring mass in refined dynamics. These trial masses are not a verified range.",
+  "loaded_bounce_frequency_sensitivity_Hz": [
+    1.8,
+    2.0,
+    2.2
+  ],
+  "frequency_status": "Analyst-selected sensitivity points, not a comfort standard or approved target.",
+  "example_unsprung_mass_per_truck_kg": 900,
+  "example_loaded_frequency_Hz": 2.0,
+  "limitations": [
+    "Uniform loading and equal spring rates; vertical heave only; no roll, pitch, yaw, track twist, friction, damping, load redistribution or resonance acceptance.",
+    "Upper mass cases are design screens, not normal operating passenger loads.",
+    "Do not subtract only unsprung mass to calculate the body center-bearing force: the complete truck mass must be removed for that interface.",
+    "The existing 32-inch floor reference has no accepted load state. Loaded/empty operating floor heights remain to be fixed."
+  ],
+  "owner_visual_reference": {
+    "date": "2026-10-19",
+    "use": "Appearance and drawing communication only",
+    "references": [
+      "TurboSquid complete bogie screenshot",
+      "Manchester wheel orthographic/section screenshot",
+      "Cults3D complete wagon screenshot",
+      "Rimutaka locomotive chassis and cab CAD screenshot"
+    ],
+    "forbidden_inferences": [
+      "Do not scale screenshot geometry.",
+      "Do not import wheel profiles, spring arrangement, dimensions, material or load ratings.",
+      "Do not select spoked coach wheels because the example shows spokes."
+    ],
+    "required_output": "Recognizable assembled 3D truck and coordinated dimensioned orthographic, section and mounting/part drawings from the same supported geometry. Show purchased brakes only in train-installation context; no standalone drum-internals teardown."
+  },
+  "release": {
+    "spring_selected": false,
+    "mounts_dimensioned_for_fabrication": false,
+    "complete_truck_drawings": false,
+    "fabrication_approved": false
+  }
+}

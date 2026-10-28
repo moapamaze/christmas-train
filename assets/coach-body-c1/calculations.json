@@ -1,0 +1,69 @@
+{
+  "date": "2026-10-19",
+  "analyst_case": "1 kPa transverse pressure on isolated fixed-base/free-tip post, 32 in tributary width. Not a site wind code selection.",
+  "post": {
+    "length_in": 75.75,
+    "q_N_m": 812.8,
+    "shear_N": 1563.8678399999997,
+    "base_moment_N_m": 1504.4799587759994,
+    "stress_MPa": 77.80423728813557,
+    "tip_deflection_mm": 9.449764698861225,
+    "I_in4": 1.77,
+    "S_in3": 1.18
+  },
+  "channel_gross_section": {
+    "centroid_depth_in": 0.5267857142857143,
+    "I_in4": 1.0274135044642858,
+    "S_min_in3": 0.5558952294685992,
+    "reference_gross_stress_MPa": 188.0480249847239,
+    "limits": "Gross elastic section only; holes, weld transfer, local web bending, prying/contact, buckling and fatigue not passed. A single assumed effective-width plate-strip calculation is not a stiffness/contact solution."
+  },
+  "connection_demands": {
+    "upper_group_center_z_in": 38,
+    "lower_group_center_z_in": 29,
+    "upper_moment_N_m": 1355.5215470159994,
+    "lower_moment_N_m": 1713.0217352399993,
+    "upper_signed_normal_reactions_N": [
+      14123.681429999995,
+      -12559.813589999996
+    ],
+    "lower_signed_normal_reactions_N_each_bolt": [
+      17251.417109999995,
+      -16469.48318999999
+    ],
+    "interpretation": "Distinct ideal rigid groups. Negative reaction requires compression/contact, not negative bolt tension. Actual prying/contact/stiffness, local web bending and perimeter-rail torsion are not passed."
+  },
+  "mass_by_group_kg": {
+    "underframe": 1816.3471427332067,
+    "walls": 862.99987941769,
+    "joint": 185.31427678407317,
+    "skin": 225.83494492661754,
+    "glazing": 78.42874636799999,
+    "roof": 171.02463884052804,
+    "doors": 34.6394764196455,
+    "floor": 41.28708612525928
+  },
+  "mass_limits": "Partial member/panel nominal budget only, using catalog where provided and nominal CAD density otherwise. Excludes bought hardware, many body attachments, liners/insulation, complete seats, trucks, brakes, HVAC and service equipment. Not coach tare.",
+  "glazing_clear_area_m2": 9.9096576,
+  "critical_unfinished": [
+    "All J01 local HSS wall/contact/bolt/preload/weld/fatigue and global load paths",
+    "Window and door retention/emergency hardware",
+    "Roof strength, roof/end wall/purlin/skin/liner/insulation attachments and weathering",
+    "Bench/floor actual hardpoint collision and seat construction",
+    "Truck / wheel / axle / suspension / brake actual interfaces",
+    "Normal boarding side, stair/platform and emergency evacuation geometry",
+    "HVAC model and manufacturer mobile application/clearances/ventilation/condensate"
+  ],
+  "checks": {
+    "physical_solids_valid": true,
+    "unique_ids": true,
+    "post_count": 22,
+    "interior_J01_count": 18,
+    "special_end_receivers_undefined": 4,
+    "regular_places_reference": 32,
+    "physical_solids": 584,
+    "web_mesh_parts": 603,
+    "targeted_interface_overlap_pass": true,
+    "reference_solids": 16
+  }
+}

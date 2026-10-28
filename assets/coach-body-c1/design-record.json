@@ -1,0 +1,89 @@
+{
+  "issue": "PF-3O2-C1-R0",
+  "date": "2026-10-19",
+  "scope": "Preliminary actual regular-coach body framing/enclosure geometry and interior J01 post connection proposal. Entire coach incomplete.",
+  "source": "build_c1.py; all physical solids tessellated once for model, projected as CAD edges and exported as STEP",
+  "retained": [
+    "J1a 110 nominal member shells; perimeter rails revised only for interior J01 sleeve bores",
+    "104 in clear cabin / 32 regular seats / inherited bench centres",
+    "32 in floor packaging datum; no accepted suspension load state"
+  ],
+  "revised": [
+    "Body HSS/post/window/roof physical member geometry replaces envelope-only body references for this issue",
+    "Body skin width110.375 in, glazing110.972 in, backing plates111 in",
+    "Window clear area9.910 m2; feed next HVAC reconciliation",
+    "J01 direct post connection, two rows each attachment, ribbed web; no invalid intermember bolt lever"
+  ],
+  "rejected": [
+    "Standard J01 on four end posts: intersects actual T-3/T309 crossmembers; unique end receiver still needed",
+    "6in interior J01 web touching adjacent crossmembers; narrowed5in, ribsX\u00b12.125, lower bolt columnsX\u00b11.25",
+    "Glazing buried in HSS depth: panes moved to outboard mounting plane |Y|55.25",
+    "Uncut roof hoop penetrating eave: nominal receiver-envelope cope now represented"
+  ],
+  "proposed_materials": [
+    "A500 Grade C HSS body framing",
+    "A36 J01 plates",
+    "5052-H32 .0625 in enclosure sheets",
+    "6mm polycarbonate glazing alternative; not a selected qualified glazing product",
+    "Sleeve certified weldable steel exact grade unresolved; SAE J429Grade8 1/2-13 bolt assembly candidate only"
+  ],
+  "connection_boundaries": [
+    "18 interior J01 candidates only; 4 special end receivers undefined",
+    "Bracket nominal clearance to nearby crossmember0.5in at identified nearest locations; actual weld/toolling/tolerance clearance not accepted",
+    "Cap/sill corner/contact/end weld and load sharing remain unfinished",
+    "No exact commercial bolt/nut/washer, length, torque/preload or capacity asserted",
+    "Gross channel section does not pass net section, prying, local HSS, welds or fatigue"
+  ],
+  "remaining_physical_design": [
+    "Complete bench / floor hardpoint geometry and inherited panel conflict",
+    "Accessible folding seats and mounted swept envelopes",
+    "Special end-post/frame receivers",
+    "Complete body frame joints and global wind/roof/racking/braking/fatigue load cases",
+    "Roof purlins, seam/flashing, skin and liner retention, insulation",
+    "Window gaskets/retainers/expansion allowance/safety and emergency exits",
+    "Door hardware/latches/closers/swing and route clearance",
+    "Actual truck/wheel/axle/bearing/suspension/brake parts",
+    "Couplers/platforms/stairs/guards",
+    "Mini-split selected equipment/install supports/airflow/ventilation/condensate and electrical distribution"
+  ],
+  "quality_check": "Visual review and matched solid/mesh/drawing source do not equal complete fabrication or engineering release. Visible genuine omissions retained.",
+  "allocation": {
+    "precision_subcontract": "Sleeves, coordinated boring/drill jig and process inspection; exact shop not named",
+    "finish_subcontract": "Body/interior finish per owner; actual scope/contractor not named",
+    "farm_Ralph": "General cut/fit/assembly only against demonstrated capability and later released detail",
+    "professional_review": "Later engineer review, fabrication/inspection planning and actual physical tests required"
+  },
+  "source_register": [
+    {
+      "publisher": "Atlas Tube",
+      "url": "https://www.atlastube.com/wp-content/uploads/2018/04/A500-Rectangle-Current.pdf",
+      "page": "PDF8",
+      "checked": "2026-10-19",
+      "used": "HSS3x2x3/16 nominal5.59lb/ft,I1.77in4,S1.18in3; HSS3x2x1/8 nominal3.90lb/ft",
+      "limit": "Catalog sections not certification of actual stock; corner model and many CAD masses differ"
+    },
+    {
+      "publisher": "Steel Tube Institute",
+      "url": "https://steeltubeinstitute.org/resources/astm-a500/",
+      "checked": "2026-10-19",
+      "used": "A500Cstrength/corner/designwall context",
+      "limit": "AISCcontext not automatic governing rail vehicle code"
+    }
+  ],
+  "verification": {
+    "numeric_and_solid_checks": {
+      "physical_solids_valid": true,
+      "unique_ids": true,
+      "post_count": 22,
+      "interior_J01_count": 18,
+      "special_end_receivers_undefined": 4,
+      "regular_places_reference": 32,
+      "physical_solids": 584,
+      "web_mesh_parts": 603,
+      "targeted_interface_overlap_pass": true,
+      "reference_solids": 16
+    },
+    "webgl_browser": "Not browser-tested this issue; managed browser capability unavailable. JavaScript syntax and mesh/schema/path checks performed.",
+    "construction_approved": false
+  }
+}

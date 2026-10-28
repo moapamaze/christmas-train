@@ -1,0 +1,144 @@
+{
+ "PF-L100_locomotive": {
+  "parts": 236,
+  "steel_mass_kg": 12369.7,
+  "by_group": {
+   "frame": 2444.8,
+   "deck": 1248.1,
+   "coupler": 182.8,
+   "ballast": 1295.9,
+   "axle": 657.8,
+   "wheel": 4815.0,
+   "truck": 1521.6,
+   "steps": 173.3,
+   "grab": 30.3
+  }
+ },
+ "PF-T200_tender": {
+  "parts": 218,
+  "steel_mass_kg": 4081.0,
+  "by_group": {
+   "frame": 704.8,
+   "axle": 417.8,
+   "wheel": 1152.2,
+   "truck": 773.4,
+   "coupler": 338.7,
+   "deck": 694.1
+  }
+ },
+ "PF-C300_coach_regular": {
+  "parts": 194,
+  "steel_mass_kg": 7075.5,
+  "by_group": {
+   "frame": 1652.8,
+   "axle": 417.8,
+   "wheel": 1152.2,
+   "truck": 773.4,
+   "coupler": 377.7,
+   "grab": 1429.6,
+   "steps": 1272.0
+  }
+ },
+ "PF-C300A_coach_accessible": {
+  "parts": 212,
+  "steel_mass_kg": 7904.6,
+  "by_group": {
+   "frame": 1652.8,
+   "axle": 417.8,
+   "wheel": 1152.2,
+   "truck": 773.4,
+   "coupler": 377.7,
+   "grab": 1429.6,
+   "steps": 2101.0
+  }
+ },
+ "PF-K400_drawbars_and_pins": {
+  "parts": 3,
+  "steel_mass_kg": 70.7,
+  "by_group": {
+   "coupler": 60.0,
+   "pin": 10.7
+  }
+ },
+ "PF-K401_drawbar_800": {
+  "parts": 3,
+  "steel_mass_kg": 45.3,
+  "by_group": {
+   "coupler": 34.7,
+   "pin": 10.7
+  }
+ },
+ "PF-L110_loco_frame_only": {
+  "parts": 38,
+  "steel_mass_kg": 5171.7,
+  "by_group": {
+   "frame": 2444.8,
+   "deck": 1248.1,
+   "coupler": 182.8,
+   "ballast": 1295.9
+  }
+ },
+ "PF-L120_powered_truck": {
+  "parts": 80,
+  "steel_mass_kg": 5804.1,
+  "by_group": {
+   "frame": 1433.5,
+   "deck": 1248.1,
+   "axle": 233.4,
+   "wheel": 2086.9,
+   "truck": 802.2
+  }
+ },
+ "PF-L130_ballast_pad": {
+  "parts": 3,
+  "steel_mass_kg": 648.0,
+  "by_group": {
+   "ballast": 648.0
+  }
+ },
+ "PF-L140_cab_steps_grabs": {
+  "parts": 20,
+  "steel_mass_kg": 203.6,
+  "by_group": {
+   "steps": 173.3,
+   "grab": 30.3
+  }
+ },
+ "PF-C310_coach_underframe": {
+  "parts": 35,
+  "steel_mass_kg": 2030.5,
+  "by_group": {
+   "frame": 1652.8,
+   "coupler": 377.7
+  }
+ },
+ "PF-C320_coach_truck": {
+  "parts": 30,
+  "steel_mass_kg": 1171.7,
+  "by_group": {
+   "axle": 208.9,
+   "wheel": 576.1,
+   "truck": 386.7
+  }
+ },
+ "PF-C330_emergency_stair_deployed": {
+  "parts": 48,
+  "steel_mass_kg": 573.1,
+  "by_group": {
+   "steps": 573.1
+  }
+ },
+ "PF-C300A_coach_accessible_stairs_deployed": {
+  "parts": 448,
+  "steel_mass_kg": 7927.9,
+  "by_group": {
+   "frame": 1652.8,
+   "axle": 417.8,
+   "wheel": 1152.2,
+   "truck": 773.4,
+   "coupler": 377.7,
+   "grab": 115.6,
+   "steps": 3438.4
+  }
+ }
+}

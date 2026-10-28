@@ -1,0 +1,69 @@
+{
+  "issue": "PF-3O1-R0",
+  "review_issue_complete": true,
+  "phase3O_complete": false,
+  "approved_for_fabrication": false,
+  "retained": [
+    "J1a frame source",
+    "104x306in clear cabin as packaging study",
+    "Existing accessible door offset",
+    "All predecessor parts and revision history"
+  ],
+  "rejected": [
+    "Claim that zero-contact clearance completes a seat load bypass",
+    "Treating every panel as proven freely center-located",
+    "Using finish-edge gaps or adhesive break elongation as structural-joint allowances"
+  ],
+  "gates": [
+    {
+      "id": "O-G01",
+      "interface": "Seat-to-floor load bypass",
+      "accountable": "Structural engineer + seat/panel detail designer",
+      "evidence": "Revise coupled sole/cap/spacer/opening/seal stack. Specify positive clearance under tolerances, seat loads and floor deflection; retain seat elevation or explicitly revise it. Do not add an arbitrary shim.",
+      "scope": "64 feet in regular coach; accessible layout needs its own schedule."
+    },
+    {
+      "id": "O-G02",
+      "interface": "Panel movement and retention",
+      "accountable": "Panel/finish/adhesive manufacturers + vehicle structural/materials engineer",
+      "evidence": "Directional CTE, thermal envelopes, actual locator/sliding/adhesive topology, insert/closeout geometry, fastener grip/preload, seam/penetration seal movement and qualification tests.",
+      "scope": "No slot, bolt length, gap tolerance or adhesive strain selected."
+    },
+    {
+      "id": "O-G03",
+      "interface": "Body structure",
+      "accountable": "Vehicle structural engineer",
+      "evidence": "Wall/roof/sill/door-frame physical sections, material joints, passenger and HVAC loads, fatigue, glazing retention and emergency egress.",
+      "scope": "3in wall and old roof blocks are reservations, not buildable construction."
+    },
+    {
+      "id": "O-G04",
+      "interface": "Accessible boarding and circulation",
+      "accountable": "Responsible accessibility authority + vehicle/boarding designers",
+      "evidence": "Applicable vehicle regime; actual loaded floor range; lifts/ramps, hardware protrusions, swept wheelchair maneuvering, companion arrangement, securement and evacuation.",
+      "scope": "End doors already match the+6in aisle centerline; no fictitious alignment change needed."
+    },
+    {
+      "id": "O-G05",
+      "interface": "Floor datum across suspension states",
+      "accountable": "Vehicle dynamics/structure + station designers",
+      "evidence": "Accepted empty/loaded/max-bump floor/threshold elevations and roll/twist envelopes coordinated to truck and station.",
+      "scope": "Inherited32in has no accepted load state; do not set platform elevation from it."
+    }
+  ],
+  "prototype_sequence": [
+    "Resolve paper vertical stack and complete bolted/welded load path first.",
+    "Build one reviewed seat-hardpoint/panel-joint coupon with exact production materials, closeouts, coatings, adhesives and fasteners. Farm crew may assist assembly and record dimensions under specialist direction.",
+    "Measure as-built clearances, flatness, joint openings, assembly temperature, bolt/insert configuration and baseline displacement.",
+    "Engineer defines seat/floor proof and cyclic load cases, thermal/wet cycles and acceptance values before testing. Instrument both seat-to-frame and seat-to-floor transfer; do not infer isolation from a drawing.",
+    "Record hot/cold gaps, movement, panel/finish damage, moisture ingress, fastener retention and accessible service. Engineer dispositions results before release."
+  ],
+  "acceptance_limits": {
+    "seat_to_floor_transfer": null,
+    "minimum_vertical_clearance_mm": null,
+    "minimum_seam_clearance_mm": null,
+    "joint_cycle_count": null,
+    "proof_load_N": null
+  },
+  "next": "3P.1 thermal/electrical source reconciliation. Resume custom floor/body detail after these actual interface choices; whole truck/drive remain held only where dependent."
+}

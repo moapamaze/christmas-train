@@ -1,0 +1,42 @@
+{
+  "issue": "PF-3R2-R0",
+  "status": "CAD identity unresolved; not a selected rail",
+  "paper_profile_height_base_mm": [
+    79.375,
+    79.375
+  ],
+  "linked_CAD_face_height_base_mm": [
+    88.9,
+    88.9
+  ],
+  "difference_each_mm": 9.525000000000006,
+  "difference_fraction": 0.12000000000000006,
+  "comparison_is_rolling_tolerance": false,
+  "import_units_checked": true,
+  "shape_kernel_validity_is_component_approval": false,
+  "linked_CAD_used_for_properties_or_project_models": false,
+  "joint_conflicts": [
+    {
+      "source": "Kimes current product description",
+      "url": "https://www.kimessteel.com/shop/new-rail-30-lb-asce-piece-1009",
+      "track_bolt_in": "5/8 x2-3/4",
+      "status": "Narrative says use with its rail/bars; conflicts with table/drawing3in value."
+    },
+    {
+      "source": "Kimes product table /2021drawing",
+      "url": "https://www.kimessteel.com/shop/new-rail-30-lb-asce-piece-1009/document/35",
+      "track_bolt_in": "5/8 x3",
+      "splice_bar_length_in": 16,
+      "status": "Not a matched delivered joint confirmation."
+    },
+    {
+      "source": "Harmer2014catalog sheet, currently hosted",
+      "url": "https://www.harmersteel.com/v2/wp-content/themes/kayjayone/catalog/13.pdf",
+      "track_bolt_in": "5/8 x2-1/2",
+      "splice_bar_length_in": 16.125,
+      "status": "Different supplier assembly; cannot mix bolts/bars by section name."
+    }
+  ],
+  "required_evidence": "Supplier-controlled matching profileCAD+drawing/revision, material/rolling tolerances, exact joint-bar/bolt kit and engineer-accepted wheel/rail/track load design.",
+  "source_scripts": "inspect-source-cad.py and source/hash records; vendorCAD not silently scaled or renamed."
+}

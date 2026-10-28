@@ -1,0 +1,52 @@
+Bearing-end cutaway and assembly · CW3
+CW3-R0 · BEARING-END REVISION
+A centered spacer and a complete seal arrangement
+The CAD now includes a dedicated spacer pilot, recessed inner cover, rotating flinger, stationary grease labyrinth and revised locknut stack. The connected-coach model also uses these bearing-end parts.
+Proposed design for review. This corrects the earlier loose spacer and bare cover opening. Manufacturing fits, axle fatigue, seal performance, housing strength and extraction-tool clearance still need approval. The finished wheel profile and wheel press fits remain on the separate supplier hold list.
+Dimensioned drawings
+Tap any drawing to enlarge it on the site.
+Bearing-end cutawayEnlarge CW3-D01
+Piloted spacer and bearing retentionEnlarge CW3-D02
+Grease labyrinth and flingerEnlarge CW3-D03
+Assembly and servicing orderEnlarge CW3-D04
+Inspect the revised assembly
+Locating-end cutawayFloating-end cutawayAssembled endExploded components
+Loading bearing-end CAD…
+What changed
+The spacer has a machined pilot. A 2 mm smooth pilot centers a 5 mm stepped-bore spacer. The bearing remains in its original position.
+The inner cover moves 12 mm away from the wheel. The main housing and inner outer-ring abutment shorten to make room. The wheel-to-cover nominal axial gap increases from 3 to 15 mm.
+The inner opening now has a grease labyrinth. A shaft-mounted flinger sits inside a stationary cup. Both ends use this arrangement; the floating side retains its ±3 mm outer-ring movement.
+Retention has a defined stack. Spacer → MB18 locking washer → KM18 nut. The axle remains 1330 mm long, with the nut ending at Y662.75 and the axle at Y665.
+Key dimensions
+ | Part / feature
+ | Proposed dimensions, mm
+ | Purpose
+ | Bearing journal
+ | Ø90 ×40, Y600–640
+ | Retained SKF 22218 E envelope; bearing fit remains held
+ | Spacer pilot
+ | Ø90 g6 ×2, Y640–642
+ | Centers spacer; no wheel-support load credited
+ | Spacer
+ | OD104 ×5; Ø90 H7 ×2 then Ø90.2 ×3
+ | H7 end faces bearing; full annular face carries clamp load
+ | Relief / thread
+ | Custom Ø86 / R1 at Y642–645; M90×2-6g proposed from Y645
+ | Thread-tool, groove-root and fatigue review required
+ | Inner cover / cup
+ | Cover Y565–577; opening Ø116; cup OD146 / ID142 to Y592
+ | Stationary, open rear toward bearing
+ | Flinger
+ | Barrel OD110 / bore104 ×12 at Y580–592; disc OD132 ×2 at Y583.5–585.5
+ | Controlled interference retention; exact fit and material held
+Installation sequence
+Complete the approved wheel pressing and stage any closed brake components that would otherwise be trapped by the wheels.
+Pass the inner cover/cup over the smaller axle end. Install the flinger at its defined position using the approved fit and tooling.
+Position the housing and inner outer-ring abutment before fitting the bearing. Keep the floating and locating-side abutments distinct.
+Install the bearing against its shoulder with force applied to the inner ring. Verify residual internal clearance.
+Fit the piloted spacer, a new MB18 washer and KM18 nut. Engage the inner tab and lock one outer tab under the approved mounting procedure.
+Fit the outer abutment and blind cap, seal the static joints, complete the grease inlet and verify free rotation and specified float.
+Servicing
+Support and unload the bogie first. With the outer cap, nut, washer, spacer and outer abutment removed, release the inner-cover fasteners and withdraw the housing while retaining its loose inner abutment behind the bearing. An approved extractor must grip the bearing inner ring; the housing and rollers must not carry the extraction force.
+After the bearing is removed, the flinger and cover can pass over the smaller axle end. Their nominal bores do not require removing the pressed wheel. This establishes component passage, but does not yet qualify the extractor’s access or required force. The exploded view shows component order, not an automatic installation path.
+Read clearance checks, seal limits and remaining engineering holds →CW3-R0 · Proposed bearing-end detail · Supplier / engineering release pending

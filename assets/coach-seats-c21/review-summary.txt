@@ -1,0 +1,42 @@
+C2.1 independent mount review — selected preliminary geometry, 2026-10-19
+
+Selected geometry
+Keep the four existing XY foot centers and four bolts per foot. Cap: 3.5 x 6 x 0.625 in. Sole: 3.5 x 6 x 0.5 in. Central upper and lower ribs: 0.375 in thick, 1.75 in deep through the bolt line; bevel only the unloaded outer tail. Upper rib ends are at local Y +/-2.875 in; lower ends at +/-3 in. Bolts remain local X +/-0.875, Y +/-2 in. Cap underside Z31.003937, cap top Z31.628937, sole underside Z32.25, sole top Z32.75 in. Nominal spacer length is 0.621063 in / 15.775 mm. Floor Z32 is bypassed with a nominal 0.25 in vertical gap.
+
+Why this selection
+The overhanging legacy sole perimeter floats above the floor; removing it reduces mass without deleting an intended compression path. Bracing reduces the original severe local foot moment sensitivity. Ribs provide short steel load paths to the leg and rail side cheeks. The first 0.5 in cap / 0.25 in rib candidate did not clear the chosen amplified gross-stress screens, so root selected a thicker cap and ribs while retaining the smaller footprint. Exact final CAD mass supersedes estimates.
+
+Reproducible evidence
+screen_frame_envelope.py reads the frozen c21-structure/braced-reactions.json, filters the selected 1.25 in brace variants, reverses ground-on-bench forces, and checks CAD foot IDs against XY coordinates. The model includes 630 frame cases, four feet, and three reference datums (7,560 records). Brace ends range from rigid through semi-rigid to rotationally released. The sole and cap have separate wrench reference levels: Mx_new = Mx_old - h*Fy; My_new = My_old + h*Fx when moving to a lower datum.
+
+local_mount_screen.py uses an explicit net strip, not an established connection-capacity model. Plate strip span is 0.6875 in from bolt center to rib face. Gross strip width is 1.75 in; net width is 1.1875 in after subtracting the 9/16 in hole. Sole and cap thicknesses are modeled separately. Ribs retain their full 1.75 in depth throughout the loaded segment; bending plus rectangular-section shear are combined by von Mises. Opposite-sign corner loads may also twist the plate/rib, which this screen does not solve.
+
+Equivalent corner force expressions
+T0 = max(N,0)/4 + abs(My)/(4a) + abs(Mx)/(4b)
+C0 = abs(N)/4 + abs(My)/(4a) + abs(Mx)/(4b)
+a = 0.875 in; b = 2 in; positive N means uplift.
+No compression/gravity credit is taken in T0. Translated cap-datum corner loads are an equivalent wrench allocation, not a prediction that actual axial bolt force necessarily increases with datum. Shear, bearing and bolt bending participate in the physical transfer. Do not add the equivalent corner allocation to another full, independent bolt-bending moment and call those simultaneous actual forces.
+
+Final concurrent-case envelope
+Sole: maximum T0 4.443811 kN; maximum C0 5.093548 kN.
+Cap underside: maximum equivalent T0 5.937193 kN; maximum equivalent C0 6.698193 kN.
+At a 2x force-amplification sensitivity, selected sole net-strip stress is 219.40 MPa; selected cap net-strip stress is 184.65 MPa; upper front rib bending/shear von Mises is 241.17 MPa; lower rib is 231.32 MPa. Use upper-rib results from sole forces and lower-rib results from cap forces. These separate maxima are not concurrent with one another; each is obtained from a complete concurrent case/foot record. The archived first candidate produced about 239, 315, 362 and 347 MPa respectively. Original scripts and envelope are retained in rejected-0p5cap-0p25ribs.
+
+These are gross/net section stress comparisons. They are not allowable strengths, accepted load factors, or passenger-seat ratings. The 1, 1.5 and 2 multipliers are declared sensitivities; 2 is not a demonstrated upper bound on prying. The fact that the stronger candidate is below nominal A36 yield in these screens is not joint acceptance. Actual effective widths and contact must still be established.
+
+Fit and contact
+The 3.5 x 6 in sole fits within the 3.875 x 6.375 in floor opening with nominal 3/16 in plan clearance each side. Use a flexible nonstructural closure. Outer sole edges do not supply compression toes. Compression travels through the four steel spacer annuli. Hole-center edge distances remain X0.875/Y1.0 in. A 1.0625 in OD washer leaves nominal edge margins X0.34375/Y0.46875 in. A 1.25 in OD socket leaves only 0.0625 in radial clearance to the bare 3/8 in center rib; fillets can encroach that space. Finished-joint tool access remains unverified and must use the actual socket, nut, washer and weld shape. Do not reuse the earlier 0.125 in clearance claim.
+
+Consequential remaining checks
+Two-way plate bending, rib torsion, actual contact and prying, bolt preload/locking and shear/bending across the spacer gap, rib-root and cap/cheek weld groups, local post-wall bending/punching, rail wall/corner strength and rail-end torsion, fatigue, and the actual loaded floor clearance. Floor stack and welded distortion require measured spacer fitting. No fabrication approval is implied.
+
+Primary references
+STI, March 2026: HSS Bolted Connections: Keep It Together With a Bolt of Confidence
+https://steeltubeinstitute.org/resources/hss-bolted-connections-keep-it-together-with-a-bolt-of-confidence/
+STI, December 2025: Rectangular HSS Bolted End-Plate Connections Under Bending Moment
+https://steeltubeinstitute.org/resources/rectangular-hss-bolted-end-plate-connections-under-bending-moment/
+STI, July 2017: Connecting Hollow Structural Section Members with Through-Bolts
+https://steeltubeinstitute.org/resources/connecting-hollow-structural-section-members-bolts/
+These support the need to account for prying, contact, model applicability and HSS local behavior. None establishes this custom seat joint's capacity.
+
+Engineering approved: false. Fabrication approved: false.

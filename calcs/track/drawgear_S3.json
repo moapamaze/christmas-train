@@ -1,0 +1,101 @@
+{
+ "basis": "1.0 mm total play renew limit, k >= 20 kN/mm, loco brake rate <= 0.69 m/s2 (Stress Bot R3)",
+ "allow": {
+  "E_R70": 38.8,
+  "F_R80": 45.8
+ },
+ "rows": [
+  {
+   "k_kNmm": 20,
+   "total_play_mm": 1.0,
+   "start_T_kN": 35.3,
+   "runin_C_matched_kN": 26.0,
+   "peak_kN": 35.3,
+   "util_E": 0.91,
+   "util_F": 0.77
+  },
+  {
+   "k_kNmm": 25,
+   "total_play_mm": 1.0,
+   "start_T_kN": 37.3,
+   "runin_C_matched_kN": 25.8,
+   "peak_kN": 37.3,
+   "util_E": 0.96,
+   "util_F": 0.81
+  },
+  {
+   "k_kNmm": 30,
+   "total_play_mm": 1.0,
+   "start_T_kN": 39.0,
+   "runin_C_matched_kN": 27.0,
+   "peak_kN": 39.0,
+   "util_E": 1.01,
+   "util_F": 0.85
+  },
+  {
+   "k_kNmm": 40,
+   "total_play_mm": 1.0,
+   "start_T_kN": 39.0,
+   "runin_C_matched_kN": 30.0,
+   "peak_kN": 39.0,
+   "util_E": 1.01,
+   "util_F": 0.85
+  },
+  {
+   "k_kNmm": 50,
+   "total_play_mm": 1.0,
+   "start_T_kN": 37.5,
+   "runin_C_matched_kN": 32.4,
+   "peak_kN": 37.5,
+   "util_E": 0.97,
+   "util_F": 0.82
+  },
+  {
+   "k_kNmm": 75,
+   "total_play_mm": 1.0,
+   "start_T_kN": 40.1,
+   "runin_C_matched_kN": 36.5,
+   "peak_kN": 40.1,
+   "util_E": 1.03,
+   "util_F": 0.88
+  },
+  {
+   "k_kNmm": 100,
+   "total_play_mm": 1.0,
+   "start_T_kN": 41.3,
+   "runin_C_matched_kN": 40.0,
+   "peak_kN": 41.3,
+   "util_E": 1.06,
+   "util_F": 0.9
+  },
+  {
+   "k_kNmm": 150,
+   "total_play_mm": 1.0,
+   "start_T_kN": 50.1,
+   "runin_C_matched_kN": 45.8,
+   "peak_kN": 50.1,
+   "util_E": 1.29,
+   "util_F": 1.09
+  },
+  {
+   "k_kNmm": 200,
+   "total_play_mm": 1.0,
+   "start_T_kN": 55.4,
+   "runin_C_matched_kN": 51.7,
+   "peak_kN": 55.4,
+   "util_E": 1.43,
+   "util_F": 1.21
+  }
+ ],
+ "k_max_F_kNmm": 100,
+ "k_max_E_kNmm": 25,
+ "at_k20": {
+  "k_kNmm": 20,
+  "total_play_mm": 1.0,
+  "start_T_kN": 35.3,
+  "runin_C_matched_kN": 26.0,
+  "peak_kN": 35.3,
+  "util_E": 0.91,
+  "util_F": 0.77
+ }
+}

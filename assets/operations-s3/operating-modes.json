@@ -1,0 +1,64 @@
+{
+  "issue": "PF-3S3-OPS-R0",
+  "modes": [
+    {
+      "id": "MD-00",
+      "name": "Unreleased development",
+      "entry_basis": "Current project state: no actual released passenger train. Nonstructural mockups/research only within their specific safe scope.",
+      "prohibition": "No passenger/field operation from this Site.",
+      "approved_for_use": false
+    },
+    {
+      "id": "MD-01",
+      "name": "Out of service / protected work",
+      "entry_basis": "Recorded defect or maintenance; protected track/work area, independent vehicle restraint and energy-specific isolation accepted for task.",
+      "prohibition": "No dispatch; only separately authorized guarded work/test mode.",
+      "approved_for_use": false
+    },
+    {
+      "id": "MD-02",
+      "name": "Secured inspection / charging",
+      "entry_basis": "Actual configured consist restrained, people clear, protected route and approved charge/functional-check procedure.",
+      "prohibition": "No automatic traction permission from charging or static pressure.",
+      "approved_for_use": false
+    },
+    {
+      "id": "MD-03",
+      "name": "Secured boarding",
+      "entry_basis": "At accepted interface, stopped and physically held by accepted parking/holding arrangement; route and passenger area protected.",
+      "prohibition": "No departure with any door/gate/stair/lift unsecured, unclear boarding signal or unresolved fault.",
+      "approved_for_use": false
+    },
+    {
+      "id": "MD-04",
+      "name": "Authorized normal run",
+      "entry_basis": "Accepted route/mode/direction, every-vehicle brake release/reserve/continuity and boarding clear; designated driver and dispatch functions confirm.",
+      "prohibition": "Any credible stop request, readiness loss or route/communication conflict removes dispatch permission under accepted response.",
+      "approved_for_use": false
+    },
+    {
+      "id": "MD-05",
+      "name": "Stopped incident / emergency",
+      "entry_basis": "Accepted stop response invoked; protect route and people, assess whether remaining aboard or evacuation is safer. Verify and maintain accepted holding/restraint for controlled assisted unloading, with actual changing floor/suspension state; urgent fire/smoke escape follows its separate accepted emergency priority.",
+      "prohibition": "No reset-and-go, generic caging/towing or unapproved movement to a station.",
+      "approved_for_use": false
+    },
+    {
+      "id": "MD-06",
+      "name": "Specialist rescue / recovery",
+      "entry_basis": "Separate engineered plan, independent restraint, qualified people/equipment and protected route; actual isolated brakes and vehicle damage recorded.",
+      "prohibition": "No passenger-service permission and no improvised rerailing/lifting/pushing.",
+      "approved_for_use": false
+    },
+    {
+      "id": "MD-07",
+      "name": "Return-to-service hold",
+      "entry_basis": "Repairs/configuration/inspection and required regression complete, actual brakes restored, accountable signoffs and actual readiness rechecked.",
+      "prohibition": "Only specifically accepted configuration may re-enter inspection/boarding/run modes.",
+      "approved_for_use": false
+    }
+  ],
+  "control_mapping": null,
+  "transition_implementation": null,
+  "important": "Functional development modes, not software state code or cab switch positions. Mode labels alone cannot secure a vehicle."
+}

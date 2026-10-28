@@ -1,0 +1,54 @@
+Drivetrain drawings & CAD · Pulsipher Farms
+Previous version · Earlier gearbox drivetrain
+This page is retained as history. Open the current assembly →
+DT2 · Powered locomotive truck · R0
+Drivetrain drawings & CAD
+Open a dimensioned sheet, rotate the actual CAD geometry, or download the editable solid models.
+Preliminary dimensions. Wheel profiles, bearings, suspension joints and drive hardware remain unfinished. The locomotive frame clearance needs revision before this truck will fit.
+Download CAD + drawings4 drawing sheetsRotate 3DIndividual CAD files
+Dimensioned drawings
+DT2-A01 · R0 · mm
+Powered truck arrangement
+Side elevation, axle centres, wheel diameter and support height.
+Enlarge drawingDownload SVG
+DT2-F01 · R0 · mm
+Frame members & cuts
+Hollow sections, cut lengths, crossmembers and spring centres.
+Enlarge drawingDownload SVG
+DT2-W01 · R0 · mm
+Wheel & axle blanks
+Wheel section, shaft steps and nominal dimensions.
+Enlarge drawingDownload SVG
+DT2-M01 · R0 · mm
+Mounts & drive space
+Support datums, spring positions and motor/reducer reservation.
+Enlarge drawingDownload SVG
+Rotate the powered truck
+IsometricSideTopEndFrameWheelsetsReserved component spacesLT1 frame conflict
+Loading CAD geometry…
+Select a part to see its part number and description. Drag to rotate; pinch or scroll to zoom.
+Solid shapes are generated from the STEP geometry. Amber volumes are unselected component reservations. Red volumes show the conflicting LT1 main-frame envelope. This is a truck proposal, not a completed hydraulic transmission.
+CAD files
+ | File
+ | Contents
+ | Download
+ | Powered truck
+ | 16 named solids: hollow frame, plates, wheel and axle blanks.
+ | STEP
+ | Two trucks
+ | Positioned at LT1’s 3,300 / 6,000 mm locomotive datums.
+ | STEP
+ | Frame only
+ | Hollow members and undrilled support plates.
+ | STEP
+ | Plan drawing
+ | Full-size millimetre linework by layer.
+ | DXF
+ | Plate outlines
+ | 400 × 400 top plate / 200 × 180 backing plate; no holes.
+ | P01 DXF · P02 DXF
+ | Parts list
+ | Part numbers, proposed materials and modeled masses.
+ | CSV
+The complete download also contains individual STEP parts and the geometry source. Calculations, fit conflicts and interface records are separate →DT2 R0 · Millimetres · Preliminary design; not for fabrication.
+DrawingClose ✕

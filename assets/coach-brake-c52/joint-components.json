@@ -1,0 +1,79 @@
+{
+  "issue": "C5.2 joint-component development candidates",
+  "status": "CATALOGUE CANDIDATES; NOT A RELEASED JOINT OR PURCHASE LIST",
+  "checked_on": "2026-10-19",
+  "owner": "c3_foundation",
+  "page_parts": [
+    {
+      "part": "Aurora GE20ES-2RS",
+      "name": "Sealed spherical plain bearing, 20 mm bore",
+      "role": "Compact spherical joint in fabricated hanger/link eyes; permits standard short links instead of long threaded rod ends.",
+      "availability": "US distributor page explicitly listed one available and usual 24-hour shipment. Complete-assembly quantity is not confirmed.",
+      "availability_as_of": "2026-10-19",
+      "fit_status": "Candidate: housing fit, axial retention, grease path, spacers, articulation and final joint loads must match CAD.",
+      "source_url": "https://cad.timken.com/en/viewitems/metric-spherical-bearings/es-2rs-spherical-plain-bearings-metric-open-sealed",
+      "availability_source_url": "https://bearingsdirect.com/ge20es-2rs-spherical-plain-bearing-20x35x16mm-sealed-aurora/"
+    },
+    {
+      "part": "JW Winco ISO 7379-20-M16-40",
+      "name": "20 mm shoulder screw used as a retained pivot pin",
+      "role": "Standard hardened shoulder through both clevis shear planes, with M16 nut and suitable inner-ring spacers.",
+      "availability": "Manufacturer catalogue size verified; stock quantity and lead time not verified.",
+      "availability_as_of": "2026-10-19",
+      "fit_status": "Candidate: final grip and clamp stack must avoid bottoming on the shoulder. OEM tightening limit must be obtained.",
+      "source_url": "https://live-catalog.jwwinco.com/pdf/winco/US/7379.pdf?dispositiontype=attachment"
+    }
+  ],
+  "bearings": {
+    "selected_for_development_envelope": "Aurora GE20ES-2RS",
+    "source": "Timken/Aurora manufacturer catalogue table, sealed GE20ES-2RS row",
+    "dimensions_mm": {
+      "bore": 20,
+      "outside_diameter": 35,
+      "inner_ring_width": 16,
+      "outer_ring_width": 12
+    },
+    "catalogue_misalignment_degrees": 9,
+    "catalogue_radial_static_limit_N": 146000,
+    "material": "Heat-treated 52100 steel ball and fractured race, protective coated",
+    "limits": [
+      "The radial static limit is a bearing catalogue value, not an allowable load for the fabricated eye, pin, weld or complete brake.",
+      "No fatigue life follows from this static value.",
+      "Mounting spacers and housing can reduce available articulation below the catalogue angle.",
+      "Combined radial/axial loading, lubrication, contamination and oscillatory wear remain selection checks.",
+      "Supplier listing is evidence of a purchasable catalogue item, not assurance of enough stock for a coach."
+    ]
+  },
+  "pins": {
+    "development_candidate": "ISO 7379-20-M16-40",
+    "manufacturer": "JW Winco",
+    "shoulder_diameter_mm": 20,
+    "diameter_tolerance": "f9, per manufacturer table",
+    "shoulder_length_mm": 40,
+    "shoulder_length_tolerance_mm": [0, 0.25],
+    "thread": "M16",
+    "thread_length_mm": 22,
+    "head_diameter_mm": 30,
+    "head_height_mm": 14,
+    "socket_across_flats_mm": 10,
+    "property_class": "12.9",
+    "finish": "Blackened",
+    "limits": [
+      "Full shoulder must cross both shear planes; threads must not be the bearing surface at either plane.",
+      "Final grip stack must be longer than the actual shoulder, or use an expressly designed non-clamping retention arrangement.",
+      "Inner-ring spacers must contact only the bearing inner ring and preserve articulation.",
+      "The manufacturer warns that shoulder transition bearing areas, rather than property class alone, limit tightening torque.",
+      "Positive retention, corrosion protection, inspection interval and supplier traceability remain to be specified."
+    ]
+  },
+  "not_selected_alternative": {
+    "part": "AST SI20ES female rod end",
+    "source_url": "https://www.astbearings.com/catalog/metric_series_rod_female/SI20ES",
+    "reason": "Catalogue threaded rod ends are an option, but their shank lengths make short two-ended hangers harder to package. Do not mix this manufacturer's ratings with Aurora or SKF ratings.",
+    "dimensions_mm": {"bore": 20, "head_diameter": 53, "inner_width": 16, "housing_width": 13.5},
+    "thread": "M20 x 1.5",
+    "catalogue_misalignment_degrees": 9,
+    "catalogue_dynamic_N": 30000,
+    "catalogue_static_N": 60000
+  }
+}

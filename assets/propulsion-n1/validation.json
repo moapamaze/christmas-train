@@ -1,0 +1,19 @@
+{
+  "date_utc": "2026-10-19",
+  "steady_cases": 162,
+  "launch_cases": 108,
+  "force_speed_cases": 450,
+  "thermal_cases": 27,
+  "max_force_and_power_identity_error_mixed_units": 9.094947017729282e-13,
+  "original_headline_replay": "matched within stated numerical tolerances",
+  "engineering_approval": false,
+  "no_stall_heat_claim": true,
+  "browser_interaction_test": "not run; managed preview previously unavailable",
+  "not_checked": [
+    "OEM maps",
+    "hardware installation",
+    "traction/braking tests",
+    "cooler performance",
+    "safety control implementation"
+  ]
+}

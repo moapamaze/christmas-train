@@ -1,0 +1,76 @@
+{
+  "status": "Conservative component-envelope sensitivity, not accepted concurrent load combination",
+  "collar": "C45_20",
+  "seat_envelope": {
+    "max_abs_F_N": [
+      1715.1422239583335,
+      1176.7736772268686,
+      8109.4356033428085
+    ],
+    "max_abs_M_Nm": [
+      713.2847723886721,
+      813.0734206316093,
+      118.18545642059468
+    ],
+    "rail_end_3_16_fillet_max_MPa": 96.14211831787051,
+    "governing": {
+      "case_index": 126,
+      "seat": "seat2",
+      "end": 1,
+      "k1": 1000000000.0,
+      "k2": 1000000000.0,
+      "F_N": [
+        1715.1422239583335,
+        972.1888417457765,
+        6869.750377300196
+      ],
+      "M_Nm": [
+        713.2847723886721,
+        720.7183349327081,
+        -111.21269795354222
+      ],
+      "weld_3_16_MPa": 96.14211831787051
+    },
+    "case_count": 28512,
+    "weld_nominal_0p6_Fexx_MPa": 289.579794,
+    "weld_ASD_div2_comparison_MPa": 144.789897,
+    "basis": "Full effective flat weldgroup; no directionalstrengthbonus. Load cases are analyst comparisons, not approvedcodecombinations."
+  },
+  "additional_floor_N": 2001.6997268672249,
+  "sidebearer_vertical_N": 30000,
+  "sidebearer_independent_horizontal_components_N": 6000,
+  "sidebearer_pad_envelope_mm": [
+    100,
+    60
+  ],
+  "yaw_deg": [
+    -7,
+    7
+  ],
+  "collar_parent_3_16_end_fillet_MPa": 23.911901007423726,
+  "distributed_parent_wall_equivalent_transfer_MPa": 13.635699478557045,
+  "governing": {
+    "F_N": [
+      4284.8577760416665,
+      4823.226322773131,
+      36107.735876475585
+    ],
+    "M_Nm": [
+      3376.490420051246,
+      -5825.356178365137,
+      166.68041000259083
+    ],
+    "sidebearer_point_from_collar_center_m": [
+      0.10690589898248541,
+      0.04759677589883603,
+      -0.16440000000000005
+    ]
+  },
+  "limitations": [
+    "Independent maxima deliberately combined; does not define operating spectrum",
+    "Rigid collar redistribution assumed; 3/8 face local bending and 1/4 bottom plate bending/contact with C5 track are unresolved",
+    "Parent HSS local stress, chord stress and global body crossmember capacity are unresolved",
+    "Neighbor rail loads and other vehicle loads are not included",
+    "6 mm sidegusset root weld checked separately; its local load introduction into collar face is not covered by this average-transfer screen"
+  ]
+}

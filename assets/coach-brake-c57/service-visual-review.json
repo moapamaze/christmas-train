@@ -1,0 +1,31 @@
+{
+  "revision": "C5.7",
+  "source_brep_sha256": "2193f96be4934a76afc42111220aed170f8184483bfeff3eb8752e06fe5799cb",
+  "visually_reviewed": [
+    "C57-S01.png",
+    "C57-S02.png"
+  ],
+  "result": "C57-S02 visually rechecked after +50mm local air-support relocation and body-gusset fix; no annotation collisions. C57-S01 PNG is byte-identical to already inspected sheet. CAD-view crop intentional inS02C. True upper-stud section and redobstructed/bluecandidate paths distinguish scope.",
+  "assets": {
+    "C57-S01.png": "ccafebcdc52908fc0d6b3bee4d0096b093af9140a6748d800946635369c93b58",
+    "C57-S02.png": "21e0e0c72645fd79ff0c354c075504db5ecd36f667eda5fddb8dcfbace23a453",
+    "C57-S01.svg.gz": "b19a395922052a88b27dffaa9ffb42a1c88fd17c34c409b37a5ecbbc1783ff25",
+    "C57-S02.svg.gz": "49e74b1b5123cafb8af0eae25210843d31ad497d7393b1a56efba1930dae7ff1",
+    "model-chamber-removal.json.gz": "f60a4b83f8b914d7cb051e3aa45afd648cf56f064bb23a517a20a87cd5c0f7a1",
+    "model-parking-release.json.gz": "b73aab0f76b2c5098b5e7b511bf733e8e838e3a64b8cea904772651849b3f766"
+  },
+  "service_model_check": {
+    "nominal_parts": 279,
+    "chamber_removal_parts": 257,
+    "parking_release_parts": 279,
+    "retained_connected_supply_parts": 80,
+    "local_complete_hose_and_nut_removals_verified": true
+  },
+  "browser_verified": false,
+  "dependency_refresh": {
+    "reason": "Geometry contract scope wording corrected after prior issue; BREP and parts unchanged",
+    "contract_sha256": "282223c2c4466ed6f1e27842bc74c79046abe4d7ae5f7f96228fa1938e6bca04",
+    "action": "Actually reran check_service_c57.py and draw_service_c57.py; regenerated report/provenance bind current contract",
+    "previously_visually_reviewed_assets_byte_identical": true
+  }
+}

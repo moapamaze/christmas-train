@@ -1,0 +1,30 @@
+[
+  {
+    "id": "SKF-SP",
+    "publisher": "SKF",
+    "url": "https://www.skf.com/binaries/pub12/Images/0901d19680154a05-06116_1-EN_tcm_12-122020.pdf",
+    "checked": "2026-10-19",
+    "evidence": "Official spherical plain bearing catalog. GE60ES-2RS dimensions60/90/44/36mm, tilt6deg, catalog C245kN/C01220kN. Delivered revision, availability and application acceptance absent."
+  },
+  {
+    "id": "SSAB50",
+    "publisher": "SSAB",
+    "url": "https://www.ssab.com/en-us/brands-and-products/commercial-steel/structural-steel/astm-a572/grade-50",
+    "checked": "2026-10-19",
+    "evidence": "A572Grade50 mill-plate range4.78\u2013102mm; minimum yield50ksi/tensile65ksi. Toughness must be specified when important. No supplier quote or actual plate acceptance."
+  },
+  {
+    "id": "DELLNER-SP",
+    "publisher": "Dellner",
+    "url": "https://www.dellner.com/products/semi-permanent-couplers",
+    "checked": "2026-10-19",
+    "evidence": "Real passenger-rail semi-permanent arrangement comparison; does not validate DB01 or supply an applicable rating."
+  },
+  {
+    "id": "IRWIN-W",
+    "publisher": "Irwin Car",
+    "url": "https://www.irwincar.com/rail-products/couplers/",
+    "checked": "2026-10-19",
+    "evidence": "Industrial Willison35990 /3/4Sharon comparison. Published vehicle-tonnage categories are not coupler tensile/compressive force ratings."
+  }
+]

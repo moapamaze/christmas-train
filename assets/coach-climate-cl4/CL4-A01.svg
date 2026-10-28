@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 650" role="img"><title>CL4-A01: above-door fit comparison</title><desc>The 64.96 inch Cooper and Hunter head exceeds the 47.92 inch finished hood. Bosch 36k fits as a case but fails installation clearance.</desc><style>text{font-family:Arial,sans-serif;fill:#17364a}.title{font-size:28px;font-weight:700}.label{font-size:18px}.small{font-size:15px}.dim{stroke:#17364a;stroke-width:1;marker-start:url(#a);marker-end:url(#a)}</style><defs><marker id="a" markerWidth="6" markerHeight="6" refX="3" refY="3" orient="auto-start-reverse"><path d="M0 0L6 3L0 6Z" fill="#17364a"/></marker></defs><rect width="1200" height="650" fill="#faf8f1"/><text x="35" y="45" class="title">CL4-A01 / One indoor unit above the door</text><text x="35" y="76" class="label">Regular coach · CE1 finished construction · both panels at the same scale</text>
+<text x="300" y="115" text-anchor="middle" class="label">C&amp;H 60k-class ceiling unit</text>
+<rect x="156.24" y="126.24000000000004" width="287.52" height="113.76000000000005" fill="#e8eee8" stroke="#347462" stroke-width="3"/>
+<rect x="204" y="240" width="192" height="120" fill="#edf0ef" stroke="#688592"/>
+<rect x="96.85228346456694" y="126.24000000000004" width="406.2954330708661" height="63.76771653543307" fill="none" stroke="#b55743" stroke-dasharray="7 4" stroke-width="2"/>
+<rect x="105.12" y="134.5077165354331" width="389.76" height="55.5" fill="#f5d9cc" fill-opacity=".9" stroke="#b55743" stroke-width="2"/>
+<text x="300" y="168.2577165354331" text-anchor="middle" class="label">64.96″ case</text>
+<line x1="70" y1="240" x2="530" y2="240" stroke="#17364a" stroke-dasharray="3 4"/>
+<text x="300" y="320" text-anchor="middle" class="label">32″ clear end door</text>
+<text x="300" y="344" text-anchor="middle" class="small">80″ above finished floor</text>
+<line x1="156.24" y1="400" x2="443.76" y2="400" class="dim"/>
+<text x="300" y="427" text-anchor="middle" class="label">47.92″ finished hood width</text>
+<text x="900" y="115" text-anchor="middle" class="label">Bosch 36k wall unit</text>
+<rect x="756.24" y="126.24000000000004" width="287.52" height="113.76000000000005" fill="#e8eee8" stroke="#347462" stroke-width="3"/>
+<rect x="804" y="240" width="192" height="120" fill="#edf0ef" stroke="#688592"/>
+<rect x="736.86" y="126.24000000000004" width="326.28000000000003" height="123.05999999999999" fill="none" stroke="#b55743" stroke-dasharray="7 4" stroke-width="2"/>
+<rect x="765.36" y="161.64000000000004" width="269.28000000000003" height="87.66" fill="#f5d9cc" fill-opacity=".9" stroke="#b55743" stroke-width="2"/>
+<text x="900" y="211.47000000000003" text-anchor="middle" class="label">44.88″ case</text>
+<line x1="670" y1="240" x2="1130" y2="240" stroke="#17364a" stroke-dasharray="3 4"/>
+<text x="900" y="320" text-anchor="middle" class="label">32″ clear end door</text>
+<text x="900" y="344" text-anchor="middle" class="small">80″ above finished floor</text>
+<line x1="756.24" y1="400" x2="1043.76" y2="400" class="dim"/>
+<text x="900" y="427" text-anchor="middle" class="label">47.92″ finished hood width</text>
+<text x="70" y="470" class="label">Body is 17.04″ wider than the pocket.</text><text x="70" y="497" class="small">67.72″ clear width needed with 35 mm side gaps.</text><text x="70" y="524" class="small">26.57″ depth exceeds the 21.42″ pocket.</text><text x="670" y="470" class="label">54.38″ width needed with side clearances.</text><text x="670" y="497" class="small">Usual top gap puts the bottom below the door top.</text><text x="670" y="524" class="small">OEM doorway / vibration restrictions also apply.</text><rect x="70" y="559" width="18" height="18" fill="#e8eee8" stroke="#347462"/><text x="100" y="574" class="small">Existing finished pocket</text><rect x="340" y="559" width="18" height="18" fill="#f5d9cc" stroke="#b55743"/><text x="370" y="574" class="small">Unit body</text><path d="M560 568h35" stroke="#b55743" stroke-dasharray="7 4"/><text x="610" y="574" class="small">Published clearance envelope</text><text x="35" y="622" class="small">25 OCT 2026 PDT · FIT REVIEW ONLY · ADA HOOD NOT PRESENT IN CURRENT MODEL · NO FABRICATION RELEASE</text></svg>

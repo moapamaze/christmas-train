@@ -1,0 +1,44 @@
+{
+  "valid_solids": true,
+  "prototype_mesh_parts": 155,
+  "coach_mesh_parts": 2936,
+  "new_bench_intersections": [],
+  "scope": "New non-hardware solids, including cropped source rails and floor. Thread mating excluded; nominal CAD only. Not a complete tolerance, weld or passenger-envelope test.",
+  "mass_per_bench_kg_by_group": {
+    "hardpoint": 15.710311856678363,
+    "hardware": 2.129728613345353,
+    "frame": 33.293864208315085,
+    "pan": 8.039632916716283
+  },
+  "socket_envelope_hits": [
+    {
+      "foot": 3,
+      "bolt": 2,
+      "side": "upper_6in",
+      "part": "BV1",
+      "in3": 0.2681725202328988
+    },
+    {
+      "foot": 3,
+      "bolt": 4,
+      "side": "upper_6in",
+      "part": "BV1",
+      "in3": 0.26817146672946046
+    },
+    {
+      "foot": 4,
+      "bolt": 1,
+      "side": "upper_6in",
+      "part": "BV2",
+      "in3": 0.26817252024359334
+    },
+    {
+      "foot": 4,
+      "bolt": 3,
+      "side": "upper_6in",
+      "part": "BV2",
+      "in3": 0.2681714667648884
+    }
+  ],
+  "mass_inclusions": "Catalog HSS + CAD plate/nominal hardware; excludes upholstery, finish, sealing boots, small panel hardware and all undeveloped local reinforcements."
+}

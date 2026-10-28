@@ -1,0 +1,58 @@
+[
+  {
+    "local_travel_mm": -40,
+    "side": -1,
+    "rod_offset_x_mm": -118,
+    "stop_gap_mm": 0.0,
+    "positive_volume_mm3": 0.0
+  },
+  {
+    "local_travel_mm": -40,
+    "side": -1,
+    "rod_offset_x_mm": 118,
+    "stop_gap_mm": 0.0,
+    "positive_volume_mm3": 0.0
+  },
+  {
+    "local_travel_mm": -40,
+    "side": 1,
+    "rod_offset_x_mm": -118,
+    "stop_gap_mm": 0.0,
+    "positive_volume_mm3": 0.0
+  },
+  {
+    "local_travel_mm": -40,
+    "side": 1,
+    "rod_offset_x_mm": 118,
+    "stop_gap_mm": 0.0,
+    "positive_volume_mm3": 0.0
+  },
+  {
+    "local_travel_mm": 30,
+    "side": -1,
+    "rod_offset_x_mm": -118,
+    "stop_gap_mm": 0.0,
+    "positive_volume_mm3": 0.0
+  },
+  {
+    "local_travel_mm": 30,
+    "side": -1,
+    "rod_offset_x_mm": 118,
+    "stop_gap_mm": 0.0,
+    "positive_volume_mm3": 0.0
+  },
+  {
+    "local_travel_mm": 30,
+    "side": 1,
+    "rod_offset_x_mm": -118,
+    "stop_gap_mm": 0.0,
+    "positive_volume_mm3": 0.0
+  },
+  {
+    "local_travel_mm": 30,
+    "side": 1,
+    "rod_offset_x_mm": 118,
+    "stop_gap_mm": 0.0,
+    "positive_volume_mm3": 0.0
+  }
+]

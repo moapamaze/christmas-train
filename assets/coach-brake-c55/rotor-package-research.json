@@ -1,0 +1,326 @@
+{
+ "revision": "C5.5",
+ "research_date_utc": "2026-10-20",
+ "scope": "Primary manufacturer evidence for one replaceable PAN17 rotor, exact caliper/pad pairing and the unresolved custom hub interface.",
+ "decision": {
+  "selected_development_rotor": "Webb 55030PK-65",
+  "selection_status": "Conditional catalog envelope only; no fabrication release.",
+  "package_change_recommended": false,
+  "reason": "No investigated alternative provides the missing exact annulus and toleranced mating section. Switching to a 173 mm pilot rotor would add a new hub interface without closing the fit evidence.",
+  "automatic_substitution_permitted": false,
+  "interchange_conclusion": "Do not treat S-33391, CT826, M44D75180, MPBR75180 or DuraBrake 75180 as dimensionally interchangeable in a custom hub merely because catalogs cross-reference them. This rejects an unproved equivalence; it does not prove that manufacturer-approved replacements cannot fit an original OEM hub.",
+  "purchased_component_fit_confirmed": false,
+  "public_drawing_search_closed": true
+ },
+ "webb_current_catalog": {
+  "manufacturer": "Webb Wheel",
+  "part": "55030PK-65",
+  "source_url": "https://cdn.prod.website-files.com/692683b9a358dca80ef39017/69609994c6c39d1d62295d61_SD-131%20Webb%20ADB%20ROTOR%20flyer%20R32.pdf",
+  "source_retrieval_path": "Webb official Sales Literature page, link SD-131-R32. Old webbipad URL is currently 404.",
+  "source_issue": "January 2024, SD-131-R32",
+  "page": 2,
+  "dimensions_in": {
+   "overall_diameter": 12.8,
+   "new_disc_thickness": 1.34,
+   "overall_depth": 5.85,
+   "pilot_diameter": 6.65,
+   "bolt_circle_diameter": 7.71
+  },
+  "bolt_holes": {
+   "quantity": 8,
+   "thread": "M14 x 2"
+  },
+  "mass_lb": 40,
+  "features": [
+   "ABS",
+   "Corrosion protective coating",
+   "Packaged rotor with hardware kit"
+  ],
+  "interchange_listed_by_webb": [
+   "WABCO CT826",
+   "Meritor M44D75180",
+   "DuraBrake 75180"
+  ],
+  "section_quality": "Generic U-shaped rotor diagram shows A\u2013F datums; not an individual toleranced drawing. Annulus inside diameter and mounting flange section are not dimensioned."
+ },
+ "webb_metric_conversions": {
+  "overall_diameter_mm": 325.12,
+  "new_disc_thickness_mm": 34.036,
+  "overall_depth_mm": 148.59,
+  "pilot_diameter_mm": 168.91,
+  "bolt_circle_mm": 195.834,
+  "minimum_disc_thickness_indexed_in": 1.11,
+  "minimum_disc_thickness_converted_mm": 28.194,
+  "note": "Inch-table conversions are descriptive catalog values, not manufacturing tolerances. Minimum thickness is indexed official product evidence; verify the actual rotor marking."
+ },
+ "manufacturer_conflicts": {
+  "webb_2022_pcd_in": 7.72,
+  "webb_2024_pcd_in": 7.71,
+  "difference_mm": 0.254,
+  "webb_pilot_mm": 168.91,
+  "haldex_pilot_mm": 172.97,
+  "meritor_pilot_mm": 173,
+  "hub_fit_inference": "Pilot differences are approximately 4.1 mm in diameter. A custom hub machined to one value cannot be declared a locating fit for the other without the exact mounting drawing.",
+  "s33391_status": "OEM confirms 325 mm rotor and eight mounting bolts; retailer 220 mm/249.5 mm/M16 dimensions and 173 mm/196 mm/M14 dimensions remain conflicting and are excluded from machining authority."
+ },
+ "meritor_single_manufacturer_alternative": {
+  "part": "M44D75180",
+  "status": "Active manufacturer catalog item; not selected.",
+  "dimensions_mm": {
+   "OD": 325,
+   "new_thickness": 34,
+   "discard_thickness": 28,
+   "overall_depth": 149,
+   "pilot": 173,
+   "PCD": 196,
+   "flange_thickness": 13
+  },
+  "holes": "8 \u00d7 M14 \u00d7 2.0",
+  "generic_section_datums": "PB1461 page 57 defines B from the outer flange face to the farther friction face and E across the flange. A nominal 132 mm flange-face to disc-centre distance is 149\u221234/2; this is an interpretation of the generic catalog section, not a toleranced interface release.",
+  "unresolved": [
+   "Exact annulus ID and pad sweep",
+   "Individual mating-face drawing and tolerances",
+   "Rotor bolt thread depth, grip and grade",
+   "Exact 325 mm rotor plus 40175072/73 and selected 232 pad application approval"
+  ],
+  "sources": [
+   "MERITOR",
+   "MERITOR_PB1461"
+  ]
+ },
+ "exact_oem_reference_package": {
+  "rotor": "Hendrickson S-33391",
+  "calipers": [
+   "S-39094-L / WABCO 40175072",
+   "S-39094-R / WABCO 40175073"
+  ],
+  "pads": "S-41159-1, WABCO 232 lining",
+  "chambers": "Legacy S-38724-L/R = WABCO 9253800250/0240, 20/24; force and availability handled in separate chamber research.",
+  "level": "Legacy OEM catalog application pairing established. Webb substitution and custom bracket/hub fit are not established.",
+  "other_exact_pad_option": "WABCO 40175072 published BOM explicitly lists 12999806. This is a separately documented pad option; no assumption that it is identical to S-41159-1 is made.",
+  "sources": [
+   "HENDRICKSON_ROTOR",
+   "HENDRICKSON_CALIPER",
+   "HENDRICKSON_PADS",
+   "WABCO_072",
+   "WABCO_PAD"
+  ]
+ },
+ "controlled_caliper_GA": {
+  "source": "WABCO_GA",
+  "reference_disc_OD_mm": 330,
+  "reference_disc_new_thickness_mm": 34,
+  "reference_disc_new_thickness_tolerance_mm": [
+   -0.2,
+   0
+  ],
+  "reference_disc_wear_limit_mm": 28,
+  "fitting_dimension_disc_mm": 24,
+  "fitting_dimension_disc_tolerance_mm": 1,
+  "fitting_dimension_explanation": "GA callout9 measures from the carrier mounting face to the near friction face. It locates a disc relative to the caliper; it does not provide the rotor hat-to-hub datum.",
+  "assembly_dimension_for_pads_mm": 34.7,
+  "assembly_dimension_tolerance_mm": [
+   0,
+   0.4
+  ],
+  "rubbing_width_approx_mm": 76,
+  "friction_radius_status": "Approximate rubbing width in the 330 mm GA is not an exact S-41159-1 outline or the Webb annulus. No release-quality effective-radius bound or pad overhang claim established.",
+  "mounting_bolts": {
+   "quantity": 6,
+   "thread": "M14 \u00d7 1.5",
+   "grade": "10.9",
+   "condition": "Oiled",
+   "minimum_thread_engagement_mm": 18,
+   "tightening_torque_Nm": [
+    205,
+    225
+   ],
+   "tightening_order": "GA-numbered sequence 1 through 6",
+   "maximum_transferable_brake_torque_Nm": 10000,
+   "limit_interpretation": "Connection transfer limit, not actual brake output and not a safe torque cap during compounded actuation.",
+   "available_tapped_depth_mm": null,
+   "hole_entry_chamfer": null,
+   "caution": "M14\u00d730 through a 12 mm plate gives only 18 mm nominal penetration before tolerances, washers and incomplete threads. This does not prove 18 mm full-thread engagement."
+  }
+ },
+ "availability_observed": [
+  {
+   "part": "Webb 55030PK-65",
+   "seller": "Triple R Truck Parts",
+   "url": "https://triplertruckparts.com/webb-55030pk-65-air-disc-brake-rotor-wabco-pan-17/",
+   "observed_stock": "4 In Stock",
+   "price_usd": null
+  },
+  {
+   "part": "WABCO 40175072",
+   "seller": "Brakes4Trailers",
+   "url": "https://brakes4trailers.com/products/40175072-genuine-wabco-disc-brake-caliper-pan-17",
+   "observed_stock": "In stock",
+   "price_usd": null
+  },
+  {
+   "part": "Hendrickson S-41159-1",
+   "seller": "Country Supply",
+   "url": "https://www.country-supply.com/product/s-41159-1/",
+   "observed_stock": "In stock",
+   "price_usd": null
+  }
+ ],
+ "availability_limits": "Seller stock observed on research date; not reserved, purchased or a guarantee of lead time. Availability establishes a supply route only and does not establish dimensional compatibility.",
+ "supplier_request_ready": {
+  "status": "Draft only. No message sent, form submitted, phone call or order placed.",
+  "primary_contact": {
+   "organisation": "Webb Wheel Engineering",
+   "email": "engineering@webbwheel.com",
+   "phone": "888-857-9677",
+   "source": "WEBB_CONTACT"
+  },
+  "pairing_contact": {
+   "organisation": "ZF / WABCO North America",
+   "specifications_email": "naspecs.zf@zf.com",
+   "technical_email": "nacustomercare.zf@zf.com",
+   "phone": "1-844-732-2493",
+   "source": "WABCO_PAD"
+  },
+  "oem_package_contact": {
+   "organisation": "Hendrickson Trailer Technical Services",
+   "phone": "1-866-743-3247",
+   "source": "HENDRICKSON_CONTACT"
+  },
+  "subject": "Controlled interface drawing and compatibility confirmation: Webb 55030PK-65 with PAN17 40175072/73",
+  "request_items": [
+   "Supply the current revision-controlled 55030PK-65 sectional drawing and STEP model, identifying the actual machined pilot surface, bore tolerance, pilot engagement length, bolt PCD and positional tolerance.",
+   "Resolve the published 6.65 inch pilot versus the 6.81 inch pilot in cross-referenced CT826 replacement products, and the 7.71 versus 7.72 inch PCD in Webb publications. State whether any product revisions or different hub interfaces explain these differences.",
+   "Dimension both friction faces and the rotor centre plane from the hub mating face. Include mounting-flange thickness, internal hat/vent profile, chamfers, fillets, minimum clearances and cold/hot dimensional limits.",
+   "Provide friction annulus inner and outer diameters, usable pad-sweep limits, new and discard thickness tolerances, runout/parallelism limits, allowable temperature and heat-energy limits.",
+   "Identify supplied rotor fastener kit, bolt part numbers, grade, thread length, grip range, minimum full-thread engagement, tightening/lubrication procedure and replacement policy.",
+   "Confirm whether this exact rotor is approved with WABCO 40175072/73 and Hendrickson S-41159-1 (WABCO 232) pads. If so, provide the 325 mm installation section and permitted pad overhang. The public WABCO GA references a 330 mm disc.",
+   "For the caliper supplier: provide exact pad outline/swept radii, new/worn pad stack, carrier tapped-hole depth and entry geometry, plus the permitted service and parking actuator force envelope and brake output curve for this rotor/lining pair.",
+   "State whether use on a custom passenger-coach railway wheelset is within the product application approval; identify required engineering validation. Request current lead time and support status without placing an order."
+  ],
+  "draft_email_body": "Hello Webb Engineering,\n\nWe are assessing one inboard brake on a custom passenger-coach railway wheelset. The design is not released for fabrication. We are considering rotor 55030PK-65 with WABCO PAN17 calipers 40175072/73 and Hendrickson S-41159-1 pads (WABCO 232). Please provide the following information before we release the custom hub or caliper mount:\n\n1. Supply the current revision-controlled 55030PK-65 sectional drawing and STEP model, identifying the actual machined pilot surface, bore tolerance, pilot engagement length, bolt PCD and positional tolerance.\n\n2. Resolve the published 6.65 inch pilot versus the 6.81 inch pilot in cross-referenced CT826 replacement products, and the 7.71 versus 7.72 inch PCD in Webb publications. State whether any product revisions or different hub interfaces explain these differences.\n\n3. Dimension both friction faces and the rotor centre plane from the hub mating face. Include mounting-flange thickness, internal hat/vent profile, chamfers, fillets, minimum clearances and cold/hot dimensional limits.\n\n4. Provide friction annulus inner and outer diameters, usable pad-sweep limits, new and discard thickness tolerances, runout/parallelism limits, allowable temperature and heat-energy limits.\n\n5. Identify supplied rotor fastener kit, bolt part numbers, grade, thread length, grip range, minimum full-thread engagement, tightening/lubrication procedure and replacement policy.\n\n6. Confirm whether this exact rotor is approved with WABCO 40175072/73 and Hendrickson S-41159-1 (WABCO 232) pads. If so, provide the 325 mm installation section and permitted pad overhang. The public WABCO GA references a 330 mm disc.\n\n7. For the caliper supplier: provide exact pad outline/swept radii, new/worn pad stack, carrier tapped-hole depth and entry geometry, plus the permitted service and parking actuator force envelope and brake output curve for this rotor/lining pair.\n\n8. State whether use on a custom passenger-coach railway wheelset is within the product application approval; identify required engineering validation. Request current lead time and support status without placing an order.\n\nPlease identify the applicable drawing revisions and any limitations on this application. This is a technical information request only, not an order.\n\nThank you."
+ },
+ "sources": [
+  {
+   "id": "WEBB_R32",
+   "publisher": "Webb Wheel",
+   "url": "https://cdn.prod.website-files.com/692683b9a358dca80ef39017/69609994c6c39d1d62295d61_SD-131%20Webb%20ADB%20ROTOR%20flyer%20R32.pdf",
+   "document": "SD-131-R32, January 2024, page 2",
+   "evidence": "Exact 55030PK-65 catalog row and generic rotor section. Manufacturer download recovered through its Sales Literature page.",
+   "sha256": "0a8b496f7fefbec2f899669b707359f3a760038df0a27b0d3dc1ba1ca5bbf0ae"
+  },
+  {
+   "id": "WEBB_R6",
+   "publisher": "Webb Wheel",
+   "url": "https://cdn.prod.website-files.com/692683b9a358dca80ef39017/694ebf9edd8aa5e90e93ab88_SD-090%202022%20Webb%20Wheel%20Catalog%20R6.pdf",
+   "document": "SD-090-R6, 2022, printed page 32",
+   "evidence": "Same rotor has 7.72 inch PCD, conflicting with 7.71 inch in R32.",
+   "sha256": "ae075139c5925a91abdcf47e91e2091887592269b2d4eac6be458206555ea131"
+  },
+  {
+   "id": "WEBB_PRODUCT",
+   "publisher": "Webb Wheel",
+   "url": "https://www.webbwheel.com/product-detail?category=rotors&id=88",
+   "evidence": "Official search index identifies minimum thickness 1.11 inches. Direct page uses JavaScript placeholders; inspect purchased rotor marking before adopting discard value."
+  },
+  {
+   "id": "HALDEX",
+   "publisher": "Haldex / Midland",
+   "url": "https://www.haldex.com/globalassets/north-america/documents/air-disc-brakes/l20004.pdf",
+   "document": "Air Disc Brake Reference Guide, printed page 8",
+   "evidence": "MPBR75180 has 172.97 mm pilot and 196.09 mm PCD despite cross-reference to Webb 55030PK-65."
+  },
+  {
+   "id": "HALDEX_FLYER",
+   "publisher": "Haldex / Midland",
+   "url": "https://www.haldex.com/globalassets/north-america/documents/air-disc-brakes/l35001.pdf",
+   "document": "L35001 R6/22",
+   "evidence": "Manufacturer confirms MPBR75180: 12.80 inch OD, 1.34 thickness, 5.85 depth, 6.81 pilot, 7.72 PCD and eight M14-2 holes."
+  },
+  {
+   "id": "DURABRAKE",
+   "publisher": "DuraBrake",
+   "url": "https://www.durabrake.com/wp-content/uploads/2023/10/ADB-Catalog-v1.02-Web.pdf",
+   "document": "ADB Catalog v1.02, printed page 4",
+   "evidence": "75180 publishes 6.81 inch pilot; its manufacturer product page cross-references Webb and CT826."
+  },
+  {
+   "id": "MERITOR",
+   "publisher": "Meritor / Cummins",
+   "url": "https://www.meritorpartsxpress.com/webapp/wcs/stores/servlet/ProductDisplay?catalogId=10001&langId=-1&productId=2059532&storeId=10154&urlLangId=-1&urlRequestType=Base",
+   "evidence": "Exact active M44D75180 product: CT826/PAN17; 173 mm pilot, 196 mm PCD, 149 mm overall depth and 13 mm flange. Metric and fractional inch values are not exact equivalents."
+  },
+  {
+   "id": "MERITOR_PB1461",
+   "publisher": "Meritor",
+   "url": "https://graphicvillage.org/meritor/PB1461.pdf",
+   "document": "PB-1461, June 2023, printed pages 56-57 and 76; PDF pages 58-59 and 78",
+   "evidence": "Manufacturer catalog linked by Daimler PartsCap. Generic U-rotor section gives overall depth B and flange thickness E datums; exact metric M44D75180 row confirms product-page values. No annulus ID or interface tolerances.",
+   "local_intermediate": "/workspace/scratch/29e03dcb9968/c54-research/meritor-pb1461.pdf"
+  },
+  {
+   "id": "HENDRICKSON_ROTOR",
+   "publisher": "Hendrickson",
+   "url": "https://digital.hendrickson-intl.com/view/513311/378/",
+   "evidence": "OEM PAN17 S-33391 cast 325 mm rotor with fasteners. S-35210-6 contains eight replacement rotor bolts. No controlled mounting dimensions."
+  },
+  {
+   "id": "HENDRICKSON_PADS",
+   "publisher": "Hendrickson",
+   "url": "https://digital.hendrickson-intl.com/view/513311/361/",
+   "evidence": "Legacy PAN17 S-41159-1 pad kit associated with WABCO 20/24 chamber. Existing C5.4 research identifies WABCO 232 lining."
+  },
+  {
+   "id": "HENDRICKSON_CALIPER",
+   "publisher": "Hendrickson",
+   "url": "https://digital.hendrickson-intl.com/view/513311/362/",
+   "evidence": "S-39094-L/R correspond to WABCO 40175072/73."
+  },
+  {
+   "id": "WABCO_GA",
+   "publisher": "WABCO / ZF",
+   "url": "https://www.wabco-customercentre.com/catalog/docs/6401750720____053_dascheck_j4_page-1---notset_tif.pdf",
+   "document": "40 175 072, ML1, single-page manufacturer GA",
+   "evidence": "Controlled caliper/carrier and disc-installation datums, hardware requirements and 10000 Nm maximum transferable connection torque. This is not a rotor manufacturing drawing.",
+   "repository_reference": "cad/coach-brake-c54/source-evidence/wabco40175072-GA.pdf"
+  },
+  {
+   "id": "WABCO_072",
+   "publisher": "WABCO / ZF",
+   "url": "https://www.wabco-customercentre.com/catalog/en_US/40175072",
+   "evidence": "Published BOM includes exact pad kit 12999806. Public HTML document list contains the existing GA, service literature and catalogs, but no 3D CAD or rotor part drawing."
+  },
+  {
+   "id": "WABCO_PAD",
+   "publisher": "WABCO / ZF",
+   "url": "https://www.wabco-customercentre.com/catalog/en_US/12999806",
+   "evidence": "Manufacturer replacement for Hendrickson S-36837-1. No individual pad outline or friction radius drawing exposed. Product shipping dimensions are not pad geometry."
+  },
+  {
+   "id": "WABCO_CARRIER",
+   "publisher": "WABCO / ZF",
+   "url": "https://www.wabco-customercentre.com/catalog/docs/1906en0.pdf",
+   "document": "Market Information 1906en0, June 2019, pages 2-3",
+   "evidence": "Exact 40175072/73 use left/right carrier kits 6401750012/6401750022. These kits serve many PAN17 applications, so carrier family alone does not prove rotor compatibility."
+  },
+  {
+   "id": "GIGANT_EXCLUDED",
+   "publisher": "Gigant; test issued by KBA / T\u00dcV S\u00dcD",
+   "url": "https://www.gigant.com/fileadmin/media/documents/pruefprotokolle/scheibenbremse/361_037_08_PAN17-1_3334W_1_1_en.pdf",
+   "evidence": "Different PAN17-1 package uses 335 mm rotor, 186 mm friction-ring ID, Jurid539 and Type24 chamber. Do not transfer these radii, leverage or measured brake factor to the selected package."
+  },
+  {
+   "id": "WEBB_CONTACT",
+   "publisher": "Webb Wheel",
+   "url": "https://www.webbwheel.com/contact-us",
+   "evidence": "Official technical contact: engineering@webbwheel.com; 888-857-9677."
+  },
+  {
+   "id": "HENDRICKSON_CONTACT",
+   "publisher": "Hendrickson",
+   "url": "https://www.hendrickson-intl.com/contact",
+   "evidence": "Trailer Technical Services: 1-866-743-3247."
+  }
+ ],
+ "search_limit": "Manufacturer product pages, published HTML document lists, current and older catalogs, service literature and available drawing links were checked. No exact rotor STEP or individual toleranced rotor section was located. No private endpoints, sign-in sessions, outreach or purchases were used."
+}

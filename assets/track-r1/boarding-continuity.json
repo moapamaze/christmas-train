@@ -1,0 +1,53 @@
+{
+  "issue": "PF-3R1-R0",
+  "reviewed_date": "2026-10-19",
+  "new3Q_phase_complete": false,
+  "new_mockup_geometry": false,
+  "evidence": [
+    {
+      "archive": "assets/files/Christmas_Train_Phase3E_Technical_Source_R0.zip",
+      "member": "phase3e/drawings/Stage3E_Accessible_Mockup_Actual_Inches_R0.dxf",
+      "sha256": "df73fb2c109f634c709f5c3449db57dc0349f792cb6229308fbbd71362ca1c32"
+    },
+    {
+      "archive": "assets/files/Christmas_Train_Phase3E_Technical_Source_R0.zip",
+      "member": "phase3e/source/mockup_layouts.json",
+      "sha256": "4178becdb45b0ed0ef48eca84bc66f0d556fcb58729352278fe240f76db4ded8"
+    },
+    {
+      "archive": "assets/files/Christmas_Train_Phase3E_Technical_Source_R0.zip",
+      "member": "phase3e/forms/Phase3E_Mockup_Device_Record_R0.csv",
+      "sha256": "288382ac8397171479e50f4ef016490b5d160c4a84e6ea2ba861a907d7143631"
+    },
+    {
+      "archive": "assets/files/Christmas_Train_Phase3E_Technical_Source_R0.zip",
+      "member": "phase3e/forms/Phase3E_Mockup_Observation_Form_R0.csv",
+      "sha256": "52347c62e270fcd7c0f72f8a0456d7cc16d214587fb63af4c3082b187af3531b"
+    },
+    {
+      "archive": "assets/files/Christmas_Train_Phase3F_Technical_Source_R0.zip",
+      "member": "phase3f/research/boarding_f.json",
+      "sha256": "ec6be4c6f67ee6442684d2ffb16e29a2a0bbbfe1647293193cbf6658c6a6eb52"
+    },
+    {
+      "archive": "assets/files/Christmas_Train_Phase3F_Technical_Source_R0.zip",
+      "member": "phase3f/research/jurisdiction_f.json",
+      "sha256": "0b1e45a35fb28a56dfec0444e43e4f8cedfa66772dc54f36ee76e9c41ef4357e"
+    },
+    {
+      "archive": "assets/files/Christmas_Train_Phase3F_Technical_Source_R0.zip",
+      "member": "phase3f/research/boarding_f_calc.py",
+      "sha256": "ad4dd6615d950f464edbb1b700438b18c8d20568f8f78529b07959afd6255198"
+    }
+  ],
+  "retained": "3E already contains exact model-inch mockupDXF, companion coordinate tables, device/participant/observation records;3F has stair/lift comparisons, both-bay/exit/power-loss and rescue logic. No same-layout redraw or repeated calculation issued.",
+  "qualification": "Existing accessibleDXF uses sparse general labeling and should be used WITH its coordinate tables, not as a self-contained fabricated body drawing.",
+  "stair_fabrication_gates": [
+    "Accepted empty/loaded/bump/roll floor and actual landing elevations;32in has no accepted load state.",
+    "Actual supported versus hanging stair load path, deployment/stowage, positive locks and controlled manual recovery.",
+    "Actual whole-truck/coupling sweep with guards/hinges, not displayG1geometry.",
+    "Structural loads and fully engineered platform/hinge/guard connections;44in platform and4in gross margins do not size them.",
+    "Responsible accessibility/vehicle classification and accepted stair/guard/egress criteria.7in/11in study benchmarks are not adopted vehicle requirements."
+  ],
+  "actual_physical_tests_performed": false
+}

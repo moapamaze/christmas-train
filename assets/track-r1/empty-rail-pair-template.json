@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "dataset_kind": "rail_pair_asbuilt",
+  "meta": {
+    "dataset_id": null,
+    "units": "m",
+    "coordinate_system": null,
+    "coordinate_distance_basis": "project_ground",
+    "axis_description": null,
+    "vertical_datum": null,
+    "height_type": null,
+    "benchmark_id": null,
+    "stationing_basis": "horizontal_plan_chainage",
+    "station_direction": null,
+    "survey_or_design_author": null,
+    "source_record_reference": null,
+    "record_state": null,
+    "elevation_reference": null,
+    "gauge_measurement_reference": null,
+    "closed_loop_intended": false,
+    "observation_date": null
+  },
+  "rows": [],
+  "row_format": {
+    "id": "unique cross-section label",
+    "station_m": "number; horizontal plan chainage",
+    "left": {
+      "x_m": "number",
+      "y_m": "number",
+      "z_m": "number"
+    },
+    "right": {
+      "x_m": "number",
+      "y_m": "number",
+      "z_m": "number"
+    },
+    "gauge_mm": "separate physical gauge measurement or null; never rail-reference coordinate baseline"
+  }
+}

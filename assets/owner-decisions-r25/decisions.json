@@ -1,0 +1,89 @@
+{
+  "revision": "OWNER-R27",
+  "date": "2026-10-19",
+  "owner_decisions": {
+    "operating_seasons": "Hot fall daytime cooling and Christmas heating, including occupied coaches. Owner did not specify year-round peak-summer operation or an exact design temperature.",
+    "boarding": "Normal boarding AND unloading from the same physical vehicle side at both stations. Outdoor HVAC section on the opposite side. Left/right and route/turnaround topology remain unassigned.",
+    "accessible_seating": "Provide foldable or removable passenger seating in reserved wheelchair bay areas, so the space can carry seated guests when not needed for wheelchair users.",
+    "raised_roof": "Owner permits a raised roof section to accommodate the indoor blower above the end doorway. Exact shape/height and framing remain to be coordinated; preserve doorway and service clearance.",
+    "fabrication_allocation": "More precise work and finish work will be subcontracted, per owner19October2026. Exact subcontractors, processes and assigned farm/Ralph tasks not yet named.",
+    "engineering_workflow": "Codex supports preliminary engineering/design development now. Owner intends to have a qualified engineer review the developed package after the desired design is established."
+  },
+  "working_design": {
+    "regular_coach_fixed_seats": 32,
+    "regular_count_status": "Retained working target; owner questioned changing it. Any proposed change needs a stated fit, comfort, circulation/egress, loading, weight or other demonstrated design reason.",
+    "accessible_base_fixed_seats": 11,
+    "accessible_wheelchair_bays": 2,
+    "convertible_seat_preference": "Custom fold-up passenger bench/seats with positively retained stowed position; removable assemblies remain an alternative requiring positive retention and designated storage.",
+    "assumption": "Interpret owner direction as convertible seating within wheelchair bays. Preserve usable companion seating outside the occupied wheelchair envelope.",
+    "additional_seat_count_each_bay": null
+  },
+  "modes": [
+    {
+      "wheelchair_bays_occupied": 0,
+      "passenger_seats": "11+F1+F2",
+      "wheelchair_spaces": 0,
+      "notes": "Both bay seats deployed; clear aisle and end/side-door approaches remain usable."
+    },
+    {
+      "wheelchair_bays_occupied": 1,
+      "passenger_seats": "11+F_unused_bay",
+      "wheelchair_spaces": 1,
+      "notes": "Occupied bay seat completely stowed/removed and retained. Evaluate either bay separately and the maneuvering path."
+    },
+    {
+      "wheelchair_bays_occupied": 2,
+      "passenger_seats": 11,
+      "wheelchair_spaces": 2,
+      "notes": "Both bay seats stowed/removed and retained; companion positions and boarding/evacuation route maintained."
+    }
+  ],
+  "capacity_rules": [
+    "F1/F2 are unresolved passenger places, not adopted seats. Do not assume two additional seats per wheelchair space.",
+    "The same bay cannot count deployed passenger seats and a wheelchair simultaneously.",
+    "Design/check every mode for circulation, wheelchair maneuvering, companion access, seat loads and attachment/retention; validate actual wheelchair/securement arrangement as applicable.",
+    "Check highest passenger/thermal occupancy AND governing mass/CG mode; wheelchair/device/occupant masses and all carried folding hardware count. Existing accessible14thermal-person allowance may need revision after F1/F2 are determined.",
+    "Crew converts and inspects before boarding; wheelchair access takes priority when required. No loose chairs or removed benches stored in an aisle, doorway, accessible bay or on an unrestrained platform."
+  ],
+  "specific_fabrication_work": [
+    "Dimension each occupied, stowed and intermediate swept envelope from common geometry.",
+    "Resolve hinge, stops, service access, pinch protection and positive latches/retention; custom body/floor reinforcement receives loads without blocking route.",
+    "Define removable-seat joint/fasteners, handling and restraint/storage if alternative retained.",
+    "Specify materials, fits, fasteners/welds and proof/fatigue/inspection criteria from accepted loads and exact mechanism; none sized in this decision record."
+  ],
+  "outdoor_side_integration": "Same physical coach side must meet both station boarding arrangements even after loops/turnarounds/reversing. Normal single-side boarding does not resolve emergency egress, route-side evacuation or eliminate required exits.",
+  "sources": [
+    {
+      "publisher": "US Access Board",
+      "url": "https://www.access-board.gov/ada/chapter/ch10/",
+      "accessed": "2026-10-19",
+      "relevant": "1002.4 addresses ride wheelchair-space/entry/maneuvering/approach and companion seating.",
+      "limit": "Context for review only. Exact attraction/vehicle classification and governing requirements remain unresolved. This section is not cited as explicit approval for a folding-seat mechanism; do not import bus or building dimensions as automatic vehicle requirements."
+    }
+  ],
+  "new_fabrication_geometry": false,
+  "approved_for_fabrication": false,
+  "fabrication_allocation": {
+    "owner_confirmed": "Precision and finish work subcontracted",
+    "precision_examples_to_assign": [
+      "Axle/journal turning, bearing/axlebox bores and specified fits",
+      "Wheel/axle and hub joints requiring controlled specialist processes",
+      "Machined hinge/latch/pivot components where specified"
+    ],
+    "finish_scope": "Finish processes to be scoped by actual body/interior/material choices; no named finisher or capability assumed.",
+    "farm_and_Ralph_scope": "Assign general fabrication/assembly tasks to demonstrated shop capability and released drawings; no welding qualification, tooling or inspection capability inferred from owner outsourcing decision.",
+    "engineer_engagement": "Later review intended; no engineer engagement reported. Absence of engagement is not a prerequisite to preliminary design development.",
+    "not_changed": "Responsible engineering design, controlled component data and actual manufacturing/inspection release requirements remain open."
+  },
+  "preliminary_workflow": {
+    "develop_now": [
+      "Coordinated custom physical geometry and dimensions",
+      "Designer-selected preliminary loads/materials/mechanisms documented with calculations and evidence",
+      "Matched plans/sections/part/BOM and rotatable source",
+      "Clear exact external interface inputs and later review actions"
+    ],
+    "selection_rule": "Make substantiated preliminary project selections rather than leaving every design choice null pending an external engineer. Distinguish designer proposals from verified OEM dimensions/ratings and later professional acceptance.",
+    "still_required": "Do not invent exact delivered component interfaces, supplier ratings, survey or physical test results. Keep genuinely unavailable mating dimensions explicit and work on independent defined parts. Do not mark construction-approved or commissioned.",
+    "next_physical_issue": "Accessible coach convertible wheelchair-bay seat layout and custom folding mechanism development; coordinate occupied/stowed/swept envelopes, route and companion access, proposed structure/mounts and configurations from one source. Assess real geometry before assigning additional places. Continue the whole-truck interface work as controlled evidence allows."
+  }
+}

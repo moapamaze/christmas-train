@@ -1,0 +1,150 @@
+LT32 engineering report · Pulsipher FarmsSkip to contentWhole assemblyLT32 drawingsLT32 engineeringRetained restraint
+ENGINEERING REPORT · LT32
+Combined installation, weight and connection checks
+Review candidate based on both LT31 studies and retained LT30 pivot hardware. This revision reconciles the rear connection, corrects the coupler-force height and identifies the remaining mechanical and supplier interfaces.
+Fabrication remains unreleased. No confirmed Patrick, brake, bumper or absorber specifications have been incorporated. The pivot’s 3.96 mm margin remains conditional. Clear geometric paths do not establish component capacity or hose suitability.
+Weight and balance
+ | Quantity
+ | Previous installation
+ | Combined LT32
+ | Locomotive mass
+ | 16,133.449 kg
+ | 16,418.245 kg
+ | CG X from model datum
+ | 5450.03 mm
+ | 5540.03 mm
+ | CG Z above rail
+ | 1208.27 mm
+ | 1205.20 mm
+ | Coupler load height
+ | 800 mm inherited assumption
+ | 550 mm modeled pin height
+The old 100 kg coupler/drawgear/mount reserve is removed. Explicit rear hardware and nominal locomotive-supported shares add 384.796 kg, a net increase of 284.796 kg. Mount/joint masses use retained solid-volume estimates; line supports, hoses and fittings use declared planning allowances. Shared drawbar, follower and hose masses are allocated 50/50 at the coupling pins. Actual support sharing and measured masses remain open.
+The separate coach attachment register contains 179.719 kg including its shared allocation. This is not a net coach weight increase: removed legacy hitch masses and the complete coach ledger have not been reconciled. Coach axle-load certification is not claimed.
+Updated normal loads and movement
+ | Metric
+ | LT32 result
+ | Cases
+ | 504 / 504 converge within the inherited reduced contact model
+ | Capacity-demand flags
+ | 309 cases; no accepted brake or adhesion capability
+ | Minimum driver wheel load
+ | 3.594 kN
+ | Maximum compression bumper demand
+ | 5.892 kN
+ | Maximum rebound demand
+ | 6.335 kN
+ | Maximum normal traction-link demand
+ | 22.887 kN
+ | Maximum slide displacement
+ | 6.171 mm
+ | Maximum pivot bearing / link angle
+ | 2.625° / 2.782°
+ | Small-angle to finite-pose rebound discrepancy
+ | Minimum exact mapped gap-0.0242 mm; unresolved, not silently corrected
+Six mass envelopes and 168 inherited duty/track combinations are solved on straight and signed 50 m curves. Spring preloads stay at the historical baseline; braking force and torque change with mass. The new solver retains the old 800 mm default for a historical regression check, which reproduces the retained result exactly, then explicitly uses 550 mm for LT32.
+These are quasi-static longitudinal and prescribed lateral-acceleration comparisons, with rigid structures and trial contact laws. They do not solve coupled locomotive/coach suspension, rail yaw reactions or vertical/lateral force components from an inclined drawbar. The separately reported three-dimensional attachment loads are not fed back into these 504 cases. Leading-truck suspension and final supplier components remain outside the solved model.
+Rear attachment demands
+Resultants are transferred to the common rail-attachment reference X10475, Y0, Z1302.4. The pin is X11250, Y0, Z550. Both force signs and 189 prescribed connection poses are evaluated, with nominal new hardware dead weight included. Componentwise maxima below do not occur simultaneously.
+ | Basis
+ | Axial envelope
+ | |Fx| / |Fy| / |Fz|
+ | |Mx| / |My| / |Mz|
+ | retained duty axial envelope
+ | 37.191 kN
+ | 37.19 / 13.51 / 6.10 kN
+ | 10.18 / 30.75 / 10.47 kN·m
+ | legacy unapproved comparison
+ | 200.000 kN
+ | 200.00 / 72.64 / 16.27 kN
+ | 54.67 / 160.89 / 56.30 kN·m
+The 37.191 kN duty envelope is inherited input, not a newly established four-coach train requirement. The 200 kN case remains an unapproved comparison. Nominal average pin double-shear, ear bearing and bar net-section stresses are included in the downloadable package; they are not strength checks. Pin bending, unequal ear sharing, local rail walls, bearing capacity, weld group, fatigue, buckling and the independent secondary connection remain unresolved.
+Rear routing and supports
+Each BP/FP circuit now has a 1050 mm horizontal turning corridor and a 1200 mm vertical corridor, each with 85 mm straight end leads. A separate supported transfer carries the change of bend plane. The yaw-only carrier has a fixed boom, spindle/arm, crossrail and a telescoping spherical-ended drawbar follower reservation. Coach terminal arms attach below the front deck to the crosshead; posts sit inboard of the stair actuator support. Outer guards and fixed-pipe clamps are represented.
+The vertical span also accepts residual change in projected endpoint separation. Live yaw articulation at the body end, plane alignment at the transfer and pitch/roll relief at the coach end are required. These functions are not provided by ordinary assembly swivel nuts. Port heads, guide slot/bearings, clamp attachment, friction, pressure thrust and fatigue are still mechanical interfaces; no selected hardware or pressure-rated assembly is claimed.
+ | Connection probe
+ | Minimum geometric polyline bend radius
+ | Lowest hose-envelope Z
+ | Straight
+ | 75.7 mm
+ | 525.2 mm
+ | 50 m, both directions
+ | 74.7 mm
+ | 524.4 mm
+ | 45 m, both directions
+ | 74.6 mm
+ | 524.3 mm
+ | 30 m, both directions
+ | 70.3 mm
+ | 523.9 mm
+These radii are measured corridor geometry, not an accepted hose minimum. Final OD, length change, minimum radius, fitting clocking, operating pressure, air compatibility, flow, leakage, separation response and dynamic testing remain supplier-dependent. No rail braking standard or approval is inferred from generic hose guidance.
+Parker Technical Handbook, installation pages 22–23 and safety guide supports keeping flexing segments in one plane, preventing twist and allowing access and movement. LT32 uses this as routing guidance only. The retained body-to-bogie compound lines still need redesign or a specifically supported alternative after their actual ports and motion are known.
+Clearance and maintenance evidence
+ | Check
+ | Result and scope
+ | Rear connection
+ | 189 poses: straight and both 50/45/30 m directions, relative heave±50 mm, pitch/roll±2°. No reported step/body, rear flexible-route or new support-to-body intersections in the declared screen.
+ | Rear step
+ | Minimum enclosing-box gap 294.8 mm. Stored coach stair context only; no deployed-stair operating claim.
+ | Rear hose to obstruction
+ | Minimum 12.51 mm across all probes, at 30 m to the fixed guard. Nominal geometry; tolerance and deflection not deducted.
+ | Line separation
+ | BP/FP sampled minimum 636.0 mm. Vertex-to-segment screen; not continuous motion proof.
+ | Retained truck-line corridors
+ | 2520 normal/frozen-angle failure positions, zero screened conflicts; minimum 32.50 mm. This does not qualify compound hoses.
+ | Installation service
+ | Seven continuous gross-envelope movements and ten local tool volumes rechecked with the added rear/coach boxes. All clear within declared removals and exclusions.
+ | Rear service
+ | Two 160 mm pin-lift envelopes, four local cap-tool spaces and two locomotive union-access spaces. See explicit mating-bore/removal exclusions.
+Rear route checking uses line capsules against oriented coach boxes and oriented support cuboids. The initial broad boxes falsely filled space around rotated members; oriented checks resolved those cases. The first trial also exposed poor transfer-port/support placement and the coach actuator region; geometry was revised before the final check. Selected endpoint blocks intentionally enclose their hose leads and are listed exclusions. Fixed elbows, terminal internals, guide internal interference, the complete joint and secondary restraints are not fully qualified.
+Seven maintenance moves retain the LT31 sequence: pump aft 650 then left 1200; cooler forward 300 then up 1600; duct up 10, forward 350, then up 1390. Cooler removal precedes duct removal. Panels, seals, connections and carrier hardware must be released as declared. Local tool space does not establish worker access, lifting, disconnected-hose handling or an approved procedure.
+Pivot and supplier status
+The emergency restraint is unchanged from LT30. Its 3.955 mm conditional margin still uses the archived 6.586 mm movement bound and 3.459 mm tolerance stack. The new normal model does not replace that bound or approve the restraint. The 20 mm absorber stroke is still a requirement; the catch load path and failure dynamics remain open.
+No confirmed supplier ratings have been introduced. The new 5.892 kN bumper demand exceeds the earlier 5.765 kN archived demand and becomes the current normal-demand reference, pending a real force–travel curve and revised contact calculation. Brake, absorber, pump and running-gear attachments retain their supplier and engineer holds.
+ | ID
+ | Interface
+ | Current work
+ | Required to close
+ | RG-01
+ | Running gear / drivetrain
+ | Retained supply boundary and LT30 restraint geometry. No supplier acceptance assumed.
+ | Patrick / running-gear engineer: package masses, pivots, loads, track and failure motion, mounting and maintenance interfaces.
+ | CATCH-01
+ | Emergency truck restraint
+ | 3.955 mm normal margin retained from archived motion bound and LT30 tolerance stack.
+ | Accepted load path through bearing/housing or independent frame restraint; certified absorber and material/fit/weld tolerances.
+ | COUP-01
+ | Rear drawgear and rail connection
+ | Unified geometry, mass and resultant loads at X10475 / Z1302.4.
+ | Actual train loads, multi-axis reactions, local rail walls, pin bending, bearing, welds, fatigue and independent secondary connection.
+ | HOSE-01
+ | Rear BP / FP routing
+ | Separate 1050 mm horizontal and 1200 mm vertical corridors per circuit. Supported transfer, guards and access reservations.
+ | Qualified live swivels, terminal housings, media/pressure/flow/leak/fatigue data, minimum bend radii, separation response and detailed yaw follower.
+ | HOSE-02
+ | Body-to-bogie flexible lines
+ | Rechecked geometric corridors at new mass/poses; compound bends remain unresolved.
+ | Final running-gear ports and segmented single-plane routing or specifically supported alternative.
+ | BRAKE-01
+ | Brakes and circuit
+ | Demand calculations retained; no rating replaced without confirmed data.
+ | Torque/pressure/thermal ratings, attachment reactions, automatic brake response, feed/brake separation and coach connections.
+ | BUMP-01
+ | Suspension bumpers
+ | Updated normal demand now 5.892 kN; exceeds previous archived 5.765 kN.
+ | Confirmed force-travel curve, usable stroke, temperature/rate behavior and mount reactions.
+ | INSTALL-01
+ | Pump / cooling
+ | Revised LT31 carrier and removable duct retained; service paths rechecked.
+ | Actual pump feet, coupling/ports, permissible housing loads, seals, clamps, core cooling performance and attachment details.
+Download review evidence
+LT32 summary
+Reconciled mass ledger and coach attachment register
+1,008 normal truck-interface demand rows
+Three-dimensional rear attachment resultants
+Rear motion / route / support checks
+Installation movement and tool checks
+Rear pin and local fitting access checks
+Retained truck corridor recheck
+Open interface register
+Open the coordinated model and revised sections →LT32 · 22 October 2026 · Engineering review · Fabrication unreleasedEngineering

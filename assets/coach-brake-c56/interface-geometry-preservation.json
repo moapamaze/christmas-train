@@ -1,0 +1,17 @@
+{
+  "scope": "Nonphysical reservations only: serialization differs, exact boolean symmetric difference is zero",
+  "checks": [
+    {
+      "id": "PARKER-THREAD-INTERFACE-PORT97",
+      "old_minus_new_mm3": 0.0,
+      "new_minus_old_mm3": 0.0,
+      "volume_difference_mm3": 0.0
+    },
+    {
+      "id": "PARKER-THREAD-INTERFACE-PORT116",
+      "old_minus_new_mm3": 0.0,
+      "new_minus_old_mm3": 0.0,
+      "volume_difference_mm3": 0.0
+    }
+  ]
+}

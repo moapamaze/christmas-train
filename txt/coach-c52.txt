@@ -1,0 +1,98 @@
+Tread-brake mechanism · C5.2 · Pulsipher Farms
+Previous version · Discarded tread-brake candidate
+This page is retained as history. Open the current assembly →
+C5.4 current brake installation: One right-side air-disc brake with the documented WABCO 20/24 chamber exterior, revised carrier bearings, hub, reaction link and frame connection. Exact rotor mating geometry, maximum actuator output and complete installed motion/service qualification remain open. Legacy chamber availability is unconfirmed. View this brake in the truck · Drawings and parts · Engineering.
+C5.3 current brake direction: Inboard disc-and-caliper development around the separately replaceable Webb 55030PK-65 rotor. Custom hub, axle-following caliper carrier and short articulated frame reaction are shown in CAD. The exact rotor/caliper contact, chamber envelope and maximum output remain unresolved; this is not a fabrication release. Open the disc-brake parts and connections.
+C5.2 · D2 DEVELOPMENT CANDIDATE · 19 OCTOBER 2026
+Tread-brake mechanism
+One axle’s development module, showing the fabricated beam, hangers, articulated heads and support parts around a purchased-actuator candidate. Purchased items are simplified envelopes; several connections remain incomplete.
+Nominal component fit and released suspension clearance fail; do not fabricate. The nominal component audit also records solid intersections between mating parts. At ordinary 40 mm rebound, with no axle roll, lateral shift or beam yaw, the D2 reference shoe intrudes 9.8507 mm into the tread envelope. Combined probes also produce flange interference. These files document a failed development candidate, not a functional brake. No compatible stock friction shoe has been verified. Nominal fit audit · Failed clearance checks · Independent review
+Dimensioned mechanism drawings
+C52-D01One-axle development parts · failed clearanceC52-M01One-axle development parts · failed clearance
+Inspect the actual parts
+A tread brake presses a replaceable shoe against the wheel’s round running surface, the surface that contacts the rail. The shoe must clear the tread when released and must not contact the flange or wheel side. Manufacturer explanation of tread braking.
+Applied
+Loading the issued CAD model…
+Select a part for its source dimensions and material candidate. Hide groups to inspect the one-axle beam, hanger, head and retention details. Purchased components are simplified envelopes; clevis, locator-end and spring interfaces remain incomplete. The orange friction insert is an unselected reference shape.
+Parts sourcing and fit
+A current supplier listing is evidence of what was offered at the recorded time. It does not establish that the complete required quantity is on hand, that mating dimensions are verified, or that the part is qualified for this railway duty.
+ | Part / role
+ | Availability evidence
+ | Fit and selection status
+ | Source
+ | Aurora GE20ES-2RSCompact spherical joint in fabricated hanger/link eyes; permits standard short links instead of long threaded rod ends.
+ | US distributor page explicitly listed one available and usual 24-hour shipment. Complete-assembly quantity is not confirmed.Observed 2026-10-19
+ | Candidate: housing fit, axial retention, grease path, spacers, articulation and final joint loads must match CAD.
+ | Catalogue / OEM
+Availability listing
+ | JW Winco ISO 7379-20-M16-40Standard hardened shoulder through both clevis shear planes, with M16 nut and suitable inner-ring spacers.
+ | Manufacturer catalogue size verified; stock quantity and lead time not verified.Observed 2026-10-19
+ | Candidate: final grip and clamp stack must avoid bottoming on the shoulder. OEM tightening limit must be obtained.
+ | Catalogue / OEM
+ | MGM 3420051 / TR2024Type 20 service / Type 24 spring chamber; one per axle is the development proposal.
+ | OEM: 2-day lead time, minimum 1. Distributor: 8 listed on hand plus 6 in 1–4 days. Seller timestamp says 5:00 a.m. CST without a calendar date.Observed 2026-10-19
+ | Development candidate. OEM page lists M16 × 1.5 mounting studs; the linked brochure/seller list 5/8-11 UNC. Confirm delivered revision, drain orientation, clevis, maintenance clearance and pressure/force qualification.
+ | Catalogue / OEM
+Availability listing
+ | MGM 8292002PCandidate clevis between the chamber rod and guided crosshead; mating geometry is incomplete.
+ | Big Rig World lists the exact assembly with shipment up to 72 hours; quantity is unknown.Observed 2026-10-19
+ | Catalog fork gap and pin size identified. Revision-dependent length, thread engagement, retainer detail and load rating remain open.
+ | Catalogue / OEM
+Availability listing
+ | MGM 8292011P / 8038008P / 8151001XDocumented OEM replacement assembly, spare pin and positive retainer.
+ | Factory catalog identities verified; retailer lists the assembly in stock, with quantity unconfirmed.Observed 2026-10-19
+ | Alternative only. Do not substitute without confirming the supplied dimensions and load suitability.
+ | Catalogue / OEM
+ | HSS 8 × 3 × 1/4 inFabricated moving brake beam section candidate; final grade and mill properties open.
+ | Catalog size verified. Exact listings checked were On Request or Out of Stock; local availability remains unverified.Observed 2026-10-19
+ | Nominal CAD section; use reduced A500 design wall for the gross screen. Corner radii, actual section properties, grade, local connections and fatigue remain open.
+ | Catalogue / OEM
+ | 7090-0080 / V23724-inch tie-inserter shoe
+ | Listed for sale; stock and lead time unverifiedObserved 2026-10-19
+ | Width exceeds nominal current tread by 10.424 mm; 609.6 mm target wheel differs from 600 mm; attachment dimensions absent. Not selected.
+ | Catalogue / OEM
+ | V47224-inch tamper shoe
+ | Listed for sale; stock and lead time unverifiedObserved 2026-10-19
+ | Width exceeds nominal current tread by 4.074 mm before lateral clearance; 609.6 mm wheel specified. Not selected.
+ | Catalogue / OEM
+ | V27124-inch tamper shoe without tabs
+ | Listed for sale; stock and lead time unverifiedObserved 2026-10-19
+ | Same width and wheel-size mismatch; mounting not documented. Not selected.
+ | Catalogue / OEM
+ | WA-24-BS24–28-inch cart shoe
+ | Catalog/quote item; stock and lead time unverifiedObserved 2026-10-19
+ | Width, friction qualification and actual mounting GA missing. Not selected.
+ | Catalogue / OEM
+ | NYAB / Anchor H32, H33, H38Narrower locomotive-shoe leads
+ | Manufacturer catalog; exact stock and lead time unverifiedObserved 2026-10-19
+ | Width alone fits within the nominal 80 mm band, with only 3.8 mm total margin before lateral movement. Contact radius and 600 mm/24-inch wheel application unverified. Not selected.
+ | Catalogue / OEM
+Both released clearance and the stock shoe remain unresolved
+The current nominal wheel diameter is 600 mm, with an 80 mm usable tread band in the unfinished wheel geometry. The identified 24-inch / 609.6 mm commercial shoes are at least 84.074 mm wide where width is documented. That exceeds the available band before lateral clearance is allowed.
+The 70 mm wide reference insert also fails released clearance under combined suspension probes; additional retraction has not resolved the flange interference. The mechanism retains a replaceable head interface, but it needs a different release / tracking solution or a compatible alternative architecture. No shoe trimming, assumed bedding correction or silent wheel change closes these failures. Shoe curvature, width, attachment, friction material and heat duty require supplier confirmation; the inboard-disc alternative remains available if a compatible shoe cannot be secured.
+Connections shown
+The model contains fabricated beam, hanger, head and support parts, with spherical-joint and retention candidates. Remaining nominal intersections mean the mating parts and retention details are not a verified fitted assembly. It is a one-axle module, not a complete connected brake. The MGM clevis and thread engagement, spherical locator end joints, and centering / return springs remain unmodeled or unresolved. Their exact dimensions and the failed released-motion results belong to the drawing and geometry records.
+Wear adjustment and suspension tracking are separate. Nominal joint movement or a zero-intersection check does not establish friction contact, fatigue life or freedom from binding through the full operating envelope.
+Engineering record
+The project retains air service and spring parking. Component availability does not establish the train control circuit, emergency behavior, parking performance or complete braking duty.
+Force paths, maximum actuator output, joint loads, travel, tolerance and thermal limits are collected on the engineering page.
+Open mechanics and calculations
+Editable CAD and part records
+C52-D01 · vector SVG gzipC52-M01 · vector SVG gzipC52 module D2 · STEP gzipReproducible CAD sourcePart schedule · gzip JSONDesign recordGeometry check scopeFailed clearance checks · JSONIndependent review · readable recordConditional linkage closureSolved linkage transform record · gzipJoint component sourcesFriction shoe evidence
+Decompress gzip STEP files before CAD import and gzip SVG files before vector editing. The source units and part metadata govern. Nominal component fit and released suspension clearance fail. Do not fabricate from these development files.Supplier source links
+MGM3420051 / TR2024 current product page
+MGM Form 5019 Rev 5-2018, TR model brochure, currently linked on manufacturer site
+MGM EB24-001 Rev 02, November 2024, S-cam drum and disc actuator service manual
+Manufacturer-authored MGM2007 Master Catalog, distributor-hosted archival copy
+AnythingTruck exact 3420051 stock listing
+ZF WABCO9254550150 Type 12/12 exact assembly drawing
+ZF WABCO9254550150 product catalog
+Haldex GC2024 official active product listing
+Innovative Parts & Solutions
+Innovative Parts & Solutions
+New York Air Brake / Anchor
+https://steeltubeinstitute.org/resources/astm-a 500/
+https://www.aisc.org/globalassets/continuing-education/quiz-handouts/specifying-hss-article.pdf
+https://live-catalog.jwwinco.com/pdf/winco/US/7379.pdf?dispositiontype=attachment
+Steel Mart rectangular tubing sales catalog
+Steel and Pipes 082.308.2502C5.2 · D2 development candidate · Nominal fit and released clearance fail; do not fabricate

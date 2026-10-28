@@ -1,0 +1,317 @@
+{
+ "study": "TW-1",
+ "date": "2026-10-27",
+ "wheel_true_kg": 144.0,
+ "wheel_cad_kg": 331.5,
+ "skin_area_m2": 28.06,
+ "ledger": {
+  "Trucks (2)": [
+   {
+    "item": "Wheels 8 \u00d7 \u00d8600 plate-web (true section)",
+    "kg": 1152.2,
+    "basis": "Rim 50 deep, web 25, hub \u00d8200 (ASSUMED section); CAD solid disc was 331 kg each, true \u2248 144 kg"
+   },
+   {
+    "item": "Axles 4 \u00d7 \u00d8110 \u00d7 1,400",
+    "kg": 417.8,
+    "basis": "CAD"
+   },
+   {
+    "item": "Truck frames, axleboxes, centre plates",
+    "kg": 773.4,
+    "basis": "CAD (C-303 coach truck)"
+   },
+   {
+    "item": "Springs, brake discs, calipers, spring-brake chambers",
+    "kg": 300,
+    "basis": "ASSUMED 150 kg per truck (not modeled)"
+   }
+  ],
+  "Frame + deck": [
+   {
+    "item": "Main rails, crossmembers, bolster boxes",
+    "kg": 867.5,
+    "basis": "CAD rev T1"
+   },
+   {
+    "item": "PF-DB drop boxes and pockets, both ends",
+    "kg": 338.7,
+    "basis": "CAD rev T1"
+   },
+   {
+    "item": "Deck PL10, 4.4 \u00d7 2.6 m",
+    "kg": 898.0,
+    "basis": "CAD rev T1"
+   },
+   {
+    "item": "Outriggers to carry the deck edge and walls (5 \u00d7 C6x8.2 full width)",
+    "kg": 158.6,
+    "basis": "ASSUMED - not in the model (deck overhangs the rails by 600 mm)"
+   }
+  ],
+  "Body": [
+   {
+    "item": "Skin 6 mm steel, 28.1 m\u00b2 (sides, ends, roof)",
+    "kg": 1321.4,
+    "basis": "LT45.1 6 mm skin"
+   },
+   {
+    "item": "Skin posts, roof bows, door frames",
+    "kg": 150,
+    "basis": "ASSUMED"
+   },
+   {
+    "item": "Lining 50 mm mineral wool 100 kg/m\u00b3 + perforated steel liner 0.8 mm + facing",
+    "kg": 274.9,
+    "basis": "ASSUMED densities"
+   },
+   {
+    "item": "Coal-effect cover 3 mm steel, 10.8 m\u00b2 + supports",
+    "kg": 293.4,
+    "basis": "ASSUMED 3 mm formed steel"
+   },
+   {
+    "item": "Doors, hinges, latches, handles, paint",
+    "kg": 100,
+    "basis": "ASSUMED"
+   }
+  ],
+  "Equipment (dry)": [
+   {
+    "item": "AIE V3307 package + radiator + H1P045",
+    "kg": 610.0,
+    "basis": "LT45.1 relocated 959.1 less tanks/cooler"
+   },
+   {
+    "item": "Fuel tank + hydraulic reservoir (empty)",
+    "kg": 90,
+    "basis": "basis.json 40 + 50"
+   },
+   {
+    "item": "Hydraulic oil cooler",
+    "kg": 55,
+    "basis": "basis.json"
+   },
+   {
+    "item": "35 kW generator set",
+    "kg": 900,
+    "basis": "Owner ledger ASSUMED (model not chosen)"
+   },
+   {
+    "item": "Compressor, coach AC panel, batteries",
+    "kg": 160,
+    "basis": "Owner ledger ASSUMED"
+   },
+   {
+    "item": "Mounts, exhaust + shields, ducts, hoses, cabling",
+    "kg": 250,
+    "basis": "ASSUMED - not in owner ledger"
+   }
+  ],
+  "Fuel + fluids": [
+   {
+    "item": "Diesel 150 L",
+    "kg": 126,
+    "basis": "basis.json (0.84 kg/L)"
+   },
+   {
+    "item": "Hydraulic oil in reservoir",
+    "kg": 78.1,
+    "basis": "basis.json"
+   }
+  ]
+ },
+ "groups": {
+  "Trucks (2)": 2643.4,
+  "Frame + deck": 2262.8,
+  "Body": 2139.7,
+  "Equipment (dry)": 2065.0,
+  "Fuel + fluids": 204.1
+ },
+ "baseline_kg": 9315.0,
+ "candidates": [
+  {
+   "id": "S1",
+   "move": "Skin 6 mm \u2192 10 ga (3.4 mm) steel, bolted/plug-welded to posts at 500 mm (riveted-plate look)",
+   "kg": 508,
+   "shop_h": 12,
+   "eng_h": 4,
+   "approv": "Easy - non-structural skin; panel check for wind and oil-canning",
+   "look": "4/5 - posts at 500 + round-head bolts read as riveted tender plate; continuous welding would oil-can (2/5)",
+   "rec": true
+  },
+  {
+   "id": "S2",
+   "move": "Skin 6 mm \u2192 8 ga (4.2 mm) steel (alternative to S1)",
+   "kg": 371,
+   "shop_h": 6,
+   "eng_h": 3,
+   "approv": "Easy",
+   "look": "4.5/5",
+   "rec": false
+  },
+  {
+   "id": "S3",
+   "move": "Skin \u2192 4 mm aluminium 5052 (alternative to S1)",
+   "kg": 1018,
+   "shop_h": 40,
+   "eng_h": 12,
+   "approv": "Harder - poor fire barrier around two diesels and exhaust; galvanic isolation; not CWF's usual material",
+   "look": "4/5",
+   "rec": false
+  },
+  {
+   "id": "D1",
+   "move": "Deck PL10 \u2192 6 mm tread plate on 7 full-width C6 cross-bearers (replaces PL10 + outriggers)",
+   "kg": 296,
+   "shop_h": 10,
+   "eng_h": 3,
+   "approv": "Easy - equipment mounts land on rails and cross-bearers; spill floor stays steel and sealed",
+   "look": "n/a (inside)",
+   "rec": true
+  },
+  {
+   "id": "G1",
+   "move": "Open-skid 35 kW genset (no sound enclosure or base tank) - the insulated tender is the enclosure; target \u2264 650 kg",
+   "kg": 250,
+   "shop_h": 6,
+   "eng_h": 8,
+   "approv": "AWAIT supplier data (mass, cooling air, open-frame rating); fuel from the shared tank",
+   "look": "n/a",
+   "rec": true
+  },
+  {
+   "id": "G2",
+   "move": "Smaller generator (\u224825 kW) by cutting coach heat/cool load",
+   "kg": 200,
+   "shop_h": 0,
+   "eng_h": 6,
+   "approv": "Not recommended - hot-humid case is already 4.7 kW short at 35 kW",
+   "look": "n/a",
+   "rec": false
+  },
+  {
+   "id": "K1",
+   "move": "Coal-effect cover 3 mm \u2192 1.5 mm (16 ga) formed steel, textured coating",
+   "kg": 127,
+   "shop_h": 6,
+   "eng_h": 1,
+   "approv": "Easy - steel stays fire-safe near the exhaust",
+   "look": "5/5 - same shape, black with gold edge trim",
+   "rec": true
+  },
+  {
+   "id": "K2",
+   "move": "Coal-effect cover in fire-retardant FRP (alternative to K1)",
+   "kg": 167,
+   "shop_h": 4,
+   "eng_h": 3,
+   "approv": "OK if FR resin and kept clear of the exhaust outlet",
+   "look": "5/5",
+   "rec": false
+  },
+  {
+   "id": "K3",
+   "move": "Delete the coal-effect cover",
+   "kg": 293,
+   "shop_h": -20,
+   "eng_h": 0,
+   "approv": "Easy",
+   "look": "Loses the owner's look - not recommended",
+   "rec": false
+  },
+  {
+   "id": "B1",
+   "move": "Bolster boxes \u2192 fish-belly PL10 webs (deep only at the centre plate), lightening holes in webs",
+   "kg": 140,
+   "shop_h": 4,
+   "eng_h": 4,
+   "approv": "Easy - centre-plate load \u224844 kN \u00d72 dynamic gives ~12 MPa in the present box; coupler path untouched",
+   "look": "n/a (under frame)",
+   "rec": true
+  },
+  {
+   "id": "L1",
+   "move": "Lining: 64 kg/m\u00b3 mineral wool + 0.8 mm perforated aluminium inner liner (steel liner kept by the exhaust)",
+   "kg": 121,
+   "shop_h": 0,
+   "eng_h": 1,
+   "approv": "Easy - wool stays non-combustible",
+   "look": "n/a (inside)",
+   "rec": true
+  },
+  {
+   "id": "F1",
+   "move": "Run-day fuel: carry 100 L (tank 120 L) instead of 150 L",
+   "kg": 48,
+   "shop_h": 0,
+   "eng_h": 1,
+   "approv": "Easy - est. use \u2248 8.6 L/h both engines (ASSUMED), so 100 L \u2248 11 h",
+   "look": "n/a",
+   "rec": true
+  },
+  {
+   "id": "W1",
+   "move": "Lightening holes in the wheel webs",
+   "kg": 80,
+   "shop_h": 8,
+   "eng_h": 6,
+   "approv": "Harder - wheel fatigue; changes the coach wheel too",
+   "look": "n/a",
+   "rec": false
+  },
+  {
+   "id": "W2",
+   "move": "Tender-only \u00d8460 trucks",
+   "kg": 400,
+   "shop_h": 40,
+   "eng_h": 30,
+   "approv": "Harder - new truck design and approval; loses one-spare-fits-all",
+   "look": "3/5",
+   "rec": false
+  },
+  {
+   "id": "R1",
+   "move": "Lighter main rails / lightening holes in rails or drop boxes",
+   "kg": 60,
+   "shop_h": 0,
+   "eng_h": 10,
+   "approv": "Not worth it - rails carry the 200 kN buff with the 286 mm offset moment + fatigue; holes in HSS add fatigue and corrosion details",
+   "look": "n/a",
+   "rec": false
+  },
+  {
+   "id": "M1",
+   "move": "Move tender equipment to the locomotive",
+   "kg": 0,
+   "shop_h": 0,
+   "eng_h": 0,
+   "approv": "No gain at 2%: train mass is unchanged and the motors, not adhesion, are the limit. Only helps if it replaces dead ballast kg-for-kg",
+   "look": "n/a",
+   "rec": false
+  }
+ ],
+ "recommended": [
+  "S1",
+  "D1",
+  "G1",
+  "K1",
+  "B1",
+  "L1",
+  "F1"
+ ],
+ "save_kg": 1490,
+ "save_noG_kg": 1240,
+ "new_kg": 7825,
+ "new_noG_kg": 8075,
+ "F350": 31.75,
+ "kN_per_t": 0.4002,
+ "limit_t": 9.69,
+ "margin": {
+  "ledger_8160": 0.61,
+  "baseline": 0.15,
+  "package": 0.75,
+  "package_noG": 0.65
+ },
+ "ballast_note": "Each 1 t of loco ballast left out adds 0.40 kN; loco 15.8 t is well above the 11.9 t dry-2% adhesion minimum."
+}

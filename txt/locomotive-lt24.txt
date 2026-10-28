@@ -1,0 +1,192 @@
+LT24 supplier ratings and suspension review · Pulsipher FarmsSkip to contentWhole locomotive · 3DLT24 supplier reviewLT23 truck & drawingsLT23 calculation record
+LT24 · SUPPLIER EVIDENCE & REVISED LOADS · OCTOBER 21, 2026
+Continuous power corrected.
+Brake and bumper ratings still open.
+Tony’s engine package adds a real supplier reference. The OEM continuous rating is lower than the gross rating used for the earlier power comparison. This update reduces the main-drive trial allowance, checks the quoted pump interface, and calculates the consequences of an ineffective bumper.
+35 kW main driveRevised trial cap; 10 kW extra auxiliary reserve
+15.0 kN at 3.5 mphTwo 560 cc motors; 4:1 reduction; efficiencies assumed
+5 mm stop windowActual bumper curve and impact duty remain unqualified
+Attachment dimensions remain unreleased for fabrication. The supplied engine documents are reference data, not acceptance of the installed power unit. No supplier has confirmed the proposed brake capacity. A selected bumper and a verified brake fault response are still required before structural approval.
+Supplier evidenceDrive correctionBrake faultsBumper behaviorLoad tableSupplier questions
+Inspect the retained complete truck and attachment drawings →
+Geometry remains LT23: eight large drivers, four leading wheels and no trailing wheels. This revision changes evidence, trial power limits and calculated demands. The 35 LT23 sampled clearance positions remain the existing geometric record; the quoted engine package and candidate bumpers have not been inserted into CAD.
+What the supplier evidence establishes
+ | Item
+ | Evidence received
+ | Disposition
+ | Kubota power unit
+ | AIE quote and Kubota technical information supplied October 21. Quote identifies V3307-TIE4AB-KEA-1 with SAE B / 13-tooth hydraulic drive.
+ | Quoted package remains a candidate; no JCB model is substituted.
+ | Power rating
+ | Kubota KORD3_25-047, page 12: 55.4 kW gross intermittent, 52.5 kW net intermittent and 45.6 kW net continuous at 2,600 rpm for the 55.4 kW configuration. The net-power note specifies a 430 mm, eight-blade fan and pulley combination.
+ | The quote labels 55.4 kW “NET INT.” This conflicts with the OEM table and needs correction/clarification. The exact installed fan, emissions calibration and available continuous PTO output remain to be confirmed.
+ | Pump shaft
+ | Danfoss H1P045/053 G4: 13 teeth, 180 Nm rated / 222 Nm maximum. G5: 15 teeth, 277 Nm rated / 370 Nm maximum; both use the SAE B main mounting flange.
+ | A matching tooth count or flange does not establish coupling capacity, spline engagement, lubrication, torsional life or control limits.
+ | 560 cc motors
+ | The two-motor / 4:1 arrangement remains the LT23 proposal. No responding supplier has accepted its starting/run efficiencies, order code or installation.
+ | Starting estimate remains conditional. The older four-motor, 376 cc / direct-drive inquiry does not describe the current arrangement.
+ | ZF / Webb brakes
+ | ZF has supplied a route to engineering, not the requested ratings. No Webb engineering response was found.
+ | The 5 kNm locomotive axle target and coach brake performance remain assumptions.
+ | Other brake suppliers
+ | Custom Braking can consider a truck-mounted hydraulic system; Alan Keef offers bogies with air brakes.
+ | Neither reply selects or rates the LT23 brake system. A complete train brake design and exact interfaces are still needed.
+ | Compression bumper
+ | ACE TA37-16 and Miner GBA-4 provide comparison dimensions and catalog energy information.
+ | Neither is selected or qualified for the current 5 mm window; quasi-static and impact curves remain missing.
+Revised drive budget
+The 40 kW main-drive allowance plus 10 kW auxiliaries totals 50 kW, which is 4.4 kW above the OEM’s 45.6 kW continuous reference. Use 35 kW main drive as the next trial, with a 30 kW sensitivity. The retained 10 kW reserve is conservatively additional to the reference fan deduction; the actual accessory schedule must separate fan, charge pump, compressor, alternator and other losses. The remaining 0.6 kW at the 35 kW trial is not an installation margin.
+ | Main-pump trial
+ | Total with extra 10 kW
+ | Margin to OEM reference
+ | Motor differential at 3.5 mph
+ | Rim pull at 3.5 mph
+ | 30 kW
+ | 40.0 kW
+ | +5.6 kW
+ | 148.4 bar
+ | 12.74 kN
+ | 35 kW
+ | 45.0 kW
+ | +0.6 kW
+ | 174.7 bar
+ | 15.00 kN
+ | 40 kW
+ | 50.0 kW
+ | -4.4 kW
+ | 201.1 bar
+ | 17.27 kN
+All three trials require 97.19 L/min and 82.43 motor rpm at 3.5 mph. The 26.71 kN low-speed starting estimate at 350 bar is unchanged only while engine speed, displacement control and power/torque limiting allow that pressure. Pressure at cruising flow is lower. The 35 kW trial must slow as resistance rises; it does not deliver the adverse starting pull at 3.5 mph.
+Quoted 13-tooth interface: a control and coupling decision
+At 2,600 rpm, 35 kW alone corresponds to 128.6 Nm. If the entire 10 kW reserve also passes through that shaft, total demand becomes 165.3 Nm. At 1,500 rpm the same 45 kW would require 286.5 Nm, above both G4 ratings and the engine’s quoted peak torque. Constant power must therefore roll off with engine speed.
+ | Engine speed
+ | 35 kW main torque
+ | 45 kW if all loads share shaft
+ | Main budget at 180 Nm after 10 kW reserve
+ | 1500 rpm
+ | 222.8 Nm
+ | 286.5 Nm
+ | 18.3 kW
+ | 2200 rpm
+ | 151.9 Nm
+ | 195.3 Nm
+ | 31.5 kW
+ | 2600 rpm
+ | 128.5 Nm
+ | 165.3 Nm
+ | 39.0 kW
+A full 45 cc pump at a 360 bar pump differential would require about 286.5 Nm before charge/accessory loads, using an assumed 0.90 mechanical efficiency. The 13-tooth arrangement cannot be accepted for an unrestricted full-stroke command. Ask AIE and Danfoss to qualify either G4 with enforced torque/displacement limits or a revised G5 coupling. A larger spline alone does not supply additional engine power.
+Danfoss torque figures are catalog rated/maximum categories, not a new continuous-duty approval. Shaft, coupling, lubrication, active engagement and torsional duty must be checked as one package. Published OEM cooling data also adds 42.2 kW coolant rejection and 6.0 kW turbo-aftercooler rejection at the specified 55.4 kW / 2,600 rpm reference condition; these are separate from hydraulic heat and require a revised cooling balance.
+Brake demands remain capacity requirements
+The following base-mass, flat-crosslevel cases are recalculated at 3.5 mph. The model still assumes four equally loaded locomotive brake actuators, a 5 kNm target per axle, 5% rotational allowance and equal wheel force. They do not describe purchased or tested brakes.
+ | Demand case
+ | Torque per locomotive axle
+ | Required local adhesion
+ | Trial screen
+ | service
+ | 1.53 kNm
+ | 0.067
+ | Within trial limits; hardware unverified
+ | distributed emergency
+ | 2.14 kNm
+ | 0.092
+ | Within trial limits; hardware unverified
+ | one coach service
+ | 2.79 kNm
+ | 0.120
+ | Within trial limits; hardware unverified
+ | one coach emergency
+ | 3.90 kNm
+ | 0.179
+ | above assumed local adhesion 0.15
+ | all coaches 0.5 demand
+ | 6.34 kNm
+ | 0.338
+ | above assumed local adhesion 0.15; above assumed 5 kNm/axle brake target
+ | all coaches 0.7 demand
+ | 8.88 kNm
+ | 0.563
+ | above assumed local adhesion 0.15; above assumed 5 kNm/axle brake target
+Lower speed does not remove the force shortfall at a specified deceleration. The base all-coach-loss demand at 0.5 m/s² still requires 6.34 kNm per locomotive axle and about 0.338 local adhesion. At 0.7 m/s² it requires 8.88 kNm and about 0.563. The one-coach-loss 0.7 m/s² case also exceeds the 0.15 adhesion comparison. Larger locomotive calipers alone would not remove an adhesion limit.
+The design response is independently available friction braking and local stored energy on every coach, with a verified response to broken supply/control connections, loss of power, reservoir depletion and one coach being isolated. A brake pipe is a system concept; the valve circuit, emergency application and release behavior still need selection and fault testing. Hydrostatic retardation receives no independent safety-brake credit.
+All coach brakes lost: bounded estimates at 3.5 mph
+These calculations lower deceleration until every powered wheel meets the assumed local adhesion value and the unverified 5 kNm axle target. Each row uses the largest distance among three base-mass crosslevels. Detection/build-up delays are assumed coasting intervals. These are hazard-study estimates, not promised stopping distances or route-clearance limits.
+ | Assumed adhesion
+ | Calculated deceleration
+ | No delay
+ | 2 s delay
+ | 4 s delay
+ | 0.05
+ | 0.080 m/s²
+ | 15.3 m
+ | 18.4 m
+ | 21.6 m
+ | 0.10
+ | 0.171 m/s²
+ | 7.2 m
+ | 10.3 m
+ | 13.4 m
+ | 0.15
+ | 0.249 m/s²
+ | 4.9 m
+ | 8.0 m
+ | 11.2 m
+ | 0.20
+ | 0.316 m/s²
+ | 3.9 m
+ | 7.0 m
+ | 10.1 m
+Brake thermal capacity, repeated stops, parking hold and wheel-slide behavior remain unqualified. Any brake-loss response must end in stopping and withdrawal under the accepted operating procedure; none of these rows approves continued passenger operation.
+The bumper needs a selected curve and usable stroke
+LT23 engages the bumper at +25 mm and the steel stop at +30 mm. Its 4 kN/mm linear model would reach 20 kN and store 50 J over that 5 mm interval. Stored elastic energy is not necessarily dissipated energy, and 50 J has not been established as the actual impact requirement.
+ | Comparison candidate
+ | Published reference
+ | Why it does not close the design
+ | ACE TA37-16
+ | 65 J/cycle, 16 mm nominal stroke; 33 mm mounting dimension; up to 48 mm listed diameter. Manual example: 50 J uses 8.8 mm.
+ | The example curves are dynamic, above 0.5 m/s local impact velocity. Static/low-speed loading and unloading curves are supplied on request. Full catalog energy cannot be assigned to 5 mm stroke.
+ | Miner TecsPak GBA-4
+ | 33.3 mm free height; 18.3 mm solid height; 48 mm expanded diameter; 65 J and 8.9 kN listed.
+ | The force/deflection curve must be requested. These values do not establish force or energy at 5 mm.
+ | Current LT23 model
+ | 2 / 4 / 8 kN/mm sensitivities; +25 mm engagement and +30 mm steel stop.
+ | Analysis assumptions only. Product temperature, speed, creep, hysteresis, fatigue and load sharing are not represented.
+Both candidates need roughly 33 mm installation height. Keeping the +25 mm engagement may require a recessed mount or a revised pedestal/striker. Installing a taller part without revising the mounting changes when contact occurs. No stop position or mount is moved in this update.
+Ineffective-bumper sensitivity
+Eighteen additional cases remove bumper force before the +30 mm steel stop, using the 5 mph all-coach-loss 0.7 m/s² demand as a structural sensitivity. The steel-stop reaction now reaches 2.89 kN. Across the new cases the rebound reaction reaches 7.04 kN, slightly above LT23’s 6.93 kN.
+These are equilibrium forces after contact. A rigid stop calculation cannot predict its impact peak. The retained 20 kN stop and 40.91 kN single-rod probes remain review inputs, not proven capacities. Pins, brackets, guides, welds and positive locks retain their candidate dimensions pending actual material, fatigue and dynamic loads.
+Updated load-and-travel table
+306 new cases: 108 reduced-power traction cases, 108 brake demands at 3.5 mph, 18 ineffective-bumper probes and 72 adhesion-limited estimates. All 306 converge with positive modeled wheel loads and no spring-unload flags; 73 engage a restraint or bumper. 156 carry trial capacity flags. These counts are not an acceptance test, and differ in scope from LT23’s 294-case set.
+Mass budgetBaseAll budgetslowhighfront-heavyrear-heavyfuel-emptyLoad groupAll loadsRevised driveBrake demandsIneffective bumperAdhesion-limited estimatesShowAll casesContact eventsCapacity/model flags
+Loading calculations…
+ | Scenario
+ | Rail force kN
+ | Primary travel mm
+ | Bumper / steel / rebound kN
+ | Min wheel kN
+ | Required local μ
+ | Events / limits
+Download all 306 cases as CSV · Full calculation record
+The seven-coordinate quasi-static model, mass budgets and geometric assumptions are inherited from LT23. Regression reproduces the unchanged LT23 reference case. Maximum scaled equilibrium residual is 0.0042 N. Frame flexibility, inclined-link forces, full rail dynamics, transient contact, actual brake control and manufacturing tolerances remain outside this model.
+Later LT25 follow-up: Engine installation and eight sent supplier inquiries are recorded in LT25. This LT24 page retains its original evidence and load cases.
+Supplier questions needed to close the review
+Prepared technical questions for the next supplier exchange. These are requirements to resolve, not confirmations received.
+AIE / Tony — installed engine and hydraulic adapter
+Please reconcile the quote’s 55.4 kW “net intermittent” description with Kubota’s 52.5 kW net intermittent / 45.6 kW net continuous table. Confirm the exact engine calibration, installed fan and continuous PTO rating at 2,600 rpm, including ambient/altitude derating. Identify which accessories the rating includes, package wet mass/CG and cooling duty.
+For the proposed H1P045, confirm the SAE B / 13-tooth adapter and coupling part numbers, engagement, lubrication, rated/peak torque and torsional review. Compare the 15-tooth G5 option. The current trial is 35 kW main drive plus a separate 10 kW reserve; torque limiting must account for falling engine speed and any loads passing through the same shaft.
+Danfoss / Poclain — current two-motor application
+The current proposal is two 560 cc motors, one per powered truck, with 4:1 reduction and 1,450 mm drivers. At 3.5 mph it needs about 97.2 L/min total at 82.4 motor rpm. Please provide exact order codes, low-speed starting/running torque and leakage maps, case/charge requirements, continuous/intermittent pressure-speed limits and approved mounting/shaft loads. Confirm the pump control can limit both power and input torque, including charge and auxiliary load, reversal and stall conditions. Earlier correspondence describing four 376 cc direct-drive motors is superseded.
+Brake system lead / ZF / Webb — rated package and fault response
+Confirm exact rotor, caliper, pad, chamber and control compatibility. Required data include pressure/force versus stroke with tolerances, service/parking force and anti-compounding limits, caliper transfer ratio, friction bounds, axle torque, energy/fade limits and parking duty. Identify the system designer responsible for the locomotive and all four coaches.
+Define supply loss, broken connection, one-coach isolation, depleted local reserve and power-loss responses, application delay and wheel-slide behavior. The 5 kNm locomotive axle figure is a study target. The all-coach-loss demands exceed it and cannot be accepted by assuming more adhesion.
+ACE / Miner — bumper selection and test data
+Provide a candidate’s loading/unloading force–deflection curves through the available 5 mm working compression, including low-speed/held-load behavior, representative impact rates, temperature, creep, repeated cycles and recoverable energy. Confirm free/solid height, lateral expansion, mounting and contact-face requirements.
+Selection also needs local effective mass, vertical impact velocity, parallel load sharing and cycle rate from the suspension dynamics. Train travel speed is not bumper impact speed. Assess whether the 5 mm interval can be qualified or whether engagement and mount geometry must change. Rebound-rod impact remains a separate retention calculation.
+Evidence and review record
+The engine references are supplier-delivered Kubota KORD3_24-130, KORD3_25-047 (March 2025), KORD3_26-107, dimensional drawings and the October 21 AIE package quote. Originals remain in the supplier correspondence; prices and private correspondence are not reproduced here.
+Danfoss H1P045/053 technical information — G4/G5 interfaces and catalog shaft ratings.
+ACE TA37-16 product data · ACE TA operating manual — dynamic example and required selection inputs.
+Miner GBA-4 product data — dimensions and catalog comparison.
+LT23 basis, assumptions and clearance evidence
+Structural review can use the updated demands, but final attachment sizing requires verified drive limits, brake capacity and fault behavior, and selected bumper/retention dynamics. No fabrication or operating release is made.LT24 · Supplier review candidate · No fabrication or operating release

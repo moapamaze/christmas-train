@@ -1,0 +1,62 @@
+LT17 rocker-pin retention · Pulsipher FarmsSkip to contentWhole locomotive · 3DLT17 retention & serviceLT16 suspension drawingsSeparate engineering
+LT17 · SEPARATE ENGINEERING RECORD
+Rocker-pin retention and service checks
+LT17 develops one retained connection on the front powered axle. It does not establish locomotive capacity, fatigue life, permissible speed or minimum radius. The LT16 trial loads and suspension calculations remain applicable with their stated limits.
+Authoritative basis and scope
+Built from the current Site source containing LT16, not the earlier LT15 conversation summary. The front powered axle is X3500, its nominal centre Z725, rocker pins Z865 and axleboxes Y±340 mm. Three powered axles, 36-inch gauge and the 50 m curve target are retained. The earlier four-motor DT5 arrangement is a historical alternative.
+Nominal retention stack
+ | Item
+ | Layout
+ | Unresolved
+ | Pin bearing section
+ | Ø20 ×57 mm smooth grip
+ | Fit, surface finish, hardness, lubrication, fatigue
+ | Integral head
+ | 30 wide ×14 high ×6 thick
+ | Root fillet, bearing area, eccentric axial retention stress
+ | Thread
+ | M16×2 major-diameter envelope; 27 mm long
+ | Root, runout, grade, engagement, tightening method
+ | Washer
+ | Ø28 /17 ×3 mm
+ | Hardness, face pressure and thickness tolerance
+ | Nut
+ | M16; 24 AF; 19 overall; Ø22 crown
+ | Supplier drawing and certificate; Grade 8 candidate only
+ | Cross-hole / split pin
+ | Ø4.5 at X+47.5; 4×28 size reference
+ | Hole stress concentration, slot alignment, bend space and inspection
+ | Rocker thrust washers
+ | Two Ø30 /20.3 ×1.5 mm reservations
+ | Wear material and actual endplay limits
+The nut bears on a washer against the Ø20-to-M16 pin shoulder. It is not intended to draw the cheeks together. Nominal pin float is 57−56=1 mm. Nominal rocker side clearance is 32−28−2(1.5)=1 mm. Neither value is a recommended fit. Required checks are Gmin−Smax>0 and Gmax−Smin≤the engineer-selected maximum, plus the equivalent rocker stack. Thermal growth, wear and lateral service loads must be included.
+The split pin restrains nut rotation; it is not credited as the primary axial retainer. Its wire shape is an installed-space reservation. No preload, torque, cross-hole drilling process, allowable axial force or reuse procedure is released.
+Changes made after checking removal
+The first candidate collided with the original capture toe during pin extraction. The revised toe is 136 mm wide with a 36 mm central exit notch, leaving two 50 mm strips. This retains the earlier 100 mm gross width; it does not prove equal strength because load distribution, overhang, corner stress and impact differ.
+The saddle receives a 50 ×40 mm right-side access window at X+28…+78, extended thrust-washer clearance, and a Ø26 underside exit relief from X−128.5…−28.5. The relief leaves a minimum 3 mm thickness in the original 6 mm deck. The top seating face is retained. Local bending, notch radii, contact stress, load paths and reversing fatigue must be checked before adopting the geometry.
+Verification result
+ | Check
+ | Result
+ | Limit
+ | Changed parts in operating poses
+ | 27 poses; zero positive intersections
+ | Straight / left / right; −25 /0 /+15 mean travel; −2 /0 /+2° roll. Discrete geometry only.
+ | Pin withdrawal sweep
+ | 87 mm translation, both sides; zero positive intersections
+ | Continuous conservative solid sweep at straight/nominal/zero roll; nut, washer and split pin absent.
+ | Saddle exit gap
+ | 3.0 mm nominal
+ | Excludes intended pin-to-bearing contact; no tolerance or deflection allowance established.
+ | Axlebox / guide gap
+ | 5.0 /19.5 mm nominal
+ | Geometry only.
+All LT17 revised/new parts were checked against the assembly and each other. Two inherited welded overlaps between the capture upright and centering bracket were excluded; each was asserted to remain exactly 3,200 mm³. They are common-material connections, not clearance passes. Unchanged LT16 components were not independently re-qualified by this revision. Hydraulic flexible spans were not re-screened.
+The service display separates nut, washer and split pin for identification; those display offsets are not checked service paths. Only the pin translation is continuously swept. Tool insertion, nut/washer/cotter removal, subsequent sideways extraction and support-fixture access remain unverified. Stored spring energy must be removed from this joint by a designed support arrangement before any service method is issued.
+Loads and strength still to settle
+The original LT16 radial pin screen used a 20 kN trial load, 44 mm support spacing and Ø20 mm pin: approximately 280 MPa nominal bending and 285 MPa equivalent stress. These bearing dimensions remain, but the new head, thread and cross-hole introduce additional local checks. The old screen cannot qualify those features. Axial retainer force, pin rotation control, wear and fatigue duty remain unspecified.
+Guide-bushing attachment, rod-to-seat connections, rebound-collar positive locking and bump-stop energy capacity remain open. Actual loaded mass and axle distribution, brake/coupler loads, wheel/rail profiles and route twist are still required. LT17 does not resolve the 50 m wheel/rail force problem or increase the LT16 travel range.
+Source dimensions
+TR Fastenings M16 DIN 935 Grade 8 nut provides a manufacturer candidate. Accu M16 DIN 935 dimensional table supplies the 24 mm AF, 19 mm overall, Ø22 crown and 2 mm pitch package references; its stainless product is not the material selection. Fuller DIN 935 table lists a 4×28 split pin for M16. References checked October 21, 2026. Model slot width is 4.8 mm; actual supplier tolerances govern.
+Evidence and next connection
+Geometry and withdrawal evidence · Inputs and unresolved decisions · Dimensioned drawing.
+Next: develop the guide-bushing attachment and positively retained rebound rods, including access from below. Then reconcile the weakened saddle sections and frame openings with the actual loads. Repeat the suspension at the other powered axles only after that review.LT17 · Development candidate · Not for fabricationWhole locomotive

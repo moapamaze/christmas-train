@@ -1,0 +1,69 @@
+{
+  "issue": "PF-LOCO-LT2-R0",
+  "delivered": [
+    "Physical hollow frame, support pads/doublers and removable skid solids",
+    "Frame station, skid section and custom plate/sleeve drawings",
+    "Selectable rotatable part model and STEP files",
+    "Symmetric vertical support sensitivity and skid mount force estimates"
+  ],
+  "not_delivered": [
+    "Complete suspension springs/dampers/guides/retention",
+    "Wheelsets or gearbox/motor mounts owned by DT",
+    "Coupler/draft load path and full tender chassis",
+    "Final engine isolator and OEM mating holes",
+    "Qualified weld/tolerance/preload schedule",
+    "Fatigue/local-wall/twist/lateral acceptance"
+  ],
+  "connection_schedule": [
+    {
+      "id": "W01",
+      "location": "Crossmember ends to main-rail inner side walls",
+      "proposal": "6mm continuous fillet on accessible perimeter,1mm fit-up gap study",
+      "status": "Unverified candidate; effective weld length, tube corner transitions, fatigue, HSS wall plastification/punching and WPS require calculation/review."
+    },
+    {
+      "id": "W02",
+      "location": "Support crossmembers, rail doublers and underside pads",
+      "proposal": "No universal weld size selected",
+      "status": "Direct support/load path depends on DT reactions, support bearing and retention. Do not substitute W01."
+    },
+    {
+      "id": "W03",
+      "location": "Skid runner/cross-tie and foot plates",
+      "proposal": "6mm accessible fillet candidate",
+      "status": "Engine vibration, reversal, fatigue, thin-wall interaction and complete weld path unverified."
+    },
+    {
+      "id": "W04",
+      "location": "Sleeve to crossmember walls / cap / backing",
+      "proposal": "Retention detail unselected",
+      "status": "No bolt tightening until sleeves are retained, full contact verified and joint approved."
+    }
+  ],
+  "DT_handoff": {
+    "frame_top_z": 1650,
+    "main_rail_centres_y": [
+      -850,
+      850
+    ],
+    "rail_inner_faces_y": [
+      -773.8,
+      773.8
+    ],
+    "rail_bottom_z": 1345.2,
+    "support_x": [
+      1200,
+      3300,
+      6000,
+      8300
+    ],
+    "driven_support_pad_bottom_z": 1326.15,
+    "driven_support_pad_footprint_mm": [
+      600,
+      600
+    ],
+    "holes": "none in support pads; DT2 top plate at1170 leaves156.15mm nominal support-stack reservation; bearing/pivot/retention dimensions required",
+    "service_notes": "Skid removable upward after shell removal; actual lift/rotation, shafts, hoses and CG need OEM coordination"
+  },
+  "construction_approved": false
+}

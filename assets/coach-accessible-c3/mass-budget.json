@@ -1,0 +1,22 @@
+{
+  "issue": "PF-3O2-C3-R0",
+  "metal_mounts_main_hardware_kg_per_seat": 54.05593160109914,
+  "metal_kg_two_seats": 108.11186320219828,
+  "moving_mass_with_placeholder_pad_kg": 13.149250960892617,
+  "moving_CG_deployed_in": [
+    71.5054854343195,
+    -32.00000000000001,
+    48.04398298306847
+  ],
+  "complete_seat_trial_allowance_kg": 65,
+  "two_complete_seat_allowance_kg": 130,
+  "allowances": {
+    "padding_from_CAD_volume_assumed_density_kg": 0.6569548352812506,
+    "covers_and_retention_allowance_kg": 1.2,
+    "finish_allowance_kg": 0.8,
+    "small_fasteners_and_isolation_allowance_kg": 0.65,
+    "two_floor_closeouts_allowance_kg": 0.4
+  },
+  "unassigned_kg_for_welds_guard_retention_reinforcement_variation": 7.23711356361961,
+  "limits": "Nominal solids and explicit allowances, not measured mass. Physical fixed accessible seats, rail-end reinforcement, complete accessible body, securement and mobility devices require a whole-coach reconciliation. Both folding seats remain aboard in all modes."
+}

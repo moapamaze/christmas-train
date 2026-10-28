@@ -1,0 +1,121 @@
+Drivetrain engineering · Pulsipher Farms
+
+Previous version · Earlier drivetrain calculations
+This page is retained as history. Open the current assembly →
+DT1 · Scope & connections · 19 October 2026
+Drivetrain engineering
+DT2 drawings and CAD are now on the drivetrain drawing page. The DT1 single-motor baseline below is retained history. DT2 adopts the LT1 two-truck / two-motor arrangement for preliminary packaging only; exact circuit and hardware remain unresolved.
+The complete path from diesel power to the rails: hydraulics, reduction gears, powered wheelsets, suspension interfaces and their connections to the locomotive frame.
+This workstream owns the drivetrain. Separate workstreams own the locomotive/tender and passenger cars. This page records the owner's split and the connections to coordinate; it does not claim the other chats have reviewed or accepted them. No new fabrication geometry is issued in DT1.
+Work splitHow it connectsRecovered basisShared interfacesDrawing package
+DT2 design notes
+DT2 uses LT1’s 1,000 mm driving wheels, 1,200 mm truck wheelbase and truck pivots at global X=3,300 and 6,000 mm. It proposes hollow steel frame members, an undrilled top support plate and wheel/axle blanks. STEP parts and the viewer derive from the same CAD solids.
+Fit conflict found: the LT1 main-frame beams occupy Y=770–930 mm and Z=850–1,130 mm on either side. The DT2 sideframe reaches Y=780 mm and Z=950–1,150 mm, producing a 10 mm lateral overlap at the side members and a 50 mm overlap at the spring backing plates at straight ahead. Rotation increases the required clearance. The locomotive frame/bolster interface must change before this truck can be fitted; no accepted frame height, pivot, sidebearer or fastener pattern is established.
+Frame screening: a 5,000 kg truck load allocation, 2× vertical trial multiplier and an ideal 1,200 mm side-beam span produce approximately 63.8 MPa nominal bending stress. This is a preliminary member screen, not a connection, fatigue or vehicle stability analysis. The model contains about 329 kg of frame members/plates and 1,787 kg total modeled steel per truck. Wheels dominate that mass; lightweight wheel development and an updated full locomotive mass ledger are required. Motors, bearings, springs, brakes, guards and joints are excluded.
+Wheelset limits: 1,000 mm wheel blanks have a 100 mm rim width, 25 mm web and 220 mm diameter hub. The 120 mm central axle and 100 mm end blanks are proposed starting geometry. Flanges/tread profile, back-to-back, rail compatibility, press fits, axle transitions/fillets, material and heat treatment are unfinished. The CAD must not be used as a wheel-machining release.
+Hydraulic interface: DT2 follows LT1’s two H1B110 motor packaging proposal, one per truck at nominal 7.5:1 total reduction. This preserves the inherited 7.50 mph equal-flow calculation with 1,000 mm wheels. Flow division, low-loop pressure, branch overspeed, motor controls, shaft reactions, charge/flush/cooling and brakes remain open; two motors do not increase available diesel power. No hose or pressure-setting schedule is issued here.
+Calculation record · Common CAD dimensions · LT1/DT2 coordination
+One responsibility for each assembly
+ | Drivetrain — this chat
+ | Diesel-to-pump matching and coupling; hydraulic circuit, controls and cooling budget; traction motor; supported reduction/distributor; axle drive; powered wheels, axles, bearings, axleboxes and their suspension interfaces; torque reaction, mounts, guards and connection loads.
+ | Locomotive and tender — separate chat
+ | Overall Polar Express appearance, chassis arrangement and main frame, packaging, cab/body/tender, fuel/exhaust and installed equipment integration. Receives drivetrain envelope, hardpoints, loads, travel and cooling needs; coordinates engine/generator packaging.
+ | Passenger cars — separate chat
+ | Coach frame/body/interior and coach trucks/brakes. Supplies current loaded mass/CG, drawbar demand, brake trainline and electrical/HVAC demand. No coach geometry is revised here.
+Power and structural loads follow different paths
+The single-motor concept remains the development lead from 3N.2. The physical axle arrangement must fit the locomotive design; this diagram description does not select a bogie count or wheelbase.
+Power path
+Diesel flywheel → torsionally matched coupling → H1P pump.
+Closed-loop A/B lines → H1B hydraulic motor.
+Motor coupling → separately supported reduction and distributor.
+Movement-compatible shafts/joints → axle final drives.
+Axles → driven wheels → wheel/rail traction.
+Support and reaction path
+Engine/pump cradle transfers weight and reaction into main-frame hardpoints.
+Motor/reducer support carries gear reactions without assuming the motor shaft can carry unsupported side loads.
+Axleboxes and suspension carry vehicle loads while permitting defined wheelset movement.
+Nonrotating axle gearcases react torque through articulated links into the selected frame.
+Traction and braking loads reach the main frame and drawbar through defined guides/supports.
+Each support must have one defined reference: main frame, bogie frame or axle assembly. A shaft or torque link must accommodate the actual relative motion instead of accidentally locking the suspension. Dimensions will come from the common locomotive datum and the chosen mechanism.
+Use the latest work already completed
+Candidate power chainKubota + DanfossV3307-CR-TI-E5 / H1P045 / H1B110. Exact delivered configurations remain open.
+Inherited wheel / ratio trials600 mm / 9:1About 7.50 mph in the inherited calculation. Neither is a finalized mechanical selection.
+Upper train mass study65,100 kgReconcile with current coach, locomotive and tender masses before freezing performance.
+The original matching workbook has already been audited in 3N.1. 3N.2 compares motor arrangements, and 3N.3 retains diesel-electric and mechanical alternatives. These remain preserved.
+ | Issue
+ | Working treatment
+ | Pull and wheel loading
+ | Inherited 300-bar, constant-efficiency proxy: 13.47 kN pull and 4,041.5 N·m combined wheel torque. It needs 9.16 tonnes on powered wheels at assumed adhesion 0.15, or 13.74 tonnes at 0.10. These are sensitivity calculations, not measured rail adhesion or guaranteed launch performance.
+ | Engine power
+ | Kubota lists 55.4 kW at 2,600 rpm as gross intermittent output. Installed continuous power remains unresolved. Full flow and the 300-bar launch point cannot be combined at that power budget.
+ | Shared generator demand
+ | Owner direction is to evaluate generation from the propulsion engine first. The inherited 10 kW traction-auxiliary allowance excludes coach HVAC/hotel demand. A combined shaft-power budget must precede the engine-size decision.
+ | Appearance and real wheels
+ | Locomotive work uses Polar Express visual proportions. Its large visible driving wheels may conflict with the inherited 600 mm traction-wheel trial. Resolve actual powered-wheel diameter, cosmetics and turning geometry together; do not silently scale the old gearing.
+ | Independent brakes
+ | Retain air service and spring parking. Hydrostatic retardation is not the sole stop/hold system. The locomotive brake arrangement is separate from the current thirty-two coach-chamber study.
+Shared connection register
+Each row names the information to exchange and the drawing or calculation it controls. All are open for engineering reconciliation. A published register is not an acknowledgment from another chat.
+ | Interface
+ | Information needed
+ | Drivetrain return / current status
+ | DT-01
+Common locomotive geometry
+ | Locomotive → drivetrain
+Common rail-top/centerline/front datum; frame rail spacing/depth; powered axle count and spacing; real versus cosmetic driving wheels; curve envelope; allowed service zones.
+ | Proposed powered-wheel geometry, mechanism envelope and mount coordinates in same datum.
+Open; axle arrangement not established in recovered source.
+ | DT-02
+Frame attachments and reactions
+ | Drivetrain → locomotive
+Engine/pump cradle, motor/reduction support, axlebox/spring/guide supports and torque reaction interfaces.
+ | Hardpoint table with XYZ, force/moment cases, movement constraints, bolt/weld/material proposals and service removal paths. Main-frame owner checks local reinforcement.
+Open; no hole patterns released.
+ | DT-03
+Wheelsets and suspension movement
+ | Drivetrain ↔ locomotive
+Powered wheel profile/diameter, axle/journal and bearing seats; vertical/lateral travel, roll/yaw, wheel unloading, stops and retention.
+ | Wheelset, axlebox, spring and articulated-drive assemblies; full-travel interference and load-path checks.
+600 mm is inherited matching trial only; no coach wheel dimensions substituted.
+ | DT-04
+Consist mass and pull
+ | Passenger cars + locomotive → drivetrain
+Each car/tender/locomotive tare, payload, CG and axle loads; mass changes from latest body/seats/HVAC.
+ | Start/cruise/curve/acceleration envelope, adhesive load requirement and power budget.
+65,100 kg retained upper study, not certified capacity; latest mass reconciliation pending.
+ | DT-05
+Hydraulics and thermal installation
+ | Drivetrain → locomotive
+Loop A/B, charge/flush/case drain circuits, service access, cooler air and reservoir zones, hose swept envelopes.
+ | P&ID, port/order-code register, hose schedule and pressure-drop/thermal calculations; mount and clearance drawings.
+Candidate H1P045/H1B110; exact order codes, port variants and cooler unselected.
+ | DT-06
+Brakes and control permission
+ | Drivetrain ↔ locomotive + passenger cars
+Independent air service and spring parking; separate locomotive brake package; trainline air volume/timing and brake proof/fault signals.
+ | Traction inhibit, neutral/reverse and independent speed sensing interface; wheel brake attachment and reaction envelope coordinated with brake designer.
+Coach 32-chamber study is not a locomotive chamber count.
+ | DT-07
+Shared diesel / hotel power
+ | Passenger cars + locomotive ↔ drivetrain
+HVAC continuous/start loads, generator shaft demand and efficiency, charging/fans/compressor demand, accepted net continuous engine curve.
+ | One combined time-dependent power budget and engine-to-pump/generator coupling arrangement.
+Evaluate shared engine first. Existing 10 kW traction auxiliary allowance excludes coach hotel power.
+ | DT-08
+Coupling and drawbar load path
+ | Drivetrain ↔ locomotive + passenger cars
+Hitch datum, articulation and traction/braking/shock load cases from current coupling work.
+ | Maximum drive-generated pull and reverse reactions into locomotive frame; interface with tender and first coach.
+No drawbar length, pin, coupler or frame geometry changed.
+Next physical issue: DT2
+Develop the powered-axle arrangement and supported mechanical drive around the locomotive frame and appearance. The intended package contains labeled plan/elevation/sections, wheelset and bearing details, reduction and shaft arrangements, frame hardpoints, torque links, hose/cooler routing, parts lists and a matching rotatable model.
+Every dimension will identify whether it is a preliminary design choice or controlled supplier geometry. Part drawings will include materials, fits, fasteners, welds and inspection requirements as those interfaces are developed. Qualified review follows design development; fabrication approval is not implied.
+Coordination record and sources
+Before editing, each workstream should read the newest Site source and DT1 interface register. Preserve others' geometry and issue history. Record a changed mass, wheel size, hardpoint or power demand with its source revision and affected interfaces.
+Inherited pull / adhesion calculation
+3N.2 mechanical support and motor decision record
+Existing N-G01–N-G07 requirements
+Kubota V3307 data · checked 19 October 2026
+Danfoss H1P045/053 data · June 2025 issue checked 19 October 2026
+Danfoss H1B technical information · current returned document is October 2025 / 1303; independent braking and shaft loads, p.30.
+Recovered from Site version 41 / PROGRAM-R30. No coach or locomotive body geometry changed. Direct cross-chat messaging is unavailable in this session; coordination is through these shared records.DT1 R0 · Preliminary drivetrain integration · No fabrication or passenger-operation release.

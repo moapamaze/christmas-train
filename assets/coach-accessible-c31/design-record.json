@@ -1,0 +1,189 @@
+{
+  "revision": "PF-3O2-C31-R0",
+  "status": "PRELIMINARY DETAIL DEVELOPMENT \u2014 NOT FOR FABRICATION",
+  "completed_scope": [
+    "Custom integral-collar sliding pins with guided travel, internal parking grooves, physically fastened endcaps and direct far-tip witness markings.",
+    "Actual manufacturer GN1024 spring-cotter solids at lock and hinge shafts; lock cotters physically park on fixed studs during motion.",
+    "Front U-handholds, attached cheek covers, stand-offs and fasteners, rear sheet clamps, internal threaded backers and a 12 in constant-length rear curtain family.",
+    "Tether anchor tabs, parked-cotter studs, open-top routing saddles and closed slotted slack trays with attached lids; prescribed cable routes in each explicit state.",
+    "Revised two-foot foundation, gussets and nominal weld preparation/bead envelopes; eight unique underframe collars, 12 revised rail-fit envelopes and full-depth flush steel floor transitions.",
+    "Three explicit nominal solids/mesh states; 19 complete folding samples; 19 pin withdrawal/turn samples; 16 socket envelope checks; source-driven drawing sheets; compressed STEP handoff."
+  ],
+  "unfinished": [
+    "The complete assembly has a 19-angle sampled interference check, not a continuous swept-volume proof. Only the circular sector arc has the stated analytic post-clearance bound.",
+    "Installed elastic spring-cotter envelope and retention proof; cable and rear-curtain flexibility, snag/vibration behavior and complete physical finger-probe protection tests.",
+    "Supplier-defined cable loop/swage manufacture and strength. Rounded cable CAD is a prescribed clearance envelope, not a wire-rope bending simulation.",
+    "Pin, clevis and bushing finished fits; tolerance stacks, corrosion/wear, lubrication and material/heat-treatment certification.",
+    "Weld procedure/penetration, fatigue/proof loads, guide/endcap screw process, bolt torque-tension qualification and inspection procedures.",
+    "Seat/back upholstery production retention, finished edge radii/coatings/fire performance and crew/glove/reach mockup.",
+    "Full coach/truck integration, all service/dynamic loads and jurisdiction-specific engineering approval."
+  ],
+  "checks": {
+    "valid_seat_shapes": true,
+    "valid_foundation_shapes": true,
+    "seat_part_count": 225,
+    "sample_count": 19,
+    "static_unintended_count": 0,
+    "parked_hardware_unintended_count": 0,
+    "sweep_unintended_count": 0,
+    "pin_motion_sample_count": 19,
+    "pin_motion_unintended_count": 0,
+    "socket_sample_count": 16,
+    "socket_unintended_count": 0,
+    "minimum_socket_gap_in": 0.1149999999999997,
+    "expected_elastic_contacts": "Each OEM cotter/own-shaft and cable termination pair is enumerated explicitly; these do not establish an installed elastic envelope.",
+    "details": "verification.json",
+    "independent_reviews": {
+      "primary": "c31-primary-independent-review.json",
+      "foundation": "foundation-independent-audit.json",
+      "sector_radius_in": 1.7,
+      "sector_post_minimum_sampled_gap_in": 0.06800112866672746,
+      "sector_arc_continuous_square_post_clearance_bound_in": 0.050000000000000044,
+      "bound_scope": "Circular sector arc only; tang, other rigid parts and flexible components are not covered by this analytic bound.",
+      "foundation_nominal_bounds_checks": 80,
+      "pin_capture": "Independent geometric probes show no nominal interference at engaged, withdrawn or parked positions; +/-0.01 in travel produces collar interference at retaining shoulders. This is not a strength test."
+    }
+  },
+  "mass": {
+    "prototype_physical_kg_excluding_padding": 60.26415623148737,
+    "moving_mass_including_padding_kg": 13.913724051614125,
+    "moving_cg_deployed_in": [
+      71.4951945831246,
+      -32.000000000000014,
+      48.01759836148545
+    ],
+    "included": "Nominal metals/hardware/curtain/cable/welds; actual coatings, upholstery retention and final certified hardware may differ",
+    "collar_and_floor_global_kg": 36.413686859350776,
+    "basis_allowance_per_seat_kg": 90,
+    "prototype_physical_kg_including_padding": 60.91688627683112,
+    "modeled_padding_kg": 0.6527300453437507,
+    "allocated_global_reinforcement_per_seat_kg": [
+      22.063235173466705,
+      14.371037935034071
+    ],
+    "prototype_plus_allocated_reinforcement_kg": [
+      82.98012145029783,
+      75.28792421186519
+    ],
+    "remaining_to_90kg_per_seat_kg": [
+      7.019878549702174,
+      14.712075788134808
+    ],
+    "allocation_note": "Includes modeled padding and allocated collar, floor transition, weld and seal mass once. Existing underframe mass is context; final upholstery hardware, coatings and procurement tolerances are not fully modeled."
+  },
+  "sourcepaths": [
+    "build_c31.py",
+    "mechanism_geometry.py",
+    "foundation_geometry.py",
+    "foundation_detail_cad.py",
+    "rear_guard_geometry.py",
+    "verify_export.py",
+    "finalize_records.py",
+    "parameters.json",
+    "mechanism-parameters.json",
+    "foundation-geometry.json",
+    "sources/GN1024-NI-3-E.step",
+    "sources/GN1024-NI-4-E.step",
+    "../coach-accessible-c3/build_c3.py",
+    "../models3d/frame-J1a.json"
+  ],
+  "models": {
+    "deployed": "model-deployed.json.gz",
+    "mid": "model-mid.json.gz",
+    "stowed": "model-stowed.json.gz",
+    "global_foundation": "foundation-model.json.gz"
+  },
+  "composition": "Hide the prototype context/floor inspection groups when combining two translated seat instances with the single global foundation model. Count global collar geometry once.",
+  "drawings": [
+    {
+      "id": "C31-M01",
+      "filename": "C31-M01.svg",
+      "png": "C31-M01.png",
+      "title": "Captive pin, retained hinge and operating grip"
+    },
+    {
+      "id": "C31-G01",
+      "filename": "C31-G01.svg",
+      "png": "C31-G01.png",
+      "title": "Attached guards, rear curtain and tether routing"
+    },
+    {
+      "id": "C31-F01",
+      "filename": "C31-F01.svg",
+      "png": "C31-F01.png",
+      "title": "Seat hardpoints, rail collars and flush floor transitions"
+    }
+  ],
+  "profiles": [
+    {
+      "part_id": "H1-GUARD1",
+      "filename": "H1-GUARD1-profile.dxf",
+      "units": "inches",
+      "source": "Exact mid-thickness solid section; curves remain analytic where exported",
+      "status": "Nominal prototype profile, not kerf/fit/tolerance/toolpath release"
+    },
+    {
+      "part_id": "H1-GUARD2",
+      "filename": "H1-GUARD2-profile.dxf",
+      "units": "inches",
+      "source": "Exact mid-thickness solid section; curves remain analytic where exported",
+      "status": "Nominal prototype profile, not kerf/fit/tolerance/toolpath release"
+    },
+    {
+      "part_id": "F1-CAP",
+      "filename": "F1-CAP-profile.dxf",
+      "units": "inches",
+      "source": "Exact mid-thickness solid section; curves remain analytic where exported",
+      "status": "Nominal prototype profile, not kerf/fit/tolerance/toolpath release"
+    },
+    {
+      "part_id": "F1-SOLE",
+      "filename": "F1-SOLE-profile.dxf",
+      "units": "inches",
+      "source": "Exact mid-thickness solid section; curves remain analytic where exported",
+      "status": "Nominal prototype profile, not kerf/fit/tolerance/toolpath release"
+    },
+    {
+      "part_id": "F1-UP-RIB",
+      "filename": "F1-UP-RIB-profile.dxf",
+      "units": "inches",
+      "source": "Exact mid-thickness solid section; curves remain analytic where exported",
+      "status": "Nominal prototype profile, not kerf/fit/tolerance/toolpath release"
+    },
+    {
+      "part_id": "GRIP1-ARM1",
+      "filename": "GRIP1-ARM1-profile.dxf",
+      "units": "inches",
+      "source": "Exact mid-thickness solid section; curves remain analytic where exported",
+      "status": "Nominal prototype profile, not kerf/fit/tolerance/toolpath release"
+    },
+    {
+      "part_id": "MOV-SECTOR1",
+      "filename": "MOV-SECTOR1-profile.dxf",
+      "units": "inches",
+      "source": "Exact mid-thickness solid section; curves remain analytic where exported",
+      "status": "Nominal prototype profile, not kerf/fit/tolerance/toolpath release"
+    },
+    {
+      "part_id": "FG-FIXED-CLAMP",
+      "filename": "FG-FIXED-CLAMP-profile.dxf",
+      "units": "inches",
+      "source": "Exact mid-thickness solid section; curves remain analytic where exported",
+      "status": "Nominal prototype profile, not kerf/fit/tolerance/toolpath release"
+    },
+    {
+      "part_id": "FG-MOV-CLAMP",
+      "filename": "FG-MOV-CLAMP-profile.dxf",
+      "units": "inches",
+      "source": "Exact mid-thickness solid section; curves remain analytic where exported",
+      "status": "Nominal prototype profile, not kerf/fit/tolerance/toolpath release"
+    }
+  ],
+  "downloads": [
+    "C31-fold-seat-0-R0.step.gz",
+    "C31-fold-seat-90-R0.step.gz",
+    "C31-foundation-R0.step.gz"
+  ],
+  "manufacturing_coordinates": "STEP millimetres. Meshes, CAD parameters, drawing records and DXF profiles inches.",
+  "provenance": "geometry-source-manifest.json; manufacturer evidence retained separately in c31-mechanism-source-manifest.json."
+}

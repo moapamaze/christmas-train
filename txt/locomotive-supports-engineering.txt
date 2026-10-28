@@ -1,0 +1,168 @@
+LT3 engineering & handoff · Pulsipher Farms
+Previous version · Earlier support calculations
+This page is retained as history. Open the current assembly →LT3 drawings & modelsLT3 engineering & handoffLT2 frame recordDrivetrain
+LT3 / ENGINEERING RECORD / OCTOBER 19, 2026
+Loads, travel
+and interfaces to close.
+These checks support a development layout. They do not establish fatigue life, derailment restraint, braking performance or safe passenger operation.
+Use frame-top Z1,775 for continued design.Production height is conditional on complete joints, actual drivetrain envelopes, mass/CG, stability, access and route clearance.
+DT3 received during publication — current interface. Its1,400 mm wheelbase and spring stations±700 mm replace the earlier1,200/±600 proposal in the integrated model. Pivots and top plateZ1,170 remain unchanged, so the 1,775 mm frame height stays the development baseline. Known DT3 hardware plus this connection is already about2542 kg per truck before remaining suspension/brakes/guards. Spring rates and gross mass are not settled. Reconciliation record ↗
+01 / Shared drivetrain handoff
+DT3’s two-motor /1,000 mm wheel /7.5:1 packaging basis is preserved. This is a published interface return, with no direct delivery or acknowledgment from the other chat claimed.
+LT3 → DT interface sheet ↗
+ | Interface
+ | Proposal
+ | Required return
+ | Support stack
+ | DT top 1170; body pad 1451.15; pivot1335
+ | 4×Ø22 on300-square grid. DT drilling/backing not accepted.
+ | Heave
+ | Primary springs between axleboxes and truck; no secondary heave spring
+ | Truck/body move together. Do not add40 mm body-to-truck heave to this joint.
+ | Primary seats
+ | LocalX±700,Y±730;305 mm installed space
+ | Axlebox guides, seats, motion ratios, solid height and retention.
+ | Travel
+ | Working bump35 / rebound30 mm
+ | Jounce starts40; hard bump50 / rebound40 trial. Keep springs seated; independently retain wheelsets.
+ | Dampers
+ | Four per truck;1:1 trial;≥100 mm stroke
+ | Mount coordinates, compressed/extended lengths, force–velocity and heat data. Not unqualified travel stops.
+ | Catch beams
+ | LocalX±450;Z1070–1170;HSS100×100×6
+ | Accept gearbox/shaft clearance and anchor/local frame joints.
+ | Articulation
+ | Yaw±8°,roll±2°,pitch±2° study
+ | Actual curves, twist, hoses, torque paths, stops and full sweep.
+ | Other running gear
+ | LeadX1200;trail8300;tender11400/14000
+ | Real frames, load split and compact retained supports remain unresolved.
+New coachC3 source was recovered and preserved. Layout count is 109 passengers excluding crew:3×32 regular plus 13 accessible. Both folding seats stay aboard with 130 kg total trial allowance. Whole accessible-car tare and mobility-device masses remain unresolved; no train-mass reduction is credited.
+02 / Primary springs and dampers — DT3 return
+The earlier169/177N/mm targets used the old2,200 kg truck allowance and are superseded for purchasing. DT3 changes wheelbase to1,400 mm and spring X to±700. Its mass proxy is 2,263.4 kg before LT3 connection hardware and remaining suspension/brakes/guards.
+ | Truck
+ | Supported mass trial
+ | Rate / spring
+ | Equivalent damper / unit
+ | 1
+ | 3784.6 kg
+ | 185.6N/mm
+ | 6.63 kN·s/m
+ | 2
+ | 3952.4 kg
+ | 193.8N/mm
+ | 6.92 kN·s/m
+These are mass-floor sensitivities, not final spring targets: retain the earlier body reactions only for comparison; subtract the 1,460.95 kg DT3 wheels/axles from known truck mass; treat remaining truck mass as sprung. Actual axle-mounted housings/gears, missing hardware and new body mass positions must be split before the final solution. Every100 kg moved from sprung to unsprung changes the per-spring rate by4.90N/mm at 50 mm static compression.
+m = R_body/g + known_truck_mass − known_wheel_axle_mass\nk_each = m × g / (4 × 50 mm)\nc_each = 2ζ√(4k ×1000 ×m)/4; ζ=0.25\nAt unit/wheel motion ratio r: k_unit=k_vertical/r²; c_unit=c_vertical/r².
+Four springs/dampers per truck;50 mm static compression;355free/305installed trial;≥100 mm damper stroke. Working bump35/rebound30; hard bump50/rebound40. DT3 screened shafts only through±40 mm vertical motion: the 50 mm bump endpoint is not yet checked. Extend the DT shaft/gearbox/hose test before approving stops.
+Side supports retain6 mm gap,600N/mm initial target and≥22 mm usable compression requirement. Rubber curves, creep, cap guidance and roll stability are unresolved.
+03 / Joint-load screens
+Per-centre trial:70 kN vertical,25 kN resultant horizontal. Designer assumptions, not an adopted standard or complete normal/fault load combinations. LT2 support-loss cases with dynamic loading can exceed this envelope.
+ | Check
+ | Nominal result
+ | Required engineering
+ | Pitch pinØ70
+ | 70 kN central point /260 mm span:135.1 MPa bending;9.09 MPa double shear
+ | Contact, combined stress, fretting, fatigue, shoulders and keeper details.
+ | Yaw pinØ100
+ | 25 kN at 145 mm:36.9 MPa bending
+ | Base fixation incomplete; fillet, sleeve reaction, cap and bolt group.
+ | Thrust washer OD280/ID180
+ | 1.94 MPa at 70 kN
+ | PV, lubrication, friction torque, edge loading and wear.
+ | Radial sleeve100×60
+ | 4.17 MPa at 25 kN
+ | Clearance, contact distribution and wear duty.
+ | SKF GE70 candidate
+ | 4 bearings per truck; catalog dimensions recorded
+ | Housing shoulders/covers, fits, oscillation duty and application review. Catalog rating ≠ joint capacity.
+ | One M24 catch
+ | 43.15 kN =2×2200 kg×g;353mm² →122.2 MPa
+ | Head/window bending, eccentricity, anchors, threads, locking and fault impact. No lift rating.
+Material candidates: A 572 Grade50 plate, A 500 GradeC HSS,42CrMo4+QT pins andC93200 bronze. No fit tolerance, weld size/WPS, torque or allowable stress is released.
+04 / Fit and clearance
+225 sampled yaw/roll/pitch combinations check selected bounding surfaces and projected footprints. This is not full swept-solid collision analysis or a continuum-minimum proof.
+ | Screen
+ | Nominal result
+ | body adapter to fork vertical mm
+ | 4.58 mm
+ | body pendant to yaw cap vertical mm
+ | 6.36 mm
+ | ring to yaw cap vertical mm
+ | 5.45 mm
+ | catch window X margin mm
+ | 13.81 mm
+ | catch window Y margin mm
+ | 9.71 mm
+ | catch head vertical gap mm
+ | 8.67 mm
+ | side shoe X overlap margin mm
+ | 51.21 mm
+ | side shoe Y overlap margin mm
+ | 42.75 mm
+ | Maximum side-cap edge compression
+ | 19.70 mm
+ | Powerpack corner radial shell gap
+ | 109.00 mm
+The 4.58 mm minimum central gap must absorb tolerances, wear and deflection. The initial160×140 cap demanded20.69 mm compression; the revised120×120 cap demands19.70 mm. The 20 mm initial elastomer reservation therefore has only0.30 mm spare and is not accepted. Require at least22 mm usable compression including a provisional2 mm allowance, or revise the support.
+DT3 nominal physical-part bounding boxes do not overlap the new support parts. Three hose-corridor bounding boxes were candidates; exact solid checks found no intersection and 159 mm minimum nominal separation from the forward catch beam. Full movement and hose flex remain unaccepted.
+Missing covers/retainers, driveshafts, gears, hoses, primary guides, deformation, leading/trailing gear, ladder, tender and couplers require full movement checks. Raised mass needs new CG, stability and wheel-unloading analysis.
+A 2700 mm body-pivot spacing at 8° yaw gives a circular chord radius near 9.7m. This does not establish wheel/flange forces or permissible track radius for the 1200 mm truck wheelbase. It is not a track specification.
+Fit results ↗ · Fit script ↗
+05 / Mass and buy/make decisions
+ | Ledger
+ | Nominal result
+ | LT2 frame/skid, raised
+ | 2461.8 kg
+ | New body connections
+ | 529.6 kg
+ | New truck connection including4 bearings, each
+ | 278.9 kg
+ | Excess over old2200 kg truck allowance
+ | 342.4 kg each
+ | Cab/shell/access steel
+ | 1084.2 kg / old1100 kg allowance
+ | Unallocated body balance after connections
+ | 408.6 kg
+12t locomotive gross is not revalidated. DT3 plus LT3 is already above the old truck allowance before remaining suspension, brakes and guards. Holding the earlier6,750 kg body and 850 kg other-gear trials gives approximately12,685 kg locomotive mass before those omissions; this is not an accepted gross rating. The cab/body allowance is almost consumed before glazing, doors, ribs, chimney, controls and fasteners. Revise the mass ledger and support reactions before fixing spring rates or adhesive weight.
+ | Buy / make
+ | Candidate
+ | Cost / alternative
+ | Buy8 bearings
+ | SKF GE70 ES-2RS
+ | Quote required; alternate metric spherical family after fit/load review.
+ | Buy4 side elements
+ | Application-engineered bearer element;100×100×80 reservation
+ | No matched order code or price. Compare compact spring-loaded side bearer.
+ | Buy8 dampers
+ | ZF rail family enquiry
+ | No selected code/price. Supplier must validate installation and force–velocity/temperature duty.
+ | Buy8 springs
+ | DT3 mass sensitivity only;355free/305installed trial
+ | Custom quote after actual mass and solid-height qualification.
+ | Buy machined pins; fabricate housings
+ | Certified QT pin stock; machined bores/thrust faces
+ | Machine-shop quotation. Compare purchased engineered swivel/bolster assembly for mass, height and serviceability.
+ | Fabricate plates/HSS/shell
+ | Individual definitions and STEP shapes supplied
+ | Material/labor prices unquoted. Complete joints before obtaining fabrication quotes.
+Mass allocation ↗ · Calculations ↗
+06 / Assembly, inspection and release
+Close interfaces: real masses/CGs, normal/fault loads, spring/damper installation, drive routing, articulation and complete primary-retention details.
+Engineer the joints: fits, finishes, fillets, WPS, distortion/NDT, fastener preload/locking and inspection limits. Qualified rail/mechanical review of load paths, fatigue, stability and truck retention is required before construction release.
+Fixture and machine: survey body/truck datums; machine seats after the approved weld/stress-relief process; trial-fit bearings/spacers without forced alignment. Confirm lubrication and extraction access.
+Install centre and side supports: independently support the body. Set released endplays/gaps; install guided caps and positive keepers. No shell or loose pin serves as temporary body support.
+Fit catches: sleeves, lower plates, studs, body windows and heads. Apply approved locking. Gauge full free movement; catches must not carry normal weight.
+Fixture tests: accepted combined articulation and primary travel, hoses, edge contacts, spring seating and each retention path. Engineer-defined static/fault proof tests with no occupants, followed by inspection.
+Weigh and commission: individual wheel loads, ride heights, operating fluids and crew; controlled track-twist, curving, braking and stop tests under an approved plan. Acceptance loads/limits remain to be specified.
+Tools: surveyed fixture, rated hoists/body stands, bore/alignment gauges, calibrated tension equipment, spring/damper rig, wheel scales and qualified weld/NDT inspection. No lift capacity is assigned.
+Maintenance: shell bays expose the engine. Support joints are serviced from below with the body independently supported. Pin extraction, bearing-cover access, grease routes and visible catch/side-pad wear must be retained. Final suppliers establish maintenance intervals and wear limits.
+07 / Sources and revision record
+Based on d35b91e, reconciled with 0f68968 containing coachC3. DT2, C2.1/C3 and shared program source files are preserved. LT3 supersedes only its frame/body development height; earlier3400 mm overall clearance is not valid for this option.
+S1 · SKF spherical plain bearing catalogue — GE70 ES-2RS: d70,D105,B49,C40; tilt6°; C315 kN,C0 1560 kN,mass1.55 kg. Ratings do not qualify the joint. Four per powered truck.
+S2 · Trelleborg bearer springs — Application route only; no element matching the proposed envelope/rate selected.
+S3 · ZF rail dampers — Primary damper family enquiry. Installation dimensions and force–velocity curves required; no order code selected.
+S4 · Ovako 42CrMo4 — Candidate QT pin stock; actual size, heat treatment, toughness and certificate govern.
+S5 · Concast C93200 — Candidate bronze stock; pressure screen does not establish PV or wear life.
+S6 · Wabtec side-bearing systems — Commercial-assembly comparison only. Full-size hardware is not selected or scaled by assumption.
+CAD, numerical and file verification ↗. Rendered drawings are inspected separately from engineering acceptance. Interactive browser verification remains unavailable because the managed preview environment could not mount its required process filesystem. No interactive browser test is claimed.PF–LOCO–LT3–R0 · October 19, 2026 · Development issue. Construction release remains open.

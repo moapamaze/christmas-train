@@ -1,0 +1,38 @@
+Locomotive LT1 · Calculations & evidence
+Previous version · Earlier overall layout calculations
+This page is retained as history. Open the current assembly →Latest LT2 frame / DT2 integration← Locomotive & tenderRecovered drivetrain studiesAir-brake architecture
+PF-LOCO-LT1-R0 · 19 OCTOBER 2026
+Design basis &
+the numbers behind it.
+Preliminary analytical screening. No measured duty, supplier application acceptance or professional fabrication release is represented.
+Recovery & changed decisions
+The existing public technical site was recovered at source commit e7b1ff0, with PROGRAM-R30 and DT1, coach C1/C2 and N1–N3 propulsion work. Earlier PDFs and the original Danfoss workbook remain unchanged. The owner’s current locomotive/tender request creates this separate workstream.
+Recovery record · Complete proposed basis
+Hydrostatic rematch
+The old workbook used one 110 cc motor, 600 mm wheels and 9:1 reduction. LT1 tests two 110 cc motors sharing pump flow, each driving 1,000 mm wheels at 7.5:1. The ratios reproduce the old ideal force/speed result while moving the motors onto separate swiveling trucks. DT1 retains one motor as its development lead; this LT1 two-motor alternative has not been reconciled with that workstream. Circuit losses and load-sharing faults still require engineering.
+The 55.4 kW Kubota figure is gross intermittent, not installed continuous power. Maximum pump flow and 300 bar launch pressure exceed that power budget when combined. Cooler selection must include charge, flushing, valves, lines and ambient conditions; the main-loop heat figure alone is not cooler sizing.
+Motor minimum displacement must not be used casually to increase speed. A one-branch full-flow screen reaches approximately 4,800 rpm at 22 cc; exact order-code and speed/displacement limits, independent speed sensing, engine power control and reverse/retarding protection remain unresolved. A generic divider is not a selected solution.
+Shared-engine generation budget
+Using the inherited 65,100 kg / 2 kN extra-drag cruise case, traction plus auxiliaries needs 35.05 kW at the engine. With an illustrative 90% generator efficiency, 10 kW electrical hotel demand raises shaft demand to 46.16 kW; 20 kW raises it to 57.27 kW, above the 55.4 kW gross intermittent figure. These electrical loads are sensitivities, not measured coach loads. At launch, generator demand reduces available pump displacement and acceleration. The engine decision needs the current mini-split demand and an accepted continuous power curve.
+DT2 is the current drivetrain issue and now uses the two-motor packaging basis. LT1 supplies equipment space and frame integration; it does not select the final motor or generator architecture.
+Mass and resistance sensitivity
+54,755 kg and 65,100 kg are recovered train studies. The 67,500 kg case adds 3 × (1,040 − 240) kg for the new regular-coach seat allowance. This is only a sensitivity: existing growth budgets may already absorb part of the increase. It is not an approved new train mass.
+Running resistance coefficient 0.005; starting coefficient 0.01; additional drag is an illustrative allowance, not a measured curve/wind model. Zero grade in every case. Acceleration assumes 10,000 kg on powered wheels, 300 bar available at low speed, and the inherited constant efficiencies.
+Proposed mass split: locomotive 12,000 kg, tender 2,500 kg, within the old 14,500 kg locomotive/hotel allocation. Of the locomotive total, 10,000 kg is targeted on powered wheels, 600 kg on the leading axle and 1,400 kg on the trailing truck. These are allocation targets, not a proven center of gravity or a ballast instruction. The newer LT2 study develops four-support stiffness sensitivities and incorporates heavier DT2 running-gear allowances; it remains provisional.
+Curve screening
+The table compares a 1.2 m rigid truck wheelbase with a 3.9 m rigid span across all four proposed drivers. Mid-ordinate is the geometric distance between a chord and the curve. It is not a prescription for axle sideplay or proof against flange climb. The two powered trucks are 2.7 m apart.
+The articulated layout is the development lead. A literal rigid 2-8-4 remains an appearance alternative requiring a validated wheelset/profile and lateral-motion solution. A final minimum radius needs the site alignment and a complete model of wheel/rail contact, lead/trailer movement, body ends, guards, couplings and the separate coach envelopes.
+Tender changes the train interface
+The separate tender makes this a six-vehicle train: locomotive, tender and four passenger cars. It needs its own service/emergency/parking response and introduces an additional coupling and separation location. Carry the existing automatic brake-pipe and separate charging-main development through the tender; prove that both resulting portions stop at every split.
+Keep hotel power separate from traction power. The latest owner direction is to evaluate hotel generation from the propulsion diesel first, with the inherited 120/240 V, 60 Hz electrical architecture still provisional. The tender generator bay is only a fallback reservation; no second diesel is selected. Generator output, full unit mass, grounding, protection, cables and connector ratings await the current coach load schedule.
+No final brake valves, reservoir capacity, compressor duty, mounting bolts, weld sizes, hoses or electrical pinouts are selected here. These depend on matched hardware and accepted duty/fault cases.
+Next physical design packages
+LT2: load ledger, suspension geometry and main-frame load path; reconcile support reactions and coach/tender mass.
+LT3: powered-truck mechanical layout, motor/gearcase supports, bearings, shafts and full suspension travel.
+LT4: matched brake and traction-control installation, reserve/heat budgets and failure-response verification plan.
+LT5: engine bay, tender generator/fuel installation, cab and removable exterior panels; coordinate maintenance and hot zones.
+LT6: reviewed part drawings, weld/fit/fastener specifications, quote-backed BOM, assembly and commissioning package.
+These packages are a work sequence, not completed drawings or scheduled background jobs. Component evidence can block a specific detail while independent design continues.
+Sources and reproducible records
+Inputs, formulas & numerical output · Rebuild script · Shared interface record
+Manufacturer data are catalog facts for the named configurations, not approval for this railway. No quote, purchase, external message or certification is claimed.

@@ -1,0 +1,29 @@
+{
+  "issue": "PF-LOCO-LT1-R0",
+  "completed_scope": [
+    "Recovery and conflict register",
+    "Dimensioned first side/plan layout",
+    "Rotatable matching arrangement model",
+    "Two-motor drivetrain rematch and curve/mass sensitivity",
+    "Shared interface and preliminary component schedules",
+    "Concurrent R30 and DT1 work preserved; shared-generation direction applied"
+  ],
+  "not_complete": [
+    "Complete locomotive engineering",
+    "Fabrication part drawings",
+    "Final parts pricing",
+    "Brake/structure/drive acceptance",
+    "Commissioning"
+  ],
+  "source_owner": "Locomotive chat; separate coach chat owns cars",
+  "shared_program_file_edited": false,
+  "background_task_created": false,
+  "approved_for_fabrication": false,
+  "next": [
+    "Resolve common coach mass and accepted curve envelope",
+    "Compare rigid 2-8-4 against articulated layout using wheel/rail and support model",
+    "Develop locomotive load ledger, frame and suspension load paths",
+    "Obtain engine/pump/motor installation CAD and matched reversing circuit",
+    "Develop measured component and custom-part drawings after interfaces converge"
+  ]
+}

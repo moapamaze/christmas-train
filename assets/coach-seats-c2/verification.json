@@ -1,0 +1,32 @@
+{
+  "valid_solids": true,
+  "prototype_mesh_parts": 135,
+  "coach_mesh_parts": 2616,
+  "new_bench_intersections": [],
+  "scope": "New non-hardware solids, including cropped source rails and floor. Thread mating excluded; nominal CAD only. Not a complete tolerance, weld or passenger-envelope test.",
+  "mass_per_bench_kg_by_group": {
+    "hardpoint": 22.453482817706952,
+    "hardware": 2.129728613345353,
+    "frame": 28.8475915511167,
+    "pan": 8.039632916716283
+  },
+  "mass_inclusions": "Catalog HSS + CAD plate/nominal hardware; excludes upholstery, finish, sealing boots, small panel hardware and all undeveloped local reinforcements.",
+  "browser_interaction_checked": false,
+  "browser_limit": "No supported connected browser QA was available in this run. JavaScript syntax, actual viewer schema/part-offset logic, CAD validity and rendered drawing checks are distinct; mouse/touch rotation is not claimed visually tested.",
+  "model_schema_verified": true,
+  "prototype_parts_verified": 135,
+  "full_coach_parts_verified": 2616,
+  "bench_instances_verified": 16,
+  "reader_check": {
+    "date": "2026-10-19",
+    "sheets": [
+      "C2-A01",
+      "C2-J01",
+      "C2-P01",
+      "C2-P02"
+    ],
+    "method": "Rendered and visually inspected all four coordinated drawings; cross-checked materials, part families, hole patterns and final 3/4-inch stack. Fixed pan titles to5052-H32aluminum.",
+    "builder_can_identify": "Individual frame pieces, nominal cut lengths, mount plates/spacers/fastener stack and which face mates to each.",
+    "cannot_build_without_further_definition": "Final weld procedures/effective lengths, joint acceptance, locking/preload, panel fasteners, trim and floor closeouts remain incomplete; no production release."
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "issue": "PF-LOCO-LT2-R0",
+  "date": "2026-10-19",
+  "integration_source_commit": "f506e1291c44f21dff9d3c371fbaa8b8a6886b20",
+  "DT2_source_sha256": "df0deae565105c93efd52e91d0505947e98d026daadb864895049fc6bdf8629a",
+  "received": "DT2 R0 and coach C2.1; both source workstreams preserved",
+  "conflict_received": "LT1 main frame collides with DT2 at zero yaw. LT2 initial low-frame candidate would also collide; not published as cleared.",
+  "revision": {
+    "main_frame_top_Z_mm": 1650,
+    "rise_from_LT1_frame_top_basis_mm": 500,
+    "powered_pad_bottom_Z_mm": 1326.1499999999999,
+    "DT2_top_plate_Z_mm": 1170.0,
+    "nominal_open_support_stack_mm": 156.14999999999986,
+    "main_rail_bottom_Z_mm": 1345.2,
+    "cab_deck_basis_Z_mm": 1650,
+    "cab_roof_envelope_trial_Z_mm": 3800,
+    "body_status": "Higher deck and3800mm cab roof envelope are integration proposals, not a completed revised shell. LT1 overall3400mm height is not valid for this alternative. Route clearances, ingress, CG/stability and appearance require revision."
+  },
+  "clearance_screen": {
+    "max_DT2_radius_about_pivot_mm": 1268.2271089990152,
+    "relative_pitch_limit_deg": 2,
+    "relative_roll_limit_deg": 2,
+    "relative_upward_travel_mm": 40,
+    "conservative_max_DT2_Z_mm": 1298.520975617067,
+    "minimum_vertical_separation_bound_mm": 27.629024382932812,
+    "formula": "Ztruck <= Zpivot + Rmax(sin|pitch| + sin|roll|) + heave; all modeled DT2 vertices at or below pivotZ1170. Relative yaw does not increase Rmax.",
+    "scope": "A conservative bounding-plane check for the provided DT2 solids at assumed \u00b12deg roll/pitch and +40mm relative lift; yaw unrestricted for this vertical bound only. Nominal DT2 pose treated as static reference.",
+    "excludes": "New bearing/sidebearer/retention stack bridging the gap; truck gearboxes, hoses, brakes, guides, springs/axleboxes, bodywork, pilot, steps, couplers and leading/trailing running gear. This is not route-curving or suspension acceptance."
+  },
+  "mass_reconciliation": {
+    "DT2_bare_truck_kg": 1787.2367358364083,
+    "previous_LT2_trial_per_powered_truck_kg": 1200,
+    "revised_trial_per_powered_truck_kg": 2200,
+    "remaining_per_truck_allowance_kg": 412.76326416359166,
+    "note": "2200kg is a new budget, not actual finished mass. Remaining allowance must cover motors, reduction, brakes, suspension and other omissions; adequacy unproved. 12000kg locomotive total retained for sensitivity."
+  },
+  "coach_return": "C2.1 retains1040kg seating allowance per regular coach; no complete coach tare or train mass reduction accepted.",
+  "construction_approved": false,
+  "DT_acceptance_recorded": false
+}

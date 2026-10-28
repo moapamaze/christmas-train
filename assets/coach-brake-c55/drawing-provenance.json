@@ -1,0 +1,55 @@
+{
+  "revision": "C5.5",
+  "source_brep_sha256": "59d31e5bef10caaa2b9aa07ffbbe0ed00dba73ca57731dcdb542dff89fcfd339",
+  "parts": 155,
+  "section_plane": "Z = 300 mm",
+  "section_parts": 47,
+  "sheets": [
+    "C55-M01",
+    "C55-D01",
+    "C55-D02"
+  ],
+  "method": "CAD-edge projection, OpenCascade silhouette extraction and exact BREP-plane section; curves sampled for SVG only; no geometry built by drawing generator",
+  "status": "Development drawings; physical port station IDs, hidden thread scenario and all qualification holds retained",
+  "port_detail": {
+    "port_id": "PORT97",
+    "view": "Radial / axial; tangential offset excluded from projection",
+    "face_ordinate_mm": 89,
+    "scenario_thread_insertion_mm": 8,
+    "scenario_external_projection_mm": 36,
+    "hidden_interface_nonphysical": true
+  },
+  "assets": [
+    {
+      "file": "C55-D01.png",
+      "bytes": 156175,
+      "sha256": "b5fad67bbdab52b6723782f572026889cd84e366b0954967c62fa25affbddb66"
+    },
+    {
+      "file": "C55-D01.svg.gz",
+      "bytes": 4520,
+      "sha256": "bd252b6184e9a8b11510715912e6e8bb41d83bc5540c394ca1ca0a2c5d3d3162"
+    },
+    {
+      "file": "C55-D02.png",
+      "bytes": 197361,
+      "sha256": "7bd7cc4535416fe258cd523d63605c0dac0e8496e76b7be74f6037a007e64e44"
+    },
+    {
+      "file": "C55-D02.svg.gz",
+      "bytes": 23423,
+      "sha256": "659d02a01edfec73fb75279add78d84c13f9dad9db17efa940c07602e82baccd"
+    },
+    {
+      "file": "C55-M01.png",
+      "bytes": 323597,
+      "sha256": "419b5784c3b9d39e2429d0a3d72948a3ddb8d4c60896dfa46380c710b6bcf9c8"
+    },
+    {
+      "file": "C55-M01.svg.gz",
+      "bytes": 77483,
+      "sha256": "aa0e40543079d211cc7af8e89975837f584552fc4aedb3aaccbcb1292d8a1a82"
+    }
+  ],
+  "assets_total_bytes": 782559
+}

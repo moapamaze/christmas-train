@@ -1,0 +1,25 @@
+.t43-viewer{margin:1.4rem 0 2rem;border:1px solid #bac9c1;border-radius:10px;overflow:hidden;background:#fff}
+.t43-viewer button{font:600 13px/1.2 system-ui,sans-serif;min-height:42px;padding:9px 12px;margin:0;border:1px solid #bdcbc4;border-radius:5px;background:#fff;color:#29584d;cursor:pointer}
+.t43-mode-tabs{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:7px;padding:12px;background:#edf2ed}
+.t43-mode-tabs button[aria-pressed=true]{background:#295d50;border-color:#295d50;color:#fff}
+.t43-camera-tools{display:flex;gap:6px;padding:8px 12px;border-bottom:1px solid #dce3df}
+.t43-camera-tools button{flex:0 1 64px;min-width:36px;padding:8px}
+.t43-camera-tools button:nth-last-child(2){margin-left:auto}
+.t43-viewer [data-model]{min-height:280px}
+.t43-viewer [data-model]>div>.compat-toolbar,.t43-viewer .coach3d-toolbar,.t43-viewer .coach3d-view-tools{display:none}
+.t43-viewer .fabrication3d .coach3d-stage{height:480px;min-height:0}
+.t43-viewer .fabrication3d,.t43-viewer .coach3d{border:0;border-radius:0;margin:0}
+.t43-viewer canvas{display:block;width:100%;max-width:100%;touch-action:none}
+.t43-viewer .coach3d-stage-label{position:static;margin:0;padding:8px 12px;font-size:12px;line-height:1.5}
+.t43-viewer .coach3d-caption,.t43-viewer .fab-details,.t43-viewer .coach3d-options{font-size:12px;padding:10px 14px}
+.t43-viewer [data-status]{font-size:13px;line-height:1.5;padding:12px 16px;margin:0;background:#f1f5f0;border-top:1px solid #dbe4dd}
+.t43-viewer details{font-size:13px;margin:0;padding:8px 14px;border-top:1px solid #dbe4dd}
+.t43-viewer summary{cursor:pointer;padding:5px 0}
+.t43-viewer .compat-toolbar{display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+.t43-viewer .compat-toolbar select{max-width:min(370px,70vw);font-size:12px}
+.t43-viewer .compat-groups{display:flex;flex-wrap:wrap;gap:8px 16px;font-size:12px;padding:8px 0}
+.t43-viewer .compat-label,.t43-viewer .compat-help{font-size:12px;line-height:1.5;margin:0;padding:7px 14px}
+.t43-viewer [data-render-options]>.actions{display:flex;gap:8px;flex-wrap:wrap;margin:8px 0}
+.t43-plan-fold{border:1px solid #c8d4cd;border-radius:8px;padding:12px;margin:1.4rem 0}
+.t43-plan-fold summary{cursor:pointer;font-weight:650;padding:5px 0}
+@media(max-width:700px){.t43-viewer{margin:1rem -4px 1.5rem}.t43-mode-tabs{gap:4px;padding:8px}.t43-mode-tabs button{font-size:12px;padding:8px 3px}.t43-camera-tools{padding:7px 8px}.t43-viewer .fabrication3d .coach3d-stage{height:280px}.t43-viewer [data-status]{padding:10px 12px}.t43-viewer .fab-details{padding:4px 10px}.t43-viewer .fab-legend{font-size:11px}.t43-viewer .coach3d-caption{padding:5px 10px}}

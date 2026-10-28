@@ -1,0 +1,56 @@
+
+Brake air lines and service access · C5.6 · Pulsipher Farms
+
+Earlier C5.6 installation study
+C5.7 adds the body-to-truck supply connection and revised service-access checks. The C56 bearing, hub, link, pin and frame sections remain supporting current detail. Open the current brake installation.
+C5.6 · FIRST BRAKE INSTALLATION · 19 OCTOBER 2026
+Air lines and service access
+The first brake installation now includes local hose connections and supports, with close-up drawings of the mounts and maintenance access.
+Air connections
+Inspect the local hoses, fixed fittings, hose guides and fabricated supports together in the truck.
+Maintenance access
+Follow the pad-service sequence and inspect the chamber-removal and parking-release directions.
+Mounting details
+See the carrier bearings, split keyed hub, reaction link, retained pins and frame welds in section.
+One installation remains under development.
+Exact supplier interfaces and maximum brake forces remain open. The body-to-truck supply connection is not yet developed. Webb and ZF requests are sent and awaiting replies.
+Inspect the installed parts
+This model contains one brake at axle 2, right side. Select a close-up below, or use the individual-part buttons inside the viewer.
+Installed in the truckBrake close-upChamber removalParking-release access
+Loading the installed truck…
+Transparent purchased envelopes and hidden interface reservations retain their stated limitations. Showing a part in CAD does not confirm its fit or load capacity.
+Air hardware shown
+ | Connection
+ | Modeled candidate
+ | Role in this layout
+ | Local flexible hose
+ | Parker 271-6
+ | Two paths from chamber to truck-mounted connections
+ | Chamber hose end
+ | Parker 10125-6-6B-VS
+ | Exact installed thread engagement remains open
+ | Fixed-end disconnect
+ | Parker 17B25-8-6B + 017M-6-8B
+ | Swivel connection with adapter
+ | Bulkhead connection
+ | Parker 207ACBH-6
+ | Mounted through the fabricated anchor plate
+ | Sliding hose guide
+ | STAUFF 319-SA87-H
+ | Smooth guide with cover, weld base and M6 fasteners
+The part records distinguish published dimensions from simplified profiles and proposed engagement. A sliding guide does not anchor the hose against axial movement or twist.
+Connection and service drawings
+The sheets use the modeled parts. Manufacturer dimensions, proposed fabrication dimensions and unresolved service clearances are identified on each drawing.C56-M01C56-A01C56-D01C56-D02C56-D03C56-S01C56-S02
+C56-M01Air connections installed in the truckC56-A01Local air connections and support hardwareC56-D01Bearing carrier and keyed hubC56-D02Torque link, retained pins and washersC56-D03Frame bracket, welds and caliper mountingC56-S01Pad service and tool interfacesC56-S02Chamber removal and parking-release access
+What remains to be confirmed
+Purchased package: rotor mounting geometry, matched chamber and caliper, maximum forces and exact fitting engagement.
+Air routing: Port 97 and Port 116 identify physical stations; their service and parking circuit assignments remain unconfirmed. The local hoses end at truck-mounted connections, ahead of an undeveloped body-to-truck supply loop.
+Service access: straight chamber-nut socket withdrawal meets the mount. A sideways exit is shown as a candidate; actual caliper-seat, pad and tool clearances remain unconfirmed.
+Final mounts: bearing fits, hub and key load sharing, pin retention, welds and fatigue remain subject to the confirmed loads and connection checks.
+Engineering record
+The separate engineering record contains the component sources, movement-check scope and unresolved items. Remaining brake locations will follow after this installation is accepted.
+Open checks and evidenceView sent supplier requests
+CAD and drawing downloads
+C56-M01 · SVG gzipC56-A01 · SVG gzipC56-D01 · SVG gzipC56-D02 · SVG gzipC56-D03 · SVG gzipC56-S01 · SVG gzipC56-S02 · SVG gzipEditable brake assembly · STEP gzipPart scheduleGeometry contractVerification scope
+Decompress gzip STEP files before CAD import and gzip SVG files before editing. These development drawings do not establish manufacturing tolerances or release fabrication.
+C5.6 · One brake installation · Supplier compatibility and final loads remain open

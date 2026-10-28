@@ -1,0 +1,24 @@
+LT32 coordinated assembly · Pulsipher FarmsSkip to contentWhole assemblyLT32 drawingsLT32 engineeringRetained restraint
+COORDINATED LOCOMOTIVE + FIRST COACH · LT32
+Installation and connection in one assembly
+The revised pump carrier and removable duct now share one model with the rear drop frame, drawbar and brake connections. Mass, suspension demands and installation checks use the combined configuration.
+Fabrication remains unreleased. No confirmed Patrick, brake, bumper or absorber specifications have been incorporated. The pivot’s 3.96 mm margin remains conditional. Clear geometric paths do not establish component capacity or hose suitability.
+What changed
+ | Area
+ | LT32 result
+ | Model
+ | 5,612 parts including first regular coach, with revised installation and rear routing together.
+ | Weight
+ | 16,418.24 kg locomotive planning mass. Replaces 100 kg allowance with 384.80 kg represented hardware and nominal shared reactions.
+ | Load model
+ | 504 retained duty/track cases rerun on straight and both 50 m directions; coupling load height corrected from 800 to 550 mm.
+ | Rear hoses
+ | Horizontal turning and vertical flex spans separated by a supported transfer. Live articulation and guide mechanics remain unqualified.
+ | Access
+ | Seven installation removal paths, ten local installation tool spaces, two pin lifts and six local rear tool/access reservations.
+ | Engineering holds
+ | Supplier ratings, directional train-force feedback, complete joint/secondary-restraint verification, truck hose redesign and all fabrication remain open.
+Revised connection sections
+Retained installation sections
+Cooler and duct removal → · Pump carrier joint →
+Read the updated engineering report and interface register →LT32 · 22 October 2026 · Engineering review · Fabrication unreleasedEngineering

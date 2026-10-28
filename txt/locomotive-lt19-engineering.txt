@@ -1,0 +1,224 @@
+LT19 rear-support study · Pulsipher FarmsSkip to contentWhole locomotive · 3DLT19 layout & loadsSeparate engineeringLT18 with trailing wheels
+LT19 · SEPARATE ENGINEERING RECORD
+Rear support, weight and movement.
+The decision is to retain X4075 /7275 powered pivots for the next study and omit the trailing-wheel assembly from the candidate. The 800 mm rearward-shift alternative remains available for comparison. Neither arrangement is released for fabrication.
+1 · Weight and centre of gravity
+The current estimate is 16,979 kg including crew and trial consumables. The body carried at the powered pivots is 8,209 kg, with longitudinal CG X6,037. Total estimated CG is X5,483, Z1,204 mm. Z positions are mostly geometric centres or assumed equipment locations, not measured CG data.
+ | Basis
+ | Base kg
+ | Low kg
+ | High kg
+ | CAD material proxies
+ | 11,765
+ | 10,589
+ | 14,118
+ | Assembly / consumable allowances
+ | 3,555
+ | 2,407
+ | 5,453
+ | Catalog mass / section weight
+ | 1,659
+ | 1,523
+ | 1,931
+Modeled plate, shell and running-gear volumes use assumed steel density 7,850 kg/m³; glazing uses 2,500. Conceptual wheel, axle, sideframe and bolster geometry is not a certified material takeoff. Solid machinery and decorative envelopes are replaced by explicit assembly allowances. The 20 mm cab-floor shape is conservatively carried as solid steel (about851 kg); its finished construction is still unresolved. This floor assumption and the heavy conceptual truck sections materially affect the result.
+Kubota publishes 299 kg dry for the retained V3307-CR-TI-E5 profile. The configured engine, fluids, cooler, pump, guards and mounts are separate entries; catalog mass is not an installed package mass. Fuel 150 L at0.84 kg/L, hydraulic oil 100 L at0.86 kg/L, and two 100 kg crew are analyst trial inputs. FuelX6150 and hydraulic-tankX6800 are weight-location reservations; fitted tank shapes and mounts have not been designed.
+Every component / allowance, CG position, low and high mass · Machine-readable calculations and source URLs
+2 · Support assumptions and equilibrium
+Two main-body supports are assumed at X4075 and7275. The leading truck carries its own weight and half the swing-arm weight in the base case. This is a proposed boundary condition requiring a suitable leading-truck suspension; LT18 has no solved load-sharing system. A three-support structure cannot be solved from vertical statics alone without stiffness/preload information.
+For body masses mᵢ at xᵢ: Rᵣ=Σmᵢ(xᵢ−4075)/3200, R𝒻=Σmᵢ−Rᵣ. These reactions are reported as equivalent kilograms; forces multiply by 9.80665. Truck self-weight moments are then distributed to each pair of axles. This is why the front two axle loads differ: the cylinder support and outriggers are forward of the truck centre.
+ | Axle, front to rear
+ | Position X (mm)
+ | Static axle load (kg)
+ | Static axle load (lb)
+ | Leading-1
+ | 1,000
+ | 590
+ | 1,301
+ | Leading-2
+ | 2,050
+ | 590
+ | 1,301
+ | Front drive-1
+ | 3,300
+ | 4,025
+ | 8,873
+ | Front drive-2
+ | 4,850
+ | 3,160
+ | 6,966
+ | Rear drive-1
+ | 6,500
+ | 4,292
+ | 9,461
+ | Rear drive-2
+ | 8,050
+ | 4,322
+ | 9,529
+Separate5% and 10% main-body loading sensitivities on the leading truck are recorded in loads.json. They assume an equivalent force and pitch couple at the swing-arm anchor so the resultant acts at the leading-truck centre. That load-capable attachment is not designed. These cases show dependence on support assumptions, not an accepted leading-truck load share. Force and longitudinal moment equilibrium are checked in all14 load cases.
+3 · Gross frame bending
+The screening model is a continuous overhanging beam on the two powered pivots, with two identical rails sharing vertical load equally. Point components act at assumed CGs; long components are represented by centroid-preserving uniform spans. Actual equipment brackets, crossmember flexibility, local load introduction and torsional sharing are absent.
+STI's HSS12×6×3/8 table gives 42.7 lb/ft, Iₓ 216 in⁴ and Sₓ 35.9 in³ per rail. The model uses these catalog properties and E 200 GPa, rather than optimistic sharp-corner CAD section properties. Section availability, material grade, wall loss, welds and joints remain subject to the structural design.
+σ=M/(2S), with beam curvature M/(2EI). No allowable-stress, buckling, fatigue or yield acceptance is inferred. At the base mass, current pivots produce about58.3 MPa gross vertical bending stress and16.4 mm calculated downward rear-end deflection. A2× static-load sensitivity doubles those values;2 is not a selected rail dynamic factor.
+ | Layout
+ | Mass case
+ | Total kg
+ | Body front kg
+ | Body rear kg
+ | Max pair moment kNm
+ | Gross stress MPa
+ | Rear deflection mm
+ | Current
+ | base
+ | 16,979
+ | 3,177
+ | 5,032
+ | 68.6
+ | 58.3
+ | -16.4
+ | Current
+ | low
+ | 14,518
+ | 2,779
+ | 3,998
+ | 55.5
+ | 47.2
+ | -13.5
+ | Current
+ | high
+ | 21,502
+ | 4,187
+ | 6,253
+ | 86.2
+ | 73.2
+ | -20.7
+ | Current
+ | rear-heavy
+ | 16,539
+ | 2,009
+ | 5,759
+ | 79.9
+ | 67.9
+ | -18.7
+ | Current
+ | front-heavy
+ | 16,207
+ | 3,952
+ | 3,484
+ | 55.7
+ | 47.3
+ | -14.3
+ | Current
+ | fuel-empty
+ | 16,853
+ | 3,133
+ | 4,950
+ | 68.6
+ | 58.3
+ | -16.5
+ | +800 mm
+ | base
+ | 16,979
+ | 4,102
+ | 4,107
+ | 46.6
+ | 39.6
+ | -9.2
+ | +800 mm
+ | low
+ | 14,518
+ | 3,505
+ | 3,271
+ | 39.5
+ | 33.6
+ | -7.6
+ | +800 mm
+ | high
+ | 21,502
+ | 5,340
+ | 5,099
+ | 61.2
+ | 52.1
+ | -11.7
+ | +800 mm
+ | rear-heavy
+ | 16,463
+ | 3,074
+ | 4,619
+ | 54.3
+ | 46.1
+ | -10.5
+ | +800 mm
+ | front-heavy
+ | 16,207
+ | 4,576
+ | 2,860
+ | 55.7
+ | 47.3
+ | -8.5
+ | +800 mm
+ | fuel-empty
+ | 16,853
+ | 4,042
+ | 4,041
+ | 46.6
+ | 39.6
+ | -9.3
+Frame deflection has not been fed into the rigid clearance model. Review rear cantilever stiffness, floor supports, pivot crossmembers, traction/braking and coupler loads, torsion, welds, fatigue, emergency loads and lifting cases before releasing any frame detail.
+4 · Curve and movement evidence
+50 exact-solid cases compare the current and shifted-pivot options.21 nominal cases cover straight and both directions at50,40,35,30,27.5,25,22.5,20,17.5 and15 m for the current positions. Five nominal cases cover the shifted option.24 additional30 m cases combine each layout/direction with prescribed+25 mm jounce,−20 mm rebound and selected±1° pitch/roll.
+Current pivots: no sampled exterior inter-group intersections at 30 m, including conservative full wheel disks. The nominal 25 m sample still clears;22.5 m retains the front cylinder-support/leading-anchor clash. Removing the trailer does not remove that front restriction. The full wheel disk is an envelope check, not a wheel/rail-contact model.
+Both layouts fail the pivot-interface tilt check. Four intersecting interface pairs appear in each tilted pose because a flat thrust stack does not accommodate the prescribed tilt. Reported exterior clearance excludes none of these findings: the interface count is shown separately in the viewer. Body/truck pitch and roll load paths must be redesigned.
+The800 mm shift brings a rear wheel under the cab floor:30 mm nominal separation,5 mm with25 mm jounce, and interference with combined jounce/tilt. It also increases powered-truck yaw and reduces the selected front-support gap at 30 m from26.1 to5.2 mm. This option is not promoted.
+These are discrete, prescribed relative poses. Wheels are not forced to remain on a 3D rail surface during tilt; there is no rail/suspension equilibrium solution. Same-truck internal interfaces, chain length/tension, operating rod phases, spring stress, bumps, hoses, brakes, wheel profiles, lateral forces, track twist, S-curves, turnouts and continuous swept motion remain unqualified.
+All collision pairs, clearances and local coupling samples
+5 · Rear coupling envelope
+Fifteen local envelope poses use the existing CA1 trial800 mm pin spacing and550 mm pin height, with a proposed locomotive pivot atX11050. A120×120 bar corridor and180 mm end corridors are sampled at yaw−14/−7/0/7/14° with neutral and±6° pitch/roll combinations. No intersections with the current locomotive solids were found.
+This is only a local space reservation. The rear hitch bracket, drawgear and secondary retention are not modeled. The coach, brake hoses and intervehicle sweep are not included; the yaw range is not derived from the30 m route. Combined bearing tilt and the eventual joint's range remain to be checked. Coupler force transfer and braking/pitch stability are unresolved.
+6 · Rebound locks and guide-bushing attachments
+The eight primary springs need a new load basis. The table below subtracts modeled wheelset, axlebox, lower-seat and allocated rod/crank mass from static axle load, then divides between two springs. It is a preliminary vertical demand estimate; it does not set spring rate, travel or component capacity.
+ | Powered axle
+ | Base spring demand, each kN
+ | Modeled hanging mass proxy kg
+ | Static hanging demand per two equal restraints, kN each
+ | FRONT-1
+ | 14.12
+ | 1,144
+ | 5.61
+ | FRONT-2
+ | 9.88
+ | 1,144
+ | 5.61
+ | REAR-1
+ | 15.43
+ | 1,144
+ | 5.61
+ | REAR-2
+ | 15.58
+ | 1,144
+ | 5.61
+Approximately5.61 kN per restraint is only the equal-share static hanging contribution. Unequal capture, one-restraint failure, wheel/axle additions, bump/rebound energy, rods/chains and dynamic separation can increase the required demand. It is not a safe working load or proof load.
+ | Connection
+ | Finding
+ | Required next engineering
+ | Powered pivot tilt and positive capture
+ | Flat LT18 thrust stack penetrates in every ±1° tilt probe.
+ | A load-rated yaw connection with the required pitch/roll freedoms and positive retention; verify main-frame load introduction.
+ | Primary spring and axle guidance
+ | Per-spring static demands vary by axle; rod/chain motion is unfinished.
+ | Select springs, preload and travel from accepted corner loads and dynamics; resolve axlebox clearances and guide wear surfaces.
+ | Rebound locks
+ | Static hanging wheelset proxy is only a lower-bound load component.
+ | Define droop event energy, dynamic separation load, two-restraint load sharing and single-failure case. Use a mechanical load path independent of spring seating; size rod, shoulder, lock, bushing, plate and joints together.
+ | Guide-bushing attachment
+ | Truck-mounted guides now rotate with each powered bogie; LT16/17 fixed-frame details do not transfer.
+ | Resolve combined traction, braking, side thrust, motor reaction and repeated guide loads. Check bearing/tear-out, bolt slip/preload, weld group, local truck section and fatigue.
+ | Review before fabrication
+ | Static beam stress is not a frame or attachment approval.
+ | Actual mass/CG, wheel/rail loads, braking/buff/draft, track twist, coupling, truck strength and structural review remain open.
+Final rod, lock, bushing, bolt and weld sizes remain open. The old fixed-frame sliding-axle attachments do not transfer to the rotating two-axle trucks. Finishing those details now would embed an unresolved pivot and suspension arrangement.
+Attachment demand record and review holds
+Sources and reproducibility
+Kubota V3307-CR-TI-E5 official specifications — dry mass only.
+Steel Tube Institute A500 dimensions and properties — printed page13, HSS12×6×3/8.
+Geometry and component locations: retained LT18 CAD. CA1 coupling motion conventions are a development reference.
+The source repository retains the mass ledger generator, beam equations, BREP pose checks, display-transform checks and drawings in cad/locomotive-lt19. No structural or operating release is asserted.LT19 · Preliminary support study · Structural review required before fabricationLocomotive

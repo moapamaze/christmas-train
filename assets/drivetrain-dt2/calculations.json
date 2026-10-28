@@ -1,0 +1,28 @@
+{
+  "load_basis": "LT1 allocated 5000 kg per powered truck; applied entirely as carried load for conservative side-beam screening. Not a weighed mass.",
+  "dynamic_multiplier_trial": 2,
+  "side_beam_span_mm": 1200,
+  "side_beam_I_mm4": 23060138.666666668,
+  "side_beam_Z_mm3": 230601.3866666667,
+  "static_central_point_load_each_side_N": 24516.625,
+  "screen_peak_bending_stress_MPa": 63.78962075047365,
+  "screen_deflection_mm": 0.38273772450284194,
+  "limits": "Ideal simply supported beam only; ignores connection/local wall stress, torsion, braking, sidebearers, buckling, fatigue, hunting, derailment, actual axle load equalization and primary suspension. Does not release members or welds.",
+  "new_frame_member_mass_kg": 328.75548799999996,
+  "wheel_blank_mass_each_kg": 296.43125801477214,
+  "axle_blank_mass_each_kg": 136.37810788865974,
+  "full_modeled_truck_mass_kg": 1787.2367358364083,
+  "excluded_mass": "Bearings, axleboxes, guides, springs, dampers, stops, pivot/sidebearers, motors, reductions, shafts, brakes, hoses, guards, weld metal and fasteners.",
+  "LT1_clearance_conflict": {
+    "existing_mainframe_z_extent": [
+      850,
+      1130
+    ],
+    "existing_mainframe_inner_abs_y": 770,
+    "proposed_sideframe_outer_abs_y": 780,
+    "straight_sideframe_overlap_y_mm": 10,
+    "spring_plate_overlap_y_mm": 50,
+    "proposed_top_plate_z": 1170,
+    "resolution": "Locomotive frame arrangement must be revised/coordinated. Do not drill/weld to LT1 frame. No agreed final mainframe underside elevation or truck pivot exists. Rotated envelope and sidebearer motion require further work."
+  }
+}

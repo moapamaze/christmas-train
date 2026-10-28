@@ -1,0 +1,46 @@
+{
+  "revision": "C5.4",
+  "issue": "C54-D1",
+  "date": "2026-10-20",
+  "units": "mm in canonical CAD; model mesh converted to inches",
+  "installed_brake_units": 1,
+  "location": "Axle 2, right side of the retained C5 truck",
+  "page_status": {
+    "title": "One revised brake installation; supplier fit and qualification remain open.",
+    "summary": "The chamber, separate radial and thrust bearings, longer keyed hub, enlarged pins, wider support webs and frame connections are now in the CAD. Ten sampled axle positions, including captured extension, were checked. Exact rotor interfaces, certified maximum force, legacy chamber availability, flexible hose motion and connection fatigue remain unresolved."
+  },
+  "checkpoint_sha256": "b6b69ce320f0c9784d3920b1f536ae7e7a7254beca531cdab801303b2e7b4337",
+  "part_count": 154,
+  "approved_for_fabrication": false,
+  "approved_for_operation": false,
+  "actual_changes": [
+    "WABCO 9253800250 exterior, mounting studs, ports and rear release extension",
+    "Two NA 4824 radial bearings with separate AXK thrust sets and segmented reducer",
+    "Direct 100 mm bore split hub with one long rounded-end axle key",
+    "30 mm joint pins, positive retainers and widened carrier/frame roots",
+    "12 mm caliper interface plate and extended support webs",
+    "Lower frame crossmember clears retained pivot cup; endplates have full side-web backing",
+    "Parker hose/end candidates with independently checked nominal bend radii"
+  ],
+  "deferred": [
+    "Remaining three truck brake locations",
+    "Other truck/coach brake locations",
+    "Complete service/spring air distribution, controls, pressure protection and anti-compounding"
+  ],
+  "force_basis": "10 kNm is an unrated structural comparison. Actual maximum service/parking torque remains unknown.",
+  "service": "Closed rotor requires wheelset removal and shop removal of one wheel. Pad extraction, caging access and actual assembly procedures remain qualification holds.",
+  "release_holds": [
+    "Controlled Webb rotor section, friction annulus, pilot tolerance and supplied bolt specification",
+    "Exact caliper-to-chamber mating datum, mounting attitude and full purchased-part envelopes",
+    "Guaranteed maximum service, parking and compounded loads at all allowed pressures",
+    "Exact legacy chamber availability or a fully documented current-package replacement",
+    "Custom hub, axle keyway, bearing fits and all connections: fatigue, preload, fretting and tolerance qualification",
+    "Full suspension, truck yaw, wear, hoses and servicing with the complete supplier geometry",
+    "Local connection and fatigue checks for the strengthened frame and brackets",
+    "Remaining brake stations and complete train air controls, pressure protection and anti-compounding",
+    "Thermal duty, adhesion, stopping performance and railway application acceptance",
+    "Four fitting/chamber/hose-end purchased-envelope intersections remain unclosed at the supplier interfaces.",
+    "Flexible hose deformation, full continuous travel, tool ergonomics and assembly fits remain unverified.",
+    "The original unused outboard axle extensions remain grey C5 reference geometry; final axle length and wheelset fatigue are not released."
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "revision": "C5.7",
+  "reviewer": "Independent C57 hardware research agent, read-only review",
+  "method_scope": "Mathematics and scope of exact exterior rigid-translation coverage; not supplier fit, loads, service acceptance or independent recalculation of OCC distances",
+  "script_sha256": "31baa1146c0292d2836cce4cd684b0a4b3d78024958da4267f288bef7799f980",
+  "findings": [
+    {
+      "item": "Initial socket axial pull0\u201330mm",
+      "result": "Covered by diameter32, length72mm cylinder spanning local s=-91to-19mm"
+    },
+    {
+      "item": "Socket side shift0\u201360mm",
+      "result": "Covered by true capsule section:60\u00d732mm rectangle plus16mm-radius end discs, extruded42mm alongD"
+    },
+    {
+      "item": "Final socket pull30\u201390mm atV60",
+      "result": "Covered by diameter32, length102mm cylinder spanning local s=-151to-49mm"
+    },
+    {
+      "item": "Chamber translation0\u201375mm",
+      "result": "Initial solid plus all valid nondegenerate boundary-face prisms covers rigid translation; invalid prisms recorded aserrors"
+    },
+    {
+      "item": "Disconnected state",
+      "result": "Local hose prefixes removed; SUPPLY-* remains connected and included in collision targets"
+    },
+    {
+      "item": "Known omissions",
+      "result": "Unknown actualPAN17cavity, nutseat, socketinternals, ratchet/handroom remain explicit; no installed-tool acceptance"
+    }
+  ],
+  "drawing_correction": "S02A corrected from viewnormaltoaxis to sideelevationin chamber-axis/studplane",
+  "source_hashes": {
+    "cad/coach-brake-c57/checkpoint.brep": "2193f96be4934a76afc42111220aed170f8184483bfeff3eb8752e06fe5799cb",
+    "cad/coach-brake-c57/parts.json": "f2da26b996c9a6ae085a5e2207e2ff7977c5fddc61073c8d0799d1abb8940299",
+    "cad/coach-brake-c57/geometry-contract.json": "282223c2c4466ed6f1e27842bc74c79046abe4d7ae5f7f96228fa1938e6bca04",
+    "cad/coach-brake-c57/check_service_c57.py": "31baa1146c0292d2836cce4cd684b0a4b3d78024958da4267f288bef7799f980",
+    "cad/coach-brake-c57/service-access-review.json": "66bf09521dd3c900f067ba91534059e4b0b321a9fc78feed4b2c9f254fdb0c66"
+  },
+  "final_evidence_review": {
+    "checkpoint_sha256": "2193f96be4934a76afc42111220aed170f8184483bfeff3eb8752e06fe5799cb",
+    "reviewed_scope": "Read-only independent mathematics and target/metadata audit after final service rerun; OCC distances were not independently recomputed.",
+    "same_checked_service_method": true,
+    "target_count": 641,
+    "continuous_socket_segments": 6,
+    "continuous_chamber_pieces": 28,
+    "all_supply_parts_retained": true,
+    "supply_parts_retained": 80,
+    "positive_continuous_pairs": 0,
+    "calculation_errors": 0,
+    "socket_minimum_model_gap_mm": 31.346855166883362,
+    "chamber_minimum_model_gap_mm": 29.941841944472003,
+    "unqualified_interfaces_retained": [
+      "Exact PAN17 caliper material, seat and service openings; GA projection excluded as an invalid physical obstruction",
+      "Pad, retainer, hold-down springs and pressure-plate extraction; their exact geometry and strokes are unavailable",
+      "Socket internal engagement, actual nut seat, torque-wrench/extension/hand room and wrench swing",
+      "Full chamber lifting route beyond75mm straight withdrawal; securing disconnected hoses",
+      "Actual release tool and Rmax110 stored release hardware; the existing \u00d860x50 reservation is a design allowance only",
+      "Motion after the checked three-segment rigid socket path and75mm chamber withdrawal; body/frame deflection, manufacturing tolerances and safe shop procedure"
+    ],
+    "accepted_service_procedure": false,
+    "geometry_contract_sha256": "282223c2c4466ed6f1e27842bc74c79046abe4d7ae5f7f96228fa1938e6bca04",
+    "service_report_sha256": "66bf09521dd3c900f067ba91534059e4b0b321a9fc78feed4b2c9f254fdb0c66",
+    "post_contract_rerun_review": "Verified actual rerun binds final282223c2 contract; checker mathematics unchanged. CompleteSUPPLY target inclusion and continuous exterior results rechecked."
+  }
+}

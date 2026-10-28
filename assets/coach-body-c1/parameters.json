@@ -1,0 +1,54 @@
+{
+  "floor_z": 32.0,
+  "body_x": [
+    -3.0,
+    309.0
+  ],
+  "clear_y": [
+    -52.0,
+    52.0
+  ],
+  "post_x": [
+    -1.5,
+    25.0,
+    57.0,
+    89.0,
+    121.0,
+    153.0,
+    185.0,
+    217.0,
+    249.0,
+    281.0,
+    307.5
+  ],
+  "seat_x": [
+    41.0,
+    73.0,
+    105.0,
+    137.0,
+    169.0,
+    201.0,
+    233.0,
+    265.0
+  ],
+  "post_y": 53.625,
+  "post_bottom": 34.25,
+  "eave_z": 110.0,
+  "roof_halfspan": 54.625,
+  "roof_crown": 120.61417322834646,
+  "roof_spring_z": 112.0,
+  "raised_inside_z": 132.0,
+  "raised_outside_z": 134.0,
+  "window_clear_z": [
+    64.0,
+    96.0
+  ],
+  "door_clear_width": 32.0,
+  "door_clear_height": 80.0,
+  "steel_density_kg_m3": 7850.0,
+  "aluminum_density_kg_m3": 2680.0,
+  "round_HSS_outer_radius_factor": 2.0,
+  "nominal_HSS_wall_model": true,
+  "roof_outer_radius_in": 177.50366311097392,
+  "roof_center_z_in": -56.88948988262746
+}

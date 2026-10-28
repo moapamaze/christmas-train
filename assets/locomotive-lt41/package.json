@@ -1,0 +1,2194 @@
+{
+ "revision": "LT41",
+ "date": "2026-10-23",
+ "status": "DEVELOPMENT INTEGRATION \u2014 COMPLETE BRAKE / CONTROL PACKAGE NOT CONFIRMED",
+ "consist": {
+  "locomotives": 1,
+  "regularCoaches": 3,
+  "accessibleCoaches": 1,
+  "coachBrakes": 16,
+  "locomotiveBrakeAssumption": 4
+ },
+ "items": [
+  {
+   "tag": "B01",
+   "group": "Coach brakes",
+   "name": "325 mm rotor kit",
+   "part": "Hendrickson S-33391",
+   "trainQuantity": 16,
+   "quantityBasis": "4 per coach \u00d7 4 coaches",
+   "status": "Catalog family matched",
+   "releaseHold": "Webb confirms its existing 55030PK65 is the325mmPAN17 version; Meritor M44D75180/Bendix AMR2224N/WABCO CT826 crosses supplied. Webb does not approve our caliper/pads or custom installation. No controlled interchange to S-33391 established.",
+   "sourceKeys": [
+    "hendrickson",
+    "rotor_price"
+   ],
+   "unitPriceUSD": null,
+   "availability": "Listing in stock; earliest displayed Oct 27. Stock for 16 and destination delivery unconfirmed. Retained LT40 listing observation; not a new quote."
+  },
+  {
+   "tag": "B02",
+   "group": "Coach brakes",
+   "name": "Caliper with mounting hardware",
+   "part": "S-39094-L / R; WABCO 40175072 / 40175073",
+   "trainQuantity": 16,
+   "quantityBasis": "4 development stations per coach \u00d74; exact hand allocation held",
+   "status": "Catalog family matched",
+   "releaseHold": "Standard PAN17/325\u00d734/232/20-24 road family documented. Exact torque at3.7265bar, thermal duty and custom rail carrier/hand approval absent.",
+   "sourceKeys": [
+    "hendrickson"
+   ],
+   "unitPriceUSD": null,
+   "availability": "Quote required"
+  },
+  {
+   "tag": "B03",
+   "group": "Coach brakes",
+   "name": "WABCO 232 pad kit",
+   "part": "Hendrickson S-41159-1",
+   "trainQuantity": 8,
+   "quantityBasis": "4 pads/kit = 2 brakes; 2 kits/coach",
+   "status": "Catalog family matched",
+   "releaseHold": "Confirm complete application schedule and thermal duty.",
+   "sourceKeys": [
+    "hendrickson",
+    "pad_price"
+   ],
+   "unitPriceUSD": null,
+   "availability": "Special order; estimated 10\u201314 days before shipping. Quantity 8 lead time unconfirmed. Retained LT40 listing observation; not a new quote."
+  },
+  {
+   "tag": "B04",
+   "group": "Coach brakes",
+   "name": "20/24 spring/service chamber",
+   "part": "WABCO 9253800250 / 9253800240",
+   "trainQuantity": 16,
+   "quantityBasis": "4 per coach; part/hand split TBD",
+   "status": "Legacy application matched",
+   "releaseHold": "9253800240 catalog:64mmstroke,200Nreturn,5.10barrelease,10barmaximum. Nominal Type20 area is not an exact pressure/force/stroke curve. Confirm0250and physical97/116 to11/12.",
+   "sourceKeys": [
+    "chamber"
+   ],
+   "unitPriceUSD": null,
+   "availability": "Quote required"
+  },
+  {
+   "tag": "B05",
+   "group": "Coach brakes",
+   "name": "Custom hub / carrier / attachments",
+   "part": "C57 development interfaces",
+   "trainQuantity": 16,
+   "quantityBasis": "1 set per proposed coach brake",
+   "status": "Four-station development layout installed",
+   "releaseHold": "Added axle1 stations use proper Rz180 C57 unit and CW3 keyed axle. Nominal and77separate-axis cases clear tested obstacles; axle fatigue, attachments, complete motion and supplier interfaces remain held.",
+   "sourceKeys": [],
+   "unitPriceUSD": null,
+   "availability": "Quote required"
+  },
+  {
+   "tag": "B06",
+   "group": "Locomotive brakes",
+   "name": "Locomotive brake package",
+   "part": "Unselected",
+   "trainQuantity": 4,
+   "quantityBasis": "Air-budget assumption: 1 per powered axle",
+   "status": "Unselected",
+   "releaseHold": "Actual rotor/caliper/actuator and torque/thermal duty; 4 is not a released brake count.",
+   "sourceKeys": [],
+   "unitPriceUSD": null,
+   "availability": "Quote required"
+  },
+  {
+   "tag": "A01",
+   "group": "Air supply",
+   "name": "Complete electric main-air package",
+   "part": "D\u00fcrr E-Bull Rail System; core 1037800300_230_60",
+   "trainQuantity": 1,
+   "quantityBasis": "One package proposed; compressor count follows recovery target",
+   "status": "Exact compressor core selected for development",
+   "releaseHold": "1037800300_230_60:230V3phase60Hz,11.3A,3.8kW;533\u00d7456\u00d7221mm core installed. Complete dry-system configuration, port/foot drawings, net output, price and lead time still required.",
+   "sourceKeys": [
+    "durr",
+    "durr_core"
+   ],
+   "unitPriceUSD": null,
+   "availability": "Quote required"
+  },
+  {
+   "tag": "A02",
+   "group": "Air supply",
+   "name": "Single-phase-input variable-frequency drive",
+   "part": "Invertek Optidrive P2 ODP-2-32040-1KF4A-MN",
+   "trainQuantity": 1,
+   "quantityBasis": "One system; final configuration TBD",
+   "status": "Nominal electrical match; catalog enclosure installed",
+   "releaseHold": "200\u2013240V1phase33.2A input;4kW15.3A3phaseoutput. 230V motor requires adequate supply voltage. Generator, harmonic/start capacity, settings, environment and fixing pattern held.",
+   "sourceKeys": [
+    "invertek"
+   ],
+   "unitPriceUSD": null,
+   "availability": "Quote required"
+  },
+  {
+   "tag": "A03",
+   "group": "Air supply",
+   "name": "Treatment, fans, isolation, check/relief and controls",
+   "part": "Within coordinated A01 package",
+   "trainQuantity": null,
+   "quantityBasis": "Included scope; do not count a second complete package",
+   "status": "Package scope",
+   "releaseHold": "Supplier schedule must identify included items, purge, drains, relief settings and exhausts.",
+   "sourceKeys": [
+    "durr"
+   ],
+   "unitPriceUSD": null,
+   "availability": "Quote required"
+  },
+  {
+   "tag": "A04",
+   "group": "Reservoirs",
+   "name": "40 L air reservoir",
+   "part": "WABCO 9505400000",
+   "trainQuantity": 11,
+   "quantityBasis": "3 loco including 1 wet; 2 per coach \u00d74",
+   "status": "Catalog candidate",
+   "releaseHold": "M22\u00d71.5 location/sealing, mount and drain details, US supply. Protected pairs total 80 L per vehicle.",
+   "sourceKeys": [
+    "tank"
+   ],
+   "unitPriceUSD": null,
+   "availability": "Quote required"
+  },
+  {
+   "tag": "A05",
+   "group": "Brake controls",
+   "name": "Local charging / reserve protection",
+   "part": "Matched valve-module function",
+   "trainQuantity": 5,
+   "quantityBasis": "1 per vehicle",
+   "status": "Unselected",
+   "releaseHold": "FP loss must preserve local reserve; valve rating and charging/stop thresholds.",
+   "sourceKeys": [],
+   "unitPriceUSD": null,
+   "availability": "Quote required"
+  },
+  {
+   "tag": "A06",
+   "group": "Brake controls",
+   "name": "Automatic distributor / relay",
+   "part": "Configured Knorr KEf/KRf load-dependent rail-control family; order code TBD",
+   "trainQuantity": 4,
+   "quantityBasis": "4 coach reference modules; loco automatic/independent arrangement remains separate",
+   "status": "II93258 rejected as ready-to-install match",
+   "releaseHold": "Reference3.7265bar delivery/5.884bar feed and our80L reserve do not meet retained three-application screen. Obtain actual pressure/torque/load curve, reserve sizes and order code before physical installation.",
+   "sourceKeys": [
+    "knorr_config",
+    "knorr"
+   ],
+   "unitPriceUSD": null,
+   "availability": "Quote required"
+  },
+  {
+   "tag": "A07",
+   "group": "Brake controls",
+   "name": "Parking release / anti-compounding",
+   "part": "Matched valve-module function",
+   "trainQuantity": 5,
+   "quantityBasis": "1 functional package per vehicle",
+   "status": "Unselected",
+   "releaseHold": "Service/spring interaction, release volume, low pressure and manual release sequence.",
+   "sourceKeys": [],
+   "unitPriceUSD": null,
+   "availability": "Quote required"
+  },
+  {
+   "tag": "A08",
+   "group": "Brake controls",
+   "name": "Driver automatic / independent control",
+   "part": "Unselected brake controller",
+   "trainQuantity": 1,
+   "quantityBasis": "1 cab control system",
+   "status": "Unselected",
+   "releaseHold": "BP pressure schedule; independent loco control and emergency blending.",
+   "sourceKeys": [],
+   "unitPriceUSD": null,
+   "availability": "Quote required"
+  },
+  {
+   "tag": "A09",
+   "group": "Brake controls",
+   "name": "Fail-safe command, sensing and indication",
+   "part": "Traction inhibit / BP emergency vent / pressure monitoring",
+   "trainQuantity": 1,
+   "quantityBasis": "System scope; sensor/valve count TBD",
+   "status": "Unselected",
+   "releaseHold": "Power loss and separation response, alarm/stop thresholds and testing.",
+   "sourceKeys": [],
+   "unitPriceUSD": null,
+   "availability": "Quote required"
+  },
+  {
+   "tag": "A10",
+   "group": "Lines and hoses",
+   "name": "Intervehicle BP / FP connections",
+   "part": "Qualified train hose/coupling/cock assemblies",
+   "trainQuantity": 8,
+   "quantityBasis": "2 pipe crossings \u00d74 vehicle joints",
+   "status": "Unselected",
+   "releaseHold": "8 crossings, not 8 coupling halves; exact ends/cocks and tail termination TBD. Both train portions must apply on separation.",
+   "sourceKeys": [],
+   "unitPriceUSD": null,
+   "availability": "Quote required"
+  },
+  {
+   "tag": "A11",
+   "group": "Reservoirs",
+   "name": "Separate control reservoir",
+   "part": "6 L reference control chamber; vessel part TBD",
+   "trainQuantity": 4,
+   "quantityBasis": "Reference-only quantity; exact configured control may change",
+   "status": "Not selected or placed",
+   "releaseHold": "6L from superseded II93258 reference; not a selected vessel or extra service reserve.",
+   "sourceKeys": [
+    "knorr"
+   ],
+   "unitPriceUSD": null,
+   "availability": "Quote required"
+  },
+  {
+   "tag": "H01",
+   "group": "Lines and hoses",
+   "name": "Moving hose family",
+   "part": "Parker 271-6",
+   "trainQuantity": 64,
+   "quantityBasis": "16 moving hose assemblies per coach:8body/truck +8local;64across4coaches",
+   "status": "Moving route held for torsion",
+   "releaseHold": "Parker271-6 catalog45mmminradius. Rotated C57 curves retain51.83/66.68mmminimum sampled radii, but21.084\u00b0/14.488\u00b0clock mismatch is unresolved. Assembly swivels are not live joints. No hose order or cut lengths released.",
+   "sourceKeys": [
+    "parker"
+   ],
+   "unitPriceUSD": null,
+   "availability": "Quote required"
+  },
+  {
+   "tag": "H02",
+   "group": "Lines and hoses",
+   "name": "Chamber hose end",
+   "part": "Parker 10125-6-6B-VS",
+   "trainQuantity": 32,
+   "quantityBasis": "2 per coach chamber \u00d716; subject to approved port/assembly schedule",
+   "status": "Family matched; interface held",
+   "releaseHold": "3/8-18NPTF candidate. Physical 97/116 to cast 11/12 mapping and engagement open.",
+   "sourceKeys": [
+    "parker"
+   ],
+   "unitPriceUSD": null,
+   "availability": "Quote required"
+  },
+  {
+   "tag": "H03",
+   "group": "Lines and hoses",
+   "name": "Anchor hose end / adapter",
+   "part": "Parker 17B25-8-6B + 017M-6-8B",
+   "trainQuantity": null,
+   "quantityBasis": "Count after final branches and hose schedule",
+   "status": "Family matched; routing held",
+   "releaseHold": "Assembly swivel is not a live joint; exact crimp, supported lead and anchor hardware open.",
+   "sourceKeys": [
+    "parker"
+   ],
+   "unitPriceUSD": null,
+   "availability": "Quote required"
+  },
+  {
+   "tag": "H04",
+   "group": "Lines and hoses",
+   "name": "Fixed tubes, fittings and supports",
+   "part": "Bore/material/fitting schedule unselected",
+   "trainQuantity": null,
+   "quantityBasis": "Lengths from LT39 are inventory inputs, not cut lengths",
+   "status": "Unselected",
+   "releaseHold": "Additional fixed branches are nominal route reservations. Physical97/116 identity, actual tees, clamp positions, bores, engagement and support loads remain held.",
+   "sourceKeys": [],
+   "unitPriceUSD": null,
+   "availability": "Quote required"
+  }
+ ],
+ "serviceSpares": [
+  {
+   "part": "S-35210-6",
+   "contents": "8 rotor bolts",
+   "baseQuantity": 0,
+   "why": "Replacement option; B01 already includes fasteners."
+  },
+  {
+   "part": "S-33649-8",
+   "contents": "6 caliper bolts +6 washers",
+   "baseQuantity": 0,
+   "why": "For bare calipers or replacement; B02 kits include hardware."
+  },
+  {
+   "part": "S-33649-7",
+   "contents": "12 bolts +12 washers",
+   "baseQuantity": 0,
+   "why": "Alternative pack toS-33649-8; not additional."
+  },
+  {
+   "part": "S-32676-3 /6401759202",
+   "contents": "Plug, seal, boot",
+   "baseQuantity": 0,
+   "why": "Service spare; additional new-build need not established."
+  }
+ ],
+ "placements": [
+  {
+   "instance": "A04-LW",
+   "tag": "A04",
+   "modelId": "L37-AIR-WET",
+   "vehicle": "locomotive",
+   "centreMm": [
+    6500,
+    -580,
+    1850
+   ],
+   "envelopeMm": [
+    927,
+    246,
+    262
+   ],
+   "status": "Catalog tank envelope"
+  },
+  {
+   "instance": "A04-L1",
+   "tag": "A04",
+   "modelId": "L37-AIR-PROTECTED",
+   "vehicle": "locomotive",
+   "centreMm": [
+    5750,
+    580,
+    1850
+   ],
+   "envelopeMm": [
+    927,
+    246,
+    262
+   ],
+   "status": "Catalog tank envelope"
+  },
+  {
+   "instance": "A04-L2",
+   "tag": "A04",
+   "modelId": "L37-AIR-PROTECTED-2",
+   "vehicle": "locomotive",
+   "centreMm": [
+    7550,
+    580,
+    2200
+   ],
+   "envelopeMm": [
+    927,
+    246,
+    262
+   ],
+   "status": "Catalog tank envelope"
+  },
+  {
+   "instance": "A03-SPACE",
+   "tag": "A03",
+   "modelId": "L37-AIR-TREATMENT",
+   "vehicle": "locomotive",
+   "centreMm": [
+    5350,
+    -580,
+    2180
+   ],
+   "envelopeMm": [
+    300,
+    200,
+    320
+   ],
+   "status": "Unverified functional space; not OEM envelope"
+  },
+  {
+   "instance": "A05-L",
+   "tag": "A05",
+   "modelId": "L37-RESERVOIR-PROTECTION",
+   "vehicle": "locomotive",
+   "centreMm": [
+    5200,
+    0,
+    2200
+   ],
+   "envelopeMm": [
+    120,
+    180,
+    120
+   ],
+   "status": "Unverified functional space; not OEM envelope"
+  },
+  {
+   "instance": "A08-L",
+   "tag": "A08",
+   "modelId": "L37-BRAKE-CONTROL",
+   "vehicle": "locomotive",
+   "centreMm": [
+    8000,
+    0,
+    1800
+   ],
+   "envelopeMm": [
+    400,
+    500,
+    360
+   ],
+   "status": "Unverified functional space; not OEM envelope"
+  },
+  {
+   "instance": "A04-Cn1",
+   "tag": "A04",
+   "modelId": "L37-COACH-AIR",
+   "vehicle": "coach",
+   "centreMm": [
+    3700,
+    -300,
+    480
+   ],
+   "envelopeMm": [
+    927,
+    246,
+    262
+   ],
+   "status": "Catalog tank envelope"
+  },
+  {
+   "instance": "A04-Cn2",
+   "tag": "A04",
+   "modelId": "L37-COACH-AIR-2",
+   "vehicle": "coach",
+   "centreMm": [
+    3700,
+    300,
+    480
+   ],
+   "envelopeMm": [
+    927,
+    246,
+    262
+   ],
+   "status": "Catalog tank envelope"
+  },
+  {
+   "instance": "A06-SPACE",
+   "tag": "A06",
+   "modelId": "L37-COACH-BRAKE-CONTROL",
+   "vehicle": "coach",
+   "centreMm": [
+    4500,
+    0,
+    500
+   ],
+   "envelopeMm": [
+    300,
+    350,
+    230
+   ],
+   "status": "Unverified functional space; not OEM envelope"
+  },
+  {
+   "instance": "L41-EBULL",
+   "tag": "A01",
+   "modelId": "L41-EBULL",
+   "vehicle": "locomotive",
+   "centreMm": [
+    5325.0,
+    30.0,
+    1815.0
+   ],
+   "envelopeMm": [
+    533.0,
+    456,
+    221.0
+   ],
+   "status": "Exact catalog core/enclosure box, not complete package or approved mount"
+  },
+  {
+   "instance": "L41-VFD",
+   "tag": "A02",
+   "modelId": "L41-VFD",
+   "vehicle": "locomotive",
+   "centreMm": [
+    5550.0,
+    480.0,
+    2200.0
+   ],
+   "envelopeMm": [
+    211.0,
+    225.0,
+    309.9999999999998
+   ],
+   "status": "Exact catalog core/enclosure box, not complete package or approved mount"
+  }
+ ],
+ "interfaces": [
+  {
+   "id": "P-A",
+   "point_mm": [
+    4450,
+    -225,
+    2280
+   ],
+   "component": "LOCO-L25-PUMP",
+   "system": "hydraulic",
+   "definition": "A work port: ORB 1-5/16\u201312 study endcap",
+   "status": "Family definition; selected pump code/orientation pending"
+  },
+  {
+   "id": "P-B",
+   "point_mm": [
+    4600,
+    -225,
+    2180
+   ],
+   "component": "LOCO-L25-PUMP",
+   "system": "hydraulic",
+   "definition": "B work port: ORB 1-5/16\u201312 study endcap",
+   "status": "Family definition; selected pump code/orientation pending"
+  },
+  {
+   "id": "P-S",
+   "point_mm": [
+    4700,
+    225,
+    2100
+   ],
+   "component": "LOCO-L25-PUMP",
+   "system": "hydraulic",
+   "definition": "S charge inlet: ORB 1-5/16\u201312",
+   "status": "Family definition; selected pump code/orientation pending"
+  },
+  {
+   "id": "P-L",
+   "point_mm": [
+    4700,
+    0,
+    2385.244
+   ],
+   "component": "LOCO-L25-PUMP",
+   "system": "hydraulic",
+   "definition": "L2/L4 case drain: ORB 1-1/16\u201312; upper drain to be confirmed",
+   "status": "Family definition; selected pump code/orientation pending"
+  },
+  {
+   "id": "P-E",
+   "point_mm": [
+    4600,
+    225,
+    2260
+   ],
+   "component": "LOCO-L25-PUMP",
+   "system": "hydraulic",
+   "definition": "E charge-filter port: ORB 7/8\u201314",
+   "status": "Family definition; selected pump code/orientation pending"
+  },
+  {
+   "id": "P-F",
+   "point_mm": [
+    4450,
+    225,
+    2260
+   ],
+   "component": "LOCO-L25-PUMP",
+   "system": "hydraulic",
+   "definition": "F charge-filter port: ORB 7/8\u201314",
+   "status": "Family definition; selected pump code/orientation pending"
+  },
+  {
+   "id": "H-S",
+   "point_mm": [
+    6800,
+    300,
+    1650
+   ],
+   "component": "L37-HYD-TANK",
+   "system": "hydraulic",
+   "definition": "Charge suction outlet; internals and size pending"
+  },
+  {
+   "id": "H-D",
+   "point_mm": [
+    6680,
+    300,
+    2025
+   ],
+   "component": "L37-HYD-TANK",
+   "system": "hydraulic",
+   "definition": "Separate low-backpressure case-drain return"
+  },
+  {
+   "id": "H-L",
+   "point_mm": [
+    6800,
+    300,
+    2025
+   ],
+   "component": "L37-HYD-TANK",
+   "system": "hydraulic",
+   "definition": "Pump case return"
+  },
+  {
+   "id": "H-C",
+   "point_mm": [
+    6920,
+    300,
+    2025
+   ],
+   "component": "L37-HYD-TANK",
+   "system": "hydraulic",
+   "definition": "Conditioned return from unselected cooling module"
+  },
+  {
+   "id": "FILTER-E",
+   "point_mm": [
+    5050,
+    420,
+    2110
+   ],
+   "component": "L37-CHARGE-FILTER",
+   "system": "hydraulic",
+   "definition": "Charge filter E interface"
+  },
+  {
+   "id": "FILTER-F",
+   "point_mm": [
+    5050,
+    420,
+    1990
+   ],
+   "component": "L37-CHARGE-FILTER",
+   "system": "hydraulic",
+   "definition": "Charge filter F interface"
+  },
+  {
+   "id": "COMP-OUT",
+   "point_mm": [
+    5325,
+    -198,
+    1815
+   ],
+   "component": "L41-EBULL",
+   "system": "air",
+   "definition": "UNRESOLVED OEM DISCHARGE INTERFACE: geometric routing boundary on catalog envelope, not a located compressor port.",
+   "status": "Provisional system interface; valve logic/ratings pending"
+  },
+  {
+   "id": "DRY-IN",
+   "point_mm": [
+    5200,
+    -580,
+    2100
+   ],
+   "component": "L37-AIR-TREATMENT",
+   "system": "air",
+   "definition": "Dryer inlet",
+   "status": "Provisional system interface; valve logic/ratings pending"
+  },
+  {
+   "id": "DRY-OUT",
+   "point_mm": [
+    5500,
+    -580,
+    2100
+   ],
+   "component": "L37-AIR-TREATMENT",
+   "system": "air",
+   "definition": "Dryer/check-valve outlet",
+   "status": "Provisional system interface; valve logic/ratings pending"
+  },
+  {
+   "id": "WET-IN",
+   "point_mm": [
+    6036.5,
+    -580,
+    1850
+   ],
+   "component": "L37-AIR-WET",
+   "system": "air",
+   "definition": "Reservoir charging port; candidate M22\u00d71.5 tank interface, physical location pending",
+   "status": "Provisional system interface; valve logic/ratings pending"
+  },
+  {
+   "id": "WET-OUT",
+   "point_mm": [
+    6963.5,
+    -580,
+    1850
+   ],
+   "component": "L37-AIR-WET",
+   "system": "air",
+   "definition": "Wet reservoir outlet; candidate M22\u00d71.5 tank interface, physical location pending",
+   "status": "Provisional system interface; valve logic/ratings pending"
+  },
+  {
+   "id": "PROTECT-IN",
+   "point_mm": [
+    5200,
+    -90,
+    2200
+   ],
+   "component": "L37-RESERVOIR-PROTECTION",
+   "system": "air",
+   "definition": "Wet-air input",
+   "status": "Provisional system interface; valve logic/ratings pending"
+  },
+  {
+   "id": "PROTECT-OUT",
+   "point_mm": [
+    5200,
+    90,
+    2200
+   ],
+   "component": "L37-RESERVOIR-PROTECTION",
+   "system": "air",
+   "definition": "Protected output",
+   "status": "Provisional system interface; valve logic/ratings pending"
+  },
+  {
+   "id": "RES-IN",
+   "point_mm": [
+    5286.5,
+    580,
+    1850
+   ],
+   "component": "L37-AIR-PROTECTED",
+   "system": "air",
+   "definition": "Protected reservoir charging port; candidate M22\u00d71.5 tank interface, physical location pending",
+   "status": "Provisional system interface; valve logic/ratings pending"
+  },
+  {
+   "id": "RES-OUT",
+   "point_mm": [
+    6213.5,
+    580,
+    1850
+   ],
+   "component": "L37-AIR-PROTECTED",
+   "system": "air",
+   "definition": "Protected reserve outlet; candidate M22\u00d71.5 tank interface, physical location pending",
+   "status": "Provisional system interface; valve logic/ratings pending"
+  },
+  {
+   "id": "CTRL-SUP",
+   "point_mm": [
+    7800,
+    180,
+    1800
+   ],
+   "component": "L37-BRAKE-CONTROL",
+   "system": "air",
+   "definition": "Protected supply",
+   "status": "Provisional system interface; valve logic/ratings pending"
+  },
+  {
+   "id": "CTRL-BP",
+   "point_mm": [
+    8200,
+    -180,
+    1800
+   ],
+   "component": "L37-BRAKE-CONTROL",
+   "system": "air",
+   "definition": "Train brake-pipe output",
+   "status": "Provisional system interface; valve logic/ratings pending"
+  },
+  {
+   "id": "CTRL-FP",
+   "point_mm": [
+    8200,
+    -80,
+    1800
+   ],
+   "component": "L37-BRAKE-CONTROL",
+   "system": "air",
+   "definition": "Protected feed-pipe output",
+   "status": "Provisional system interface; valve logic/ratings pending"
+  },
+  {
+   "id": "CTRL-CMD",
+   "point_mm": [
+    8200,
+    -250,
+    1750
+   ],
+   "component": "L37-BRAKE-CONTROL",
+   "system": "air",
+   "definition": "Cab control interface",
+   "status": "Provisional system interface; valve logic/ratings pending"
+  },
+  {
+   "id": "CTRL-SERVICE",
+   "point_mm": [
+    7800,
+    250,
+    1750
+   ],
+   "component": "L37-BRAKE-CONTROL",
+   "system": "air",
+   "definition": "Independent locomotive service output",
+   "status": "Provisional system interface; valve logic/ratings pending"
+  },
+  {
+   "id": "CTRL-RELEASE",
+   "point_mm": [
+    7800,
+    250,
+    1850
+   ],
+   "component": "L37-BRAKE-CONTROL",
+   "system": "air",
+   "definition": "Independent spring-brake release output",
+   "status": "Provisional system interface; valve logic/ratings pending"
+  },
+  {
+   "id": "CAB-BP",
+   "point_mm": [
+    8300,
+    -760,
+    1740
+   ],
+   "component": "LOCO-CAB2-UNDERFLOOR-BP",
+   "system": "air",
+   "definition": "Existing C2 upstream endpoint"
+  },
+  {
+   "id": "CAB-FP",
+   "point_mm": [
+    8300,
+    -820,
+    1740
+   ],
+   "component": "LOCO-CAB2-UNDERFLOOR-FP",
+   "system": "air",
+   "definition": "Existing C2 upstream endpoint"
+  },
+  {
+   "id": "CAB-CONTROL",
+   "point_mm": [
+    9000,
+    -1165,
+    1630
+   ],
+   "component": "LOCO-CAB2-BRAKE-PORTS-2",
+   "system": "air",
+   "definition": "Retained cab command-route boundary"
+  },
+  {
+   "id": "CAB-ELECTRICAL",
+   "point_mm": [
+    9120,
+    -600,
+    1620
+   ],
+   "component": "LOCO-CAB2-ELECTRICAL-BOX",
+   "system": "electrical",
+   "definition": "Cable gland entry reservation"
+  },
+  {
+   "id": "FRONT-A-TEE",
+   "point_mm": [
+    3575,
+    -800,
+    1740
+   ],
+   "component": null,
+   "system": "hydraulic",
+   "definition": "Supported body branch junction",
+   "junction": true
+  },
+  {
+   "id": "FRONT-A-BODY",
+   "point_mm": [
+    3575,
+    -800,
+    1500
+   ],
+   "component": "L37-FRONT-A-BODY-BULKHEAD",
+   "system": "hydraulic",
+   "definition": "Body bulkhead fitting"
+  },
+  {
+   "id": "FRONT-A-TRUCK",
+   "point_mm": [
+    4074.47867776611,
+    -799.981244038254,
+    1141.4021146338698
+   ],
+   "component": "L37-FRONT-A-TRUCK-BULKHEAD",
+   "system": "hydraulic",
+   "definition": "Truck bulkhead fitting"
+  },
+  {
+   "id": "FRONT-A-END",
+   "point_mm": [
+    4005.5736293482914,
+    -230.68320580277722,
+    740.2140814576849
+   ],
+   "component": "LOCO-L18-FRONT-MOTOR-REAR",
+   "system": "hydraulic",
+   "definition": "Motor R/L: G3/4 BSP study; A/B-to-rotation mapping pending",
+   "status": "Installation coordinate / hardware boundary provisional"
+  },
+  {
+   "id": "REAR-A-TEE",
+   "point_mm": [
+    6775,
+    -800,
+    1740
+   ],
+   "component": null,
+   "system": "hydraulic",
+   "definition": "Supported body branch junction",
+   "junction": true
+  },
+  {
+   "id": "REAR-A-BODY",
+   "point_mm": [
+    6775,
+    -800,
+    1500
+   ],
+   "component": "L37-REAR-A-BODY-BULKHEAD",
+   "system": "hydraulic",
+   "definition": "Body bulkhead fitting"
+  },
+  {
+   "id": "REAR-A-TRUCK",
+   "point_mm": [
+    7274.47868492809,
+    -799.9812766246464,
+    1141.3998281351417
+   ],
+   "component": "L37-REAR-A-TRUCK-BULKHEAD",
+   "system": "hydraulic",
+   "definition": "Truck bulkhead fitting"
+  },
+  {
+   "id": "REAR-A-END",
+   "point_mm": [
+    7205.573629365799,
+    -230.68209225726136,
+    740.2134225870626
+   ],
+   "component": "LOCO-L18-REAR-MOTOR-REAR",
+   "system": "hydraulic",
+   "definition": "Motor R/L: G3/4 BSP study; A/B-to-rotation mapping pending",
+   "status": "Installation coordinate / hardware boundary provisional"
+  },
+  {
+   "id": "A-BODY-JUNCTION",
+   "point_mm": [
+    5100,
+    -800,
+    1740
+   ],
+   "component": null,
+   "system": "hydraulic",
+   "definition": "Supported body distribution junction",
+   "junction": true
+  },
+  {
+   "id": "FRONT-B-TEE",
+   "point_mm": [
+    3875,
+    -880,
+    1740
+   ],
+   "component": null,
+   "system": "hydraulic",
+   "definition": "Supported body branch junction",
+   "junction": true
+  },
+  {
+   "id": "FRONT-B-BODY",
+   "point_mm": [
+    3875,
+    -880,
+    1500
+   ],
+   "component": "L37-FRONT-B-BODY-BULKHEAD",
+   "system": "hydraulic",
+   "definition": "Body bulkhead fitting"
+  },
+  {
+   "id": "FRONT-B-TRUCK",
+   "point_mm": [
+    4374.477177119606,
+    -879.9811211576805,
+    1142.3613051923696
+   ],
+   "component": "L37-FRONT-B-TRUCK-BULKHEAD",
+   "system": "hydraulic",
+   "definition": "Truck bulkhead fitting"
+  },
+  {
+   "id": "FRONT-B-END",
+   "point_mm": [
+    4145.7915003643075,
+    -230.82342305086462,
+    660.5966902239898
+   ],
+   "component": "LOCO-L18-FRONT-MOTOR-REAR",
+   "system": "hydraulic",
+   "definition": "Motor R/L: G3/4 BSP study; A/B-to-rotation mapping pending",
+   "status": "Installation coordinate / hardware boundary provisional"
+  },
+  {
+   "id": "REAR-B-TEE",
+   "point_mm": [
+    7075,
+    -880,
+    1740
+   ],
+   "component": null,
+   "system": "hydraulic",
+   "definition": "Supported body branch junction",
+   "junction": true
+  },
+  {
+   "id": "REAR-B-BODY",
+   "point_mm": [
+    7075,
+    -880,
+    1500
+   ],
+   "component": "L37-REAR-B-BODY-BULKHEAD",
+   "system": "hydraulic",
+   "definition": "Body bulkhead fitting"
+  },
+  {
+   "id": "REAR-B-TRUCK",
+   "point_mm": [
+    7574.477184912255,
+    -879.9811541445152,
+    1142.3587880179161
+   ],
+   "component": "L37-REAR-B-TRUCK-BULKHEAD",
+   "system": "hydraulic",
+   "definition": "Truck bulkhead fitting"
+  },
+  {
+   "id": "REAR-B-END",
+   "point_mm": [
+    7345.791499846596,
+    -230.82208084959746,
+    660.5960300084021
+   ],
+   "component": "LOCO-L18-REAR-MOTOR-REAR",
+   "system": "hydraulic",
+   "definition": "Motor R/L: G3/4 BSP study; A/B-to-rotation mapping pending",
+   "status": "Installation coordinate / hardware boundary provisional"
+  },
+  {
+   "id": "B-BODY-JUNCTION",
+   "point_mm": [
+    5200,
+    -880,
+    1740
+   ],
+   "component": null,
+   "system": "hydraulic",
+   "definition": "Supported body distribution junction",
+   "junction": true
+  },
+  {
+   "id": "FRONT-CASE-TEE",
+   "point_mm": [
+    3425,
+    800,
+    1740
+   ],
+   "component": null,
+   "system": "hydraulic",
+   "definition": "Supported body branch junction",
+   "junction": true
+  },
+  {
+   "id": "FRONT-CASE-BODY",
+   "point_mm": [
+    3425,
+    800,
+    1500
+   ],
+   "component": "L37-FRONT-CASE-BODY-BULKHEAD",
+   "system": "hydraulic",
+   "definition": "Body bulkhead fitting"
+  },
+  {
+   "id": "FRONT-CASE-TRUCK",
+   "point_mm": [
+    3924.4868923160743,
+    800.0162983502759,
+    1138.1882932052786
+   ],
+   "component": "L37-FRONT-CASE-TRUCK-BULKHEAD",
+   "system": "hydraulic",
+   "definition": "Truck bulkhead fitting"
+  },
+  {
+   "id": "FRONT-CASE-END",
+   "point_mm": [
+    4075.464172169648,
+    -230.6130971787335,
+    780.4049648632156
+   ],
+   "component": "LOCO-L18-FRONT-MOTOR-REAR",
+   "system": "hydraulic",
+   "definition": "Motor case port 1 or 2: G3/8; upper port and 1 bar catalog limit require configured confirmation",
+   "status": "Installation coordinate / hardware boundary provisional"
+  },
+  {
+   "id": "REAR-CASE-TEE",
+   "point_mm": [
+    6625,
+    800,
+    1740
+   ],
+   "component": null,
+   "system": "hydraulic",
+   "definition": "Supported body branch junction",
+   "junction": true
+  },
+  {
+   "id": "REAR-CASE-BODY",
+   "point_mm": [
+    6625,
+    800,
+    1500
+   ],
+   "component": "L37-REAR-CASE-BODY-BULKHEAD",
+   "system": "hydraulic",
+   "definition": "Body bulkhead fitting"
+  },
+  {
+   "id": "REAR-CASE-TRUCK",
+   "point_mm": [
+    7124.486886972231,
+    800.0162737727305,
+    1138.1905808148988
+   ],
+   "component": "L37-REAR-CASE-TRUCK-BULKHEAD",
+   "system": "hydraulic",
+   "definition": "Truck bulkhead fitting"
+  },
+  {
+   "id": "REAR-CASE-END",
+   "point_mm": [
+    7275.464172457339,
+    -230.61209796109333,
+    780.4043057220226
+   ],
+   "component": "LOCO-L18-REAR-MOTOR-REAR",
+   "system": "hydraulic",
+   "definition": "Motor case port 1 or 2: G3/8; upper port and 1 bar catalog limit require configured confirmation",
+   "status": "Installation coordinate / hardware boundary provisional"
+  },
+  {
+   "id": "CASE-BODY-JUNCTION",
+   "point_mm": [
+    6200,
+    800,
+    1740
+   ],
+   "component": null,
+   "system": "hydraulic",
+   "definition": "Supported body distribution junction",
+   "junction": true
+  },
+  {
+   "id": "FRONT-SERVICE-TEE",
+   "point_mm": [
+    3625,
+    880,
+    1740
+   ],
+   "component": null,
+   "system": "air",
+   "definition": "Supported body branch junction",
+   "junction": true
+  },
+  {
+   "id": "FRONT-SERVICE-BODY",
+   "point_mm": [
+    3625,
+    880,
+    1500
+   ],
+   "component": "L37-FRONT-SERVICE-BODY-BULKHEAD",
+   "system": "air",
+   "definition": "Body bulkhead fitting"
+  },
+  {
+   "id": "FRONT-SERVICE-TRUCK",
+   "point_mm": [
+    4124.486529853166,
+    880.0161754697024,
+    1138.594059034933
+   ],
+   "component": "L37-FRONT-SERVICE-TRUCK-BULKHEAD",
+   "system": "air",
+   "definition": "Truck bulkhead fitting"
+  },
+  {
+   "id": "FRONT-SERVICE-END",
+   "point_mm": [
+    4494.975434202202,
+    649.7010399431546,
+    960.0081970479368
+   ],
+   "component": "L37-FRONT-BRAKE-INTERFACE",
+   "system": "air",
+   "definition": "Unselected locomotive brake package SERVICE boundary",
+   "status": "Installation coordinate / hardware boundary provisional"
+  },
+  {
+   "id": "REAR-SERVICE-TEE",
+   "point_mm": [
+    6825,
+    880,
+    1740
+   ],
+   "component": null,
+   "system": "air",
+   "definition": "Supported body branch junction",
+   "junction": true
+  },
+  {
+   "id": "REAR-SERVICE-BODY",
+   "point_mm": [
+    6825,
+    880,
+    1500
+   ],
+   "component": "L37-REAR-SERVICE-BODY-BULKHEAD",
+   "system": "air",
+   "definition": "Body bulkhead fitting"
+  },
+  {
+   "id": "REAR-SERVICE-TRUCK",
+   "point_mm": [
+    7324.486523887847,
+    880.0161512925994,
+    1138.596573952231
+   ],
+   "component": "L37-REAR-SERVICE-TRUCK-BULKHEAD",
+   "system": "air",
+   "definition": "Truck bulkhead fitting"
+  },
+  {
+   "id": "REAR-SERVICE-END",
+   "point_mm": [
+    7694.975428830968,
+    649.7015290902201,
+    960.0100511857496
+   ],
+   "component": "L37-REAR-BRAKE-INTERFACE",
+   "system": "air",
+   "definition": "Unselected locomotive brake package SERVICE boundary",
+   "status": "Installation coordinate / hardware boundary provisional"
+  },
+  {
+   "id": "SERVICE-BODY-JUNCTION",
+   "point_mm": [
+    6500,
+    880,
+    1740
+   ],
+   "component": null,
+   "system": "air",
+   "definition": "Supported body distribution junction",
+   "junction": true
+  },
+  {
+   "id": "FRONT-RELEASE-TEE",
+   "point_mm": [
+    3825,
+    960,
+    1740
+   ],
+   "component": null,
+   "system": "air",
+   "definition": "Supported body branch junction",
+   "junction": true
+  },
+  {
+   "id": "FRONT-RELEASE-BODY",
+   "point_mm": [
+    3825,
+    960,
+    1500
+   ],
+   "component": "L37-FRONT-RELEASE-BODY-BULKHEAD",
+   "system": "air",
+   "definition": "Body bulkhead fitting"
+  },
+  {
+   "id": "FRONT-RELEASE-TRUCK",
+   "point_mm": [
+    4324.486167390258,
+    960.0160525891289,
+    1138.9998248645875
+   ],
+   "component": "L37-FRONT-RELEASE-TRUCK-BULKHEAD",
+   "system": "air",
+   "definition": "Truck bulkhead fitting"
+  },
+  {
+   "id": "FRONT-RELEASE-END",
+   "point_mm": [
+    4495.193826888854,
+    649.5608226950671,
+    880.0086180255586
+   ],
+   "component": "L37-FRONT-BRAKE-INTERFACE",
+   "system": "air",
+   "definition": "Unselected locomotive brake package RELEASE boundary",
+   "status": "Installation coordinate / hardware boundary provisional"
+  },
+  {
+   "id": "REAR-RELEASE-TEE",
+   "point_mm": [
+    7025,
+    960,
+    1740
+   ],
+   "component": null,
+   "system": "air",
+   "definition": "Supported body branch junction",
+   "junction": true
+  },
+  {
+   "id": "REAR-RELEASE-BODY",
+   "point_mm": [
+    7025,
+    960,
+    1500
+   ],
+   "component": "L37-REAR-RELEASE-BODY-BULKHEAD",
+   "system": "air",
+   "definition": "Body bulkhead fitting"
+  },
+  {
+   "id": "REAR-RELEASE-TRUCK",
+   "point_mm": [
+    7524.486160803464,
+    960.0160288124682,
+    1139.0025670895632
+   ],
+   "component": "L37-REAR-RELEASE-TRUCK-BULKHEAD",
+   "system": "air",
+   "definition": "Truck bulkhead fitting"
+  },
+  {
+   "id": "REAR-RELEASE-END",
+   "point_mm": [
+    7695.193820979825,
+    649.561540497884,
+    880.0104717614593
+   ],
+   "component": "L37-REAR-BRAKE-INTERFACE",
+   "system": "air",
+   "definition": "Unselected locomotive brake package RELEASE boundary",
+   "status": "Installation coordinate / hardware boundary provisional"
+  },
+  {
+   "id": "RELEASE-BODY-JUNCTION",
+   "point_mm": [
+    6600,
+    960,
+    1740
+   ],
+   "component": null,
+   "system": "air",
+   "definition": "Supported body distribution junction",
+   "junction": true
+  },
+  {
+   "id": "FRONT-WIRE-TEE",
+   "point_mm": [
+    4025,
+    1040,
+    1740
+   ],
+   "component": null,
+   "system": "electrical",
+   "definition": "Supported body branch junction",
+   "junction": true
+  },
+  {
+   "id": "FRONT-WIRE-BODY",
+   "point_mm": [
+    4025,
+    1040,
+    1500
+   ],
+   "component": "L37-FRONT-WIRE-BODY-BULKHEAD",
+   "system": "electrical",
+   "definition": "Body bulkhead fitting"
+  },
+  {
+   "id": "FRONT-WIRE-TRUCK",
+   "point_mm": [
+    4524.48580492735,
+    1040.0159297085552,
+    1139.4055906942422
+   ],
+   "component": "L37-FRONT-WIRE-TRUCK-BULKHEAD",
+   "system": "electrical",
+   "definition": "Truck bulkhead fitting"
+  },
+  {
+   "id": "FRONT-WIRE-END",
+   "point_mm": [
+    4494.7570415155515,
+    649.8412571912419,
+    1040.0077760703152
+   ],
+   "component": "L37-FRONT-ELECTRICAL-INTERFACE",
+   "system": "electrical",
+   "definition": "Truck device connector boundary",
+   "status": "Installation coordinate / hardware boundary provisional"
+  },
+  {
+   "id": "REAR-WIRE-TEE",
+   "point_mm": [
+    7225,
+    1040,
+    1740
+   ],
+   "component": null,
+   "system": "electrical",
+   "definition": "Supported body branch junction",
+   "junction": true
+  },
+  {
+   "id": "REAR-WIRE-BODY",
+   "point_mm": [
+    7225,
+    1040,
+    1500
+   ],
+   "component": "L37-REAR-WIRE-BODY-BULKHEAD",
+   "system": "electrical",
+   "definition": "Body bulkhead fitting"
+  },
+  {
+   "id": "REAR-WIRE-TRUCK",
+   "point_mm": [
+    7724.48579771908,
+    1040.015906332337,
+    1139.4085602268954
+   ],
+   "component": "L37-REAR-WIRE-TRUCK-BULKHEAD",
+   "system": "electrical",
+   "definition": "Truck bulkhead fitting"
+  },
+  {
+   "id": "REAR-WIRE-END",
+   "point_mm": [
+    7694.75703668211,
+    649.8415176825562,
+    1040.00963061004
+   ],
+   "component": "L37-REAR-ELECTRICAL-INTERFACE",
+   "system": "electrical",
+   "definition": "Truck device connector boundary",
+   "status": "Installation coordinate / hardware boundary provisional"
+  },
+  {
+   "id": "WIRE-BODY-JUNCTION",
+   "point_mm": [
+    6900,
+    1040,
+    1740
+   ],
+   "component": null,
+   "system": "electrical",
+   "definition": "Supported body distribution junction",
+   "junction": true
+  },
+  {
+   "id": "F-S",
+   "point_mm": [
+    5850,
+    -250,
+    1650
+   ],
+   "component": "L37-FUEL-TANK",
+   "system": "fuel",
+   "definition": "Fuel outlet with shutoff",
+   "status": "Engine connection and tank hardware unselected"
+  },
+  {
+   "id": "F-R",
+   "point_mm": [
+    6300,
+    0,
+    2050
+   ],
+   "component": "L37-FUEL-TANK",
+   "system": "fuel",
+   "definition": "Fuel return",
+   "status": "Engine connection and tank hardware unselected"
+  },
+  {
+   "id": "F-FILL",
+   "point_mm": [
+    6150,
+    0,
+    2050
+   ],
+   "component": "L37-FUEL-TANK",
+   "system": "fuel",
+   "definition": "Fill neck",
+   "status": "Engine connection and tank hardware unselected"
+  },
+  {
+   "id": "F-VENT",
+   "point_mm": [
+    6350,
+    0,
+    2050
+   ],
+   "component": "L37-FUEL-TANK",
+   "system": "fuel",
+   "definition": "Dedicated tank vent",
+   "status": "Engine connection and tank hardware unselected"
+  },
+  {
+   "id": "F-FILTER-IN",
+   "point_mm": [
+    5740,
+    -300,
+    1900
+   ],
+   "component": "L37-FUEL-FILTER",
+   "system": "fuel",
+   "definition": "Separator inlet",
+   "status": "Engine connection and tank hardware unselected"
+  },
+  {
+   "id": "F-FILTER-OUT",
+   "point_mm": [
+    5560,
+    -300,
+    1900
+   ],
+   "component": "L37-FUEL-FILTER",
+   "system": "fuel",
+   "definition": "Filtered fuel outlet",
+   "status": "Engine connection and tank hardware unselected"
+  },
+  {
+   "id": "ENGINE-FEED",
+   "point_mm": [
+    3700,
+    -250,
+    2100
+   ],
+   "component": "LOCO-L25-ENGINE",
+   "system": "fuel",
+   "definition": "Engine fuel inlet location provisional",
+   "status": "Engine connection and tank hardware unselected"
+  },
+  {
+   "id": "ENGINE-RETURN",
+   "point_mm": [
+    3850,
+    -250,
+    2150
+   ],
+   "component": "LOCO-L25-ENGINE",
+   "system": "fuel",
+   "definition": "Engine return location provisional",
+   "status": "Engine connection and tank hardware unselected"
+  },
+  {
+   "id": "FILL-CAP",
+   "point_mm": [
+    6150,
+    900,
+    2250
+   ],
+   "component": "L37-FILL-CAP",
+   "system": "fuel",
+   "definition": "Exterior fill cap / containment interface",
+   "status": "Engine connection and tank hardware unselected"
+  },
+  {
+   "id": "VENT-CAP",
+   "point_mm": [
+    6350,
+    900,
+    2370
+   ],
+   "component": "L37-VENT-CAP",
+   "system": "fuel",
+   "definition": "Exterior weather-protected vent termination; spill/rollover provision unselected",
+   "status": "Engine connection and tank hardware unselected"
+  },
+  {
+   "id": "C-BP",
+   "point_mm": [
+    12380,
+    -350,
+    1100
+   ],
+   "component": "L32-BP-COACH-TAIL",
+   "system": "air",
+   "definition": "Existing coach BP tail",
+   "coach_local_mm": [
+    -1013.8,
+    -350,
+    1100
+   ]
+  },
+  {
+   "id": "C-FP",
+   "point_mm": [
+    12380,
+    350,
+    1100
+   ],
+   "component": "L32-FP-COACH-TAIL",
+   "system": "air",
+   "definition": "Existing coach FP tail",
+   "coach_local_mm": [
+    -1013.8,
+    350,
+    1100
+   ]
+  },
+  {
+   "id": "C-MOD-BP",
+   "point_mm": [
+    17743.8,
+    -100,
+    500
+   ],
+   "component": "L37-COACH-BRAKE-CONTROL",
+   "system": "air",
+   "definition": "BP control input",
+   "coach_local_mm": [
+    4350,
+    -100,
+    500
+   ]
+  },
+  {
+   "id": "C-MOD-FP",
+   "point_mm": [
+    17743.8,
+    100,
+    500
+   ],
+   "component": "L37-COACH-BRAKE-CONTROL",
+   "system": "air",
+   "definition": "FP charging / protection input",
+   "coach_local_mm": [
+    4350,
+    100,
+    500
+   ]
+  },
+  {
+   "id": "C-RES-IN",
+   "point_mm": [
+    16573.8,
+    0,
+    480
+   ],
+   "component": null,
+   "system": "air",
+   "definition": "Coach reservoir manifold junction, common to both 40 L tanks",
+   "coach_local_mm": [
+    3536.95,
+    0,
+    480
+   ],
+   "junction": true
+  },
+  {
+   "id": "C-RES-OUT",
+   "point_mm": [
+    17593.8,
+    0,
+    480
+   ],
+   "component": null,
+   "system": "air",
+   "definition": "Coach reservoir manifold junction, common to both 40 L tanks",
+   "coach_local_mm": [
+    4235.45,
+    0,
+    480
+   ],
+   "junction": true
+  },
+  {
+   "id": "C-MOD-SUP",
+   "point_mm": [
+    17743.8,
+    0,
+    500
+   ],
+   "component": "L37-COACH-BRAKE-CONTROL",
+   "system": "air",
+   "definition": "Module reservoir supply",
+   "coach_local_mm": [
+    4350,
+    0,
+    500
+   ]
+  },
+  {
+   "id": "C-CHARGE",
+   "point_mm": [
+    17893.8,
+    175,
+    500
+   ],
+   "component": "L37-COACH-BRAKE-CONTROL",
+   "system": "air",
+   "definition": "Protected reservoir charging outlet",
+   "coach_local_mm": [
+    4500,
+    175,
+    500
+   ]
+  },
+  {
+   "id": "C-SERVICE",
+   "point_mm": [
+    18043.8,
+    -90,
+    500
+   ],
+   "component": "L37-COACH-BRAKE-CONTROL",
+   "system": "air",
+   "definition": "Service output",
+   "coach_local_mm": [
+    4650,
+    -90,
+    500
+   ]
+  },
+  {
+   "id": "C-RELEASE",
+   "point_mm": [
+    18043.8,
+    90,
+    500
+   ],
+   "component": "L37-COACH-BRAKE-CONTROL",
+   "system": "air",
+   "definition": "Parking release output",
+   "coach_local_mm": [
+    4650,
+    90,
+    500
+   ]
+  },
+  {
+   "id": "C-SERVICE-MAPPING",
+   "point_mm": [
+    18193.8,
+    -90,
+    500
+   ],
+   "component": "L37-COACH-MAPPING",
+   "system": "air",
+   "definition": "OEM cast port 11 service functional boundary; C57 physical station97/116 mapping unresolved",
+   "status": "STOP: identity confirmation required"
+  },
+  {
+   "id": "C-RELEASE-MAPPING",
+   "point_mm": [
+    18193.8,
+    90,
+    500
+   ],
+   "component": "L37-COACH-MAPPING",
+   "system": "air",
+   "definition": "OEM cast port 12 spring release functional boundary; C57 physical station97/116 mapping unresolved",
+   "status": "STOP: identity confirmation required"
+  },
+  {
+   "id": "C-PHYSICAL-97-JUNCTION",
+   "point_mm": [
+    18353.8,
+    -150,
+    600
+   ],
+   "component": null,
+   "system": "air",
+   "definition": "Same physical station branch junction",
+   "junction": true
+  },
+  {
+   "id": "C-PHYSICAL-97-MAP",
+   "point_mm": [
+    18353.8,
+    -150,
+    500
+   ],
+   "component": "L37-COACH-MAPPING",
+   "system": "air",
+   "definition": "Unassigned physical circuit to station 97",
+   "status": "Physical identity circuit only; service/release mapping NOT made"
+  },
+  {
+   "id": "C-FRONT-97-SOURCE",
+   "point_mm": [
+    15084.074,
+    -150,
+    740
+   ],
+   "component": "COACH-FRONT-C57-SUPPLY-BODY-207ACBH-PORT97",
+   "system": "air",
+   "definition": "C57 body bulkhead upstream face; axial station 97 does not prove cast port identity"
+  },
+  {
+   "id": "C-REAR-97-SOURCE",
+   "point_mm": [
+    20570.474000000002,
+    -150,
+    740
+   ],
+   "component": "COACH-REAR-C57-SUPPLY-BODY-207ACBH-PORT97",
+   "system": "air",
+   "definition": "C57 body bulkhead upstream face; axial station 97 does not prove cast port identity"
+  },
+  {
+   "id": "C-PHYSICAL-116-JUNCTION",
+   "point_mm": [
+    18473.8,
+    -215,
+    560
+   ],
+   "component": null,
+   "system": "air",
+   "definition": "Same physical station branch junction",
+   "junction": true
+  },
+  {
+   "id": "C-PHYSICAL-116-MAP",
+   "point_mm": [
+    18353.8,
+    -215,
+    500
+   ],
+   "component": "L37-COACH-MAPPING",
+   "system": "air",
+   "definition": "Unassigned physical circuit to station 116",
+   "status": "Physical identity circuit only; service/release mapping NOT made"
+  },
+  {
+   "id": "C-FRONT-116-SOURCE",
+   "point_mm": [
+    15084.074,
+    -215,
+    740
+   ],
+   "component": "COACH-FRONT-C57-SUPPLY-BODY-207ACBH-PORT116",
+   "system": "air",
+   "definition": "C57 body bulkhead upstream face; axial station 116 does not prove cast port identity"
+  },
+  {
+   "id": "C-REAR-116-SOURCE",
+   "point_mm": [
+    20570.474000000002,
+    -215,
+    740
+   ],
+   "component": "COACH-REAR-C57-SUPPLY-BODY-207ACBH-PORT116",
+   "system": "air",
+   "definition": "C57 body bulkhead upstream face; axial station 116 does not prove cast port identity"
+  },
+  {
+   "id": "CAB-SAFETY",
+   "point_mm": [
+    9120,
+    -600,
+    1570
+   ],
+   "component": "LOCO-CAB2-SAFETY-3",
+   "system": "electrical",
+   "definition": "Existing cab loom end"
+  },
+  {
+   "id": "CAB-STAND",
+   "point_mm": [
+    9120,
+    -600,
+    1600
+   ],
+   "component": "LOCO-CAB2-STAND-LOOM-2",
+   "system": "electrical",
+   "definition": "Existing cab loom end"
+  },
+  {
+   "id": "C-TANK1-IN",
+   "point_mm": [
+    16630.3,
+    -300,
+    480
+   ],
+   "component": "L37-COACH-AIR",
+   "system": "air",
+   "definition": "M22\u00d71.5 candidate interface; exact fitting and port position pending"
+  },
+  {
+   "id": "C-TANK1-OUT",
+   "point_mm": [
+    17557.3,
+    -300,
+    480
+   ],
+   "component": "L37-COACH-AIR",
+   "system": "air",
+   "definition": "M22\u00d71.5 candidate interface; exact fitting and port position pending"
+  },
+  {
+   "id": "C-TANK2-IN",
+   "point_mm": [
+    16630.3,
+    300,
+    480
+   ],
+   "component": "L37-COACH-AIR-2",
+   "system": "air",
+   "definition": "M22\u00d71.5 candidate interface; exact fitting and port position pending"
+  },
+  {
+   "id": "C-TANK2-OUT",
+   "point_mm": [
+    17557.3,
+    300,
+    480
+   ],
+   "component": "L37-COACH-AIR-2",
+   "system": "air",
+   "definition": "M22\u00d71.5 candidate interface; exact fitting and port position pending"
+  },
+  {
+   "id": "RES2-IN",
+   "point_mm": [
+    7086.5,
+    580,
+    2200
+   ],
+   "component": "L37-AIR-PROTECTED-2",
+   "system": "air",
+   "definition": "M22\u00d71.5 candidate interface; exact fitting and port position pending"
+  },
+  {
+   "id": "L41-FRONT-97-BRANCH-SOURCE",
+   "point_mm": [
+    13989.526,
+    150,
+    740
+   ],
+   "component": "L41-FRONT-AXLE1-SUPPLY-BODY-207ACBH-PORT97",
+   "system": "air",
+   "junction": false,
+   "definition": "Physical 97 feed face; service/release identity not confirmed."
+  },
+  {
+   "id": "L41-FRONT-97-BRANCH-JUNCTION",
+   "point_mm": [
+    15643.8,
+    30,
+    600
+   ],
+   "component": null,
+   "system": "air",
+   "junction": true,
+   "definition": "Tee boundary on retained fixed physical 97 run; exact fitting held."
+  },
+  {
+   "id": "L41-FRONT-116-BRANCH-SOURCE",
+   "point_mm": [
+    13989.526,
+    215,
+    740
+   ],
+   "component": "L41-FRONT-AXLE1-SUPPLY-BODY-207ACBH-PORT116",
+   "system": "air",
+   "junction": false,
+   "definition": "Physical 116 feed face; service/release identity not confirmed."
+  },
+  {
+   "id": "L41-FRONT-116-BRANCH-JUNCTION",
+   "point_mm": [
+    15643.8,
+    -30,
+    560
+   ],
+   "component": null,
+   "system": "air",
+   "junction": true,
+   "definition": "Tee boundary on retained fixed physical 116 run; exact fitting held."
+  },
+  {
+   "id": "L41-REAR-97-BRANCH-SOURCE",
+   "point_mm": [
+    19475.926,
+    150,
+    740
+   ],
+   "component": "L41-REAR-AXLE1-SUPPLY-BODY-207ACBH-PORT97",
+   "system": "air",
+   "junction": false,
+   "definition": "Physical 97 feed face; service/release identity not confirmed."
+  },
+  {
+   "id": "L41-REAR-97-BRANCH-JUNCTION",
+   "point_mm": [
+    18893.8,
+    30,
+    600
+   ],
+   "component": null,
+   "system": "air",
+   "junction": true,
+   "definition": "Tee boundary on retained fixed physical 97 run; exact fitting held."
+  },
+  {
+   "id": "L41-REAR-116-BRANCH-SOURCE",
+   "point_mm": [
+    19475.926,
+    215,
+    740
+   ],
+   "component": "L41-REAR-AXLE1-SUPPLY-BODY-207ACBH-PORT116",
+   "system": "air",
+   "junction": false,
+   "definition": "Physical 116 feed face; service/release identity not confirmed."
+  },
+  {
+   "id": "L41-REAR-116-BRANCH-JUNCTION",
+   "point_mm": [
+    19243.8,
+    -30,
+    560
+   ],
+   "component": null,
+   "system": "air",
+   "junction": true,
+   "definition": "Tee boundary on retained fixed physical 116 run; exact fitting held."
+  }
+ ],
+ "sources": {
+  "hendrickson": {
+   "title": "Hendrickson L949 Rev T, pp11\u201313,15,28",
+   "url": "https://hencdn.com/getattachment/54c582a0-10e2-4fe2-9e8f-f4e33f9fccb4/L949.pdf"
+  },
+  "chamber": {
+   "title": "Hendrickson legacy chamber schedule, p363",
+   "url": "https://digital.hendrickson-intl.com/view/513311/365/"
+  },
+  "rotor_price": {
+   "title": "FinditParts S-33391 listing",
+   "url": "https://www.finditparts.com/products/12017291/hendrickson-s-33391"
+  },
+  "pad_price": {
+   "title": "AnythingTruck S-41159-1 listing",
+   "url": "https://www.anythingtruck.com/product/356-S411591.html"
+  },
+  "parker": {
+   "title": "Parker 271 / 25-series bulletin",
+   "url": "https://www.parker.com/content/dam/Parker-com/Literature/Hose-Products-Division/4480_b121-1-.pdf"
+  },
+  "knorr": {
+   "title": "Indian Railways Knorr handbook, printed pp3,15\u201318,40\u201341",
+   "url": "https://rdso.indianrailways.gov.in/uploads/Axle%20mounted%20Disc%20Brake%20system.pdf"
+  },
+  "durr": {
+   "title": "D\u00fcrr E-Bull Rail System",
+   "url": "https://duerr-technik.com/us/products/compressor-systems/main-air-supply-system-e-bull-rail-system/"
+  },
+  "durr_core": {
+   "title": "D\u00fcrr core reference",
+   "url": "https://duerr-technik.com/en/e-bull/1037800300-230-60"
+  },
+  "durr_us": {
+   "title": "D\u00fcrr Technik USA contact",
+   "url": "https://durrtechnikusa.com/contact-persons.html"
+  },
+  "tank": {
+   "title": "WABCO 9505400000 catalog",
+   "url": "https://www.wabco-customercentre.com/catalog/en_AU/9505400000"
+  },
+  "hendrickson_family": {
+   "title": "Hendrickson L809 RevAA, PAN17 application family",
+   "url": "https://www.hendrickson-intl.com/getattachment/36ffdb18-36c7-475f-8ea2-678622429db5/L809.pdf"
+  },
+  "invertek": {
+   "title": "Invertek exact P2 drive datasheet",
+   "url": "https://www.invertekdrives.com/variable-frequency-drives/datasheets/ODP-2-32040-1KF4A-MN"
+  },
+  "knorr_config": {
+   "title": "Knorr KEf/KRf configured rail distributor families",
+   "url": "https://rail.knorr-bremse.com/en/br/stories/technical-articles/distributor-valves/"
+  },
+  "actuator": {
+   "title": "WABCO9253800240 catalog",
+   "url": "https://www.wabco-customercentre.com/catalog/en_US/9253800240"
+  },
+  "parker_safety": {
+   "title": "Parker hose safety guide, installation twist requirements",
+   "url": "https://www.parker.com/content/dam/Parker-com/Literature/Hose-Products-Division/4480_t28-1-.pdf"
+  },
+  "ebull_system": {
+   "title": "D\u00fcrr E-Bull Rail System delivery and scope",
+   "url": "https://duerr-technik.com/en/products/compressor-systems/main-air-supply-system-e-bull-rail-system/"
+  }
+ },
+ "partialPrice": {
+  "rotorsAndPadsUSD": null,
+  "excludes": "Calipers,chambers,custom hardware,air equipment,hoses,shipping,tax. Not a system quote.",
+  "checkedDate": "2026-10-23"
+ },
+ "controlReference": {
+  "module": "II93258",
+  "BPbarg": 4.903325,
+  "FPbarg": 5.88399,
+  "maximumServiceBarg": 3.726527,
+  "coachControlReservoirL": 6,
+  "addedFourCoachTankVolumeL": 24,
+  "conditionalTotalTankVolumeL": 464,
+  "additionalColdChargeReferenceL": 117.6798,
+  "illustrativeTankAndControlChargeMinutes": 17.35182893617021,
+  "unresolved": "Loco control reservoir, full piping, release air, purge, thermal effects and reference-pressure compatibility."
+ },
+ "geometryStatus": "Four development brake stations on the first displayed coach; additional keyed axles. Exact E-Bull core and P2 catalog boxes replace obsolete compressor space. OEM mounts, complete treatment, controls and generator remain held.",
+ "analysis": "analysis.json",
+ "installation": "installation.json",
+ "supplierStatus": [
+  {
+   "date": "2026-10-23",
+   "supplier": "Webb",
+   "result": "Confirms existing325mmPAN17rotor and cross-references; declines caliper/pad/custom-application approval."
+  },
+  {
+   "date": "2026-10-22",
+   "supplier": "ZF/WABCO",
+   "result": "Request routed to account contact. No new torque, force/stroke, port map or application acceptance."
+  }
+ ],
+ "release": {
+  "purchase": false,
+  "fabrication": false,
+  "operation": false
+ }
+}

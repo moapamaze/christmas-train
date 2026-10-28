@@ -1,0 +1,47 @@
+Bearing-end engineering review · CW3
+CW3-R0 · SEPARATE ENGINEERING
+Bearing-end checks and release conditions
+Return to drawings and CAD →
+Scope and interfaces
+CW3 replaces the bearing ends in the connected-coach assembly. Wheel centres, wheel blanks, bearing centres, brake keyway and 1330 mm axle length are retained. CW1/CW2 remain historical review records; their old unpiloted spacer and seal opening are superseded by CW3. The longitudinal wheel-seat transitions remain unreleased.
+The bearing shoulder has a proposed R1.5 fillet, within the catalog maximum of 2 mm. This establishes geometry only; it does not prove axle fatigue strength. The custom Ø86 relief is deeper than the basic M90×2 thread root, so the shop and axle engineer must justify or revise it.
+Spacer centering and retention
+Proposed Ø90 g6 pilot limits are 89.966–89.988 mm; Ø90 H7 spacer-bore limits are 90.000–90.035 mm. Diametral clearance is 0.012–0.069 mm, with maximum radial freedom 0.0345 mm. These limits apply only to spacer centering. They do not select the bearing journal’s interference. Two millimetres of nominal pilot length, with proposed edge breaks no greater than 0.2 mm, must retain at least 1.6 mm effective engagement.
+The bearing remains at Y600–640. The spacer occupies 640–645; MB18 occupies 645–646.75; KM18 occupies 646.75–662.75. Full-form thread must cover the nut’s working span after actual chamfers and stack tolerances are considered. The 2.25 mm nominal end reserve is not proof of adequate thread engagement. Shaft thread class M90×2-6g follows SKF’s mating-thread guidance; torque, axial clamp force and material strength are not yet released.
+The washer slot starts at Y645, with nominal width 10.4 and floor radius 41 from the axle axis. Against the nominal MB18 tab this gives 0.2 mm per-side and 0.5 mm radial clearance. The slot must not enter the pilot or bearing journal. The CAD has a schematic closed termination; its manufacturing process, corner radii, deburring and fatigue treatment remain explicit holds.
+Combined movement checks
+The existing C5 support examples reach approximately ±1.74844° between axle and bearing housing. CW3 screens a rounded ±2° development envelope combined with −3, 0 and +3 mm axial displacement. This is not a selected operating limit. Both ends use mirrored parts; the locating end is conservatively screened with the same axial movement.
+Exact CAD distance and intersection checks sample nine combinations of angle and float. No overlap was found in the tested pairs. The bearing internals are schematic; the following results do not certify the real cage, seals, or a complete moving bogie.
+ | Checked pair
+ | Smallest sampled CAD gap, mm
+ | cover vs shaft
+ | 3.940
+ | cover vs flinger
+ | 1.219
+ | cover vs wheel
+ | 8.545
+ | outer cap vs AXLE1
+ | 5.457
+ | outer cap vs A1R-KM18
+ | 7.189
+ | outer cap vs A1R-MB18
+ | 16.255
+Intended shaft/spacer and shaft/locking-hardware contacts show zero nominal clearance without solid overlap; thread helices are not modeled. A separate conservative arithmetic screen reserves an illustrative 0.5 mm combined error: front barrel radial clearance is about 0.86 mm, and disc-front clearance and rear cup overlap are about 0.7 mm. This 0.5 mm reserve is not an approved tolerance stack.
+Seal geometry and limitations
+The flinger disc was reduced to Ø132 ×2 at Y583.5–585.5 to preserve both front clearance and circumferential cup overlap in the combined study. The cup ends at Y592 to stay clear of a conservative tilted bearing-front envelope. A rear closure plate was omitted because it could approach the bearing’s cage and inner components.
+This is a proposed grease labyrinth and flinger, not a purchased qualified seal. Controlled interference must retain the flinger against creep without overstressing its thin barrel; shaft and ring materials, temperatures, finish and limit sizes must be specified. Its installation position and extraction tooling need positive inspection controls. The 2 mm flange also needs manufacturing and handling review.
+Proposed grease flow is from an M6×1 inlet in the blind outer cap, through the bearing region and outward through the labyrinth toward the wheel. The CAD represents a tap-drill opening, not a selected nipple. SKF’s LAGN 120 assortment includes M6×1 fittings, but the exact fitting, dust cap, grease, fill quantity, purge pressure and maintenance interval remain unselected. Grease must not be forced into a blocked cavity. Seal testing must address dust, rain, washing and grease migration toward the brake.
+Static cover joints require a specified face sealant and flatness/finish controls. A thick gasket cannot be added without revising the axial stack. SKF’s Taconite design illustrates grease-purge principles, but its stated ±0.5° capability is not approval for this ±2° custom design.
+Housing and service checks still required
+The inner cover moves 12 mm outward; the main box body becomes 98 mm long. Verify guide/tray load paths, cover joint stiffness and actual M10 screw engagement before manufacture.
+The two outer-ring abutment lengths differ. Preserve the left bearing’s ±3 mm axial freedom; ensure actual fits and cover clamping cannot trap it.
+SKF TMBS 150E is an extractor candidate, not a confirmed tool fit. Check its separator against the actual inner-ring face, shoulder and available space, and calculate extraction force.
+The one-piece inner cover and flinger pass over the smaller axle end after bearing removal. Housing withdrawal, inner-abutment retention and access in the installed bogie still require a service-tool envelope review.
+Existing wheel profile, wheel press-fit, brake-force and axle-fatigue holds remain. CW3 does not close those independent requirements.
+Primary references and evidence
+KHK manufacturer shaft-tolerance table and SKF bore tolerances.
+SKF rolling-bearing mounting and locknut guidance.
+SKF external sealing guidance; Taconite seal reference.
+SKF bearing-extraction tools.
+CW3 exact geometry checks; conservative clearance budget; existing C5 movement examples.
+No supplier confirmation or fabrication release has been obtained for this revision.CW3-R0 · Proposed bearing-end detail · Supplier / engineering release pending

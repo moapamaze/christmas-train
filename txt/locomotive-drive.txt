@@ -1,0 +1,16 @@
+Inboard locomotive drive · LT12
+This retained design record predates LT16. Open the current whole locomotive and curve views · Current suspension drawings.
+LT13 CURVE CHECK · 50/30 m curve placements reveal guide, body and frame clashes. Open the drawings and highlighted CAD. Neither radius is approved.Drive drawingsAssembly / exploded 3DCalculations & componentsExterior target
+LOCOMOTIVE / LT12
+Inboard axle drive
+Three hydraulic motors · Enclosed 2.33:1 reduction · Lower frame retained
+DESIGN DEVELOPMENTR0 · Not for fabrication20 October 2026 · UTC
+Drive arrangement & connectionsCAD projections · Nominal mm
+A01 Installed drive layoutD01 Motor & reductionS01 Transverse connectionsE01 Exploded service viewLT12-A01 · Installed drive layoutFull-size ↗LT12-D01 · Motor & reductionFull-size ↗LT12-S01 · Transverse connectionsFull-size ↗LT12-E01 · Exploded service viewFull-size ↗
+376 cc Poclain motor candidates; 21/49-tooth duplex-chain reduction. Bearing-supported input shafts keep chain pull off the motor splines. Springs, guide attachments and service removal remain in development.
+Drive CADLoading…
+Installed running gearOne drive · open caseExploded driveEquipment cutawayRetained exterior target
+ Exploded Compatibility 3D
+Loading drive CAD…
+Select a part to inspect it; hide the Guard group to expose the reduction. The exterior tab retains LT11’s static appearance rods. They are omitted from the mechanical drive views because the working linkage is unresolved. No animation or model view is an operating validation.
+Engineering & interfacesPower, traction, components & holds ↗Shared wheel / brake / frame interface ↗Retained DT5 axle detail ↗Northern exterior proportions ↗LT12 R0 · Development arrangement · No supplier approval or fabrication release

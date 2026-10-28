@@ -1,0 +1,78 @@
+{
+  "issue": "PF-3S1-READINESS-R0",
+  "items": [
+    {
+      "item": "Historical hydraulic brake boxes / DC-B07 load",
+      "status": "Superseded in current configuration",
+      "current_rule": "D1 air service / spring parking, actual compressor and power allocation still open",
+      "affected_packages": [
+        "PK-06",
+        "PK-13"
+      ]
+    },
+    {
+      "item": "Tolomatic ME220 MEFI mounting/rotor/linkage",
+      "status": "Earlier alternative only",
+      "current_rule": "Do not mix its interfaces into D1 drum carrier or hub",
+      "affected_packages": [
+        "PK-06",
+        "PK-05"
+      ]
+    },
+    {
+      "item": "G1 visible wheels/axles/springs/bearings",
+      "status": "Display-only",
+      "current_rule": "3L.3 physical package/motion work governs dependent next detail; no adopted G1 sizes",
+      "affected_packages": [
+        "PK-04",
+        "PK-05"
+      ]
+    },
+    {
+      "item": "J1a110 members + local I1details",
+      "status": "Separate study representations",
+      "current_rule": "Do not claim I1details/brakes/truck/couplings are installed in J1a",
+      "affected_packages": [
+        "PK-01",
+        "PK-02"
+      ]
+    },
+    {
+      "item": "Nominal32in floor",
+      "status": "Unaccepted load-state datum",
+      "current_rule": "No station height or stair mount release from this value",
+      "affected_packages": [
+        "PK-04",
+        "PK-14"
+      ]
+    },
+    {
+      "item": "D1 coach chamber total",
+      "status": "32coach chambers, not total train actuators",
+      "current_rule": "Add separate actual locomotive package and lines/valves, not a guessed loco count",
+      "affected_packages": [
+        "PK-06",
+        "PK-07"
+      ]
+    },
+    {
+      "item": "Linked30ASCE IGES",
+      "status": "Quarantined, not accepted geometry",
+      "current_rule": "Resolve88.9mmCAD versus79.375mm paper before modeling/ordering a matched rail",
+      "affected_packages": [
+        "PK-15",
+        "PK-05"
+      ]
+    },
+    {
+      "item": "Full-size occupied mockup",
+      "status": "Existing3E protocol preserved",
+      "current_rule": "No observed result claimed and no duplicate new mockup issue",
+      "affected_packages": [
+        "PK-03",
+        "PK-14"
+      ]
+    }
+  ],
+  "changes_to_selected_hardware": false
+}

@@ -1,0 +1,94 @@
+{
+  "issue": "LT6-R0",
+  "date_UTC": "2026-10-20",
+  "construction_approved": false,
+  "geometry": {
+    "part_count": 1033,
+    "valid": true,
+    "bbox_candidates": 138,
+    "raw_intersections": [],
+    "door_sampled_intersections": [],
+    "door_scope": "Door/attached hinge leaves versus surround and lamp at0..90deg in15deg increments. Does not include dogs, lanyards, people, trackside objects or continuous sweep."
+  },
+  "engine_mount_sensitivity": {
+    "package_trial_kg": 600,
+    "CG_offsets_mm": [
+      150,
+      80
+    ],
+    "mount_pitch_mm": [
+      1200,
+      1000
+    ],
+    "torque_Nm": 335,
+    "static_corner_kg_equivalent_min": 71.4197534326197,
+    "static_corner_kg_equivalent_max": 228.5802465673803,
+    "candidate_catalog_max_kg": 305,
+    "dynamic_selection_approved": false,
+    "formula": "m/4*(1 \u00b12ex/L \u00b12ey/B) \u00b1T/(2B*g),B in metres for torque term. Generic600kg package only; actual wet CG unknown."
+  },
+  "adapter_plate_screen": {
+    "load_per_plate_N": 3922.66,
+    "span_mm": 520,
+    "section_modulus_mm3": 5280.0,
+    "nominal_stress_MPa": 96.58064393939394,
+    "assumptions": "2g vertical600kg package,3equal plates,simply supported520mm span,central point force. No capacity conclusion;actualfeet/contact,prying,weld/localwall/fatigue unresolved."
+  },
+  "skid_bolts": {
+    "bolt_count": 8,
+    "M16_tensile_area_mm2": 157,
+    "trial_preload_per_bolt_N": 50083.0,
+    "proof_stress_assumption_MPa": 580,
+    "friction_coefficient_trial": 0.1,
+    "trial_slip_resistance_N": 40066.4,
+    "horizontal_1g_05g_N": 6578.500809464494,
+    "status": "Demand screen only;finish/preload scatter,settlement,contact distribution and combined tension unresolved.No torque issued."
+  },
+  "door_screen": {
+    "mass_trial_kg": 55,
+    "hinge_span_mm": 600,
+    "CG_offset_mm": 650,
+    "2g_weight_N": 1078.7314999999999,
+    "radial_couple_per_hinge_N": 1168.6257916666666,
+    "pin_double_shear_MPa": 1.8599257136842946,
+    "wind_pressure_trial_Pa": 1000,
+    "wind_force_N": 1207.6282160399164,
+    "status": "Includes55kg trial allowance for leaf/hardware. Wind/inertia/fault/stay/plate/weld/fatigue cases not released."
+  },
+  "seat_clearance": {
+    "width_mm": 518,
+    "centre_Y_mm": 1000,
+    "sidewall_inner_Y_mm": 1297.5,
+    "nominal_side_gap_mm": 38.5,
+    "rear_at_trial60mm_adjustment_mm": 8397,
+    "gate_front_mm": 8475,
+    "nominal_rear_gap_mm": 78,
+    "status": "Seat moved65mm forward;78mm nominal gap atassumed60mm rearward slide. Ordered-seat travel/recline,occupant and vibration clearances remain to verify."
+  },
+  "engine_data": {
+    "dry_kg": 299,
+    "operating_kg": null,
+    "OEM_foot_pattern": null,
+    "configured_CG": null,
+    "coolant_heat_rejection": null,
+    "CAC_heat_rejection": null,
+    "pump_flywheel_interface": null,
+    "no_E3_data_substitution": true
+  },
+  "operator_layout_screen": {
+    "assumed_shoulder_mm": [
+      8190,
+      -1000,
+      2750
+    ],
+    "joystick_grip_study_mm": [
+      7660,
+      -1170,
+      2501
+    ],
+    "straight_line_reach_mm": 609.7548687792497,
+    "status": "Study points, not OEM seat reference or operator anthropometry; no reach acceptance. Mock-up required before console holes are released.",
+    "sightline": "Trial eye Z3000 is below shell crown3250 and stack3900. Forward visibility past the shell requires actual side-window/eye-box ray checks; no clear sightline claimed."
+  },
+  "frame_clearance_status": "No revised truck geometry. DT5R1 width envelope does not prove collision-free motion beneath frame. Frame top1775 remains provisional."
+}

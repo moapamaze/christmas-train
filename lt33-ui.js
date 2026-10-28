@@ -1,0 +1,14 @@
+import{loadLT33,lt33Data}from'./lt33-model.js';
+import{mountAssemblyModel}from'./assembly-model-viewer.js?v=mobile-r1';
+export async function mountLT33(host){
+ let viewer,seq=0,disposed=false,mode=host.dataset.initialView==='whole'?'whole':'detail';const[,a]=await lt33Data();
+ host.classList.add('lt26-view');host.innerHTML=`<div class="actions"><button data-mode="detail">Bump-stop close-up</button><button data-mode="whole">Whole train</button></div><div class="lt26-controls"><label>Position<select data-case><option value="base/level/flat/straight">Nominal level</option><option value="${a.critical.compression}">Highest bumper load</option><option value="${a.critical.lowest_wheel}">Lowest wheel load</option><option value="${a.critical.rebound}">Highest rebound load</option></select></label></div><p data-status role="status">Loading the standard bump stop…</p><div data-viewer></div><p class="lt27-callout"><strong>Development candidate.</strong> Amber: standard GMT bumper. Teal: revised steel pedestal. The faint coil shows the fit inside the existing spring. Rubber expansion is illustrative; supplier confirmation and impact review remain open.</p><p><a href="locomotive-lt33.html">Dimensions &amp; parts →</a> · <a href="locomotive-lt33-engineering.html">Load checks →</a></p>`;
+ const q=s=>host.querySelector(s);
+ async function show(){const n=++seq;viewer?.dispose();q('[data-viewer]').replaceChildren();host.dataset.ready='false';q('[data-status]').textContent='Loading…';await new Promise(requestAnimationFrame);try{
+  const id=q('[data-case]').value,hand=id.endsWith('/right')?-1:1,radius=id.endsWith('/straight')?0:50,m=await loadLT33({mode,caseId:id,hand,radius});if(disposed||n!==seq)return;
+  viewer=mountAssemblyModel(q('[data-viewer]'),{modelData:m,title:mode==='whole'?'LT33 · current locomotive and coach':'GMT bump stop inside the coil spring',badge:'REVIEW CANDIDATE',compact:true,groupControls:true,edgeLines:false,orbitDirection:mode==='whole'?[-.7,-1.8,.8]:[-.7,-1.5,.6],note:'Rotate to inspect. The steel backup remains at +30 mm; rubber starts contacting at +15 mm.'});
+  const c=m.lt33.case;q('[data-status]').textContent=`${c.label} · ${c.curve} · greatest bumper force ${(Math.max(...c.bumper_force_N)/1000).toFixed(2)} kN · lowest wheel ${(c.min_wheel_N/1000).toFixed(2)} kN. Reduced static comparison; not an operating rating.`;host.dataset.ready='true';host.dataset.currentView=mode;host.dataset.currentCase=id;host.querySelectorAll('[data-mode]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.mode===mode)));
+ }catch(e){q('[data-status]').textContent='Model unavailable: '+e.message;}}
+ host.querySelectorAll('[data-mode]').forEach(b=>b.onclick=()=>{mode=b.dataset.mode;show();});q('[data-case]').onchange=show;await show();return{dispose(){disposed=true;seq++;viewer?.dispose();},refresh(){viewer?.refresh?.();}};
+}
+const host=document.querySelector('[data-lt33-view]');if(host)mountLT33(host);

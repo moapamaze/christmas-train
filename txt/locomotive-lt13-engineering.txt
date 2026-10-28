@@ -1,0 +1,94 @@
+Curve clearance · LT13Curve drawings & interactive CADDrive calculations
+LT13 R0 / 20 October 2026 UTC
+50 m and 30 m curve checks
+No minimum radius has been established. The geometry rejects both tested radial-steering placements in the current assembly. This does not establish that either radius is impossible after redesign, or rule out a different wheelset-guidance concept. 50 m remains the preferred first development target; 30 m has greater packaging demands. These metric cases are the previously discussed approximate 165 ft / 100 ft options; their exact equivalents are 164.04 ft / 98.43 ft.
+Conditional placement dimensions
+ | Quantity
+ | 50 m radius
+ | 30 m radius
+ | Track-centre full-circle diameter
+ | 100 m / 328.1 ft
+ | 60 m / 196.9 ft
+ | Driver group / wheel diameter
+ | 3100 / 1450 mm
+ | Same
+ | Outer driver lateral displacement; centre opposite
+ | ±12.02 mm
+ | ±20.03 mm
+ | Outer driver yaw relative to frame
+ | ±1.776°
+ | ±2.962°
+ | Leading truck lateral displacement / yaw
+ | 115.16 mm / 4.043°
+ | 192.41 mm / 6.749°
+ | Trailing truck lateral displacement / yaw
+ | 107.69 mm / 3.928°
+ | 179.90 mm / 6.556°
+ | Internal angle of attack at leading / trailing truck axles
+ | 0.602° / 0.544°
+ | 1.003° / 0.907°
+ | Frame top datum
+ | 1350 mm, provisional
+ | Same
+Displacements above are the selected kinematic hypothesis, not required bearing clearances or an approved suspension specification. Reverse curves reverse their signs. Leading/trailing wheelsets remain parallel within their rigid two-axle groups; placing the axle centres on a circle does not eliminate their flange/contact angle of attack. Full-circle diameters exclude vehicle overhang, track spacing, structures and access.
+Actual CAD findings
+ | Area
+ | 50 m result
+ | 30 m result
+ | Disposition
+ | Front and rear driving axleboxes / horn guides
+ | Positive intersections at −40, 0, +50 mm in both directions.
+ | Positive intersections at all three positions in both directions.
+ | Replace the vertical-only guide concept with an engineered steering/lateral arrangement; retain axle location, traction/brake reaction and uplift control.
+ | First driver / decorative cylinder casing
+ | Intersects on curve-outward side at all three positions.
+ | Intersects; larger intrusion.
+ | Reposition or reshape cylinder around the selected wheel sweep and eventual rod mechanism.
+ | Leading truck sideframe / cylinder and cap
+ | Intersects at nominal and +50 mm.
+ | Intersects at nominal and +50 mm.
+ | Develop truck swing/pivot path and cylinder clearance together.
+ | Driver wheel / main frame rails
+ | No positive intersection in these sampled states.
+ | Front and rear driver wheels intersect a main rail at all three positions.
+ | 30 m requires revised frame/wheel packaging or a different steering strategy. A sampled absence is not a clearance allowance.
+ | Rear chaincase / main rail
+ | No positive intersection in these sampled states.
+ | Case and outer cover intersect at +50 mm on the left-curve sample; asymmetric drive matters.
+ | Reposition or reshape reduction package after steering choice; recheck both directions.
+ | Trailing axle envelope / lowest entry step
+ | No positive intersection in these sampled states.
+ | Intersects at −40 and nominal; nominal penetration is very small.
+ | Revisit step and axle-end envelope. Confirm final axle length before treating this as an actual component collision.
+ | Driver wheel / boiler lower panels
+ | Intersects at +50 mm, including straight baseline.
+ | Intersects at +50 mm.
+ | Relieve lower shell around full wheel/suspension sweep; not a reason by itself to raise the entire frame.
+The driver-guide outside-footprint corner extends about 2.03 mm past a fixed horn inner face at 50 m and 9.98 mm at 30 m in the illustrated front Y+ axlebox. These are plan-envelope penetrations, not allowable guide clearances or a stress result. Exact three-dimensional positive intersections independently confirm the conflict.
+Calculation and geometry method
+Source is the saved LT11 wheel/body/frame CAD plus LT12 drive CAD at commit e9bc6bf5b0d982d60bda11e9032acdf1edb9201c. No canonical coach, wheel or drivetrain files were altered. The 36-inch gauge, 1450 mm drivers, 650/700 mm small wheels, axle spacing, and body shapes remain provisional project geometry; this check does not authenticate them as Western Train factory dimensions.
+Let a=1550 mm be half the outer-driver spacing, R the track-centre radius, and u=x−5050. Sagitta s=R−√(R²−a²). Choose the frame lateral datum halfway between the driver chord and the curve at its midpoint, so y=R−√(R²−u²)−s/2. The two outer drivers then move +s/2, the middle driver −s/2. Radial driver yaw is asin(u/R). This symmetric choice minimises the maximum centreline displacement for these three axle stations; it is not a solution of wheel/rail forces or suspension equilibrium.
+Leading/trailing groups use half-wheelbases b=525/475 mm and nominal pivot X1525/8475. Their chord-midpoint radius is √(R²−b²); each group is translated to y=R−s/2−√(R²−b²−u²) and yawed by asin(u/√(R²−b²)). Both axle centres then lie on the ideal centreline circle. The necessary 108–192 mm truck swing is not provided by a fixed pivot alone. A properly engineered swing/link/steering arrangement or revised vehicle geometry is needed. Pivot-space volumes are deliberately excluded from collision solids because they are reservations, not engineered mechanisms.
+All axle-following LT12 parts rotate and translate with their driving axle. Horns, headers, main frame, shell, cylinders, equipment and steps remain fixed. Suspension samples are −40, 0 and +50 mm relative to the body/frame; the drawing rail-height datum is not a simulation of wheels lifting off actual rails. Springs are excluded as unselected envelopes; rods, hoses and brakes are absent. No linkage is invented to deliver these placements.
+The check contains 132 moving parts and 155 fixed parts, 306,900 broad-phase pair samples across 15 positions, followed by exact BREP intersection where bounding boxes overlap. All saved input solids are valid. Intersections above 0.1 mm³ are recorded. Wheel solids and their cosmetic tire-ring solids are reported separately, so pair counts are not counts of independent physical problems. Straight baseline clashes are retained separately from newly occurring curve pairs.
+Limits: sampled positions only; no continuous sweep, independent wheel travel, roll, deflection, tolerance allowance, moving-to-moving interference, railhead/contact model, flange climb, conicity, turnout, transition/S-curve, coupling-rod dynamics or operating speed acceptance. The earlier LT12 vertical screen tested drive parts against rails/crossmembers/engine/pump only; its clean result did not cover the wheel-to-shell collisions now found.
+Could rigid drivers avoid the steering mechanism?
+That alternative needs its own wheel/rail study. The centreline sagitta alone is 24.03 mm at 50 m and 40.07 mm at 30 m. Sharing it symmetrically gives the ±12.02 / ±20.03 mm offsets above; it does not make them flange clearance, axle float or a required specification. With fixed parallel axles, the outer-driver angle of attack would be about 1.776° / 2.962°. Actual flange faces, back-to-back, gauge widening, railhead, conicity, suspension and any lateral axle movement must be evaluated together. Removing flanges or relying on flange force is not selected here.
+For scale only, pure rolling on a radial solid wheelset needs rolling-radius difference Δr≈r·g/R. With r=725 mm and provisional contact spacing g=914.4 mm, Δr≈13.26 mm at 50 m and 22.10 mm at 30 m. Actual contact spacing and wheel profile are not yet established; a lateral tread shift cannot be calculated from this without conicity/contact geometry. Separate hydraulic motors per axle do not create independent left/right wheel rotation.
+Shared interface and remaining release work
+ | Owner / interface
+ | Required next information
+ | Locomotive frame and body
+ | Keep 1350 mm provisional. Develop guided driver steering/lateral motion and truck swing; revise shell cutouts, cylinder and entry envelope around it. Then assess load paths, fatigue and maintenance access.
+ | Wheel / drive owner
+ | Confirm final tread/flange/back-to-back and rail section, axle/hub/bearing architecture, allowable lateral/yaw movement, equalization, roll and rod requirement. Test steering proposal before final motor-carrier attachment.
+ | Brake owner
+ | Provide caliper/disc/actuator/guard envelopes, hoses and brake-torque reactions throughout the selected movement. Existing brake work preserved; no locomotive-brake acceptance claimed.
+ | Passenger-car and tender interfaces
+ | 50/30 m are comparison targets only. Obtain current bogie centres, overhangs, coupler pivots/lengths, articulation limits, body and gangway clearances. No whole-train curve check has been completed.
+ | Track / route
+ | Confirm actual alignment, transitions, turnouts, reverse curves, railhead/gauge data and clearance envelope. No final track radius or land footprint committed.
+ | Professional review / testing
+ | Rail-vehicle engineer review of wheel/rail guidance and dynamic stability; verified combined suspension/curve CAD; loaded axle weights, brake/traction and incremental ballasted curve tests before any passenger-operation release.
+Recommended next design iteration: resolve 50 m guidance and small-truck swing first, remove the identified body clashes, then repeat combined movement with the actual brake and wheel geometry. Retain 30 m as a tighter alternative pending that architecture choice. Do not enlarge guide gaps or move structural rails solely to make these isolated snapshots pass.
+Full reproducible geometry results · Shared interface handoff · Verification scopeLT13 R0 · No supplier approval, structural approval, operating radius or fabrication release

@@ -1,0 +1,164 @@
+{
+  "revision": "C5.5",
+  "approved_for_fabrication": false,
+  "approved_for_operation": false,
+  "scope": "Read-only C54 gap diagnosis followed by bounded C55 geometry patch; all purchased interface and service holds remain explicit",
+  "baseline_hashes": {
+    "checkpoint.brep": "b6b69ce320f0c9784d3920b1f536ae7e7a7254beca531cdab801303b2e7b4337",
+    "parts.json": "e4435fc28c5245155ed442c2f2dbda015dfac80c3d1dad0b23786913eeb2ac3a",
+    "geometry-contract.json": "cf1bfefe8d9ea933119e7460722e8b27aa7437907318f6aaf9827d6d1097dbd7",
+    "independent-review.json": "d5f0342deb6429158975633492582e1ecf0f2d49ab33ec61791f4a307ce0e503"
+  },
+  "baseline_supplier_envelope_intersections": [
+    {
+      "a": "WABCO-SPRING-INTERMEDIATE",
+      "b": "PARKER-10125-SERVICE",
+      "volume_mm3": 983.0016114058201,
+      "classification": "purchased dimensional-envelope conflict; actual material not established"
+    },
+    {
+      "a": "WABCO-SPRING-INTERMEDIATE",
+      "b": "PARKER-10125-SPRING",
+      "volume_mm3": 983.0564036810977,
+      "classification": "purchased dimensional-envelope conflict; actual material not established"
+    },
+    {
+      "a": "PARKER-10125-SERVICE",
+      "b": "PARKER-2716-HOSE-SERVICE",
+      "volume_mm3": 27.707836099791226,
+      "classification": "purchased dimensional-envelope conflict; actual material not established"
+    },
+    {
+      "a": "PARKER-10125-SPRING",
+      "b": "PARKER-2716-HOSE-SPRING",
+      "volume_mm3": 27.742655551613428,
+      "classification": "purchased dimensional-envelope conflict; actual material not established"
+    }
+  ],
+  "root_causes": {
+    "chamber_fitting": "Assumed 8 mm thread insertion intersects unbored intermediate chamber envelope; real port depth/boss wall and engagement unknown",
+    "hose_fitting": "Profile normal was first sampled chord instead of analytic tangent; exact cubic + analytic normal eliminates overlap"
+  },
+  "analytic_tangent_audit": [
+    {
+      "circuit": "SERVICE",
+      "chord_vs_analytic_tangent_deg": 3.2612735187851256,
+      "spline_vs_analytic_tangent_deg": 0.03590091077712734,
+      "original_overlap_mm3": 27.707836099791226,
+      "analytic_bezier_length_mm": 909.6155938740626,
+      "interpolated_spline_length_mm": 909.6197004651876,
+      "spline_exact_N": {
+        "valid": true,
+        "fitting_overlap_mm3": 0.0
+      },
+      "spline_own_tangent": {
+        "valid": true,
+        "fitting_overlap_mm3": 0.3059324313509081
+      },
+      "bezier_exact_N": {
+        "valid": true,
+        "fitting_overlap_mm3": 0.0
+      }
+    },
+    {
+      "circuit": "SPRING",
+      "chord_vs_analytic_tangent_deg": 3.265400368625654,
+      "spline_vs_analytic_tangent_deg": 0.036673378553946936,
+      "original_overlap_mm3": 27.742655551613428,
+      "analytic_bezier_length_mm": 936.5559673247471,
+      "interpolated_spline_length_mm": 936.5648710708377,
+      "spline_exact_N": {
+        "valid": true,
+        "fitting_overlap_mm3": 0.0
+      },
+      "spline_own_tangent": {
+        "valid": true,
+        "fitting_overlap_mm3": 0.3125153557737123
+      },
+      "bezier_exact_N": {
+        "valid": true,
+        "fitting_overlap_mm3": 0.0
+      }
+    }
+  ],
+  "controlled_correction": {
+    "port_face_radial_ordinate_mm": 89,
+    "previous_uncontrolled_mm": 88,
+    "axial_stations_mm": [
+      97,
+      116
+    ],
+    "tangential_offsets_mm": [
+      -25,
+      25
+    ],
+    "clocking_deg": 300,
+    "source": "WABCO9253800230 GA Doc053 variant0250"
+  },
+  "circuit_identification": {
+    "confirmed": {
+      "11": "service/foot",
+      "12": "spring/parking/hand"
+    },
+    "physical_station_mapping": "Unresolved: do not map 97/116 mm stations to cast11/12 without evidence"
+  },
+  "c55_changes": [
+    "Preserve 149 source parts without reconstructed geometry",
+    "Correct both port face positions by +1 mm along normal",
+    "Use exact cubic Bezier annular hose sweeps normal to exact endpoint tangent",
+    "Split below-face thread reservation from exterior fitting",
+    "Use physical station IDs, not unverified circuit labels",
+    "Remove unsupported single-box pad-withdrawal reservation; document staged source procedure"
+  ],
+  "dynamic_plan": {
+    "family": "Transform moving endpoint and tangent by carrier/wear matrix; fixed remote point and tangent; solve final control-handle length for fixed integrated length",
+    "checks": [
+      "bend radius",
+      "constant length residual",
+      "end tangent constraints",
+      "hose-to-hose separation",
+      "actual custom/C5 fixed and axle obstacles",
+      "body yaw and roll",
+      "endpoint frame rotation diagnostic"
+    ],
+    "not_qualified": [
+      "physical torsional strain",
+      "straight fitting leads",
+      "fixed end hardware",
+      "clamp positions",
+      "abrasion allowance",
+      "continuous physical flex acceptance"
+    ]
+  },
+  "service_plan": {
+    "available": "Source sequence, published tool AF interfaces, 43 mm controlled stud length, 89 mm released bolt extension",
+    "unavailable": "Actual sliding-caliper, pad, retainer, spring and pressure-plate solids; socket and wrench envelopes; qualified installed removal paths"
+  },
+  "sources": [
+    {
+      "id": "WABCO0250-GA",
+      "url": "https://www.wabco-customercentre.com/catalog/docs/9253800230____053_dascheck_l4_page-1---notset_tif.pdf",
+      "local": "../coach-brake-c54/source-evidence/wabco9253800230-GA.pdf"
+    },
+    {
+      "id": "PAN17-service",
+      "url": "https://www.ridewellcorp.com/manuals/Wabco%20PAN%2017_IM_2ndEd_10-2013.pdf",
+      "edition": "2nd,10/2013",
+      "pdf_pages": [
+        14,
+        15,
+        16,
+        17,
+        34,
+        35,
+        36,
+        37,
+        38
+      ]
+    },
+    {
+      "id": "Parker4400",
+      "url": "https://www.parker.com/content/dam/Parker-com/Literature/Hose-Products-Division/Catalog-4400-PDF-Files/HPD_4400_Catalog.pdf"
+    }
+  ]
+}

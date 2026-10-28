@@ -1,0 +1,56 @@
+{
+  "issue": "PF-LOCO-LT2-R0",
+  "date": "2026-10-19",
+  "units": "mm",
+  "datum": "X aft from LT1 nose; Y left; Z above rail top",
+  "frame_x": [
+    300,
+    9500
+  ],
+  "main_rail_y": [
+    -850,
+    850
+  ],
+  "frame_top_z": 1650,
+  "main_section": "HSS12x6x3/8",
+  "support_x": [
+    1200,
+    3300,
+    6000,
+    8300
+  ],
+  "crossmember_x": [
+    600,
+    1800,
+    2400,
+    4500,
+    5100,
+    7200,
+    9000,
+    9300
+  ],
+  "joint_end_gap_each_mm": 1.0,
+  "skid_support_x": [
+    2400,
+    4500
+  ],
+  "skid_runner_y": [
+    -500,
+    500
+  ],
+  "skid_runner_x": [
+    2280,
+    4620
+  ],
+  "frame_side_mount_holes": {
+    "diameter": 18,
+    "count": 8,
+    "y_offsets_from_runner": [
+      -70,
+      70
+    ]
+  },
+  "skid_fastener_proposal": "Eight M16 class8.8 through bolts; final standard, length, locking and preload unresolved",
+  "construction_approved": false,
+  "provenance": "LT2 raised-frame alternative reconciles DT2 reference solids; no coach or drivetrain geometry overwritten. Support hardware and final ride height unaccepted."
+}

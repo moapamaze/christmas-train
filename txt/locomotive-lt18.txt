@@ -1,0 +1,26 @@
+LT18 articulated eight-driver locomotive · Pulsipher FarmsSkip to contentWhole locomotive · 3DEight-driver layoutSeparate engineeringEarlier six-driver study
+LT18 · EIGHT DRIVERS · OCTOBER 21, 2026
+Two turning trucks. Four large driving axles.
+The eight driving wheels are split into two powered, two-axle trucks. Each truck turns beneath the main frame, and its axle guides turn with it. This shortens each rigid wheelbase to 1,550 mm while keeping the 1,450 mm spoked wheels and the low Northern-inspired body profile.
+30 m /98 ft is the next development target. The revised arrangement clears the sampled nominal-height geometry at 30 m in both directions. The 25 m /82 ft sample also clears; interference begins in the 22.5 m sample. These results establish packaging progress, not an approved operating radius.
+Turn the whole locomotive
+Select a radius and direction, then inspect the exterior, machinery or front truck. Red identifies modeled collisions in tighter samples. The plan below the 3D view shows the same truck positions at actual scale.
+What changed to fit eight drivers
+ | Feature
+ | LT18 layout
+ | Powered running gear
+ | Two rotating trucks; 1,550 mm axle spacing each; 3,200 mm between truck pivots.
+ | Body length
+ | Aft boiler bay and cab move 1,500 mm farther back. Driver diameter and exterior height stay at their previous targets.
+ | Main frame
+ | The 304.8 mm rail depth is retained and raised 104.8 mm inside the body. The frame now clears the turning truck frames; strength remains unqualified.
+ | Side rods and cylinders
+ | A separate rod on each side of each truck. Cylinders and their supports turn with the front truck. No rigid rod crosses between the two powered trucks.
+ | Small trucks and cab entry
+ | Leading/trailing trucks use 1,075 mm swing-arm layouts. Cab step envelopes move 200 mm outboard to clear the trailing truck; boarding geometry and supports need redesign.
+ | Hydraulic drive
+ | Space is reserved for one motor and two axle-drive branches per truck. Motor sizing, supported jackshaft, chains and suspension compensation are unfinished.
+Layout drawing
+Next: make the turning trucks into complete mechanisms
+Develop the truck-to-frame bearings and positive retention, independent axle suspension and rebound limits, the supported drive and its motion compensation, brakes, and hydraulic loops. Then check combined turning, suspension travel, body roll and rod rotation. The former LT17 rebound-rod and guide-bushing details cannot be transferred unchanged to this arrangement.
+Open the calculations, collision results and structural review items →LT18 · Articulated development candidate · Not for fabricationWhole locomotive

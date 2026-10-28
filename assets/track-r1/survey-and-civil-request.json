@@ -1,0 +1,53 @@
+{
+  "issue": "PF-3R1-R0",
+  "date": "2026-10-19",
+  "status": "review specification, not submitted or approved",
+  "actual_site_survey_received": false,
+  "final_alignment": null,
+  "north_pole_location": null,
+  "longitudinal_grade_target_percent": 0,
+  "accepted_grade_tolerance_percent": null,
+  "accepted_crosslevel_mm": null,
+  "accepted_twist_mm_per_m": null,
+  "accepted_gauge_limits_mm": null,
+  "actual_vehicle_wheelbase_m": null,
+  "requests": [
+    {
+      "id": "R-SV01",
+      "topic": "Boundary and control",
+      "accountable": "Licensed surveyor / civil lead",
+      "evidence": "Boundary/title/easement record, control monuments and independent check, horizontal CRS/realization/epoch, grid-to-ground basis, exact length units, vertical datum/height type, benchmarks, closures and uncertainty. Preserve original observations and transformation report."
+    },
+    {
+      "id": "R-SV02",
+      "topic": "Existing ground and drainage",
+      "accountable": "Surveyor + civil/geotechnical engineer",
+      "evidence": "Topography and breaklines, washes/pond/banks/outfalls, culverts and invert elevations, flood/drainage constraints, irrigation and wet areas, utility records/locates, existing roads/crossings and structures. Coverage/density/contours set by civil engineer, not this tool."
+    },
+    {
+      "id": "R-SV03",
+      "topic": "Geotechnical and formation",
+      "accountable": "Geotechnical/civil engineer",
+      "evidence": "Subgrade stratigraphy, bearing/settlement, compaction/moisture, frost/erosion/scour where relevant, groundwater/irrigation, ballast and sub-ballast compatibility, drainage and testing. No assumed soil bearing, ballast depth or culvert size."
+    },
+    {
+      "id": "R-SV04",
+      "topic": "Track reference and vehicles",
+      "accountable": "Track + vehicle-dynamics engineer",
+      "evidence": "Selected wheel/rail geometry, rail profile/condition, wheelbase/truck centers, axle loads, suspension stiffness/travel, swept clearance, operating/reversing/maintenance cases.36in remains evaluation gauge, not compatibility proof."
+    },
+    {
+      "id": "R-SV05",
+      "topic": "Alignment and stations",
+      "accountable": "Track/civil + vehicle/boarding engineers",
+      "evidence": "Develop plan/profile and station tangents from actual survey and0%longitudinal target. Resolve minimum/transition/reverse curves, turnouts, end protection, loop/turnaround/reversing and stops. NorthPole position remains deferred. Do not route across an existing railroad from unrelated farm plans."
+    },
+    {
+      "id": "R-SV06",
+      "topic": "As-built and acceptance",
+      "accountable": "Surveyor + track engineer / approved inspection team",
+      "evidence": "Accepted datum and sampling, actual gauge face/depth, crosslevel, rail profile/wear, joints/fasteners, twist over selected vehicle bases, clearances, settlement and drainage observations. Engineer-defined limits, uncertainty and hold points before public operation."
+    }
+  ],
+  "survey_input_scope": "Checker receives only track-reference centerline or paired rail observations. Terrain, boundary/geotech and design records remain separate required deliverables."
+}

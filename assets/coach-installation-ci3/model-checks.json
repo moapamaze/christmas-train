@@ -1,0 +1,101 @@
+{
+  "views": [
+    {
+      "mode": "installed",
+      "parts": 1974,
+      "groups": [
+        "body",
+        "mount",
+        "sidebearer",
+        "frame",
+        "suspension",
+        "bearing",
+        "wheel",
+        "brake"
+      ]
+    },
+    {
+      "mode": "bogie",
+      "parts": 935,
+      "groups": [
+        "body",
+        "mount",
+        "sidebearer",
+        "frame",
+        "suspension",
+        "bearing",
+        "wheel",
+        "brake"
+      ]
+    },
+    {
+      "mode": "sweep",
+      "parts": 248,
+      "groups": [
+        "body",
+        "frame",
+        "suspension",
+        "wheel"
+      ]
+    },
+    {
+      "mode": "clearance",
+      "parts": 114,
+      "groups": [
+        "body",
+        "frame",
+        "suspension",
+        "bearing",
+        "wheel"
+      ]
+    },
+    {
+      "mode": "suspension",
+      "parts": 101,
+      "groups": [
+        "frame",
+        "suspension",
+        "bearing"
+      ]
+    },
+    {
+      "mode": "stops",
+      "parts": 92,
+      "groups": [
+        "frame",
+        "suspension",
+        "bearing"
+      ]
+    },
+    {
+      "mode": "bridge",
+      "parts": 26,
+      "groups": [
+        "body"
+      ]
+    },
+    {
+      "mode": "mount",
+      "parts": 114,
+      "groups": [
+        "body",
+        "mount",
+        "sidebearer",
+        "frame"
+      ]
+    },
+    {
+      "mode": "exploded",
+      "parts": 114,
+      "groups": [
+        "body",
+        "mount",
+        "sidebearer",
+        "frame"
+      ]
+    }
+  ],
+  "placement": "8 wheels,8 revised bearing ends,2 bogies; actual nominal body adapter centres1143/6629.4mm",
+  "new_strength_or_motion_acceptance": false,
+  "browser_verified": false
+}

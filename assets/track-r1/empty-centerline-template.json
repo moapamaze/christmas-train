@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "dataset_kind": "centerline_track_reference",
+  "meta": {
+    "dataset_id": null,
+    "units": "m",
+    "coordinate_system": null,
+    "coordinate_distance_basis": "project_ground",
+    "axis_description": null,
+    "vertical_datum": null,
+    "height_type": null,
+    "benchmark_id": null,
+    "stationing_basis": "horizontal_plan_chainage",
+    "station_direction": null,
+    "survey_or_design_author": null,
+    "source_record_reference": null,
+    "record_state": null,
+    "elevation_reference": null,
+    "gauge_measurement_reference": null,
+    "closed_loop_intended": false,
+    "observation_date": null
+  },
+  "rows": [],
+  "row_format": {
+    "id": "unique record label",
+    "station_m": "number; horizontal plan chainage",
+    "x_m": "number; project-ground x",
+    "y_m": "number; project-ground y",
+    "z_m": "number; declared track reference, not terrain"
+  }
+}

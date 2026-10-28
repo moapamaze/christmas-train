@@ -1,0 +1,127 @@
+{
+  "issue": "3L.2 independent desktop review R0",
+  "reviewed_utc": "2026-10-19T04:43:42.521122+00:00",
+  "status": "bounded_desktop_review_complete_requested_corrections_addressed",
+  "scope": "Bounded independent mechanical, arithmetic, OEM-family and drawing consistency review. Not professional engineering approval, brake qualification or fabrication release.",
+  "reviewed_file_sha256": {
+    "decision.md": "a0481cc39e87f0682c6cf3b1d72c4cb42b9aaf0e49794bc093db14bafff2f09e",
+    "calculations/Brake_Selection_Demand_Basis_R0.md": "b791a5e937d5a1eb3afad0308f48abb505949fd8a055b5572d1382bc28f63750",
+    "calculations/brake_selection_inputs_R0.json": "66bc1d95245787d9dc49a33ff81d1fbcf2a93f96cf7a0d82380b5bda85260718",
+    "calculations/brake_selection_results_R0.json": "7aa1b250518065396983b6d9616fe85819f71d2a3d85981f654f785ae7230736",
+    "calculations/calculate_brake_selection.py": "3f95fb936404a4542ce23c271ccade53200a60974477e262d5618fd9f96c3416",
+    "disc/report.md": "7db1da95f0ad8aaef69d8cfdadbaa2741fefbe17ab13b6641b2d8cac8c3c5324",
+    "disc/candidates.json": "604b388aae23cc5b8a10323a3c59ae3bd5138c2950ac933864c96835efa57556",
+    "disc/sources.json": "08792f0b8f19dc33f9e09e790e7f5ca8bdc363863c0b2cfdd9cf022df404c415",
+    "drum/report.md": "bac3419c95e0b322bcfe947466cc54d7cfb7cd38831ae38432c9c74dd5d3536b",
+    "drum/candidates.json": "b0a7e8e1871ba926070a13568a7d9514ab6ede2d7c764aeab364a36ffd15b6ae",
+    "drum/sources.json": "46daa4dc8ac92535884cf32eace74b40787777cf63978dadd6de20c9d752d651",
+    "layout/L2-M01.svg": "1ad24075f3a44520b871cf0c4db1a619fad1fc3ad38791ef63754d6d080bb44f",
+    "layout/L2-M02.svg": "c05c418af700558682201b61dfc4e77c63aabd16227d839e8c1d2a9505cf8235",
+    "layout/L2-M03.svg": "8668dee0854ca1e0a8b47fce6906e1d3e42e02803fe549ceff923639a6c28e1a",
+    "layout/layout_parameters_R0.json": "3fd9b193fe7114e94964b898c85f1f46a0cb784f1f30b65ccef0cda5430ad0fb",
+    "layout/layout_report_R0.md": "dce3fef05e856454271723c218ee0333f918dd6ef54c6ce30382f234e0c49f6d",
+    "layout/layout_validation_R0.json": "619542b5ff99cb492e624995219fb245289d3ce836209b7ae07367ce60d12e02"
+  },
+  "independent_numeric_checks": {
+    "count": 119,
+    "all_pass": true,
+    "equations": [
+      "Torque (m+m_equiv)*a*r/n_brakes",
+      "Energy .5*(m+m_equiv)*v^2/n_brakes",
+      "Stop v*delay+v^2/(2a)",
+      "Adhesion-limited downhill deceleration g*(mu*cos(theta)-sin(theta))",
+      "Fixed torque empty deceleration a_loaded*(m_loaded+m_equiv)/(m_empty+m_equiv)"
+    ]
+  },
+  "confirmed_findings": [
+    "Demand torque is separated from maximum actuator, fault and structural loads.",
+    "Rotational allowance affects brake torque and energy, not total external rail contact force at prescribed translational deceleration.",
+    "Allocation-empty comparisons retain the same equivalent physical wheelset inertia.",
+    "Dexter catalog pp12/19/20 supports coherent 12.25x4 PQ / 20-24 combination family and cited OEM part identifiers. This does not qualify the adapted rail assembly.",
+    "Two drums per axle give 363.825 Nm each in ideal shared upper-load 600mm/.7m/s2/5-percent case; this is demand, not brake output.",
+    "500/600mm rail wheels are packaging probes; 311.15mm is drum friction ID, not outside diameter; no invented drum clearance or flange bolt circle.",
+    "Stationary spider/carrier follows nonrotating axlebox; hub and drum rotate with axle. No spider weld to rotating axle.",
+    "Hub flange remains on OEM supported side of drum face; service extraction removes custom hub and drum together.",
+    "Reverse cam-direction warning is retained as release gate. Dexter service manual p52 confirms opposite cam/wheel direction may cause chatter/hop; repeated bidirectional capability is not established.",
+    "Low mean cycle heat is not represented as thermal qualification; cold/hot/drag and repeated-stop gates retained.",
+    "PAN17 legacy/current chamber variants and 325/330mm drawing discrepancy are visible; dimensions are not silently merged.",
+    "No chamber type is converted into a constant output-force curve; no unsupported pressure, spring rating or stroke match.",
+    "Final M03 torque-plane inset supports a mechanically possible reaction relationship; it is not a completed 3D suspension/articulation design."
+  ],
+  "corrections": [
+    {
+      "id": "R01",
+      "severity": "material_drawing_clarity",
+      "finding": "M03 plan-view link alone has no moment arm about in-plane axle axis. Must define or explicitly hold the missing 3D reaction geometry.",
+      "requested": "Add side-elevation with nonzero lever arm/out-of-plane force or label projected 3D geometry clearly; do not imply plan offset alone resists axle torque.",
+      "status": "addressed_in_reviewed_issue",
+      "resolution": "Final M03 now labels upper diagram as plan projection insufficient by itself, and adds an end view with nonzero perpendicular arm h and F=T/h. Exact 3D link geometry remains an engineering hold."
+    },
+    {
+      "id": "R02",
+      "severity": "presentation",
+      "finding": "M01 carrier/OEM drum labels overlap; M03 long left-column labels touch next column.",
+      "requested": "Separate/wrap labels.",
+      "status": "addressed_in_reviewed_issue",
+      "resolution": "Rerendered M01 label separation and M03 table labels visually inspected; requested overlaps corrected."
+    },
+    {
+      "id": "R03",
+      "severity": "traceability",
+      "finding": "Layout parameter source URL is PENDING.",
+      "requested": "Use exact Dexter catalog URL already in drum sources.",
+      "status": "addressed_in_reviewed_issue",
+      "resolution": "Parameter register now uses the exact linked Dexter medium-duty catalog URL."
+    },
+    {
+      "id": "R04",
+      "severity": "selection_scope",
+      "finding": "Larger PAN17 wording may imply physically smaller/lighter drum without full envelope/mass evidence.",
+      "requested": "Compare road family ratings only; explicitly preserve installed-size/mass/cost uncertainty.",
+      "status": "addressed_in_reviewed_issue",
+      "resolution": "Decision now distinguishes road application range from installed size, mass and cost; none is asserted superior without evidence."
+    },
+    {
+      "id": "R05",
+      "severity": "system_coordination",
+      "finding": "Eight combination chambers per coach implies32 coach chambers; previous trainline air demand may not reflect this architecture.",
+      "requested": "Make reservoir/recharge/apply/release timing recalculation explicit before system release.",
+      "status": "addressed_in_reviewed_issue",
+      "resolution": "Decision explicitly requires revised usable reservoir capacity, compressor duty, line/valve flow, application/release timing and spring-release capacity for32 coach chambers plus separately selected locomotive chambers."
+    },
+    {
+      "id": "R06",
+      "severity": "selection_rationale",
+      "finding": "Two-per-axle decision should identify serviceability/load-path reason rather than imply working torque requires two units.",
+      "requested": "State component-count/mass/air-demand tradeoff and no unproved redundancy credit.",
+      "status": "addressed_in_reviewed_issue",
+      "resolution": "Decision identifies paired wheel-end modules and separate reaction paths as architecture rationale, explicitly disclaims torque necessity and redundancy credit; drum report states mass/expense consequences."
+    }
+  ],
+  "source_crosscheck": {
+    "Dexter_OEM_catalog": "Local downloaded primary catalog text pp12/19/20 inspected against part register.",
+    "Dexter_service_manual": "https://www.dextergroup.com/user_area/content_media/raw/9-15k_complete_service_manual.pdf",
+    "web_retrieval_refs": [
+      "turn505view0",
+      "turn506view0",
+      "turn506view1"
+    ],
+    "source_date_note": "2019.09/2018.11 catalogs are historical revisions still linked by current product pages; access date must not be mistaken for new publication date."
+  },
+  "fabrication_release": false,
+  "rail_validation": false,
+  "physical_tests_performed": false,
+  "remaining_engineering_holds": [
+    "Exact brake force/torque-pressure-stroke-wear data",
+    "Controllable low-torque braking and loaded/empty balance",
+    "Parking spring output and fault behavior",
+    "Reverse suitability",
+    "Actual drum/chamber/cam/adjuster envelope and wear/extraction motion",
+    "Hub/axle/carrier strength, fatigue, retention and tolerances",
+    "Three-dimensional suspension-compatible torque reaction",
+    "Full air demand and trainline transient response",
+    "Qualified engineering review and prototype testing"
+  ],
+  "publication_condition": "Suitable to publish only as conditional component-family selection and preliminary custom-interface development with the release holds retained. Not shop-ready and not rail validated.",
+  "final_visual_note": "Final M01 drum/hub mating-face depiction reviewed after removal of schematic gap; OEM outboard support side retained."
+}

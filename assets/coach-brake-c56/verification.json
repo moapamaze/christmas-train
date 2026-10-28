@@ -1,0 +1,36 @@
+{
+  "issue": "C5.6-R0",
+  "checkpoint_sha256": "38bf2abfaa8d8112d32f445b4a3a8c4ecd99860a545b345fb8229737d64b16bd",
+  "parts": 199,
+  "valid_parts": 199,
+  "preserved_physical_or_reference_parts_byte_identical": 149,
+  "nonphysical_interfaces_preserved": 2,
+  "installed_brake_units": 1,
+  "drawings": [
+    "C56-M01",
+    "C56-A01",
+    "C56-D01",
+    "C56-D02",
+    "C56-D03",
+    "C56-S01",
+    "C56-S02"
+  ],
+  "service_result": "Straight socket withdrawal is obstructed; sampled lateral escape is clear of modeled targets",
+  "motion_result": "Bounded local hose/support motion audit",
+  "approved_for_fabrication": false,
+  "brake_package_matched": false,
+  "maximum_force_confirmed": false,
+  "body_to_truck_supply_loop_defined": false,
+  "full_service_access_accepted": false,
+  "supplier_request_status": "Webb and ZF requests sent19 October2026; awaiting replies",
+  "evidence_records": [
+    "motion-review.json",
+    "service-access-review.json",
+    "air-hardware-review.json",
+    "mount-details-review.json",
+    "support-contact-review.json",
+    "air-drawing-provenance.json",
+    "service-drawing-provenance.json"
+  ],
+  "browser_qa": "Managed preview unavailable: proc mount failure. Static links, model composition and rendered drawing images checked separately."
+}

@@ -1,0 +1,48 @@
+{
+  "issue": "PF-LOCO-LT3-R0",
+  "sampled_combinations": 225,
+  "yaw_deg": [
+    -8,
+    8
+  ],
+  "roll_deg": [
+    -2,
+    2
+  ],
+  "pitch_deg": [
+    -2,
+    2
+  ],
+  "minimum_margins": {
+    "body_adapter_to_fork_vertical_mm": 4.577345001328467,
+    "body_pendant_to_yaw_cap_vertical_mm": 6.3629220271939175,
+    "ring_to_yaw_cap_vertical_mm": 5.452630906454033,
+    "catch_window_X_margin_mm": 13.814111350723483,
+    "catch_window_Y_margin_mm": 9.709281960913131,
+    "catch_head_vertical_gap_mm": 8.665957358829473,
+    "side_shoe_X_overlap_margin_mm": 51.208833642803086,
+    "side_shoe_Y_overlap_margin_mm": 42.74628506340002
+  },
+  "maximum_cap_edge_compression_demand_mm": 19.703667351159083,
+  "side_elastomer_trial_compression_limit_mm": 20,
+  "powerpack_corner_to_shell_radial_margin_mm": 109.0045973501177,
+  "engine_opening_X_mm": [
+    1600,
+    5800
+  ],
+  "skid_X_mm": [
+    2280,
+    4620
+  ],
+  "engine_opening_note": "Remove both half-panels and their detachable ribs in bays1\u20133. Hoist, sling, engine CG, lifting points and hoses not qualified.",
+  "passed_specific_screens": true,
+  "not_checked": [
+    "Complete swept-solid collision detection",
+    "Unmodeled bearing covers, fasteners, lubrication hardware, guides and stops at maximum fault travel",
+    "Wheel/rail contact, curving forces and stability",
+    "Side-bearing pressure distribution and actual rubber deformation",
+    "Primary spring/damper motion ratios and actual axlebox guides",
+    "Leading/trailing running gear, ladder sweep and tender/coupler clearance"
+  ],
+  "status": "Sampled geometric screens only; positive margins are not an engineering release."
+}

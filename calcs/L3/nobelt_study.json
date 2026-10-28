@@ -1,0 +1,267 @@
+{
+ "inline_sweep": {
+  "H1B110 SAE L* | shaft end Y100": {
+   "best_min_gap_mm": -64.2,
+   "best_clock_deg": -20,
+   "limited_by": "wheel tread rim 50 deep T1 Ø1450 driver (spok",
+   "motor": "H1B110 SAE L* flange Y175 rear Y491",
+   "fits": false
+  },
+  "H1B110 SAE L* | shaft end Y40": {
+   "best_min_gap_mm": -36.0,
+   "best_clock_deg": 0,
+   "limited_by": "horn cheek PL30 T1",
+   "motor": "H1B110 SAE L* flange Y115 rear Y431",
+   "fits": false
+  },
+  "H1B080 SAE L* | shaft end Y100": {
+   "best_min_gap_mm": -26.0,
+   "best_clock_deg": 0,
+   "limited_by": "horn cheek PL30 T1",
+   "motor": "H1B080 SAE L* flange Y162 rear Y452",
+   "fits": false
+  },
+  "H1B080 SAE L* | shaft end Y40": {
+   "best_min_gap_mm": -26.0,
+   "best_clock_deg": 0,
+   "limited_by": "horn cheek PL30 T1",
+   "motor": "H1B080 SAE L* flange Y102 rear Y392",
+   "fits": false
+  },
+  "H1B080 SAE T* | shaft end Y100": {
+   "best_min_gap_mm": -26.0,
+   "best_clock_deg": 0,
+   "limited_by": "horn cheek PL30 T1",
+   "motor": "H1B080 SAE T* flange Y162 rear Y423",
+   "fits": false
+  },
+  "H1B080 SAE T* | shaft end Y40": {
+   "best_min_gap_mm": -26.0,
+   "best_clock_deg": 0,
+   "limited_by": "horn cheek PL30 T1",
+   "motor": "H1B080 SAE T* flange Y102 rear Y363",
+   "fits": false
+  },
+  "H1B080 DIN L* | shaft end Y100": {
+   "best_min_gap_mm": -26.0,
+   "best_clock_deg": 0,
+   "limited_by": "horn cheek PL30 T1",
+   "motor": "H1B080 DIN L* flange Y155 rear Y421",
+   "fits": false
+  },
+  "H1B080 DIN L* | shaft end Y40": {
+   "best_min_gap_mm": -26.0,
+   "best_clock_deg": 0,
+   "limited_by": "horn cheek PL30 T1",
+   "motor": "H1B080 DIN L* flange Y95 rear Y361",
+   "fits": false
+  },
+  "H1B080 DIN T* | shaft end Y100": {
+   "best_min_gap_mm": -26.0,
+   "best_clock_deg": 0,
+   "limited_by": "horn cheek PL30 T1",
+   "motor": "H1B080 DIN T* flange Y155 rear Y392",
+   "fits": false
+  },
+  "H1B080 DIN T* | shaft end Y40": {
+   "best_min_gap_mm": -2.4,
+   "best_clock_deg": -90,
+   "limited_by": "inside sideframe bottom chord PL30 T1",
+   "motor": "H1B080 DIN T* flange Y95 rear Y332",
+   "fits": false
+  },
+  "H1B080 cartridge | shaft end Y100": {
+   "best_min_gap_mm": -12.5,
+   "best_clock_deg": -90,
+   "limited_by": "inside sideframe bottom chord PL30 T1",
+   "motor": "H1B080 cartridge flange Y155 rear Y342",
+   "fits": false
+  },
+  "H1B080 cartridge | shaft end Y40": {
+   "best_min_gap_mm": 14.0,
+   "best_clock_deg": -90,
+   "limited_by": "inside axlebox + primary guide (AWAIT bearing",
+   "motor": "H1B080 cartridge flange Y95 rear Y282",
+   "fits": true
+  },
+  "fixed bent-axis 80cc (A2FM80 class, AWAIT) | shaft end Y100": {
+   "best_min_gap_mm": -6.0,
+   "best_clock_deg": 0,
+   "limited_by": "horn cheek PL30 T1",
+   "motor": "fixed bent-axis 80cc (A2FM80 class, AWAIT) flange Y155 rear Y365",
+   "fits": false
+  },
+  "fixed bent-axis 80cc (A2FM80 class, AWAIT) | shaft end Y40": {
+   "best_min_gap_mm": 25.0,
+   "best_clock_deg": -90,
+   "limited_by": "inside sideframe bottom chord PL30 T1",
+   "motor": "fixed bent-axis 80cc (A2FM80 class, AWAIT) flange Y95 rear Y305",
+   "fits": true
+  },
+  "MS05 2-speed no brake | shaft end Y100": {
+   "best_min_gap_mm": -69.8,
+   "best_clock_deg": -15,
+   "limited_by": "wheel tread rim 50 deep T1 Ø1450 driver (spok",
+   "motor": "MS05 2-speed no brake flange Y185 rear Y497",
+   "fits": false
+  },
+  "MS05 2-speed no brake | shaft end Y40": {
+   "best_min_gap_mm": -61.0,
+   "best_clock_deg": 0,
+   "limited_by": "horn cheek PL30 T1",
+   "motor": "MS05 2-speed no brake flange Y125 rear Y437",
+   "fits": false
+  },
+  "MS05 2-speed + brake | shaft end Y100": {
+   "best_min_gap_mm": -127.8,
+   "best_clock_deg": -30,
+   "limited_by": "wheel tread rim 50 deep T1 Ø1450 driver (spok",
+   "motor": "MS05 2-speed + brake flange Y185 rear Y555",
+   "fits": false
+  },
+  "MS05 2-speed + brake | shaft end Y40": {
+   "best_min_gap_mm": -67.8,
+   "best_clock_deg": -10,
+   "limited_by": "wheel tread rim 50 deep T1 Ø1450 driver (spok",
+   "motor": "MS05 2-speed + brake flange Y125 rear Y495",
+   "fits": false
+  }
+ },
+ "rangle": [
+  {
+   "part": "SK 9082.1 class housing+shrink disc 618x450x600 (APPROX, ~610-700 kg)",
+   "min_gap_mm": 35,
+   "against": "primary spring Ø140 reservation (LT35 AWAIT) "
+  },
+  {
+   "part": "SAE bell housing + coupling",
+   "min_gap_mm": 0.0,
+   "against": "own SK 9082.1 class housing+shrink disc"
+  },
+  {
+   "part": "H1B110 SAE L* along X",
+   "min_gap_mm": -68.8,
+   "against": "other-axle H1B110 SAE L* along X"
+  },
+  {
+   "part": "brake disc Ø340 (kept)",
+   "min_gap_mm": 45,
+   "against": "primary spring Ø140 reservation (LT35 AWAIT) "
+  },
+  {
+   "part": "caliper",
+   "min_gap_mm": 61.0,
+   "against": "inside axlebox + primary guide (AWAIT bearing"
+  },
+  {
+   "part": "caliper",
+   "min_gap_mm": 61.0,
+   "against": "inside axlebox + primary guide (AWAIT bearing"
+  }
+ ],
+ "chain": [
+  {
+   "part": "45T ANSI120-2 axle sprocket OD580 on pressed hub",
+   "min_gap_mm": 15,
+   "against": "primary spring Ø140 reservation (LT35 AWAIT) "
+  },
+  {
+   "part": "chain case / guard (oil bath) 3 mm",
+   "min_gap_mm": 3,
+   "against": "primary spring Ø140 reservation (LT35 AWAIT) "
+  },
+  {
+   "part": "15T ANSI120-2 motor sprocket OD206",
+   "min_gap_mm": 72.0,
+   "against": "truck transom box PL16 T1"
+  },
+  {
+   "part": "Poclain MS05 468/234 2-speed + T04 brake Ø300x370 (frame-mounted)",
+   "min_gap_mm": 25.0,
+   "against": "truck transom box PL16 T1"
+  },
+  {
+   "part": "brake disc Ø340 (kept)",
+   "min_gap_mm": 45,
+   "against": "primary spring Ø140 reservation (LT35 AWAIT) "
+  },
+  {
+   "part": "caliper",
+   "min_gap_mm": 61.0,
+   "against": "inside axlebox + primary guide (AWAIT bearing"
+  },
+  {
+   "part": "caliper",
+   "min_gap_mm": 61.0,
+   "against": "inside axlebox + primary guide (AWAIT bearing"
+  }
+ ],
+ "perf": {
+  "L3 belt (baseline) H1B110 x14.9": {
+   "start_kN": 37.9,
+   "theory_kN": 45.0
+  },
+  "(b) H1B080 x14.9": {
+   "start_kN_350": 32.0,
+   "start_kN_400": 36.6
+  },
+  "(c) TA 5:1 + MS05 560/280": {
+   "start_kN": 37.9,
+   "theory_kN": 76.8
+  },
+  "chain MS05 468/234 x3.0 (15/45)": {
+   "start_kN": 37.9,
+   "theory_kN": 38.5,
+   "start_300bar_kN": 33.0,
+   "margin": 1.2,
+   "motor_rpm_6mph": 105.9,
+   "flow_6mph_Lmin": 104.3,
+   "pump_stop_cc": 41.6,
+   "top_mph_full_disp": 3.82,
+   "top_mph_half_disp_capability": 7.65,
+   "TE_2nd_disp_350_kN": 19.3,
+   "run_2pct_kN": 19.3
+  },
+  "chain loads": {
+   "axle_T_adh_Nm": 6875,
+   "pull_adh_kN": 25.2,
+   "axle_T_HPRV_Nm": 8938,
+   "pull_HPRV_kN": 32.7,
+   "ANSI120_2_ult_kN": 257,
+   "SF_ult_adh": 10.2,
+   "SF_ult_HPRV": 7.9,
+   "chain_speed_mps_6mph": 1.01,
+   "wrap_small_deg": 132.0,
+   "centre_pitches": 11.8,
+   "MS05_brake_park_kN": 52.4,
+   "MS05_brake_emerg_kN": 45.4
+  },
+  "(d) NORD SK 9072.1 / SEW KA127 class": {
+   "rated_Nm": 8500,
+   "axle_seat_mm": 95,
+   "approx_kg": 360,
+   "use_start_SF16": 1.08,
+   "use_adh_SF16": 1.29,
+   "use_run_SF16": 0.66,
+   "start_kN": 37.9
+  },
+  "(d) NORD SK 9082.1": {
+   "rated_Nm": 13000,
+   "axle_seat_mm": 110,
+   "approx_kg": 650,
+   "use_start_SF16": 0.7,
+   "use_adh_SF16": 0.85,
+   "use_run_SF16": 0.43,
+   "start_kN": 37.9
+  },
+  "(d) SEW KA157": {
+   "rated_Nm": 18000,
+   "axle_seat_mm": 120,
+   "approx_kg": 600,
+   "use_start_SF16": 0.51,
+   "use_adh_SF16": 0.61,
+   "use_run_SF16": 0.31,
+   "start_kN": 37.9
+  }
+ }
+}

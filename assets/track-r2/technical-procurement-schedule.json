@@ -1,0 +1,158 @@
+{
+  "issue": "PF-3R2-R0",
+  "sent": false,
+  "orders_placed": false,
+  "costs_or_business_forecasts_published": false,
+  "packages": [
+    {
+      "id": "TR-01",
+      "package": "Rail, new or documented relay",
+      "accountable": "Rail/wheel/track engineers + selected supplier",
+      "technical_return": "Controlled complete rail profile and steel/condition data; rolling/wear tolerances; straightness; lengths/traceability; wheel-rail compatibility. Paper/CAD identity discrepancy must be closed.",
+      "source_leads": "R2-S01/R2-S04/R2-S05",
+      "selected_part_or_drawing": null,
+      "order_quantity": null,
+      "project_stock_or_lead_time_confirmed": false,
+      "release": false
+    },
+    {
+      "id": "TR-02",
+      "package": "Matched joint assembly",
+      "accountable": "Track engineer + rail/bar supplier",
+      "technical_return": "Both rail-end sections/drilling, bar mating/inclined faces, joint gap/thermal behavior, bolt head/grip/thread/washer/retention and torque/inspection basis. Resolve2.5/2.75/3inbolt differences; do not mix catalog sets.",
+      "source_leads": "R2-S01/R2-S04/R2-S07",
+      "selected_part_or_drawing": null,
+      "order_quantity": null,
+      "project_stock_or_lead_time_confirmed": false,
+      "release": false
+    },
+    {
+      "id": "TR-03",
+      "package": "Ties, bearing and fastenings",
+      "accountable": "Track/civil/vehicle engineers + supplier",
+      "technical_return": "Material/treatment, tie section/length/spacing, rail bearing/cant/base fit, plates/clips/spikes/screws, gauge restraint, electrical/environmental compatibility and full structural/soil load path.",
+      "source_leads": "R2-S06/R2-S07",
+      "selected_part_or_drawing": null,
+      "order_quantity": null,
+      "project_stock_or_lead_time_confirmed": false,
+      "release": false
+    },
+    {
+      "id": "TR-04",
+      "package": "Ballast, formation and drainage",
+      "accountable": "Civil/geotechnical + track engineers",
+      "technical_return": "Approved gradation/compaction/section/drainage/filter/separation and settlement/scour evidence for actual soil and irrigation. No generic ballast depth adopted.",
+      "source_leads": "Site-specific evidence required",
+      "selected_part_or_drawing": null,
+      "order_quantity": null,
+      "project_stock_or_lead_time_confirmed": false,
+      "release": false
+    },
+    {
+      "id": "TR-05",
+      "package": "Curved rails / transitions",
+      "accountable": "Track/vehicle engineers + bending specialist",
+      "technical_return": "Accepted radius/transition/reverse-curve behavior, profile after bending, material/process/temperature, joint staggering and inspection. No unqualified hot bending or stretching rail to force gauge.",
+      "source_leads": "Controlled detail/process required",
+      "selected_part_or_drawing": null,
+      "order_quantity": null,
+      "project_stock_or_lead_time_confirmed": false,
+      "release": false
+    },
+    {
+      "id": "TR-06",
+      "package": "Turnouts, frogs and check rails",
+      "accountable": "Track/vehicle engineers + trackwork maker",
+      "technical_return": "Selected wheel back-to-back/flange/profile, flangeways, check gauge, crossing/frog geometry, switch rail fit, points throw/lock/detection, swept envelope and support. Nominal36in alone is insufficient.",
+      "source_leads": "R2-S05/R2-S07",
+      "selected_part_or_drawing": null,
+      "order_quantity": null,
+      "project_stock_or_lead_time_confirmed": false,
+      "release": false
+    },
+    {
+      "id": "TR-07",
+      "package": "Crossings and public separation",
+      "accountable": "Civil/track/accessibility/fire leads",
+      "technical_return": "Actual users/loads, drainage, surface/flangeway, crossings and emergency access, vegetation and protected passenger route. No authority exemption assumed.",
+      "source_leads": "Site-specific engineered detail",
+      "selected_part_or_drawing": null,
+      "order_quantity": null,
+      "project_stock_or_lead_time_confirmed": false,
+      "release": false
+    },
+    {
+      "id": "TR-08",
+      "package": "Stations and boarding",
+      "accountable": "Vehicle/boarding/civil/structure leads",
+      "technical_return": "Actual loaded floor/motion, stopping position, swept clearance, platform foundation/settlement, bridge/lift mating/retention, stairs/guards/lighting and safe controlled access.",
+      "source_leads": "3Q/3R1retained evidence",
+      "selected_part_or_drawing": null,
+      "order_quantity": null,
+      "project_stock_or_lead_time_confirmed": false,
+      "release": false
+    },
+    {
+      "id": "TR-09",
+      "package": "Derailment / boundary protection",
+      "accountable": "Vehicle/track/structure + hazard-review lead",
+      "technical_return": "Credible derailment/run-through hazards, property/setbacks, fences/guards/ends, energy/load/occupancy and rescue access. No generic rail barrier height or stop force.",
+      "source_leads": "Site/vehicle-specific hazard analysis",
+      "selected_part_or_drawing": null,
+      "order_quantity": null,
+      "project_stock_or_lead_time_confirmed": false,
+      "release": false
+    },
+    {
+      "id": "TR-10",
+      "package": "Route protection and control",
+      "accountable": "Controls/brake/track operations lead",
+      "technical_return": "Authorized train movements, point proving, occupied/fouling sections, stop/braking envelope, loss-of-power/comms response and later second-train operating scheme.",
+      "source_leads": "Integrated control design/testing",
+      "selected_part_or_drawing": null,
+      "order_quantity": null,
+      "project_stock_or_lead_time_confirmed": false,
+      "release": false
+    },
+    {
+      "id": "TR-11",
+      "package": "Storage and maintenance",
+      "accountable": "Vehicle/civil/structure/fire leads",
+      "technical_return": "Storage and isolation points, access/lift/jack/derail protection, controlled pits if any, fuel/oil/drainage and maintenance removal paths.",
+      "source_leads": "Released vehicle + site interface",
+      "selected_part_or_drawing": null,
+      "order_quantity": null,
+      "project_stock_or_lead_time_confirmed": false,
+      "release": false
+    },
+    {
+      "id": "TR-12",
+      "package": "Inspection / proof section",
+      "accountable": "Responsible engineers + inspection/authority parties",
+      "technical_return": "Accepted survey, track measurement bases/uncertainty/limits, rail condition/fasteners/drainage, no-passenger initial test and integrated brake/vehicle acceptance plan. Length/location/speed/load not selected.",
+      "source_leads": "3R1holdpoints and final test basis",
+      "selected_part_or_drawing": null,
+      "order_quantity": null,
+      "project_stock_or_lead_time_confirmed": false,
+      "release": false
+    }
+  ],
+  "sequence": [
+    {
+      "step": "P0technical data",
+      "work": "Prepare controlled interface requirements, samples/data and authority/design responsibilities; no orders."
+    },
+    {
+      "step": "P1prototype release",
+      "work": "After responsible release, define first wheelset/bogie/body/joint and short track proof-section procurement as coordinated packages. No length or specimen loads guessed."
+    },
+    {
+      "step": "P2first system",
+      "work": "Freeze tested interfaces and actual material takeoff for first train, complete track/stations and maintenance/rescue infrastructure."
+    },
+    {
+      "step": "P3future capacity",
+      "work": "Reserve only supportable interfaces for later second train; route protection/passing/storage and test scope require a separate accepted design. No service-capacity or finance projection here."
+    }
+  ]
+}

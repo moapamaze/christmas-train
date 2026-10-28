@@ -1,0 +1,1707 @@
+HE SERIES ERV
+Installation, Operation and Maintenance Manual
+
+HE05IN
+
+
+
+
+                                            Model: HE05IN shown
+                          ERV         HE-Series Indoor
+
+
+
+
+                               WARNING                                                         AVERTISSEMENT
+    EC motors (ECM) are NOT suitable for use with solid state           Les moteurs EC (ECM) ne conviennent PAS pour une
+    speed control. They already have speed control built into the       utilisation avec un contrôle de vitesse à semi-conducteurs.
+    motor electronics.                                                  Ils ont déjà un contrôle de vitesse intégré à l'électronique
+                                                                        du moteur.
+
+
+                               WARNING
+             ARC FLASH AND ELECTRIC SHOCK HAZARD
+    Arc flash and electric shock hazard. Disconnect all electric
+    power supplies, verify with a voltmeter that electric power
+    is off and wear protective equipment per NFPA 70E before
+    working within electric control enclosure. Failure to comply can
+    cause serious injury or death.
+    Customer must provide earth ground to unit, per NEC, CEC and
+    local codes, as applicable.
+    Before proceeding with installation, read all instructions, veri-
+    fying that all the parts are included and check the nameplate to
+    be sure the voltage matches available utility power.
+    The line side of the disconnect switch contains live
+    high-voltage.
+    The only way to ensure that there is NO voltage inside the unit
+    is to install and open a remote disconnect switch and verify
+    that power is off with a volt meter. Refer to unit electrical
+    schematic. Follow all local codes.
+
+
+                                CAUTION                                                              CAUTION
+         RISK OF ELECTRIC SHOCK OR EQUIPMENT DAMAGE                          RISK OF CONTACT WITH HIGH SPEED MOVING PARTS
+    Whenever electrical wiring is connected, disconnected or            Disconnect all local and remote power supplies, verify with
+    changed, the power supply to the ERV and its controls must          a voltmeter that electric power is off and all fan blades have
+    be disconnected. Lock and tag the disconnect switch or circuit      stopped rotating before working on the unit.
+    breaker to prevent accidental reconnection of electric power.       Do not operate this unit with any cabinet panels removed.
+
+
+                           IMPORTANT                                                             IMPORTANT
+    This equipment is to be installed by following Industry Best        This unit is intended for general ventilating and heating only.
+    Practices and all applicable codes. Any damage to compo-            Do not use to exhaust hazardous or explosive materials and
+    nents, assemblies, subassemblies or the cabinet which is            vapors. Do not connect this equipment to range hoods, fume
+    caused by improper installation practices will void                 hoods or collection systems for toxics.
+    the warranty.
+                                                                                                 IMPORTANT
+                                                                        This unit is for ventilating finished structures only. It is not to
+                                                                        be used until after all construction has been completed and
+                                                                        construction debris and dust are cleaned from the
+                                                                        Occupied Space.
+
+
+
+
+2   1.800.627.4499
+                                                                                                                                                                          OWNER INFORMATION
+                                                                                                                                     HE-Series Indoor                     ERV
+
+
+
+READ AND SAVE THIS MANUAL/LIRE ET CONSERVER CE MANUEL
+
+                                                                NOTICE                                                                                                           NOTE: This unit is
+ This manual contains space for maintaining written records of unit maintenance and/                                                                                             an Energy Recovery
+ or repairs. See Section 7.7 Maintenance Records. At the time the ERV is commissioned, a                                                                                         Ventilator, or ERV.
+ maintenance schedule should be developed by the user to incorporate monthly and seasonal                                                                                It is commonly referred to
+ maintenance and include start up maintenance tasks as described in this manual.                                                                                         throughout this manual as
+                                                                                                                                                                         an ERV.
+UNIT INFORMATION
+Record information as shown below.
+In the unlikely event that factory assistance is ever required, information located on the unit                                                                                 NOTE: This page
+label will be needed.                                                                                                                                                           is to be completed
+                                                                                                                                                                                by the installing
+Locate the RenewAire unit label found on the outside of the unit.                                                                                                        contractor. The completed
+NOTE: This information is for purposes of identifying the unit-specific option data from the                                                                             document is to be turned
+Option Code.                                                                                                                                                             over to the owner after
+                                                                                                                                                                         start up.
+Option Code:
+H E 0 5 - J I N V - S 1 1 E E - - - G N T - - - L
+Serial Number:
+
+
+SO #:
+
+
+
+
+                                                                            Energy Recovery Ventilator
+                        201 Raemisch Rd Waunakee, WI 53597 (800) 627.4499
+                           renewairesupport@renewaire.com
+
+                       Option Code             HE05-JINV-S11EE---GNT---L
+                       Model/Modele            HE05IN                    Sales Order                       106640
+                                                                                                                                 SCCR             5    KAIC
+                       Serial Number           H24102479C                 Job Order                        69148-0000
+
+
+                                               Power Supply to Unit                               Motors protected by IEC Style Motor Starters
+                                             Alimentation d'energie a l'unite                     Les moteurs protégés par des dé moteur de modéle de IEC
+    UNIT INFORMATION        Voltage
+                                             Minimum Circuit            Max Overcurrent
+                                                                                                       (QTY) & W/HP                         FLA
+                                                  Amps                  Protection Device
+                             115V                    6.1                        15                          None                              -
+                                                                      Dispositif de protection
+                                             Amp. Minimales
+                        60 HZ 1-Phase                                  maximum contre les              (QTY) & W/CV                         APC
+                                               de Circuit                  surintensites
+                                          Motors Thermally Protected                             Motors Protected by Variable Frequency Drives
+                                             Moteurs protégé thermiquement                         Les moteurs protégés par la frequence variable conduit
+                                (QTY) & W/HP                                FLA                        (QTY) & W/HP                         FLA
+
+                                 2 @ 220W                                   2.7                            None                               -
+                                (QTY) & W/CV                                APC                        (QTY) & W/CV                         APC
+                                                                                                                                                            130137_001
+
+
+
+
+                                      Danger of electric shock. Always disconnect power source before servicing. Do not install in a cooking area or
+                                                make line-voltage electrical power connections directly between this unit and any appliance.
+                                   Danger de choc èlectrique. Tojours deconnector la source d'alimentation avant les rèparations. N'installez pas de zone
+                                        cuisine ou de ligne de tension les connexions d'alimentation électrique directement entre cette unité et tout.
+
+
+
+
+                                                                            UNIT LABEL (TYPICAL)
+
+
+
+
+                                                                                                                                                                                        1.800.627.4499   3
+    TABLE OF CONTENTS
+                                    ERV              HE-Series Indoor
+
+
+
+    1.0 OVERVIEW                                                                                7 5.5 WIRING SCHEMATICS�������������������������������������������19
+                                                                                                       5.6 EXTERNAL CONTROL CONNECTIONS���������������������20
+    1.1 DESCRIPTION���������������������������������������������������������7                           5.6.1 Fan Enable Field Circuit�����������������������������������������������������20
+    1.2 AIRFLOW����������������������������������������������������������������8                        5.6.2 Fan Speed Selection Field Circuit��������������������������������������20
+                                                                                                         5.6.3 Fan Speed Adjustment������������������������������������������������������20
+    2.0 COMPONENT DESCRIPTIONS                                                                  8       5.6.4 Analog Signal for Controlling Speed 2�������������������������������20
+
+    2.1 CABINET����������������������������������������������������������������8                      6.0 OPERATION                                                                         21
+    2.2 ENTHALPIC CORES�������������������������������������������������8                             6.1 PRINCIPLE OF OPERATION������������������������������������21
+    2.3 IMPELLER/MOTOR ASSEMBLIES�����������������������������8                                       6.2 PRE-START UP�����������������������������������������������������21
+    2.4 E-BOX��������������������������������������������������������������������9                      6.2.1 Verify Voltages������������������������������������������������������������������21
+      2.4.1 OA/SA to RA/EA Conversion���������������������������������������������� 10                  6.2.2 Inspect Filters������������������������������������������������������������������21
+                                                                                                         6.2.3 Inspect Foam Gasketing���������������������������������������������������21
+    2.5 FILTERS���������������������������������������������������������������10                        6.2.4 Inspect Fans���������������������������������������������������������������������21
+                                                                                                         6.2.5 Inspect and Clean the Cabinet Interior�������������������������������21
+    3.0 SHIPPING/RECEIVING/HANDLING                                                           11        6.2.6 Inspect Ductwork Connections������������������������������������������21
+    3.1 UNIT WEIGHTS AND DIMENSIONS�������������������������11                                        6.3 UNIT START UP�����������������������������������������������������21
+      3.1.1 HE05IN Unit Dimensions and Weight���������������������������������� 11                      6.3.1 Starting Up ECM Units������������������������������������������������������21
+      3.1.2 HE05IN Maximum Shipping Dimensions and Weight����������� 11
+                                                                                                       6.4 BALANCING AIRFLOW�������������������������������������������22
+    3.2 RIGGING AND CENTER OF GRAVITY�����������������������11                                          6.4.1 Filter Pressure Drop����������������������������������������������������������23
+      3.2.1 HE05IN Hoisting Weights and COG������������������������������������ 11
+                                                                                                       6.5 NORMAL OPERATION��������������������������������������������23
+    3.3 RECEIVING�����������������������������������������������������������12                        6.6 OPERATION IN EXTREME COLD WEATHER�������������23
+    3.4 STORAGE�������������������������������������������������������������12
+                                                                                                       7.0 MAINTENANCE                                                                       24
+    4.0 UNIT PLACEMENT                                                                        12
+                                                                                                       7.1 MAINTENANCE 24 HRS. AFTER START UP�������������24
+    4.1 BEFORE YOU BEGIN����������������������������������������������12                              7.2 MAINTENANCE 30 DAYS AFTER START UP�������������24
+    4.2 SERVICE CLEARANCES�����������������������������������������13                                 7.3 MAINTENANCE SCHEDULE������������������������������������24
+    4.3 SOUND ATTENUATION�������������������������������������������13                                7.4 FILTERS���������������������������������������������������������������24
+      4.3.1 Ducts������������������������������������������������������������������������������� 13
+      4.3.2 Radiated Noise����������������������������������������������������������������� 13        7.5 IMPELLER MOTOR������������������������������������������������24
+      4.3.3 Connecting Ducts to Unit�������������������������������������������������� 13
+                                                                                                       7.6 ENTHALPIC CORE�������������������������������������������������25
+                                                                                                         7.6.1 Enthalpic Core Maintenance����������������������������������������������25
+    5.0 INSTALLATION                                                                          14        7.6.2 Enthalpic Core Removal����������������������������������������������������25
+                                                                                                         7.6.3 Enthalpic Core Replacement����������������������������������������������25
+    5.1 DUCTWORK����������������������������������������������������������14
+      5.1.1 Ducts to the Outside���������������������������������������������������������� 14         7.7 MAINTENANCE RECORDS�������������������������������������25
+      5.1.2 Inside Ductwork System���������������������������������������������������� 14
+                                                                                                       7.8 SERVICE PARTS����������������������������������������������������26
+      5.1.3 Duct Insulation������������������������������������������������������������������ 14
+      5.1.4 OA/SA to RA/EA Conversion���������������������������������������������� 14
+      5.1.5 Adjust Fan Speed to Set and Balance Airflow Rates����������� 14
+                                                                                                       8.0 TROUBLESHOOTING                                                                   27
+    5.2 FLOOR INSTALLATION�������������������������������������������14
+                                                                                                       9.0 FACTORY ASSISTANCE                                                                27
+    5.3 SUSPENDED MOUNT��������������������������������������������15
+      5.3.1 Hanging Unit From Structure �������������������������������������������� 15
+      5.3.2 Hanging Bracket Kit���������������������������������������������������������� 15
+      5.3.3 Hanging Vibration Isolators����������������������������������������������� 16
+    5.4 ELECTRICAL REQUIREMENTS��������������������������������17
+      5.4.1 Factory-Recommended Electric Service Entry�������������������� 17
+      5.4.2 Low Voltage Control System��������������������������������������������� 18
+      5.4.3 How to Reset the 24VAC Circuit Breaker���������������������������� 18
+      5.4.4 Limits of Power Output ���������������������������������������������������� 18
+
+
+
+
+4     1.800.627.4499
+                                                                                                                                                      TABLE OF CONTENTS
+                                                                                                                       HE-Series Indoor               ERV
+
+
+
+
+TABLE OF ILLUSTRATIONS
+ Figure 1.2.0 Airflow Orientations��������������������������������������������������������������������������������������������������������� 8
+ Figure 2.4.0 E-Box����������������������������������������������������������������������������������������������������������������������������� 9
+ Figure 2.4.1 Electrical Changes Required for Airstream Swap������������������������������������������������������������ 10
+ Figure 3.2.0 HE05IN Weights and COG���������������������������������������������������������������������������������������������� 11
+ Figure 3.2.1 HE05IN Weights and COG, Side View����������������������������������������������������������������������������� 12
+ Figure 4.2.0 HE05IN Service Clearances, Top View���������������������������������������������������������������������������� 13
+ Figure 5.2.0 Floor Installation with optional Leveling Legs����������������������������������������������������������������� 14
+ Figure 5.3.0 Hanging Bracket Kit������������������������������������������������������������������������������������������������������ 15
+ Figure 5.3.1 Ceiling Hung with Optional Vibration Isolators���������������������������������������������������������������� 16
+ Figure 5.3.2 Ceiling Hung with Optional Vibration Isolators, Lower Mounting�������������������������������������� 16
+ Figure 5.4.0 E-Box Wiring Entry Points���������������������������������������������������������������������������������������������� 17
+ Figure 5.5.0 Single Phase Unit, Standard������������������������������������������������������������������������������������������ 19
+ Figure 5.6.0 Field Circuit Detail��������������������������������������������������������������������������������������������������������� 20
+ Figure 6.4.0 Pressure Port Locations������������������������������������������������������������������������������������������������ 22
+ Figure 6.4.1 Initial Pressure Drop of MERV 10 Filters, Supplied with unit�������������������������������������������� 23
+ Figure 6.4.2 Initial Pressure Drop of MERV 13 Filters, Available as an Accessory�������������������������������� 23
+ Figure 7.8.0 HE05IN Service Parts���������������������������������������������������������������������������������������������������� 26
+
+
+
+
+                                                                                                                                                              1.800.627.4499   5
+    CONFIGURATION CODE
+                                       ERV           HE-Series Indoor
+                                                         HE MODELS
+                                                     CONFIGURATION GUIDE
+    CONFIGURATION CODE
+                                                             Note: Not all options are available on every model.
+    NOTE: Not all options are available on every model.
+     MODEL NUMBER            H E              J                                       - -                    -
+    MODEL NUMBER
+     DIGIT NUMBER
+                           H 1E 20 35 4 - 5 J 6 I 7 N 8 V 9 - 10 S11 112 113 E14 E15 -16 -17 18- G  N   T  -  - - L
+                                                                                                 19 20 21 22 23 24 25
+    DIGIT NUMBER  1                2      3      4      5        6     7   8     9     10     11     12     13     14     15     16     17    18     19     20     21     22     23     24        25
+
+      Digits 1–5:   Model                                                                                   Digit 18:        Flow Control* (see Restrictions 17, 18, & 19)
+      "HE05-", "HE07-", "HE10-", "HE1.5", "HE-2X",                                                          "-" = No Isolation Dampers (with no Bypass)
+      "HE-3X", "HE-4X", "HE-6X", "HE-7X", "HE-8X"                                                           "D" = Motorized Damper both Airstreams (with no Bypass)
+                                                                                                            "E" = Motorized Damper EA or RA Airstream (with no Bypass)
+      Digits 7–8:    Location (see Restriction 1)                                                           "F" = Motorized Damper SA or OA Airstream (with no Bypass)
+      "IN" = Indoor                                                                                         "S" = Backdraft Damper OA Airstream (with no Bypass)
+      "RT" = Rooftop                                                                                        "R" = Backdraft Damper EA Airstream (with no Bypass)
+                                                                                                            "B" = Backdraft Damper both Airstreams (with no Bypass)
+      Digit 9:         Orientation (see Restriction 2, 3, & 4)                                              "T" = Motorized Damper OA, Backdraft Damper EA (with no Bypass)
+      "V", "H" (Indoor Units)                                                                               "0" = Dry Bulb Face and Bypass Dampers only
+      "V", "H", "R", "F", "C" (Rooftop Units)                                                               "1" = Dry Bulb Bypass with Motorized Dampers all Airstreams
+                                                                                                            "4" = Dry Bulb Bypass with Backdraft Damper OA Airstream
+      Digit 11:    Wall Type (see Restriction 5)                                                            "5" = Enthalpy Face and Bypass Dampers only
+      "S" = Single                                                                                          "6" = Enthalpy Bypass with Motorized Dampers all Airstreams
+      "D" = Double                                                                                          "9" = Enthalpy Bypass with Backdraft Damper OA Airstream
+
+      Digit 10:       Vibration Isolation (see Restrictions 37 & 38)                                        Digit 19:      Unit Control (see Restrictions 20, 21, 22, 23, 24, 25, 26, 33, & 35)
+      "-" = None                                                                                            "A" = Standard Unit Control Wiring
+      "N" = Neoprene Isolators                                                                              "D" = Independent Blower Control (HE1.5 only)
+      "S" = Spring Isolators                                                                                "V" = Onboard VFD Both Airstreams with IE3 Premium Efficiency Motors
+                                                                                                            "W" = Onboard VFD Both Airstreams with IE5+ Ultra Premium Efficiency Motors
+      Digit 12:      Phase (See Restriction 6, 12, 16, & 25)                                                "G" = Terminal Strip for EC Motors or Impellers
+      "1" = Single Phase
+      "3" = Three Phase                                                                                     Digit 20:     Disconnect (see Restriction 27)
+                                                                                                            "N" = Non-Fused (Standard)
+      Digit 13:     Voltage (see Restrictions 7, 8, 9, 10, 11, 16, 24, & 35)                                "F" = Fused
+      "1" = 120V
+      "4" = 460V                                                                                            Digit 21:      Unit Control Enhancements (see Restrictions 21, 28, & 29)
+      "5" = 208-230V                                                                                        "T" = Transformer with Isolation Relay (Standard)
+      "8" = 575V                                                                                            "1" = Enhanced Controls
+      "9" = 277V                                                                                            "2" = Premium Controls
+                                                                                                            "3" = Enhanced Controls with BACnet License
+      Digit 14:       SA Horsepower (see Restrictions 11, 12, 13, 14, 15, 26, & 34)                         "4" = Premium Controls with BACnet License
+      "E" = EC Direct Drive Motors (HE05-, HE07-, HE-10-, and HE1.5 only)
+      "A" = Advanced EC Direct Drive Motorized Impellers (HE07- and HE10- only)                             Digit 22:       Filter Options (see Restriction 29 & 30)
+      "B" = Intermediate EC Direct Drive Motorized Impellers (HE07- only)                                   "-" = None (Standard)
+      "S" = Standard Impellers (HE1.5 only)                                                                 "F" = Filter Monitor Both Airstreams
+      "U" = 1.5HP (HE-2X only)
+      "V" = 2HP (HE-2X, HE-3X, HE-4X only)                                                                  Digit 23:      Other Options
+      "W" = 3HP (HE-3X, HE-4X, HE-6X, HE-7X, HE-8X only)                                                    "-" = None (Reserved)
+      "X" = 5HP (HE-3X, HE-4X, HE-6X, HE-7X, HE-8X only)
+      "Y" = 7.5HP (HE-6X, HE-7X, HE-8X only)                                                                Digit 24:      Paint and Customization (see Restriction 31)
+      "Z" = 10HP (HE-7X, HE-8X only)                                                                        "-" = None
+                                                                                                            "W" = White Paint
+      Digit 15:       EA Horsepower (see Restrictions 11, 12, 13, 14, 15, 26, & 34)                         "C" = Custom Paint
+      "E" = EC Direct Drive Motors (HE05-, HE07-, HE10-, and HE1.5 only)                                    "X" = Custom Unit
+      "A" = Advanced EC Direct Drive Motorized Impellers (HE07- and HE10- only)
+      "B" = Intermediate EC Direct Drive Motorized Impellers (HE07- only)                                   Digit 25:      Safety Listing (see Restriction 32)
+      "S" = Standard Impellers (HE1.5 only)                                                                 "L" = Listed
+      "U" = 1.5HP (HE-2X only)                                                                              "N" = Non-Listed
+      "V" = 2HP (HE-2X, HE-3X, HE-4X only)
+      "W" = 3HP (HE-3X, HE-4X, HE-6X, HE-7X, HE-8X only)
+      "X" = 5HP (HE-3X, HE-4X, HE-6X, HE-7X, HE-8X only)
+      "Y" = 7.5HP (HE-6X, HE-7X, HE-8X only)
+      "Z" = 10HP (HE-7X, HE-8X only)
+
+
+      *NOTES:
+      Digit 6 "J" = G5 Core Type. Digits 16 and 17 are not used in these models.
+      *Digit 18: For units with the Bypass Option, the face damper also acts as an isolation damper in the EA or RA airstream.
+
+
+
+
+                                                         For Technical Support E-mail: RenewaireSupport@renewaire.com
+                                                           To Place an Order E-mail: RenewaireOrders@renewaire.com
+
+6    1.800.627.4499
+                                                                                                        OVERVIEW
+                                                                                  HE-Series Indoor      ERV
+
+
+
+
+1.0 OVERVIEW
+1.1 DESCRIPTION
+The HE05IN Energy Recovery Ventilator (ERV) is a device for recovering both sensible energy (heat)
+and latent energy (moisture) from the Exhaust Air from an Occupied Space and injecting those
+energies into an incoming Outside Air stream. It accomplishes this task by forcing the two airstreams
+through enthalpic cores, where the energy exchange takes place. The two airstreams pass through
+the enthalpic cores at right angles and the airstreams never mix together. See Section 2.2 Enthalpic
+Cores in this manual.
+Each ERV has two EC (electonically commutated) motorized impellers, one for each airstream.
+Impellers have EC motors controlled by a printed circuit board, a RenewAire Commercial Controller,
+or by a building management system (BMS). There are a number of different control devices
+available to control the operation or speed of the unit fans. For further information on available
+control accessories, see the product submittals.
+These ERVs are commonly installed as part of an air-handling system that provides heating and
+cooling of Supply Air. They can also be installed to operate as stand-alone devices when ducted
+directly to and from the Occupied Space.
+Each unit has an integral 24VAC power supply that is used internally and can also be used as a
+power source for other optional control devices.
+The HE05IN units are low-maintenance, requiring periodic replacement of the air filters and
+annual vacuuming of the enthalpic cores. See Section 7.0 Unit Maintenance in this manual.
+
+                                         IMPORTANT
+ It is important to understand and use the equipment airstream terminology as it is used in
+ this manual. The airstreams are defined as:
+ u   O UTSIDE AIR (OA): Air taken from the external atmosphere and, therefore, not previously
+      circulated through the system.
+ u   S UPPLY AIR (SA): Air that is downstream of the enthalpic cores and is ready for condition-
+      ing or for return to the Occupied Space.
+ u   RETURN AIR (RA): Air that is returned to the ERV from a conditioned space.
+ u   E XHAUST AIR (EA): Air that is removed from a heating or cooling appliance or from the
+      Occupied Space and discharged.
+
+
+
+
+                                                                                                                   1.800.627.4499   7
+COMPONENT DESCRIPTIONS
+                           ERV      HE-Series Indoor
+
+
+
+                                    1.2 AIRFLOW
+                                    There is only one airflow option for the HE05IN from the factory. It is:
+                                    u   HE05INV
+                                    HEINField
+                                    u    exceptconversion
+                                                6x 8x, LEIN compatible to swap OA/SAHE05
+                                                                                     withSwappable
+                                                                                          RA/EA.Airflow Icon USED ONLY IN IOM
+                                    The airflow configuration is indicated by digit 9 of the Configuration Code.
+
+                                                             INV                                   INV Swapped Airstreams
+
+                                            RA                                 OA             0A                                   RA
+
+                                                 SA                      EA                        EA                      SA
+
+                                                                DESCRIPTION OF DUCT
+                                           MODEL
+                                                                CONNECTION CONFIGURATION
+                                                                Return Air [RA] and Outside Air [OA] enter on the opposite sides
+                                           HE05INV
+                                                                of unit.
+
+                                           INV SWAPPED
+                                                                Field conversion required.
+                                           AIRSTREAMS
+
+                                                                        FIGURE 1.2.0 AIRFLOW ORIENTATIONS
+
+
+                                    2.0 COMPONENT DESCRIPTIONS
+                                    2.1 CABINET
+                                    The cabinet for the HE05IN is made of 20 gauge galvanized steel and has 1" thick high-density,
+                                    foil-backed insulation on the inside. Units are manufactured in single-wall construction. Doors
+                                    are fitted with captive machine screws through the faces to prevent accidental opening of the
+                                    doors when the unit is in operation. Doors are easily removed by removing the screws. Duct
+                                    flanges come factory installed, supplied with 8" round metal duct collars.
+                                    2.2 ENTHALPIC CORES
+                 CAUTION            All HE05IN ERVs use a static-plate enthalpic core. The enthalpic cores transfer both latent
+       Low airflow can cause        and sensible energies between the airstreams. Gasketing is pre-installed on the cores to
+       fouling of the enthalpic     provide a proper air seal. For information on annual maintenance of the cores, see Section 7.0
+       cores. The ERV must          Maintenance in this manual.
+       never be operated without    2.3 IMPELLER/MOTOR ASSEMBLIES
+       clean filters in place and
+       minimum airflow must be      There are two impeller and motor assemblies in each ERV.
+       greater than 120 CFM per
+       half-sized core.
+
+
+
+
+   8   1.800.627.4499
+                                                                                                       CONPOMENT DESCRIPTIONS
+                                                                                    HE-Series Indoor   ERV
+
+
+
+2.4 E-BOX
+Every HE05IN is equipped with what is known as an “e-box.” High-voltage supply wiring and
+low-voltage control wiring are all terminated here.
+
+                                                                     24VAC STEP-DOWN TRANSFORMER
+           EC CONTROL BOARD                                          (WITH BUILT-IN CIRCUIT BREAKER)
+
+
+
+
+                                             BOARD-MOUNTED
+                                        POTENTIOMETERS FOR SPEED 1
+                                          ADJUSTMENT (USE 5/64"      DISCONNECT SWITCH
+                                          SLOTTED SCREWDRIVER)
+                   POTENTIOMETER FOR
+                   SPEED 2 ADJUSTMENT
+
+
+                                           FIGURE 2.4.0 E-BOX
+
+
+
+
+                                                                                                               1.800.627.4499   9
+    A
+    COMPONENT DESCRIPTIONS                                                 B                                                                    C
+                                          ERV          HE-Series Indoor
+hase
+
+       L1                            N                           GND
+   BK
+                                                       2.4.1 OA/SA to RA/EA Conversion
+                                                          GN/YL
+
+Switch                              WH                 If the OA/SA and RA/EA airstreams are being swapped in the field, you must swap the motor
+                                                       signal wiring on the control board to ensure compatibility with accessories. Swap the EF fan
+    BK                                                 purple wire (pin 1) to pin 3 and yellow wire (pin 2) to pin 4. Insert the SF fan purple wire (pin
+                                                       3) to pin 1 and yellow wire (pin 4) to pin 2. To complete field conversion, cover or remove the
+         BK                                            existing duct labels with the additional labels provided.
+                                                                                     EF ECM
+                                                                                                     PU
+                                                                   RD        L(L+)          GND 4
+                                                                                                 5
+                                                                                          0-10 V
+                                                                BU           N(L-)                   YL
+
+                                                                             GND
+
+
+
+                                                                                     SF ECM
+                                                           RD                                        PU
+                                                                             L(L+)          GND 4
+                                                                                                 5
+                                                           BU                             0-10 V
+                                     WH                                      N(L-)                   YL
+
+                               BK                                            GND
+
+
+
+
+                                                                                                                               (External
+                                                                                                                           customer supplied)
+                                                                                                                                                              RD       24VAC
+                                                                                                                                                              BK       COM
+                                                                                                   CLOSE FOR F N EN LE                                                         DOORKILL1
+                                                                                                                                                              YL       EN
+                                                                                                                                                              PU
+                                                                                                                                                                       VAR
+                                                                                                   CLOSED FOR HIGHSPEED                                                         DOORKILL2
+                                                                                                    OPEN FOR LOW SPEED
+
+                                                                                                                                                                       1
+                                                                                                                                                                       2
+                                                                                                                                                                       3
+
+                                                                      RD                                                                                     YL
+                                                                                                                                                                       4
+
+                                                                                                                                                             YL
+                                                                                                                                                                       5
+                                                                                                                                                                               Circuit Bo
+                                                             XF2
+
+
+
+
+                                                                                                                                                                       6
+                                                                                                                                                (Optional)
+                                                                                                                      EF
+
+
+
+
+                                                                                                                                             EF10V                OR
+                                                                      BK
+                                                                                       FIGURE 2.4.1 ELECTRICAL CHANGES
+                                                                                                                     CWREQUIRED FOR AIRSTREAM SWAP                YL
+                                                                                                                                             EFW
+                                                                                                                                                                  PU
+                                                                                                                                                                               EF
+                                                                                                                                             EFGND
+                                                                                                                                                                  OR
+                                                       2.5 FILTERS                                                                           SF10V
+                                                                                                                                             SFW                  YL           SF
+                                                                                                                                                                  PU
+                                                       All HE05IN units come equipped with two MERV 10 10" x 20" x 2" (nominal) pleated filters.
+                                                                                                                                             SFGND
+                                                                                                                      SF
+
+
+
+
+                                                       MERV 13 filters can be ordered as an accessory and are shipped loose.                                                    J1
+                                                                                                                           CW
+                                                       u   HE05IN: (2) 10" x 20" x 2" (nominal) pleated filters. Actual size: 9.5" x 19.5" x 1.75"
+                                                                                            Note:
+                                                       Minimum recommended effectiveness: MERV 6.
+                                                                                                                   1. For high speed potentiometer wiring, the purple wire
+                                                                                                                      is located closest to the anti-rotation tab
+                                                                                                                   2. For low speed mode fan adjustment, the board
+                                                                                                                      mounted potentiometers are EF (R ) and SF (R1)
+                                                REV.                  DATE                NAME                       CHANGES
+
+
+
+
+                                                   1                 9/3/2024         stimilsina          Changed field wiring connection
+                                                   0                 8/5/2024         stimilsina          New
+
+
+
+
+              10   1.800.627.4499
+                                                                                                                                                                                                                                                     SHIPPING/RECEIVING
+                                                                                                                                                                                   HE-Series Indoor                                                  ERV
+
+
+
+
+    3.0 SHIPPING/RECEIVING/HANDLING
+    HE05IN units are palletized at the factory and then shipped by common carrier. Upon receipt
+    by the installer, the shipment should be inspected for shipping damage, prior to unloading. Any
+    discovered shipping damage should be immediately reported to the RenewAire sales rep and
+    the damage must be recorded on the Bill Of Lading (BOL), prior to signing for acceptance of the
+    shipment. The unit can be handled with an equipment hoist. Prior to moving the unit, verify that
+    all securing bolts on the cabinet doors are tightly fastened.
+    If an equipment hoist is used for moving the HE05IN unit, use straps and a spreader bar. Use
+    straps and a spreader bar to hoist the unit. The straps must be spaced to ensure the unit is
+    level and the center of gravity is positioned properly between them. Unit hoisting weights and
+    Center of Gravity (COG) are detailed in Sections 3.1 and 3.2 in this manual.
+    Perform a test lift to make sure the unit is being hoisted level and is secure.
+    Place the HE05IN unit on a flat surface where it will be protected from the weather and
+    incidental damage. Do not remove protective coverings from any duct openings and keep the
+    doors secured and tightly closed.
+
+    3.1 UNIT WEIGHTS AND DIMENSIONS
+    3.1.1 HE05IN Unit Dimensions and Weight
+    39 7/8" L x 12 1/8" W x 37 5/8" H
+    94 lbs.
+
+    3.1.2 HE05IN Maximum Shipping Dimensions and Weight
+    1 per pallet: 50" L x 47" W x 18" H
+    156 lbs.
+    4 per pallet (full pallet): 50" L x 47" W x 57" H
+    480 lbs.
+
+    3.2 RIGGING AND CENTER OF GRAVITY
+    3.2.1 HE05IN Hoisting Weights and COG
+    Spreader bars and straps are recommended in order to avoid damage to the unit.
+                                   2                                                                                                                                 1
+                                                                                                                              BASIC UNIT WEIGHTS (lbs.)
+                                33.45 (W)
+                                                                                                          Motors                                        UNIT              LF               LR               RR                RF
+                  LR                                           RR
+                                                                                          Standard (1P/115V)                                                94            20               27               26                20
+
+                                                                                          INDICATES LOCATIONS AT WHICH CORNER WEIGHTS ARE
+                                                                                                   CALCULATED: HANGING BRACKETS.                2                                                                                                                 1
+B                                                                                  Center of gravity: From Left A = 16.53", From Front B = 20.62" (+/- 2")                                                                                 B
+                                                                                                                                                               33.45 (W)
+      36.17 (L)
+
+
+
+
+                                                                                                                              LR                                                                                      RR
+                                            20.62 (B)
+
+
+
+
+                                                                            B
+                                                                                                                                                       HANGING BRACKET,
+                                                                                                    39.14 (L2)
+
+                                                                                                                 36.64 (L1)
+
+
+
+
+                  LF                                           RF
+                                                                                                                                                         ORIENTATION B
+                       16.53 (A)
+                           HANGING BRACKET,
+                             ORIENTATION A
+
+
+
+
+A                                                                        MATERIAL:
+
+                                                                         FINISH:
+                                                                                      SEE BILL OF MATERIALS
+                                                                                                                              LF                                                             RENEWAIRE LLC.
+                                                                                                                                                                                                                      RF
+                                                                                                                                                                                201 RAEMISCH RD. WAUNAKEE, WI. 53597 USA
+                                                                                                                                                                                                                                           A
+                                                                                      SEE BILL OF MATERIALS                                                            TEL: (608) 221-4499 FAX: (608) 221-2824 TOLL FREE: (800) 627-4499
+
+                                                         FIGURE 3.2.0 HE05IN WEIGHTS AND COG
+                                                                         UNLESS OTHERWISE SPECIFIED              THIS DOCUMENT CONTAINS INFORMATION
+                                                                                                                 WHICH IS PROPRIETARY TO RENEWAIRE LLC.
+                                                                                                                                                            TITLE:
+                                                                         DIMENSIONS ARE IN INCHES
+                                                                         TOLERANCES:                             THE INFORMATION CONTAINED HEREON                       CORNER WEIGHTS HE05INV
+                                                                         LINEAR 0.015                            SHALL NOT BE DISCLOSED, DUPLICATED, USED
+                                                                         HOLE SIZE 0.005                         IN WHOLE OR IN PART FOR ANY PURPOSE
+                                                                                                                 OTHER THAN TO EVALUATE THIS DOCUMENT
+                                                                         ANGULARITY 3
+                                                                         SURFACE FINISH =                        WITHOUT WRITTEN CONSENT OF RENEWAIRE                                   ASSEMBLY
+
+      000
+                                                                         63 MICRONINCH MINIMUM
+                                                                          X.X INSPECTION
+                                                                                                                 LLC.
+                                                                                                                                                            DO NOT SCALE
+                                                                                                                                                            SIZE     DWG NO.
+                                                                                                                                                                                  THIRD ANGLE PROJECTION
+                                                                                                                                                                                                                  REV
+                                                                                                                                                                                                                                                              1.800.627.4499         11
+                                                                         REMOVE ALL BURRS, BREAK SHARP EDGES,         eSIGNATURES              DATE
+
+                                                                           A                                                                                 A                    147857                                 000
+                                                                         APPLICABLE STANDARDS: DIM.
+                                                                         AND TOL. ANSI Y14.5                     DRAWN:             CJK    12/11/2024
+                                                                                                                                                                                                             MATERIAL:
+    REVISION                DESCRIPTION                 DATE        BY                                           CHECKED:           CRF    12/20/2024       SCALE:       1:12 WEIGHT:          97.59       LBS SHEET         1SEEOF
+                                                                                                                                                                                                                                  BILL OF
+                                                                                                                                                                                                                                       2 MATERIALS                             RENEWAIRE LLC.
+        UNIT PLACEMENT
+                      ERV       HE-Series Indoor
+
+
+                                                              2                                                                                                                1
+                                                                                                                                        BASIC UNIT WEIGHTS (lbs.)
+                                                             33.45 (W)                                                Motors                                         UNIT          LF      LR          RR          RF
+                                            LR                                       RR
+                                                                                                       Standard (1P/115V)                                             94           27      20          20          27
+
+
+
+
+                                 8.82 (L)
+                                                                                                       INDICATES LOCATIONS AT WHICH CORNER WEIGHTS ARE
+                                                                                                                      CALCULATED: LEGS.
+
+                            B               LF                                       RF
+                                                                                           Center of gravity: From Left A = 16.93", From Front B = 3.74" (+/- 2")                                                            B
+                                                 16.93 (A)
+
+
+
+
+                                                                          3.74 (B)
+                                                                         FIGURE 3.2.1 HE05IN WEIGHTS AND COG, SIDE VIEW
+
+                                3.3 RECEIVING
+                                Upon receipt of the HE05IN, inspect the unit for obvious external damage. If damage is
+                                observed, take digital pictures and report the damage to your RenewAire representative. Note
+                                the damage on the carrier’s Bill of Lading. Do not unwrap the unit at this time. The unit will
+                                normally be moved to its final location while still wrapped and attached to its pallet.
+                                The preferred method of hoisting the HE05IN pallet from the carrier truck is by using a
+                                construction forklift or a crane.
+                            A Once the unit is unwrapped, prevent dirt and debris from entering the cabinet by covering any                                                                                                  A
+                                duct openings. Keep the duct openings covered until it’s time to connect ductwork.
+                                3.4 STORAGE                                               RENEWAIRE LLC.
+                                                                                          201 RAEMISCH RD.
+                                                                                                                      THIS DOCUMENT CONTAINS INFORMATION WHICH IS
+                                                                                                                      PROPRIETARY TO RENEWAIRE LLC. THE INFORMATION
+                                                                                                                                                                      DO NOT SCALE THIRD ANGLE PROJECTION
+                                                                                          WAUNAKEE, WI 53597 USA CONTAINED HEREON SHALL NOT BE DISCLOSED,             SIZE   DWG NO.                      REV
+
+                                                                                                          A
+                                Units that must be stored prior to installation should be left on their pallets
+                                                                                          TEL: (608) 221-4499
+                                                                                          FAX: (608) 221-2824
+                                                                                                                 147857
+                                                                                                                and           000
+                                                                                                                    protected from
+                                                                                                                      DUPLICATED, USED IN WHOLE OR IN PART FOR ANY
+                                                                                                                      PURPOSE OTHER THAN TO EVALUATE THIS DOCUMENT
+                                                                                                                                                                      SCALE:    1:12 WEIGHT:    97.59 LBS SHEET   2 OF   2
+                                weather and physical damage. Units must be placed on a level surface to prevent wracking
+                                                                                          TOLL FREE: (800) 627-4499   WITHOUT WRITTEN CONSENT OF RENEWAIRE LLC.
+
+
+
+
+                                of the pallet and the2HE05IN. All access doors must be secured with all available
+                                                                                                              1      hardware
+                                (securing bolts) and all openings into the cabinet must be sealed to prevent entry of dust, dirt
+                                and debris.
+
+                                4.0 UNIT PLACEMENT
+                                4.1 BEFORE YOU BEGIN
+                                The HE05IN is designed for installation in a sheltered location, out of the weather. The preferred
+                                placement is suspended from ceiling, although it can also be placed on a concrete floor or other
+                                structural support. See Section 5.3, Suspended Mount, in this manual.
+                                For all installations, maintain needed service clearances as shown on the dimensioned drawings
+                                located in Section 4.2 of this manual.
+                                For all floor-mount installations, the unit should be set on its field-installed optional accessory
+                                adjustable legs and leveled. Select a location that is central to the inside duct runs and close to
+                                both the exhaust duct (to the outside) and also to the OA duct (from the outside).
+                                The EA outlet and the OA inlet on the outside of the building should be at least 10' apart to
+                                avoid cross-contamination. Comply with all local building codes in the positioning of the duct
+                                openings. Do not position the EA outlet in a location where it will dump EA into any enclosed or
+                                occupied space. The duct inlets and outlets should be screened against insects and vermin and
+                                should be shielded from the weather to prevent entry of rain or snow.
+
+
+
+
+12   1.800.627.4499
+                                                                                                                                                                                                        UNIT PLACEMENT
+                                                                                                                                                                                 HE-Series Indoor       ERV
+
+
+
+4.2 SERVICE CLEARANCES
+
+                                                                                                               12.1±0.1 Overall                                                                                                                             ABBR
+                                                                                                                                                                                                                                                            EA: E
+                                                                                                               Actual value dependent                                                                                                                       OA:
+                                                                                                               on door gasket compression                                                                                                                   RA: R
+                                                                                                                                                                                                                                                            SA: S
+                                                                                                                              Bolt-On Doors
+                                                                                                                                                                                                                                                            INST
+                                                                                                                                                                                                                                                            Unit
+                                                                      8 3/4"                                                                                                                                                                                orien
+
+
+
+
+                                                                                                                                34 1/2" Minimum
+               39 7/8" Overall
+
+
+
+
+                                                                                                                                                                                                                                                            NOT
+
+
+
+
+                                                                                                                                  Service Area
+                                                                                                                                                                                                                                                            1. UN
+                                                                                                                                                                                                                                                            DIME
+                                                                             13"                                                                                                                                                                            NEA
+                                                                                                                                                                                                                                                            2. SP
+                                                                                                                                                                                                                                                            TO C
+
+                                          7" Alternate
+                                        7/8" Knockout
+                                              Power In
+                                                                                                                               10" Minimum
+                                                                      4 1/2"
+                                                                                                                               Service Area
+                                                                        6"
+                                                                                                    TOP VIEW
+                                               Alternate                        11.9±0.1 Case                                                                                                                 Disconnect Switch
+                                                    FIGURE                  Excluding
+                                                     7/8" 4.2.0 HE05IN SERVICE         Hardware
+                                                                               CLEARANCES, TOP VIEW
+                                               Knockout                                                                                                                      High Speed Fan                     Pressure                                    7/8
+                                                                                 7/8"
+                                                                                                                                                                              Potentiometers                    Ports (4) Typ.                          Knockou
+                                                Power In                     Knockout
+                                                                             Low Voltage
+                                                                                                        CAUTION                                                                                                                                          Power I
+
+ It is the installer’s responsibility to make sure that the screws or bolts used for securing the
+
+
+
+
+                                                                                                                                                                                                                             Accessory, Orientation B
+                                                                                                                                                  Accessory, Orientation A
+                                                                                                                                                  37 3/8" Hanging Bracket
+
+
+
+
+                                                                                                                                                                                                                             40 3/8" Hanging Bracket
+                                 38 3/8" Overall w/ Feet
+
+
+
+
+ units are properly selected for the loads and substrates involved. Secure the  RA HE05IN so that                                                                                                                  OA
+                                                           37 5/8" Overall
+                                      Accessory (4)
+
+
+
+
+ it cannot fall or tip in the event of accident, structural failure or earthquake. See Rigging
+                                                                                                               34 5/8" Case
+
+
+
+
+ Information for unit weight.
+                                                                             28 1/2" (2)
+                                                                                           6" (2)
+
+
+
+
+4.3 SOUND ATTENUATION
+Take these simple steps to attenuate noise from the unit.                                                                                                                      SA                                  EA
+
+4.3.1 Ducts
+                                                                     8" (4)                                                                                                                    34 5/8" Case
+Make sure the ductwork    atCollar
+                       Duct the unit outlets is 5stiff
+                                                  7/8"enough
+                                                       (4)   to resist the flexure and resulting
+                                                                                             36" Hanging Bracket
+booming associated with system start up and shut off, as well as the turbulent flow conditionsAccessory
+at the impeller outlets.                                                                      Orientation A or B
+In general, provide smooth transitionsLEFT
+                                         fromVIEW                                               FRONT VIEW
+                                               the ERV’s outlets to the duct. The ducts connecting
+to the outlets should be straight for a sufficient distance, with gradual transitions to the final
+duct size.     Model: HE05INV
+              Drawing Type: Unit Dimension
+These guidelines are consistent with SMACNA recommended duct layout practices for efficient
+              Version: JAN25
+and quiet air movement. Follow SMACNA guidelines.
+
+4.3.2 Radiated Noise
+The HE05IN is insulated with Expanded Polystyrene (EPS) foam. This provides significant
+attenuation of radiated sound from the unit itself.
+The inlet ducts can be significant sources of radiated sound as well. The RA duct should be
+insulated for sound control. This insulation should start at the unit. At a minimum the first 10' of
+duct should be insulated. All parts of the SA and RA ducts located in a mechanical space with
+noise-generating equipment also should be insulated for sound control, both to minimize sound
+radiation out of the RA duct, and also to control sound radiation into both ducts.
+
+4.3.3 Connecting Ducts to Unit
+Factory installed 8" metal duct collars, actual duct collar outer diameter is 8 1/8".
+
+
+                                                                                                                                                                                                                1.800.627.4499              13
+             INSTALLATION
+                            ERV      HE-Series Indoor
+
+
+
+                                     5.0 INSTALLATION
+                                     5.1 DUCTWORK
+            NOTE: Ducts inside       5.1.1 Ducts to the Outside
+            a building that are
+                                     The exhaust outlet and fresh air inlet on the outside of the building should be at least 10' apart
+            connected to the
+                                     to avoid cross-contamination. The exhaust outlet should not dump air into an enclosed space or
+            outside must be
+                                     any other structure. The inlets and outlets should be screened against insects and vermin and
+     insulated with a sealed
+                                     shielded from the weather to prevent the entry of rain or snow.
+     vapor barrier on both the
+     inside and the outside of       Ducts connecting the HE05IN to the outside must be insulated, with sealed vapor barrier on
+     the insulation.                 both inside and outside of the insulation. Insulate both the OA and EA ducts.
+                                     5.1.2 Inside Ductwork System
+               CAUTION               Follow Engineer’s Ductwork Design; ductwork should be designed by an engineer to allow the
+     Tape both inner and outer       unit to provide the required airflow.
+     vapor barriers of insulated
+     duct to collars on duct         5.1.3 Duct Insulation
+     adapters. This is critical      If the inside ducts run through un-conditioned spaces, they must be insulated, with a sealed
+     to prevent migration of         vapor barrier on both inside and outside of insulation.
+     moisture into insulation.
+     Build-up of moisture can        5.1.4 OA/SA to RA/EA Conversion
+     result in failure of the        For units requiring the OA/SA and RA/EA ducts to be swapped, cover or remove the existing
+     duct system and/or frost        duct labels with the additional labels provided.
+     in the insulation. Make
+     sure any tears in the inner     5.1.5 Adjust Fan Speed to Set and Balance Airflow Rates
+     and outer vapor barriers        In most applications, the airflow rate for both the SA and the EA should be roughly equal (or
+     are sealed.                     “balanced”) for best performance of the HE05IN unit. See unit specification sheet for CFM/ESP
+                                     operating envelopes for available motors.
+             NOTE: To prevent        5.2 FLOOR INSTALLATION
+             the entry of rain
+             through the outside     Most units are installed in a location specified by others. In general, it is preferable to install
+     air inlet duct, observe the     the unit on a flat, reasonably level surface, such as a concrete floor. The field-installed optional
+     following:                      accessory leveling legs are to be used to level the unit before connecting ductwork. When
+     1. Velocity at face of inlet   positioning the unit, it is not to be slid on its adjustable legs because they can be bent.
+         hood should not exceed
+         500 FPM.
+     2. Inlet duct must be
+        at least 8" inside diam-
+        eter.
+     3. C enterline length along
+         duct from weather hood
+         to unit inlet must be at
+         least 48".
+     4. Inlet duct must pitch
+         downward to the out-
+         side; centerline of inlet
+         hood must be at least
+         18" below the centerline
+         of the unit inlet.
+                                                             FIGURE 5.2.0 FLOOR INSTALLATION WITH OPTIONAL LEVELING LEGS
+     5. Outlet duct must pitch
+         downward to the outside
+         with a slope of at least
+         ¼" to the foot.
+
+
+
+14   1.800.627.4499
+                                                                                                    INSTALLATION
+                                                                                HE-Series Indoor    ERV
+
+
+
+5.3 SUSPENDED MOUNT
+5.3.1 Hanging Unit From Structure
+HE05IN units can also be suspended from a ceiling or other structural member and may be
+hung in any orientation. The preferred method of support is to bolt heavy-gauge Unistrut or
+other structural channels to the underside of the unit, using the 3/8"–16 threaded holes. Install
+3/8"–16 bolts through the channels, into the bottom of the unit. Support the channels from
+threaded rods, located in an appropriate location that maintains required service clearances.
+5.3.2 Hanging Bracket Kit
+The HE05IN can also be mounted to structural members using the Hanging Bracket Kit,
+available as an accessory. Use the included 3/8"-16 bolts and washers to attach the hanging
+brackets to the unit as shown in Figure 5.3.2. The hanging brackets may be attached directly
+to a structural member or used in combination with threaded rod and the hanging vibration
+isolators described in section 5.3.0.
+If the spacing of the unit mount points does not fit the application, the hanging brackets may
+alternatively be attached directly to the cabinet using (16) #12 x 3/4" long self-tapping sheet
+metal screws (not provided). Ensure that the unit is adequately supported at all four corners and
+that the placement of the brackets maintains required service clearances.
+
+
+
+
+                                    FIGURE 5.3.0 HANGING BRACKET KIT
+
+
+
+
+                                                                                                            1.800.627.4499   15
+             INSTALLATION
+                      ERV   HE-Series Indoor
+
+
+
+                            5.3.3 Hanging Vibration Isolators
+                            When suspending HE05IN units from a ceiling or structure, it may be necessary to isolate the
+                            unit from transmitting vibration to the structural members. Hanging Vibration Isolators are
+                            available as an accessory for the HE05IN. The isolators are designed for use with 3/8" threaded
+                            rod. Attach the threaded rod to the support rails for the unit as shown in Figure 5.3.1. For
+                            mounting details, see the isolator specification sheets at the links below.
+                            https://www.thevmcgroup.com/Frontend/Media/Model%20HS-1B%2020-85%20lbs.%20
+                            Spring%20hangers%201%20inch%20defelction_rev.5.pdf
+                            https://www.thevmcgroup.com/Frontend/Media/Model%20HS-1C%2050-370%20lbs.%20
+                            Spring%20hangers%201%20inch%20deflection_rev.6.pdf
+
+
+
+
+                                                   FIGURE 5.3.1 CEILING HUNG WITH OPTIONAL VIBRATION ISOLATORS
+
+
+
+
+                                           FIGURE 5.3.2 CEILING HUNG WITH OPTIONAL VIBRATION ISOLATORS, LOWER MOUNTING
+
+
+
+
+16   1.800.627.4499
+                                                                                                          INSTALLATION
+                                                                                      HE-Series Indoor    ERV
+
+
+
+
+5.4 ELECTRICAL REQUIREMENTS                                                                                       CAUTION
+Electrical Options and Ratings are identified on the Unit Label (located near electrical box). Find      Before bringing power
+the complete Unit Model Number in the lower left corner of the Unit Label.                               to the unit check unit
+5.4.1 Factory-Recommended Electric Service Entry                                                         nameplate to confirm it
+                                                                                                         matches the voltage and
+The HE05IN has an external e-box on the middle of the top panel. 7/8" knockouts are provided             phase of the power you
+for entry into the e-box for both high-voltage power and low-voltage control, see figure 5.4.0           are supplying. Remember
+for entry points. Install the wiring in accordance with local codes and provide strain relief at the     that your field connections
+e-box opening.                                                                                           need to be accessible for
+High-voltage supply wiring is to be connected to the loose, three lead wires.                            inspection.
+
+                                    HIGH-VOLTAGE
+                                 SUPPLY WIRING ENTRY
+                                    (ALTERNATIVE)
+                                                                                                                NOTE: Your unit is
+                                                                                                                equipped with EC
+                                                                                                                motorized impellers.
+                                                                                                         Use conduit, strain reliefs,
+                                                                                                         etc. as required
+                                                                                                         by code to secure the
+                                                                                                         field wiring.
+
+
+
+
+           LOW-VOLTAGE CONTROL                    MAIN CONNECTION          HIGH-VOLTAGE SUPPLY
+              WIRING ENTRY                         POINT FOR FIELD            WIRING ENTRY
+                                                    INSTALLATION
+
+                                  FIGURE 5.4.0 E-BOX WIRING ENTRY POINTS
+
+
+
+
+                                                                                                                        1.800.627.4499   17
+             INSTALLATION
+                          ERV     HE-Series Indoor
+
+
+
+                                  5.4.2 Low Voltage Control System
+                                  This ERV is provided with a Class II 24VAC power supply system that operates the unit’s EC
+                                  control board. The ERV’s 24VAC Power Supply can also be used to power the externally-
+                                  installed controls system: up to 8VA of power is available.
+                                  The unit’s power supply system includes isolation relay(s) so you can use external controls
+                                  whose contact ratings are as low as 50 mA (1.2 VA). Also, it is possible to operate the isolation
+                                  relays with 24VAC power from an external source (with proper wiring connections).
+                                  A built-in circuit-breaker prevents damage to the transformer and other low-voltage
+                                  components in the event of a short-circuit or overload. In extreme cases, the transformer itself
+                                  is designed to fail safely.
+                                  Specifications:
+                                  u    Nominal Output Voltage under load: 24VAC
+                                  u    Typical Output Voltage at no load: 29–31V
+                                  u    Minimum contact rating for connected control device: 50 mA (1.2 VA)
+                                  u    Circuit Breaker Trip Point: 3A
+
+                                                                                CAUTION
+                                      1. C onnect only to components intended for use with 24VAC power.
+                                      2. D
+                                          o not undersize the low-voltage wires connected to this device. Observe the wire length
+                                         and gauge limits indicated in this manual.
+                                      3. Do not overload this unit’s 24VAC power supply system. Confirm that the power require-
+                                          ments of devices you connect to this power supply system do not exceed 8VA in total.
+                                      4. If an external source of 24VAC power is used to control the unit, consult the wiring
+                                          schematics and connect the external power only to the specified terminals in order to
+                                          avoid damaging the unit or external controls. Connect only CLASS II power to the control
+                                          terminals of this unit.
+
+                                  5.4.3 How to Reset the 24VAC Circuit Breaker
+                                  If the transformer is subjected to an excessive load or a short circuit, the circuit breaker will trip
+                                  to prevent the failure of the transformer. When it trips the circuit breaker’s button pops up. Shut
+                                  off the primary-side power to the unit, and remove the excessive load or the short. The circuit
+                                  breaker can be reset about fifteen seconds after it trips by pressing in the button.
+               CAUTION            5.4.4 Limits of Power Output
+     Be careful if the external   If limits on wire gauge and length are observed, you may connect control devices that draw
+     control system provides      up to 8VA to the blue and red wires. More than one device can be connected as long as total
+     24VAC power at its           steady-state load does not exceed 8VA.
+     control output: make
+     sure blue and red leads
+     are separately capped             Wire Gauge         #22           #20          #18          #16            #14           #12
+     and not connected to any         Circuit Length      100'          150'        250'          400'          700'          1000'
+     other wires.
+                                      “Circuit Length” is distance from ERV to Control Device.
+                                      Observe these limits to wire length and gauge in order to ensure reliable operation of the
+                                      control system.
+
+
+
+
+18   1.800.627.4499
+                                                                              A                                          B                                                                    C                                                      D                                                  E
+                      Input Power
+                  1   115 VAC, 1 Phase
+
+                                                                               L1            N                 GND
+                                                                             BK                          GN/YL
+                  2                                                                      WH
+                                                                   ONOFF Switch
+
+                                                                              BK
+
+                  3                                                                BK
+
+                                                                                                                                   EF ECM
+                                                                                                                RD                                 PU
+                                                                                                                           L(L+)          GND 4
+                                                                                                                                               5
+                                                                                                                                        0-10 V
+                  4                                                                                           BU           N(L-)                   YL
+
+                                                                                                                           GND
+                                                                                                                                                                                                                                                                                5.5 WIRING SCHEMATICS
+
+
+
+
+                  5                                                                                                                SF ECM
+                                                                                                         RD                                        PU
+                                                                                                                           L(L+)          GND 4
+                                                                                                                                               5
+                                                                                                         BU                             0-10 V
+                                                                                             WH                            N(L-)                   YL
+                                                                                                                                                                                                                                             Doorkill Switch
+                  6                                                                     BK                                 GND
+
+
+
+
+                  7
+                                                                                                                                                                             (External
+                                                                                                                                                                         customer supplied)
+                                                                                                                                                                                                            RD       24VAC
+                                                                                                                                                                                                            BK       COM
+                                                                                                                                                 CLOSE FOR F N EN LE                                                         DOORKILL1     24VAC COM
+                                                                                                                                                                                                            YL       EN
+                  8                                                                                                                                                                                         PU
+                                                                                                                                                                                                                     VAR
+                                                                                                                                                 CLOSED FOR HIGHSPEED                                                         DOORKILL2
+                                                                                                                                                  OPEN FOR LOW SPEED                                                                                       1
+                                                                                                                                                                                                                                                           2
+                                                                                                                                                                                                                     1
+                                                                                                                                                                                                                                                   OA/FA   3
+                  9                                                                                                                                                                                                  2                                     4
+
+
+
+
+                        FIGURE 5.5.0 SINGLE PHASE UNIT, STANDARD
+                                                                                                                                                                                                                     3
+
+                                                                                                                    RD                                                                                               4                                     1
+                                                                                                                                                                                                           YL
+                                                                                                                                                                                                                     5                                     2
+                                                                                                                                                                                                           YL                Circuit Board         EA/RA
+                                                                                                                                                                                                                     6                                     3
+                                                                                                                                                                                              (Optional)                                                   4
+
+
+
+
+                                                                                                                                                                    EF
+
+
+
+
+                                                                                                          XF2
+                 10                                                                                                                                                                                             OR   EF10V
+                                                                                                                    BK
+                                                                                                                                                                                                                YL   EFW                                   1
+                                                                                                                                                                         CW
+                                                                                                                                                                                                                PU
+                                                                                                                                                                                                                             EF
+                                                                                                                                                                                                                     EFGND                                 2
+                                                                                                                                                                                                                OR   SF10V
+                                                                                                                                                                                                                                               BYPASS      3
+                                                                                                                                                                                                                YL   SFW     SF                            4
+                                                                                                                                                                                                                PU   SFGND
+
+
+
+
+                                                                                                                                                                    SF
+                 11                                                                                                                                                                                                                       BYPASSCOM
+                                                                                                                                                                         CW                                                   J1
+
+
+                                                                                                                                                                 Note:
+                 12                                                                                                                                              1. For high speed potentiometer wiring, the purple wire
+                                                                                                                                                                    is located closest to the anti-rotation tab
+                                                                                                                                                                                                                                                                                                            HE-Series Indoor
+
+
+
+
+                                                                                                                                                                 2. For low speed mode fan adjustment, the board
+                                                                                                                                                                    mounted potentiometers are EF (R ) and SF (R1)
+                 13                                                                               REV.              DATE                NAME                       CHANGES
+                                                                                                                                                                                                                                                                        RenewAire
+                                                                                                                                                                                                                                          Family               HE05
+                                                                                                                                                                                                                                                                                                            ERV
+
+
+
+
+                                                                                                                                                                                                                                          Description          No Damper
+                                                                                                     1             9/3/2024         stimilsina          Changed field wiring connection
+                                                                                                     0             8/5/2024         stimilsina          New                                                                               Config               HE05-JINV-S11EE---GNT---L_001
+                                                                                                                                                                                                                                                                                                                               INSTALLATION
+
+
+
+
+1.800.627.4499
+19
+            RD                                           PU
+                              L(L+)  GND 4
+                                          5
+            BU        INSTALLATION 0-10 V
+                           N(L-)                        YL
+
+                              GND     ERV        HE-Series Indoor
+
+
+
+
+                    NOTE: The sim-               5.6 EXTERNAL CONTROL CONNECTIONS
+                    plified schematics
+                    below show only the                                            (External
+             relevant portions of the                                          customer supplied)
+             low-voltage control circuit                                                                                    RD     24VAC
+             in the ERV unit and                                                                                            BK     COM
+                                                     CLOSE FOR F N EN LE                                                                         DOORKILL
+             representational external                                                                                      YL     EN
+             control approaches.                                                                                            PU
+                                                                                                                                   VAR
+             See the complete unit                   CLOSED FOR HIGHSPEED
+             schematics above.                                                                                                                    DOORKILL
+                                                      OPEN FOR LOW SPEED
+
+                                                                                                                                    1
+                                                                                    FIGURE 5.6.0 FIELD CIRCUIT DETAIL               2
+                       CAUTION                                                                                                      3
+
+                     RD the control pro-
+             Make sure                           5.6.1 Fan Enable Field Circuit                                                     4
+                                                                                                                          YL
+             vides no voltage or current         The standard control board on the HE05IN is designed for fan enable via YL
+                                                                                                                          a single switch
+                                                                                                                                    5
+                                                                                                                                                 Circuit B
+                                                                                                                                          or field
+              XF2
+
+
+
+
+             at its output terminals.            circuit.                                                 (Optional)
+                                                                                                                                    6
+                                                                          EF
+
+
+                                                 u 
+                                                                                                                             OR
+                     BK                             To enable fan operation for both fans, close contact between the yellow EN wire EF10V
+                                                                                                                                    and the
+                                                                            CW                                               YL EFW
+                                                    black COM wire.                                                                              EF
+                                                                                                                             PU EFGND
+                                                 5.6.2 Fan Speed Selection Field Circuit                                     OR SF10V
+                                                                                                                             YL SFW              SF
+                                                 The standard control board on the HE05IN is designed for two-speed operation,
+                                                                                                                             PU with   each
+                                                                                                                                    SFGND
+                                                 speed enabled via a single switch or field circuit.
+                                                                         SF
+
+
+
+
+                                                 u   To enable SPEED 1 for both fans, open contact between the purple VAR wire and the black     J1
+                                                                             CW
+                                                      COM wire.
+                                                 u   To enable SPEED 2 for both fans, close contact between the purple VAR wire and the black
+                                                      COM wire.       Note:
+                                                                     1. For high speed potentiometer wiring, the purple wire
+                                                 5.6.3 Fan Speed Adjustment
+                                                                        is located closest to the anti-rotation tab
+                                                 The standard control2.board
+                                                                         Foron low
+                                                                                the HE05IN
+                                                                                     speed allows for field
+                                                                                               mode      fanadjustment of SPEED 1the
+                                                                                                                adjustment,       and SPEED
+                                                                                                                                      board2
+                                                 via trimming potentiometers.
+                                                                        mounted potentiometers are EF (R ) and SF (R1)
+                                                 u   S PEED 1 is set using the two board-mounted trimming potentiometers labeled EF for the
+REV.                 DATE                   NAME exhaust fan and SF for the supply fan. Use a 5/64" slotted screwdriver to adjust SPEED 1 for
+                                                                     CHANGES
+                                                     each fan. Turn the potentiometers gently to avoid damaging the control board. Do not force
+                                                     them to turn past the end stop.
+                                                 S PEED 2 is set using the two panel-mounted trimming potentiometers labeled EA/RA motor
+                                                 u
+
+
+                                                  for the exhaust fan and OA/SA Motor for the supply fan. Turn the potentiometers by hand or
+   1                9/3/2024          stimilsina use a slotted  screwdriver
+                                                          Changed            to adjust
+                                                                    field wiring       SPEED 2 for each fan.
+                                                                                  connection
+   0                8/5/2024          stimilsina5.6.4 Analog
+                                                         New Signal for Controlling Speed 2
+                                                 To utilize an external 0–10VDC analog signal for Speed 2:
+                                                 1. Remove each panel mounted potentiometer by cutting the wires at the potentiometer.
+                                                 2. Connect the remote analog signal to the yellow wire from the potentiometer.
+                                                 3. Connect the remote signal ground to the purple wire from the potentiometer.
+                                                 4. Cap the orange wire from the potentiometer with a wire nut.
+
+
+
+
+       20    1.800.627.4499
+                                                                                                      OPERATION
+                                                                                HE-Series Indoor      ERV
+
+
+
+
+6.0 OPERATION
+6.1 PRINCIPLE OF OPERATION
+The HE05IN has one basic purpose: to exhaust air from a structure and bring in SA from
+outside, while transferring heating or cooling energy from the EA to the SA.
+The HE05IN is a very simple device, and will accomplish this purpose as long as the impeller is
+able to move air through the enthalpic core.
+
+6.2 PRE-START UP
+6.2.1 Verify Voltages
+Using a voltmeter, test the input voltages as supplied to the disconnect switch. The supplied
+voltage must be within 120 +/- 10% of the rated voltage.
+
+6.2.2 Inspect Filters
+Clean filters must be installed prior to fan start up.
+
+6.2.3 Inspect Foam Gasketing
+Inspect the gasketing to make sure there are no gaps allowing air movement around the cores
+or filters.
+6.2.4 Inspect Fans
+Prior to start up, the fans should be rotated by hand to make sure that the impeller is not                 NOTE: The door
+rubbing anywhere and that they turn freely.                                                                 interlock switch
+                                                                                                            will prevent the
+6.2.5 Inspect and Clean the Cabinet Interior                                                         fans from turning on if the
+During the construction and installation phases of a project, dust, dirt and debris will often       access door on that side
+accumulate inside a unit. Thoroughly clean the inside of the unit by vacuuming and/or wiping         is open.
+metal surfaces with a damp rag.
+
+6.2.6 Inspect Ductwork Connections
+Ducts attached to the ERV must be firmly attached, sealed and supported in accordance with
+installation instructions and SMACNA guidelines.
+
+6.3 UNIT START UP
+6.3.1 Starting Up ECM Units
+HE05IN units do not require any external controlling signals and only require turning on the
+                                                                                                           NOTE: Any changes
+disconnect switch, located on the e-box. When the disconnect switch is turned “ON” any
+                                                                                                           to unit low-voltage
+dampers will first move into their correct operating positions and then a speed signal is supplied
+                                                                                                           wiring should
+to the motorized impellers, causing the fans to run.
+                                                                                                     be made with the
+HE05IN units are wired to receive an actuating signal from an external source. If there is an        disconnect switch in the
+external actuation signal source, verify the type of signal and that it is wired according to the    “OFF” position.
+low-voltage wiring diagrams found in Section 5.5 of this manual. Turn “ON” the disconnect
+switch and then turn “ON” the actuating device. After any dampers have moved into their
+correct positions, a speed signal is supplied to the motorized impellers, causing the fans to run.
+
+
+
+
+                                                                                                                    1.800.627.4499   21
+                 OPERATION
+                            ERV      HE-Series Indoor
+
+
+
+
+                                                                                     IMPORTANT
+                                         It is important to balance the airflows after the unit is operational and all ductwork has been
+                                         installed. Balancing the airflows is typically required by state and/or local codes, and is often
+                                         specified by the HVAC design engineer.
+                                         Optimum efficiency of the enthalpic cores is achieved when the airstreams are properly balanced.
+
+                                     6.4 BALANCING AIRFLOW
+             NOTE: ERV airflows
+             are to be balanced      Airflow should be occurring in both airstreams. Sometimes the easiest place to confirm that air
+             after all ductwork is   is moving is at a supply vent.
+             installed.              If exact airflow is critical, it may be desirable to permanently install flow measuring stations and
+     Balancing of airflows is        manometers in the ductwork connected to the unit. These also can be used to determine when
+     typically required              filters should be cleaned or changed.
+     by local or state building
+                                     Equipment Required:
+     codes or by the HVAC
+     design engineer.                u    A magnehelic gauge or other device capable of measuring 0–1.5 in. water of
+                                           differential pressure.
+                                     u    2 pieces of natural rubber latex tubing, 1/8" ID, 1/16" wall works the best.
+                                     Procedure:
+           NOTE: The tubing          The individual differential static pressures (DSP) can be measured using the installed pressure
+           should extend in          ports located in the front of the units core access doors.
+           the pressure port         u    To read SCFM of SA install the “high” pressure side (+) of your measuring device to the OA
+     approx. 1".                           port and the “low” pressure side (-) to the SA port.
+                                     u    To read SCFM of RA install the “high” pressure side (+) of your measuring device to the RA
+                                           port and the “low” pressure side (-) to the EA port.
+                                     u    Use the reading displayed on your measurement device to cross reference the CFM output
+                                           using the conversion chart.
+
+            NOTE: These ports
+            have been carefully
+            located on the unit
+     as to give you the most
+     accurate airflow mea-
+     surement. Do not relocate
+     pressure ports.                                   PRESSURE PORTS (4)
+
+
+
+
+                                                                             FIGURE 6.4.0 PRESSURE PORT LOCATIONS
+
+
+                                                                 DIFFERENTIAL STATIC ACROSS CORE DSP VS. CFM
+               CAUTION                          DP (H 2O)    DSP       0.10         0.20       0.30       0.40      0.50      0.60       0.70
+                                     HE05IN
+
+
+
+
+     The proper operating                     Supply Air (SA) CFM       55          109        164         219      273       328        383
+     airflow range for HE05IN
+     models is 119-521 CFM.                   Return Air (RA) CFM       55          109        164         219      273       328        383
+
+
+22   1.800.627.4499
+                                                                                                                                                                 OPERATION
+                                                                                                                                             HE-Series Indoor    ERV
+
+
+
+           6.4.1 Filter Pressure Drop                                                       Initial Pressure Drop of MERV 10 Filters
+                                                                                                      supplied with this unit
+                                                                                       0.3
+                                                                                                                                                                      NOTE: Clean filter
+                                               Clean-filter Pressure Drop (in.w.g.)
+                                                                                                                                                                      pressure drop is in-
+                                                                                                                                                                      cluded in unit airflow
+                                                                                                                                                                performance tables.
+PD_DEC24                                                                               0.2         10x20x2 MERV 13 (IOM)                                                        12/18/2024
+
+
+
+
+                                                                                       0.1
+
+
+
+
+                                                                                       0.0
+                                                                                             120       220        320         420      520
+
+                                          InitialPRESSURE
+                            FIGURE 6.4.1 INITIAL  Pressure
+                                                       Unit Drop  of(CFM)
+                                                            Airflow
+                                                          DROP       MERV
+                                                               OF MERV        13 Filters
+                                                                       10 FILTERS, SUPPLIED WITH UNIT
+                                                                                                    supplied with this unit
+                                                                                      0.3
+                                 Clean-filter Pressure Drop (in.w.g.)
+
+
+
+
+                                                                                      0.2
+
+
+
+
+                                                                                      0.1
+
+
+
+
+                                                                                      0.0
+                                                                                            120       220         320         420      520
+
+                        FIGURE 6.4.2 INITIAL PRESSURE DROP
+                                                       UnitOF MERV 13(CFM)
+                                                            Airflow   FILTERS, AVAILABLE AS AN ACCESSORY
+
+           6.5 NORMAL OPERATION
+           A wide variety of control schemes may be selected as accessories by the engineer, installer, or
+           owner to meet the ventilation needs of the facility. These may include timer clocks, occupancy
+           sensors, dehumidistats (for cool-weather operation), carbon dioxide sensors, and others. DDC
+           systems may also control the unit. Most control schemes will operate the unit only
+           when needed.
+           Continuous operation is acceptable in virtually all conditions. Unit will not be damaged
+           by continuous operation as long as airflow occurs. Impeller motors may overheat if filters
+           become completely blocked due to lack of maintenance. Motors are thermally protected. With
+           continuous operation, some external frosting may occur in very cold weather (see Section 6.6).
+           6.6 OPERATION IN EXTREME COLD WEATHER
+           HE05IN units are capable of operating without core frosting at temperatures down to -10°F, with
+           indoor humidity below 40%. The units can operate under more severe conditions occasionally
+           with little or no impact on their performance. At lower humidities, they can operate at still lower
+           outside temperatures without freezing the enthalpic cores.
+           Some frost may form on the outside of the unit during sub-zero (°F) conditions, especially if
+           the unit runs continuously. Exterior frost can be reduced or prevented by periodically cycling
+           the unit “OFF” for several minutes to allow the cabinet to warm up or reducing room humidity
+           where the unit is installed.
+
+
+
+                                                                                                                                                                               1.800.627.4499   23
+            MAINTENANCE
+                           ERV       HE-Series Indoor
+
+
+
+                                     7.0 MAINTENANCE
+                                     RenewAire ERVs are built to operate with minimal maintenance. After unit commissioning, the
+                                     primary areas of attention are the air filters and annual vacuuming of the enthalpic cores.
+
+                                     7.1 MAINTENANCE 24 HRS. AFTER START UP
+                                     24 hours after unit start up:
+              WARNING                u   In new installations, check the air filters since they will often collect dust, dirt, and debris at
+     Danger of injury if unit             time of start up.
+     starts unexpectedly. Dis-
+     connect power from              7.2 MAINTENANCE 30 DAYS AFTER START UP
+     the breaker.
+                                     After 30 days of operation:
+                                     u   Tighten all electrical connections.
+                                     u   Check the air filters as part of the normal monthly maintenance.
+
+                                     7.3 MAINTENANCE SCHEDULE
+                                     Experience on the part of the service person is the most important issue in establishing a
+              WARNING                maintenance schedule. There will be times of the year when frequent inspection of the filters
+     Danger of Electrical Shock      will be required, such as spring and summer when there may be pollen, dust, dirt or debris from
+     when servicing an installed     budding trees and bushes that can clog the filters. Also see Section 7.7 Maintenance Records in
+     unit.                           this manual.
+     ALWAYS DISCONNECT
+     POWER SOURCE BEFORE             7.4 FILTERS
+     SERVICING! More than            Inspection and replacement of air filters is the most frequent maintenance issue. For units that
+     one disconnect switch may       do not have filter air pressure differential sensors, filters must be visually inspected monthly, at
+     be required.                    a minimum. If a filter looks discolored or dirty, REPLACE IT! When installing new filters, DO NOT
+     Proper wiring size selec-       USE filter sprays. Residue from the filter spray could migrate to the enthalpic core media and
+     tion and wiring installation    damage the cores.
+     are the responsibility of the   Filter cleanliness and replacement is the most important and frequent maintenance issue. Dirty
+     electrical contractor.          filters will cause an immediate reduction in operating efficiency of the ERV. Normally, filters
+                                     should be inspected and changed when they are dirty. Paper filters are not to be cleaned, they
+                                     are to be replaced.
+                                     In general, if a filter looks dirty, replace it. The best indication of dirty filters is to check the
+                                     pressure drop across the filter banks with a filter monitor (by others). If it is not possible to
+                                     check the pressure drop, the rule of thumb would be to change the filters every two months.
+
+
+
+
+                                     7.5 IMPELLER MOTOR
+                                     The motor needs no lubrication. If necessary vacuum clean the impeller at the same time you
+                                     clean the face of the energy exchange element (annually).
+
+
+
+
+24   1.800.627.4499
+                                                                                                     MAINTENANCE
+                                                                                  HE-Series Indoor   ERV
+
+
+
+7.6 ENTHALPIC CORE
+                                              CAUTION
+                               RISK OF DAMAGE TO ENTHALPIC CORES
+    Whenever working within the ERV cabinet, protect the enthalpic cores from accidental damage.
+    The core media is subject to damage from dropped tools or other foreign objects.
+
+7.6.1 Enthalpic Core Maintenance
+The enthalpic core media is a fibrous material that must be kept clean at all times. As a
+minimum, cores should be cleaned once per year.
+u   DO NOT WASH OR ALLOW THE ENTHALPIC CORES TO GET WET.
+u   DO NOT EXPOSE THE ENTHALPIC CORES TO HIGH HEAT OR FLAMES.
+u   DO NOT DIRECT COMPRESSED AIR AT THE CORE MEDIA.
+u   DO NOT REMOVE THE ENTHALPIC CORES FROM THE ERV UNLESS NECESSARY.
+u   USE CAUTION WHEN WORKING AROUND THE ENTHALPIC CORES. DO NOT DROP TOOLS OR
+     OTHER OBJECTS ON THE CORES, DO NOT BUMP OR TWIST THE CORES.
+To access enthalpic cores for cleaning, remove the air filters.
+To clean enthalpic cores, all exposed surfaces must be vacuumed with an attachment having
+long, soft bristles. The greatest buildup of dirt and dust will normally be on the leading 1–2
+inches of the inlet side (closest to the air filters).
+
+7.6.2 Enthalpic Core Removal
+Before removing enthalpic cores, switch the main disconnect to “OFF.” Open the door to the
+Energy Recovery Module and simply pull the core straight out of its guides.
+
+7.6.3 Enthalpic Core Replacement
+Cores have foam gasketing on one end of each core. The core should be reinstalled so that the
+foam gasketing is toward the back of the ERV and the core label is facing toward the front.
+7.7 MAINTENANCE RECORDS
+                                                   MAINTENANCE LOG
+                                                ENTER DATES OF SERVICE
+       OA FILTER            RA FILTER            INSPECTION/               CLEAN               CLEAN
+        CHANGE               CHANGE               CLEANING                 CORE              IMPELLERS     INITIALS
+
+
+
+
+                                                                                                            1.800.627.4499   25
+            MAINTENANCE
+                      ERV   HE-Series Indoor
+
+
+
+                            7.8 SERVICE PARTS
+
+
+
+
+                                                FIGURE 7.8.0 HE05IN SERVICE PARTS
+
+
+
+
+26   1.800.627.4499
+                                                                                                     FACTORY ASSISTANCE
+                                                                                HE-Series Indoor     ERV
+
+
+
+
+8.0 TROUBLESHOOTING
+If problems occur with a RenewAire ERV, the primary resources for troubleshooting are the unit
+as-built wiring schematics and the Sequence Of Operation (SOO) for each control scheme.
+
+9.0 FACTORY ASSISTANCE
+In the unlikely event that you need assistance from the factory for a specific issue, make sure
+that you have the information called for in the Unit Information page in the front of this manual.
+The person you speak with at the factory will need that information to properly identify the unit.
+
+To contact RenewAire Customer Service:
+Call 800-627-4499
+Email: RenewAireSupport@RenewAire.com
+
+
+
+
+                                                                                                             1.800.627.4499   27
+              About RenewAire
+              For over 40 years, RenewAire has been a pioneer in enhancing indoor air quality (IAQ)
+              in commercial and residential buildings of every size. This is achieved while maximizing
+              sustainability through our fifth-generation, static-plate, enthalpic-core Energy Recovery
+              Ventilators (ERVs) that optimize energy efficiency, lower capital costs via load reduction and
+              decrease operational expenses by minimizing equipment needs, resulting in significant energy
+              savings. Our ERVs are competitively priced, simple to install, easy to use and maintain and have
+              a quick payback. They also enjoy the industry’s best warranty with the lowest claims due to
+              long-term reliability derived from innovative design practices, expert workmanship and Quick
+              Response Manufacturing (QRM).
+
+              As the pioneer of static-plate core technology in North America, RenewAire is the largest ERV
+              producer in the USA. We’re committed to sustainable manufacturing and lessening our
+              environmental footprint, and to that end our Waunakee, WI plant is 100% powered by wind
+              turbines. The facility is also one of the few buildings worldwide to be LEED® Gold and Green
+              Globes certified, as well as having achieved ENERGY STAR Building status. In 2010, RenewAire
+              joined the Soler & Palau (S&P) Ventilation Group in order to provide direct access to the latest in
+              energy-efficient air-moving technologies. For more information, visit: renewaire.com
+
+
+
+                          201 Raemisch Road | Waunakee, WI | 53597 | 800.627.4499 | RenewAire.com
+
+
+
+
+Member of the S&P Group                                                                                       2025 © RenewAire LLC
+Family of Brands                                                                                                147858_000_JAN25
+

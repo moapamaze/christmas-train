@@ -1,0 +1,30 @@
+{
+  "issue": "PF-3L3-S2-TWIST-R0",
+  "all_actual_geometry_and_stiffness_unselected": true,
+  "actual_accepted_inputs": {
+    "rail_contact_half_span_m": null,
+    "axle_half_spacing_m": null,
+    "spring_station_coordinates_m": null,
+    "actual_individual_coil_rates_and_free_heights": null,
+    "guide_constraints_and_friction": null,
+    "body_reaction_load_cases_N": null,
+    "sprung_truck_mass_CG": null,
+    "unsprung_axle_mass_CG": null,
+    "body_pivot_sidebearer_force_gap_friction_law": null,
+    "frame_warp_or_full_stiffness_matrix": null,
+    "combined_lateral_braking_wind_dynamics": null,
+    "accepted_wheel_unloading_or_contact_limits": null
+  },
+  "retained_mass_allocations_not_used_in_synthetic_fixtures": {
+    "regular_upper_kg": 13200,
+    "accessible_upper_kg": 11000,
+    "gauge_evaluation_in": 36
+  },
+  "definitions": [
+    "Body reaction and sprung truck frame weight are separate input forces. Unsprung weight is added once in each axle balance.",
+    "Full truck mass, not unsprung mass alone, is subtracted when calculating body-to-truck bearing force from whole-coach mass.",
+    "Nominal gauge, wheel contact spacing, bearing centers and spring centers are different interfaces.",
+    "Two coils aggregate only if both have the same lower/upper displacement; separated spring seats may require independent stations."
+  ],
+  "next_actual_geometry_requirement": "Obtain controlled wheel/bearing/axlebox/D1/brake envelope and accepted full-truck mass/load/motion package before mount/guide/body-support/coil/damper sizes. This model supplies a missing mechanics method, not those interfaces."
+}

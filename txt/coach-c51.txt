@@ -1,0 +1,100 @@
+Railway brake options · C5.1 · Pulsipher Farms
+Previous version · Compact-brake feasibility study
+This page is retained as history. Open the current assembly →
+C5.4 current brake installation: One right-side air-disc brake with the documented WABCO 20/24 chamber exterior, revised carrier bearings, hub, reaction link and frame connection. Exact rotor mating geometry, maximum actuator output and complete installed motion/service qualification remain open. Legacy chamber availability is unconfirmed. View this brake in the truck · Drawings and parts · Engineering.
+C5.3 current brake direction: Inboard disc-and-caliper development around the separately replaceable Webb 55030PK-65 rotor. Custom hub, axle-following caliper carrier and short articulated frame reaction are shown in CAD. The exact rotor/caliper contact, chamber envelope and maximum output remain unresolved; this is not a fabrication release. Open the disc-brake parts and connections.
+C5.1 · R0 · 19 OCTOBER 2026
+Railway brakes for the coach truck
+Develop a custom tread-block layout within the bogie first. Keep an inboard axle disc as the alternative if wheel heating, block tracking or rigging space prevents a workable tread arrangement.
+Research and space comparison. This recommendation is an engineering inference from the railway architecture evidence and current truck dimensions. No commercial brake fit, finished replacement mechanism or braking performance is established. The existing C5 outboard-drum study is retained as historical geometry and is superseded as the preferred development direction.
+600 mmProposed nominal wheel diameter
+914.4 mmTrack gauge; wheel back-to-back remains open
+1,200 mmProposed coach-truck wheelbase
+Rotating wheelset partsNonrotating brake / reaction support
+First development route
+Block on the wheel treadTread brake architectureA block presses on the wheel circumference. Its nonrotating holder, hanger and reaction bracket connect to the truck frame.Bogie frameApply forceWheel rotatesHolder / guideTread blockArchitecture only · not a component drawingContact is on the wheel circumference. The sketch describes the force path; it supplies no mounting dimensions.
+A block presses on the running tread. The wheel turns beneath it, while a guided holder and reaction support transfer the braking forces into the bogie. A short, defined mounting path is the aim of the custom study. S3, S5
+Wheel → block → holder / rigging → bogie support
+Resolve wheel/block compatibility, contact curvature, worn-wheel limits and retention before assigning a working brake force.
+Alternative development route
+Disc between the wheelsInboard axle-disc brake architectureA disc on the axle rotates between the wheels. A nonrotating caliper grips its faces and reacts torque through a support into the bogie structure.Bogie frameWheelWheelAxleRotating discCaliperAxial schematic · inboard position is a studyThe rotor is a rotating part. Its caliper needs a separate reaction support and a defined way to follow wheelset motion.
+An inboard rotor can put the friction surface nearer the center of the truck. Railway disc stations use defined bogie attachment points and may integrate hanging links. The caliper must react torque into a nonrotating carrier; a rotor on the axle alone does not complete the installation. S11
+Axle / rotor → pads → caliper carrier → bogie support
+Resolve rotor attachment, effective friction radius, caliper envelope and motion before choosing an actuator or treating the space as available.
+Rotating parts and reaction supports
+ | Question
+ | Tread block
+ | Inboard axle disc
+ | Friction contact
+ | Block against the running tread around the wheel circumference. The flange is excluded.
+ | Pads against the two rotor faces. The rotor is attached to the axle or an engineered hub.
+ | What rotates?
+ | Wheel and axle. The block holder does not spin with the wheel.
+ | Disc, hub and axle. The caliper body does not spin with the disc.
+ | Where does reaction go?
+ | Through the holder, hangers/guides and reaction brackets into the bogie.
+ | Through the caliper carrier and torque restraint into a defined nonrotating support and the bogie.
+ | Motion to accommodate
+ | Wheelset movement relative to the frame, block angle and lateral alignment.
+ | Rotor movement relative to its carrier, axial alignment and pad clearances.
+ | Heat and maintenance
+ | Wheel/block thermal compatibility; tread wear and block replacement access.
+ | Rotor/pad thermal capacity; disc-to-axle attachment and caliper service access.
+“Nonrotating” means the brake support does not spin with the wheel. It may still need to move or articulate with the axlebox. A carrier fixed rigidly to the sprung frame must accommodate the relative wheelset movement; an axle-following carrier needs an articulated torque restraint. The current outboard carrier is therefore a comparison point, not a ready-made mounting solution for either new architecture.
+Dimensioned space comparison
+The sheet uses the current truck geometry and explicit temporary brake-space probes. It does not depict a selected commercial brake or a fabricated replacement assembly.
+C51-G01Truck geometry, brake-space probes and their limits
+Space-study STEP CAD · CAD contents and limits · Reproducible geometry source
+The STEP contains 18 existing reference parts and 10 explicitly named space probes, in millimetres. Decompress the gzip file before importing. It contains no selected brake or replacement axle.
+The inboard disc reservations cleared the retained geometry by at least 10 mm in 36 sampled heave/yaw/roll states. The tread and corrected beam corridors were checked only at four vertical positions. Axle tilt, lateral movement, brake application, wear, tolerances and complete tracking hardware remain outside these checks; full suspension clearance is not established.
+What the railway catalogues establish
+ | Primary-source lead
+ | What is established
+ | Fit boundary for this coach
+ | Knorr-Bremse TreadAct Compact S1
+ | Integrated cylinder, transmission and slack adjustment; rigid/flexible versions and parking options.
+ | The retrieved brochure does not provide a usable installation envelope, mounting-hole coordinates, minimum wheel diameter or numerical tracking limits.
+ | Wabtec Transit Tread Brake Unit S2
+ | Published suitable wheel range: 860–1,250 mm.
+ | The proposed 600 mm wheel falls outside that published range. A smaller custom variant has not been verified.
+ | Wabtec BFCB / compact brake family S3, S4
+ | Bogie-contained beam and block architectures; source-specific force and mass tables.
+ | The cited gauge table starts at 1,000 mm; it does not verify a 914.4 mm installation. Product illustrations do not supply a mounting drawing.
+No retrieved manufacturer general arrangement or verified CAD establishes the complete 600 mm wheel / 914.4 mm gauge / 1,200 mm wheelbase fit. This is a limit of the available evidence; it does not imply that a manufacturer cannot supply a suitable custom variant. Knorr’s published articulated-support disclosure is useful for the tracking architecture, but it is not a current installation drawing. S5, S10
+Wear adjustment is separate from suspension tracking
+A slack adjuster restores released clearance as the blocks or pads wear. It does not prove alignment through 35 mm jounce, 40 mm regular / 30 mm accessible rebound, axle tilt or lateral movement. The 60 mm captured-drop condition also needs a defined retained state. Track both released and applied geometry across new and worn wheel/block conditions; catalogue adjustment stroke is not allowable suspension travel. S1, S2, S5
+Force, heat and the complete brake system
+Working demand is not mounting capacity
+The new calculations compare tread force and disc torque using current coach load assumptions. A single block at axle height applies a horizontal normal force and a vertical friction component; direction reversal changes that component. The bogie attachments must be checked against maximum credible actuator output and fault cases, not only the desired train deceleration.
+Tread braking puts heat into the wheel. An axle disc moves the friction duty to a rotor, whose heat capacity and connection still need qualification. Low speed alone does not settle repeated-stop or downgrade duty.
+Service, emergency and parking
+The train-wide study must define broken-hose and separation response, local air storage, pressure timing, load balance and recovery. An automatic brake-pipe architecture uses a local control valve and stored air; a complete direct electro-pneumatic system can provide engineered emergency functions too. S6, S7, S12
+Railway product families offer spring and hand-brake parking arrangements. This project retains its existing air-service / spring-parking direction. A service-only air chamber does not satisfy the spring-parking function, and retained service pressure cannot be credited indefinitely. Service/parking compounding, manual release and low-adhesion behavior require their own checks. S1, S2, S8, S9
+Read force, heat and feasibility calculations
+What this issue resolves—and what comes next
+Recorded now
+A railway tread-brake route and an inboard-disc alternative, with separate rotating and reaction parts.
+Published catalogue limits and missing interfaces, without invented OEM mounting dimensions.
+A clear distinction between wear adjustment, wheelset tracking, working demand and maximum attachment load.
+Current research and any issued space-probe sheet linked on this page.
+Needed before a replacement assembly
+Actual wheel profile, new/worn limits and qualified friction materials.
+Selected component general arrangement, reaction loads, ports and service clearances.
+Hangers, guides, pins, torque brackets, catchers and fasteners through full relative motion.
+Maximum actuator and parking forces, structural/fatigue checks, thermal duty and complete train control behavior.
+Railway source register · Force and heat calculations · Readable calculation record · Disc-space checks · Tread-space checks · Geometry verification scope · Geometry study record
+Primary sources and evidence limits
+Manufacturer publications describe their own product families. The original patent is used only as a mechanical architecture reference. The linked research register records retrieval and applicability limits. Operator examples explain control functions; they do not select a system for this train.
+S1 Knorr-Bremse — TreadAct CompactManufacturer product brochure · 1-2
+S2 Wabtec — IREE 2023 Transit Tread Brake UnitManufacturer product sheet · 1
+S3 Wabtec — BFCB Push Bogie Brake SystemManufacturer product sheet · 1-2
+S4 Wabtec — UIC Freight Components: Compact Brake FamilyManufacturer product catalog · 3-5; data table page 4
+S5 Knorr-Bremse Systeme fuer Schienenfahrzeuge GmbH — EP0665153B1: Arrangement for suspension and support of tread brake units for railway vehiclesOriginal patent disclosure, retrieved through Google Patents
+S6 Knorr-Bremse — Pneumatic Brake Control for Railway ApplicationsManufacturer system description
+S7 Transportation Safety Board of Canada — R19C0015 technical background: air-brake systemsPrimary investigation technical background; indexed text only
+S8 Transportation Safety Board of Canada — R19C0015 investigation release: Field derailment and brake leakagePrimary investigation findings
+S9 Knorr-Bremse — Rail vehicle wheel slide protection systemsManufacturer technical article
+S10 Wabtec — BFC G4 bogie brakeManufacturer product page
+S11 Wabtec — C3 Disc Brake StationManufacturer railway product description; three/four fixation points and hanging-link integration
+S12 TRMS — Brake systemsOperator description of service and separate emergency-air functions; architecture example only
+Coach brake research only. No locomotive truck or drivetrain change is included. Custom dimensioned space probes are distinguished from purchased brake geometry and a released fabrication assembly.C5.1 · R0 · Research and feasibility issue · No fabrication or operating approval

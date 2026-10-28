@@ -1,0 +1,15 @@
+{
+  "issue": "PF-3O2-C3-R0",
+  "regular_coach_seats": 32,
+  "accessible_passengers_excluding_crew_all_modes": 13,
+  "three_regular_plus_one_accessible_passengers_excluding_crew": 109,
+  "two_folding_assemblies_always_aboard": true,
+  "two_complete_folding_assembly_trial_kg": 130,
+  "accessible_complete_fixed_seat_mass_kg": null,
+  "wheelchair_and_device_mass_kg": null,
+  "whole_accessible_coach_tare_kg": null,
+  "HVAC": "Use13passengers plus separately confirmed crew. The older14-person assumption is not automatically retained or removed without declaring its crew basis.",
+  "foundation_demands_source": "foundation-screen.json",
+  "whole_coach_load_ratings_changed": false,
+  "locomotive_and_drivetrain_handoff": "Counts and provisional folding-seat mass only. No asserted whole-train tare reduction or new propulsion/braking rating."
+}

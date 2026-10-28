@@ -1,0 +1,142 @@
+{
+  "status": "Conditional geometric maneuvering screen; not accessibility acceptance or physical wheelchair validation",
+  "proxy": {
+    "width_in": 30,
+    "length_in": 48,
+    "rear_axle_from_rear_in": 12,
+    "front_overhang_in": 36,
+    "body_corner_radius_about_axle_in": 39
+  },
+  "search_modes": "Forward/reverse 3 in segments parallel to current heading, with in-place axle pivots. Bay 1 uses a 7.5 degree heading lattice with its shunting tail replaced by a reverse circular arc; Bay 2 uses 15 degrees. No sideways translations.",
+  "obstacle_basis": "All fixed-seat envelopes and 9.5 in forward leg reservations; full stowed strips; coach walls and 42 in negative-Y side opening; other occupied 30 x 48 in proxy. Both folding seats fully stowed except separate other-folding-seat proxy screen.",
+  "normal_boarding_side_assumption": "NegativeY opening. Recheck mirroredpositiveYboarding ifselected.",
+  "reports": [
+    {
+      "bay": 1,
+      "independent_collision_verifier": "Convex polygon edge intersections, point containment and exact segment distances; separate from search SAT",
+      "sample_count": 1693,
+      "sample_step_limit_in": 0.25,
+      "sample_angle_limit_deg": 0.25,
+      "collision_count": 0,
+      "minimum_sampled_distance_to_raw_obstacles_in": 1.1786661188675254,
+      "maximum_corner_radius_about_rotation_center_in": 44.107520841970796,
+      "between_sample_distance_bound_in": 0.125,
+      "conservative_continuous_clearance_lower_bound_in": 1.0536661188675254,
+      "worst_case": {
+        "sample": 1610,
+        "obstacle_index": 13,
+        "pose": [
+          83.67184310874032,
+          -32.2574816608806,
+          20.5
+        ]
+      },
+      "max_sideways_step_error_in": 1.456126885734932e-14,
+      "parked_body_bounds": {
+        "x": [
+          68.0,
+          116.0
+        ],
+        "y": [
+          -47.92145905811199,
+          -17.921459058111992
+        ]
+      },
+      "parked_inside_assigned60x36bay": true,
+      "other_bay_occupied_fold_proxy": {
+        "x": [
+          126,
+          160
+        ],
+        "y": [
+          -49,
+          -19
+        ],
+        "minimum_sampled_distance_in": 1.8924928025208203,
+        "continuous_lower_bound_in": 1.7674928025208203
+      },
+      "forward_steps": 33,
+      "reverse_steps": 17,
+      "pivot_steps": 24,
+      "travel_direction_reversals": 1,
+      "path_pose_count": 435,
+      "action_run_count": 23,
+      "other_bay_at_actual_computed_parked_pose": {
+        "minimum_sampled_distance_in": 12.449258837543738,
+        "continuous_lower_bound_in": 12.324258837543738
+      },
+      "exit": "Exact time reversal follows same collision-free sweep; controls and crew assistance are not validated.",
+      "analytic_reverse_arc": {
+        "radius_in": 10.484767898195344,
+        "sweep_deg": 90,
+        "arc_length_in": 16.469434901782293,
+        "replaces": "Discrete predecessor tail with15travel-direction reversals"
+      }
+    },
+    {
+      "bay": 2,
+      "independent_collision_verifier": "Convex polygon edge intersections, point containment and exact segment distances; separate from search SAT",
+      "sample_count": 2404,
+      "sample_step_limit_in": 0.25,
+      "sample_angle_limit_deg": 0.25,
+      "collision_count": 0,
+      "minimum_sampled_distance_to_raw_obstacles_in": 1.023771564463921,
+      "maximum_corner_radius_about_rotation_center_in": 39.0,
+      "between_sample_distance_bound_in": 0.125,
+      "conservative_continuous_clearance_lower_bound_in": 0.8987715644639209,
+      "worst_case": {
+        "sample": 446,
+        "obstacle_index": 13,
+        "pose": [
+          43.97622843553608,
+          -8.84000538039031,
+          90.0
+        ]
+      },
+      "max_sideways_step_error_in": 7.771561172376096e-15,
+      "parked_body_bounds": {
+        "x": [
+          136.55676603502292,
+          184.55676603502292
+        ],
+        "y": [
+          -47.66263051988997,
+          -17.662630519889973
+        ]
+      },
+      "parked_inside_assigned60x36bay": true,
+      "other_bay_occupied_fold_proxy": {
+        "x": [
+          60,
+          94
+        ],
+        "y": [
+          -49,
+          -19
+        ],
+        "minimum_sampled_distance_in": 1.023771564463921,
+        "continuous_lower_bound_in": 0.8987715644639209
+      },
+      "forward_steps": 29,
+      "reverse_steps": 51,
+      "pivot_steps": 24,
+      "travel_direction_reversals": 1,
+      "path_pose_count": 105,
+      "action_run_count": 20,
+      "other_bay_at_actual_computed_parked_pose": {
+        "minimum_sampled_distance_in": 3.187282218951923,
+        "continuous_lower_bound_in": 3.062282218951923
+      },
+      "exit": "Exact time reversal follows same collision-free sweep; controls and crew assistance are not validated."
+    }
+  ],
+  "limits": [
+    "Actual mobility devices can exceed30x48in and have different axle/caster locations; validate representativedevicefamilies andfull-size mockup.",
+    "Pivots assume differential-wheel ability aroundrearaxle; self-propelled/assisted operation, caster sweep, anti-tip hardware andfootrests arenot separately validated.",
+    "Door leaves/handles/threshold/lift/bridge andsecurementhardware are notyetmodeled.",
+    "Parked shoulder locations andcompanion alignment are illustrative, not anthropometric acceptance.",
+    "Search and analytic arc prove existence for this proxy only. Both approaches use one travel-direction reversal; steering steps are geometric paths, not operating instructions. Practical controls, effort and usability still need full-size trials."
+  ],
+  "sampling_bound_note": "The reserve is the maximum of half the0.25in translation interval and the largest corner radius about each actual rotation center times half the0.25degree angular interval. For a reverse arc, radius=sqrt(36^2+(15+R)^2); thus the currentR10.4848in arc uses44.1075in, and0.125in remains governing.",
+  "layout_change_experiment_disposition": "A two-inch longer first bay was considered but not adopted. Analytic arc smoothing resolved lattice-induced shunting within the original60x36in bay."
+}

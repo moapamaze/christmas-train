@@ -1,0 +1,34 @@
+{
+  "issue": "PF-3R2-R0",
+  "source_sha256": "a253cd45f9cf6227be77e89716d5947f5e2772e69405e625e0157cd41ef4a4e0",
+  "source_IGES_unit_flag": 10,
+  "source_IGES_unit_name": "CM",
+  "import_system_unit": "MM",
+  "loaded_roots": 40,
+  "imported_faces": 40,
+  "imported_solids": 0,
+  "valid_shape": true,
+  "all_shape_bbox_mm": {
+    "x_min": -44.45,
+    "x_max": 44.45,
+    "y_min": 0.0,
+    "y_max": 88.89999999999995,
+    "z_min": 0.0,
+    "z_max": 304.8
+  },
+  "faces_bbox_size_mm": [
+    88.9,
+    88.89999999999995,
+    304.8
+  ],
+  "paper30ASCE_height_and_base_mm": [
+    79.375,
+    79.375
+  ],
+  "mismatch_mm": [
+    9.525000000000006,
+    9.524999999999949
+  ],
+  "accepted_profile": false,
+  "warning": "Kernel validity does not establish correct component identity. Linked CAD conflicts with30ASCE paper envelope; no substitute family identified or scaling authorized."
+}

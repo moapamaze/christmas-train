@@ -1,0 +1,96 @@
+{
+  "issue": "3L.3-S1",
+  "date": "2026-10-19",
+  "status": "ENGINEERING SCREEN ONLY; NOT A SELECTED AXLE, BEARING OR GUIDE DESIGN",
+  "mass_source": {
+    "path": "assets/brake-selection-l2/calculations/predecessor_mass_basis.json",
+    "sha256": "068c8eb8d16cc4cca3b1157c3a0b6091d8d68339726304490842d1cfe6234b06"
+  },
+  "upper_regular_mass_kg": 13200,
+  "wheels_per_coach": 8,
+  "shaft_screen": {
+    "diameters_mm": [
+      50.8,
+      60,
+      70,
+      80,
+      90,
+      100
+    ],
+    "diameter_status": "Comparison diameters only. 50.8mm audits the unaccepted G1 display value. No candidate is selected.",
+    "force_multipliers": [
+      1,
+      2,
+      3
+    ],
+    "force_basis": "Allocated upper coach rail load/8 multiplied by trial multiplier, used as a radial journal-force proxy. This is not a calculated journal reaction, design impact factor or bound on uneven loading.",
+    "wheel_contact_to_effective_journal_center_offsets_mm": [
+      75,
+      150,
+      225
+    ],
+    "offset_status": "Trial lever arms only; actual tire contact, wheel, bearing pressure-center and brake overhang geometry remains open.",
+    "torque_trials_Nm": [
+      0,
+      350,
+      1000,
+      2000
+    ],
+    "torque_status": "Independent sensitivity values, NOT a maximum brake torque, an OEM rating or a validated fault load. D1 maximum applied torque still required.",
+    "model": "Solid uniform round section; bending M=Q*e, sigma=32*M/(pi*d^3); tau=16*T/(pi*d^3); elastic von Mises=sqrt(sigma^2+3*tau^2). Units converted to N,mm,MPa.",
+    "excludes": [
+      "Notch and fillet stresses",
+      "Wheel and bearing press-fit fretting",
+      "Reversed bending fatigue",
+      "Braking and lateral multi-plane bending",
+      "Shaft deflection and bearing alignment",
+      "Wheel/hub interference stresses",
+      "Actual material, toughness and heat treatment",
+      "Uneven/impact/twist loading",
+      "Corrosion, wear, inspection interval and reliability targets"
+    ],
+    "allowable_stress_MPa": null,
+    "selected_axle_diameter_mm": null
+  },
+  "guide_screen": {
+    "bearing_center_span_trials_mm": [
+      1100,
+      1300,
+      1500
+    ],
+    "differential_bearing_height_trials_mm": [
+      5,
+      10,
+      20,
+      30
+    ],
+    "relative_angle_definition": "Axle tilt relative to the local guide-frame datum. Delta is differential bearing-center height relative to that datum; it is not automatically equal to rail crosslevel or vehicle roll.",
+    "trial_box_width_along_axle_mm": 100,
+    "trial_box_height_mm": 150,
+    "box_status": "Illustrative rectangular-envelope calculation only; not actual box or guide dimensions.",
+    "formula": "alpha=atan(Delta/B); extra total transverse width=b*cos(alpha)+h*abs(sin(alpha))-b.",
+    "acceptance": "No allowable guide clearance assigned. Do not enlarge guide gaps on this basis without restraint, wear and stability design."
+  },
+  "bearing_screen": {
+    "status": "Documented comparison leads only; neither has been selected or endorsed for this railway. Same boundary dimensions do not establish interchangeability.",
+    "equivalent_dynamic_load_trials_per_single_bearing_kN": [
+      20,
+      40,
+      60
+    ],
+    "load_status": "Hypothetical equivalent dynamic load P after radial/axial/load-distribution calculation; these values are not inferred directly from coach axle loads.",
+    "formula": "L10=(C/P)^(10/3), in million revolutions for roller bearings. Basic 90% fatigue-life model only.",
+    "excludes": [
+      "Actual tapered-bearing induced axial forces and paired-setting calculations",
+      "Load spectrum and modified reliability",
+      "Grease/seal contamination, water, washdown and long storage",
+      "Minimum load, temperature, clearance/preload and lubrication",
+      "Shaft/housing fits, support rigidity, skew and deflection",
+      "Brake heat and axle retention",
+      "Supplier confirmation of rail application and controlled current drawing"
+    ],
+    "selected_bearing": null
+  },
+  "engineering_release": false,
+  "fabrication_release": false
+}

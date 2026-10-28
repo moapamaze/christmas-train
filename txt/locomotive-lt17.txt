@@ -1,0 +1,26 @@
+LT17 rocker-pin retention · Pulsipher FarmsSkip to contentWhole locomotive · 3DLT17 retention & serviceLT16 suspension drawingsSeparate engineering
+LT17 · FRONT POWERED AXLE · OCTOBER 21, 2026
+A retained pin with room to come out
+The rocker pin connects the sliding spring saddle to the axlebox. This revision replaces its placeholder keepers with a shouldered pin, washer, castellated nut and split-pin lock. A shaped exit relief lets the pin withdraw past the saddle and capture hook.
+One connection developed. This detail is installed at both axleboxes of the front powered axle. The LT16 springs, centering arrangement and travel range remain the design basis. Rebound-rod locks and guide-bushing attachments are the next unfinished connections.
+Inspect the connection in 3D
+Rotate the detail or separate the retainers to see their order. The axlebox, primary spring and guide plates are hidden in this close-up; the whole-locomotive viewer retains them.
+InstalledIdentify the retainersPin withdrawn 87 mm
+Loading…
+What changed
+ | Part
+ | Purpose
+ | Shouldered pin and flat head
+ | The smooth bearing section stays Ø20 mm; the 57 mm grip separates the nut clamp from the rocker.
+ | Castellated nut and split pin
+ | The nut retains the pin axially. The split pin restrains nut rotation.
+ | Saddle access window and underside relief
+ | Provide space for the keepers and the pin exit.
+ | Wider capture hook
+ | A 136 mm toe with a 36 mm exit notch leaves two 50 mm portions. Its total nominal width remains 100 mm.
+Dimensioned connection drawing
+Tap the drawing to inspect it at full size. These are layout dimensions; machining fits, material grades and load ratings are still under review.
+What the clearance checks show
+The revised parts have no positive solid intersections in the 27 sampled LT16 suspension positions. A continuous solid sweep of the pin’s 87 mm withdrawal step clears the modeled assembly once the nut, washer and split pin are removed. The nominal clearance is 3 mm at the saddle exit relief, 5 mm above the axlebox and 19.5 mm to the guide.
+The removal sequence still needs the actual tools, an unloaded-support fixture and a complete extraction path. The relief leaves a 3 mm minimum saddle-deck section locally, so this remains a candidate for structural review.
+Open the separate engineering record and check results →LT17 · Development candidate · Not for fabricationWhole locomotive

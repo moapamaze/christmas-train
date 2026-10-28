@@ -1,0 +1,107 @@
+{
+  "revision": "C5.5",
+  "approved_service_procedure": false,
+  "source_hashes": {
+    "coach-brake-c55/checkpoint.brep": "59d31e5bef10caaa2b9aa07ffbbe0ed00dba73ca57731dcdb542dff89fcfd339",
+    "coach-brake-c55/parts.json": "0e1f6f589d1ba2759017f4c7b6df8cd6fc911bce0a1ce65bfe1651bb0b651fdb",
+    "coach-brake-c55/geometry-contract.json": "5e37a4f1fde39990bb724cd09bce2ab2eaeb55f9f256929771d65a638744e14b",
+    "coach-truck-c5/checkpoint.brep": "0b3d2fe0cbdfa9c536bf62f5ede37c22f82c415a6df810aedcdbdd97aabd1480",
+    "coach-truck-c5/parts.json": "269a3bdadec22b28e9e1589ce00897754d9cdc665c9e31442b38e1c6196d0739",
+    "coach-brake-c55/check_service_c55.py": "ff802229d49283a594fd2724a417befce70bd8536ab417f7281dad32aa90d693"
+  },
+  "scope": "Nine sampled translations of the dimensioned chamber exterior in the nominal truck state, after hoses/fittings and nuts are removed",
+  "chamber_part_ids": [
+    "WABCO-SERVICE-SHELL",
+    "WABCO-SERVICE-CLAMP",
+    "WABCO-SPRING-INTERMEDIATE",
+    "WABCO-SPRING-CRIMP",
+    "WABCO-SPRING-SHELL",
+    "WABCO-MOUNT-PILOT",
+    "WABCO-PUSHROD-TIP",
+    "WABCO-MOUNT-STUD-1",
+    "WABCO-MOUNT-STUD1"
+  ],
+  "translation_axis": [
+    0.15643446504023087,
+    -0.9876883405951378,
+    0.0
+  ],
+  "sample_count": 9,
+  "exact_intersection_tests": 0,
+  "samples": [
+    {
+      "withdrawal_mm": 0,
+      "nominal_stud_clear_of_ideal_mount_plane": false,
+      "minimum_envelope_distance_mm": 29.941841944472003,
+      "nearest_target": "CARRIER-COVER-IN",
+      "positive_pairs": []
+    },
+    {
+      "withdrawal_mm": 5,
+      "nominal_stud_clear_of_ideal_mount_plane": false,
+      "minimum_envelope_distance_mm": 30.724014269673148,
+      "nearest_target": "CARRIER-COVER-IN",
+      "positive_pairs": []
+    },
+    {
+      "withdrawal_mm": 10,
+      "nominal_stud_clear_of_ideal_mount_plane": false,
+      "minimum_envelope_distance_mm": 31.74335918176204,
+      "nearest_target": "CARRIER-COVER-IN",
+      "positive_pairs": []
+    },
+    {
+      "withdrawal_mm": 15,
+      "nominal_stud_clear_of_ideal_mount_plane": false,
+      "minimum_envelope_distance_mm": 33.46911622782184,
+      "nearest_target": "CARRIER-COVER-IN",
+      "positive_pairs": []
+    },
+    {
+      "withdrawal_mm": 25,
+      "nominal_stud_clear_of_ideal_mount_plane": false,
+      "minimum_envelope_distance_mm": 37.454733454952645,
+      "nearest_target": "SLEEVE-THRUST-BACKING-IN-R",
+      "positive_pairs": []
+    },
+    {
+      "withdrawal_mm": 35,
+      "nominal_stud_clear_of_ideal_mount_plane": false,
+      "minimum_envelope_distance_mm": 41.83634427384066,
+      "nearest_target": "SLEEVE-THRUST-BACKING-IN-R",
+      "positive_pairs": []
+    },
+    {
+      "withdrawal_mm": 43,
+      "nominal_stud_clear_of_ideal_mount_plane": true,
+      "minimum_envelope_distance_mm": 46.6070575923167,
+      "nearest_target": "SLEEVE-THRUST-BACKING-IN-R",
+      "positive_pairs": []
+    },
+    {
+      "withdrawal_mm": 60,
+      "nominal_stud_clear_of_ideal_mount_plane": true,
+      "minimum_envelope_distance_mm": 59.10868220696286,
+      "nearest_target": "SLEEVE-THRUST-BACKING-IN-R",
+      "positive_pairs": []
+    },
+    {
+      "withdrawal_mm": 75,
+      "nominal_stud_clear_of_ideal_mount_plane": true,
+      "minimum_envelope_distance_mm": 71.69358603299442,
+      "nearest_target": "SLEEVE-THRUST-BACKING-IN-R",
+      "positive_pairs": []
+    }
+  ],
+  "positive_pairs": [],
+  "result": "No sampled envelope intersections with retained truck/custom metal",
+  "not_tested": [
+    "Actual caliper mating seat/internal surfaces, because only the extruded GA projection is available",
+    "Nut/washer/wrench/hand access: actual seating plane and tool bodies are not established",
+    "Full workshop handling route after the straight withdrawal samples",
+    "Pad/retainer/spring/pressure-plate extraction: actual component solids and slide stops are absent",
+    "Physical caging tool access and stored release-hardware Rmax110 protrusion"
+  ],
+  "pad_service": "Only the sourced sequence and required AF interfaces are recorded; no installed on-rail pad service claim",
+  "interpretation": "The 43 mm source dimension defines a lower bound to clear the stud from an ideal plane. A sampled clear exterior path cannot establish removal through an unknown caliper seat."
+}

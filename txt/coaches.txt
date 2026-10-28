@@ -1,0 +1,45 @@
+Coach design · Pulsipher FarmsSkip to content
+CURRENT POWER / MOVEMENT REVIEW · LT42
+Full power budget, revised brake routes and combined movement findings → Coach HVAC exposes a power shortfall. Brake ratings, configured controls, generator drive and hose twist remain open.
+LT43 · Insulated machinery tender → Kubota, pump, generator, diesel tank, hydraulic reservoir and cooler move into a separate tender. First layout and partial weight check; new connections and movement remain open.
+Coach climate, LED lighting and ventilation → LED allowance: 100 W per coach. Fresh-air fan remains provisional; develop an engine-driven brake compressor. Climate and power selections remain open.
+PASSENGER COACHES
+Coach design
+Start with the whole regular coach or the single accessible-coach layout. Each opens in 3D with trucks, brakes and hitch mounts; connection drawings are below the model.Whole locomotive · 3D →Regular coach · 3D →Accessible coach · 3D →
+FINAL VISUAL REFERENCE · OCTOBER 21, 2026
+Final exterior finish reference
+Four retained finishes for the enclosed passenger coach. Use this board to guide the exterior paint, trim and lettering; the final color choice remains open.
+ Open full-size rendering ↗ · Tap the image to enlarge and inspect the finish details.
+A · Burgundy & creamBurgundy body, cream window band and gold outlines.
+B · Forest green & ivoryDeep green body, ivory window band and gold trim.
+C · Midnight blue & goldBlue body and window surrounds with fine gold detailing.
+D · Chestnut wood lookWood-grain appearance on metal panels with green surrounds.
+Finishing approach: painted aluminum panels, simple straight trim, painted pinstripes or applied lettering, a charcoal roof and black undercarriage. Boarding-stair appearance revised to show the CB2 four-tread flight with handrails on both sides. Open the current folding-stair drawings → Dimensions, hinge and lock hardware, and the folded travel position follow those drawings; this image remains an appearance reference.
+Regular coach stairs & walkway ↗
+CB2 attached folding steps, end decks, handrails, gate locks and hinge mounting drawings. Boarding and travel states are visible in the whole-coach model.
+Open drawings →
+Whole regular coach ↗
+Body, benches, both trucks, current brake units and hitch mounts. Switch to Connected coaches to see one regular and one accessible coach together.
+Open assembly →
+Regular coach & benches ↗
+Braced benches, compact floor mounts and the regular 32-place development layout.
+Open assembly →
+Accessible doorway & boarding ↗
+Side doorway, station bridge, handrails and securement foundations.
+Open assembly →
+Accessible folding seats ↗
+Seat locks, guards, handholds and reinforced floor connections.
+Open assembly →
+Truck suspension ↗
+Sprung coach bogie and body supports. The current brake is detailed separately.
+Open assembly →
+Disc brake, hoses & service ↗
+One development installation. Remaining stations and exact supplier matching are open.
+Open assembly →
+Wheels & bearing ends ↗
+Revised spacer, bearing retention, labyrinth and axle-end assembly; wheel-profile and shop-fit holds remain open.
+Open assembly →
+Coach body structure ↗
+Retained body, floor and frame-member detail supporting the current coach.
+Open assembly →
+Seat counts describe development layouts; complete body, boarding, loading and engineering acceptance remain open.Development drawings · Not released for constructionPrevious versions

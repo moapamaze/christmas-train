@@ -1,0 +1,22 @@
+/* Final exterior finish reference — scoped to the reference section. */
+.finish-reference{margin:0 0 34px;background:#fff;border:1px solid #d9e1db;border-radius:10px;overflow:hidden;scroll-margin-top:24px}
+.finish-reference-heading{padding:26px 28px 20px}
+.finish-reference-heading h2{font-size:clamp(25px,3.2vw,36px);line-height:1.2;letter-spacing:-.7px;color:#17364a;margin:7px 0 12px}
+.finish-reference-heading p{margin:0;color:#5b6e70;max-width:850px}
+.finish-reference-heading .pf-eyebrow{color:#61736f;font-size:11px;margin:0}
+.finish-reference figure{margin:0}
+.finish-reference-image{display:block;background:#eee8da}
+.finish-reference-image img{display:block;width:100%;height:auto}
+.finish-reference figcaption{padding:16px 28px;font-size:14px;color:#617274;border-bottom:1px solid #e3e8e3}
+.finish-reference-options{list-style:none;padding:22px 28px;margin:0;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px}
+.finish-reference-options li{display:flex;gap:10px;font-size:14px;line-height:1.4;color:#17364a}
+.finish-reference-options span{width:9px;min-width:9px;border-radius:3px;background:var(--finish-color)}
+.finish-reference-options small{display:block;margin-top:6px;color:#617274;font-size:12px;line-height:1.5}
+.finish-reference-details{padding:0 28px 25px;margin:0;font-size:14px;color:#617274}
+.finish-home-link{display:grid;grid-template-columns:190px 1fr;align-items:center;gap:24px;padding:18px;margin:0 0 28px;background:#fff;border:1px solid #d9e1db;border-radius:10px}
+.finish-home-link img{display:block;width:100%;height:auto;border-radius:5px}
+.finish-home-link h2{font-size:22px;line-height:1.25;margin:3px 0 9px;color:#17364a}
+.finish-home-link p{font-size:14px;color:#617274;margin:0 0 8px}
+.finish-home-link a{font-size:14px;font-weight:650}
+@media(max-width:800px){.finish-reference-options{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:500px){.finish-reference-heading{padding:21px 18px}.finish-reference figcaption{padding:15px 18px}.finish-reference-options{padding:20px 18px;gap:20px 14px}.finish-reference-details{padding:0 18px 21px}.finish-home-link{grid-template-columns:1fr;gap:16px}.finish-home-link img{max-height:220px;object-fit:contain;background:#eee8da}}

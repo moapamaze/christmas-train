@@ -1,0 +1,32 @@
+{
+  "gauge_mm": 914.4,
+  "driver_diameter_mm": 1450,
+  "truck_wheelbase_mm": 1550,
+  "pivot_spacing_mm": 3200,
+  "body_extension_mm": 1500,
+  "body_mid_x_mm": 5675,
+  "truck_pivots_mm": {
+    "FRONT": 4075,
+    "REAR": 7275
+  },
+  "driver_axles_mm": [
+    3300,
+    4850,
+    6500,
+    8050
+  ],
+  "small_trucks": {
+    "LEAD": {
+      "x": 1525,
+      "half_wheelbase": 525,
+      "anchor_x": 2600
+    },
+    "TRAIL": {
+      "x": 9975,
+      "half_wheelbase": 475,
+      "anchor_x": 8900
+    }
+  },
+  "frame_top_mm": 1454.8,
+  "frame_bottom_mm": 1150
+}

@@ -1,0 +1,11 @@
+{
+  "coreParts": 225,
+  "centreParts": 29,
+  "integratedParts": 225,
+  "centreTriangles": 13352,
+  "softwareInteractionHarness": "passed",
+  "legacyDecodeAndClone": "passed",
+  "emptyAssetRejected": true,
+  "elapsedMs": 291,
+  "browserQA": "Not run in browser; software interaction harness only"
+}

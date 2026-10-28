@@ -1,0 +1,13 @@
+Truck connections · LT4 details · Pulsipher FarmsDrawings3D modelsEngineeringDrivetrain
+LOCOMOTIVE / LT4
+Truck connections
+Pivot retention · Bearing seats · Side supports · Frame attachments
+DETAIL DEVELOPMENTR0 · Not for fabrication19 October 2026
+Detail drawingsCAD projections · Nominal dimensions in mm
+A01 Pivot explodedP01 PinsB01 Bearing seatsD01 Mounting platesS01 Side supportsC01 CatchesF01 Cab & stepsH01 Shell mountsLT4-A01 · Pivot explodedOpen full-size ↗LT4-P01 · PinsOpen full-size ↗LT4-B01 · Bearing seatsOpen full-size ↗LT4-D01 · Mounting platesOpen full-size ↗LT4-S01 · Side supportsOpen full-size ↗LT4-C01 · CatchesOpen full-size ↗LT4-F01 · Cab & stepsOpen full-size ↗LT4-H01 · Shell mountsOpen full-size ↗
+Frame top 1,775 mm provisional · DT4 motor mounts and suspension pending. Checks, parts & unresolved details →
+3D assembliesLoading…
+Pivot & bearingsComplete connectionSide supportsCatchesFrame & trucksCab & shell
+ Exploded view Compatibility 3D
+Loading CAD geometry…Enable JavaScript to rotate the CAD models. Drawing sheets and STEP downloads are available without JavaScript.
+FilesConnection STEP ↗Body supports STEP ↗Parts list CSV ↗ (gzip)Engineering & handoff ↗Previous versions ↗PF–LOCO–LT4 · R0 · 19 October 2026

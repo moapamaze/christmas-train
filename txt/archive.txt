@@ -1,0 +1,53 @@
+Previous versions · Pulsipher FarmsSkip to content
+PREVIOUS VERSIONS
+Earlier designs & studies
+Removed from the current drawing and model menus. These records explain earlier choices and preserve source evidence.
+Historical material
+Use the current assembly pages for ongoing work. These alternatives and earlier issues do not define the current train.
+Earlier C5.6 local hoses and service study
+Brake mounting sections remain current supporting detail; C5.7 adds body-to-truck supply and revised service checks.Current brake installation →
+Earlier LT8 multi-fan cooling layout
+Cooling superseded; removable handrail detail remains in current drawings.Current single-fan cooling →
+Earlier CW1 wheelset and bearing ends
+Bearing-end geometry superseded by CW3; retained source evidence.Current bearing ends →
+Earlier CW2 wheel and axle review
+Bearing-end geometry superseded by CW3; retained source evidence.Current bearing ends →
+Earlier regular bench design
+coach-c2.htmlCurrent assembly →
+Earlier accessible seat and layout study
+coach-c3.htmlCurrent assembly →
+Compact-brake feasibility study
+coach-c51.htmlCurrent assembly →
+Discarded tread-brake candidate
+coach-c52.htmlCurrent assembly →
+Earlier disc-brake issue
+coach-c53.htmlCurrent assembly →
+Earlier brake installation issue
+coach-c54.htmlCurrent assembly →
+Earlier brake-hose geometry; supplier evidence retained
+coach-c55.htmlCurrent assembly →
+Earlier gearbox drivetrain
+drivetrain-dt2.htmlCurrent assembly →
+Earlier shaft-and-gear drivetrain
+drivetrain-dt3.htmlCurrent assembly →
+Earlier motor and carrier issue
+drivetrain-dt4.htmlCurrent assembly →
+Earlier drivetrain calculations
+drivetrain-engineering-dt2.htmlCurrent assembly →
+Earlier drivetrain calculations
+drivetrain-engineering-dt3.htmlCurrent assembly →
+Earlier drivetrain calculations
+drivetrain-engineering.htmlCurrent assembly →
+Motor sourcing background
+drivetrain-motor-plan.htmlCurrent assembly →
+Earlier raised-frame study
+locomotive-frame.htmlCurrent assembly →
+Earlier truck-connection issue
+locomotive-supports-lt3.htmlCurrent assembly →
+Earlier support calculations
+locomotive-supports-engineering.htmlCurrent assembly →
+Earlier overall layout calculations
+locomotive-engineering.htmlCurrent assembly →
+Earlier locomotive/tender appearance and layout
+locomotive-layout-lt1.htmlCurrent assembly →
+Earlier drawing packages →Earlier 3D alternatives →Development drawings · Not released for constructionPrevious versions

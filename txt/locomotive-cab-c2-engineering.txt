@@ -1,0 +1,105 @@
+Cab C2 · engineering · Pulsipher FarmsSkip to content
+Cab C3 · ladder mechanism study
+Indexed lock geometry, manual-drive effort and exit time, plus unexecuted cab and camera test records. C2 remains the integrated LT32 baseline.Open the mechanism and physical-trial review →Whole locomotive + coachCurrent cab · C2C2 engineeringEarlier C1 reviewLT32 baseline
+CAB C2 / ENGINEERING RECORD
+What fits, what changed, what remains open.
+Cab C2 is integrated with the retained LT32 locomotive and first-coach connection. The earlier C1 and LT32 packages remain available as historical baselines. One coach is shown in the combined model; it is therefore the last coach and carries the tail camera. Additional coaches repeat the protected trunk and disconnect module.
+Operator and monitor geometry
+ | Check
+ | Result
+ | Scope
+ | Left-side control reach
+ | No reach-sphere failures at the three paired seat settings across all suspension probes.
+ | 27 total body/slide/suspension combinations; 7 failures remain at other settings. Straight distances plus 35 mm hand allowance, not joint/force testing.
+ | Seat position
+ | Cushion centres X9730 /Y±900; neutral top 2108.
+ | Retains the C1 window alignment. A further 50 mm inboard trial reduced sampled direct visibility and was rejected.
+ | Local body space
+ | Minimum crown-to-lining 388.5 mm; knee-to-console underside 82 mm; paired toe-to-barrier 155 mm.
+ | Tall body at full-forward slide retains 45 mm toe intrusion. Whole-body entry/exit and restraint release need a physical mock-up.
+ | Monitor visibility
+ | All 135 sampled screen points visible from 27 eye positions. Vertical viewing angles 11.7–43.3°. No added obstruction in 675 sampled front-window rays.
+ | Manufacturer monitor top viewing angle 50° is a product specification, not an ergonomic approval. Glare, screen contrast and image interpretation were not modeled.
+ | Window and brake separation
+ | Monitor installation reservation top 2740 vs clear sill 2750:10 mm. Left brake pivots atY−1140; monitor atY−900.
+ | The small sill margin is geometric; tolerance/vibration margin and handle/hand sweeps need final hardware.
+ | Direct forward view
+ | 12 of 90 sampled ground sightlines visible.
+ | Cameras add views; they do not remove the boiler, sill and frame obstructions or establish an operating visibility standard.
+Camera coverage and cleaning
+Each camera uses a declared lens datum and an ideal rectangular field of 109° horizontal × 85° vertical. Front lens [300,0,1800] in locomotive coordinates; rear lens [9100,350,2200] in last-coach coordinates. Both aim 20° down, with 10° and 30° comparison cases. The exterior rectangular bodies are simplified envelopes, not OEM CAD. Exact lens offsets and aim calibration remain supplier inputs.
+The 12,078 ground samples combine actual opaque mesh triangle occlusion with the declared field. At 20° down, the ideal near-ground boundary is about 0.94 m ahead of the front lens and 1.15 m beyond the rear lens. The 0.5 m sample grid is coarser than those boundaries. The plot extends 30 m; that is a plotting choice, not a detection range. Regions under the cameras, the train’s flanks, couplings and intermediate coaches remain blind. Lens distortion, image resolution, rain, dirt, glare, darkness and motion are not validated.
+Camera guards have no bar ahead of the lens plane. Cleaning envelopes show level service-ground access at the locomotive and a standing/hand region on the retained rear coach platform. The latter requires an occupied reach check around the hood without standing on the coupling or passenger guardrail. Mount adapters, protective guards and frame attachments remain unrated.
+Wiring and failure behavior
+ | Interface
+ | C2 requirement
+ | Unresolved
+ | Power
+ | Protected fused branch, OEM camera/monitor adapter chain and separate video-health supply monitoring. Monitor accepts 12–24 V; camera requires 12 V.
+ | Fuse/branch sizing, conversion, maximum voltage drop, protection, EMC, grounds and power-loss response.
+ | Vehicle joints
+ | Keyed/capped bulkhead sockets, independent strain relief and a 1600 mm flexible-cable corridor above the brake hoses. Parked storage loop uses 200 mm radius.
+ | Exact cable/connector product, pull forces, live bending/fatigue, snag avoidance and continuity on the longest intended consist.
+ | Movement probes
+ | 9 loco/coach and 27 coach/coach probes; minimum sampled cable radius 102.3 mm; minimum route underside 1410.7 mm above rail.
+ | Geometric parabolic slack model. These values are not manufacturer bend or clearance acceptance. The body poses are prescribed, not coupled train dynamics.
+ | Display loss
+ | Explicit FRONT UNAVAILABLE and REAR UNAVAILABLE indications, with a source label.
+ | No verified OEM detection/annunciation function is credited.
+ | Frozen / delayed image
+ | VIDEO HEALTH UNKNOWN until the image is verified end to end. Stale imagery must be unmistakable.
+ | A live overlay clock or powered screen does not prove live imagery. Health detector, timeout threshold, monitoring and operating response are unimplemented.
+ | Monitor power loss
+ | Independent, observable power-loss indication.
+ | The demonstration annunciator shows intended behavior only; independent hardware and wiring still need design.
+Exits, handholds and steps
+ | Dimension / finding
+ | C2 geometry
+ | Acceptance boundary
+ | Net opening
+ | 700 wide × 1900 high; raw 720 × 1923. Floor finish 1508; clear head 3408. Roof raised 120, maximum 3623.
+ | Wider and taller than C1’s 540 × 1735. No code or anthropometric approval claimed. Roof/jamb structure and loading gauge need review.
+ | Circulation
+ | 1282 local central aisle;883.75 behind full-aft seat back. A600-wide × 1850-high exit probe has 50 mm side/head margins.
+ | Clear-region layout only; getting off the high seat, turning, clothing, restraint release and hand transfer remain untested.
+ | Access ladder
+ | Six 620-wide × 200-deep treads;120 going; seven equal 215.43 rises. About 61° incline.
+ | This is an inclined ladder requiring face-in use, not a conventional stair or accessible passenger boarding route.
+ | Stow / lowering
+ | Stowed outer edge 1.493 m from train centre; deployed 2.29 m. Sampled lowering sweep reaches 3.151 m from centre.
+ | Stowed ladder blocks the doorway. Inside manual release, both-side access, controlled descent, positive stow lock, pinch guarding and ground variation remain unresolved.
+ | Handholds
+ | 32 OD fixed jamb grips,900 vertical length, nominal 61.5 clear of outer skin; moving ladder grips.
+ | Connection details, grip continuity, hand clearance, loads and occupied use need validation.
+ | Geometry screen
+ | No positive AABB overlaps in six sampled ladder positions, after excluding intended mount interfaces.
+ | Conservative sampled screen, not continuous swept-solid proof or a usable emergency-exit certification.
+Mass and LT32 load reconciliation
+ | Quantity
+ | LT32 baseline
+ | With Cab C2
+ | Locomotive nominal mass
+ | 16,418.2 kg
+ | 16,801.8 kg (+383.5)
+ | CG X /Y /Z
+ | 5540.0 / -1.6 / 1205.2 mm
+ | 5626.5 / -4.7 / 1240.8 mm
+ | Lowest wheel load in reduced-model cases
+ | 3.594 kN
+ | 2.241 kN
+ | Solved cases
+ | 504
+ | 504 converged; 322 retain demand flags
+ | Separate coach additions
+ | Not in locomotive mass
+ | 16.1 kg; camera/trunk and supported share of jumper
+The lower minimum wheel-load result is a material change for the next running-gear review. The model retains the LT23 spring preloads and the same six mass envelopes, duty cases and signed 50 m curve assumptions. It does not establish wheel/rail safety, adhesion, brake capacity, suspension performance or accepted speed.
+The ledger replaces the 150 kg CAB-FITOUT reserve, both sidewalls, cab front/floor, eight former steps, old cab/rear BP/FP routes and clamps, the roof row and crew row. Solid parts use actual CAD volume and centroid with declared trial density. Seats, electronics, trim and cable/tube corridors use explicit allowances. The roof mass is relocated upward 120 mm rather than duplicated. Two 100 kg occupants are assigned to their revised seated CGs. The 350 kg BODY-MISSING residual reserve remains, with possible overlap explicitly retained because it has no defensible itemized allocation. Travel cases use stowed ladders and nominal seats.
+Revised brake-line continuity
+BP runs from[8300,−760,1740] through the C1-style underfloor path and new rear extension to[11140,−520,1100]. FP runs from[8300,−820,1740] to[11140,+520,1100]. The retained LT32 supported turning/vertical jumper interfaces remain. The obsolete above-floor cab lines, rear extensions and drop clamps are removed from the C2 assembly and mass ledger. New rear extensions are separated longitudinally atX11180 and 11280; geometric bends are 30 mm centreline radius, with 75 mm underfloor bends. Actual tube, pressure, fittings, minimum bends, drainability, support load, motion and brake-system acceptance remain open.
+Primary equipment references
+These are packaging candidates, not accepted purchases or rail-qualified installations. The current camera revision’s angles differ from older BE-890C documents.
+Brigade BE-890C2871E camera specification — 86 × 80 × 72 mm including bracket;335 g;109°H /85°V;12 V,≤4.5 W. Camera IP68/IP69K, connector IP67. OEM bolt pattern remains unverified.
+Brigade BE-870FM2146B monitor specification — 197 × 135 × 30 mm without shade;570 g;split view;400 cd/m²;12–24 V;21 W stated at 11 V. No IP rating. The PDF brightness conflicts with a live-page value; supplier confirmation needed.
+Brigade adapter application guide Rev 4.7 — Page 32 identifies BE-L and BE-X cable families. It does not approve an arbitrary multi-coach cable cascade or whole-train voltage/signal budget.
+Geometry checks · JSONMass ledger · JSON.gzLoad summary · JSONReturn to drawings and models →CAB C2 · 22 October 2026 · Review candidate · Fabrication unreleasedEngineering

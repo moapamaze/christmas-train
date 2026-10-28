@@ -1,0 +1,81 @@
+{
+  "issue": "PF-3S3-OPS-R0",
+  "energy_inventory": [
+    {
+      "id": "EN-01",
+      "energy": "Vehicle motion / gravity",
+      "hazard": "Train can roll, separate or shift even with0%target; suspension/body/lift loads can fall.",
+      "required_task_definition": "Accepted independent rail-vehicle restraint, track protection and engineered lift/support points; task-specific stability.",
+      "prohibition": "Brake command or estimated grade is not independent blocking.",
+      "actual_isolation_points": null
+    },
+    {
+      "id": "EN-02",
+      "energy": "Spring brake stored force",
+      "hazard": "Combination chamber spring remains hazardous without air.",
+      "required_task_definition": "Exact delivered OEM qualified service/replacement and independently restrained rescue method if required.",
+      "prohibition": "Do not open spring chamber or infer safe force from zero gauge pressure.",
+      "actual_isolation_points": null
+    },
+    {
+      "id": "EN-03",
+      "energy": "Air reservoirs / isolated lines",
+      "hazard": "Check valves/closed cocks can trap pressure or allow reaccumulation.",
+      "required_task_definition": "Actual tagged circuit/isolation/verification and pressure-vessel/brake protection basis.",
+      "prohibition": "No universal drain/vent sequence or assumed single-gauge isolation.",
+      "actual_isolation_points": null
+    },
+    {
+      "id": "EN-04",
+      "energy": "Suspension / sidebearer / loaded mechanism",
+      "hazard": "Loaded coils, bump stops, sidebearers, stairs/lifts and body supports can store force or move.",
+      "required_task_definition": "Actual unloading/restraint/support method for selected geometry and task.",
+      "prohibition": "Do not remove a mount, guide, torque link or stop under uncharacterized load.",
+      "actual_isolation_points": null
+    },
+    {
+      "id": "EN-05",
+      "energy": "Electrical AC/DC / shore / battery",
+      "hazard": "Multiple sources, charger/generator backfeed and stored electrical energy.",
+      "required_task_definition": "Electrical specialist establishes disconnect/absence-of-energy, discharge, grounding/bonding and test precautions.",
+      "prohibition": "Software off, disconnected low-voltage control or E-stop is not all-source isolation.",
+      "actual_isolation_points": null
+    },
+    {
+      "id": "EN-06",
+      "energy": "Diesel start, fuel and hot exhaust",
+      "hazard": "Unexpected start, fuel/fire/chemical exposure, hot cooling/exhaust/DPF.",
+      "required_task_definition": "Exact engine shutdown/start isolation/cooldown/fuel/fire and exhaust service methods.",
+      "prohibition": "No homemade fuel/exhaust/DPF bypass or occupied-cabin exposure assumption.",
+      "actual_isolation_points": null
+    },
+    {
+      "id": "EN-07",
+      "energy": "Hydrostatic propulsion pressure and rotating drive",
+      "hazard": "Closed-loop/charge pressure, accumulator if actually fitted, inertia and mechanically coupled axles.",
+      "required_task_definition": "Actual OEM drive circuit and supported shaft/gear energy isolation; restrained rotating hardware.",
+      "prohibition": "Hydraulic propulsion is not the superseded hydraulic coach-brake system.",
+      "actual_isolation_points": null
+    },
+    {
+      "id": "EN-08",
+      "energy": "Test fixture / applied loads",
+      "hazard": "Ballast, actuators, restrained springs/pressure and lifted equipment store energy.",
+      "required_task_definition": "Approved guarded fixture/load path/containment, calibrated instruments, abort/rescue plan and qualified director.",
+      "prohibition": "No test from a crosswalk or blank result sheet alone.",
+      "actual_isolation_points": null
+    }
+  ],
+  "default_defect_rule": "Unassessed safety-related condition is out of service pending qualified disposition; no provisional degraded passenger mode.",
+  "no_dispatch_conditions": [
+    "Any wheel/axle/bearing/suspension/pivot/retention or track defect outside accepted criteria, or unknown safety significance",
+    "Crack, missing/loose retention, disturbed hub/wheel/axle joint, carrier/guide reaction damage or uncertain load path",
+    "Brake service/release/parking response, chamber stroke, air reserve/leak/timing or indication disagreement outside accepted criteria",
+    "Any mechanically caged/disabled brake, unknown isolated trainline or unapproved connector/cock configuration",
+    "Unsecured door/gate/stair/lift/bridge or unqualified accessible/egress solution",
+    "Missing route protection/communication/qualified staffing or unauthorized reversing/pushing/two-train mode",
+    "Fuel/exhaust/fire/electrical/structural hazard, emergency lighting/egress defect, or weather/track condition not accepted for operation"
+  ],
+  "accepted_rejection_values": null,
+  "accepted_degraded_modes": []
+}

@@ -1,0 +1,194 @@
+LT26 installation & controls · Pulsipher FarmsSkip to contentWhole locomotiveLT26 installationSystems engineering50 m motion study
+LT26 · SEPARATE SYSTEMS ENGINEERING
+What the installation checks establish.
+This supplement adds review geometry and a functional brake proposal. It preserves the earlier 50 m LT26 movement study and the wider LT23/LT24 demands. New fixture masses and selected brake hardware must be incorporated before final attachment calculations.
+30 m connection-corridor screen
+ | Metric
+ | Result
+ | Interpretation
+ | Reference poses
+ | 504
+ | Signed lateral acceleration at 30 m plus straight; six retained mass cases, pulling/braking and opposed track twist.
+ | Component comparisons
+ | 15,089,256
+ | Exact line-segment distance to conservative transformed component boxes, less the candidate tube radius.
+ | Smallest screened gap
+ | 32.500 mm
+ | L26I-FRONT-HP-A-FIXED / N11-BOARD-1 / base/level/flat/straight
+ | New cooling/support to running gear
+ | 79.174 mm minimum; 0 box overlaps
+ | Conservative installed-part boxes against represented moving parts and full wheel disks; reference mass only.
+ | Cases with negative gap
+ | 0
+ | A negative value remains a hold; no hidden geometry correction.
+ | Demand-only load cases
+ | 304
+ | Above trial adhesion or unverified brake target; not demonstrated stopping performance.
+ | Pivot-slide margin
+ | 3.512 mm
+ | Reference-load geometric margin before tolerances, wear, structural flex and new masses.
+ | Minimum mapped rebound gap
+ | -0.0215 mm
+ | Small finite-angle penetration remains disclosed; contact mapping must be refined before release.
+Outer shell/cab/trim are excluded from box screen because their boxes fill hollow space; route-to-skin, penetrations, guards and access remain detailed-CAD holds.
+Final component port leads, body brake module, pump-to-trunk leads, locomotive rear jumper and coach body/truck hoses are NOT qualified.
+Intermediate yaw-carrier/follower is conceptual; suspension flex remains compound motion and requires further segmentation or an approved articulation solution.
+No constant-length hose mechanics, twist, fitting clocking, pressure expansion, dynamic fatigue, hose-to-hose or continuous motion validation.
+New support/duct/line/brake-device weights are excluded from these LT25-mass reference load poses.
+Any negative gap is an unresolved conservative-box conflict, not an accepted installation.
+Flexible-route length and curvature evidence
+These are sampled centerline properties, not approved hose lengths or bend radii. Length changes show why a geometric moving curve cannot be treated as a finished constant-length hose assembly. The suspension curves still require compound-motion resolution.
+ | Line / truck / segment
+ | Length range (mm)
+ | Smallest sampled radius (mm)
+ | Assembly status
+ | FRONT-HP-A-YAW
+ | 656.0–741.3
+ | 140.2
+ | HOLD: supplier radius, length/slack, clocking and twist
+ | FRONT-HP-A-SUSPENSION
+ | 532.4–542.1
+ | 142.4
+ | HOLD: supplier radius, length/slack, clocking and twist
+ | FRONT-HP-B-YAW
+ | 652.5–744.9
+ | 139.7
+ | HOLD: supplier radius, length/slack, clocking and twist
+ | FRONT-HP-B-SUSPENSION
+ | 532.4–542.5
+ | 142.4
+ | HOLD: supplier radius, length/slack, clocking and twist
+ | FRONT-CASE-YAW
+ | 656.0–741.3
+ | 140.2
+ | HOLD: supplier radius, length/slack, clocking and twist
+ | FRONT-CASE-SUSPENSION
+ | 532.4–542.1
+ | 142.4
+ | HOLD: supplier radius, length/slack, clocking and twist
+ | FRONT-BRAKE-YAW
+ | 652.5–744.9
+ | 139.7
+ | HOLD: supplier radius, length/slack, clocking and twist
+ | FRONT-BRAKE-SUSPENSION
+ | 532.4–542.5
+ | 142.4
+ | HOLD: supplier radius, length/slack, clocking and twist
+ | FRONT-WIRE-YAW
+ | 648.9–748.6
+ | 139.2
+ | HOLD: supplier radius, length/slack, clocking and twist
+ | FRONT-WIRE-SUSPENSION
+ | 532.4–542.9
+ | 142.4
+ | HOLD: supplier radius, length/slack, clocking and twist
+ | REAR-HP-A-YAW
+ | 655.1–739.8
+ | 140.5
+ | HOLD: supplier radius, length/slack, clocking and twist
+ | REAR-HP-A-SUSPENSION
+ | 531.0–540.2
+ | 141.0
+ | HOLD: supplier radius, length/slack, clocking and twist
+ | REAR-HP-B-YAW
+ | 651.6–743.4
+ | 140.0
+ | HOLD: supplier radius, length/slack, clocking and twist
+ | REAR-HP-B-SUSPENSION
+ | 530.9–540.5
+ | 141.0
+ | HOLD: supplier radius, length/slack, clocking and twist
+ | REAR-CASE-YAW
+ | 655.1–739.8
+ | 140.5
+ | HOLD: supplier radius, length/slack, clocking and twist
+ | REAR-CASE-SUSPENSION
+ | 531.0–540.2
+ | 141.0
+ | HOLD: supplier radius, length/slack, clocking and twist
+ | REAR-BRAKE-YAW
+ | 651.6–743.4
+ | 140.0
+ | HOLD: supplier radius, length/slack, clocking and twist
+ | REAR-BRAKE-SUSPENSION
+ | 530.9–540.5
+ | 141.0
+ | HOLD: supplier radius, length/slack, clocking and twist
+ | REAR-WIRE-YAW
+ | 648.1–747.1
+ | 139.5
+ | HOLD: supplier radius, length/slack, clocking and twist
+ | REAR-WIRE-SUSPENSION
+ | 530.9–540.9
+ | 140.9
+ | HOLD: supplier radius, length/slack, clocking and twist
+Routing basis: Parker Technical Handbook, pp22–24. It requires adequate bending radius and controls on torsion, abrasion, heat and support. Its segmentation guidance informs the proposed flex zones; it does not qualify these curves.
+Cooling and support decisions
+Proposed flow: paired side inlet → cold compartment → hydraulic cooler → removable transition → package radiator/CAC region → existing suction fan → engine bay → aft outlets. The nominal gross projected inlet area is 0.650 m² and outlet area 0.390 m². Neither is effective free area; louver blades, screens, inlet turn, cores, shroud and exits all require restriction data. No cooling capacity or opening-area ratio is accepted.
+The cold plenum has a forward partition and removable floor at Z1760. Edge seals, drains and fasteners remain provisional. The cold bulkhead is body-supported with a flexible cooler seal; duct weight must not be carried by the radiator. The transition needs an independent bracket and flexible ends. This is an engineering proposal informed by Cummins T-030, ventilation/duct guidance pp201–202 and212, not approval of the Kubota/AIE package. AIE must approve its configured fan, core stack, restriction and hot-weather performance.
+The new X4650 support adds a candidate load path from the aft common skid to the frame. Its two posts meet the current frame top and a lowered crossbeam; isolator spaces remain between that beam and the existing skid rails. The pump-support carrier has no assumed OEM bolt pattern or housing clamp. The extra support must be checked for load sharing and alignment rather than simply added as a rigid extra constraint.
+Danfoss H1 Basic Information, pp40–44 treats overhung moment, coupling-induced radial loads and supplemental supports. Actual pump mass/CG, vibration, coupling and AIE housing limits remain necessary. This overlay does not approve any supplier flange load.
+Proposed brake-failure response
+ | Condition
+ | Proposed function
+ | Evidence needed
+ | Normal service
+ | BP reduction commands local friction braking from protected reserves.
+ | Empty/loaded allocation, timing, torque, heat and adhesion.
+ | Emergency demand
+ | Remove traction; rapidly vent BP through selected emergency hardware.
+ | Vent flow versus charging flow, propagation, application time and stop distance.
+ | Engine / electrical power loss
+ | Traction permit drops; selected failure-action hardware commands a pneumatic stop.
+ | Actual de-energized valve state, independent energy and prevention of unintended release.
+ | Compressor / feed-pipe failure
+ | Protect local reserves; detect loss and command a stop before reserve is inadequate.
+ | FP failure is not automatically BP loss. Thresholds, leakage and usable stored-air volume are open.
+ | Separation / BP rupture
+ | Both portions vent BP and apply from their own reserves, then remain secured.
+ | Couplings and cocks must permit the intended response. Self-sealing connections or closed cocks can defeat it; continuity testing needed.
+ | One coach unavailable
+ | Identify fault and inhibit departure; in motion remove traction and command remaining brakes.
+ | Pressure alone does not prove wheel-end force. Remaining stop, coupler loads, adhesion and heat unqualified.
+ | All coach brakes unavailable
+ | Remove traction and apply available independent locomotive braking; severe fault.
+ | No accepted residual stopping performance or continued-service allowance.
+ | Reserve depletion / parking / reset
+ | Stop before reserve is inadequate; provide independent holding and controlled recharge/reset.
+ | Spring application while moving, anti-compounding, release sequencing and manual recovery remain unqualified.
+Architecture references: Knorr-Bremse pneumatic control describes indirect brake-pipe/distributor control. Wabtec emergency brake valve describes rapid BP exhaust. WABCO TP-0357 supports separate spring-brake/anti-compounding functions; its road-vehicle settings are not adopted. Hydrostatic safety-braking credit remains zero per the retained Danfoss application basis.
+Confirmed basis and remaining holds
+Tony’s quote and reference drawings remain the engine-package basis. The supplier inbox check found only the previously recorded acknowledgments and out-of-office/routing replies. Clayton Controls has also received the bumper selection inquiry. No technical rating or bumper curve was received to close these holds, and no new inquiry was sent in this revision.
+ | Item
+ | Status
+ | Remaining work
+ | AIE package
+ | Awaiting technical confirmation
+ | Quote Rev B vs generic Rev C, configured geometry, wet mass/CG, mounting feet, continuous installed power, cooling and extended harness.
+ | Drive coupling and pump
+ | Awaiting AIE / Hydraquip / Danfoss review
+ | Complete order code, torque/power control, 13/15-tooth coupling, torsion, engagement, support loads and hydraulic circuit.
+ | Motors / reduction
+ | Awaiting OneHydraulics / Poclain
+ | Configured motor maps, charge/leakage flow, shafts, ports, bearings, reduction and chain retention.
+ | Bumper
+ | Unselected; Clayton inquiry sent
+ | Verified loading/unloading curves, local impact inputs and feasibility of the 5 mm window; ACE/Miner technical replies pending.
+ | Brake architecture
+ | Proposed; system integrator unconfirmed
+ | Compatible automatic distributor, compressor, reservoir volumes, emergency device, wheel-end ratings, independent parking and fault tests.
+ | New installation hardware
+ | Candidate geometry
+ | Shell reinforcement/latches, cold-plenum sealing, duct supports, exhaust shielding, isolators, pump housing interface and alignment.
+ | Connections
+ | Corridors only
+ | Carrier/follower mechanism, compound suspension flex, selected hose/ends, port leads, pump leads, rear jumper, coach routing, guards and constant-length motion.
+ | Mass and attachment calculations
+ | Final update pending
+ | New support steel 20.82 kg plus duct steel 68.50 kg before shell deductions and unselected hardware. Update complete mass/CG, then pivot, traction link, guide-bushing, rebound locks, pins, bolts and weld fatigue.
+ | Structural / operational release
+ | Not released
+ | Named engineer to close load cases, materials, tolerances, fatigue, fault response and acceptance testing.
+Evidence
+Connection checks and line metrics · JSONOpening and service-path coordinates · JSONGeometry and partial fixture masses · JSONRetained 50 m studySupplier quote and earlier load basis
+Final attachment calculations remain open. This revision does not release fabrication dimensions or establish safe operation of the train.LT26 · October 21, 2026 · Development study · No fabrication or operating releaseEngineering

@@ -1,0 +1,98 @@
+Locomotive drivetrain integration · Pulsipher FarmsSkip to contentWhole locomotive · 3DSuspension drawingsSeparate engineering
+LT16 · SEPARATE ENGINEERING RECORD
+Suspension and frame load screens
+This revision adds a nominal suspension mechanism to the first powered axle. It does not close the supplier, fatigue, vehicle-dynamics or fabrication gates. Actual locomotive axle loads and wheel/rail profiles are still absent from the current source.
+Load basis: assumptions are not measured weights
+ | Input
+ | Study value
+ | Status
+ | Sprung mass supported by one powered axle
+ | 2,000 kg; 9.807 kN per spring
+ | Trial only; actual mass/distribution unknown
+ | Unsprung mass
+ | 1,000 kg per powered axle
+ | Trial only, not a CAD mass tally
+ | Centre-of-gravity height
+ | 1.5 m
+ | Centrifugal-only sensitivity assumption
+ | Speed
+ | 3 / 5 / 7.5 mph
+ | Sensitivity cases, not authorized operating speeds
+ | Track radius
+ | 50 m
+ | Target only; cant, twist, profiles and route transitions missing
+ | Mechanical braking / coupler loads
+ | Not supplied
+ | Cannot establish the complete load envelope
+Primary springs
+Each custom coil trial has18 mm wire,124 mm mean diameter,142 mm outside diameter,3 active coils and5 nominal total coils. With assumed shear modulus79,000 N/mm², k=Gd⁴/(8D³n)=181.23 N/mm. The135 mm nominal loaded length and9.807 kN load require approximately189.11 mm free length. Estimated solid height is90 mm. Ends, presetting, fatigue material, corrosion protection, surge, coil growth, tolerances and actual load-deflection data need a spring manufacturer.
+ | Local seat position
+ | Spring length
+ | Load
+ | Wahl-corrected nominal stress
+ | −40 mm rebound limit
+ | 175 mm
+ | 2.557 kN
+ | 168 MPa
+ | Nominal
+ | 135 mm
+ | 9.807 kN
+ | 646 MPa
+ | +20 mm bumper contact
+ | 115 mm
+ | 13.431 kN
+ | 885 MPa
+ | +30 mm steel limit
+ | 105 mm
+ | 15.244 kN
+ | 1,004 MPa
+At the steel limit the estimated clearance above solid is15 mm. This is geometry, not a fatigue approval or a guaranteed manufacturing margin. Stress uses KW=(4C−1)/(4C−4)+0.615/C and τ=KW8FD/(πd³). With the same free length, a1,000 kg sprung axle would sit about27 mm above the trial datum;3,000 kg would sit about27 mm below it, nearly using the bump allowance. Actual axle loads must be established before ordering.
+Centering force and friction
+Four bonded rubber blocks, each26 ×100 mm in plan and50 mm thick, give a trial total lateral rate of312 N/mm using K=4GA/t and assumed rubber shear modulus1.5 N/mm². This is a target for a supplier to assess; rubber is nonlinear, temperature-dependent and subject to aging, creep and bond fatigue. Compression/shear coupling and damping have not been quantified.
+At12.015 mm displacement and zero roll the imposed restoring-force demand is approximately3.749 kN per axle. The sampled combined geometry produces up to34.2% nominal shear strain. The sliding pad is100 ×80 mm, so the nominal static pressure is1.23 MPa per pad before edge loading and moment effects.
+ | Assumed pad friction coefficient
+ | Static return deadband, μW/K
+ | At +15 mm mean bump
+ | 0.03
+ | ±1.89 mm
+ | ±2.41 mm
+ | 0.05
+ | ±3.14 mm
+ | ±4.01 mm
+ | 0.12
+ | ±7.54 mm
+ | ±9.63 mm
+These simple friction sensitivities exclude guide-rod friction, contamination, wear and longitudinal guide contact. They show why the design cannot promise exact recentering. Test the chosen sliding material and rubber springs together under vertical and motor-reaction loads.
+Stops, retention and service
+TwoØ16 rods per axlebox move with the lower seat throughØ18 guide bores. Upper collars have40 mm nominal rebound clearance. Lower strikers contact the bump rubber after20 mm local compression, then meet a steel sleeve at30 mm. The bump rubber occupies20 mm initially and reserves10 mm compression. Hooks retain the rocker separately from the bonded rubber. The moving rod assembly passes throughØ30 openings in the header and lower rail wall.
+Collar threads, secondary locks, bushing retainers, pin-keeper fasteners, seals, spring seating/capture and removal paths still require detail. Stops are not energy-rated. For perspective only, 2,000 kg moving vertically at0.2 or0.5 m/s stores40 or250 J. Four identical linear bumpers sharing that energy over10 mm would reach approximately2.0 or12.5 kN each, before gravity, unequal sharing and other forces; the model does not establish those impact speeds or bumper characteristics.
+Traction, braking and motor-reaction sizing
+The376 cc motor at300 bar gives an ideal1.795 kN·m torque. With49/21 reduction and0.97 trial chain efficiency, the axle reaction is4.063 kN·m; a stated1.5 transient multiplier gives6.095 kN·m and8.407 kN rim force. This symmetric forward/reverse trial is also a provisional braking envelope, but the actual mechanical brake can exceed it.
+Splitting axle reaction between two axleboxes and assuming a100 mm effective contact-couple arm gives a34.68 kN face-load estimate including traction. The rounded guide-face design trial is40 kN. A50 mm plate with150 mm minimum remaining width at its relief and a350 mm moment arm gives nominal bending stress224 MPa. A trial355 MPa yield divided by1.5 gives236.7 MPa; this narrow nominal margin does not cover the relief’s stress concentration, wear, edge contact or fatigue. Pad pressure over a90 ×80 mm trial patch is5.56 MPa.
+Headers are500 ×260 ×20 mm, with10 mm internal rail diaphragms at the header ends. An idealized pair of500 mm-long,6 mm fillet welds has4,242 mm² throat area. Using40 kN longitudinal,20 kN vertical and10 kN lateral trials plus a14 kN·m longitudinal overturning moment gives a conservative direct-plus-bending stress sum of50.4 MPa. The comparison value0.6 ×490 /2 is147 MPa. This is an illustrative static weld-metal screen; base-wall punching, prying, combined moments, notches, weld procedure/access and fatigue are not verified.
+TheØ20 rocker pin uses a44 mm support span and20 kN trial box load. A centred simply-supported load gives280 MPa bending,31.8 MPa double shear and285 MPa nominal von Mises stress; cheek bearing is41.7 MPa. A650 MPa yield for a quenched-and-tempered steel is only a material assumption. Certification, actual load distribution, fits, axlebox-wall strength, keeper capacity and fatigue are still required.
+Frame stiffness: recovered gross section, unresolved local openings
+The restored rail section is152.4 ×304.8 ×9.525 mm at Y±300. Inside faces move to±223.8 mm and outside faces remain±376.2 mm. Gross single-rail vertical and lateral second moments return to100.34 and33.44 million mm⁴, matching LT11. This recovers the section loss introduced by the narrow LT14 rails without widening the outer clearance envelope.
+That does not prove the assembled frame. A simple net-section estimate at oneØ30 lower-wall rod opening reduces the vertical second moment to93.89 million mm⁴, about93.6% of the restored gross value. A lower-wall opening also interrupts the closed torsion path locally; the proposed diaphragms cannot be assumed to fully compensate. Rail spacing is now600 mm, crossmembers shorten to447.6 mm, and existing equipment mounts must be reconciled. Global load distribution, fatigue and structural analysis remain open.
+What can be said about the 50 m curve
+ | Trial speed
+ | Centrifugal force for3,000 kg
+ | Centrifugal-only wheel loads at1.5 m CG
+ | 3 mph
+ | 108 N
+ | 14.53 /14.89 kN
+ | 5 mph
+ | 300 N
+ | 14.22 /15.20 kN
+ | 7.5 mph
+ | 674 N
+ | 13.60 /15.82 kN
+These use F=mv²/R and ΔQ=Fh/gauge. They exclude flange/creep forces, track twist, braking and suspension equilibrium, so they cannot demonstrate acceptable wheel unloading. The3.749 kN imposed centering demand is already much larger than the centrifugal-only force at5 mph. Outer drivers retain1.776° angle of attack. Actual lateral rail forces, flange-climb margin, wear and minimum radius require selected wheel/rail profiles, loads, speeds and a validated vehicle-dynamics model. No approved radius or speed is reported.
+Geometry and verification record
+The final full-assembly screen covers27 sampled straight/left/right positions × three mean travel positions × three roll positions. No positive moving-to-fixed intersections were found; the screen also checks new moving suspension parts against existing moving parts. Deliberate clevis-to-box weld overlaps are excluded. A separate five-position screen checks new moving components with different motions against each other; same-motion weldments and intended fixed joints are excluded. These are discrete checks, not continuous swept volumes, elastic contact or force equilibrium.
+The free hydraulic loops were screened at the same27 positions without positive intersections. Hose fittings, rigid adapters, fixed headers, hose-to-hose contact, twist and brake clearance remain unqualified. Source-runtime checks assembled all27 viewer models with unique IDs and finite coordinates. A CAD projection and the dimensioned SVG were inspected; browser/phone rendering remains unverified.
+Manufacturer and engineering references
+Lee Spring: compression spring design information explains the spring parameters and selection context. Trelleborg: bonded rubber sandwich mounts describes differing shear and compression behavior; no stock product is selected here. AISC: fillet-weld throat and strength reference supports the elementary weld screen, not rail-vehicle approval. A1 Steam Locomotive Trust: P2 dynamics study demonstrates the need to evaluate angle of attack, rail forces and wheel unloading.
+Evidence and remaining release gates
+Exact stop-contact positions · Calculation inputs and results · Assembly clearance cases · New mechanism interface checks · Free-hose span checks.
+Required next inputs: loaded mass and axle-load distribution, actual wheel and rail profiles/back-to-back, route cant/twist and speed, brake maximum torque, coupler forces and duty cycle. These determine whether this compact suspension can be retained. Supplier qualification, complete retainers/fasteners, frame/axlebox fatigue and vehicle dynamics must precede manufacturing. Other powered axles and coach designs have not been converted to this suspension.LT16 · Prototype development · Not for fabricationWhole locomotive

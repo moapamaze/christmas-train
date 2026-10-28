@@ -1,0 +1,23 @@
+[
+  {
+    "archive": "assets/files/Stage2_Technical_CAD_Review_R0.zip",
+    "archive_sha256": "364acf659e1d39bf618d417b804498b2f81272aafd739a02c1be2f1bd6ef36f5",
+    "member": "Stage2_Geometry_R0.json",
+    "preserved_as": "inherited-stage2-geometry.json",
+    "member_sha256": "5a37e2396abeb8312943e9a10ac3a79914f4d026d1e4719f75508c285489fccf"
+  },
+  {
+    "archive": "assets/files/Christmas_Train_Phase3J_Technical_Source_R0.zip",
+    "archive_sha256": "1e0ac7b7f982d71e1f0e59c85541d51ae411cbb61bb9fd4928516037b7fc50b8",
+    "member": "source/body_i.json",
+    "preserved_as": "inherited-body-I1.json",
+    "member_sha256": "0b5e2a34853f64375d7744ed4ccc48dd444dcb38ebeb7b99511ca2a677691a4b"
+  },
+  {
+    "archive": "assets/files/Christmas_Train_Phase3H_Technical_Source_R0.zip",
+    "archive_sha256": "1ca18e6e5e1f62233ada1f688a017a3fb18205c028295f171a199f2d31b1eb82",
+    "member": "phase3h/research/body_h_inputs.json",
+    "preserved_as": "inherited-body-H-inputs.json",
+    "member_sha256": "047763d526a41d461dc77e8858fc418f3bc22c62ca728bba2c13c7ab2b977e3f"
+  }
+]
