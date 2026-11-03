@@ -9,13 +9,13 @@
 <p><span class="lbl R">REQUIRED</span> a requirement or spec limit &nbsp; <span class="lbl S">SELECTED</span> a named part picked on paper (not bought, not tested) &nbsp; <span class="lbl T">TESTED</span> physically tested (none yet) &nbsp; <span class="lbl H">HOLD / DELETED</span> paused or removed</p>
 
 <h2>Masses</h2>
-<p>Source: <a href="data/mass_ledger.json">data/mass_ledger.json</a> (rev ML-1). Coach frozen ledger: <a href="data/source/c415_ledger_FROZEN_F7r5b.md">F7 r5b</a>. Calculated, not weighed.</p>
+<p>Source: <a href="data/mass_ledger.json">data/mass_ledger.json</a> (rev ML-2). Coach frozen ledger: <a href="data/source/c415_ledger_FROZEN_F7r5b.md">F7 r5b</a>. Calculated, not weighed.</p>
 <table id="mass"><tr><th>Vehicle</th><th>Empty kg</th><th>Loaded kg</th><th>Status / basis</th></tr>
-<tr><td>Loco No. 27</td><td colspan="2">20,404.2</td><td>PENDING FREEZE. Last frozen 20,516.8 kg minus the sand delete (−112.6 kg). PX-1 (+2.1 kg) and KES-3 (+0.06 kg) not yet booked.</td></tr>
-<tr><td>Tender</td><td colspan="2">8,993.3</td><td>TB-3.15e, the latest booked figure (needs a ruling: see Open items)</td></tr>
-<tr><td>Coach C1–C3 (each)</td><td>10,444.37</td><td>13,414.37</td><td>F7 r5b FROZEN. Wheel-load margin +119 N to 16.6 kN</td></tr>
-<tr><td>Coach C4 (accessible)</td><td>9,069.71</td><td>10,693.71</td><td>F7 r5b FROZEN. Wheel-load margin +3,275 N to 16.6 kN</td></tr>
-<tr><td>Train, 4 coaches</td><td>69,800.3</td><td>80,334.3</td><td>Sum of the rows above, no crew</td></tr></table>
+<tr><td>Loco No. 27</td><td colspan="2">20,406.36</td><td>PENDING FREEZE. Last frozen 20,516.8 kg − sand delete 112.6 kg + PX-1 2.1 kg + KES-3 0.06 kg (ML-2).</td></tr>
+<tr><td>Tender</td><td colspan="2">8,993.3</td><td>TB-3.15e. Ruled: used everywhere, including the loco brake/adhesion what-if.</td></tr>
+<tr><td>Coach C1–C3 (each)</td><td>10,444.97</td><td>13,414.97</td><td>F7 r5b + 2 S1-end lugs (0.3 kg each). Wheel-load margin +119 N to 16.6 kN (model run c417)</td></tr>
+<tr><td>Coach C4 (accessible)</td><td>9,070.91</td><td>10,694.91</td><td>F7 r5b + 4 S1-end lugs (0.3 kg each). Wheel-load margin +3,281 N to 16.6 kN (model run c417)</td></tr>
+<tr><td>Train, 4 coaches</td><td>69,805.48</td><td>80,339.48</td><td>Sum of the rows above, no crew. Ruled: this total governs; the old 82.403 t figure is superseded.</td></tr></table>
 <p id="massnote" style="font-size:.85em;opacity:.8"></p>
 
 <h2>Closed rulings</h2>
@@ -48,6 +48,16 @@
 <tr><td>Coach C1–C3: Ringspann DV 030 FPM-045 R-25</td><td>emergency 11.32 kN; 0.828 m/s² new / 0.662 m/s² worn; park FS 4.3 / 3.44</td><td>—</td></tr>
 <tr><td>Coach C4: Ringspann FPM-035</td><td>emergency 7.93 kN; 0.728 / 0.582 m/s²; park FS 3.78 / 3.03</td><td>—</td></tr></table>
 
+<h2>ML-2 reruns: no sand, 60 lb rail (calculated 2026-11-02)</h2>
+<p>Train W = ML-2 ledger loaded 80,339.48 kg + 1 crew 90 kg = 789.01 kN. Start need = (0.0208 + grade) × W. Adhesion cap = equal-torque cap 4 μ × lightest driver axle, shown two ways: the Stress no-sand static-axle method, and the loco drive model with weight transfer and centre-plate friction. Rail: the old PE beam-on-elastic-foundation method, with 60 lb section properties from <a href="https://www.kimessteel.com/shop/new-rail-60-lb-asce-piece-1018/document/38">Kimes Steel 6040 drawing</a> (cross-check <a href="https://www.tedrail.com/products/classify/ASTM%20A1%20STANDARDARD%20STEEL%20RAIL">Tedrail ASTM A1 table</a>). Scripts and outputs: <a href="calcs/ml2/">calcs/ml2/</a>. Not PE-reviewed.</p>
+<table><tr><th>Check</th><th>Required</th><th>Selected</th><th>Result (calculated)</th><th>Tested</th></tr>
+<tr><td>Wet-rail start, level (μ 0.15, forward)</td><td><span class="lbl R">REQUIRED</span> TE ≥ 16.41 kN (0.0208 × W)</td><td><span class="lbl S">SELECTED</span> No sand; loco No. 27 drivers</td><td>Cap 22.87 kN static-axle method → PASS (+6.46 kN); 24.1 kN with weight transfer → PASS (+7.69 kN)</td><td>No</td></tr>
+<tr><td>Wet-rail start, R80 at 0.88 % effective (μ 0.15, forward)</td><td><span class="lbl R">REQUIRED</span> TE ≥ 23.35 kN</td><td><span class="lbl S">SELECTED</span> No sand</td><td>Static-axle method <b>FAIL</b> (-0.48 kN); with weight transfer PASS (+0.74 kN) (ratio 1.032, below the 1.10 rule margin)</td><td>No</td></tr>
+<tr><td>Worse rail (μ 0.10 / 0.085 / 0.05), level</td><td><span class="lbl R">REQUIRED</span> TE ≥ 16.41 kN</td><td><span class="lbl S">SELECTED</span> No sand</td><td>μ 0.10: <b>FAIL</b> (-1.16 kN) static, PASS (+0.35 kN) with transfer; μ 0.085 and 0.05 FAIL. μ needed to start: 0.0977 level, 0.1447 at 0.88 %</td><td>No</td></tr>
+<tr><td>Reverse full-train start limit</td><td><span class="lbl R">REQUIRED</span> Rule ≤ 1.20 % (kept), 1.10 margin</td><td><span class="lbl S">SELECTED</span> No sand</td><td>Dry μ 0.25: 1.39 % (1.39 % worn) → 1.20 % rule holds. Wet μ 0.15: 0.23 % (0.19 % worn) → wet reverse start is limited to the level/yard; layout F 0.88 % FAIL. Wet reverse on the level: PASS (+3.60 kN) (no 1.10 margin applied); μ needed 0.1199</td><td>No</td></tr>
+<tr><td>Rail base stress, ASCE 60 (6040)</td><td><span class="lbl R">REQUIRED</span> ≤ 172 MPa at 2.0 × 26 kN</td><td><span class="lbl S">SELECTED</span> 60 lb relay rail (I 14.56 in⁴, Z<sub>base</sub> 7.10 in³)</td><td>New 102.3 MPa PASS (+69.7); worn 6 mm 106.1 MPa PASS (+65.9); old 40 lb basis 152.9 MPa</td><td>No</td></tr>
+<tr><td>Ties / ballast at 60 lb</td><td><span class="lbl R">REQUIRED</span> Ballast and plate bearing (PE package)</td><td><span class="lbl S">SELECTED</span> 6 × 8 × 6 ft ties at 22.5 in, 6 × 9 plates</td><td>Seat 4,895 lb, ballast 25.5 psi, plate 91 psi, tie bending 400 psi, all lower than the 40 lb basis</td><td>No</td></tr></table>
+
 <h2>Components: required / selected / tested</h2>
 <table><tr><th>Item</th><th>Required</th><th>Selected</th><th>Tested</th></tr>
 <tr><td>Rail</td><td>—</td><td>60 lb bolted relay rail (ruled; source not chosen)</td><td>No</td></tr>
@@ -65,11 +75,11 @@
 
 <h2>Open items (need a technical ruling)</h2>
 <ul>
-<li>Tender mass: TB-3.14 (8,726.3 kg), TB-3.15e (8,993.3 kg, used here) and the loco what-if (8,951.7 kg) disagree.</li>
-<li>Train total: the loco basis quotes 82.403 t; the ledger sum is 80.334 t loaded (no crew).</li>
-<li>Loco 20,404.2 kg is pending freeze, with the PX-1 and KES-3 adds not yet booked.</li>
-<li>Older calc rows that depended on sand (wet starts) need re-running without sand.</li>
-<li>Rail section checks in the old PE package used 40 lb rail and need re-running for 60 lb relay rail.</li>
+<li>Wet-rail start on the R80 curve (0.88 % effective) without sand: fails by the Stress static-axle method (−0.48 kN) and passes by only +0.74 kN with weight transfer (below the 1.10 margin). Needs a ruling: an operating rule (no wet starts on R80), a lower μ basis, or added adhesion.</li>
+<li>Wet reverse starts without sand are only possible on the level (limit ≈ 0.2 % with the 1.10 margin).</li>
+<li>Rail basis: the PE package uses 26 kN, but the K2-a driver-wheel target at the pull limits is 26.5 kN (static limit 27.0 kN). At 27 kN the 60 lb rail is 106 MPa, still well under 172 MPa; the basis should be restated.</li>
+<li>S1-end lug count (2 per regular coach, 4 on C4 = 10 per train) and its Z position are taken from the S1 ruling and the replaced saddle; confirm.</li>
+<li>Loco 20,406.36 kg is pending freeze.</li>
 </ul>
 <p>The older engineering pages, calc packages and drawing notes are kept as the working record. They carry a banner pointing here, and their superseded figures are flagged.</p>
 <p>No prices are published on this site.</p>

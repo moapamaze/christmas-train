@@ -1,0 +1,153 @@
+{
+ "rev": "ML-2 2026-11-02",
+ "method": "ML-2 rail section check on ASCE 60 lb (section 6040), replacing ASCE 40 in the old PE package (track_structure/track_calc.py",
+ "wheel_loads_kN": {
+  "loco_driver_static_max": 23.16,
+  "loco_driver_dynamic_target": 26.5,
+  "coach_max": 16.48,
+  "tender_nominal": 11.03,
+  "basis": 26.0
+ },
+ "P_design_kN": 52.0,
+ "allow_base_MPa": 172.0,
+ "rows": [
+  {
+   "u_psi": 1000,
+   "rail": "ASCE 40 (old PE basis)",
+   "M_lbin": 86251,
+   "base_MPa": 152.9,
+   "head_MPa": 165.7,
+   "defl_in": 0.208,
+   "seat_lb": 4683
+  },
+  {
+   "u_psi": 1000,
+   "rail": "ASCE 60 new",
+   "M_lbin": 105357,
+   "base_MPa": 102.3,
+   "head_MPa": 109.7,
+   "defl_in": 0.188,
+   "seat_lb": 4233
+  },
+  {
+   "u_psi": 1000,
+   "rail": "ASCE 60 worn 6 mm (condemn)",
+   "M_lbin": 100440,
+   "base_MPa": 106.1,
+   "head_MPa": 125.0,
+   "defl_in": 0.192,
+   "seat_lb": 4329
+  },
+  {
+   "u_psi": 1500,
+   "rail": "ASCE 40 (old PE basis)",
+   "M_lbin": 77937,
+   "base_MPa": 138.1,
+   "head_MPa": 149.7,
+   "defl_in": 0.148,
+   "seat_lb": 4980
+  },
+  {
+   "u_psi": 1500,
+   "rail": "ASCE 60 new",
+   "M_lbin": 95200,
+   "base_MPa": 92.5,
+   "head_MPa": 99.2,
+   "defl_in": 0.132,
+   "seat_lb": 4444
+  },
+  {
+   "u_psi": 1500,
+   "rail": "ASCE 60 worn 6 mm (condemn)",
+   "M_lbin": 90758,
+   "base_MPa": 95.9,
+   "head_MPa": 112.9,
+   "defl_in": 0.135,
+   "seat_lb": 4555
+  },
+  {
+   "u_psi": 3000,
+   "rail": "ASCE 40 (old PE basis)",
+   "M_lbin": 65537,
+   "base_MPa": 116.2,
+   "head_MPa": 125.9,
+   "defl_in": 0.084,
+   "seat_lb": 5670
+  },
+  {
+   "u_psi": 3000,
+   "rail": "ASCE 60 new",
+   "M_lbin": 80054,
+   "base_MPa": 77.7,
+   "head_MPa": 83.4,
+   "defl_in": 0.073,
+   "seat_lb": 4895
+  },
+  {
+   "u_psi": 3000,
+   "rail": "ASCE 60 worn 6 mm (condemn)",
+   "M_lbin": 76318,
+   "base_MPa": 80.6,
+   "head_MPa": 95.0,
+   "defl_in": 0.075,
+   "seat_lb": 5049
+  }
+ ],
+ "governing_base_MPa": {
+  "ASCE 40 (old PE basis)": 152.9,
+  "ASCE 60 new": 102.3,
+  "ASCE 60 worn 6 mm (condemn)": 106.1
+ },
+ "margin_MPa": {
+  "ASCE 40 (old PE basis)": 19.1,
+  "ASCE 60 new": 69.7,
+  "ASCE 60 worn 6 mm (condemn)": 65.9
+ },
+ "PASS": {
+  "ASCE 40 (old PE basis)": true,
+  "ASCE 60 new": true,
+  "ASCE 60 worn 6 mm (condemn)": true
+ },
+ "tie": {
+  "ASCE 40 (old PE basis)": {
+   "seat_lb": 5670,
+   "ballast_psi": 29.5,
+   "plate_psi_6x9": 105,
+   "tie_seat_bending_psi": 478
+  },
+  "ASCE 60 new": {
+   "seat_lb": 4895,
+   "ballast_psi": 25.5,
+   "plate_psi_6x9": 91,
+   "tie_seat_bending_psi": 400
+  },
+  "ASCE 60 worn 6 mm (condemn)": {
+   "seat_lb": 5049,
+   "ballast_psi": 26.3,
+   "plate_psi_6x9": 94,
+   "tie_seat_bending_psi": 413
+  }
+ },
+ "basis_check": {
+  "Q_basis_covers_max_dynamic_driver": false,
+  "margin_kN": -0.5
+ },
+ "at_27kN_static_limit": {
+  "ASCE 40 (old PE basis)": {
+   "base_MPa": 158.8,
+   "margin_MPa": 13.2
+  },
+  "ASCE 60 new": {
+   "base_MPa": 106.2,
+   "margin_MPa": 65.8
+  },
+  "ASCE 60 worn 6 mm (condemn)": {
+   "base_MPa": 110.2,
+   "margin_MPa": 61.8
+  }
+ },
+ "sources": [
+  "https://www.kimessteel.com/shop/new-rail-60-lb-asce-piece-1018/document/38",
+  "https://www.tedrail.com/products/classify/ASTM%20A1%20STANDARDARD%20STEEL%20RAIL"
+ ]
+}

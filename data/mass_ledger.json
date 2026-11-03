@@ -1,22 +1,21 @@
 {
  "title": "Pulsipher Farms Christmas Train - master mass ledger (single source of truth)",
- "rev": "ML-1",
+ "rev": "ML-2",
  "written": "2026-11-02",
- "by": "Grokky (site cleanup pass)",
+ "by": "Grokky (ML-2, owner rulings 2026-11-02)",
  "status_note": "Desk-calculation masses. Nothing has been weighed. Not PE-reviewed. Every page, drawing and calc on this site defers to this file; older figures elsewhere are historical.",
  "units": "kg",
  "loco": {
   "id": "Loco No. 27",
-  "mass_kg": 20404.2,
-  "status": "PENDING FREEZE",
-  "basis": "Last frozen ledger 20,516.8 kg (frozen 2026-10-28T08:22:54) minus sand-system delete -112.6 kg (hardware -52.6, sand -60.0) = 20,404.2 kg; CG_X 5215.8 mm",
+  "mass_kg": 20406.36,
+  "status": "PENDING FREEZE (owner ruling: stays pending freeze)",
+  "basis": "Last frozen ledger 20,516.8 kg (2026-10-28T08:22:54) - sand-system delete 112.6 kg (hardware -52.6, sand -60.0) + PX-1 heated-box package +2.1 kg @X5675 + KES-3 relay +0.06 kg @X10550 (ML-2, owner ruling) = 20,406.36 kg",
   "last_frozen_kg": 20516.8,
-  "pending_adds": "PX-1 heated-box package (+2.1 kg bound) and KES-3 relay (+0.06 kg) not yet booked",
-  "source": "loco/sand_delete/whatif/k2a_L42R.json; LOCO_BASIS.md sand-delete section"
+  "source": "loco/ml2/ml2_starts.py (copy of k2a_L42R.py + sand-delete rows + ML-2 rows); LOCO_BASIS.md"
  },
  "tender": {
   "mass_kg": 8993.3,
-  "status": "CALC (latest booked)",
+  "status": "CALC (latest booked) - governs everywhere incl. the loco brake/adhesion what-if (owner ruling ML-2)",
   "rev": "TB-3.15e",
   "basis": "Latest booked mass in the tender design basis (TB-3.15e, 28 Oct): 8,993.3 kg, CG [2437.8, 10.0, 1099.8]",
   "superseded": {
@@ -24,34 +23,36 @@
    "TB-3.15/3.15b": 8951.7,
    "TB-3.15d": 8984.6,
    "TB-3.4 (old T-201 sheet)": 8465.3
-  },
-  "flag": "Loco brake/adhesion what-if still uses 8,951.7 kg; TB-3.15e is +41.6 kg. Ruling needed on which tender figure the next loco freeze uses."
+  }
  },
  "coaches": {
   "count": 4,
   "layout": "C1-C3 regular + C4 accessible (wheelchair boarding)",
-  "rev": "F7 r5b FROZEN (release candidate, not PE-reviewed)",
+  "rev": "F7 r5b FROZEN + ML-2 S1 lugs (release candidate, not PE-reviewed)",
   "ledger_file": "data/source/c415_ledger_FROZEN_F7r5b.json (sha 31ee4a25...65bc)",
   "regular": {
-   "empty_kg": 10444.37,
+   "empty_kg": 10444.97,
    "passenger_payload_kg": 2970.0,
-   "loaded_kg": 13414.37,
-   "wheel_max_margin_to_16p6kN_N": 119
+   "loaded_kg": 13414.97,
+   "wheel_max_margin_to_16p6kN_N": 119,
+   "lug_count": 2
   },
   "coach4_accessible": {
-   "empty_kg": 9069.71,
+   "empty_kg": 9070.91,
    "passenger_payload_kg": 1624.0,
-   "loaded_kg": 10693.71,
-   "wheel_max_margin_to_16p6kN_N": 3275
+   "loaded_kg": 10694.91,
+   "wheel_max_margin_to_16p6kN_N": 3281,
+   "lug_count": 4
   },
-  "derivation": "F7 r5 frozen totals (regular 10,434.53 / C4 9,064.87 kg empty) + r5b adds booked in Stress wheels_r5b.py: 4 x 2.31 kg doublers + 2 x 0.3 kg retainers; C4 also r5a -5.0 kg receiver delete. S1 lug +0.3 kg/opening not booked (<3 N)."
+  "derivation": "F7 r5 frozen totals (regular 10,434.53 / C4 9,064.87 kg empty) + r5b adds (4 x 2.31 kg doublers + 2 x 0.3 kg retainers; C4 also r5a -5.0 kg receiver delete) + ML-2 S1 lug 0.3 kg per non-boarding opening (regular 2, C4 4; 10 per train). Wheel margins from the model run coach_package/calcs/c417_wheels_ml2.py (r5b model run: +118 / +3,282 N; ledger sums of ML-1 were +119 / +3,275).",
+  "flag": "Lug count per coach (2 regular / 4 C4 = 10 non-boarding openings per train) taken from the S1 ruling and the bar-opening layout - confirm. Lug Z position not defined in C4.16 (no static wheel-load effect)."
  },
  "train_totals": {
-  "coaches_empty_kg": 40402.8,
-  "coaches_loaded_kg": 50936.8,
-  "train_empty_kg": 69800.3,
-  "train_loaded_kg": 80334.3,
-  "note": "Sum of the figures above, no crew. Loco what-if quotes 82.403 t train on a different coach/tender basis; reconcile at next loco freeze."
+  "coaches_empty_kg": 40405.82,
+  "coaches_loaded_kg": 50939.82,
+  "train_empty_kg": 69805.48,
+  "train_loaded_kg": 80339.48,
+  "note": "Sum of the figures above, no crew. GOVERNS (owner ruling ML-2) over the old 82.403 t loco what-if train figure, which is superseded."
  },
  "limits": {
   "coach_wheel_load_kN": 16.6,
@@ -89,5 +90,6 @@
    "status": "selected, calculated, not tested"
   },
   "source": "coach_package/calcs/c411_brake_F7r5.json (r5b: brakes unchanged, mass delta <0.1%); LOCO_BASIS.md E-stop sections"
- }
+ },
+ "supersedes": "ML-1 (2026-11-02)"
 }
