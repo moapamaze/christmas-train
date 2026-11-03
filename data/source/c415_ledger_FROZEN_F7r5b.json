@@ -1,0 +1,21 @@
+{
+ "rev": "C4.15-F7 r5b RELEASE CANDIDATE",
+ "status": "GOVERNING; supersedes F7 r5 (calcs/c411_ledger_FROZEN_F7r5.json sha 020792bb..., unchanged). Fabrication release candidate. NOT PE-reviewed.",
+ "ruling": "Grokky option A (2026-11-02): issue r5b as release revision",
+ "scope": {
+  "r5a": "C4 Y+ SCP-03 receiver + 2 pins DELETED (-5.0 kg C4)",
+  "r5b_1_retainers": "stock keyless retainer at each top-bar saddle: spring gravity latch type (stock steel gravity/slide latch, zinc/black) + stock hitch (R-clip/lynch) pin on stainless lanyard through-pinning each keeper crossover clamp; 20 saddles, 20 keeper clamps train",
+  "r5b_2_doublers": "PL3/8x6x8 A36 rail-face doubler at X1150 landing, 4/coach, 2.31 kg each = 9.25 kg/coach (Stress 9.24 verified: 18 in3 x 0.2836 lb/in3)",
+  "r5b_3_S1_saddle": "S1-end saddle removed from pivot post; replaced by removable drop-in socket on mid bar end, engaging fixed lug on fixed end-wall at X1123-1143 Y1362-1405; plan-view sweep clearance 26.6 mm (>=10 req). Socket comes off with bars before deploy (O&M).",
+  "kept": "C4 tail braces KEPT"
+ },
+ "margins_N": {
+  "regular": 119,
+  "coach4": 3275,
+  "basis": "Stress r5 sensitivities (wheels_r5_doubler.json both: reg 16.481 kN/+119, C4 +3302) + r5a C4 -27 N; build/ restored from stress build_copy; lug +~0.3 kg/opening negligible (<3 N)"
+ },
+ "brakes": "unchanged from r5 (mass delta <0.1%)",
+ "not_pe_reviewed": true,
+ "by": "Coach Bot",
+ "written": "2026-11-02"
+}

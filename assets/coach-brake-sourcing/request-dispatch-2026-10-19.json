@@ -1,0 +1,33 @@
+{
+  "status": "Sent \u2014 awaiting replies",
+  "from": "moapamaze@gmail.com",
+  "authorized_by": "User instruction: Send",
+  "messages": [
+    {
+      "to": [
+        "engineering@webbwheel.com"
+      ],
+      "cc": [],
+      "subject": "Controlled interface drawing and compatibility confirmation: Webb 55030PK-65 with PAN17 40175072/73",
+      "sent_at": "2026-10-19T19:56:11-07:00",
+      "verified_gmail_label": "SENT",
+      "sent_plain_text_sha256": "96f29f6d0bac8892941fc6b2120dc10a082bc7e6aff1ed951482965ed9368927"
+    },
+    {
+      "to": [
+        "naspecs.zf@zf.com"
+      ],
+      "cc": [
+        "nacustomercare.zf@zf.com"
+      ],
+      "subject": "Exact PAN17 brake package and TRISTOP 9253800250/0240 or 0460/0450 engineering data",
+      "sent_at": "2026-10-19T19:56:23-07:00",
+      "verified_gmail_label": "SENT",
+      "sent_plain_text_sha256": "be40b596642e62e6008e29bd696ec7dcedc2352c9d3f0cacb504381e66cb84ec"
+    }
+  ],
+  "verification": "Gmail metadata reread confirmed SENT, sender, recipients, subjects and timestamps. Delivery or reply is not yet confirmed.",
+  "body_source": "Original prepared requests in cad/coach-brake-c55/supplier-requests.json plus normal Billy Pulsipher business signature.",
+  "purchase_authorized": false,
+  "engineering_acceptance_changed": false
+}

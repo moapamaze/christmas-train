@@ -1,0 +1,93 @@
+{
+ "title": "Pulsipher Farms Christmas Train - master mass ledger (single source of truth)",
+ "rev": "ML-1",
+ "written": "2026-11-02",
+ "by": "Grokky (site cleanup pass)",
+ "status_note": "Desk-calculation masses. Nothing has been weighed. Not PE-reviewed. Every page, drawing and calc on this site defers to this file; older figures elsewhere are historical.",
+ "units": "kg",
+ "loco": {
+  "id": "Loco No. 27",
+  "mass_kg": 20404.2,
+  "status": "PENDING FREEZE",
+  "basis": "Last frozen ledger 20,516.8 kg (frozen 2026-10-28T08:22:54) minus sand-system delete -112.6 kg (hardware -52.6, sand -60.0) = 20,404.2 kg; CG_X 5215.8 mm",
+  "last_frozen_kg": 20516.8,
+  "pending_adds": "PX-1 heated-box package (+2.1 kg bound) and KES-3 relay (+0.06 kg) not yet booked",
+  "source": "loco/sand_delete/whatif/k2a_L42R.json; LOCO_BASIS.md sand-delete section"
+ },
+ "tender": {
+  "mass_kg": 8993.3,
+  "status": "CALC (latest booked)",
+  "rev": "TB-3.15e",
+  "basis": "Latest booked mass in the tender design basis (TB-3.15e, 28 Oct): 8,993.3 kg, CG [2437.8, 10.0, 1099.8]",
+  "superseded": {
+   "TB-3.14": 8726.3,
+   "TB-3.15/3.15b": 8951.7,
+   "TB-3.15d": 8984.6,
+   "TB-3.4 (old T-201 sheet)": 8465.3
+  },
+  "flag": "Loco brake/adhesion what-if still uses 8,951.7 kg; TB-3.15e is +41.6 kg. Ruling needed on which tender figure the next loco freeze uses."
+ },
+ "coaches": {
+  "count": 4,
+  "layout": "C1-C3 regular + C4 accessible (wheelchair boarding)",
+  "rev": "F7 r5b FROZEN (release candidate, not PE-reviewed)",
+  "ledger_file": "data/source/c415_ledger_FROZEN_F7r5b.json (sha 31ee4a25...65bc)",
+  "regular": {
+   "empty_kg": 10444.37,
+   "passenger_payload_kg": 2970.0,
+   "loaded_kg": 13414.37,
+   "wheel_max_margin_to_16p6kN_N": 119
+  },
+  "coach4_accessible": {
+   "empty_kg": 9069.71,
+   "passenger_payload_kg": 1624.0,
+   "loaded_kg": 10693.71,
+   "wheel_max_margin_to_16p6kN_N": 3275
+  },
+  "derivation": "F7 r5 frozen totals (regular 10,434.53 / C4 9,064.87 kg empty) + r5b adds booked in Stress wheels_r5b.py: 4 x 2.31 kg doublers + 2 x 0.3 kg retainers; C4 also r5a -5.0 kg receiver delete. S1 lug +0.3 kg/opening not booked (<3 N)."
+ },
+ "train_totals": {
+  "coaches_empty_kg": 40402.8,
+  "coaches_loaded_kg": 50936.8,
+  "train_empty_kg": 69800.3,
+  "train_loaded_kg": 80334.3,
+  "note": "Sum of the figures above, no crew. Loco what-if quotes 82.403 t train on a different coach/tender basis; reconcile at next loco freeze."
+ },
+ "limits": {
+  "coach_wheel_load_kN": 16.6,
+  "coach_wheel_load_status": "SIGNED basis",
+  "stop_distance_limit_m": 30,
+  "governed_speed_mph": 6,
+  "overspeed_trip_mph": 7,
+  "hmi_overspeed_warning_mph": 6.5,
+  "camera_fail_max_mph": 3
+ },
+ "brakes": {
+  "loco": {
+   "emergency_stop_7mph_trip_2pct_down_worn_0p80_m": 15.2,
+   "estop_without_T04_governing_m": 26.2,
+   "estop_without_T04_rerun_E12R6_m": 26.3,
+   "no_sand_S5_m": "15.7 / 16.7",
+   "limit_m": 30,
+   "T04": "MS05 spring brake = parking/holding only (zero contribution in motion)",
+   "status": "calculated, not tested"
+  },
+  "coach_regular": {
+   "caliper": "Ringspann DV 030 FPM-045 R-25",
+   "emergency_force_kN": 11.32,
+   "decel_loaded_new_mps2": 0.828,
+   "decel_loaded_worn_mps2": 0.662,
+   "park_FS_2pct_new_worn": "4.3 / 3.44",
+   "status": "selected, calculated, not tested"
+  },
+  "coach4": {
+   "caliper": "Ringspann DV 030 FPM-035 R-25",
+   "emergency_force_kN": 7.93,
+   "decel_loaded_new_mps2": 0.728,
+   "decel_loaded_worn_mps2": 0.582,
+   "park_FS_2pct_new_worn": "3.78 / 3.03",
+   "status": "selected, calculated, not tested"
+  },
+  "source": "coach_package/calcs/c411_brake_F7r5.json (r5b: brakes unchanged, mass delta <0.1%); LOCO_BASIS.md E-stop sections"
+ }
+}

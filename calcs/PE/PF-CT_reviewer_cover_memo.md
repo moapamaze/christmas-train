@@ -1,5 +1,7 @@
 # Reviewer Cover Memo — PF-CT rev L4.2
 
+> **SUPERSEDED-FIGURES NOTICE (2026-11-02 cleanup).** This rev L4.2 package (28 Oct 2026) is kept as the working record. Several figures in it are superseded: current masses are in `data/mass_ledger.json` (loco 20,404.2 kg pending freeze; tender 8,993.3 kg TB-3.15e; coaches F7 r5b 13,414.37 / 10,693.71 kg loaded), and current rulings are on `status.html` (sand system DELETED - sand dome is cosmetic trim only; 60 lb bolted relay rail; Loco No. 27; 4 coaches; C4 wheelchair boarding; level layout F; T04 spring brake is parking/holding only; PX-1 = ASCO 8327G041 in heated box; DF1 bogie on HOLD, baseline F7 r5b on L3 trucks; 6 mph governed operating limit, 6.5 mph HMI warning, 7 mph independent trip, 3 mph max if cameras fail; dead-loco tow ≤ 1 mph). Rows marked [SAND DELETED] are historical and must be re-run without sand. Every row is a desk calculation; NOTHING has been physically tested. Not PE-reviewed.
+
 To: Reviewing Professional Engineer (Nevada) · From: Pulsipher Farms owner team · Date: 28 Oct 2026
 
 [[STAMP]]
@@ -21,16 +23,16 @@ We request review and, if acceptable, stamping of the design calculations and dr
 | CAD (STEP/GLB per assembly) | cad/ |
 
 ## Key results
-- Drive L4: Poclain MS05 468/234 + RS120-2 chain 3:1 per axle, frame-mounted; 2% start 37.67 kN at 350 bar (η 0.90) vs 32.61 kN needed (~303 bar), equal-torque capped 37.11 kN dry (L4.1: no flow divider - electronic traction control); dry/sanded margin 1.10 with 2 × 75.4 kg front plates, wet unsanded 0.66 → sand MANDATORY; 2% hold 2.69 mph; chain utilization 0.68 of the maker allowable (SF 7.9 ultimate at HPRV).
+- Drive L4: Poclain MS05 468/234 + RS120-2 chain 3:1 per axle, frame-mounted; 2% start 37.67 kN at 350 bar (η 0.90) vs 32.61 kN needed (~303 bar), equal-torque capped 37.11 kN dry (L4.1: no flow divider - electronic traction control); dry/sanded margin 1.10 with 2 × 75.4 kg front plates, wet unsanded 0.66 → sand MANDATORY; 2% hold 2.69 mph; chain utilization 0.68 of the maker allowable (SF 7.9 ultimate at HPRV). [SAND DELETED 2026-11 - historical row, re-run without sand; see status.html]
 - Speed: 6 mph GOVERNED (owner-selected - please confirm): H1P053 stroke stop sealed at 42 cc + hard 2,600 rpm limit + PLUS+1 + independent 2-channel 7 mph overspeed relay to emergency brake. Hardware capable of ~7.6 mph (margin only).
 - Axle: Ø150 pressed sprocket seat, no keyway, no hardening credit, heaviest axle: Goodman n 1.57; press-fit slip SF 3.11.
 - A roller chain in passenger rail traction is not a catalog rail application: Poclain AE and Tsubaki data are pending (Assumptions B1-B3).
 - Brakes: emergency 0.632 m/s² net on 2% down; stop 9.7 m from the governed 6 mph, 12.4 m from the 7 mph trip (information: 22.5 m from 10 mph); service stop 13.4 m from 6 mph.
 - Power: hot-humid demand 39.7 → 31.1 kW with RenewAire HE05IN ERVs (ε 0.55 ASSUMED) at plan OA, 27.7 kW at 62.1 OA, vs 35 kW continuous.
 - Highest remaining utilizations: K2-fp 1.00; D4-mb 1.00; L42-k2 1.00; K2-m2 1.00; K2-a 1.00; D1-f 0.99.
-- Unresolved failures: 0 (none live: K2-rD closed by gauge-face lubrication, K2-xf closed by the 50 mm cradle drop). Outside-basis sensitivity: D1-a2/D1-a2s/D1-s (2% on an uncompensated R100, margin 0.98). All other as-found failures have a logged fix - calc package App. C.
+- Calculation status (corrected 2026-11-02): no calculated check row was left failing at rev L4.2 - but these are DESK CALCULATIONS ONLY; no component or vehicle has been physically tested, weighed or PE-reviewed, so "0 failures" must not be read as tested. Rows depending on sand are now invalid (sand deleted) and need re-running. Closed as-found items at L4.2: K2-rD closed by gauge-face lubrication, K2-xf closed by the 50 mm cradle drop). Outside-basis sensitivity: D1-a2/D1-a2s/D1-s (2% on an uncompensated R100, margin 0.98). All other as-found failures have a logged fix - calc package App. C.
 
-- Rev L4.2: loco 19934 kg, tender 8,706.5 kg (TB-3.13d), train 81513 kg; K2-a 25.89 kN of record; forward 2 % start margin 1.112; reverse full-train start limit 1.20 %; run-in worst 25.3 kN ≤ 33.2; strength cases at 430 bar (chain MBL spec ≥ 326 kN, 15T in 4140).
+- Rev L4.2 (SUPERSEDED masses - see data/mass_ledger.json): loco 19934 kg, tender 8,706.5 kg (TB-3.13d), train 81513 kg; K2-a 25.89 kN of record; forward 2 % start margin 1.112; reverse full-train start limit 1.20 %; run-in worst 25.3 kN ≤ 33.2; strength cases at 430 bar (chain MBL spec ≥ 326 kN, 15T in 4140).
 ## What we ask you to decide
 See Assumptions & Open Items Part A - chiefly the governed 6 mph limit, the roller-chain final drive in rail service, the load-case basis (F2291 vs IBC), brake criteria, axle fatigue method, parked wind and anchors, ADA and fire performance.
 

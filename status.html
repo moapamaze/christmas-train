@@ -1,0 +1,78 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Current basis · Pulsipher Farms Christmas Train</title>
+<style>body{font-family:system-ui,sans-serif;margin:0;background:#0f1a14;color:#f4f1e8}a{color:#ffd76a}main{max-width:1100px;margin:auto;padding:20px}table{border-collapse:collapse;width:100%;margin:8px 0 18px;font-size:.93em}th,td{border:1px solid #3b5a48;padding:6px 8px;text-align:left;vertical-align:top}th{background:#1e3a2a}.req{color:#9fd3ff}.sel{color:#ffd76a}.tst{color:#ff9b9b}.note{background:#3a1e1e;border:1px solid #a33;padding:10px 14px;border-radius:8px}.lbl{display:inline-block;padding:1px 7px;border-radius:9px;font-size:.8em;font-weight:600;color:#111}.R{background:#9fd3ff}.S{background:#ffd76a}.T{background:#ff9b9b}.H{background:#bbb}</style></head>
+<body><main>
+<p><a href="index.html">← Home</a></p>
+<h1>Current basis (rev 2026-11-02)</h1>
+<p class="note"><b>What has been tested: nothing physically.</b> Every figure on this site is a desk calculation or a supplier rating. No vehicle or component has been built, weighed or tested, and nothing has been reviewed or stamped by a PE. When older pages say "0 failures", that means no calculated check row was left failing. It does not mean anything passed a test. Where an older page disagrees with this page, this page wins.</p>
+
+<h2>Status labels</h2>
+<p><span class="lbl R">REQUIRED</span> a requirement or spec limit &nbsp; <span class="lbl S">SELECTED</span> a named part picked on paper (not bought, not tested) &nbsp; <span class="lbl T">TESTED</span> physically tested (none yet) &nbsp; <span class="lbl H">HOLD / DELETED</span> paused or removed</p>
+
+<h2>Masses</h2>
+<p>Source: <a href="data/mass_ledger.json">data/mass_ledger.json</a> (rev ML-1). Coach frozen ledger: <a href="data/source/c415_ledger_FROZEN_F7r5b.md">F7 r5b</a>. Calculated, not weighed.</p>
+<table id="mass"><tr><th>Vehicle</th><th>Empty kg</th><th>Loaded kg</th><th>Status / basis</th></tr>
+<tr><td>Loco No. 27</td><td colspan="2">20,404.2</td><td>PENDING FREEZE. Last frozen 20,516.8 kg minus the sand delete (−112.6 kg). PX-1 (+2.1 kg) and KES-3 (+0.06 kg) not yet booked.</td></tr>
+<tr><td>Tender</td><td colspan="2">8,993.3</td><td>TB-3.15e, the latest booked figure (needs a ruling: see Open items)</td></tr>
+<tr><td>Coach C1–C3 (each)</td><td>10,444.37</td><td>13,414.37</td><td>F7 r5b FROZEN. Wheel-load margin +119 N to 16.6 kN</td></tr>
+<tr><td>Coach C4 (accessible)</td><td>9,069.71</td><td>10,693.71</td><td>F7 r5b FROZEN. Wheel-load margin +3,275 N to 16.6 kN</td></tr>
+<tr><td>Train, 4 coaches</td><td>69,800.3</td><td>80,334.3</td><td>Sum of the rows above, no crew</td></tr></table>
+<p id="massnote" style="font-size:.85em;opacity:.8"></p>
+
+<h2>Closed rulings</h2>
+<ul>
+<li>Locomotive is <b>No. 27</b>. The train has <b>4 coaches</b>: C1–C3 regular, plus <b>C4 with wheelchair boarding</b>.</li>
+<li>Track: <b>60 lb bolted relay rail</b>, <b>level layout F</b> (vehicles are still checked at a conservative 2 % grade).</li>
+<li><b>Sand system DELETED.</b> The sand dome stays as cosmetic trim only. Rows in older calcs that relied on sand are historical.</li>
+<li><b>T04 spring brake is parking/holding only.</b> It contributes zero braking in motion.</li>
+<li><b>PX-1 = ASCO 8327G041</b> in a heated box.</li>
+<li><b>DF1 bogie on HOLD.</b> The baseline is <b>F7 r5b coaches on L3 trucks</b> (see <a href="bogie-df1.html">bogie-df1</a>).</li>
+</ul>
+
+<h2>Speed basis</h2>
+<table><tr><th>Item</th><th>Value</th><th>Label</th></tr>
+<tr><td>Operating limit (governed)</td><td>6 mph (calc 5.96 mph loaded at the sealed 42 cc stop, 2,600 rpm; 6.47 mph no-load high-idle check)</td><td><span class="lbl R">REQUIRED</span></td></tr>
+<tr><td>HMI overspeed warning</td><td>6.5 mph</td><td><span class="lbl R">REQUIRED</span></td></tr>
+<tr><td>Independent overspeed trip → emergency brake</td><td>7 mph (Pilz PNOZ s30)</td><td><span class="lbl S">SELECTED</span></td></tr>
+<tr><td>Camera failure</td><td>3 mph max, with a standing lookout</td><td><span class="lbl R">REQUIRED</span></td></tr>
+<tr><td>Dead-loco tow</td><td>≤ 1 mph</td><td><span class="lbl R">REQUIRED</span></td></tr>
+<tr><td>Older "7.5 mph" target</td><td>superseded</td><td><span class="lbl H">DELETED</span></td></tr></table>
+
+<h2>Main breaker check (genset)</h2>
+<p>The genset is rated 158.3 A (about 38 kW at 240 V, single phase). NEC 445.12(A) allows overcurrent protection up to 115 % of rated current: 1.15 × 158.3 = 182 A. A <b>175 A</b> breaker complies; 200 A would not. At the 35 kW cap the load is 145.8 A, which uses 0.83 of the 175 A breaker. The basis is the PTI-38's own 175 A output breaker; the fallback is a QOM2175VH in a QOM22225NRB. <span class="lbl S">SELECTED</span>, not tested. Older text saying "175 A (125%)" or "OCPD ≥ 1.15·I" was wrong.</p>
+
+<h2>Brakes (calculated)</h2>
+<table><tr><th>Case</th><th>Result</th><th>Limit</th></tr>
+<tr><td>Loco emergency stop from the 7 mph trip, 2 % down, worn pads μ 0.80</td><td>15.2 m</td><td>30 m</td></tr>
+<tr><td>Loco emergency stop without T04 (governing case)</td><td>26.2 m (26.3 m in the E12-R6 rerun)</td><td>30 m</td></tr>
+<tr><td>Loco no-sand case S5</td><td>15.7 / 16.7 m</td><td>30 m</td></tr>
+<tr><td>Coach C1–C3: Ringspann DV 030 FPM-045 R-25</td><td>emergency 11.32 kN; 0.828 m/s² new / 0.662 m/s² worn; park FS 4.3 / 3.44</td><td>—</td></tr>
+<tr><td>Coach C4: Ringspann FPM-035</td><td>emergency 7.93 kN; 0.728 / 0.582 m/s²; park FS 3.78 / 3.03</td><td>—</td></tr></table>
+
+<h2>Components: required / selected / tested</h2>
+<table><tr><th>Item</th><th>Required</th><th>Selected</th><th>Tested</th></tr>
+<tr><td>Rail</td><td>—</td><td>60 lb bolted relay rail (ruled; source not chosen)</td><td>No</td></tr>
+<tr><td>Loco No. 27 drive</td><td>2 % start, 6 mph governed</td><td>Poclain MS05 motors + T04 (T04 parking/holding only)</td><td>No</td></tr>
+<tr><td>PX-1 pressure switch</td><td>Works in cold weather</td><td>ASCO 8327G041 in a Fibox AR1086CHL box; STEGO 60 W heater; KTO 15 °C / KTS 11 °C</td><td>No</td></tr>
+<tr><td>KES-3 relay</td><td>Safety relay function</td><td>Finder 7S.23.9.024.0210</td><td>No</td></tr>
+<tr><td>Pressure regulator</td><td>—</td><td>Marsh Bellofram 79HR</td><td>No</td></tr>
+<tr><td>G1 emergency pull-cord</td><td>—</td><td>Rockwell Lifeline 4 (440E)</td><td>No</td></tr>
+<tr><td>Overspeed trip</td><td>7 mph independent trip</td><td>Pilz PNOZ s30</td><td>No</td></tr>
+<tr><td>Coach calipers</td><td>30 m stop; parking hold</td><td>Ringspann DV 030 FPM-045 (C1–C3), FPM-035 (C4)</td><td>No</td></tr>
+<tr><td>Main breaker</td><td>≤ 182 A (NEC 445.12(A))</td><td>175 A (PTI-38 integral)</td><td>No</td></tr>
+<tr><td>Trainline</td><td>Carry the coach load</td><td>W 2/0 (ampacity ASSUMED)</td><td>No</td></tr>
+<tr><td>Sand system</td><td>—</td><td><span class="lbl H">DELETED</span> (dome is cosmetic)</td><td>—</td></tr>
+<tr><td>DF1 bogie</td><td>—</td><td><span class="lbl H">HOLD</span></td><td>—</td></tr></table>
+
+<h2>Open items (need a technical ruling)</h2>
+<ul>
+<li>Tender mass: TB-3.14 (8,726.3 kg), TB-3.15e (8,993.3 kg, used here) and the loco what-if (8,951.7 kg) disagree.</li>
+<li>Train total: the loco basis quotes 82.403 t; the ledger sum is 80.334 t loaded (no crew).</li>
+<li>Loco 20,404.2 kg is pending freeze, with the PX-1 and KES-3 adds not yet booked.</li>
+<li>Older calc rows that depended on sand (wet starts) need re-running without sand.</li>
+<li>Rail section checks in the old PE package used 40 lb rail and need re-running for 60 lb relay rail.</li>
+</ul>
+<p>The older engineering pages, calc packages and drawing notes are kept as the working record. They carry a banner pointing here, and their superseded figures are flagged.</p>
+<p>No prices are published on this site.</p>
+</main>
+<script>fetch('data/mass_ledger.json').then(r=>r.json()).then(j=>{const f=n=>n.toLocaleString('en-US',{maximumFractionDigits:2});const c=j.coaches;const t=document.getElementById('mass');t.rows[1].cells[1].textContent=f(j.loco.mass_kg);t.rows[2].cells[1].textContent=f(j.tender.mass_kg);t.rows[3].cells[1].textContent=f(c.regular.empty_kg);t.rows[3].cells[2].textContent=f(c.regular.loaded_kg);t.rows[4].cells[1].textContent=f(c.coach4_accessible.empty_kg);t.rows[4].cells[2].textContent=f(c.coach4_accessible.loaded_kg);t.rows[5].cells[1].textContent=f(j.train_totals.train_empty_kg);t.rows[5].cells[2].textContent=f(j.train_totals.train_loaded_kg);document.getElementById('massnote').textContent='Loaded live from data/mass_ledger.json rev '+j.rev+'. '+j.status_note;}).catch(()=>{});</script>
+</body></html>

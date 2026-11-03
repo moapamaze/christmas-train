@@ -1,0 +1,91 @@
+{
+  "issue": "DT4-R1",
+  "checked": "2026-10-19",
+  "status": "Sourcing basis; NOT an order or fabrication release",
+  "base_motor": "MS05-8-113-A05-2A50-0000",
+  "supplier_sku": "007243726Q",
+  "quantity": 4,
+  "prototype_quantity": 1,
+  "listed_unit_USD": "[removed - owner-only Costs page]",
+  "listed_four_USD": "[removed - owner-only Costs page]",
+  "listed_lead_weeks": [
+    16,
+    18
+  ],
+  "final_order_code": null,
+  "sensor_configuration": null,
+  "supplier_approval": false,
+  "quote_received": false,
+  "order_placed": false,
+  "inquiry_sent": false,
+  "interfaces": {
+    "displacement_cc": 376,
+    "nominal_catalog_mass_kg": 41,
+    "mounting": "Male spline: chassis/flange support required. Do not hang on coupling/output shaft.",
+    "pilot_diameter_mm": 200,
+    "pilot_tolerance_mm": [
+      -0.072,
+      0
+    ],
+    "pilot_projection_mm": 23,
+    "mount_bolt_pcd_mm": 265,
+    "hole_count": 8,
+    "hole_diameter_mm": 17.5,
+    "hole_tolerance_mm": [
+      -0.1,
+      0.25
+    ],
+    "hole_angular_coordinates": null,
+    "motor_bound_diameter_mm": 300,
+    "mount_to_rear_mm": 206,
+    "tip_to_rear_max_mm": 308,
+    "spline": "DIN 5480 nominal 55 mm, module 3, 17 teeth; full OEM mating definition required",
+    "working_ports": "R/L BSP 3/4",
+    "case_ports": "1/2 BSP 3/8",
+    "catalog_case_pressure_limit_bar": 1
+  },
+  "load_request": {
+    "ideal_torque_300bar_Nm": 1795.2677580765794,
+    "ideal_torque_450bar_Nm": 2692.901637114869,
+    "illustrative_1_5_times_450bar_Nm": 4039.3524556723037,
+    "notes": "300 bar study point; 450 bar catalog ceiling, not released relief. 1.5 multiplier is a sensitivity, not an approved shock factor. Final load spectrum includes reversing, braking, faults and fatigue."
+  },
+  "mechanical_decision": "Axle-following flange carrier is a development requirement. Support and torque path not yet designed; do not combine a rigid guided carrier and independent rigid reaction link without kinematic analysis.",
+  "sources": [
+    {
+      "title": "OneHydraulics \u00b7 exact base motor",
+      "url": "https://www.onehydraulics.com/products/ms05-8-113-a05-2a50-0000-poclain-ms-multipurpose-hydraulic-motors",
+      "evidence": "Listing: SKU 007243726Q; [price removed]; usually ships within 16\u201318 weeks. Also says call for price; obtain a written quote."
+    },
+    {
+      "title": "MFCP \u00b7 Henderson branch",
+      "url": "https://www.mfcp.com/locations/nv-henderson?hsLang=en-us",
+      "evidence": "Local inquiry route; Poclain application support and territory to be confirmed."
+    },
+    {
+      "title": "MFCP \u00b7 Poclain partnership",
+      "url": "https://www.mfcp.com/brands/poclain?hsLang=en-us",
+      "evidence": "Company carries Poclain; no local stock commitment."
+    },
+    {
+      "title": "Poclain \u00b7 distributor network",
+      "url": "https://poclain.com/network?mode=distributors",
+      "evidence": "OneHydraulics authorized sales listing; MFCP network entries."
+    },
+    {
+      "title": "Poclain \u00b7 MS05 catalog",
+      "url": "https://poclain.com/sites/default/files/2023-02/801478188B.pdf",
+      "evidence": "23 January 2023: Classic 376 cc data p5; ordering p8\u20139; mounting p17; spline p19; connections p26. References, not project drawing downloads."
+    },
+    {
+      "title": "Poclain \u00b7 MS/MSE installation manual",
+      "url": "https://poclain.com/sites/default/files/2023-05/B59689D.pdf",
+      "evidence": "Male-spline mounting matrix p126 and chassis mounting instruction p127. Shaft coupling examples p135. Male-shaft MS05 is not approved as a shaft-hung torque-arm motor."
+    },
+    {
+      "title": "Poclain \u00b7 application contact",
+      "url": "https://poclain.com/contact-us",
+      "evidence": "Request application review, configured CAD, duty map and integrated control package."
+    }
+  ]
+}

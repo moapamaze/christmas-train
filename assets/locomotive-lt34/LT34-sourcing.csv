@@ -1,0 +1,5 @@
+use,quantity,part,rate_N_mm,unit_price,extended_price,availability,source
+Main development candidate,8,D5-Outer / COMET100402 / StratoD5-O,392.5690630908132,Quote required,Quote required,Catalogue listed new; quantity8 stock and lead time unconfirmed,https://www.cometind.com/catalog/freight-car-parts/truck-components/truck-spring-d5-outer-100402/
+Preferred roll candidate,4,Special Springs G63-152,458,GBP37.19 exVAT,GBP148.76 exVAT,Berger lists up to5 for dispatch27Oct2026; overseas freight/transit unquoted,https://www.berger-tools.co.uk/Die_Springs/G_Yellow_Die_Spring_Iso10243_Extra_Heavy_Load/PartPage/G63-152/
+Roll alternative,4,Bordignon5S63152 / BD-5S63152,801,USD145.75,USD583.00,Freer Tool stock0; backorder ETA requires quote,https://www.freertool.com/products/bordignon_5s63152_iso_10243_super_heavy_load_die_springs
+Rejected main direct substitute,8,Eibach0950.550.1300,228,USD90.00,USD720.00,OEM limited stock; quantity8 and delivery unconfirmed; normal heavy pulling reaches steel backup,https://eibach.com/product/0950.550.1300

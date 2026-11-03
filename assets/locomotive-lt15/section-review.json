@@ -1,0 +1,24 @@
+{
+  "prior": {
+    "area_mm2": 8346.757500000007,
+    "mass_kg_m": 65.52204637500004,
+    "I_vertical_bending_mm4": 100343072.22172041,
+    "I_lateral_bending_mm4": 33440374.172545344,
+    "J_thin_wall_mm4": 77381653.78767365
+  },
+  "proposed": {
+    "area_mm2": 7584.757500000003,
+    "mass_kg_m": 59.54034637500002,
+    "I_vertical_bending_mm4": 83728125.61297035,
+    "I_lateral_bending_mm4": 16698061.486295318,
+    "J_thin_wall_mm4": 44149044.906550996
+  },
+  "ratio": {
+    "area_mm2": 0.9087070637909388,
+    "mass_kg_m": 0.9087070637909389,
+    "I_vertical_bending_mm4": 0.834418597708098,
+    "I_lateral_bending_mm4": 0.49933835668634596,
+    "J_thin_wall_mm4": 0.5705363318764276
+  },
+  "assumptions": "Ideal sharp-corner closed rectangular sections; same steel, no holes, continuous walls. Thin-wall J approximation. Single-rail properties, NOT whole-frame stiffness or capacity. Weld seams, crossmembers, local attachments, fatigue and loads unreviewed."
+}

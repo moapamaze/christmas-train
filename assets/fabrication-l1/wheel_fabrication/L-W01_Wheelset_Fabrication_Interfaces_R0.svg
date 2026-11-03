@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1180" role="img" aria-labelledby="title desc">
+<title id="title">L-W01 — custom wheelset and brake-disc fabrication interfaces</title><desc id="desc">Front section and exploded sequence of two custom monobloc wheels pressed on a rotating axle, an axle-mounted brake-disc carrier, and outboard bearings. 500 millimetre wheel and 12 inch rotor are fit studies. Machining dimensions are held for engineering.</desc>
+<style>text{font-family:Arial,Helvetica,sans-serif} .hold{fill:#a15c11}</style>
+<rect x="0" y="0" width="1600" height="1180" rx="4" fill="#f5f7f4" stroke="#f5f7f4"/>
+<text x="28" y="35" font-size="26" fill="#183a46" font-weight="700" text-anchor="start">L-W01  |  CUSTOM WHEELSET + BRAKE INTERFACES</text>
+<text x="28" y="63" font-size="16" fill="#183a46" font-weight="400" text-anchor="start">Fabrication development • PF-TRAIN-S3L-WHEEL-R0 • 18 October 2026 Nevada time</text>
+<rect x="28" y="81" width="1544" height="514" rx="4" fill="#fff" stroke="#a0b1b7"/>
+<text x="48" y="110" font-size="20" fill="#183a46" font-weight="700" text-anchor="start">A  FRONT SECTION — LOCATIONS AND DATUMS</text>
+<text x="48" y="136" font-size="16" fill="#183a46" font-weight="400" text-anchor="start">Axial spacing and hub shapes are diagrammatic. Wheel and rotor rolling-plane diameters are proportioned.</text>
+<line x1="180" y1="340" x2="1425" y2="340" stroke="#738d99" stroke-width="1.5" stroke-dasharray="12 6 3 6"/>
+<text x="1310" y="329" font-size="15" fill="#183a46" font-weight="400" text-anchor="start">A: rotation axis</text>
+<path d="M292 324 H390 V316 H485 V310 H555 V319 H1045 V310 H1115 V316 H1210 V324 H1308 V356 H1210 V364 H1115 V370 H1045 V361 H555 V370 H485 V364 H390 V356 H292 Z" fill="#b8c8cf" stroke="#315968" stroke-width="2"/>
+<path d="M465 190 H515 V178 H532 V502 H515 V490 H465 V415 H489 V265 H465 Z" fill="#5f7e8a" stroke="#244855" stroke-width="2"/>
+<path d="M1135 190 H1085 V178 H1068 V502 H1085 V490 H1135 V415 H1111 V265 H1135 Z" fill="#5f7e8a" stroke="#244855" stroke-width="2"/>
+<rect x="334" y="292" width="70" height="96" rx="4" fill="#dfe7e3" stroke="#355f59"/>
+<rect x="351" y="307" width="36" height="66" rx="4" fill="#9ec0b3" stroke="#355f59"/>
+<rect x="1196" y="292" width="70" height="96" rx="4" fill="#dfe7e3" stroke="#355f59"/>
+<rect x="1213" y="307" width="36" height="66" rx="4" fill="#9ec0b3" stroke="#355f59"/>
+<rect x="794" y="248.56" width="12" height="182.88" rx="4" fill="#df9454" stroke="#90521f"/>
+<rect x="760" y="316" width="80" height="48" rx="4" fill="#e9c5a3" stroke="#90521f"/>
+<path d="M477 490 h38 v12 h-12 v39 h19 v9 h-52 v-9 h19 v-39 h-12 Z" fill="#7a8e94"/>
+<path d="M1085 490 h38 v12 h-12 v39 h19 v9 h-52 v-9 h19 v-39 h-12 Z" fill="#7a8e94"/>
+<line x1="515" y1="490" x2="515" y2="561" stroke="#738d99" stroke-width="1"/>
+<line x1="1085" y1="490" x2="1085" y2="561" stroke="#738d99" stroke-width="1"/>
+<line x1="515" y1="557" x2="1085" y2="557" stroke="#395f6d" stroke-width="1.4"/>
+<line x1="510" y1="552" x2="520" y2="562" stroke="#395f6d" stroke-width="1.5"/>
+<line x1="1080" y1="552" x2="1090" y2="562" stroke="#395f6d" stroke-width="1.5"/>
+<text x="570" y="582" font-size="16" fill="#254f5e" font-weight="600" text-anchor="start">914.4 mm / 36 in TRACK GAUGE — evaluation basis</text>
+<line x1="465" y1="190" x2="232" y2="190" stroke="#a1aeb3" stroke-width="1"/>
+<line x1="465" y1="490" x2="232" y2="490" stroke="#a1aeb3" stroke-width="1"/>
+<line x1="242" y1="190" x2="242" y2="490" stroke="#395f6d" stroke-width="1.4"/>
+<line x1="237" y1="185" x2="247" y2="195" stroke="#395f6d" stroke-width="1.5"/>
+<line x1="237" y1="485" x2="247" y2="495" stroke="#395f6d" stroke-width="1.5"/>
+<text x="55" y="236" font-size="16" fill="#254f5e" font-weight="600" text-anchor="start">500 mm tread Ø</text>
+<text x="55" y="258" font-size="16" fill="#a15c11" font-weight="600" text-anchor="start">fit probe only</text>
+<text x="55" y="283" font-size="15" fill="#183a46" font-weight="400" text-anchor="start">Flange outer Ø:</text>
+<text x="55" y="304" font-size="15" fill="#a15c11" font-weight="600" text-anchor="start">HOLD with profile</text>
+<line x1="806" y1="248.56" x2="918" y2="248.56" stroke="#a1aeb3" stroke-width="1"/>
+<line x1="806" y1="431.44" x2="918" y2="431.44" stroke="#a1aeb3" stroke-width="1"/>
+<line x1="908" y1="248.56" x2="908" y2="431.44" stroke="#395f6d" stroke-width="1.4"/>
+<line x1="903" y1="243.56" x2="913" y2="253.56" stroke="#395f6d" stroke-width="1.5"/>
+<line x1="903" y1="426.44" x2="913" y2="436.44" stroke="#395f6d" stroke-width="1.5"/>
+<text x="930" y="279" font-size="16" fill="#254f5e" font-weight="600" text-anchor="start">304.8 mm / 12 in</text>
+<text x="930" y="301" font-size="16" fill="#a15c11" font-weight="600" text-anchor="start">rotor fit study</text>
+<line x1="806" y1="431.44" x2="878" y2="431.44" stroke="#a1aeb3" stroke-width="1"/>
+<line x1="800" y1="490" x2="878" y2="490" stroke="#a1aeb3" stroke-width="1"/>
+<line x1="868" y1="431.44" x2="868" y2="490" stroke="#395f6d" stroke-width="1.4"/>
+<line x1="863" y1="426.44" x2="873" y2="436.44" stroke="#395f6d" stroke-width="1.5"/>
+<line x1="863" y1="485" x2="873" y2="495" stroke="#395f6d" stroke-width="1.5"/>
+<text x="885" y="469" font-size="16" fill="#254f5e" font-weight="600" text-anchor="start">97.6 mm*</text>
+<line x1="500" y1="178" x2="575" y2="159" stroke="#234f5c" stroke-width="2"/>
+<text x="577" y="164" font-size="16" fill="#183a46" font-weight="600" text-anchor="start">W-01 • one-piece wheel + integral flange</text>
+<line x1="792" y1="316" x2="724" y2="224" stroke="#234f5c" stroke-width="2"/>
+<text x="600" y="209" font-size="16" fill="#183a46" font-weight="600" text-anchor="start">H-01B • engineered disc carrier</text>
+<line x1="1200" y1="292" x2="1283" y2="234" stroke="#234f5c" stroke-width="2"/>
+<text x="1280" y="216" font-size="16" fill="#183a46" font-weight="600" text-anchor="start">Bearing + axlebox</text>
+<text x="1258" y="243" font-size="15" fill="#183a46" font-weight="400" text-anchor="start">journal fit, retention</text>
+<text x="1258" y="266" font-size="15" fill="#a15c11" font-weight="400" text-anchor="start">and housing held</text>
+<line x1="650" y1="361" x2="612" y2="433" stroke="#234f5c" stroke-width="2"/>
+<text x="550" y="453" font-size="16" fill="#183a46" font-weight="600" text-anchor="start">A-01 • one-piece rotating axle</text>
+<rect x="28" y="613" width="960" height="384" rx="4" fill="#fff" stroke="#a0b1b7"/>
+<text x="48" y="644" font-size="20" fill="#183a46" font-weight="700" text-anchor="start">B  EXPLODED ASSEMBLY — PARTS TO MANUFACTURE / SOURCE</text>
+<text x="48" y="671" font-size="15" fill="#183a46" font-weight="400" text-anchor="start">Parts lifted off the axle for identification; actual pressing occurs axially with qualified tooling.</text>
+<line x1="72" y1="908" x2="944" y2="908" stroke="#738d99" stroke-width="1.5" stroke-dasharray="12 6 3 6"/>
+<rect x="100" y="892" width="802" height="32" rx="4" fill="#b8c8cf" stroke="#315968"/>
+<rect x="185" y="711" width="35" height="134" rx="4" fill="#5f7e8a" stroke="#244855"/>
+<rect x="192" y="701" width="16" height="154" rx="4" fill="#5f7e8a" stroke="#244855"/>
+<line x1="202" y1="858" x2="202" y2="889" stroke="#738d99" stroke-width="1.4" stroke-dasharray="4 4"/>
+<rect x="762" y="711" width="35" height="134" rx="4" fill="#5f7e8a" stroke="#244855"/>
+<rect x="769" y="701" width="16" height="154" rx="4" fill="#5f7e8a" stroke="#244855"/>
+<line x1="779" y1="858" x2="779" y2="889" stroke="#738d99" stroke-width="1.4" stroke-dasharray="4 4"/>
+<rect x="110" y="746" width="40" height="64" rx="4" fill="#9ec0b3" stroke="#355f59"/>
+<line x1="130" y1="814" x2="130" y2="889" stroke="#738d99" stroke-width="1.4" stroke-dasharray="4 4"/>
+<rect x="872" y="746" width="40" height="64" rx="4" fill="#9ec0b3" stroke="#355f59"/>
+<line x1="892" y1="814" x2="892" y2="889" stroke="#738d99" stroke-width="1.4" stroke-dasharray="4 4"/>
+<rect x="478" y="756" width="10" height="110" rx="4" fill="#df9454" stroke="#90521f"/>
+<rect x="460" y="789" width="48" height="44" rx="4" fill="#e9c5a3" stroke="#90521f"/>
+<line x1="483" y1="868" x2="483" y2="889" stroke="#738d99" stroke-width="1.4" stroke-dasharray="4 4"/>
+<text x="130" y="953" font-size="15" fill="#183a46" font-weight="600" text-anchor="middle">Bearing</text>
+<text x="201" y="953" font-size="15" fill="#183a46" font-weight="600" text-anchor="middle">W-01</text>
+<text x="483" y="953" font-size="15" fill="#183a46" font-weight="600" text-anchor="middle">Disc + H-01B</text>
+<text x="780" y="953" font-size="15" fill="#183a46" font-weight="600" text-anchor="middle">W-01</text>
+<text x="892" y="953" font-size="15" fill="#183a46" font-weight="600" text-anchor="middle">Bearing</text>
+<text x="305" y="714" font-size="15" fill="#183a46" font-weight="400" text-anchor="start">Rotor joint: OEM pattern / joint design</text>
+<text x="305" y="739" font-size="15" fill="#183a46" font-weight="400" text-anchor="start">Carrier seat: torque + axial fit engineering</text>
+<text x="350" y="977" font-size="16" fill="#183a46" font-weight="600" text-anchor="start">WS-01 = inspected, serialized complete wheelset</text>
+<rect x="1006" y="613" width="566" height="384" rx="4" fill="#edf2ed" stroke="#a0b1b7"/>
+<text x="1025" y="646" font-size="20" fill="#183a46" font-weight="700" text-anchor="start">C  DIMENSIONS THAT RELEASE MACHINING</text>
+<text x="1025" y="681" font-size="17" fill="#183a46" font-weight="700" text-anchor="start">W-01</text>
+<text x="1025" y="704" font-size="15" fill="#183a46" font-weight="400" text-anchor="start">Profile, bore, hub/web/rim, fillets and worn limits.</text>
+<text x="1025" y="745" font-size="17" fill="#183a46" font-weight="700" text-anchor="start">A-01</text>
+<text x="1025" y="768" font-size="15" fill="#183a46" font-weight="400" text-anchor="start">Journals, seats, shoulders, radii and end retention.</text>
+<text x="1025" y="809" font-size="17" fill="#183a46" font-weight="700" text-anchor="start">H-01B</text>
+<text x="1025" y="832" font-size="15" fill="#183a46" font-weight="400" text-anchor="start">Seat fit, hub/rotor joint, offset and runout.</text>
+<text x="1025" y="873" font-size="17" fill="#183a46" font-weight="700" text-anchor="start">WS-01</text>
+<text x="1025" y="896" font-size="15" fill="#183a46" font-weight="400" text-anchor="start">Back-to-back, matched Ø, gauge and runout.</text>
+<text x="1025" y="945" font-size="16" fill="#a15c11" font-weight="700" text-anchor="start">All above values: HOLD for coordinated release.</text>
+<text x="1025" y="974" font-size="15" fill="#183a46" font-weight="400" text-anchor="start">See the part dimension matrix and shop traveler.</text>
+<rect x="28" y="1015" width="1544" height="135" rx="4" fill="#fff4e4" stroke="#d8b583"/>
+<text x="48" y="1044" font-size="17" fill="#183a46" font-weight="600" text-anchor="start">* 97.6 mm = 500/2 − 304.8/2. This is rotor-edge height above rail for a new wheel, not approved running clearance.</text>
+<text x="48" y="1071" font-size="16" fill="#183a46" font-weight="400" text-anchor="start">The caliper extends beyond the disc. Check worn wheel diameter, flange, track hardware, suspension, axlebox movement and bogie yaw.</text>
+<text x="48" y="1097" font-size="16" fill="#183a46" font-weight="400" text-anchor="start">No bore fit, bolt pattern, flange profile, axle diameter, material class or NDT acceptance is released by this drawing.</text>
+<text x="48" y="1126" font-size="17" fill="#925719" font-weight="700" text-anchor="start">GEOMETRY STUDY • NOT A CUT FILE • NO WELD-ON FLANGE / AXLE CARRIER • NOT FOR FABRICATION</text>
+<text x="30" y="1173" font-size="14" fill="#183a46" font-weight="400" text-anchor="start">Sources: WF01–WF09 in the linked wheel fabrication source register. Drawing is our interface study, not an OEM wheelset drawing.</text>
+</svg>

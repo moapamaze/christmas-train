@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="1008pt" height="648pt" viewBox="0 0 1008 648" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-21T16:38:07.572020</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 648 
+L 1008 648 
+L 1008 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 259.957895 416.993684 
+L 330.896842 416.993684 
+L 330.896842 381.524211 
+L 259.957895 381.524211 
+z
+" clip-path="url(#p9b871af2a9)" style="fill: #dfb36e; stroke: #203e49; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 281.239579 379.159579 
+L 309.615158 379.159579 
+L 309.615158 130.873263 
+L 281.239579 130.873263 
+z
+" clip-path="url(#p9b871af2a9)" style="fill: #dfb36e; stroke: #203e49; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 295.427368 416.993684 
+C 300.130676 416.993684 304.641981 415.12504 307.967721 411.7993 
+C 311.293462 408.47356 313.162105 403.962255 313.162105 399.258947 
+C 313.162105 394.55564 311.293462 390.044335 307.967721 386.718595 
+C 304.641981 383.392854 300.130676 381.524211 295.427368 381.524211 
+C 290.724061 381.524211 286.212756 383.392854 282.887016 386.718595 
+C 279.561275 390.044335 277.692632 394.55564 277.692632 399.258947 
+C 277.692632 403.962255 279.561275 408.47356 282.887016 411.7993 
+C 286.212756 415.12504 290.724061 416.993684 295.427368 416.993684 
+z
+" clip-path="url(#p9b871af2a9)" style="fill: #ffffff; stroke: #203e49; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 236.311579 213.635368 
+L 354.543158 213.635368 
+L 354.543158 204.176842 
+L 236.311579 204.176842 
+z
+" clip-path="url(#p9b871af2a9)" style="fill: #2d7776; stroke: #203e49; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 268.234105 257.381053 
+L 322.620632 257.381053 
+L 322.620632 213.635368 
+L 268.234105 213.635368 
+z
+" clip-path="url(#p9b871af2a9)" style="fill: #2d7776; stroke: #203e49; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 275.328 257.381053 
+L 315.526737 257.381053 
+L 315.526737 204.176842 
+L 275.328 204.176842 
+z
+" clip-path="url(#p9b871af2a9)" style="fill: #ffffff; stroke: #203e49; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 281.239579 257.381053 
+L 309.615158 257.381053 
+L 309.615158 204.176842 
+L 281.239579 204.176842 
+z
+" clip-path="url(#p9b871af2a9)" style="fill: #dfb36e; stroke: #203e49; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 254.046316 180.530526 
+L 336.808421 180.530526 
+L 336.808421 171.072 
+L 254.046316 171.072 
+z
+" clip-path="url(#p9b871af2a9)" style="fill: #bd8a40; stroke: #203e49; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 271.781053 171.072 
+L 319.073684 171.072 
+L 319.073684 141.514105 
+L 271.781053 141.514105 
+z
+" clip-path="url(#p9b871af2a9)" style="fill: #bd8a40; stroke: #203e49; stroke-linejoin: miter"/>
+   </g>
+   <g id="line2d_1">
+    <path d="M 264.687158 146.243368 
+L 326.167579 146.243368 
+" clip-path="url(#p9b871af2a9)" style="fill: none; stroke: #b95035; stroke-width: 3; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_2">
+    <path d="M 336.808421 130.873263 
+L 443.216842 130.873263 
+" clip-path="url(#p9b871af2a9)" style="fill: none; stroke: #8ca0a0; stroke-width: 0.6; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_3">
+    <path d="M 336.808421 146.243368 
+L 443.216842 146.243368 
+" clip-path="url(#p9b871af2a9)" style="fill: none; stroke: #8ca0a0; stroke-width: 0.6; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_4">
+    <path d="M 336.808421 180.530526 
+L 443.216842 180.530526 
+" clip-path="url(#p9b871af2a9)" style="fill: none; stroke: #8ca0a0; stroke-width: 0.6; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_5">
+    <path d="M 336.808421 204.176842 
+L 443.216842 204.176842 
+" clip-path="url(#p9b871af2a9)" style="fill: none; stroke: #8ca0a0; stroke-width: 0.6; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_6">
+    <path d="M 336.808421 399.258947 
+L 443.216842 399.258947 
+" clip-path="url(#p9b871af2a9)" style="fill: none; stroke: #8ca0a0; stroke-width: 0.6; stroke-linecap: square"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 380.554105 201.058454 
+Q 380.554105 192.353629 380.554105 183.648804 
+" style="fill: none; stroke: #203e49; stroke-linecap: round"/>
+    <path d="M 382.754105 196.658454 
+L 380.554105 201.058454 
+L 378.354105 196.658454 
+" style="fill: none; stroke: #203e49; stroke-linecap: round"/>
+    <path d="M 378.354105 188.048804 
+L 380.554105 183.648804 
+L 382.754105 188.048804 
+" style="fill: none; stroke: #203e49; stroke-linecap: round"/>
+   </g>
+   <g id="text_1">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: start" x="390.012632" y="195.388997" transform="rotate(-0 390.012632 195.388997)">20 catch gap</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start" x="446.763789" y="133.356701" transform="rotate(-0 446.763789 133.356701)">Rod top Z1102</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start" x="446.763789" y="148.726806" transform="rotate(-0 446.763789 148.726806)">Cross-hole Z1089</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start" x="446.763789" y="183.013964" transform="rotate(-0 446.763789 183.013964)">Washer underside Z1060</text>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start" x="446.763789" y="206.66028" transform="rotate(-0 446.763789 206.66028)">Guide-flange top Z1040</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start" x="446.763789" y="401.742385" transform="rotate(-0 446.763789 401.742385)">Eye centre Z875</text>
+   </g>
+  </g>
+  <g id="text_7">
+   <text style="font-weight: 700; font-size: 23px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #203e49" x="45.36" y="32.4" transform="rotate(-0 45.36 32.4)">LT23-S01 / Revised rebound capture</text>
+  </g>
+  <g id="text_8">
+   <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #203e49" x="45.36" y="58.32" transform="rotate(-0 45.36 58.32)">Nominal millimetres · 20 mm droop catch · positive retention retained · 25 / 30 mm compression bumper / steel stop</text>
+  </g>
+  <g id="text_9">
+   <text style="font-weight: 700; font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #b95035" x="45.36" y="628.56" transform="rotate(-0 45.36 628.56)">LT23 · 21 OCT 2026 · STRUCTURAL REVIEW CANDIDATE · NOT FOR FABRICATION</text>
+  </g>
+  <g id="text_10">
+   <text style="font-weight: 700; font-size: 14px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #203e49" x="624.96" y="155.52" transform="rotate(-0 624.96 155.52)">CHANGE FROM LT22</text>
+  </g>
+  <g id="text_11">
+   <text style="font-size: 11px; font-family: 'DejaVu Sans'; fill: #203e49" transform="translate(624.96 202.758281)">Move washer, castle nut and cotter down 5 mm.</text>
+   <text style="font-size: 11px; font-family: 'DejaVu Sans'; fill: #203e49" transform="translate(624.96 220.090844)">Shorten shank 5 mm; eye remains fixed.</text>
+   <text style="font-size: 11px; font-family: 'DejaVu Sans'; fill: #203e49" transform="translate(624.96 237.423406)">Nominal M24×3 threaded region 1068–1102.</text>
+   <text style="font-size: 11px; font-family: 'DejaVu Sans'; fill: #203e49" transform="translate(624.96 254.755969)">Shim for cotter alignment; do not back off nut.</text>
+  </g>
+  <g id="text_12">
+   <text style="font-weight: 700; font-size: 14px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #203e49" x="624.96" y="324" transform="rotate(-0 624.96 324)">WHY IT CHANGED</text>
+  </g>
+  <g id="text_13">
+   <text style="font-size: 11px; font-family: 'DejaVu Sans'; fill: #203e49" transform="translate(624.96 371.238281)">Earlier rebound contact keeps the primary coil</text>
+   <text style="font-size: 11px; font-family: 'DejaVu Sans'; fill: #203e49" transform="translate(624.96 388.570844)">compressed in the sampled stronger-pull cases.</text>
+   <text style="font-size: 11px; font-family: 'DejaVu Sans'; fill: #203e49" transform="translate(624.96 405.903406)">The rod and guide now carry the computed</text>
+   <text style="font-size: 11px; font-family: 'DejaVu Sans'; fill: #203e49" transform="translate(624.96 423.235969)">quasi-static contact reaction.</text>
+  </g>
+  <g id="text_14">
+   <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #203e49" x="60.48" y="505.44" transform="rotate(-0 60.48 505.44)">The guide bracket retains 4×M16 attachments, 30 mm row spacing and 24 mm nominal thread engagement; 4×M8 retain the cartridge.</text>
+  </g>
+  <g id="text_15">
+   <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #203e49" x="60.48" y="544.32" transform="rotate(-0 60.48 544.32)">Pin heads, castle nuts/cotters and drilled-head guide bolts remain positive-retention proposals. Exact grades, fits and torque are held.</text>
+  </g>
+  <g id="text_16">
+   <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #203e49" x="60.48" y="583.2" transform="rotate(-0 60.48 583.2)">Section is schematic: thread form, eye fillet, split-pin forming, flange bending, prying, rod impact and fatigue require engineering release.</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p9b871af2a9">
+   <rect x="177.195789" y="103.68" width="331.048421" height="336.96"/>
+  </clipPath>
+ </defs>
+</svg>

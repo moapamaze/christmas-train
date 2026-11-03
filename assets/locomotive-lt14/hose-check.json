@@ -1,0 +1,87 @@
+{
+  "cases": [
+    {
+      "radius_mm": null,
+      "hand": 0,
+      "dz_mm": -40,
+      "intersections": [],
+      "min_bend_radius_mm": 150,
+      "min_straight_leg_mm": 60,
+      "lowest_hose_surface_mm": 694.0
+    },
+    {
+      "radius_mm": null,
+      "hand": 0,
+      "dz_mm": 0,
+      "intersections": [],
+      "min_bend_radius_mm": 150,
+      "min_straight_leg_mm": 80,
+      "lowest_hose_surface_mm": 714.0
+    },
+    {
+      "radius_mm": null,
+      "hand": 0,
+      "dz_mm": 50,
+      "intersections": [],
+      "min_bend_radius_mm": 150,
+      "min_straight_leg_mm": 105,
+      "lowest_hose_surface_mm": 739.0
+    },
+    {
+      "radius_mm": 50000,
+      "hand": 1,
+      "dz_mm": -40,
+      "intersections": [],
+      "min_bend_radius_mm": 149.01673389636727,
+      "min_straight_leg_mm": 54.782330285198896,
+      "lowest_hose_surface_mm": 693.4387553197846
+    },
+    {
+      "radius_mm": 50000,
+      "hand": 1,
+      "dz_mm": 0,
+      "intersections": [],
+      "min_bend_radius_mm": 149.01673389636727,
+      "min_straight_leg_mm": 74.7823302851989,
+      "lowest_hose_surface_mm": 713.4387553197846
+    },
+    {
+      "radius_mm": 50000,
+      "hand": 1,
+      "dz_mm": 50,
+      "intersections": [],
+      "min_bend_radius_mm": 149.01673389636727,
+      "min_straight_leg_mm": 99.7823302851989,
+      "lowest_hose_surface_mm": 738.4387553197846
+    },
+    {
+      "radius_mm": 50000,
+      "hand": -1,
+      "dz_mm": -40,
+      "intersections": [],
+      "min_bend_radius_mm": 147.75823345626196,
+      "min_straight_leg_mm": 52.887206856363946,
+      "lowest_hose_surface_mm": 692.7204078913028
+    },
+    {
+      "radius_mm": 50000,
+      "hand": -1,
+      "dz_mm": 0,
+      "intersections": [],
+      "min_bend_radius_mm": 147.75823345626196,
+      "min_straight_leg_mm": 72.88720685636395,
+      "lowest_hose_surface_mm": 712.7204078913028
+    },
+    {
+      "radius_mm": 50000,
+      "hand": -1,
+      "dz_mm": 50,
+      "intersections": [],
+      "min_bend_radius_mm": 147.75823345626196,
+      "min_straight_leg_mm": 97.88720685636395,
+      "lowest_hose_surface_mm": 737.7204078913028
+    }
+  ],
+  "scope": "Piecewise cylinder envelope of flexible U spans versus saved solid assembly at9 zero-roll placements. End clamp contact excluded. Fixed headers, motor adapters, torsion, dynamic bending and hose-to-hose contact not certified. 691mm is centreline reservation, not order length.",
+  "supplier_selected": false
+}

@@ -1,5 +1,7 @@
 # PF-CT Assumptions and Open Items — rev L4.2
 
+> **SUPERSEDED-FIGURES NOTICE (2026-11-02 cleanup).** This rev L4.2 package (28 Oct 2026) is kept as the working record. Several figures in it are superseded: current masses are in `data/mass_ledger.json` (loco 20,404.2 kg pending freeze; tender 8,993.3 kg TB-3.15e; coaches F7 r5b 13,414.37 / 10,693.71 kg loaded), and current rulings are on `status.html` (sand system DELETED - sand dome is cosmetic trim only; 60 lb bolted relay rail; Loco No. 27; 4 coaches; C4 wheelchair boarding; level layout F; T04 spring brake is parking/holding only; PX-1 = ASCO 8327G041 in heated box; DF1 bogie on HOLD, baseline F7 r5b on L3 trucks; 6 mph governed operating limit, 6.5 mph HMI warning, 7 mph independent trip, 3 mph max if cameras fail; dead-loco tow ≤ 1 mph). Rows marked [SAND DELETED] are historical and must be re-run without sand. Every row is a desk calculation; NOTHING has been physically tested. Not PE-reviewed.
+
 Separates (A) what the PE must decide or verify, (B) what waits on supplier data, (C) owner decisions, and (D) what is finished in this package.
 
 ## A PE must decide or verify
@@ -9,7 +11,7 @@ Separates (A) what the PE must decide or verify, (B) what waits on supplier data
 | A2 | Equipment restraint factors 3 g / 2 g / 1 g and seat anchorage 3 g | ASSUMED | §1, §7, §9 |
 | A3 | Drawgear 70 kN service / 200 kN ultimate basis | ASSUMED | §6 |
 | A4 | Brake criteria: tare 12% ratio, ≤ 20 m emergency stop on 2% down, 1.5 s reaction | ASSUMED | §5 |
-| A5 | Adhesion μ 0.25 dry / 0.15 wet / 0.25 sanded | rail practice | §4, §5 |
+| A5 | Adhesion μ 0.25 dry / 0.15 wet / 0.25 sanded | rail practice | §4, §5 [SAND DELETED 2026-11 - historical row, re-run without sand; see status.html] |
 | A6 | Governed 6 mph maximum operating speed (OWNER-SELECTED) and the 7 mph overspeed trip setting | 6 mph hard limit via the sealed 42 cc pump stroke stop + tamper-sealed 2,600 rpm engine limit (L4.2); independent 2-channel relay trip 7 mph | §0, §4, §5 |
 | A7 | Roller chain final drive in passenger rail traction (ANSI 120-2 in oil bath) - acceptance, inspection interval, guarding | SF 7.9 on ultimate at HPRV; util 0.63 of maker allowable; sag 17-20 mm, replace at 2% stretch | §4 D2 |
 | A8 | Axle fatigue: full EN 13103 / AAR check of the Ø150 pressed sprocket seat (no hardening credit) | 34CrNiMo6/EA4T, n 1.64 heaviest axle; 110 MPa press-fit screen | §3 |
@@ -23,7 +25,7 @@ Separates (A) what the PE must decide or verify, (B) what waits on supplier data
 | A16 | Drawgear (Stress Bot R3): renew at 1.0 mm TOTAL play; k ≥ 20 kN/mm and ≤ 100 kN/mm for R80 (≤ 25 if route E); loco service brake ≤ 0.69 m/s²; pony swing stops ±120 mm | draft-gear supplier k curve AWAIT | §6 K1-a3/K1-h, §5 B1-o, §12 K2-l |
 | A17 | Pony truck loading (actual 2.9 kN/wheel): sprung pony with own 1.25 t ballast vs body spring (body spring 10-15 kN over-loads rear truck, K2-m) | own-ballast sprung pony; swing stops ±120 mm (Stress Bot R3; R80 swing 89.5 mm) | §12 K2-l/m |
 | A18 | Decorative cylinders Ø380 vs the lead-truck wheel (K2-h) | moved to Y±790 in rev L4 (37 mm Alt A, 25 mm R50) | §12 |
-| A19 | Traction control without a flow divider (L4.1): electronic slip control + pony ground-speed reference; TE capped at equal torque; dry/sanded 2% margin 1.10; wet unsanded needs sand (also at the worst start points of route Alts D/E/F) | PE to review the control logic and the functional track test; PLUS+1 software by Danfoss/integrator | §4 D1-c/m/m2 |
+| A19 | Traction control without a flow divider (L4.1): electronic slip control + pony ground-speed reference; TE capped at equal torque; dry/sanded 2% margin 1.10; wet unsanded needs sand (also at the worst start points of route Alts D/E/F) | PE to review the control logic and the functional track test; PLUS+1 software by Danfoss/integrator | §4 D1-c/m/m2 [SAND DELETED 2026-11 - historical row, re-run without sand; see status.html] |
 | A20 | Uncompensated 2% + R100 start (D1-a2/s): margin 0.98 without the divider credit | outside basis - route curves compensated; 4 plates would restore 1.00 | §4 |
 | A21 | Mass re-baseline: LT43 relocation (~1.0 t) double-counted in the 17.667 t loco; corrected ~16.66 t, lead 2.9 kN/wheel, weakest driver axle ~25 kN → equal-torque start on 2% NG unless axle loads are levelled / per-motor torque control (route check RT1 loco_check) | L4 basis: corrected 16.66 t base + L4 drive + barrel + bell + L-107 P1-L + cab C1 + FT-1 + 1,056 kg front ballast + pony ballast = 19.82 t | §0, §4 |
 | A22 | L-107 running boards (Loco Bot): P1-L aluminium deck +36.5 kg net vs the 1,248 kg L3 deck already in the base - INCLUDED; cab L-111 C1 813.9 kg replaces the 1,000 kg allowance | RESOLVED in the L4 mass basis | §0, §12 |
@@ -54,7 +56,7 @@ Separates (A) what the PE must decide or verify, (B) what waits on supplier data
 | B1 | Poclain Hydraulics Application Engineering | MS05 468/234 2C HighFlow + T04 + shaft code 5 (W55x3x17) + speed sensor model code; shaft shock rating at 2,979 N·m × 1.5; radial load at sprocket offset; starting efficiency; shift on the move; T04 release/charge flow; rail traction duty; CAD | η start 0.90 (0.80 checked); D2-c radial 32.7 vs 60 kN chart |
 | B2 | Chain / sprocket maker (Tsubaki or equal) | ANSI 120-2 allowable at 15T/≤ 140 rpm, 54-link assembly + connecting link; 45T SPLIT rim ring with bolting web to the Ø350 hub flange (ring ~50 kg ASSUMED + hub 31.4 kg), hardened teeth | D2-a/b, unsprung 124 kg/axle |
 | B3 | Martin Sprocket | D120B15 Type B, hardened teeth, OD 202, hub broached N55x3x17 (female) to MS05 shaft code 5 (W55x3x17 male); ≥ 58 mm engagement (Poclain spline length AWAIT) | 13.6 kg; D2-h |
-| B4 | Danfoss / PLUS+1 integrator (L4.1) | Traction-control application on PLUS+1 (slip detection, destroke, auto-sand, hill-start hold) + EDC response time; 3rd speed pickup on the pony | D1-m |
+| B4 | Danfoss / PLUS+1 integrator (L4.1) | Traction-control application on PLUS+1 (slip detection, destroke, auto-sand, hill-start hold) + EDC response time; 3rd speed pickup on the pony | D1-m [SAND DELETED 2026-11 - historical row, re-run without sand; see status.html] |
 | B5 | Valve suppliers (L4.1) | Tow ball valve HYDAC KHB3K DN06 class 500 bar, lockable + limit switch (L4.2; KHB3K DN25 310 bar NOT allowed on the loop); 3/2 normally-vented solenoid cartridge (HydraForce SV08/SV10-30 class); [LP-select shuttle DELETED L4.2]; 3-way reducing/relieving cartridge 20 bar (inlet ≥ 450); 6.0 L bladder + 1.0 L diaphragm accumulators; hand pump 12 cm³; guarded 3/2 manual valve; charge pressure switch 17 bar; T04 release volume per motor (Poclain) | loco_valves |
 | B6 | Chain case fabricator / seal supplier | 3 mm oil-bath case, floating seal plate with lip seal at the axle hub land (±25 travel) | D2-g, OI-L4-5 |
 | B7 | Oil-cooler supplier | ≥ 14 kW at 43 °C outside air, electric fan | D1-i |
@@ -86,7 +88,7 @@ Separates (A) what the PE must decide or verify, (B) what waits on supplier data
 | C7 | Genset PTI-38 (699 kg) - tender layout rev TB-3 APPROVED 28 Oct (reservation X1060-2768, ≤ 1,775); rated 40 °C not 43 °C, no UL 2200 shown | PTI-38 layout approved; 43 °C derate letter and listing still OPEN before purchase |
 | C8 | Accept roller-chain upkeep: check sag 17-20 mm monthly, oil level, replace the chain at 2 % stretch; 45T is a split rim ring (Source Bot rev 3), replaceable without a wheelset drop | accept (no belt per owner) |
 | C9 | Front pocket ballast: smallest 75.4 kg plate multiple giving an equal-torque dry 2% start margin ≥ 1.10 | DECIDED - Steering 17 trim: 150.8 kg (2 plates, 1 per side) + BT-1 battery 68.2 kg in the Y- pocket, on the Loco Bot shell ledger rev 2 (was 1,056 kg); margin 1.10; trim at weigh-in |
-| C4 | Accept sanders (visible sand boxes under running board) | accept, boxes hidden in hood |
+| C4 | Accept sanders (visible sand boxes under running board) | accept, boxes hidden in hood [SAND DELETED 2026-11 - historical row, re-run without sand; see status.html] |
 
 ## D Finished in this package (ready for review)
 - L4 drive: no-belt option study, chain/sprocket rating, motor radial/bearing, 6 mph pump-stop governor, anti-slip/overspeed, Ø150 pressed seat (static + fatigue + press fit), motor bracket weld, case clearance, take-up without idler, unsprung mass, envelope check in the model, CAD/STEP. L3 (calcs/L3) kept as fallback, L2 as rejected.

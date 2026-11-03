@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 1680" role="img" aria-labelledby="title desc"><title id="title">LT45.1 A01 — two-engine tender layout</title><desc id="desc">Plan and generator-side section, dimensions in millimetres, front tender coupling pin at x zero. Existing AIE engine on left, 35 kW generator space reservation on right, tanks behind. Exterior unchanged.</desc><style>text{font-family:Arial,sans-serif;fill:#243d34}.h{font-size:30px;font-weight:bold}.t{font-size:19px}.s{font-size:16px}.dim{stroke:#536b60;stroke-width:1.5;fill:none}.line{stroke:#526b62;stroke-width:2}.ghost{fill:none;stroke:#9b6a36;stroke-width:3;stroke-dasharray:10 7}</style><rect width="1400" height="1680" fill="#fafbf7"/>
+<text x="60" y="55" class="h" text-anchor="start">LT45.1 · EXISTING AIE ENGINE + KUBOTA DIESEL GENERATOR</text>
+<text x="60" y="86" class="s" text-anchor="start">A01 · 25 OCT 2026 · Dimensions in mm · Placement study; supplier mounting and cooling drawings still required</text>
+<text x="60" y="130" class="t" text-anchor="start">PLAN · roof removed; left and right are viewed from the front coupling toward the coaches</text>
+<rect x="170.0" y="165.0" width="1050.0" height="650.0" fill="#e6eae3" stroke="#526b62" stroke-width="3"/>
+<rect x="184.0" y="179.0" width="1022.0" height="622.0" fill="#f5f7f1" />
+<path class="dim" d="M370.0,140.0 L370.0,840.0"/>
+<text x="370.0" y="857.0" class="s" text-anchor="middle">Bogie x 1200</text>
+<path class="dim" d="M1020.0,140.0 L1020.0,840.0"/>
+<text x="1020.0" y="857.0" class="s" text-anchor="middle">Bogie x 3800</text>
+<circle cx="70.0" cy="490.0" r="10" fill="#9b8150"/>
+<circle cx="1320.0" cy="490.0" r="10" fill="#9b8150"/>
+<rect x="270.0" y="221.34449999999998" width="312.42" height="202.311" fill="#738c9b" fill-opacity=".8" stroke="#334c44"/>
+<rect x="582.5" y="266.25" width="137.5" height="112.5" fill="#738c9b" fill-opacity=".8" stroke="#334c44"/>
+<rect x="332.5" y="577.5" width="425.0" height="200.0" fill="#ad8654" fill-opacity=".8" stroke="#334c44"/>
+<rect x="870.0" y="577.5" width="150.0" height="175.0" fill="#b58b45" fill-opacity=".8" stroke="#334c44"/>
+<rect x="782.5" y="290.0" width="150.0" height="150.0" fill="#5d86a5" fill-opacity=".8" stroke="#334c44"/>
+<rect x="876.25" y="193.75" width="262.5" height="42.5" fill="#5a8c91" fill-opacity=".8" stroke="#334c44"/>
+<rect x="226.25" y="608.75" width="100.0" height="125.0" fill="#a57556" fill-opacity=".8" stroke="#334c44"/>
+<rect x="1095.0" y="590.0" width="75.0" height="150.0" fill="#d5b873" fill-opacity=".8" stroke="#334c44"/>
+<rect x="332.5" y="577.5" width="425.0" height="200.0" fill="none" class="ghost"/>
+<rect x="270.0" y="427.5" width="412.5" height="150.0" fill="#dbebd7" stroke="#698a64" stroke-dasharray="6 5"/>
+<text x="476.25" y="500.0" class="s" text-anchor="middle">600 clear aisle reservation</text>
+<rect x="763.75" y="179.0" width="12.5" height="622.0" fill="#828e86" />
+<rect x="1058.75" y="540.0" width="12.5" height="250.0" fill="#828e86" />
+<text x="426.25" y="310.0" class="t" text-anchor="middle">EXISTING AIE</text>
+<text x="426.25" y="347.5" class="s" text-anchor="middle">Kubota + radiator</text>
+<text x="651.25" y="322.5" class="s" text-anchor="middle">Pump</text>
+<text x="545.0" y="665.0" class="t" text-anchor="middle">35 kW GENSET SPACE</text>
+<text x="545.0" y="702.5" class="s" text-anchor="middle">Selected dimensions pending</text>
+<text x="276.25" y="667.5" class="s" text-anchor="middle">Brake</text>
+<text x="276.25" y="697.5" class="s" text-anchor="middle">air*</text>
+<text x="945.0" y="660.0" class="s" text-anchor="middle">150 L</text>
+<text x="945.0" y="690.0" class="s" text-anchor="middle">fuel</text>
+<text x="857.5" y="362.5" class="s" text-anchor="middle">Hyd. oil</text>
+<text x="1007.5" y="217.5" class="s" text-anchor="middle">Cooler</text>
+<text x="1132.5" y="652.5" class="s" text-anchor="middle">AC</text>
+<text x="1132.5" y="685.0" class="s" text-anchor="middle">panel</text>
+<text x="60" y="880" class="s" text-anchor="start">Front → locomotive · A/B hydraulics, case return, brake air and controls</text>
+<text x="60" y="908" class="s" text-anchor="start">Rear → coaches · 120/240 V power, brake air and data · Fuel remains within tender</text>
+<text x="60" y="936" class="s" text-anchor="start">Brown dashed box: 1700 × 800 × 1000 generator procurement envelope + 80 mount-height allowance</text>
+<text x="60" y="964" class="s" text-anchor="start">*Mechanical compressor space only; engine drive and capacity are not selected. Tanks/cooler are retained allowances.</text>
+<text x="60" y="1010" class="t" text-anchor="start">GENERATOR-SIDE SECTION · reserved space above an 80 mm mounting allowance</text>
+<rect x="170.0" y="1077.5" width="1050" height="315.0" fill="#e6eae3" stroke="#526b62" stroke-width="2"/>
+<rect x="184.0" y="1091.5" width="1022" height="301.0" fill="#f5f7f1" />
+<rect x="332.5" y="1122.5" width="425.0" height="250.0" fill="#ad8654" fill-opacity=".8"/>
+<rect x="332.5" y="1122.5" width="425.0" height="250.0" fill="none" class="ghost"/>
+<rect x="332.5" y="1372.5" width="425.0" height="20.0" fill="#7f8b86" />
+<path class="dim" d="M170.0,1091.5 L1220.0,1091.5"/>
+<text x="1230.0" y="1096.5" class="s" text-anchor="start">2304 inner roof</text>
+<path class="dim" d="M170.0,1392.5 L1220.0,1392.5"/>
+<text x="1230.0" y="1397.5" class="s" text-anchor="start">1100 deck</text>
+<path class="dim" d="M170.0,1530.0 L1220.0,1530.0"/>
+<text x="1208.0" y="1520.0" class="s" text-anchor="end">550 coupling</text>
+<circle cx="70.0" cy="1530.0" r="8" fill="#9b8150"/>
+<circle cx="1320.0" cy="1530.0" r="8" fill="#9b8150"/>
+<text x="545.0" y="1297.5" class="s" text-anchor="middle">1700 × 800 × 1000 reserved</text>
+<text x="920.0" y="1177.5" class="s" text-anchor="middle">35 kW continuous required</text>
+<text x="920.0" y="1220.0" class="s" text-anchor="middle">124 mm above reserved envelope</text>
+<path class="dim" d="M170.0,1570 L1220.0,1570"/>
+<text x="695.0" y="1562" class="s" text-anchor="middle">4200 body length · 2600 body width · 5000 coupling pin spacing</text>
+<text x="60" y="1610" class="t" text-anchor="start">35 kW package fit is unconfirmed. Exact generator, service, exhaust, cooling and mounts remain to be resolved.</text>
+<text x="60" y="1640" class="s" text-anchor="start">LT45.1-A01 · Available installation space only; no selected supplier envelope or weight. See engineering for updated power margins.</text>
+</svg>

@@ -1,0 +1,134 @@
+{
+  "source": "C5.5 frozen checkpoint, matching155parts; unchanged CW1 wheel blank",
+  "checked_pose": "nominal only",
+  "bounding_box_distance_threshold_mm": 35,
+  "total_noncontext_parts": 150,
+  "exact_checked_pairs": 23,
+  "omitted_far_pairs": "Bounding-box lower gap >35mm; no closer exact distance possible",
+  "excluded_context_ids": [
+    "CTX-AXLE2",
+    "CTX-A2R-WHEEL-BLANK",
+    "CTX-A2R-BOX",
+    "CTX-SF-R-WEB1",
+    "CTX-SF-L-WEB2"
+  ],
+  "results": [
+    {
+      "part": "ROTOR-BOLT0",
+      "nominal_gap_mm": 4.427999999999997,
+      "overlap_mm3": 0
+    },
+    {
+      "part": "ROTOR-BOLT1",
+      "nominal_gap_mm": 4.427999999999997,
+      "overlap_mm3": 0
+    },
+    {
+      "part": "ROTOR-BOLT2",
+      "nominal_gap_mm": 4.427999999999997,
+      "overlap_mm3": 0
+    },
+    {
+      "part": "ROTOR-BOLT3",
+      "nominal_gap_mm": 4.427999999999997,
+      "overlap_mm3": 0
+    },
+    {
+      "part": "ROTOR-BOLT4",
+      "nominal_gap_mm": 4.427999999999997,
+      "overlap_mm3": 0
+    },
+    {
+      "part": "ROTOR-BOLT5",
+      "nominal_gap_mm": 4.427999999999997,
+      "overlap_mm3": 0
+    },
+    {
+      "part": "ROTOR-BOLT6",
+      "nominal_gap_mm": 4.427999999999997,
+      "overlap_mm3": 0
+    },
+    {
+      "part": "ROTOR-BOLT7",
+      "nominal_gap_mm": 4.427999999999997,
+      "overlap_mm3": 0
+    },
+    {
+      "part": "HUB-OUTBOARD-SHOULDER-SPACER-L",
+      "nominal_gap_mm": 5.0,
+      "overlap_mm3": 0
+    },
+    {
+      "part": "HUB-OUTBOARD-SHOULDER-SPACER-R",
+      "nominal_gap_mm": 5.0,
+      "overlap_mm3": 0
+    },
+    {
+      "part": "ROTOR-WASHER0",
+      "nominal_gap_mm": 13.427999999999997,
+      "overlap_mm3": 0
+    },
+    {
+      "part": "ROTOR-WASHER1",
+      "nominal_gap_mm": 13.427999999999997,
+      "overlap_mm3": 0
+    },
+    {
+      "part": "ROTOR-WASHER2",
+      "nominal_gap_mm": 13.427999999999997,
+      "overlap_mm3": 0
+    },
+    {
+      "part": "ROTOR-WASHER3",
+      "nominal_gap_mm": 13.427999999999997,
+      "overlap_mm3": 0
+    },
+    {
+      "part": "ROTOR-WASHER4",
+      "nominal_gap_mm": 13.427999999999997,
+      "overlap_mm3": 0
+    },
+    {
+      "part": "ROTOR-WASHER5",
+      "nominal_gap_mm": 13.427999999999997,
+      "overlap_mm3": 0
+    },
+    {
+      "part": "ROTOR-WASHER6",
+      "nominal_gap_mm": 13.427999999999997,
+      "overlap_mm3": 0
+    },
+    {
+      "part": "ROTOR-WASHER7",
+      "nominal_gap_mm": 13.427999999999997,
+      "overlap_mm3": 0
+    },
+    {
+      "part": "CUSTOM-ROTOR-HUB-L",
+      "nominal_gap_mm": 16.427999999999997,
+      "overlap_mm3": 0
+    },
+    {
+      "part": "CUSTOM-ROTOR-HUB-R",
+      "nominal_gap_mm": 16.427999999999997,
+      "overlap_mm3": 0
+    },
+    {
+      "part": "SHAFT-TO-HUB-KEY",
+      "nominal_gap_mm": 20.0,
+      "overlap_mm3": 0
+    },
+    {
+      "part": "FRAME-HSS",
+      "nominal_gap_mm": 33.80000000000001,
+      "overlap_mm3": 0
+    },
+    {
+      "part": "FRAME-ENDPLATE1",
+      "nominal_gap_mm": 46.599999999999994,
+      "overlap_mm3": 0
+    }
+  ],
+  "motion_and_finished_profile_verified": false,
+  "clearance_accepted": false
+}

@@ -1,0 +1,36 @@
+{
+  "issue": "CAB C1",
+  "source": "LT32 nominal straight, source c0799bacb04ae8ff60e64daa1d4e6463e7302e5c",
+  "units": "mm",
+  "part_count": 126,
+  "floor": 1508,
+  "seat_center": [
+    9730,
+    -900
+  ],
+  "seat_top": 2108,
+  "fore_aft": [
+    -105,
+    105
+  ],
+  "suspension_probe": [
+    -30,
+    30
+  ],
+  "raw_door": [
+    560,
+    1750
+  ],
+  "trimmed_door": [
+    540,
+    1735
+  ],
+  "exit_review_envelope": [
+    600,
+    1850
+  ],
+  "exit_target_status": "Project packaging target only, not a code minimum or anthropometric percentile.",
+  "frame_mass_not_reconciled": true,
+  "mount_solid_kg_at_7850": 260.9016508774695,
+  "fabrication_release": false
+}

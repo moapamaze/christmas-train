@@ -1,0 +1,42 @@
+label,case,speed_mph,traction_N_per_truck,body_roll_deg,min_wheel_N,max_unloading_fraction,flags
+Level / base,base,0,0,-5.266060156708006e-17,14471.401811262169,2.55351295663786e-15,
+Level / low,low,0,0,3.948776444999317e-16,12710.8731103911,0.0002493263087366415,
+Level / high,high,0,0,5.112354004117059e-16,18783.51788087882,0.0001968962398382068,
+Level / rear-heavy,rear-heavy,0,0,1.6220024527077072e-16,11653.767972113794,0.0013616112693558557,
+Level / front-heavy,front-heavy,0,0,5.592672884386449e-17,16233.695208228739,0.0011065045039631016,
+Level / fuel-empty,fuel-empty,0,0,-1.7100101547255587e-17,14363.123467790327,1.6305198369481744e-05,
+One front wheel +5 mm / side -1,base,0,0,-0.10116952429366226,14320.993557754142,0.013203966951309987,
+One front wheel +5 mm / side 1,base,0,0,0.10116952429366177,14320.993557754144,0.013203966951310209,
+One front wheel +10 mm / side -1,base,0,0,-0.20233904858732416,14170.585304246117,0.02640793390261842,
+One front wheel +10 mm / side 1,base,0,0,0.2023390485873241,14170.585304246117,0.026407933902618863,
+One front wheel +20 mm / side -1,base,0,0,-0.4046780971746487,13869.768797230065,0.052815867805235284,
+One front wheel +20 mm / side 1,base,0,0,0.40467809717464837,13869.768797230066,0.052815867805235284,
+Opposed axle crosslevels ±10 mm / base,base,0,0,6.657483181304238e-17,13683.675915309026,0.05443328201557729,
+30 m at 3 mph plus opposed crosslevels / base,base,3,0,-0.17302755501165212,14002.444634804617,0.05944860421923226,
+30 m at 5 mph plus opposed crosslevels / base,base,5,0,-0.48063209725458805,14359.959509663055,0.09027736736635006,
+Steady pull/brake -40 kN each / base,base,0,-40000,-6.0813640146903e-15,,,reduced model did not converge; compression bumper engages; reported free response omits bumper stiffness; hard compression stop exceeded; rebound stop reached; one or more primary springs unloaded
+Steady pull/brake -20 kN each / base,base,0,-20000,2.6909853810014284e-16,11688.638434273595,0.4152200750332047,compression bumper engages; reported free response omits bumper stiffness; hard compression stop exceeded; rebound stop reached
+Steady pull/brake -10 kN each / base,base,0,-10000,2.8155988044891014e-17,15273.00281968002,0.20761003751660345,
+Steady pull/brake +10 kN each / base,base,0,10000,-4.463203615051396e-16,10323.574984537367,0.2866223245557893,
+Steady pull/brake +20 kN each / base,base,0,20000,-3.1286599958379553e-16,6175.748157812564,0.5732446491115766,compression bumper engages; reported free response omits bumper stiffness; hard compression stop exceeded; rebound stop reached
+Steady pull/brake +40 kN each / base,base,0,40000,-4.577249295355292e-14,,,reduced model did not converge; compression bumper engages; reported free response omits bumper stiffness; hard compression stop exceeded; rebound stop reached; one or more primary springs unloaded
+Opposed axle crosslevels ±10 mm / rear-heavy,rear-heavy,0,0,-1.645947977570459e-16,10866.042076160651,0.06886366909120589,
+30 m at 3 mph plus opposed crosslevels / rear-heavy,rear-heavy,3,0,-0.16154652382395587,11143.179205966193,0.06848671567598363,
+30 m at 5 mph plus opposed crosslevels / rear-heavy,rear-heavy,5,0,-0.44874034395543283,11635.867436731603,0.10010894794395431,
+Steady pull/brake -40 kN each / rear-heavy,rear-heavy,0,-40000,-5.052952180281082e-16,,,reduced model did not converge; compression bumper engages; reported free response omits bumper stiffness; hard compression stop exceeded; rebound stop reached; one or more primary springs unloaded
+Steady pull/brake -20 kN each / rear-heavy,rear-heavy,0,-20000,2.250888688022717e-16,9345.788394931473,0.40015881667661524,compression bumper engages; reported free response omits bumper stiffness; hard compression stop exceeded; rebound stop reached
+Steady pull/brake -10 kN each / rear-heavy,rear-heavy,0,-10000,4.507741216048066e-17,12455.1684524806,0.2005893278003288,
+Steady pull/brake +10 kN each / rear-heavy,rear-heavy,0,10000,-1.2744811136600738e-17,7506.141673440033,0.3567813222053996,compression bumper engages; reported free response omits bumper stiffness; rebound stop reached
+Steady pull/brake +20 kN each / rear-heavy,rear-heavy,0,20000,-1.0151586965101675e-16,5681.993519946152,0.6099933221800995,compression bumper engages; reported free response omits bumper stiffness; hard compression stop exceeded; rebound stop reached; one or more primary springs unloaded
+Steady pull/brake +40 kN each / rear-heavy,rear-heavy,0,40000,-2.3521497372945935e-14,,,reduced model did not converge; compression bumper engages; reported free response omits bumper stiffness; hard compression stop exceeded; rebound stop reached; one or more primary springs unloaded
+Opposed axle crosslevels ±10 mm / high,high,0,0,3.1050025539393753e-16,17992.843378002777,0.04199060508303598,
+30 m at 3 mph plus opposed crosslevels / high,high,3,0,-0.23929706738742848,18417.754811879437,0.05062460880257247,
+30 m at 5 mph plus opposed crosslevels / high,high,5,0,-0.6647140760761899,18374.286099076093,0.08247522985455735,compression bumper engages; reported free response omits bumper stiffness
+Steady pull/brake -40 kN each / high,high,0,-40000,6.487695915298287e-17,8502.826338944033,0.6609392457958352,compression bumper engages; reported free response omits bumper stiffness; hard compression stop exceeded; rebound stop reached
+Steady pull/brake -20 kN each / high,high,0,-20000,3.480759021433938e-16,16790.931752763667,0.3304407549984443,compression bumper engages; reported free response omits bumper stiffness; hard compression stop exceeded
+Steady pull/brake -10 kN each / high,high,0,-10000,6.116678876351243e-17,20611.24386347202,0.16519150959974904,compression bumper engages; reported free response omits bumper stiffness
+Steady pull/brake +10 kN each / high,high,0,10000,-2.5510364644792395e-16,14641.842930489247,0.22041098276573534,compression bumper engages; reported free response omits bumper stiffness; hard compression stop exceeded
+Steady pull/brake +20 kN each / high,high,0,20000,-3.9906497993123806e-16,10500.167980099679,0.4409299652194071,compression bumper engages; reported free response omits bumper stiffness; hard compression stop exceeded
+Steady pull/brake +40 kN each / high,high,0,40000,-5.16692320991478e-16,6818.392223935383,0.6369621147958919,compression bumper engages; reported free response omits bumper stiffness; hard compression stop exceeded; rebound stop reached; one or more primary springs unloaded
+Combined 3 mph / 10 kN / 5 mm twist hand -1,rear-heavy,3,-10000,-0.1615465238239556,12338.442634309571,0.2237851420303547,rebound stop reached
+Combined 3 mph / 10 kN / 5 mm twist hand 1,rear-heavy,3,10000,-0.16154652382395582,7389.415855269006,0.36678382811254595,compression bumper engages; reported free response omits bumper stiffness; rebound stop reached

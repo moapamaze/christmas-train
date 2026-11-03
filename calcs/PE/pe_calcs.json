@@ -3174,15 +3174,15 @@
    "calcs": [
     {
      "id": "H1-a",
-     "title": "Genset output current 35 kW / 240 V vs main breaker 175 A (125%)",
-     "inputs": "",
-     "formula": "I = P/V; OCPD ≥ 1.15·I (445.12)",
-     "demand": 145.833,
+     "title": "Genset main breaker 175 A vs NEC 445.12(A) max OCPD (rev 2026-11-02)",
+     "inputs": "genset rated 158.3 A (≈38 kW / 240 V 1-ph); 35 kW cap 145.8 A",
+     "formula": "OCPD ≤ 1.15·I_rated = 182 A (445.12(A)); 175 A OK, 200 A not allowed; util 145.8/175",
+     "demand": 145.8,
      "capacity": 175,
      "unit": "A",
      "util": 0.833,
      "ok": true,
-     "note": ""
+     "note": "basis PTI-38 integral 175 A breaker (SELECTED, not tested); fallback QOM2175VH in QOM22225NRB"
     },
     {
      "id": "H1-b",
@@ -3887,5 +3887,6 @@
    "Pony load 15 kN (upper end of 10-15) taken as a BODY SPRING (reacted at X1,525, outside the pivots) - max driver wheel vs 26 kN",
    1.019
   ]
- ]
+ ],
+ "_notice": "**SUPERSEDED-FIGURES NOTICE (2026-11-02 cleanup).** This rev L4.2 package (28 Oct 2026) is kept as the working record. Several figures in it are superseded: current masses are in `data/mass_ledger.json` (loco 20,404.2 kg pending freeze; tender 8,993.3 kg TB-3.15e; coaches F7 r5b 13,414.37 / 10,693.71 kg loaded), and current rulings are on `status.html` (sand system DELETED - sand dome is cosmetic trim only; 60 lb bolted relay rail; Loco No. 27; 4 coaches; C4 wheelchair boarding; level layout F; T04 spring brake is parking/holding only; PX-1 = ASCO 8327G041 in heated box; DF1 bogie on HOLD, baseline F7 r5b on L3 trucks; 6 mph governed operating limit, 6.5 mph HMI warning, 7 mph independent trip, 3 mph max if cameras fail; dead-loco tow ≤ 1 mph). Rows marked [SAND DELETED] are historical and must be re-run without sand. Every row is a desk calculation; NOTHING has been physically tested. Not PE-reviewed."
 }

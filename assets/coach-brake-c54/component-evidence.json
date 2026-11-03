@@ -454,7 +454,7 @@
   "WABCO_CATALOG": "https://www.wabco-customercentre.com/catalog/docs/pb19028.pdf",
   "WABCO_072": "https://www.wabco-customercentre.com/catalog/en_US/40175072",
   "WABCO_GA": "https://www.wabco-customercentre.com/catalog/docs/6401750720____053_dascheck_j4_page-1---notset_tif.pdf",
-  "WEBB": "https://www.webbwheel.com/webbipad/pdf_files/SD-131%20Webb%20ADB%20ROTOR%20flyer%20R32.pdf",
+  "WEBB": "https://www.webbwheel.com/sales",
   "DURABRAKE": "https://parts.durabrake.com/product/75180/",
   "DAYTON_CONFLICT": "https://www.daytonparts.com/air-disc-rotor-web-pan17-hendrickson-s-33391-1896-hendrickson",
   "MIDWEST_CONFLICT": "https://www2.midwestwheel.com/marketing/08Air-Disc-Brakes-Catalog-2026/",
@@ -534,7 +534,7 @@
   },
   {
    "id": "WEBB",
-   "url": "https://www.webbwheel.com/webbipad/pdf_files/SD-131%20Webb%20ADB%20ROTOR%20flyer%20R32.pdf",
+   "url": "https://www.webbwheel.com/sales",
    "title": "Webb SD131 R32",
    "scope": "C5.3 exact selected part dimensional source.55030PK-65 cross-reference CT826; does not prove S-33391 interface interchangeable."
   },
